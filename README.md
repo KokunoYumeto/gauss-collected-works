@@ -48,4 +48,4 @@ These editions are freely available for study and teaching.
 The [original-language publication](https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/gauss-original-language-2026-10-24) and [English/German edition](https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/gauss-english-german-2026-10-24h) in the manuscript collection remain available as edition provenance.
 
 
-Corresponding English and German edition in the manuscript collection: [collected readers and editable sources](https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/gauss-english-german-2026-10-24i).
+Corresponding English and German edition in the manuscript collection: [collected readers and editable sources](https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/gauss-english-german-2026-10-24k).
