@@ -8,4 +8,3 @@ AI-transcribed text, AI-produced source comparisons, and AI-created editable mat
 
 Historical editorial contributions, including those signed by Fricke, retain their printed authorship. The complete alternative Kyushu photograph supplies the right-hand text of historical page 95 that is cut off in the principal scan.
 
-These editions are offered free of charge for non-commercial, purely educational use. This statement expresses the publisher's purpose and presumption that rights holders would not object; it is not established permission or a licence grant. Rights in the originals and any protected derivative contributions remain with their respective rights holders. Free access to an original does not by itself authorize derivative publication. Rights holders may raise objections through [a GitHub issue](https://github.com/KokunoYumeto/modern-latex-manuscripts/issues/new). The publisher commits to taking down the affected material upon a rights holder's request.

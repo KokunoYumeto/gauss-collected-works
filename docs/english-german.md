@@ -132,13 +132,11 @@ Formulierungen bleiben die der Originalvorlage. Die oben genannten
 
 Crystallographic terminology references: Ian O. Angell and Moreton Moore, *Projections of cubic crystals*, IUCr, Table 2, https://www.iucr.org/what-we-do/education/pamphlets/projections-of-cubic-crystals ; Th. Hahn, H. Klapper, U. Müller and M. I. Aroyo, *Point groups and crystal classes*, International Tables for Crystallography A (2016), chapter 3.2, https://doi.org/10.1107/97809553602060000930 . These references guide terminology and usage; their running prose is not reproduced.
 
-## AI authorship and publication rights
+## AI authorship
 
 These English and German editions are AI-translated using OpenAI GPT-6.1 Sol, with AI-produced typesetting. Gauss is the author of the historical mathematical text; signed historical editorial contributions retain their authorship. The named human translations and writings cited above are credited for their stated terminology and usage roles.
 
-The editions are available free of charge for non-commercial, purely educational purposes. Publication rests on the publisher's presumption that the respective rights holders would not object; this is not established permission. Free access to a source does not itself authorize derivative publication. Rights in the originals and any protected derivative contributions remain with their respective rights holders. No project-wide licence or public-domain dedication is granted here.
 
-Rights holders may raise objections through the [GitHub issue page](https://github.com/KokunoYumeto/gauss-collected-works/issues). The publisher undertakes to take down the affected material upon a rights holder's request.
 
 [Scholarly citation metadata](../translations/CITATIONS.bib) identifies the original editions and the named terminology references.
 

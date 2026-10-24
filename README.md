@@ -36,15 +36,13 @@ The current translations contain complete Volume I and the Volume II texts throu
 
 Browse [original-language sources](original-language/) or [English and German sources](translations/). Each volume retains its build inputs and accompanying notices. The downloadable packages contain the sources corresponding to the linked readers. Text, mathematics, tables and included mathematical drawings are editable LaTeX; historical portraits are images. Modern fonts and reflow represent content rather than historical type identity.
 
-## Authorship, sources and rights
+## Authorship and sources
 
 Carl Friedrich Gauss is the author of the historical mathematical text. Historical editors, correspondents and contributors retain their named credits. Original-language text is AI-transcribed, with AI-produced source comparisons and typesetting; the English and German texts are AI-translated. Exact model credits and source versions remain in the accompanying editions and guides. No human or independent review is claimed.
 
 The translation guide credits H. Maser; James Caddall Morehead and Adam Miller Hiltebeitel; Paul Taylor and Bernard Leak; and the other named terminology references for their stated roles. See the [full scholarly credits](docs/english-german.md#translation-sources-and-terminology) and [citation metadata](translations/CITATIONS.bib). AI work does not replace historical or inherited human authorship.
 
-These editions are offered free of charge for non-commercial, purely educational purposes, on the publisher’s presumption that rights holders would not object. This is a presumption, not established permission or a licence grant. Free access to a source does not itself authorize derivative publication. Rights in the originals and any protected derivative contributions remain with their respective rights holders. No project-wide licence or public-domain dedication is granted.
 
-Rights holders may [raise an objection](https://github.com/KokunoYumeto/gauss-collected-works/issues/new). The publisher commits to taking down the affected material upon a rights holder’s request.
 
 The [original-language publication](https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/gauss-original-language-2026-10-24) and [English/German edition](https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/gauss-english-german-2026-10-24h) in the manuscript collection remain available as edition provenance.
 
