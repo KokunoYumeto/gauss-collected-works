@@ -1,8 +1,8 @@
 # Gauss: English and German translations
 
-**Read the [English collection, 1045 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24h/Gauss_Collected_English.pdf) or the [German collection, 1076 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24h/Gauss_Werke_Deutsch.pdf).**
+**Read the [English collection, 1076 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24i/Gauss_Collected_English.pdf) or the [German collection, 1108 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24i/Gauss_Werke_Deutsch.pdf).**
 
-[Download the complete editable LaTeX package](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24h/Gauss_English_German_Collected_LaTeX.zip) · [Browse the source tree](../translations/) · [Individual volume readers](https://github.com/KokunoYumeto/gauss-collected-works/releases/tag/gauss-english-german-2026-10-24h)
+[Download the complete editable LaTeX package](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24i/Gauss_English_German_Collected_LaTeX.zip) · [Browse the source tree](../translations/) · [Individual volume readers](https://github.com/KokunoYumeto/gauss-collected-works/releases/tag/gauss-english-german-2026-10-24i)
 
 Both languages contain Volume I in full: the historical title matter,
 dedication, preface, all seven sections of the *Disquisitiones Arithmeticae*
@@ -63,7 +63,9 @@ The printed Eighth Section, Articles 367–373, follows, including its interrupt
 
 Schering’s complete historical closing remarks follow, with his account of the published papers, manuscript sources, tables and historical corrections, followed by the complete historical contents and Göttingen imprint. Every historical table entry, expression and reference is retained; historical page references use the source pagination. The German reader gives a modern German rendering of the originally German passages; their historical originals are supplied separately. The reported historical corrections remain part of Schering’s account.
 
-Other volumes of Gauss’s works are outside these readers.
+Volume III contains the historical title matter and the complete 1799 dissertation, Articles 1–24, all ten historical footnotes, the closing October 1797 statement and all four figures in editable LaTeX. Gauss’s discussion of earlier proofs, geometric proof and concluding alternative argument retain their formulations and qualifications. Its originally German title matter is rendered in modern German in the German reader, with the historical German and Latin source bodies and editable figures supplied separately.
+
+Later Volume-III works and other volumes remain outside these readers.
 This is a partial collected edition.
 
 The translations follow the retained original-language LaTeX editions and
@@ -85,6 +87,8 @@ was first published in Leipzig in 1801. The [original-language Volume-I edition]
 AI-translated into English and German using OpenAI GPT-6.1 Sol; AI-produced typesetting.
 
 The originally German Fragments III–IV and VIII–X, the geometric notes and the historical remarks are rendered in modern German in the German reader. Their historical originals are supplied separately in the source package.
+
+The corresponding editable original-language editions are available in the [Gauss original-language collection](https://github.com/KokunoYumeto/gauss-collected-works/releases/tag/gauss-original-language-2026-10-24): [Volume I](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-original-language-2026-10-24/Gauss_I_Original_Language_20261023_LaTeX.zip), [Volume II](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-original-language-2026-10-24/Gauss_II_Original_Language_20261023_LaTeX.zip), [Volume III](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-original-language-2026-10-24/Gauss_III_Original_Language_20261023_LaTeX.zip). Their text, formula and diagram TeX files correspond byte for byte to the retained editable sources used for these translations. Exact translation-source archive versions and SHA-256 identities are recorded in CITATIONS.bib; the published original-language archives have their own packaging and archive identities.
 
 ## Translation sources and terminology
 
