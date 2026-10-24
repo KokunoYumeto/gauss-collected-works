@@ -1,0 +1,230 @@
+\SourceLeaf{261}%
+% A544-P0261-D01
+siquidem $r$ et $R$ radices ab $1$ diversas exhibere supponuntur, et proin semper $e=\surd n$ (Disq. arithm. art. 360 fin.).
+
+% A544-P0261-D02
+\Article{10}
+Hactenus disquisitionem nostram summa generalitate instituimus, ut valores quoscunque numerorum $\alpha,\beta,\gamma$ complectatur: abhinc vero ad casum magis limitatum, ubi $\alpha=1$, transibimus, qui ad disquisitiones foecundissimas et elegantissimas viam nobis sternet. Exprimet itaque signum $[r,R]$ functionem
+\[
+r+Rr^g+R^2r^{g^2}+R^3r^{g^3}+\text{etc.}+R^{n-2}r^{g^{n-2}}
+\]
+ubi $n$ est numerus primus, $r$ indefinite radix aequationis $x^n-1=0$ (radice $1$ non excepta), $R$ indefinite radix aequationis $x^\beta-1=0$, denotante $\beta$ divisorem datum ipsius $n-1$, denique $g$ integer, qui est radix primitiva determinata pro modulo $n$. Porro brevitatis caussa scribemus
+\[
+\begin{aligned}
+1+r+r^2+r^3+\text{etc.}+r^{n-1}&=s\\
+1+R+R^2+R^3+\text{etc.}+R^{n-2}&=S
+\end{aligned}
+\]
+unde patet $s$ fieri $=n$ pro $r=1$, sed $s=0$ pro quovis alio valore ipsius $r$, et perinde $S=n-1$ pro $R=1$, sed $S=0$ pro quovis alio valore ipsius $R$.
+
+% A544-P0261-D03
+Per art. 3 itaque habemus $[1,R]=S$, $[r,1]=s-1$; porro pro quovis valore integri $m$ per $n$ non divisibili $[r^m,R]=R^{-\operatorname{ind}m}[r,R]$, aut generalius $[r^m,R^M]=R^{-M\operatorname{ind}m}[r,R^M]$, ubi $\operatorname{ind}m$ est exponens potestatis numeri $g$ secundum modulum $n$ ipsi $m$ congruae. Applicando hanc transformationem ad ea, quae in art. 5 docuimus, sequitur, productum e duabus pluribusve functionibus talibus $[r^h,R^H]$ reduci ad formam hanc
+\[
+A[1,R^\lambda]+B[r,R^\lambda]
+\]
+ubi $A$ et $B$ erunt functiones rationales ipsius $R$ cum coëfficientibus integris, atque $\lambda$ aggregatum omnium valorum ipsius $H$. Magni momenti erit, huiusmodi transformationes ad algorithmum expeditum reducere, ad quem finem imprimis indoles producti e duabus functionibus propius nobis consideranda erit.
+
+% A544-P0261-D04
+\Article{11}
+Productum $[r,R^\mu]\times[r,R^\nu]$ per theorema art. 4 fit $=$
+\SourceLeaf{262}%
+% A544-P0262-D01
+\[
+\begin{aligned}
+&[r^2,R^{\mu+\nu}]+R^\mu[r^{g+1},R^{\mu+\nu}]+R^{2\mu}[r^{g^2+1},R^{\mu+\nu}]\\
+&\qquad+R^{3\mu}[r^{g^3+1},R^{\mu+\nu}]+\text{etc.}+R^{(n-2)\mu}[r^{g^{n-2}+1},R^{\mu+\nu}]
+\end{aligned}
+\]
+Inter $n-1$ exponentes $2,g+1,g^2+1,g^3+1$ etc. $g^{n-2}+1$ unus tantum reperitur per $n$ divisibilis, puta $g^{\frac12(n-1)}+1$, aggregati itaque nostri terminus respondens erit $R^{\frac12(n-1)\mu}[1,R^{\mu+\nu}]$: hic terminus erit $=0$, quoties non est $R^{\mu+\nu}=1$, et $=(n-1)R^{\frac12(n-1)\mu}=\pm(n-1)$, pro $R^{\mu+\nu}=1$. Partes reliquae aggregati nostri, quarum summam statuemus $=\Omega$, sequenti modo transformantur:
+\[
+\begin{aligned}
+[r^2,R^{\mu+\nu}]&=R^{-(\mu+\nu)\operatorname{ind}2}[r,R^{\mu+\nu}]\\
+R^\mu[r^{g+1},R^{\mu+\nu}]&=R^{\mu-(\mu+\nu)\operatorname{ind}(g+1)}[r,R^{\mu+\nu}]\\
+R^{2\mu}[r^{g^2+1},R^{\mu+\nu}]&=R^{2\mu-(\mu+\nu)\operatorname{ind}(g^2+1)}[r,R^{\mu+\nu}]\\
+R^{3\mu}[r^{g^3+1},R^{\mu+\nu}]&=R^{3\mu-(\mu+\nu)\operatorname{ind}(g^3+1)}[r.R^{\mu+\nu}]\\
+&\text{etc.}
+\end{aligned}
+\]
+
+% A544-P0262-D02
+Hinc colligimus
+\[
+\text{I.}\qquad\Omega=[r,R^{\mu+\nu}]\times\Sigma R^{\mu\operatorname{ind}x-(\mu+\nu)\operatorname{ind}(x+1)}
+\]
+si pro $x$ successive substituantur valores $1,g,g^2,g^3\dotsfour g^{n-2}$ excepto hoc $g^{\frac12(n-1)}$, seu quod manifesto eodem redit, si pro $x$ substituantur valores $1,2,3,4\dotsfour n-2$, quoniam valores hi illis (etsi ordine mutato) congrui sunt secundum modulum $n$.
+
+% A544-P0262-D03
+Statuendo integro $y$ ipsi $x$ reciproco secundum modulum $n$, i. e. ita determinatum, ut fiat $xy\equiv1\pmod n$, erit $\operatorname{ind}x\equiv-\operatorname{ind}y\pmod{n-1}$, atque $\operatorname{ind}(x+1)+\operatorname{ind}y\equiv\operatorname{ind}(xy+y)\equiv\operatorname{ind}(1+y)\pmod{n-1}$; hinc fit
+\[
+\begin{aligned}
+\mu\operatorname{ind}x-(\mu+\nu)\operatorname{ind}(x+1)&\equiv-\mu\operatorname{ind}y-(\mu+\nu)\{\operatorname{ind}(y+1)-\operatorname{ind}y\}\\
+&\equiv\nu\operatorname{ind}y-(\mu+\nu)\operatorname{ind}(y+1)
+\end{aligned}
+\]
+Quamobrem quum numeri ipsis $1,2,3\dots n-2$ reciproci cum his ipsis ordine tantum mutato conveniant, etiam erit
+\[
+\text{II.}\qquad\Omega=[r,R^{\mu+\nu}]\times\Sigma R^{\nu\operatorname{ind}y-(\mu+\nu)\operatorname{ind}(y+1)}
+\]
+substituendo pro $y$ successive numeros $1,2,3\dots n-2$. Eadem formula immediate ex I derivatur, quum manifesto numeros $\mu,\nu$ inter se permutare liceat.
+
+% A544-P0262-D04
+Denique statuendo integrum $z$ ipsi $x+1$ reciprocum secundum 
+\SourceLeaf{263}%
+% A544-P0263-D01
+modulum $n$, sive $xz+z\equiv1\pmod n$, erit $\operatorname{ind}(1-z)\equiv\operatorname{ind}x+\operatorname{ind}z\pmod{n-1}$, $\operatorname{ind}(x+1)\equiv-\operatorname{ind}z\pmod{n-1}$ adeoque
+\[
+\begin{aligned}
+\mu\operatorname{ind}x-(\mu+\nu)\operatorname{ind}(x+1)&\equiv\mu(\operatorname{ind}(1-z)-\operatorname{ind}z)+(\mu+\nu)\operatorname{ind}z\\
+&\equiv\mu\operatorname{ind}(1-z)+\nu\operatorname{ind}z
+\end{aligned}
+\]
+Quare quum percurrente $x$ valores $1,2,3\dots n-2$, numerus $z$ percurrere debeat valores $2,3,4\dots n-1$ (etsi alio ordine), nanciscimur expressionem tertiam
+\[
+\text{III.}\qquad\Omega=[r,R^{\mu+\nu}]\times\Sigma R^{\mu\operatorname{ind}(1-z)+\nu\operatorname{ind}z}
+\]
+substituendo pro $z$ successive valores $2,3,4\dots n-1$, aut si mavis
+\[
+\begin{aligned}
+\text{IV.}\qquad\Omega&=[r,R^{\mu+\nu}]\times\Sigma R^{\mu\operatorname{ind}(n+1-z)+\nu\operatorname{ind}z}\\
+&=[r,R^{\mu+\nu}]\times\Sigma R^{\mu\operatorname{ind}z+\nu\operatorname{ind}(n+1-z)}
+\end{aligned}
+\]
+Quum habeatur $\operatorname{ind}(1-z)=\frac12(n-1)+\operatorname{ind}(z-1)$, productum nostrum ita quoque exhiberi poterit:
+\[
+\begin{aligned}
+[r,R^\mu]\times[r,R^\nu]&=R^{\frac12(n-1)\mu}\{[1,R^{\mu+\nu}]+[r,R^{\mu+\nu}]\times\Sigma R^{\mu\operatorname{ind}(z-1)+\nu\operatorname{ind}z}\}\\
+&=R^{\frac12(n-1)\nu}\{[1,R^{\mu+\nu}]+[r,R^{\mu+\nu}]\times\Sigma R^{\mu\operatorname{ind}z+\nu\operatorname{ind}(z-1)}\}
+\end{aligned}
+\]
+ubi semper pro $z$ substituendi concipiuntur valores $2,3,4\dotsfour n-1$.
+
+% A544-P0263-D02
+Ceterum in omnibus his formulis pro numeris
+\[
+\mu\operatorname{ind}x-(\mu+\nu)\operatorname{ind}(x+1),\quad\nu\operatorname{ind}y-(\mu+\nu)\operatorname{ind}(y+1),\quad\mu\operatorname{ind}(1-z)+\nu\operatorname{ind}z
+\]
+etc. manifesto ipsorum residua minima secundum modulum $\beta$ substitui poterunt.
+
+% A544-P0263-D03
+Si $\mu+\nu\equiv0\pmod\beta$ erit
+\[
+\begin{aligned}
+[r,R^\mu][r,R^\nu]&=(n-1)R^{\frac12(n-1)\mu}\\
+&\quad+(r+r^2+r^3+\dots+r^{n-1})\\
+&\qquad\times(1+R^\mu+R^{2\mu}+R^{3\mu}+\dots+R^{(n-2)\mu}-R^{\frac12(n-1)\mu})
+\end{aligned}
+\]
+
+% A544-P0263-D04
+\Article{12}
+Productum $[1,R^\mu]\times[r,R^\nu]$ per theorema art. 4 fit
+\[
+\begin{aligned}
+&=[r,R^{\mu+\nu}]+R^\mu[r,R^{\mu+\nu}]+R^{2\mu}[r,R^{\mu+\nu}]+\text{etc.}+R^{(n-2)\mu}[r,R^{\mu+\nu}]\\
+&=[r,R^{\mu+\nu}]\times(1+R^\mu+R^{2\mu}+R^{3\mu}+\text{etc.}+R^{(n-2)\mu})\\
+&=[r,R^{\mu+\nu}]\times\frac{n-1}\beta(1+R^\mu+R^{2\mu}+R^{3\mu}+\text{etc.}+R^{(\beta-1)\mu})
+\end{aligned}
+\]
+
+\SourceLeaf{264}%
+% A544-P0264-D01
+Hinc productum $[1,R^\mu]\times[1,R^\nu]$ evolvitur in
+\[
+\frac{n-1}\beta[1,R^{\mu+\nu}]\times(1+R^\mu+R^{2\mu}+R^{3\mu}+\text{etc.}+R^{(\beta-1)\mu})
+\]
+Nullo iam negotio generaliter productum $[r^m,R^\mu]\pdot[r^{m'},R^{\mu'}]$ erui poterit, quum enim fiat $[r^m,R^\mu]=R^{-\mu\operatorname{ind}m}[r,R^\mu]$ pro valore ipsius $m$ per $n$ non divisibili, et $=[1,R^\mu]$ pro valore divisibili, et quum similis transformatio de factore altero $[n^{m'},R^{\mu'}]$ valeat, multiplicatio vel ad problema art. praec. reducetur, vel ad casus eos, quos in hoc art. consideravimus.
+
+% A544-P0264-D02
+\Article{13}
+Postquam productum e duobus factoribus evolvere docuimus, evolutio producti e factoribus pluribus nulli difficultati obnoxia erit. Producto $[r,R^\mu]\times[r,R^\nu]$ ad formam $A[1,R^{\mu+\nu}]+B[r,R^{\mu+\nu}]$ reducto, patet, si accedat factor tertius $[r,R^\pi]$, productum fieri $=C[1,R^{\mu+\nu+\pi}]+D[r,R^{\mu+\nu+\pi}]$ statuendo
+\[
+[r,R^{\mu+\nu}][r,R^\pi]=c[1,R^{\mu+\nu+\pi}]+d[r,R^{\mu+\nu+\pi}]
+\]
+atque
+\[
+\begin{aligned}
+C&=Bc\\
+D&=Bd+A\{1+R^{\mu+\nu}+R^{2\mu+2\nu}+\text{etc.}+R^{(n-2)(\mu+\nu)}\}
+\end{aligned}
+\]
+Hinc potest $[r,R]^\lambda$ facile ad formam $A[1,R^\lambda]+B[r,R^\lambda]$ reduci poterit.
+
+% A544-P0264-D03
+Exempli caussa evolvemus potestates functionis $[r,R]$ pro $n=11$, $\beta=5$, ubi statuemus $g=2$. Hinc respondebunt
+\[
+\begin{array}{r@{\quad}r@{\pdot}r@{\pdot}r@{\pdot}r@{\pdot}r@{\pdot}r@{\pdot}r@{\pdot}r@{\pdot}r@{\pdot}r}
+\text{numeris}&1&2&3&4&5&6&7&8&9&10\\
+\text{indices}&0&1&8&2&4&9&7&3&6&5
+\end{array}
+\]
+Habemus itaque ad evolutionem quadrati $[r,R]^2$ secundum formulam I art. 11:
+\[
+\mu=1,\quad\nu=1
+\]
+\[
+\begin{array}{l@{\quad}r@{\pdot}r@{\pdot}r@{\pdot}r@{\pdot}r@{\pdot}r@{\pdot}r@{\pdot}r@{\pdot}r}
+\text{valores ipsius }x\ \ldots&1&2&3&4&5&6&7&8&9\\
+\operatorname{ind}x\ \ldots&0&1&8&2&4&9&7&3&6\\
+2\operatorname{ind}(x+1)\ \ldots&2&16&4&8&18&14&6&12&10\\
+\multicolumn{10}{l}{\text{Res. min. ipsius }\operatorname{ind}x-2\operatorname{ind}(x+1)}\\
+\quad\text{secundum modulum }5\ \ldots&3&0&4&4&1&0&1&1&1
+\end{array}
+\]
+unde deducimus
+\SourceLeaf{265}%
+% A544-P0265-D01
+\[
+\Omega=[r,R^2]\times\{2+4R+R^3+2R^4\}
+\]
+atque
+\[
+1^0.\qquad[r,R]^2=[1,R^2]+[r,R^2]\times\{2+4R+R^3+2R^4\}
+\]
+Eadem expressio resultat ex formula III art. 11 scilicet
+\[
+\begin{array}{l@{\quad}r@{\pdot}r@{\pdot}r@{\pdot}r@{\pdot}r@{\pdot}r@{\pdot}r@{\pdot}r@{\pdot}r}
+\text{valores ipsius }z\ \ldots&2&3&4&5&6&7&8&9&10\\
+\operatorname{ind}z\ \ldots&1&8&2&4&9&7&3&6&5\\
+\operatorname{ind}(n+1-z)\ \ldots&5&6&3&7&9&4&2&8&1\\
+\multicolumn{10}{l}{\text{resid. min. ipsius }\operatorname{ind}z+\operatorname{ind}(n+1-z)}\\
+\quad\text{secundum modulum }5\ \ldots&1&4&0&1&3&1&0&4&1
+\end{array}
+\]
+
+% A544-P0265-D02
+Prorsus simili modo invenitur
+\[
+\begin{aligned}
+2^0.\qquad[r,R^2]\pdot[r,R]&=[1,R^3]+[r,R^3]\times\{2+R+4R^2+2R^3\}\\
+3^0.\qquad[r,R^3]\pdot[r,R]&=[1,R^4]+[r,R^4]\times\{2+4R+R^3+2R^4\}
+\end{aligned}
+\]
+Denique fit
+\[
+4^0.\qquad[r,R^4]\pdot[r,R]=[1,1]+[r,1]\times\{1+2R+2R^2+2R^3+2R^4\}
+\]
+Hinc multiplicando aequationem $1^0$ per $[r,R]$ et substituendo pro $[r,R^2]\pdot[r,R]$ valorem suum ex $2^0$, nec non
+\[
+[1,R^2]\pdot[r,R]=[r,R^3]\pdot\{2+2R+2R^2+2R^3+2R^4\}
+\]
+deducimus
+\[
+\begin{aligned}
+[r,R]^3&=[1,R^3]\times\{2+4R+R^3+2R^4\}\\
+&\quad+[r,R^3]\times\{12+22R+18R^2+24R^3+15R^4\}
+\end{aligned}
+\]
+et simili modo
+\[
+\begin{aligned}
+[r,R]^4&=[1,R^4]\times\{12+22R+18R^2+24R^3+15R^4\}\\
+&\quad+[r,R^4]\times\{164+170R+205R^2+180R^3+190R^4\}\\
+\relax[r,R]^5&=[1,1]\times\{164+170R+205R^2+180R^3+190R^4\}\\
+&\quad+[r,1]\times\{1836+1830R+1795R^2+1820R^3+1810R^4\}\\
+&=1640+1700R+2050R^2+1800R^3+1900R^4\\
+&\quad+(1836+1830R+1795R^2+1820R^3+1810R^4)(s-1)\\
+&=918Ss-98S-(6R+41R^2+16R^3+26R^4)s\\
+&\quad+66R+451R^2+176R^3+286R^4
+\end{aligned}
+\]
+

@@ -1,0 +1,189 @@
+\SourceLeaf{236}%
+% A544-P0236-D01
+dabunt residua; si scilicet esset $Bx^\lambda\equiv Bx^{\lambda+\delta}(\mathrm{mod.}\,P)$, foret etiam $1\equiv x^\delta(\mathrm{mod.}\,P)$, et $\delta<\nu$ contra hyp.; si vero esset $Bx^\lambda\equiv x^\mu(\mathrm{mod.}\,P)$, foret $B\equiv x^{\mu+\nu-\lambda}(\mathrm{mod.}\,P)$ adeoque $B$ unum ex residuis $A$ contra hyp. Quare patet haberi adhuc $\nu$ nova residua. Simili modo ulterius progredi licebit (omnino ut supra \textsection.\ .) apparebitque numerum omnium residuorum possibilium $p^m-1$ esse aut $=\nu$, aut $=2\nu$, aut $=3\nu$, aut generaliter multiplum numeri $\nu$. Q. E. D.
+
+% A544-P0236-D02
+\Article{353}
+Ex theoremate praec. et Coroll. \textsection.\ 351 sequitur, quamvis functionem primam $n$ dimensionum metiri functionem $x^{p^n-1}-1$ secundum modulum $p$. Omnes itaque functiones unius dimensionis excepta unica, quae est $\equiv x$, metientur $x^{p-1}-1$, quod est theorema \textsc{Fermatianum}; omnes autem functiones primae secundi gradus i. e. formae $xx+Ax+B$ metientur functionem $x^{pp-1}-1$ etc. Iam sint numeri $n$ divisores omnes $n,\delta,\delta',\delta''$ etc.\ .\ $1$, patetque, $p^n-1$ etiam per $p^\delta-1$, $p^{\delta'}-1$, $p^{\delta''}-1$ etc. $p-1$ dividi posse, quare functio $x^{p^n-1}-1$ per \emph{omnes functiones primas dimensionum $n,\delta,\delta',\delta''$ etc. usque ad functiones primas unius dimensionis (exclusa functione $x$)} dividi poterit, quare etiam (quum omnes hae functiones sint absolute adeoque etiam inter se primae) per \emph{productum ex omnibus}. Sed idem hoc productum habet $p^n-1$ dimensiones (\textsection.\ 347.) (ob deficientiam unius functionis $x$); quare patet, \emph{hoc productum ipsum ipsi $x^{p^n-1}-1\;(\mathrm{mod.}\,p)$ congruum esse debere.}
+
+% A544-P0236-D03
+\Article{354}
+\textsc{Theorema.} \emph{Si functio $x^\nu-1$ per functionem $P$ dividitur, erit}
+\[
+(P,\rho^{k\nu+t})\equiv(P,\rho^t)
+\]
+\emph{denotantibus $k,t$ numeros quoscunque integros.}
+
+% A544-P0236-D04
+\emph{Dem.} Sit
+\[
+P=x^m+Ax^{m-1}+Bx^{m-2}+\text{etc.}
+\]
+notum est, si
+\[
+\frac{mx^{m-1}+(m-1)Ax^{m-2}+\text{etc.}}{x^m+Ax^{m-1}+\text{etc.}}
+\]
+in seriem infinitam formae
+\[
+m\frac1x+\alpha\frac1{xx}+\beta\frac1{x^3}+\gamma\frac1{x^4}+\text{etc.}
+\]
+\SourceLeaf{237}%
+% A544-P0237-D01
+evolvatur, fore $\alpha$ summam radicum aequationis $P=0$, $\beta$ summam quadratorum etc. Unde sine labore deducitur, potestatum $\nu+1$, $\nu+2$ etc.$^{\mathrm{tarum}}$ summam congruam esse summae radicum, quadratorum etc. Hinc vero nisi modulus est aequalis aut inferior numero dimensionum functionis $P$, sequitur esse
+\[
+(P,\rho^{\nu+1})\equiv P,\quad(P,\rho^{\nu+2})\equiv(P,\rho^2),\quad(P,\rho^{\nu+3})\equiv(P,\rho^3)\text{ etc.}
+\]
+Istum autem casum infra considerabimus.
+
+% A544-P0237-D02
+\Article{355}
+\textsc{Theorema.} \emph{Si in serie}
+\[
+(P,\rho^0),\quad(P,\rho)\quad(P,\rho^2),\quad(P,\rho^3)\text{ etc.}
+\]
+\emph{post terminum $\nu^{\mathrm{tum}}$ sequentes primis deinceps sunt congrui, $x^\nu-1$ per $P$ dividi poterit, siquidem $P$ nullum factorem pluries contineat.}
+
+% A544-P0237-D03
+\emph{Dem.} Posito $\frac{\mathrm{d}P}{\mathrm{d}x}=Q$, erit $Q$ functio ad $P$ prima. Sit
+\[
+\frac QP\equiv\frac Ax+\frac B{xx}+\frac C{x^3}+\text{etc.}
+\]
+tum post terminum $\frac N{x^\nu}$ sequetur (hyp.)
+\[
+\frac A{x^{\nu+1}}+\frac B{x^{\nu+2}}+\frac C{x^{\nu+3}}+\text{etc.}
+\]
+Quare erit
+\[
+\frac QP\equiv\frac{Ax^{\nu-1}+Bx^{\nu-2}+\text{etc.}}{x^\nu-1}
+\]
+unde patet, functionem $x^\nu-1$ per $P$ dividi posse. Q. E. D.
+
+% A544-P0237-D04
+\Article{356}
+\textsc{Theorema.} \emph{Si $P$ sit functio ipsius $x$ prima $m$ dimensionum et $X$ functio ipsorum $x,x^p,x^{pp},x^{p^3}\dotstwo x^{p^{m-1}}$, in quam omnes hae quantitates aequaliter ingrediantur, i. e. quae eadem maneat, quomodocunque eae inter se permutentur, functio $X$ per $P$ divisa dabit residuum, quod erit numerus.}
+
+% A544-P0237-D05
+\emph{Dem.} Sit residuum
+\[
+Ax^{m-1}+Bx^{m-2}+\dotstwo+N\equiv\xi
+\]
+omnes coëfficientes $A,B,C\ldots$ usque ad $N$ exclusive erunt $\equiv0$. Hoc ita demonstratur. Quum $X-\xi$ per $P$ dividatur, etiam $X^p-\xi^p$ per $P$ dividi 
+\SourceLeaf{238}%
+% A544-P0238-D01
+poterit. Sed facile perspicitur, $X^p$ esse id, quod fit $X$, si pro $x$ ponatur $x^p$, pro $x^p$, $x^{pp}$ etc.\ .\ et pro $x^{p^{m-1}}$, $x^{p^m}$ seu quod idem est $x$. Hinc patet, esse $X^p\equiv X\;(\mathrm{mod.}\,P)$; quare, quum $X^p\equiv\xi^p$ et $X\equiv\xi(\mathrm{mod.}\,P)$, erit etiam $\xi^p\equiv\xi(\mathrm{mod.}\,P$ seu
+\[
+\xi^p-\xi\equiv0(\mathrm{mod.}\,P)
+\]
+At $\xi^p-\xi$ secundum modulum $p$ congruum est producto ex $\xi,\xi+1,\xi+2,\dotstwo$ usque ad $\xi+p-1$, qui factores omnes ad $P$ primi erunt, nisi $\xi$ sit simpliciter numerus. Quare etiam $\xi^p-\xi$ alio modo per $P$ divisibilis non erit. Q. E. D.
+
+% A544-P0238-D02
+Huiusmodi functiones sunt summa omnium, summa quadratorum, cuborum etc., summa productorum e binis, ternis etc. Quis vero sit ille numerus, per \textsection\ sq. determinabimus:
+
+% A544-P0238-D03
+\Article{357}
+\textsc{Theorema.} \emph{Sit functio prima \textsection\ praec.}
+\[
+P\equiv x^m-Ax^{m-1}+Bx^{m-2}-Cx^{m-3}+\text{etc.}
+\]
+\emph{erit residuum, si summa quantitatum $x,x^p$ etc. $x^{p^{m-1}}$ per $P$ dividatur, $\equiv A$, si summa productorum e binis, $\equiv B$, si summa productorum e ternis, $\equiv C$ etc.}
+
+% A544-P0238-D04
+\emph{Dem.} Sint functiones illae $X,Y,Z$ etc. earumque residua ordine suo numeri $A',B',C'$ etc. Iam facile intelligitur, esse $x,x^p,x^{pp}$ etc. radices aequationis
+\[
+z^m-Xz^{m-1}+Yz^{m-2}-Zz^{m-3}+\text{etc.}=0
+\]
+Quare erit ponendo $z=x$
+\[
+x^m-Xx^{m-1}+Yx^{m-2}-Zx^{m-3}+\text{etc.}=0
+\]
+Sed functiones $X-A'$, $Y-B'$, $Z-C'$ etc. per $P$ dividi possunt, quare etiam functio
+\[
+x^m-A'x^{m-1}+B'x^{m-2}-C'x^{m-3}+\text{etc.}
+\]
+Hoc autem aliter fieri nequit, nisi sit $A'\equiv A$, $B'\equiv B$, $C'\equiv C$ etc. Q. E. D.
+
+% A544-P0238-D05
+Ceterum notum est, quaecunque alia functio sit $X$ ipsorum $x,x^p$ etc. [in quam omnes hae quantitates aequaliter ingrediantur,] eam semper ex his deduci posse. Ita erit
+\SourceLeaf{239}%
+% A544-P0239-D01
+\[
+x^2+x^{2p}+x^{3pp}+\text{etc.}\equiv AA-2B(\mathrm{mod.}\,P)\text{ etc. etc.}
+\]
+Exempl. Sit $p=5$ et $P\equiv x^2+2x+3$, erit functio $x+x^5$ per $P$ divisa $\equiv-2$, $x^6\equiv3$ etc. etc.
+
+% A544-P0239-D02
+\Article{358.\ 359}
+\textsc{Theorema.} \emph{Sit $P$ functio prima et $x^\nu$ infima potestas ipsius $x$, quae per $P$ divisa dat residuum $1$; porro sit $P\equiv(P,\rho^n)$, erit $n$ alicui numeri $p$ potestati secundum $\nu$ congruus.}
+
+% A544-P0239-D03
+\emph{Dem.} Supra ostendimus, si $P$ sit
+\[
+=x^m+Ax^{m-1}+Bx^{m-2}+\text{etc.}
+\]
+fore
+\[
+\begin{aligned}
+z^m+Az^{m-1}+Bz^{m-2}+\text{etc.}\qquad\qquad\qquad\qquad&\\
+{}-(z-x)(z-x^p)\dotstwo(z-x^{p^{m-1}})&
+\end{aligned}
+\]
+per $P$ divisibilem. Simili modo sequeretur esse
+\[
+\begin{aligned}
+z^m+Az^{m-1}+Bz^{m-3}+\text{etc.}\qquad\qquad\qquad\qquad&\\
+{}-(z-x^n)(z-x^{np})\dotstwo(z-x^{np^{m-1}})&
+\end{aligned}
+\]
+per $P$ divisibilem. Quoniam autem hi factores inter se sunt primi, necessario singuli singulis secundum $P,p$ congrui esse debent. Quare $z-x^n$ debet esse $\equiv z-x^{p^\kappa}$ i. e. $p^\kappa\equiv n(\mathrm{mod.}\,\nu)$. Q. E. D.\begingroup\renewcommand{\thefootnote}{*)}\footnote{Si $(P,\rho^a)\equiv(P,\rho^b)(\mathrm{mod.}\,p)$ erit $a\equiv p^\kappa b(\mathrm{mod.}\,\nu)$.
+
+\emph{Demonstratio.} Sit $z^m+Az^{m-1}+Bz^{m-2}+\dotstwo=\Pi$ erit $(\Pi,\rho^a)\equiv(\Pi,\rho^b)(\mathrm{mod.}\,P)$; est autem
+\[
+\begin{aligned}
+(\Pi,\rho^a)&\equiv(z-x^a)(z-x^{ap})(z-x^{app})\dotstwo(z-x^{ap^{m-1}}),\\
+(\Pi,\rho^b)&\equiv(z-x^b)(z-x^{bp})(z-x^{bpp})\dotstwo(z-x^{bpm-1})
+\end{aligned}
+\]
+unde patet propositio.
+
+Productum ex $\Pi,(\Pi,\rho^2),(\Pi,\rho^3)$ etc. $(\Pi,\rho^\nu)$ est $\equiv(z^\nu-1)^m(\mathrm{mod.}\,P)$; est enim
+\[
+\begin{aligned}
+(z-x)(z-x^2)(z-x^3)\ldots(z-x^\nu)&\\
+{}\equiv(z-x^p)(z-x^{2p})(z-x^{3p})\dotstwo(z-x^{\nu p})&\equiv\text{etc.}\equiv z^\nu-1
+\end{aligned}
+\]
+In serie $P,(P,\rho^2),(P,\rho^3)$ etc.$\dotsfour(P,\rho^\nu)$ omnes divisores primi functionis $x^\nu-1$ occurrunt, et quidem quisque $m$ vicibus. Inde patet, productum ex omnibus esse $\equiv(x^\nu-1)^m$.}\endgroup
+
+% A544-P0239-D04
+\par\medskip\Needspace{5\baselineskip}
+\begin{center}\emph{De inventione divisorum primorum functionis $x^\nu-1$ secundum modulum primum.}\end{center}
+\Article{360}
+Si $\nu$ per modulum $p$ seu per aliquam eius potestatem est divisibilis, sit $\nu=p^k\lambda$, eritque
+\[
+x^\nu-1\equiv(x^\lambda-1)^{p^k}(\mathrm{mod.}\,p)
+\]
+Unde manifestum est, eum tantummodo casum considerari oportere, ubi $\nu$ per $p$ non dividitur.
+
+\SourceLeaf{240}%
+% A544-P0240-D01
+Si $p^m\equiv1(\mathrm{mod.}\,\nu)$ et quidem $m$ quam minimus, tum patet $x^{p^m-1}-1$ per $x^\nu-1$ dividi posse. Quamobrem $x^\nu-1$ alios divisores habere nequit quam $x^{p^m-1}-1$. At haecce expressio habet divisores primos $m$ dimensionum aliosque, quorum dimensionum numerus est divisor numeri $m$. Tales igitur etiam $x^\nu-1$ habebit. Quot autem cuiusvis generis habeat, per exemplum declaramus, unde facile lex generalis deduci poterit.
+
+% A544-P0240-D02
+Sit $\nu=63$ et $p=13$, erit $m=6$. Quare $x^{63}-1$ secundum modulum $13$ factores primos habebit sex, trium, duarum dimensionum uniusque. Iam palam est, productum ex factoribus unius dimensionis fore divisorem communem (maximae dimensionis) functionum $x^{63}-1$ et $x^{12}-1$ i. e. $x^3-1$; quare tres erunt factores primi unius dimensionis. Productum ex omnibus factoribus primis duarum dimensionum uniusque erit divisor communis functionum $x^{63}-1$ et $x^{168}-1$ i. e. $x^{21}-1$; quare erunt $\frac{21-3}2$ sive $9$ factores duarum dimensionum. Productum ex factoribus primis trium dimensionum uniusque erit divisor communis functionum $x^{63}-1$ et $x^{2196}-1$ i. e. $x^9-1$; quare erunt $\frac{9-3}3$ i. e. $2$ divisores trium dimensionum. Tandem reliqui erunt sex dimensionum, quorum igitur numerus $=\frac{63-6-18-3}6$ i. e. $6$.
+
+% A544-P0240-D03
+Facile per attentam huius rei ponderationem sequens regula generalis deducitur:
+
+% A544-P0240-D04
+\emph{Sit $\delta$ divisor ipsius $m$, sint omnes numeri $\delta$ divisores ipso $\delta$ minores $\delta',\delta'',\delta'''$ etc. Sint divisores communes maximi ipsius $\nu$ cum $p^\delta-1$, $p^{\delta'}-1$, $p^{\delta''}-1$ etc. respective $\mu,\mu',\mu''$ etc., sit $\frac\mu{\mu'};\frac\mu{\mu''},\frac\mu{\mu'''}$ etc. $=\lambda',\lambda'',\lambda'''$ etc. habebitque $x^\nu-1$ $\frac1\delta$ties tot divisores primos $\delta$ dimensionum, quot infra numerum $\mu$ sunt numeri per nullum numerorum $\lambda',\lambda'',\lambda'''$ etc. divisibiles.}
+
+% A544-P0240-D05
+\Article{361}
+\textsc{Theorema.} \emph{Si functio $X$ indeterminatae $x$ per aliam $\xi$ dividi possit et $X$ si pro $x$ scribatur $x^k$, transeat in $X'$, $X'$ per $(\xi,\rho^{\frac1k})$ dividi poterit.}
+
+% A544-P0240-D06
+\emph{Dem.} Sit $X\equiv\xi\upsilon$ transeantque $\xi,\upsilon$ in $\xi',\upsilon'$, si pro $x$ scribatur $x^k$. Patet, fore $X'\equiv\xi'\upsilon'$. At $\xi'$ per $(\xi,\rho^{\frac1k})$ dividi potest. Quare etiam $X'$. Q. E. D.
+
+% A544-P0240-D07
+\Article{362}
+His principiis positis facili negotio divisores primos functionis $x^\nu-1$ determinare possumus. Supponimus, omnes eos divisores, qui etiam functionem 

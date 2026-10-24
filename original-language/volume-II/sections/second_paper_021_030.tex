@@ -1,0 +1,646 @@
+\SourceLeaf{21}%
+% A544-P0021-O01
+\begin{center}\Large SUMMATIO\end{center}
+
+% A544-P0021-O02
+\begin{center}\large QUARUMDAM SERIERUM SINGULARIUM.\end{center}
+
+% A544-P0021-O03
+\BookRule{22mm}
+
+% A544-P0021-O04
+\Article{1}
+
+% A544-P0021-O05
+Inter veritates insigniores, ad quas theoria divisionis circuli aditum aperuit, locum haud ultimum sibi vindicat summatio in Disquiss. Arithmet. art. 356 proposita, non modo propter elegantiam suam peculiarem, miramque foecunditatem, quam fusius exponendi occasionem posthac dabit alia disquisitio, sed ideo quoque, quod eius demonstratio rigorosa atque completa difficultatibus haud vulgaribus premitur.\quad Quae sane eo minus exspectari debuissent, quum non tam in ipsum theorema cadant, quam potius in aliquam theorematis limitationem, qua neglecta demonstratio statim in promtu est, facillimeque e theoria in opere isto explicata derivatur.\quad Theorema illic exhibitum est in forma sequente.\quad Supponendo $n$ esse numerum primum, denotandoque indefinite omnia residua quadratica ipsius $n$ inter limites $1$ et $n-1$ incl. sita per $a$, omniaque non-residua inter eosdem limites iacentia per $b$, denique per $\omega$ arcum $\frac{360^{0}}{n}$, et per $k$ integrum determinatum quemcunque per $n$ non divisibilem, erit
+
+% A544-P0021-O06
+I.\quad pro valore ipsius $n$, qui est formae $4m+1$,
+
+% A544-P0021-O07
+\[
+\begin{aligned}
+\Sigma\cos ak\omega&=-\tfrac12\pm\tfrac12\surd n\\
+\Sigma\cos bk\omega&=-\tfrac12\mp\tfrac12\surd n,\ \text{adeoque}\\
+\Sigma\cos ak\omega-\Sigma\cos bk\omega&=\pm\surd n\\
+\Sigma\sin ak\omega&=0\\
+\Sigma\sin bk\omega&=0
+\end{aligned}
+\]
+
+\SourceLeaf{22}%
+% A544-P0022-RC02
+II.\quad pro valore ipsius $n$, qui est formae $4m+3$,
+
+% A544-P0022-RC03
+\[
+\begin{aligned}
+\Sigma\cos ak\omega&=-\tfrac12\\
+\Sigma\cos bk\omega&=-\tfrac12\\
+\Sigma\sin ak\omega&=\pm\tfrac12\surd n\\
+\Sigma\sin bk\omega&=\mp\tfrac12\surd n\\
+\Sigma\sin ak\omega-\Sigma\sin bk\omega&=\pm\surd n
+\end{aligned}
+\]
+
+% A544-P0022-RC04
+Hae summationes l. c. omni rigore demonstratae sunt, neque alia difficultas hic remanet nisi in determinatione \emph{signi} quantitati radicali praefigendi.\quad Nullo quidem negotio ostendi potest, hoc signum eatenus a numero $k$ pendere, quod semper pro cunctis valoribus ipsius $k$, qui sint residua quadratica ipsius $n$, signum \emph{idem} valere debeat, et contra signum huic oppositum pro omnibus valoribus ipsius $k$, qui sint non-residua quadratica ipsius $n$.\quad Hinc totum negotium in valore $k=1$ versabitur, patetque, quam primum signum pro hoc valore valens innotuerit, pro omnibus quoque reliquis valoribus ipsius $k$ signa statim in promtu fore.\quad Verum enim vero in hac ipsa quaestione, quae primo aspectu inter faciliores referenda videtur, in difficultates improvisas incidimus, methodusque, qua ducente sine impedimentis hucusque progressi eramus, auxilium ulterius prorsus denegat.
+
+% A544-P0022-RC05
+\Article{2}
+
+% A544-P0022-RC06
+Haud abs re erit, antequam ulterius progrediamur, quaedam exempla summationis nostrae per calculum numericum evolvisse: huic vero quasdam observationes generales praemittere conveniet.
+
+% A544-P0022-RC07
+I.\quad Si in casu eo, ubi $n$ est numerus primus formae $4m+1$, omnia residua quadratica ipsius $n$ inter $1$ et $\frac12(n-1)$ incl. iacentia indefinite per $a'$ exhibentur, omniaque non-residua inter eosdem limites per $b'$ constat, omnes $n-a'$ inter ipsos $a$, omnesque $n-b'$ inter $b$ comprehensos fore: quamobrem quum omnes $a'$, $b'$, $n-a'$, $n-b'$ manifesto totum complexum numerorum $1$, $2$, $3\dotsfour$ $n-1$ expleant, omnes $a'$ cum omnibus $n-a'$ iuncti omnes $a$ complectentur, et perinde omnes $b'$ cum omnibus $n-b'$ iuncti omnes $b$ comprehendent.\quad Hinc erit
+
+\SourceLeaf{23}%
+% A544-P0023-RC02
+\[
+\begin{aligned}
+\Sigma\cos ak\omega&=\Sigma\cos a'k\omega+\Sigma\cos(n-a')k\omega\\
+\Sigma\cos bk\omega&=\Sigma\cos b'k\omega+\Sigma\cos(n-b')k\omega\\
+\Sigma\sin ak\omega&=\Sigma\sin a'k\omega+\Sigma\sin(n-a')k\omega\\
+\Sigma\sin bk\omega&=\Sigma\sin b'k\omega+\Sigma\sin(n-b')k\omega
+\end{aligned}
+\]
+
+% A544-P0023-RC03
+Iam quum habeatur $\cos(n-a')k\omega=\cos a'k\omega$, $\cos(n-b')k\omega=\cos b'k\omega$, $\sin(n-a')k\omega=-\sin a'k\omega$, $\sin(n-b')k\omega=-\sin b'k\omega$, patet sponte fieri
+
+% A544-P0023-RC04
+\[
+\begin{aligned}
+\Sigma\sin ak\omega&=\Sigma\sin a'k\omega-\Sigma\sin a'k\omega=0\\
+\Sigma\sin bk\omega&=\Sigma\sin b'k\omega-\Sigma\sin b'k\omega=0
+\end{aligned}
+\]
+
+% A544-P0023-RC05
+Summatio cosinuum vero hanc formam assumit
+
+% A544-P0023-RC06
+\[
+\begin{aligned}
+\Sigma\cos ak\omega&=2\Sigma\cos a'k\omega\\
+\Sigma\cos bk\omega&=2\Sigma\cos b'k\omega
+\end{aligned}
+\]
+
+% A544-P0023-RC07
+unde fieri debebit
+
+% A544-P0023-RC08
+\[
+\begin{aligned}
+1+4\Sigma\cos a'k\omega&=\pm\surd n\\
+1+4\Sigma\cos b'k\omega&=\mp\surd n\\
+2\Sigma\cos a'k\omega-2\Sigma\cos b'k\omega&=\pm\surd n
+\end{aligned}
+\]
+
+% A544-P0023-RC09
+II.\quad In casu eo, ubi $n$ est formae $4m+3$, complementum cuiusvis residui $a$ ad $n$ erit non-residuum, complementumque cuiusvis $b$ erit residuum; quocirca omnes $n-a$ convenient cum omnibus $b$, omnesque $n-b$ cum omnibus $a$. Hinc colligitur
+
+% A544-P0023-RC10
+\[
+\begin{aligned}
+\Sigma\cos ak\omega=\Sigma\cos(n-b)k\omega=\Sigma\cos bk\omega
+\end{aligned}
+\]
+
+% A544-P0023-RC11
+quare quum omnes $a$ et $b$ iuncti omnes numeros $1$, $2$, $3\dotsfour n-1$ expleant, adeoque fiat $\Sigma\cos ak\omega+\Sigma\cos bk\omega=\cos k\omega+\cos2k\omega+\cos3k\omega+\text{etc.}$ $+\cos(n-1)k\omega=-1$, summationes
+
+% A544-P0023-RC12
+\[
+\begin{aligned}
+\Sigma\cos ak\omega&=-\tfrac12\\
+\Sigma\cos bk\omega&=-\tfrac12
+\end{aligned}
+\]
+
+% A544-P0023-RC13
+sponte sunt obviae.\quad Perinde erit
+
+% A544-P0023-RC14
+\[
+\begin{aligned}
+\Sigma\sin ak\omega=\Sigma\sin(n-b)k\omega=-\Sigma\sin bk\omega
+\end{aligned}
+\]
+
+\SourceLeaf{24}%
+% A544-P0024-RC02
+unde patet, quomodo summationum
+
+% A544-P0024-RC03
+\[
+\begin{aligned}
+2\Sigma\sin ak\omega&=\pm\surd n\\
+2\Sigma\sin bk\omega&=\mp\surd n
+\end{aligned}
+\]
+
+% A544-P0024-RC04
+altera ab altera pendeat.
+
+% A544-P0024-RC05
+\Article{3}
+
+% A544-P0024-RC06
+Ecce iam computum numericum pro aliquot exemplis:
+
+% A544-P0024-RC07
+I.\quad Pro $n=5$ adest valor unus ipsius $a'$, puta $a'=1$, valorque unus ipsius $b'$, puta $b'=2$; est autem
+
+% A544-P0024-RC08
+\[
+\begin{aligned}
+\cos\omega=+0{,}3090169944\qquad\cos2\omega=-0{,}8090169944
+\end{aligned}
+\]
+
+% A544-P0024-RC09
+adeoque $1+4\cos\omega=+\surd5$,\quad $1+4\cos2\omega=-\surd5$.
+
+% A544-P0024-RC10
+II.\quad Pro $n=13$ adsunt tres valores ipsius $a'$, puta $1$, $3$, $4$, totidemque valores ipsius $b'$, puta $2$, $5$, $6$, unde computamus
+
+% A544-P0024-RC11
+{\small\setlength{\arraycolsep}{2.5pt}\renewcommand{\arraystretch}{1.15}
+\[
+\begin{array}{rclcrcl}
+\cos\omega&=&+0{,}8854560257&\qquad&\cos2\omega&=&+0{,}5680647467\\
+\cos3\omega&=&+0{,}1205366803&\qquad&\cos5\omega&=&-0{,}7485107482\\
+\cos4\omega&=&-0{,}3546048870&\qquad&\cos6\omega&=&-0{,}9709418174\\\cline{1-3}\cline{5-7}
+\text{Summa}&=&+0{,}6513878190&\qquad&\text{Summa}&=&-1{,}1513878189
+\end{array}
+\]
+}
+
+% A544-P0024-RC12
+Hinc $1+4\Sigma\cos a'\omega=+\surd13$,\quad $1+4\Sigma\cos b'\omega=-\surd13$.
+
+% A544-P0024-RC13
+III.\quad Pro $n=17$ habemus quatuor valores ipsius $a'$, puta $1$, $2$, $4$, $8$, totidemque valores ipsius $b'$, puta $3$, $5$, $6$, $7$.\quad Hinc computantur cosinus
+
+% A544-P0024-RC14
+{\small\setlength{\arraycolsep}{2.5pt}\renewcommand{\arraystretch}{1.15}
+\[
+\begin{array}{rclcrcl}
+\cos\omega&=&+0{,}9324722294&\qquad&\cos3\omega&=&+0{,}4457383558\\
+\cos2\omega&=&+0{,}7390089172&\qquad&\cos5\omega&=&-0{,}2736629901\\
+\cos4\omega&=&+0{,}0922683595&\qquad&\cos6\omega&=&-0{,}6026346364\\
+\cos8\omega&=&-0{,}9829730997&\qquad&\cos7\omega&=&-0{,}8502171357\\\cline{1-3}\cline{5-7}
+\text{Summa}&=&+0{,}7807764064&\qquad&\text{Summa}&=&-1{,}2807764065
+\end{array}
+\]
+}
+
+% A544-P0024-RC15
+Hinc $1+4\Sigma\cos a'\omega=+\surd17$,\quad $1+4\Sigma\cos b'\omega=-\surd17$.
+
+\SourceLeaf{25}%
+% A544-P0025-RC02
+IV.\quad Pro $n=3$ adest valor unicus ipsius $a$, puta $a=1$, cui respondet
+
+% A544-P0025-RC03
+\[
+\begin{aligned}
+\sin\omega=+0{,}8660254038
+\end{aligned}
+\]
+
+% A544-P0025-RC04
+Hinc $2\sin\omega=+\surd3$.
+
+% A544-P0025-RC05
+V.\quad Pro $n=7$ adsunt valores tres ipsius $a$, puta $1$, $2$, $4$: hinc habentur sinus
+
+% A544-P0025-RC06
+{\small\setlength{\arraycolsep}{2.5pt}\renewcommand{\arraystretch}{1.15}
+\[
+\begin{array}{rcll}
+\sin\omega&=&+0{,}7818314825&\\
+\sin2\omega&=&+0{,}9749279122&\\
+\sin4\omega&=&-0{,}4338837391&\\\cline{1-3}
+\text{Summa}&=&+1{,}3228756556,&\text{adeoque }2\Sigma\sin a\omega=+\surd7.
+\end{array}
+\]
+}
+
+% A544-P0025-RC07
+VI.\quad Pro $n=11$ valores ipsius $a$ sunt $1$, $3$, $4$, $5$, $9$, quibus respondent sinus
+
+% A544-P0025-RC08
+{\small\setlength{\arraycolsep}{2.5pt}\renewcommand{\arraystretch}{1.15}
+\[
+\begin{array}{rcll}
+\sin\omega&=&+0{,}5406408175&\\
+\sin3\omega&=&+0{,}9898214419&\\
+\sin4\omega&=&+0{,}7557495744&\\
+\sin5\omega&=&+0{,}2817325568&\\
+\sin9\omega&=&-0{,}9096319954&\\\cline{1-3}
+\text{Summa}&=&+1{,}6583123952,&\text{et proin }2\Sigma\sin a\omega=+\surd11.
+\end{array}
+\]
+}
+
+% A544-P0025-RC09
+VII.\quad Pro $n=19$ valores ipsius $a$ sunt $1$, $4$, $5$, $6$, $7$, $9$, $11$, $16$, $17$, quibus respondent sinus
+
+% A544-P0025-RC10
+{\small\setlength{\arraycolsep}{2.5pt}\renewcommand{\arraystretch}{1.15}
+\[
+\begin{array}{rcll}
+\sin\omega&=&+0{,}3246994692&\\
+\sin4\omega&=&+0{,}9694002659&\\
+\sin5\omega&=&+0{,}9965844930&\\
+\sin6\omega&=&+0{,}9157733267&\\
+\sin7\omega&=&+0{,}7357239107&\\
+\sin9\omega&=&+0{,}1645945903&\\
+\sin11\omega&=&-0{,}4759473930&\\
+\sin16\omega&=&-0{,}8371664783&\\
+\sin17\omega&=&-0{,}6142127127&\\\cline{1-3}
+\text{Summa}&=&+2{,}1794494718,&\text{adeoque }2\Sigma\sin a\omega=+\surd19.
+\end{array}
+\]
+}
+
+\SourceLeaf{26}%
+% A544-P0026-RC02
+\Article{4}
+
+% A544-P0026-RC03
+In omnibus hisce exemplis quantitas radicalis signum positivum obtinet, idemque facile pro valoribus maioribus $n=23$, $n=29$ etc. confirmatur, unde fortis iam probabilitas oritur, hoc generaliter perinde se habere.\quad Sed demonstratio huius phaenomeni e principiis l. c. expositis peti nequit, plenissimoque iure altioris indaginis aestimanda est.\quad Propositum itaque huius commentationes eo tendit, ut demonstrationem rigorosam huius elegantissimi theorematis, per plures annos olim variis modis incassum tentatam, tandemque per considerationes singulares satisque subtiles feliciter perfectam in medium proferamus, simulque theorema ipsum salva seu potius aucta elegantia sua ad longe maiorem generalitatem evehamus.\quad Coronidis denique loco nexum mirabilem arctissimum inter hanc summationem aliudque theorema arithmeticum gravissimum docebimus.\quad Speramus, hasce disquisitiones non modo per se geometris gratas fore, sed methodos quoque, per quas haec omnia efficere licuit, quaeque in aliis quoque occasionibus utiles esse poterunt, ipsorum attentione dignas visum iri.
+
+% A544-P0026-RC04
+\Article{5}
+
+% A544-P0026-RC05
+Petita est demonstratio nostra e consideratione generis singularis progressionum, quarum termini pendent ab expressionibus talibus
+
+% A544-P0026-RC06
+\[
+\begin{aligned}
+\frac{(1-x^m)\,(1-x^{m-1})\,(1-x^{m-2})\dotsfour(1-x^{m-\mu+1})}{(1-x)\,(1-xx)\,(1-x^3)\dotsfive(1-x^\mu)}
+\end{aligned}
+\]
+
+% A544-P0026-RC07
+Brevitatis caussa talem fractionem per $(m,\mu)$ denotabimus, et primo quasdam observationes generales circa huiusmodi functiones praemittemus.
+
+% A544-P0026-RC08
+I.\quad Quoties $m$ est integer positivus minor quam $\mu$, functio $(m,\mu)$ manifesto evanescit, numeratore factorem $1-x^0$ implicante.\quad Pro $m=\mu$, factores in numeratore identici erunt ordine inverso cum factoribus in denominatore, unde erit $(\mu,\mu)=1$: denique pro casu eo, ubi $m$ est integer positivus maior quam $\mu$, habentur formulae
+
+% A544-P0026-RC09
+\[
+\begin{aligned}
+(\mu+1,\mu)&=\frac{1-x^{\mu+1}}{1-x}=(\mu+1,1)\\
+(\mu+2,\mu)&=\frac{(1-x^{\mu+2})\,(1-x^{\mu+1})}{(1-x)\qquad(1-xx)}=(\mu+2,2)\\
+(\mu+3,\mu)&=\frac{(1-x^{\mu+3})(1-x^{\mu+2})(1-x^{\mu+1})}{(1-x)\qquad(1-xx)\qquad(1-x^3)}=(\mu+3,3)\ \text{etc.}
+\end{aligned}
+\]
+
+\SourceLeaf{27}%
+% A544-P0027-RC02
+sive generaliter
+
+% A544-P0027-RC03
+\[
+\begin{aligned}
+(m,\mu)=(m,m-\mu)
+\end{aligned}
+\]
+
+% A544-P0027-RC04
+II.\quad Porro facile confirmatur, haberi generaliter
+
+% A544-P0027-RC05
+\[
+\begin{aligned}
+(m,\mu+1)=(m-1,\mu+1)+x^{m-\mu-1}(m-1,\mu)
+\end{aligned}
+\]
+
+% A544-P0027-RC06
+quamobrem, quum perinde sit
+
+% A544-P0027-RC07
+\[
+\begin{aligned}
+(m-1,\mu+1)&=(m-2,\mu+1)+x^{m-\mu-2}(m-2,\mu)\\
+(m-2,\mu+1)&=(m-3,\mu+1)+x^{m-\mu-3}(m-3,\mu)\\
+(m-3,\mu+1)&=(m-4,\mu+1)+x^{m-\mu-4}(m-4,\mu),\ \text{etc.}
+\end{aligned}
+\]
+
+% A544-P0027-RC08
+quae series continuari poterit usque ad
+
+% A544-P0027-RC09
+\[
+\begin{aligned}
+(\mu+2,\mu+1)&=(\mu+1,\mu+1)+x(\mu+1,\mu)\\
+&=(\mu,\mu)+x(\mu+1,\mu)
+\end{aligned}
+\]
+
+% A544-P0027-RC10
+siquidem $m$ est integer positivus maior quam $\mu+1$, erit
+
+% A544-P0027-RC11
+\[
+\begin{aligned}
+(m,\mu+1)&=(\mu,\mu)+x(\mu+1,\mu)+xx(\mu+2,\mu)\\
+&\qquad+x^3(\mu+3,\mu)+\text{etc.}\\
+&\qquad+x^{m-\mu-1}(m-1,\mu)
+\end{aligned}
+\]
+
+% A544-P0027-RC12
+Hinc patet, si pro aliquo valore determinato ipsius $\mu$ quaevis functio $(m,\mu)$ integra sit, existente $m$ integro positivo, etiam quamvis functionem $(m,\mu+1)$ integram evadere debere.\quad Quare quum suppositio illa pro $\mu=1$ locum habeat, eadem etiam pro $\mu=2$ valebit, atque hinc etiam pro $\mu=3$ etc., i. e. generaliter pro valore quocunque integro positivo ipsius $m$ erit $(m,\mu)$ functio integra. sive productum
+
+% A544-P0027-RC13
+\[
+\begin{aligned}
+(1-x^m)(1-x^{m-1})(1-x^{m-2})\dotsfour(1-x^{m-\mu+1})
+\end{aligned}
+\]
+
+% A544-P0027-RC14
+divisibile per
+
+% A544-P0027-RC15
+\[
+\begin{aligned}
+(1-x)(1-x^2)(1-x^3)\dotsfour(1-x^\mu)
+\end{aligned}
+\]
+
+% A544-P0027-RC16
+\Article{6}
+
+% A544-P0027-RC17
+Duas iam progressiones considerabimus, quae ambae ad scopum nostrum ducere possunt.\quad Progressio prima haec est
+
+\SourceLeaf{28}%
+% A544-P0028-RC02
+\[
+\begin{aligned}
+&1-\frac{1-x^m}{1-x}+\frac{(1-x^m)\,(1-x^{m-1})}{(1-x)\,(1-xx)}\\
+&\qquad-\frac{(1-x^m)(1-x^{m-1})(1-x^{m-2})}{(1-x)\quad(1-xx)\quad(1-x^3)}+\text{etc.}
+\end{aligned}
+\]
+
+% A544-P0028-RC03
+sive
+
+% A544-P0028-RC04
+\[
+\begin{aligned}
+1-(m,1)+(m,2)-(m,3)+(m,4)-\text{etc.}
+\end{aligned}
+\]
+
+% A544-P0028-RC05
+quam brevitatis caussa per $f(x,m)$ denotabimus.\quad Primo statim obvium est, quoties $m$ sit numerus integer positivus, hanc seriem post terminum suum $m+1^{\mathrm{tum}}$ (qui fit $=\pm1$) \emph{abrumpi}, adeoque in hoc casu summam fieri debere functionem finitam integram ipsius $x$.\quad Porro per art. 5. II. patet, generaliter pro valore quocunque ipsius $m$ haberi
+
+% A544-P0028-RC06
+\[
+\begin{aligned}
+1&=1\\
+-(m,1)&=-(m-1,1)-x^{m-1}\\
++(m,2)&=+(m-1,2)+x^{m-2}(m-1,1)\\
+-(m,3)&=-(m-1,3)-x^{m-3}(m-1,2),\ \text{etc.}
+\end{aligned}
+\]
+
+% A544-P0028-RC07
+adeoque
+
+% A544-P0028-RC08
+\[
+\begin{aligned}
+f(x,m)&=1-x^{m-1}-(1-x^{m-2})(m-1,1)\\
+&\qquad+(1-x^{m-3})(m-1,2)\\
+&\qquad-(1-x^{m-4})(m-1,3)+\text{etc.}
+\end{aligned}
+\]
+
+% A544-P0028-RC09
+Sed manifesto fit
+
+% A544-P0028-RC10
+\[
+\begin{aligned}
+(1-x^{m-2})(m-1,1)&=(1-x^{m-1})(m-2,1)\\
+(1-x^{m-3})(m-1,2)&=(1-x^{m-1})(m-2,2)\\
+(1-x^{m-4})(m-1,3)&=(1-x^{m-1})(m-2,3),\ \text{etc.}
+\end{aligned}
+\]
+
+% A544-P0028-RC11
+unde deducimus aequationem
+
+% A544-P0028-RC12
+\[
+\begin{aligned}
+f(x,m)=(1-x^{m-1})f(x,m-2)\ .\ .\ .\ .\ .\ .\ .\ .\ [1]
+\end{aligned}
+\]
+
+% A544-P0028-RC13
+\Article{7}
+
+% A544-P0028-RC14
+Quum pro $m=0$ fiat $f(x,m)=1$, per formulam modo inventam erit
+
+% A544-P0028-RC15
+\[
+\begin{aligned}
+f(x,2)&=1-x\\
+f(x,4)&=(1-x)(1-x^3)\\
+f(x,6)&=(1-x)(1-x^3)(1-x^5)\\
+f(x,8)&=(1-x)(1-x^3)(1-x^5)(1-x^7),\ \text{etc.}
+\end{aligned}
+\]
+
+% A544-P0028-RC16
+sive generaliter pro valore quocunque pari ipsius $m$
+
+% A544-P0028-RC17
+\[
+\begin{aligned}
+f(x,m)=(1-x)(1-x^3)(1-x^5)\dotsfour(1-x^{m-1})\ .\ .\ .\ [2].
+\end{aligned}
+\]
+
+\SourceLeaf{29}%
+% A544-P0029-RC02
+Contra quum pro $m=1$ fiat $f(x,m)=0$, erit etiam
+
+% A544-P0029-RC03
+\[
+\begin{aligned}
+f(x,3)&=0\\
+f(x,5)&=0\\
+f(x,7)&=0\ \text{etc.}
+\end{aligned}
+\]
+
+% A544-P0029-RC04
+sive generaliter pro valore quocunque impari ipsius $m$
+
+% A544-P0029-RC05
+\[
+\begin{aligned}
+f(x,m)=0
+\end{aligned}
+\]
+
+% A544-P0029-RC06
+Ceterum summatio posterior iam inde derivari potuisset, quod in progressione
+
+% A544-P0029-RC07
+\[
+\begin{aligned}
+1-(m,1)+(m,2)-(m,3)+\text{etc.}+(m,m-1)-(m,m)
+\end{aligned}
+\]
+
+% A544-P0029-RC08
+terminus ultimus primum destruit, penultimus secundum etc.
+
+% A544-P0029-RC09
+\Article{8}
+
+% A544-P0029-RC10
+Ad scopum quidem nostrum sufficit casus is, ubi $m$ est integer positivus impar: sed propter rei singularitatem etiam de casibus iis, ubi $m$ vel fractus vel negativus est, pauca adiecisse haud poenitebit.\quad Manifesto tunc series nostra haud amplius abrumpetur, sed in infinitum excurret, facileque insuper perspicitur, divergentem eam fieri, quoties ipsi $x$ valor minor quam $1$ tribuatur, quapropter ipsius summatio ad valores ipsius $x$ qui sint maiores quam $1$ restringi debebit.
+
+% A544-P0029-RC11
+Per formulam [1] art. 6. habemus
+
+% A544-P0029-RC12
+\[
+\begin{aligned}
+f(x,-2)&=\frac{1}{1-\frac1x}\\[8pt]
+f(x,-4)&=\frac{1}{1-\frac1x}\pdot\frac{1}{1-\frac1{x^3}}\\[8pt]
+f(x,-6)&=\frac{1}{1-\frac1x}\pdot\frac{1}{1-\frac1{x^3}}\pdot\frac{1}{1-\frac1{x^5}},\ \text{etc.}
+\end{aligned}
+\]
+
+% A544-P0029-RC13
+ita ut valor functionis $f(x,m)$ etiam pro valore negativo integro pari ipsius $m$ in terminis finitis assignabilis sit.\quad Pro reliquis vero valoribus ipsius $m$ functionem $f(x,m)$ in \emph{productum infinitum} sequenti modo convertemus.
+
+% A544-P0029-RC14
+Crescente $m$ in valorem negativum \emph{infinitum}, functio $f(x,m)$ transit in
+
+\SourceLeaf{30}%
+% A544-P0030-B02
+\[
+\begin{aligned}
+&1+\frac1{x-1}+\frac1{x-1}\pdot\frac1{xx-1}\\
+&\qquad+\frac1{x-1}\pdot\frac1{xx-1}\pdot\frac1{x^3-1}+\text{etc.}
+\end{aligned}
+\]
+
+% A544-P0030-B03
+Haec itaque series aequalis est producto infinito
+
+% A544-P0030-B04
+\[
+\begin{aligned}
+\frac1{1-\frac1x}\pdot\frac1{1-\frac1{x^3}}\pdot\frac1{1-\frac1{x^5}}\pdot\frac1{1-\frac1{x^7}}\;\text{etc. in infin.}
+\end{aligned}
+\]
+
+% A544-P0030-B05
+Porro quum generaliter sit
+
+% A544-P0030-B06
+\[
+\begin{aligned}
+f(x,m)&=f(x,m-2\lambda)\pdot(1-x^{m-1})(1-x^{m-3})\\
+&\qquad(1-x^{m-5})\dotstwo(1-x^{m-2\lambda+1})
+\end{aligned}
+\]
+
+% A544-P0030-B07
+erit
+
+% A544-P0030-B08
+\[
+\begin{aligned}
+f(x,m)&=f(x,-\infty)\pdot(1-x^{m-1})(1-x^{m-3})(1-x^{m-5})\\
+&\qquad\text{etc. in infin.}\\
+&=\frac{1-x^{m-1}}{1-x^{-1}}\pdot\frac{1-x^{m-3}}{1-x^{-3}}\pdot\frac{1-x^{m-5}}{1-x^{-5}}\pdot\frac{1-x^{m-7}}{1-x^{-7}}\\
+&\qquad\text{etc. in infin.}
+\end{aligned}
+\]
+
+% A544-P0030-B09
+quos factores tandem continuo magis ad unitatem convergere palam est.
+
+% A544-P0030-B10
+Attentionem peculiarem meretur casus $m=-1$, ubi fit
+
+% A544-P0030-B11
+\[
+\begin{aligned}
+f(x,-1)=1+x^{-1}+x^{-3}+x^{-6}+x^{-10}+\text{etc.}
+\end{aligned}
+\]
+
+% A544-P0030-B12
+Haec itaque series aequatur producto infinito
+
+% A544-P0030-B13
+\[
+\begin{aligned}
+\frac{1-x^{-2}}{1-x^{-1}}\pdot\frac{1-x^{-4}}{1-x^{-3}}\pdot\frac{1-x^{-6}}{1-x^{-5}}\;\text{etc.}
+\end{aligned}
+\]
+
+% A544-P0030-B14
+sive scribendo $x$ pro $x^{-1}$, erit
+
+% A544-P0030-B15
+\[
+\begin{aligned}
+1+x+x^3+x^6+\text{etc.}&=\frac{1-xx}{1-x}\pdot\frac{1-x^4}{1-x^3}\pdot\frac{1-x^6}{1-x^5}\\
+&\qquad\pdot\frac{1-x^8}{1-x^7}\;\text{etc.}
+\end{aligned}
+\]
+
+% A544-P0030-B16
+Haec aequalitas inter duas expressiones abstrusiores, ad quas alia occasione reveniemus, valde sane est memorabilis.
+
+% A544-P0030-B17
+\Article{9}
+
+% A544-P0030-B18
+Secundo loco considerabimus progressionem hancce
+
+% A544-P0030-B19
+\[
+\begin{aligned}
+&1+x^{\frac12}\frac{1-x^m}{1-x}+x\frac{(1-x^m)(1-x^{m-1})}{(1-x)(1-xx)}\\
+&\qquad+x^{\frac32}\frac{(1-x^m)(1-x^{m-1})(1-x^{m-2})}{(1-x)(1-xx)(1-x^3)}+\text{etc.}
+\end{aligned}
+\]
+
+% A544-P0030-B20
+sive
+
+% A544-P0030-B21
+\[
+\begin{aligned}
+1+x^{\frac12}(m,1)+x(m,2)+x^{\frac32}(m,3)+xx(m,4)+\text{etc.}
+\end{aligned}
+\]
+
+% A544-P0030-B22
+quam per $F(x,m)$ denotabimus.\quad Restringemus hanc disquisitionem ad casum eum, ubi $m$ est integer positivus, ita ut haec quoque series semper abrumpatur %

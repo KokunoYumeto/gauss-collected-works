@@ -1,0 +1,71 @@
+{
+  "title": "Carl Friedrich Gauss: Werke, Band VIII",
+  "parts": [
+    {
+      "id": "01_eroeffnung_analysis",
+      "title": "Titelblätter, Arithmetik und Algebra, Analysis",
+      "main": "source.tex",
+      "pdf": "build/source.pdf"
+    },
+    {
+      "id": "02_modulfunctionen",
+      "title": "Drei Fragmente über elliptische Modulfunctionen",
+      "main": "source.tex",
+      "pdf": "build/source.pdf"
+    },
+    {
+      "id": "03_pentagramma",
+      "title": "Weitere Fragmente über das Pentagramma mirificum",
+      "main": "source.tex",
+      "pdf": "build/source.pdf"
+    },
+    {
+      "id": "04_numerisches_rechnen",
+      "title": "Numerisches Rechnen",
+      "main": "source.tex",
+      "pdf": "build/source.pdf"
+    },
+    {
+      "id": "05_wahrscheinlichkeit",
+      "title": "Wahrscheinlichkeitsrechnung",
+      "main": "source.tex",
+      "pdf": "build/source.pdf"
+    },
+    {
+      "id": "06_grundlagen",
+      "title": "Grundlagen der Geometrie",
+      "main": "source.tex",
+      "pdf": "build/source.pdf"
+    },
+    {
+      "id": "07_situs",
+      "title": "Geometria Situs",
+      "main": "source.tex",
+      "pdf": "build/source.pdf"
+    },
+    {
+      "id": "08_elementare_geometrie",
+      "title": "Aufgaben und Lehrsätze der elementaren Geometrie angehörig",
+      "main": "source.tex",
+      "pdf": "build/source.pdf"
+    },
+    {
+      "id": "09_complexe_geometrie",
+      "title": "Verwendung complexer Grössen für die Geometrie",
+      "main": "source.tex",
+      "pdf": "build/source.pdf"
+    },
+    {
+      "id": "10_krumme_flaechen",
+      "title": "Theorie der krummen Flächen",
+      "main": "source.tex",
+      "pdf": "build/source.pdf"
+    },
+    {
+      "id": "11_endmatter",
+      "title": "Bemerkungen, Berichtigungen, Inhalt und Verlagsanzeige",
+      "main": "source.tex",
+      "pdf": "build/source.pdf"
+    }
+  ]
+}

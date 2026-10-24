@@ -1,0 +1,263 @@
+\SourceLeaf{356}%
+% A544-P0356-D01
+\Article{5}
+Hieraus leiten wir folgende zweite Methode den Decidenten zu bestimmen ab.
+
+I. Man sammle alle Combinationen von ganzen Werthen von $Y$ und $x$, die folgende Eigenschaften haben
+\begin{enumerate}
+\item dass $\xi=\frac{Ax+bY}{\alpha}$ zwischen $0$ und $\frac12$ falle, wobei die zweite Grenze inclusive genommen wird
+\item dass $\eta=\frac{-Bx+aY}{\alpha}$ zwischen $0$ und $\frac12$ falle, die erste Grenze inclusive genommen.
+\end{enumerate}
+
+% A544-P0356-D02
+II. Man berechne dafür
+\[
+\begin{aligned}
+X&=\frac{Dx+\beta Y}{\alpha}\\[3pt]
+y&=\frac{\beta x+dY}{\alpha}
+\end{aligned}
+\]
+
+% A544-P0356-D03
+III. Man lasse alle diejenigen weg, wo $[X]$ eine ungerade Zahl ist, und theile die übrigen, wo $[X]$ gerade ist, in zwei Classen;
+
+in die erste Classe setze man diejenigen, wo zugleich
+\[
+\begin{array}{l}
+Y\text{ gerade, }x\text{ gerade, }[y]\text{ gerade}\\
+\text{oder wo eine dieser Bedingungen Statt findet;}
+\end{array}
+\]
+in die zweite Classe diejenigen, wo zwei dieser Bedingungen oder gar keine Statt hat,
+\[
+\begin{array}{rl}
+\text{oder in I.}&\text{wo }[Y+x+y]\text{ gerade}\\
+\text{II.}&\text{wo }[Y+x+y]\text{ ungerade}
+\end{array}
+\]
+und nenne den Ueberschuss der Anzahl in der ersten Classe über die in der zweiten $c$.
+
+% A544-P0356-D04
+IV. Man sammle alle Combinationen von ganzen Werthen von $Y$ und $y$, die folgende Eigenschaften haben:
+\begin{enumerate}
+\item dass $\xi=\frac{Ay-aY}{\beta}$ zwischen $0$ und $\frac12$ falle, die erste Grenze inclusive, wenn $\beta$ negativ, die zweite inclusive, wenn $\beta$ positiv;
+\item dass $\eta=\frac{-By+bY}{\beta}$ zwischen $0$ und $\frac12$ falle, die erste Grenze inclusive bei positivem $\beta$, die zweite bei negativem.
+\end{enumerate}
+\BookRule{.3\textwidth}
+
+\SourceLeaf{357}%
+% A544-P0357-D01
+\par\bigskip\Needspace{7\baselineskip}
+\pdfbookmark[1]{Zur Theorie der biquadratischen Reste. V.}{nachlass-biquadratic-V}
+\centerline{[V.]}\medskip
+\renewcommand{\Article}[1]{\par\medskip\Needspace{4\baselineskip}\pdfbookmark[2]{Art. #1}{nachlass-biquadratic-V-art-#1}\centerline{\textbf{[#1.]}}\nobreak\smallskip}
+\Article{1}
+\[
+\begin{array}{lll}
+\text{Modulus}&M=A+Bi&AA+BB=D\\
+\text{Rest}&m=a+bi,&aa+bb=d
+\end{array}
+\]
+\[
+\frac{mD}{M}=\mu=\alpha+\beta i=aA+bB+(Ab-Ba)i
+\]
+\[
+\xi+\eta i=\pi,\quad\pi m=p=x+yi;\quad\pi M=P=X+Yi
+\]
+$\omega$ eine unbestimmte unendlich kleine reelle positive Grösse.
+
+% A544-P0357-D02
+\Article{2}
+\begin{center}\emph{Vorbereitung.}\end{center}
+I. Man sammle alle $\pi$, wo
+\[
+\begin{array}{l}
+\xi\text{ nicht negativ und nicht grösser als }\frac12\\
+\eta\text{ positiv und kleiner als }\frac12\\
+\text{Entweder }x\text{ oder }y\text{ eine Ganze}\\
+\text{Entweder }X\text{ oder }Y\text{ eine Ganze}
+\end{array}
+\]
+und bestimme für jedes $\pi$ die Grösse $\varepsilon$ nach folgender Regel:
+\[
+\begin{array}{ll}
+\text{Es sei }p^0&\text{die nächste Ganze durch }1+i\text{ theilbare bei }p\\
+P^0&\text{die nächste Ganze durch }1+i\text{ theilbare bei }P
+\end{array}
+\]
+und setze $\varepsilon=\pm1$, wo das Zeichen immer dasselbe ist wie das Zeichen des imaginären Theils der Grösse
+\[
+\frac{p-p^0}{P-P^0}(\alpha-\beta i)
+\]
+
+% A544-P0357-D03
+folgendes sind die Specialregeln: Erste Classe, $x$ und $X$ Ganze
+\[
+\begin{aligned}
+\beta\xi&=-Bx+bX\\
+\beta\eta&=-Ax+aX\\
+\beta y&=-\alpha x+dX\\
+\beta Y&=-Dx+\alpha X
+\end{aligned}
+\]
+
+\SourceLeaf{358}%
+% A544-P0358-D01
+$\varepsilon=-1$, wenn $\beta$ positiv, $x$ gerade, $[y]$ gerade, $X$ gerade, $[Y]$ gerade oder wenn nur eine ungerade Anzahl dieser Bedingungen gilt.
+
+$\varepsilon=+1$, wenn keine oder eine gerade Anzahl dieser Bedingungen gilt.
+
+% A544-P0358-D02
+Zweite Classe, $y$ und $Y$ Ganze
+\[
+\begin{aligned}
+\beta\xi&=+Ay-aY\\
+\beta\eta&=-By+bY\\
+\beta x&=+\alpha y-dY\\
+\beta X&=+Dy-\alpha Y
+\end{aligned}
+\]
+$\varepsilon=-1$, wenn $\beta$ positiv, $[x]$ gerade, $y$ gerade, $[X]$ gerade, $Y$ gerade oder wenn eine ungerade Anzahl dieser Bedingungen gilt.
+
+$\varepsilon=+1$, wenn keine oder eine gerade Anzahl gilt.
+
+% A544-P0358-D03
+Dritte Classe, $y$ und $X$ Ganze
+\[
+\begin{aligned}
+\alpha\xi&=+By+aX\\
+\alpha\eta&=+Ay-bX\\
+\alpha x&=-\beta y+dX\\
+\alpha Y&=+Dy-\beta X
+\end{aligned}
+\]
+$\varepsilon=-1$, wenn $\alpha$ positiv, $[x],y,X,[Y]$ alle Gerade oder wenn eine ungerade Anzahl dieser Bedingungen gilt.
+
+$\varepsilon=+1$, wenn keine oder eine gerade Anzahl Statt hat.
+
+% A544-P0358-D04
+Vierte Classe, $x$ und $Y$ Ganze
+\[
+\begin{aligned}
+\alpha\xi&=+Ax+bY\\
+\alpha\eta&=-Bx+aY\\
+\alpha y&=+\beta x+dY\\
+\alpha X&=+Dx+\beta Y
+\end{aligned}
+\]
+$\varepsilon=+1$, wenn $\alpha$ positiv, $x,[y],[X],Y$ alle Gerade oder bei einer ungeraden Anzahl dieser Bedingungen.
+
+$\varepsilon=-1$, bei keiner oder einer geraden Anzahl derselben.
+
+\SourceLeaf{359}%
+% A544-P0359-D01
+\Article{3}
+II. Man sammle alle $\pi$, wo
+\[
+\begin{array}{l}
+\xi\text{ positiv und kleiner als }\frac12\\
+\eta=\omega\\
+\text{und entweder }X\text{ oder }Y\text{ eine Ganze,}
+\end{array}
+\]
+und setze $\varepsilon=\pm1$ so dass das Zeichen des imaginären Theils von
+\[
+\frac{M}{P-P^0}
+\]
+zu nehmen ist.
+
+Specialregel: Erste Classe, $X$ ganz
+\[
+\begin{aligned}
+A\xi&=+X+B\omega\\
+Ax&=+aX-\beta\omega\\
+Ay&=+bX-\alpha\omega\\
+AY&=+BX+D\omega
+\end{aligned}
+\]
+$\varepsilon=-1$, wenn $A$ positiv, $X$ und $[Y]$ gerade oder wenn nur eine Bedingung gilt.
+
+$\varepsilon=+1$, wenn keine oder zwei gelten.
+
+% A544-P0359-D02
+Zweite Classe, $Y$ ganz
+\[
+\begin{aligned}
+B\xi&=+Y-A\omega\\
+Bx&=+aY-\alpha\omega\\
+By&=+bY-\beta\omega\\
+BX&=+AY-D\omega
+\end{aligned}
+\]
+$\varepsilon=+1$, wenn $B$ positiv, $[X]$ und $Y$ gerade oder wenn nur eine Bedingung gilt.
+
+$\varepsilon=-1$, wenn keine oder zwei gelten.
+
+% A544-P0359-D03
+\Article{4}
+III. Man sammle alle $\pi$, wo
+\begin{quote}
+$\xi$ und $\eta$ denselben Bedingungen unterworfen sind wie in II.\par
+entweder $x$ oder $y$ Ganze,
+\end{quote}
+und setze $\varepsilon=\pm1$ mit dem Zeichen des imaginären Theils von
+\[
+\frac{m}{p-p^0}
+\]
+
+\SourceLeaf{360}%
+% A544-P0360-D01
+Specialregeln: Erste Classe, $x$ ganz
+\[
+\begin{aligned}
+a\xi&=+x+b\omega\\
+ay&=+bx+d\omega\\
+aX&=+Ax+\beta\omega\\
+aY&=+Bx+\alpha\omega
+\end{aligned}
+\]
+$\varepsilon=-1$, wenn $a$ positiv, $x,[y]$ beide gerade oder wenn nur eine Bedingung gilt.
+
+$\varepsilon=+1$, wenn keine oder zwei gelten.
+
+% A544-P0360-D02
+Zweite Classe, $y$ ganz
+\[
+\begin{aligned}
+b\xi&=+y-a\omega\\
+bx&=+ay-d\omega\\
+bX&=+Ay-\alpha\omega\\
+bY&=+By+\beta\omega
+\end{aligned}
+\]
+$\varepsilon=+1$, wenn $b$ positiv, $[x]$ und $y$ gerade oder wenn nur eine Bedingung gilt.
+
+$\varepsilon=-1$, wenn keine gilt.
+
+% A544-P0360-D03
+\Article{5}
+IV. Man sammle alle $\pi$, wo
+\[
+\begin{array}{l}
+\xi=\frac12+\frac12\omega\\
+\eta\text{ positiv und kleiner als }\frac12\\
+X\text{ oder }Y\text{ ganz,}
+\end{array}
+\]
+und setze $\varepsilon=\pm1$ mit dem Zeichen des imaginären Theils von
+\[
+\frac{iM}{P-P^0}
+\]
+Specialregeln: Erste Classe $X$ eine Ganze,
+\[
+\begin{aligned}
+2B\eta&=+A-2X+A\omega\\
+2Bx&=-\beta+2bX-\beta\omega\\
+2By&=+\alpha-2aX+\alpha\omega\\
+2BY&=+D-2AX+D\omega
+\end{aligned}
+\]
+$\varepsilon=+1$, wenn $B$ positiv, $X,[Y]$ gerade oder bei einer Bedingung,
+
+$\varepsilon=-1$, bei keiner oder zwei Bedingungen.
+

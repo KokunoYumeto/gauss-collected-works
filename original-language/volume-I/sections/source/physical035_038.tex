@@ -1,0 +1,90 @@
+% Physical source leaf 035, printed30. Complete incoming paragraph.
+\SourceLeaf{35}
+His disquisitionibus, per quas sectionis propositum iam absolutum est, adhuc quasdam propositiones similibus principiis innixas adiungimus, quibus in sequentibus frequenter opus erit.
+
+\begin{center}\emph{Theoremata varia.}\end{center}
+
+\Article{38}
+\textsc{Problema.} \emph{Invenire, quot numeri positivi dentur numero positivo dato $A$ minores simulque ad ipsum primi.}
+
+Designemus brevitatis gratia multitudinem numerorum positivorum ad numerum datum primorum ipsoque minorum per praefixum characterem $\phi$. Quaeritur itaque $\phi A$.
+
+I. Quando $A$ est primus, manifestum est omnes numeros ab $1$ usque ad $A-1$ ad $A$ primos esse; quare in hoc casu erit
+\[\phi A=A-1\]
+
+II. Quando $A$ est numeri primi potestas puta $=p^m$, omnes numeri per $p$ divisibiles ad $A$ non erunt primi, reliqui erunt. Quamobrem de $p^m-1$ numeris hi sunt reiiciendi: $p,2p,3p....(p^{m-1}-1)p$; remanent igitur $p^m-1-(p^{m-1}-1)$ sive $p^{m-1}(p-1)$. Hinc
+\[\phi p^m=p^{m-1}(p-1)\]
+
+III. Reliqui casus facile ad hos reducuntur ope sequentis propositionis: \emph{Si $A$ in factores $M,N,P$ etc. inter se primos est resolutus, erit}
+\[\phi A=\phi M.\,\phi N.\,\phi P\ \textit{etc.}\]
+quae ita demonstratur. Sint numeri ad $M$ primi ipsoque $M$ minores $m,m'.m''$ etc. quorum itaque multitudo $=\phi M$. Similiter sint numeri ad $N,P$ etc. respective primi ipsisque minores $n,n',n''$ etc.; $p,p',p''$ etc. etc., quorum multitudo $\phi N,\phi P$ etc. Iam constat omnes numeros ad productum $A$ primos etiam ad factores singulos $M,N,P$ etc. primos fore et vice versa (art. 19); porro omnes numeros qui horum $m,m',m''$ etc. alicui sint congrui secundum modulum $M$ ad $M$ primos fore et vice versa, similiterque de $N,P$ etc. Quaestio itaque huc reducta est: determinare quot dentur numeri infra $A$, qui secundum modulum $M$, alicui numerorum $m,m',m''$ etc. secundum $N$, alicui ex his $n,n',n''$
+% Physical source leaf 036, printed31; same paragraph continues.
+\SourceLeaf{36}
+etc. etc. sint congrui. Sed ex art. 32 sequitur, omnes numeros, secundum singulos modulos $M,N,P$ etc. residua determinata dantes, congruos secundum eorum productum $A$ fore, adeoque infra $A$ unicum tantum dari, secundum singulos $M,N,P$ etc. residuis datis congruum. Quare numerus quaesitus aequalis erit numero combinationum singulorum numerorum $m,m',m''$ cum singulis $n,n',n''$ atque $p,p',p''$ etc. etc. Hunc vero esse $=\phi M.\,\phi N.\,\phi P$ etc. ex theoria combinationum constat. \emph{Q. E. D.}
+
+IV. Iam quomodo hoc ad casum de quo agimus applicandum sit facile intelligitur. Resolvatur $A$ in factores suos primos sive reducatur ad formam $a^\alpha b^\beta c^\gamma$ etc. designantibus $a,b,c$ etc. numeros primos diversos. Tum erit
+\[
+\begin{aligned}
+\phi A&=\phi a^\alpha.\,\phi b^\beta.\,\phi c^\gamma\ \mathrm{etc.}\\
+&=a^{\alpha-1}(a-1)\,b^{\beta-1}(b-1)\,c^{\gamma-1}(c-1)\ \mathrm{etc.}
+\end{aligned}
+\]
+seu concinnius
+\[\phi A=A\,\frac{a-1}{a}.\,\frac{b-1}{b}.\,\frac{c-1}{c}\ \mathrm{etc.}\]
+
+\emph{Exempl.} Sit $A=60=2^2.\,3.\,5$, adeoque $\phi A=\frac{1}{2}.\,\frac{2}{3}.\,\frac{4}{5}.\,60=16$. Numeri hi ad $60$ primi sunt $1,7,11,13,17,19,23,29,31,37,41,43,47,49,53.\,59.$
+
+Solutio prima huius problematis exstat in commentatione ill. Euleri, \emph{theoremata arithmetica nova methodo demonstrata}, Comm. nov. Ac. Petrop. VIII p. 74. Demonstratio postea repetita est in alia diss. \emph{Speculationes circa quasdam insignes proprietates numerorum}, Acta Petrop. VIII p. 17.
+
+\Article{39}
+Si characteris $\phi$ significatio ita determinatur, ut $\phi A$ exprimat multitudinem numerorum ad $A$ primorum ipsoque $A$ \emph{non maiorum}. perspicuum est $\phi1$ fore non amplius $=0$, sed $=1$, in omnibus reliquis casibus nihil hinc immutari. Hancce definitionem adoptantes sequens habebimus theorema.
+
+\emph{Si $a,a',a''$ etc. sunt omnes divisores ipsius $A$ (unitate et ipso $A$ non exclusis), erit}
+\[\phi a+\phi a'+\phi a''+\textit{etc.}=A\]
+
+\emph{Ex.} sit $A=30$, tum erit $\phi1+\phi2+\phi3+\phi5+\phi6+\phi10+\phi15+\phi30=1+1+2+4+2+4+8+8=30$.
+
+\emph{Demonstr.} Multiplicentur omnes numeri ad $a$ primi ipsoque $a$ non maiores per $\frac{A}{a}$, similiter omnes ad $a'$ primi per $\frac{A}{a'}$ etc., habebunturque $\phi a+\phi a'
+% Physical source leaf 037, printed32; mathematical expression continues.
++\phi a''+$ etc. numeri, omnes ipso $A$ non maiores. At
+\SourceLeaf{37}
+
+1) omnes hi numeri erunt inaequales. Omnes enim eos qui ex \emph{eodem} ipsius $A$ divisore sint generati, inaequales fore, per se clarum. Si vero e divisoribus diversis $M,N$ numerisque $\mu,\nu$ ad istos respective primis aequales prodiissent, i. e. si esset $\frac{A}{M}\mu=\frac{A}{N}\nu$, sequeretur $\mu N=\nu M$. Ponatur $M>N$ (id quod licet). Quoniam $M$ ad $\mu$ est primus, atque numerum $\mu N$ metitur, etiam ipsum $N$ metietur, maior minorem. \emph{Q. E. A.}
+
+2) inter hos numeros, omnes hi $1,2,3....A$ invenientur. Sit numerus quicunque ipsum $A$ non superans $t$, maxima numerorum $A,t$ communis mensura $\delta$ eritque $\frac{A}{\delta}$ divisor ipsius $A$ ad quem $\frac{t}{\delta}$ primus. Manifesto hinc numerus $t$ inter eos invenietur qui ex divisore $\frac{A}{\delta}$ prodierunt.
+
+3) Hinc colligitur horum numerorum multitudinem esse $A$, quare
+\[\phi a+\phi a'+\phi a''+\mathrm{etc.}=A.\quad\emph{Q. E. D.}\]
+
+\Article{40}
+\emph{Si maximus numerorum $A,B,C,D$ etc. divisor communis $=\mu$: numeri $a,b,c,d$ etc. ita determinari possunt, ut sit}
+\[aA+bB+cC+\textit{etc.}=\mu\]
+
+\emph{Dem.} Consideremus primo duos tantum numeros $A,B$, sitque horum divisor maximus communis $=\lambda$. Tum congruentia $Ax\equiv\lambda\ (\mathrm{mod.}\ B)$ erit resolubilis (art. 30). Sit radix $\equiv\alpha$, ponaturque $\frac{\lambda-A\alpha}{B}=\beta$. Tum erit $\alpha A+\beta B=\lambda$, uti desiderabatur.
+
+Accedente numero tertio $C$, sit maximus divisor communis numerorum $\lambda,C,=\lambda'$, eritque hic simul maximus divisor communis numerorum $A,B,C$\HistoricalNote{*)}{Metietur enim manifesto $\lambda'$ omnes $A,B,C$. Si vero non esset divisor communis \emph{maximus}: maximus foret maior quam $\lambda'$. Iam quoniam hic divisor maximus metitur ipsos $A,B,C$, metietur etiam ipsum $k\alpha A+k\beta B+\gamma C$ i. e. ipsum $\lambda'$, maior minorem \emph{Q. E. A.} --- Facilius adhuc hoc ex art. 18 deduci potest.}. Determinentur numeri $k,\gamma$ ita ut sit $k\lambda+\gamma C=\lambda'$, eritque $k\alpha A+k\beta B+\gamma C=\lambda'$.
+
+Accedente numero quarto $D$, ponatur maximus divisor communis numerorum $\lambda',D$ (quem simul esse maximum divisorem communem numerorum $A,B,C,D$ facile perspicitur) $=\lambda''$, fiatque $k'\lambda'+\delta D=\lambda''$. Tum erit $kk'\alpha A+kk'\beta B+k'\gamma C+\delta D=\lambda''$.
+
+% Physical source leaf 038, printed33. Article40 continues.
+\SourceLeaf{38}
+Simili modo procedi potest, quotcunque alii numeri accedant.
+
+Si itaque numeri $A,B,C,D$ etc. divisorem communem non habent, patet fieri posse
+\[aA+bB+cC+\mathrm{etc.}=1\]
+
+\Article{41}
+\emph{Si $p$ est numerus primus atque habentur $p$ res. inter quas quotcunque aequales esse possunt, modo non omnes sint aequales: numerus permutationum harum rerum per $p$ erit divisibilis.}
+
+\emph{Ex.} Quinque res $A,A,A,B,B$ decem modis diversis possunt transponi.
+
+Demonstratio huius theorematis facile quidem ex nota permutationum theoria peti potest. Si enim inter has res sunt primo $a$ aequales nempe $=A$, tum $b$ aequales nempe $=B$, tum $c$ aequales nempe $=C$ etc. (ubi numeri $a,b,c$ etc. etiam unitatem designare possunt), ita ut habeatur
+\[a+b+c+\mathrm{etc.}=p\]
+numerus permutationum erit
+\[=\frac{1.2.3......p}{1.2.3...a.1.2..b.1.2..c\ \mathrm{etc.}}\]
+Iam per se clarum est, huius fractionis numeratorem per denominatorem divisibilem esse, quoniam numerus permutationum debet esse integer: at numerator per $p$ divisibilis est, denominator vero, qui ex factoribus ipso $p$ minoribus est compositus, per $p$ non divisibilis (art. 15). Quare numerus permutationum per $p$ erit divisibilis (art. 19).
+
+Speramus tamen fore quibus etiam sequens demonstratio haud ingrata sit futura.
+
+Quando in duabus permutationibus rerum e quibus compositae sunt ordo in eo tantum discrepat, ut ea res quae in altera primum locum occupat, aliam sedem in altera teneat, reliquae autem eodem in utraque ordine progrediuntur, eamque quae in altera ultima est, ea quae est prima, in altera excipit; \emph{permutationes similes} vocemus\HistoricalNote{*)}{Si permutationes similes in circulum scriptae esse concipiuntur ita ut ultima res primae fiat contigua, nulla omnino erit discrepantia, quoniam nullus locus primus aut ultimus vocari poterit.}. Ita in ex. nostro permutationes $ABAAB$ et $ABABA$ similes erunt, quoniam res quae in priori primum secundum etc. locum occupant, in posteriori loco tertio quarto etc. eodem ordine sunt collocatae.
+% Native38 outgoing boundary: article41 continues on excluded native39.

@@ -1,0 +1,310 @@
+\SourceLeaf{331}%
+% A544-P0331-D01
+\[
+\begin{array}{l|l@{\qquad}l|l}
+a+4+bi&D+a+b&a+8+bi&D+2\\
+a+(b+4)i&D-a+b&&\\
+a-4+bi&D-a-b&&\\
+a+(b-4)i&D+a-b&&
+\end{array}
+\]
+\[
+\begin{array}{l|l}
+a+4+(b+4)i&D+2b\\
+a+4+(b-4)i&D+2a\\
+a-4+(b+4)i&D+2a\\
+a-4+(b-4)i&D+2b
+\end{array}
+\]
+
+% A544-P0331-D02
+Das Resultat der vorhergehenden Untersuchungen ist also folgendes:
+Für den Modulus $m=a+bi$, wo $a$ ungerade, $b$ gerade, wird
+\[
+\begin{aligned}
+D\frac{1+i}{m}&=\tfrac18(-aa+2ab+bb-8b+1)\\
+&\quad\text{(und wenn }a+bi=1+(2+2i)(\alpha+\beta i))\\
+&\text{oder }\tfrac18(-aa+2ab-3bb+1)\equiv-(\alpha-\beta)^2-\beta
+\end{aligned}
+\]
+\[
+\begin{aligned}
+D\frac{1-i}{m}&=\tfrac18(+aa+2ab-bb-8b-1)\\
+&\text{oder }\tfrac18(+aa+2ab+3bb-1)
+\end{aligned}
+\]
+\[
+\begin{aligned}
+D\frac{-1-i}{m}&=\tfrac18(-aa+2ab+bb+1)\\
+&=\beta+\alpha\alpha+2\alpha\beta-\beta\beta\equiv-\beta+(\alpha+\beta)^2
+\end{aligned}
+\]
+\[
+\begin{aligned}
+D\frac{-1+i}{m}&=\tfrac18(+aa+2ab-bb-1)\\
+&=\alpha+\alpha\alpha-2\alpha\beta-\beta\beta\equiv-\alpha-(\alpha+\beta)^2
+\end{aligned}
+\]
+\[
+\begin{aligned}
+D\frac2m&=\tfrac12ab\\
+D\frac im&=\tfrac14(aa+bb-1)\\
+D\frac{-1}m&=\tfrac12(aa+bb-1)
+\end{aligned}
+\]
+
+% A544-P0331-D03
+\begin{center}\emph{Allgemeines Theorem über die Decidenten.}\end{center}
+Es seien $A,B,C$ etc. ungleiche (unger. imag.) Primzahlen, deren keine die Zahl $M$ misst: alsdann ist
+\[
+D\frac{M}{A^\alpha B^\beta C^\gamma D^\delta}=\alpha D\frac MA+\beta D\frac MB+\gamma D\frac MC+\text{etc.}
+\]
+\[
+M^{\frac14(aa+bb-1)}\equiv i^{D\frac{M}{a+bi}}\ (\mathrm{mod.}\ (a+bi)\quad\text{wenn }a+bi\text{ eine Primzahl}
+\]
+
+% A544-P0331-D04
+\[
+\begin{aligned}
+D\frac{1+i}m&=\tfrac18(-aa+2ab-3bb+1)\\
+&=-\tfrac18(3(a-b)\mp1)(a-b\mp1)\quad\text{wenn }a\equiv\substack{1\\3}\\
+D\frac{1-i}m&=\tfrac18(+aa+2ab+3bb-1)\\
+D\frac{-1-i}m&=\tfrac18(-aa+2ab+bb+1)\\
+&=\tfrac18(a-b\mp1)(a-b\mp3)\quad\text{wenn }a\equiv\pm1\\
+D\frac{-1+i}m&=\tfrac18(+aa+2ab-bb-1)
+\end{aligned}
+\]
+
+\SourceLeaf{332}%
+% A544-P0332-D01
+Allgemein $m\equiv1\ \mathrm{mod.}(1+i)$
+\[
+\begin{aligned}
+D\frac{1+i}m&=-\text{P. Real. }\frac{(1+i)(m^4-1)}{16}=\text{Coëff. im. }\frac{m^4-1}{8+8i}\\
+D\frac{1-i}m&=+\text{P. Real. }\frac{(1-i)(m^4-1)}{16}=\text{Coëff. im. }\frac{m^4-1}{8-8i}
+\end{aligned}
+\]
+
+% A544-P0332-D02
+\[
+\begin{array}{c|rrrrrrrr}
+\multicolumn{9}{c}{1+i\ (\mathrm{mod.}\ 16)}\\\hline
+a&\multicolumn{8}{l}{\quad b}\\
+&0&2&4&6&8&10&12&14\\\hline
+1&0&3&3&0&2&1&1&2\\
+3&3&3&0&2&1&1&2&0\\
+5&1&2&0&3&3&0&2&1\\
+7&2&0&3&3&0&2&1&1\\
+9&2&1&1&2&0&3&3&0\\
+11&1&1&2&0&3&3&0&2\\
+13&3&0&2&1&1&2&0&3\\
+15&0&2&1&1&2&0&3&3
+\end{array}
+\]
+
+% A544-P0332-D03
+\Article{18}
+\begin{center}\emph{Theorie des biquadratischen Restes $-1-2i$.}\end{center}
+Der Modulus $=m=a+bi$ soll so beschaffen sein, dass $a$ ungerade, $b$ gerade; auch setzen wir voraus, dass derselbe eine Primzahl sei.
+
+% A544-P0332-D04
+Der Decident wird durch folgende Schemata vorgestellt, von deren Identität man sich leicht überzeugt:
+\begin{center}\resizebox{\textwidth}{!}{\input{diagrams/native332_schemata.tex}}\end{center}
+
+% A544-P0332-D05
+Der Kürze wegen bezeichnen wir $S(x,x+\alpha,x+\alpha+\beta,x+\beta)$ durch $[x,\alpha,\beta]$ so dass
+\[
+\begin{aligned}
+[x,\alpha,\beta]&=-[x,\beta,\alpha]=[x+\alpha,\beta,-\alpha]\\
+&=-[x+\alpha,-\alpha,\beta]\\
+&=[x+\alpha+\beta,-\alpha,-\beta]\\
+&=-[x+\alpha+\beta,-\beta,-\alpha]
+\end{aligned}
+\]
+
+% A544-P0332-D06
+Setzt man ferner
+\[
+\frac{m}{-2-4i}=\frac{-a-2b}{10}+\frac{-b+2a}{10}i=Q
+\]
+\SourceLeaf{333}%
+% A544-P0333-D01
+so besteht der Decident aus folgenden acht Theilen
+\[
+\begin{aligned}
+\mathrm{I}&=[0,\tfrac12,-iQ]\\
+-2\mathrm{II}&=-2[0,\tfrac12,Q]\\
+\mathrm{III}&=+[Q,\tfrac12,-iQ]\\
+\mathrm{IV}&=+[-iQ,\tfrac12,Q]\\
+-3\mathrm{V}&=-3[Q,\tfrac12,Q]\\
+-3\mathrm{VI}&=-3[2Q,\tfrac12,-iQ]\\
++2\mathrm{VII}&=+2[(1-i)Q,\tfrac12,Q]\\
++\mathrm{VIII}&=+[0,\tfrac12,\tfrac12im]
+\end{aligned}
+\]
+
+% A544-P0333-D02
+Ist $F$ indefinite ein Elementarrest des Modulus $-1-2i$, so hat man
+\[
+\Sigma[2FQ,\tfrac12,iQ]=[0,-\tfrac12-i,\tfrac12im]
+\]
+
+% A544-P0333-D03
+Setzt man also für $F$: $0,1,i,-1,-i$ so hat man
+\[
+\begin{array}{rll}
+0={}&[0,\tfrac12,iQ]&=\mathrm{IX}\\
+&+[2Q,\tfrac12,iQ]&=\mathrm{X}\pdot\\
+&+[2iQ,\tfrac12,iQ]&=\mathrm{XI}\\
+&+[-2Q,\tfrac12,iQ]&=\mathrm{XII}\\
+&+[-2iQ,\tfrac12,iQ]&=\mathrm{XIII}\\
+&-[0,-\tfrac12-i,\tfrac12im]&=-\mathrm{XIV}
+\end{array}
+\]
+
+% A544-P0333-D04
+Man setze dies zu dem vorigen Werth des Decident hinzu. Aus dieser Vereinigung fliessen folgende Resultate
+
+% A544-P0333-D05
+(1) Da $(1+2i)Q+\frac12$ eine ganze Zahl ist, so wird
+\[
+\begin{aligned}
+\mathrm{XI}&=[-Q-\tfrac12,\tfrac12,iQ]= -[-Q,-\tfrac12,iQ]\\
+&=-[Q,\tfrac12,-iQ]
+\end{aligned}
+\]
+also
+\[
+\mathrm{III}+\mathrm{XI}=0
+\]
+
+% A544-P0333-D06
+(2) Wir ziehen zusammen $\mathrm{IV},-3\mathrm{V},\mathrm{X},\mathrm{XIII}$ auf folgende Weise
+\[
+\begin{aligned}
+\mathrm{IV}&=+[-2Q+\tfrac12i,\tfrac12,Q]=[-2iQ-\tfrac12,\tfrac12i,iQ]\\
+\mathrm{V}'&=-[2Q,+\tfrac12,-Q]=-[-2iQ,-\tfrac12i,iQ]\\
+\mathrm{X}&=[+iQ-\tfrac12i,\tfrac12,iQ]\\
+&=[-iQ+\tfrac12i,-\tfrac12,-iQ]=[-2iQ-\tfrac12+\tfrac12i,\tfrac12,iQ]\\
+\mathrm{XIII}&=[-2iQ,\tfrac12,iQ]
+\end{aligned}
+\]
+
+\SourceLeaf{334}%
+% A544-P0334-D01
+Also die ganze Ausbeute aus diesen Theilen
+\[
+\begin{aligned}
+&-4\mathrm{V}\\
+&+R(-2iQ)-R(-iQ)-I(-2iQ)+I(-iQ)\\
+&-\text{Quadr. }[-2iQ-\tfrac14+\tfrac14i]\\
+&+\text{Quadr. }[-2iQ+\tfrac14-\tfrac14i]
+\end{aligned}
+\]
+
+% A544-P0334-D02
+(3) $\mathrm{I},-2\mathrm{II},-3\mathrm{VI},+2\mathrm{VII},+\mathrm{IX},+\mathrm{XII}$ zusammengezogen geben folgendes
+\[
+\begin{aligned}
+\mathrm{I}&=[0,\tfrac12,-iQ]\\
+\mathrm{II}&=[0,-\tfrac12i,-iQ]\\
+\mathrm{VI}&=[iQ-\tfrac12i,\tfrac12,-iQ]=[\tfrac12-\tfrac12i,-\tfrac12,iQ]\\
+&=[-\tfrac12+\tfrac12i,\tfrac12,-iQ]\\
+\mathrm{VII}&=[-Q-\tfrac12i,\tfrac12,Q]=[-\tfrac12+\tfrac12i,-\tfrac12,-Q]\\
+&=[+\tfrac12+\tfrac12i,-\tfrac12i,-iQ]\\
+\mathrm{IX}&=[0,-\tfrac12,-iQ]\\
+\mathrm{XII}&=[-iQ+\tfrac12i,\tfrac12,iQ]=[\tfrac12+\tfrac12i,-\tfrac12,-iQ]
+\end{aligned}
+\]
+\[
+\begin{aligned}
+={}&+4\mathrm{I}-4\mathrm{II}-4\mathrm{VI}+4\mathrm{XII}\\
+&-I(\tfrac12i)+I(-iQ+\tfrac12i)+I0-I(-iQ)-2R0+2R(-iQ)\\
+&+2\text{Quadr. }(-iQ+\tfrac14+\tfrac14i)\\
+={}&4\mathrm{I}-4\mathrm{II}-4\mathrm{VI}+4\mathrm{XII}\\
+&+R(-1-2i)Q-R(-2iQ)-I(-iQ)+2R(-iQ)\\
+&+2\text{Quadr. }(-2iQ+\tfrac14+\tfrac14i)
+\end{aligned}
+\]
+
+% A544-P0334-D03
+Dies Alles zusammen gibt folglich
+\[
+\begin{aligned}
+&+4\mathrm{I}-4\mathrm{II}-4\mathrm{V}-4\mathrm{VI}+4\mathrm{XII}+\tfrac12(a-1)-\tfrac12b\\
+&+\text{Quadr. }(-2iQ+\tfrac14-\tfrac14i)\\
+&+2\text{Quadr. }(-2iQ+\tfrac14+\tfrac14i)\\
+&-\text{Quadr. }(-2iQ-\tfrac14+\tfrac14i)
+\end{aligned}
+\]
+
+% A544-P0334-D04
+Endlich gibt $\mathrm{VIII}-\mathrm{XIV}=\frac12(a-1)+\frac12b$
+Also da die drei Quadrattheile dem Decident von $\frac{m}{-1-2i}$ gleich sind, so wird
+\[
+\text{Dec. }\frac{-1-2i}{m}\equiv a-1+\text{Dec. }\frac{m}{-1-2i}\quad\text{W. Z. B. W.}
+\]
+
+% A544-P0334-D05
+Wahrscheinlich wird der Beweis noch sehr dadurch vereinfacht werden können, dass
+\[
+\text{Dec. }\frac{1+2i}{m}=\vcenter{\hbox{\resizebox{.35\textwidth}{!}{\input{diagrams/native334_triangle.tex}}}}
+\]
+
+\SourceLeaf{335}%
+% A544-P0335-D01
+\Article{19}
+Durch Induction ist folgendes gefunden
+\[
+\begin{aligned}
+\text{Dec. }\frac{a-bi}{a+bi}&\equiv\frac{aa+2ab-1}{4},& a&\equiv1\ (\mathrm{mod.}\ 4)\\
+&\equiv\frac{aa+2ab+2bb-1}{4},&a+bi&\equiv1\ (\mathrm{mod.}\ 2+2i)
+\end{aligned}
+\]
+
+% A544-P0335-D02
+Hiemit steht Folgendes in Verbindung:
+Es sei $aa+bb=p$ (Primzahl) $a\equiv1\ (\mathrm{mod.}\ 4)$
+\[
+\begin{aligned}
+1\pdot2\pdot3\mathinner{.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.}\tfrac14(p-1)&\equiv\alpha\ \mathrm{mod.}p\\
+\tfrac14(p+3)\pdot\tfrac14(p+7)\ldots\tfrac12(p-1)&\equiv\beta\\
+\tfrac12(p+1)\pdot\tfrac12(p+3)\ldots\tfrac34(p-1)&\equiv\gamma\\
+\tfrac14(3p+1)\mathinner{.\,.\,.\,.\,.\,.\,.\,.\,.}\ p-1&\equiv\delta
+\end{aligned}
+\]
+so ist
+\[
+\begin{aligned}
+\alpha&\equiv\delta,&\beta&\equiv\gamma&\text{wenn }\tfrac12b\text{ gerade}\\
+\alpha&\equiv-\delta,&\beta&\equiv-\gamma&\text{wenn }\tfrac12b\text{ ungerade}
+\end{aligned}
+\]
+\[
+\begin{gathered}
+\pm\alpha\beta\equiv i,\quad\pm\beta\beta\equiv2b,\quad\frac\beta\alpha\equiv2a,\\
+\frac\beta{1+\alpha\beta}\equiv\surd a,\quad\tfrac12\beta(1-\alpha\beta)\equiv\surd a
+\end{gathered}
+\]
+
+% A544-P0335-D03
+Es wird demnach nur darauf ankommen die Decidenten bei reellen Resten zu bestimmen
+\[
+\begin{gathered}
+a^{\frac14bb}\pdot b^{\frac14(aa-1)}\equiv1\ (\mathrm{mod.}\ (aa+bb))\\
+\text{si }a\equiv1)(\mathrm{mod.}\ 4)\quad b\text{ par}\quad aa+bb\text{ primus}
+\end{gathered}
+\]
+
+% A544-P0335-D04
+Will man bloss mit reellen Zahlen zu thun haben, so kommt es auf folgendes Haupttheorem an. Es sei $a-1$ durch $4$, $b$ durch $2$ theilbar; $a$ und $b$ ohne gemeinschaftlichen Divisor, $k$ bedeute die Zahlen $1,2,3\ldots aa+bb-1$.
+Es sei
+\begin{list}{}{\setlength{\labelwidth}{1.5em}\setlength{\leftmargin}{2em}}
+\item[$\alpha$] die Zahl aller Werthe von $k$, wo die kleinsten Reste von $ak,\allowbreak bk,\quad\allowbreak aak,\quad\allowbreak abk$ alle zwischen $0$ und $\frac12(aa+bb)$ liegen
+\item[$\beta$] $ak,bk,\quad aak,-abk$
+\item[$\gamma$] $ak,bk,-aak,-abk$
+\item[$\delta$] $ak,bk,-aak,\quad abk$
+\end{list}
+alsdann ist $\beta+2\gamma+3\delta-\frac14(aa-1)$ durch $4$ theilbar.
+\BookRule{.35\textwidth}
+

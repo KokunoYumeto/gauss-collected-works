@@ -1,0 +1,23 @@
+\SourceLeaf{96}%
+
+\noindent Es handelt sich also um eines aus der Reihe jener Theoreme, welche \textsc{Fourier} seit 1807 auffand und 1822 in der »Théorie analytique de la chaleur« ausf\"uhrlich bekannt gab. Die von \textsc{Gauss} zum Beweise des Theorems angegebene Summenformel liefert f\"ur $\operatorname{lim.}\,\omega=0$ direct die \textsc{Fourier}sche Integralformel. Man wolle nur bemerken, dass die Gleichung $\mathop{\mathrm{lim.}}\limits_{x=\pm\infty}\varphi(x)=0$ hier g\"ultig sein muss, eine Bedingung, welche thats\"achlich f\"ur die von \textsc{Gauss} in der Wahrscheinlichkeitsrechnung benutzte Function $\varphi(x)$ zutrifft (cf. »Theoria combinationis observationum etc.« Art. 4, ges. Werke IV p. 5).
+
+\Needspace{17\baselineskip}
+Was die \textsc{Gauss}'sche Summenformel selbst angeht, so l\"asst sich dieselbe zun\"achst durch Spaltung des rechtsseitigen Integrals in die Gestalt setzen:
+\[
+\sum^{+\infty}_{k=-\infty}\varphi\!\left(t+\frac{2\pi k}{\omega}\right) = \frac{\omega}{2\pi}\sum^{+\infty}_{l=-\infty}\left(e^{-ilt\omega}\mathord{.}\sum^{+\infty}_{k=-\infty}\int^{\frac{2(k+1)\pi}{\omega}}_{\frac{2k\pi}{\omega}}\varphi(\theta)\mathord{.} e^{il\theta\omega}\,d\theta\right).
+\]
+\Needspace{15\baselineskip}
+\noindent F\"uhrt man hier eine neue Integrationsvariabele $x$ durch $\theta\omega = x+2k\pi$ ein und ordnet rechter Hand die Reihenfolge der Summationen um, so entspringt als neue Gestalt der Summenformel:
+\[
+\sum^{\infty}_{k=-\infty}\varphi\!\left(t+\frac{2\pi k}{\omega}\right) = \sum^{+\infty}_{k=-\infty}\sum^{+\infty}_{l=-\infty}\left(e^{-ilt\omega}\mathord{.}\frac{1}{2\pi}\int^{2\pi}_{0}\varphi\!\left(\frac{x+2k\pi}{\omega}\right)e^{ilx}\,dx\right).
+\]
+\Needspace{12\baselineskip}
+\noindent Die Richtigkeit dieser Formel geht aber direct hervor aus der \textsc{Fourier}schen Reihe:
+\[
+\varphi\!\left(t+\frac{2\pi k}{\omega}\right) = \sum^{+\infty}_{l=-\infty}\left(e^{-ilt\omega}\mathord{.}\frac{1}{2\pi}\int^{2\pi}_{0}\varphi\!\left(\frac{x+2k\pi}{\omega}\right)e^{ilx}\,dx\right).
+\]
+
+\begin{flushright}
+\textsc{Fricke}.
+\end{flushright}

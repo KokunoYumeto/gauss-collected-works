@@ -1,0 +1,81 @@
+\def\BookRunningTitle{Disquisitiones Arithmeticae}
+\input{common.tex}
+\usepackage{needspace,tabularx,longtable,pdflscape}
+\hypersetup{pdftitle={Carl Friedrich Gauss: Werke, Band I},pdfauthor={Carl Friedrich Gauss}}
+\begin{document}
+\frontmatter
+\input{sections/source/front_titles.tex}
+\pdfbookmark[0]{Dedicatio}{dedication}
+\input{sections/source/dedication.tex}
+\clearpage
+\pdfbookmark[0]{Praefatio}{preface}
+\input{sections/source/preface.tex}
+\mainmatter
+\pdfbookmark[0]{Sectio prima}{section-one}
+\input{sections/source/physical014_018.tex}
+\clearpage
+\pdfbookmark[0]{Sectio secunda}{section-two}
+\input{sections/source/physical019_022.tex}
+\input{sections/source/physical023_026.tex}
+\input{sections/source/physical027_030.tex}
+\input{sections/source/physical031_034.tex}
+\input{sections/source/physical035_038.tex}
+\input{sections/source/physical039_042.tex}
+\clearpage
+\pdfbookmark[0]{Sectio tertia}{section-three}
+\input{sections/source/physical043_046.tex}
+\input{sections/source/physical047_050.tex}
+\input{sections/source/physical051_054.tex}
+\input{sections/source/physical055_058.tex}
+\input{sections/source/physical059_062.tex}
+\input{sections/source/physical063_066.tex}%
+\input{sections/source/physical067_070.tex}
+\input{sections/source/physical071_074.tex}
+\input{sections/source/physical075_078.tex}
+\input{sections/source/physical079_082.tex}
+\input{sections/source/physical083_086.tex}%
+\input{sections/source/physical087_090.tex}
+\input{sections/source/physical091_094.tex}
+\input{sections/source/physical095_101.tex}
+\input{sections/source/physical102_111.tex}
+\input{sections/source/physical112_121.tex}
+\input{sections/source/physical122_131.tex}
+\input{sections/source/physical132_141.tex}
+\input{sections/source/physical142_151.tex}
+\input{sections/source/physical152_161.tex}
+\input{sections/source/physical162_171.tex}
+\input{sections/source/physical172_181.tex}
+\input{sections/source/physical182_191.tex}
+\input{sections/source/physical192_201.tex}
+\input{sections/source/physical202_211.tex}
+\input{sections/source/physical212_221.tex}
+\input{sections/source/physical222_231.tex}
+\input{sections/source/physical232_241.tex}
+\input{sections/source/physical242_251.tex}
+\input{sections/source/physical252_261.tex}
+\input{sections/source/physical262_271.tex}
+\input{sections/source/physical272_281.tex}
+\input{sections/source/physical282_291.tex}
+\input{sections/source/physical292_301.tex}
+\input{sections/source/physical302_311.tex}
+
+\input{sections/source/physical312_321.tex}
+
+\input{sections/source/physical322_331.tex}
+\input{sections/source/physical332_341.tex}%
+\input{sections/source/physical342_351.tex}%
+\newcommand{\ContentsEntry}[1]{\par\begingroup\leftskip=1.2em\parindent=0pt\hangindent=0.8em #1\par\endgroup}%
+\newcommand{\ContentsHeading}[2]{\par\medskip\Needspace{4\baselineskip}\noindent\parbox[t]{\dimexpr\linewidth-3.8em\relax}{\raggedright #1\dotfill}\hfill\makebox[3.8em][r]{#2}\par\smallskip}%
+\renewcommand{\Article}[1]{\par\smallskip\pdfbookmark[1]{Art. #1}{article-#1}\centerline{\textbf{#1.}}\nobreak\smallskip}%
+\let\OriginalSourceLeaf\SourceLeaf%
+\renewcommand{\SourceLeaf}[1]{\OriginalSourceLeaf{#1}%
+\ifnum#1=417\pdfbookmark[0]{Sectio septima}{section-seven}\fi%
+\ifnum#1=470\pdfbookmark[0]{Additamenta}{additamenta}\fi%
+\ifnum#1=472\pdfbookmark[0]{Tabulae}{tabulae}\fi%
+\ifnum#1=476\pdfbookmark[0]{Contenta}{contenta}\fi%
+\ifnum#1=480\pdfbookmark[0]{Anhang}{anhang}\fi%
+\ifnum#1=482\gdef\BookRunningTitle{Schlussbemerkung zur neuen Ausgabe}\pdfbookmark[0]{Schlussbemerkung zur neuen Ausgabe}{closing-remarks}\fi}%
+\widowpenalty=10000\clubpenalty=10000\displaywidowpenalty=10000%
+\input{work_i352_361/body.tex}
+\input{continuation_native362_483/body.tex}
+\end{document}

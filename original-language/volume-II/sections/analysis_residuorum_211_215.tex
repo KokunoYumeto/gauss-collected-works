@@ -1,0 +1,187 @@
+\SourceLeaf{211}%
+% A544-P0211-D01
+Quivis ceterum memor erit, signa $(n)$ et $(0)$, $(n+1)$ et $(1)$ etc. et in genere $(a)$ et $(b)$ aequivalere, quoties $a\equiv b\;(\mathrm{mod.}\,n)$.
+
+% A544-P0211-D02
+\Article{241}
+Sed ad nostrum propositum alio adhuc modo erit procedendum. Videlicet eos tantum terminos $(k)$ retinemus, ubi $k$ per $t$ non dividitur, quorum multitudo est $\frac{t-1}{t}\pdot n=\lambda$; omnes autem hi numeri (aut ipsis secundum $n$ congrui) per potestates successivas alicuius numeri exhiberi possunt. Sit hic $=\rho$; quare omnes radices primitivae congruentiae $x^n\equiv1$ ita denotabuntur
+\[
+(1)\quad(\rho)\quad(\rho^2)\quad(\rho^3)\ \dotsfour\ (\rho^{\lambda-1})
+\]
+Hoc autem artificio id obtinemus, ut omnes radices non primitivae penitus excludantur, cuius rei rationes et emolumenta infra clarius cognoscentur. In nostro igitur exemplo ponere possumus $\rho=3$ et radices congruentiae $x^7\equiv1$ primitivae ita ordinantur
+\[
+\begin{array}{rcccccc}
+&(1)&(3)&(3^2)&(3^3)&(3^4)&(3^5)\\
+\text{seu}&(1)&(3)&(2)&(6)&(4)&(5)\\
+\text{quae erunt}&7&24&20&25&23&16
+\end{array}
+\]
+
+% A544-P0211-D03
+\Article{242}
+Ne lector ignarus sit, quorsum disquisitiones sequentes tendant, theorema, quod demonstrandum atque dilucidandum nobis proponimus, indicare iuvabit.
+
+% A544-P0211-D04
+\emph{Si numerus $\lambda$ (qui est $=t^{\nu-1}\pdot t-1$) habeat factores simplices $a,b,c,d$ etc. et sit $\lambda=a^\alpha b^\beta c^\gamma\ldots$, resolutio congruentiae $x^n-1\equiv0$ pendet a resolutione $\alpha+\beta+\dotstwo$ congruentiarum inferiorum, quarum $\alpha$ sunt gradus $a$, $\beta$ gradus $b$, $\gamma$ gradus $c$ etc.}
+
+% A544-P0211-D05
+Ita in nostro exemplo congruentiae $x^7\equiv1$ resolutio pendet a congruentia secundi gradus et ab alia tertii gradus; perspiciturque in genere numquam gradum harum congruentiarum a modulo $p$ pendere. Ut autem ad huius theorematis demonstrationem perveniamus, necesse est aliquas propositiones ad nexum inter congruentias earumque radices spectantes praemittere, quamquam proprie in Cap. octavo hae disquisitiones ulterius sint persequendae.
+
+\SourceLeaf{212}%
+% A544-P0212-D01
+\Article{243}
+\textsc{Theorema.}\quad\emph{Si congruentia}
+\[
+x^m+Ax^{m-1}+Bx^{m-2}+\dotsfour+N\equiv0\;(\mathit{mod.\ primus})
+\]
+\emph{ita sit comparata, ut confecto producto ex $m$ factoribus $x-r$, $x-r'$, $x-r''$, $x-r'''\ldots$ quod sit $x^m+ax^{m-1}+bx^{m-2}\ldots+n$, sit $A\equiv a$, $B\equiv b$, $C\equiv c$ etc. secundum mod.\,$p$, quantitates $r,r',r''\ldots$ erunt radices congruentiae propositae nullasque alias habebit.}
+
+% A544-P0212-D02
+\emph{Demonstratio.}\quad I. Erit semper
+\[
+\begin{aligned}
+&x^m+Ax^{m-1}+Bx^{m-2}+\ldots\\
+&\qquad\equiv x^m+ax^{m-1}+bx^{m-2}+\ldots\;(\mathrm{mod.}\,p)
+\end{aligned}
+\]
+Sed posterior congruentiae pars fit $=0$ ponendo $x=r$, $x=r'$, $x=r''$ etc., quare pro his ipsius $x$ valoribus prior pars fiet $\equiv0\;(\mathrm{mod.}\,p)$. Q. E. Primum.
+
+% A544-P0212-D03
+II. Si autem alius adhuc valor $\rho$ nulli horum $r,r'$ etc. congruus congruentiae propositae satisfaceret, foret
+\[
+\begin{aligned}
+0&\equiv\rho^m+A\rho^{m-1}+B\rho^{m-2}+\ldots\\
+&\equiv\rho^m+a\rho^{m-1}+b\rho^{m-2}+\ldots\\
+&\equiv(\rho-r)(\rho-r')(\rho-r'')(\rho-r''')\ldots
+\end{aligned}
+\]
+sed quoniam nullus factorum $\rho-r$, $\rho-r'$, $\rho-r''$, etc. est $\equiv0$, productum ex omnibus fieri $\equiv0$, ob $p$ primum est absurdum. Quare praeter radices $r,r'$ etc. nullae dantur aliae. Q. E. Secundum.
+
+% A544-P0212-D04
+\Article{244}
+\textsc{Problema.}\quad\emph{Sint $r,r',r''\ldots$ quantitates incognitae, quarum multitudo sit $=m$, quarum summa sit $=\alpha$, summa quadratorum $=\beta$, summa cuborum $=\gamma\ldots$, summa potestatum, quarum exponens est $m$, $=\mu$, danturque non hi numeri (quorum multitudo etiam $=m$) ipsi, sed alii $\alpha',\beta',\gamma'$ etc. singulis congrui secundum modulum $p$, qui sit numerus primus et $>m$, invenire congruentiam $m^{\mathrm{ti}}$ gradus, cuius radices sint $r,r',r''$ etc.}
+
+% A544-P0212-D05
+\emph{Solutio.}\quad Considerentur $r,r',r''$ etc. quasi radices alicuius aequationis
+\[
+x^m+Ax^{m-1}+Bx^{m-2}+Cx^{m-3}+\ldots=0
+\]
+determinenturque eius coëfficientes $A,B,C$ etc. (adhibendo tantummodo congruentiam loco aequalitatis) ad methodum cognitam, faciendo scilicet
+\SourceLeaf{213}%
+% A544-P0213-D01
+\[
+\begin{aligned}
+-A&\equiv\alpha'\\
+-2B&\equiv\beta'+A\alpha'\\
+-3C&\equiv\gamma'+A\beta'+B\alpha'\\
+-4D&\equiv\delta'+A\gamma'+B\beta'+C\alpha'\\
+&\text{etc.}\\
+-mN&\equiv\mu'+A\lambda'+\text{etc.}
+\end{aligned}
+\]
+Hi vero coëfficientes non possunt esse indeterminati, quia omnes numeri $1,2,3\ldots m<p$. Dico congruentiam
+\[
+x^m+Ax^{m-1}+Bx^{m-2}+\ldots+N\equiv0
+\]
+esse quaesitam.
+
+% A544-P0213-D02
+\emph{Demonstr.}\quad Ponatur aequationem, cuius radices sunt $r,r',r'',r'''$ etc., esse hanc
+\[
+x^m+ax^{m-1}+bx^{m-2}+\ldots=0
+\]
+eritque
+\[
+\begin{aligned}
+-a&=\alpha\\
+-2b&=\beta+a\alpha\\
+-3c&=\gamma+a\beta+b\alpha\\
+-4d&=\delta+a\gamma+b\beta+c\alpha\\
+&\text{etc.}
+\end{aligned}
+\]
+Cuique autem manifestum hinc erit, fore
+\[
+a\equiv A,\quad b\equiv B,\quad c\equiv C\ \text{etc.}\;(\mathrm{mod.}\,p)
+\]
+quare per \S\ praec. numeri $r,r',r''$ etc., qui sunt radices \emph{aequationis}
+\[
+x^m+ax^{m-1}+bx^{m-2}+\ldots=0
+\]
+erunt simul radices \emph{congruentiae}
+\[
+x^m+Ax^{m-1}+Bx^{m-2}+\ldots\equiv0\qquad\text{Q. E. D.}
+\]
+Exempla componenda lectoribus linquimus.
+
+% A544-P0213-D03
+\Article{245}
+Ad propositum nostrum revertimur. Retentis characteribus \S\S.\ 242 et antec. adhibitis ostendere aggredimur, si $\lambda$ sit productum e factoribus quibuscunque
+\SourceLeaf{214}%
+% A544-P0214-D01
+$efg$ etc., radices congruentiae $x^n\equiv1$ primitivas, quarum multitudo est $\lambda$, ita in $e$ classes discerpi posse, ut aggregata radicum in eandem classem relatarum per congruentiam gradus $e^{\mathrm{ti}}$ dentur; his vero tamquam cognitis suppositis quamvis classem ita in $f$ ordines subdividi posse, ut aggregata cuiusvis ordinis per congruentiam $f^{\mathrm{ti}}$ gradus dentur, hique ordines rursus subdividi possunt etc., usque dum ad singulas radices perveniatur.
+
+% A544-P0214-D02
+\Article{246}
+\emph{Definitio.}\quad Complexum terminorum \emph{omnium} in tali forma $(\rho^{ke+\alpha})$ (\S.\ 241) contentorum \emph{periodum completam} sive simpliciter \emph{periodum} dicemus. Designat vero $e$ divisorem aliquem numeri $\lambda$; $\alpha$ numerum quemcunque datum, $k$ omnes numeros integros a $0$ usque ad $\frac{\lambda}{e}-1$; brevitatis vero gratia talem periodum ita designamus $(e\ast\alpha)$. Ita in exemplo nostro termini
+\[
+\begin{array}{rclcl}
+&(1),(2),(4)&\text{periodos}&(2\ast0)&\text{constituent,}\\
+&(3),(6),(5)&&(2\ast1)&\\
+\text{hi vero}&(1),(6)&\text{hasce}&(3\ast0)&\\
+&(3),(4)&&(3\ast1)&\\
+&(2),(5)&&(3\ast2)&
+\end{array}
+\]
+
+% A544-P0214-D03
+\emph{Iam si omnes termini in periodos quomodocunque distribuantur, singulaeque periodi iterum in periodos minores et sic porro, dicimus, id obtineri quod in \S.\ praec. promisimus.}
+
+% A544-P0214-D04
+Antequam vero hanc expositionem ipsam aggrediamur, ostendemus, formationi talis periodi, quamquam a duabus quantitatibus quodammodo arbitrariis $r,\rho$ dependeat, nihil tamen vagi inesse, seu quomodocunque hae quantitates eligantur, semper eosdem terminos in eandem periodum concurrere (siquidem quot terminos periodus continere debeat, fuerit praescriptum).
+
+% A544-P0214-D05
+Criterium, duos terminos $A,B$ in eadem periodo esse, inde petitur, quod uterque in tali forma continetur: $(\rho^{ke+\alpha})$ sive esse $A\equiv r^{\rho^{ke+\alpha}}$, $B\equiv r^{\rho^{k'e+\alpha}}\;(\mathrm{mod.}\,p)$. Hic autem $r$ est radix primitiva congruentiae $x^n\equiv1\;(\mathrm{mod.}\,p)$; $\rho$ vero radix primitiva congruentiae $x^\lambda\equiv1\;(\mathrm{mod.}\,n)$; vide supra.
+
+% A544-P0214-D06
+Demonstrandum est, si loco numerorum $r,\rho$ alii eligantur, puta $s,\sigma$, tunc $A$ et $B$ in similibus formis $s^{\sigma^{le+\beta}}$, $s^{\sigma^{l'e+\beta}}$ comprehendi.
+
+\SourceLeaf{215}%
+% A544-P0215-D01
+Sit $s^m\equiv r\;(\mathrm{mod.}\,p)$; $\sigma^\mu\equiv\rho\;(\mathrm{mod.}\,n)$ et $m\equiv\sigma^\zeta\;(\mathrm{mod.}\,n)$, quod fieri potest, quia $r,\rho$ sunt radices primitivae: erit vero $m$ primus ad $n$, $\mu$ ad $\lambda$ (Cap. \textsc{iii}). Per debitas substitutiones obtinebimus
+\[
+A\equiv s^{\sigma^{\mu ke+\mu\alpha+\zeta}},\qquad B=s^{\sigma^{\mu k'e+\mu\alpha+\zeta}}\qquad\text{Q. E. D.}
+\]
+
+% A544-P0215-D02
+\Article{247}
+\textsc{Theorema.}\quad\emph{Productum e binis periodis similibus independenter a numero $p$ componi potest per additionem periodorum similium et numerorum datorum.}
+
+% A544-P0215-D03
+(Periodos similes vocamus, quae aeque multos terminos comprehendant sive ubi numerus $e$ est idem).
+
+% A544-P0215-D04
+Exempl. Sit $n=7$, productum e periodis $(1)+(6)$ et $(2)+(5)$ erit (propter $(a)\times(b)=(a+b)$) $(3)+(6)+(8)+(11)$ sive constat e periodis $(3)+(4)$ et $(1)+(6)$.
+
+% A544-P0215-D05
+\emph{Demonstr.}\quad Sit $\frac{\lambda}{e}=f$, atque periodi datae $(e\ast\alpha)$ et $(e\ast\beta)$ seu aggregata
+\[
+\begin{aligned}
+&(\rho^\alpha)+(\rho^{\alpha+e})+(\rho^{\alpha+2e})+\ldots+(\rho^{\alpha+(f-1)e})\ \dotsfive\ P\\
+&(\rho^\beta)+(\rho^{\beta+e})+(\rho^{\beta+2e})+\ldots+(\rho^{\beta+(f-1)e})\ \dotsfive\ Q
+\end{aligned}
+\]
+
+% A544-P0215-D06
+Productum $PQ$ ex $f^2$ terminis constabit. Hi vero ita sunt ordinandi. Formentur $f$ series, quarum singulae ex $f$ terminis constent. Prima complectatur productum ipsius $P$ in $(\rho^\beta)$, secunda productum $P\pdot(\rho^{\beta+e})$ etc. etc. In prima serie primum locum occupet productum ex parte $(\rho^\alpha)$ oriundum, secundum productum ex $(\rho^{\alpha+e})$ et sic cetera deinceps; in secunda vero primus locus producto e parte $(\rho^{\alpha+e})$ oriundo tribuatur, secundus producto e parte $(\rho^{\alpha+2e})$ etc., ultimus denique producto e parte $(\rho^\alpha)$; tertia inchoet a producto e parte $(\rho^{\alpha+2e})$ et sic porro, post productum. e parte ultima sequatur productum e parte prima et secunda etc. etc., sive partibus successivis periodi $P$ per $1,2,3\ldots z$ et periodi $Q$ per $\mathrm{I},\mathrm{II},\mathrm{III},\dotsfour Z$ designati $PQ$ partes constituantur
+\[
+\begin{aligned}
+&1\pdot\mathrm{I}+2\pdot\mathrm{I}+3\pdot\mathrm{I}+4\pdot\mathrm{I}+\dotstwo+z\pdot\mathrm{I}\\
+&2\pdot\mathrm{II}+3\pdot\mathrm{II}+4\pdot\mathrm{II}+\dotsfour+1\pdot\mathrm{II}\\
+&3\pdot\mathrm{III}+4\pdot\mathrm{III}+\ldots+1\pdot\mathrm{III}+2\pdot\mathrm{III}\\
+&\qquad\text{etc.}\quad\text{etc.}
+\end{aligned}
+\]
+
+% A544-P0215-D07
+Tunc omnes termini in singulis seriebus eundem locum occupantes in $f$ ordines colligantur; et dico

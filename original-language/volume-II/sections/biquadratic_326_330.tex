@@ -1,0 +1,239 @@
+\SourceLeaf{326}%
+% A544-P0326-D01
+Inbegriff der Zahlen $f,f',f''$ etc. das System der Primitivreste von $m$. Ihre Anzahl ist immer $=aa+bb$.
+
+% A544-P0326-D02
+\Article{12}
+Man kann das System der Primitivreste auf vielfache Art bilden; die einfachste ist, die Punkte innerhalb des Quadrats $0,m,(1+i)m,im$ zu wählen; dazu müssen aber noch hinzugefügt werden
+\begin{enumerate}
+\item[I.] der Punkt oder die Grösse $0$
+\item[II.] alle Punkte auf zwei einander nicht gegenüberliegenden Grenzlinien.
+\end{enumerate}
+Anstatt auf einer der $4$ Grenzlinien alle Punkte zu nehmen, kann man sie auch auf mehren zugleich nehmen.
+
+% A544-P0326-D03
+Diese Auswahl dieser Punkte auf den Grenzlinien, falls welche darauf fallen, kann auf mehrfache Art geschehen, so dass obigen Bedingungen Genüge geschieht. Am einfachsten ist die folgende Manier.
+
+% A544-P0326-D04
+Man nehme auf der Grenzlinie $0,m$ alle Punkte zwischen $0$ und $\frac12m$ inclus. und auf der Grenzlinie $0,im$ alle Punkte von $\frac12im$ bis $im$ exclusive und auf ähnliche Art bei den beiden andern.
+
+% A544-P0326-D05
+Man kann diese beiden Manieren so sinnlich darstellen
+\begin{center}\resizebox{.85\textwidth}{!}{\input{diagrams/native326_boundaries.tex}}\end{center}
+
+% A544-P0326-D06
+\Article{13}
+Schliesst man von den Primitivpunkten aus
+\begin{enumerate}
+\item[I.] Bloss den Punkt $0$, wenn $a$ gerade und $b$ ungerade oder umgekehrt.
+\item[II.] Die Punkte $0$ und $\frac12(1+i)m$, wenn $a$ und $b$ beide ungerade.
+\item[III.] Die vier Punkte $0,\frac12m,\frac12(1+i)m,\frac12im$, wenn $a$ und $b$ beide gerade,
+\end{enumerate}
+so nennen wir die übrigbleibenden eigentliche Primitivpunkte, die ausgeschlossenen uneigentliche. Die Anzahl von jenen ist also
+\[
+\begin{array}{rrcl}
+\text{in Fall}&\mathrm{I}&=&aa+bb-1\\
+&\mathrm{II}&=&aa+bb-2\\
+&\mathrm{III}&=&aa+bb-4
+\end{array}
+\]
+also immer durch $4$ theilbar.
+
+\SourceLeaf{327}%
+% A544-P0327-D01
+\Article{14}
+Diese eigentlichen Primitivpunkte lassen sich in $4$ Classen $F,F',F'',F'''$ theilen, so dass
+\[
+\begin{array}{llll}
+iF\equiv F'&iF'\equiv F''&iF''\equiv F'''&iF'''\equiv F\\
+-F\equiv F''&-F'\equiv F'''&-F''\equiv F&-F'''\equiv F'\\
+-iF\equiv F'''&-iF'\equiv F&-iF''\equiv F'&-iF'''\equiv F''
+\end{array}
+\]
+Hiebei findet nun folgendes höchst wichtige Theorem statt.
+
+% A544-P0327-D02
+Es sei $M$ eine Zahl, welche mit $m$ keinen Factor gemein hat. Von den Zahlen $MF$ gehören in die Classe $F$ eine Anzahl von $n$
+\[
+\begin{array}{cc}F'&n'\\F''&n''\\F'''&n'''\end{array}
+\]
+und der kleinste Rest von $n'+2n''+3n''$ nach dem Modulus $4$ sei $=N$, also $N$ einer der $4$ Zahlen $0,1,2,3$ gleich: unter dieser Voraussetzung ist $N$ \emph{unabhängig} von der Art der Vertheilung der Primitivreste in Classen. Wir nennen ihn den Decident des biquadratischen Verhältnisses der Zahl $M$ zu $m$.
+
+% A544-P0327-D03
+\Article{15}
+Die einfachste Art der Vertheilung ist allerdings folgende
+\begin{center}\resizebox{.35\textwidth}{!}{\input{diagrams/native327_classes.tex}}\end{center}
+Inzwischen kann in speciellen Fällen eine andere Vertheilung vortheilhafter sein.
+
+% A544-P0327-D04
+\Article{16}
+Sind $f,f',f''$ etc. die sämmtlichen Primitivreste des Modulus $m$, so ist
+\SourceLeaf{328}%
+% A544-P0328-D01
+\[
+\begin{aligned}
+&S(z+\tfrac fm,\ z'+\tfrac fm,\ z''+\tfrac fm,\ \text{etc.})\\
+&+S(z+\tfrac{f'}m,\ z'+\tfrac{f'}m,\ z''+\tfrac{f'}m,\ \text{etc.})\\
+&+S(z+\tfrac{f''}m,\ z'+\tfrac{f''}m,\ z''+\tfrac{f''}m,\ \text{etc.})\\
+&+\text{etc.}\\
+&=S(mz,mz',mz'',\ \text{etc.}
+\end{aligned}
+\]
+
+% A544-P0328-D02
+\Article{17}
+\begin{center}\emph{Theorie des biquadratischen Restes} $1+i$.\end{center}
+Der Modulus soll mit dem Reste keinen Theiler gemein haben, wir nehmen also an, dass von den Zahlen $a$ und $b$ die eine gerade, die andere ungerade sei. Die Vertheilung der eigentlichen Primitivreste in die vier Classen stellt folgendes Schema vor
+\begin{center}\resizebox{.90\textwidth}{!}{\input{diagrams/native328_classes.tex}}\end{center}
+
+% A544-P0328-D03
+Zu $n$ sind zu rechnen alle Zahlen auf
+\[
+\text{der Linie }0\ldots\tfrac12m\qquad\text{Anzahl }=g
+\]
+Zu $n'$ alle Zahlen auf
+\[
+\text{der Linie }0\ldots(\tfrac14+\tfrac14i)m\qquad\text{Anzahl }=g'
+\]
+Zu $n''$ alle Zahlen innerhalb
+\[
+\text{des Dreiecks }\tfrac12m,m,(\tfrac12+\tfrac12i)m\qquad\text{Anzahl }=h
+\]
+Zu $n'''$ alle Zahlen innerhalb
+\[
+\text{des Dreiecks }0,\tfrac12m,(\tfrac12+\tfrac12i)m\qquad\text{Anzahl }=h'
+\]
+und ausserdem alle Zahlen auf
+\[
+\text{der Linie }(\tfrac14+\tfrac14i)m\dotstwo(\tfrac12+\tfrac12i)m\qquad\text{Anzahl }=g''
+\]
+
+% A544-P0328-D04
+Man hat immer $g'+g''=g$, $aa+bb=p$, $\frac14(p-1)=g+g'+g''+h+h'$ Der Decident ist also
+\SourceLeaf{329}%
+% A544-P0329-D01
+\[
+D=S(0_{(+)},\tfrac12m,(\tfrac12+\tfrac12i)m_{(-)})+\tfrac12(p-1)+2g''
+\]
+
+% A544-P0329-D02
+Man nehme nun an, dass für den Modulus $m+1+i$
+\[
+\begin{array}{clc}
+g&\text{übergehe in}&G\\
+g'&&G'\\
+g''&&G''\\
+h&&H\\
+h'&&H'
+\end{array}
+\]
+so hat man
+\[
+\begin{aligned}
+&\Delta S(0_{(+)},\tfrac12m,(\tfrac12+\tfrac12i)m_{(-)})\\
+&\quad=+S(0_{(+)},(\tfrac12+\tfrac12i)m,(\tfrac12+\tfrac12i)m+i_{(-)})\\
+&\qquad-S(0_{(+)},\tfrac12m,\tfrac12m+\tfrac12+\tfrac12i_{(-)})\\
+&\qquad-S(\tfrac12m,(\tfrac12+\tfrac12i)m,(\tfrac12+\tfrac12i)m+i,\ \tfrac12m+\tfrac12+\tfrac12i)
+\end{aligned}
+\]
+
+% A544-P0329-D03
+Das letzte dieser $S$ ist
+\[
+=\left[\tfrac12(a-b)\right]-\left[\tfrac12a\right]-S((\tfrac12+\tfrac12i)m,\tfrac12m,\tfrac12m+\tfrac12-\tfrac12i)
+\]
+wenn $a$ ungerade oder gerade
+\[
+\begin{aligned}
+={}&\left[\tfrac12(a-b)\right]-\left[\tfrac12a\right]-S(-\tfrac12+\tfrac12i,\tfrac12m-\tfrac12+\tfrac12i,\tfrac12m+i)\\
+={}&\left[\tfrac12(a-b)\right]-\left[\tfrac12a\right]+S(0_{(+)},\tfrac12m,\tfrac12m+\tfrac12+\tfrac12i_{(-)})\\
+&-S(0_{(+)},(\tfrac12+\tfrac12i)m,(\tfrac12+\tfrac12i)m+i_{(-)})
+\end{aligned}
+\]
+
+% A544-P0329-D04
+Also
+\[
+\begin{aligned}
+\Delta D={}&-\left[\tfrac12(a-b)\right]+\left[\tfrac12a\right]\\
+&+2S(0_{(+)},(\tfrac12+\tfrac12i)m,(\tfrac12+\tfrac12i)m+i_{(-)})+a+b+1\\
+&-2S(0_{(+)},\tfrac12m,\tfrac12m+\tfrac12+\tfrac12i_{(-)})-2g''+2G''
+\end{aligned}
+\]
+
+% A544-P0329-D05
+Die Bindezeichen gelten alle für den Fall, wo $a-b$ positiv ist, sonst nimmt man die entgegengesetzten.
+
+% A544-P0329-D06
+Wir zerlegen ferner $S(0_{(+)},(\frac12+\frac12i)m,(\frac12+\frac12i)m+i_{(-)})$ in
+\[
+\begin{aligned}
+&S(0_{(+)},(\tfrac14+\tfrac14i)m,(\tfrac14+\tfrac14m)+\tfrac12i_{(-)})\\
+&+\left[\tfrac12(a-b)\right]-\left[\tfrac14(a-b)\right]\\
+&-S((\tfrac12+\tfrac12i)m_{(-)},(\tfrac14+\tfrac14i)m,(\tfrac14+\tfrac14i)m-\tfrac12i_{(-)})
+\end{aligned}
+\]
+
+\SourceLeaf{330}%
+% A544-P0330-D01
+Der letzte Theil
+\[
+\begin{aligned}
+={}&-S(\tfrac12+\tfrac12i_{(-)},(-\tfrac14-\tfrac14i)m+\tfrac12+\tfrac12i,\ (-\tfrac14-\tfrac14i)m+\tfrac12_{(+)})\\
+={}&-S(-\tfrac12-\tfrac12i_{(-)},(\tfrac14+\tfrac14i)m-\tfrac12-\tfrac12i,\ (\tfrac14+\tfrac14i)m-\tfrac12_{(+)})\\
+={}&-S(-\tfrac12-\tfrac12i_{(+)},(\tfrac14+\tfrac14i)m-\tfrac12-\tfrac12i,\ (\tfrac14+\tfrac14i)m-\tfrac12_{(-)})+g''-G''\\
+={}&S(0_{(+)},(\tfrac14+\tfrac14i)m,(\tfrac14+\tfrac14i)m+\tfrac12i_{(-)})\\
+&-S(0_{(+)},\tfrac12m,\tfrac12m+\tfrac12+\tfrac12i_{(-)})+g''-G''
+\end{aligned}
+\]
+
+% A544-P0330-D02
+Dadurch wird also
+\[
+\begin{aligned}
+\Delta D={}&+\left[\tfrac12(a-b)\right]+\left[\tfrac12a\right]\\
+&-4S(-\tfrac12-\tfrac12i_{(+)},\tfrac14+\tfrac14im-\tfrac12-\tfrac12i,\ (\tfrac14+\tfrac14i)m-\tfrac12_{(-)})\\
+&-2\left[\tfrac14(a-b)\right]+a+b+1
+\end{aligned}
+\]
+
+% A544-P0330-D03
+Für den Fall der Vermehrung des Modulus um $1-i,-1+i,-1-i$ ist keine besondere Untersuchung nöthig, weil offenbar die Moduli $m,im,-m,-im$ gleiche Decidenten haben. Wir haben also folgende Lehrsätze:
+
+% A544-P0330-D04
+Ist der Decident des Modulus $a+bi,=D$, so sind die Decidenten von
+{\small
+\[
+\begin{array}{l|l}
+a+1+(b+1)i&D+a+b+1+[\tfrac12a]+[\tfrac12(a-b)]-2[\tfrac14(a-b)]\\
+a+1+(b-1)i&D+a-b+1+[-\tfrac12b]+[-\tfrac12(a+b)]-2[-\tfrac14(a+b)]\\
+a-1+(b+1)i&D-a+b+1+[\tfrac12b]+[\tfrac12(a+b)]-2[\tfrac14(a+b)]\\
+a-1+(b-1)i&D-a-b+1+[-\tfrac12a]+[\tfrac12(b-a)]-2[\tfrac14(b-a)]
+\end{array}
+\]
+}
+
+% A544-P0330-D05
+Hieraus ferner
+{\footnotesize
+\[
+\begin{array}{l|l|l}
+&&\begin{gathered}\text{oder insofern }a\text{ un-}\\\text{gerade ist}\end{gathered}\\
+a+2+bi&\begin{aligned}D-\tfrac{a-b-3}2+2[\tfrac12a]&-2[\tfrac{a-b}4]\\&-2[\tfrac{-a-b-2}4]\end{aligned}&D+\tfrac{b-a-1}2\\[1ex]
+a-2+bi&\begin{aligned}D+\tfrac{a-b+3}2+2[-\tfrac12a]&-2[\tfrac{b-a}4]\\&-2[\tfrac{a+b-2}4]\end{aligned}&D\\[1ex]
+a+(b+2)i&\begin{aligned}D-\tfrac{a+b-3}2+2[\tfrac12b]&-2[\tfrac{a+b}4]\\&-2[\tfrac{a-b-2}4]\end{aligned}&D+\tfrac{a+b-3}2\\[1ex]
+a+(b-2)i&\begin{aligned}D+\tfrac{a+b+3}2+2[-\tfrac12b]&-2[\tfrac{-a-b}4]\\&-2[\tfrac{b-a-2}4]\end{aligned}&
+\end{array}
+\]
+}
+
+% A544-P0330-D06
+\[
+\begin{array}{l|rl}
+a+2+(b+2)i&2a-b+1+D&\text{oder }D+b-1\\
+a+2+(b-2)i&-a-2b+1+D&D+a-1\\
+a-2+(b+2)i&a+2b+1+D&D-a-1\\
+a-2+(b-2)i&-2a+b+1+D&D-b-1
+\end{array}
+\]
+

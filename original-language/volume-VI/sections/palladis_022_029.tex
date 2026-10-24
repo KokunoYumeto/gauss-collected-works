@@ -1,0 +1,410 @@
+\SourceLeaf{22}
+\item[$\gamma$] latitudo heliocentrica
+\item[$\ApproxBeta$] latitudo geocentrica
+\item[$R$] distantia terrae a Sole.
+\end{description}
+Ex observatione autem suppono esse
+\begin{description}\setlength{\itemsep}{0pt}\setlength{\parsep}{0pt}
+\item[$\alpha$] longitudinem heliocentricam
+\item[$\ObservedBeta$] latitudinem geocentricam.
+\end{description}
+Denique per $\mathrm dL$, $\mathrm d\MeanMotionGlyph$, $\mathrm d\Pi$ etc. denoto correctiones quantitatum $L$, $\MeanMotionGlyph$, $\Pi$ etc. Fit itaque $\mathrm dL+t\mathrm d\MeanMotionGlyph$ correctio longitudinis mediae,
+$\mathrm dL+t\mathrm d\MeanMotionGlyph-\mathrm d\Pi$ correctio anomaliae mediae,
+adeoque per art. 15, 16 Theoriae Motus Corp. Coel.
+\[
+\begin{aligned}
+\mathrm dv&=\frac{aa\cos\varphi}{rr}(\mathrm dL+t\mathrm d\MeanMotionGlyph-\mathrm d\Pi)+\frac{aa}{rr}(2-e\cos E-ee)\sin E\mathrm d\varphi\\
+\mathrm dr&=\frac ra\mathrm da+a\operatorname{tang}\varphi\sin v(\mathrm dL+t\mathrm d\MeanMotionGlyph-\mathrm d\Pi)-a\cos\varphi\cos v\mathrm d\varphi
+\end{aligned}
+\]
+Porro fit correctio argumenti latitudinis $\mathrm du=\mathrm dv+\mathrm d\Pi-\mathrm d\AscendingNode$,
+atque per art. 52 Theoriae Motus C. C. correctio longitudinis heliocentricae:
+\[
+\mathrm d\lambda=\mathrm d\AscendingNode-\operatorname{tang}\gamma\cos(\lambda-\AscendingNode)\mathrm di+\frac{\cos i}{\cos\gamma^2}\mathrm du
+\]
+Hinc colligitur
+\[
+\begin{aligned}
+\mathrm d\lambda={}&\frac{aa\cos\varphi\cos i}{rr\cos\gamma^2}\mathrm dL\\
+&+\frac{taa\cos\varphi\cos i}{rr\cos\gamma^2}\mathrm d\MeanMotionGlyph\\
+&+\left(\frac{\cos i}{\cos\gamma^2}-\frac{aa\cos\varphi\cos i}{rr\cos\gamma^2}\right)\mathrm d\Pi\\
+&+\frac{aa\cos i}{rr\cos\gamma^2}(2-e\cos E-ee)\sin E\mathrm d\varphi\\
+&+\left(1-\frac{\cos i}{\cos\gamma^2}\right)\mathrm d\AscendingNode\\
+&-\operatorname{tang}\gamma\cos(\lambda-\AscendingNode)\mathrm di
+\end{aligned}
+\]
+Porro quum habeatur
+\[
+\begin{aligned}
+a^{\frac32}\MeanMotionGlyph&=\mathrm{Const.}\\
+r\sin(\ApproxBeta-\gamma)&=R\sin\ApproxBeta\\
+\operatorname{tang}\gamma&=\operatorname{tang}i\sin(\alpha-\AscendingNode)
+\end{aligned}
+\]
+fit per differentiationem
+\SourceLeaf{23}
+\[
+\frac{\mathrm da}{a}=-\frac{2\mathrm d\MeanMotionGlyph}{3\MeanMotionGlyph}
+\]
+\[
+\frac{\mathrm dr}{r}+\operatorname{cotang}(\ObservedBeta-\gamma).(\mathrm d\ApproxBeta-\mathrm d\gamma)=\operatorname{cotg}\ApproxBeta\mathrm d\ApproxBeta,\quad\text{sive}
+\]
+\[
+\mathrm d\ApproxBeta=\frac{\sin\ApproxBeta\cos(\ApproxBeta-\gamma)}{\sin\gamma}\mathrm d\gamma-\frac{\sin\ApproxBeta\sin(\ApproxBeta-\gamma)}{r\sin\gamma}\mathrm dr
+\]
+\[
+\mathrm d\gamma=\frac{\sin2\gamma}{\sin2i}\mathrm di-\tfrac12\sin2\gamma\operatorname{cotang}(\alpha-\AscendingNode)\mathrm d\AscendingNode
+\]
+unde adhibito valore ipsius $\mathrm dr$ supra evoluto colligitur
+\[
+\begin{aligned}
+\mathrm d\ApproxBeta={}&-\frac{a\sin\ApproxBeta\sin(\ApproxBeta-\gamma)\operatorname{tang}\varphi\sin v}{r\sin\gamma}\mathrm dL\\
+&+\left\{\frac{2\sin\ApproxBeta\sin(\ApproxBeta-\gamma)}{3\MeanMotionGlyph\sin\gamma}-\frac{at\sin\ApproxBeta\sin(\ApproxBeta-\gamma)\operatorname{tang}\varphi\sin v}{r\sin\gamma}\right\}\mathrm d\MeanMotionGlyph\\
+&+\frac{a\sin\ApproxBeta\sin(\ApproxBeta-\gamma)\operatorname{tang}\varphi\sin v}{r\sin\gamma}\mathrm d\Pi\\
+&+\frac{a\sin\ApproxBeta\sin(\ApproxBeta-\gamma)\cos\varphi\cos v}{r\sin\gamma}\mathrm d\varphi\\
+&+\frac{2\sin\ApproxBeta\cos(\ApproxBeta-\gamma)\cos\gamma}{\sin2i}\mathrm di\\
+&-\sin\ApproxBeta\cos(\ApproxBeta-\gamma)\cos\gamma\operatorname{cotang}(\alpha-\AscendingNode)\mathrm d\AscendingNode
+\end{aligned}
+\]
+Hinc valores longitudinis heliocentricae atque latitudinis geocentricae fiunt ex valoribus correctis elementorum $\lambda+\mathrm d\lambda$, $\ApproxBeta+\mathrm d\ApproxBeta$, adeoque quaevis oppositio suppeditat binas aequationes
+\[
+\begin{aligned}
+\alpha&=\lambda+\mathrm d\lambda\\
+\ObservedBeta&=\ApproxBeta+\mathrm d\ApproxBeta
+\end{aligned}
+\]
+\Article{12}
+Applicando haecce praecepta ad sex oppositiones Palladis in art. 2 traditas,
+si calculum secundo elementorum systemati in art. 3 delineato superstruimus, sequentes duodecim aequationes obtinemus:
+
+\noindent Ex oppositione \textit{prima}, ubi longitudo computata inventa est $=277^0\,36'\,20''07$,
+\[
+\text{latitudo geocentrica}=+46^0\,26'\,29''19:
+\]
+\[
+\begin{aligned}
+0={}&-183''93+0.79363\mathrm dL+143.66\mathrm d\MeanMotionGlyph+0.39493\mathrm d\Pi+0.95920\mathrm d\varphi\\
+&-0.18856\mathrm d\AscendingNode+0.17387\mathrm di\\[4pt]
+0={}&-6''81-0.02658\mathrm dL+46.71\mathrm d\MeanMotionGlyph+0.02658\mathrm d\Pi-0.20858\mathrm d\varphi\\
+&+0.15946\mathrm d\AscendingNode+1.25782\mathrm di
+\end{aligned}
+\]
+\SourceLeaf{24}
+Ex oppositione \textit{secunda}, ubi longitudo computata $=337^0\,0'\,36''04$,
+\[
+\text{latitudo geocentrica}=+15^0\,1'\,46''71:
+\]
+\[
+\begin{aligned}
+0={}&-0''06+0.58880\mathrm dL+358.12\mathrm d\MeanMotionGlyph+0.26208\mathrm d\Pi-0.85234\mathrm d\varphi\\
+&+0.14912\mathrm d\AscendingNode+0.17775\mathrm di\\[4pt]
+0={}&-3''09+0.01318\mathrm dL+28.39\mathrm d\MeanMotionGlyph-0.01318\mathrm d\Pi-0.07861\mathrm d\varphi\\
+&+0.91704\mathrm d\AscendingNode+0.54365\mathrm di
+\end{aligned}
+\]
+Ex oppositione \textit{tertia}, ubi longitudo computata $=67^0\,20'\,42''88$,
+\[
+\text{latitudo geocentrica}=-54^0\,31'\,3''88:
+\]
+\[
+\begin{aligned}
+0={}&-0''02+1.73436\mathrm dL+1846.17\mathrm d\MeanMotionGlyph-0.54603\mathrm d\Pi-2.05662\mathrm d\varphi\\
+&-0.18833\mathrm d\AscendingNode-0.17445\mathrm di\\[4pt]
+0={}&-8''98-0.12606\mathrm dL-227.42\mathrm d\MeanMotionGlyph+0.12606\mathrm d\Pi-0.38939\mathrm d\varphi\\
+&+0.17176\mathrm d\AscendingNode-1.35441\mathrm di
+\end{aligned}
+\]
+Ex oppositione \textit{quarta}, ubi longitudo computata $=223^0\,37'\,25''39$,
+\[
+\text{latitudo geocentrica}=+42^0\,11'\,28''07:
+\]
+\[
+\begin{aligned}
+0={}&-2''31+0.99584\mathrm dL+1579.03\mathrm d\MeanMotionGlyph+0.06456\mathrm d\Pi+1.99545\mathrm d\varphi\\
+&-0.06040\mathrm d\AscendingNode-0.33750\mathrm di\\[4pt]
+0={}&+2''47-0.08089\mathrm dL-67.22\mathrm d\MeanMotionGlyph+0.08089\mathrm d\Pi-0.09970\mathrm d\varphi\\
+&-0.46359\mathrm d\AscendingNode+1.22803\mathrm di
+\end{aligned}
+\]
+Ex oppositione \textit{quinta}, ubi longitudo computata $=304^0\,2'\,59''71$,
+\[
+\text{latitudo geocentrica}=+37^0\,44'\,31''82:
+\]
+\[
+\begin{aligned}
+0={}&+0''01+0.65311\mathrm dL+1329.09\mathrm d\MeanMotionGlyph+0.38994\mathrm d\Pi-0.08439\mathrm d\varphi\\
+&-0.04305\mathrm d\AscendingNode+0.34268\mathrm di\\[4pt]
+0={}&+38''12-0.00218\mathrm dL+38.47\mathrm d\MeanMotionGlyph+0.00218\mathrm d\Pi-0.18710\mathrm d\varphi\\
+&+0.47301\mathrm d\AscendingNode-1.14371\mathrm di
+\end{aligned}
+\]
+Ex oppositione \textit{sexta}, ubi longitudo computata $=359^0\,34'\,46''67$,
+\[
+\text{latitudo geocentrica}=-7^0\,20'\,12''13:
+\]
+\[
+\begin{aligned}
+0={}&-317''73+0.69957\mathrm dL+1719.32\mathrm d\MeanMotionGlyph+0.12913\mathrm d\Pi-1.38787\mathrm d\varphi\\
+&+0.17130\mathrm d\AscendingNode-0.08360\mathrm di\\[4pt]
+0={}&+117''97-0.01315\mathrm dL-43.84\mathrm d\MeanMotionGlyph+0.01315\mathrm d\Pi+0.02929\mathrm d\varphi\\
+&+1.02138\mathrm d\AscendingNode-0.27187\mathrm di
+\end{aligned}
+\]
+Sed ex his duodecim aequationibus decimam omnino reiiciemus, quum latitudo geocentrica observata nimis incerta sit.
+\SourceLeaf{25}
+\Article{13}
+Quum sex incognitas $\mathrm dL$, $\mathrm d\MeanMotionGlyph$ etc. ita determinare non liceat, ut omnibus undecim aequationibus exacte satisfiat, i. e. ut singulae incognitarum functiones quae sunt ad dextram simul fiant $=0$, valores eos eruemus, per quos functionum harum quadrata summam quam minimam efficiant. Facile quidem perspicitur, si generaliter functiones lineares incognitarum $p$, $q$, $r$, $s$ etc. propositae sint hae
+\[
+\begin{aligned}
+n+ap+bq+cr+ds+\text{etc.}&=w\\
+n'+a'p+b'q+c'r+d's+\text{etc.}&=w'\\
+n''+a''p+b''q+c''r+d''s+\text{etc.}&=w''\\
+n'''+a'''p+b'''q+c'''r+d'''s+\text{etc.}&=w'''
+\end{aligned}
+\]
+etc., aequationes conditionales, ut $ww+w'w'+w''w''+w'''w'''+\text{etc.}=\Omega$ fiat minimum, esse hasce
+\[
+\begin{aligned}
+aw+a'w'+a''w''+a'''w'''+\text{etc.}&=0\\
+bw+b'w'+b''w''+b'''w'''+\text{etc.}&=0\\
+cw+c'w'+c''w''+c'''w'''+\text{etc.}&=0\\
+dw+d'w'+d''w''+d'''w'''+\text{etc.}&=0\\
+\text{etc.\quad sive}&
+\end{aligned}
+\]
+designando brevitatis causa
+\[
+\begin{array}{ll}
+an+a'n'+a''n''+a'''n'''+\text{etc.}&\text{per }[an]\\
+aa+a'a'+a''a''+a'''a'''+\text{etc.}&\text{per }[aa]\\
+ab+a'b'+a''b''+a'''b'''+\text{etc.}&\text{per }[ab]\\
+\text{etc.}&\\
+bb+b'b'+b''b''+b'''b'''+\text{etc.}&\text{per }[bb]\\
+bc+b'c'+b''c''+b'''c'''+\text{etc.}&\text{per }[bc]\\
+\text{etc. etc.}&
+\end{array}
+\]
+$p$, $q$, $r$, $s$ etc. determinari debere per eliminationem ex aequationibus
+\[
+\begin{aligned}{}
+[an]+[aa]p+[ab]q+[ac]r+[ad]s+\text{etc.}&=0\\
+[bn]+[ab]p+[bb]q+[bc]r+[bd]s+\text{etc.}&=0\\
+[cn]+[ac]p+[bc]q+[cc]r+[cd]s+\text{etc.}&=0\\
+[dn]+[ad]p+[bd]q+[cd]r+[dd]s+\text{etc.}&=0\\
+\text{etc.}&
+\end{aligned}
+\]
+\SourceLeaf{26}
+Attamen quoties multitudo incognitarum $p$, $q$, $r$, $s$ etc. paullo maior est, eliminatio laborem velde prolixum atque taediosum requirit, quem sequenti modo notabiliter contrahere licet. Praeter coëfficientes $[an]$, $[aa]$, $[ab]$ etc. (quorum multitudo fit $=\tfrac12(ii+3i)$, si multitudo incognitarum $=i$), etiam hunc computatum suppono $nn+n'n'+n''n''+n'''n'''+\text{etc.}=[nn]$, perspicieturque facile fieri
+\[
+\begin{aligned}
+\Omega={}&[nn]+2[an]p+2[bn]q+2[cn]r+2[dn]s+\text{etc.}\\
+&+[aa]pp+2[ab]pq+2[ac]pr+2[ad]ps+\text{etc.}\\
+&\qquad+[bb]qq+2[bc]qr+2[bd]qs+\text{etc.}\\
+&\qquad\qquad+[cc]rr+2[cd]rs+\text{etc.}\\
+&\qquad\qquad\qquad+[dd]ss+\text{etc.}\\
+&\qquad\qquad\qquad\qquad\text{etc.}
+\end{aligned}
+\]
+Designando itaque
+\[
+[an]+[aa]p+[ab]q+[ac]r+[ad]s+\text{etc.}\quad\text{per}\quad A
+\]
+patet, singulas partes ipsius $\dfrac{A^2}{[aa]}$, quae factorem $p$ involvunt, in $\Omega$ contineri, adeoque $\Omega-\dfrac{A^2}{[aa]}$ esse functionem a $p$ liberam. Quare statuendo
+\[
+\begin{aligned}{}
+[nn]-\frac{[an]^2}{[aa]}&=[nn,1]\\
+[bn]-\frac{[an].[ab]}{[aa]}&=[bn,1]\\
+[cn]-\frac{[an].[ac]}{[aa]}&=[cn,1]\\
+[dn]-\frac{[an].[ad]}{[aa]}&=[dn,1]\quad\text{etc.}\\
+[bb]-\frac{[ab]^2}{[aa]}&=[bb,1]\\
+[bc]-\frac{[ab].[ac]}{[aa]}&=[bc,1]\\
+[bd]-\frac{[ab].[ad]}{[aa]}&=[bd,1]\quad\text{etc. etc.: erit}
+\end{aligned}
+\]
+\[
+\begin{aligned}
+\Omega-\frac{A^2}{[aa]}={}&[nn,1]+2[bn,1]q+2[cn,1]r+2[dn,1]s+\text{etc.}\\
+&+[bb,1]qq+2[bc,1]qr+2[bd,1]qs+\text{etc.}\\
+&\qquad+[cc,1]rr+2[cd,1]rs+\text{etc.}\\
+&\qquad\qquad+[dd,1]ss+\text{etc.}\\
+&\qquad\qquad\qquad\text{etc.}
+\end{aligned}
+\]
+quam functionem designabimus per $\Omega'$.
+
+\SourceLeaf{27}
+Similimodo ponendo
+\[
+[bn,1]+[bb,1]q+[bc,1]r+[bd,1]s+\text{etc.}=B
+\]
+erit $\Omega'-\dfrac{B^2}{[bb,1]}$ functio a $q$ libera, quam statuemus $=\Omega''$. Eodem modo faciemus
+\[
+\begin{aligned}{}
+[nn,1]-\frac{[bn,1]^2}{[bb,1]}&=[nn,2]\\
+[cn,1]-\frac{[bn,1].[bc,1]}{[bb,1]}&=[cn,2]\\
+[cc,1]-\frac{[bc,1]^2}{[bb,1]}&=[cc,2]\\
+\text{etc. etc.\quad atque}&
+\end{aligned}
+\]
+\[
+[cn,2]+[cc,2]r+[cd,2]s+\text{etc.}=C
+\]
+unde $\Omega''-\dfrac{C^2}{[cc,2]}$ erit functio ab $r$ quoque libera. Eodem modo progrediemur, usquedum in progressione $\Omega$, $\Omega'$, $\Omega''$ etc. ad terminum ab omnibus incognitis liberum pervenerimus, qui erit $[nn,\mu]$, si multitudo incognitarum $p$, $q$, $r$, $s$ etc. denotatur per $\mu$. Habemus itaque
+\[
+\Omega=\frac{A^2}{[aa]}+\frac{B^2}{[bb,1]}+\frac{C^2}{[cc,2]}+\frac{D^2}{[dd,3]}+\text{etc.}+[nn,\mu]
+\]
+Iam quum $\Omega=ww+w'w'+w''w''\text{ etc.}$ natura sua valorem negativum obtinere non possit, facile demonstratur, divisores $[aa]$, $[bb,1]$, $[cc,2]$, $[dd,3]$ etc. necessario \textit{positivos} evadere debere (brevitatis tamen gratia hanc demonstrationem fusius hic non exsequor). Hinc vero sponte sequitur, valorem minimum ipsius $\Omega$ prodire, si fiat $A=0$, $B=0$, $C=0$, $D=0$ etc. Ex his itaque $(\mu)$ aequationibus incognitae $p$, $q$, $r$, $s$ etc. determinari debebunt, quod ordine inverso facillime effici poterit, quum manifesto ultima aequatio unicam incognitam implicet, penultima duas et sic porro. Simul haec methodus eo nomine se commendat, quod valor minimus aggregati $\Omega$ sponte inde innotescit, quippe qui manifesto est $=[nn,\mu]$.
+\Article{14}
+Applicemus iam haecce praecepta ad exemplum nostrum, ubi $p$, $q$, $r$, $s$ etc. sunt $\mathrm dL$, $\mathrm d\MeanMotionGlyph$, $\mathrm d\Pi$, $\mathrm d\varphi$, $\mathrm d\AscendingNode$, $\mathrm di$. Calculo accurate absoluto hosce valores numericos inveni:
+\SourceLeaf{28}
+{\fontsize{9}{11}\selectfont
+\[
+\begin{array}{lll}
+\begin{gathered}{}
+[nn]=148848\\
+[an]=-371.09\\
+[bn]=-580104\\
+[cn]=-113.45\\
+[dn]=+268.53\\
+[en]=+94.26\\
+[fn]=-31.81\\
+[aa]=+5.91569\\
+[ab]=+7203.91\\
+[ac]=-0.09344\\
+[ad]=-2.28516\\
+[ae]=-0.34664\\
+[af]=-0.18194\\
+[bb]=+10834225\\
+[bc]=-49.06\\
+[bd]=-3229.77\\
+[be]=-198.64\\
+[bf]=-143.05\\
+[cc]=+0.71917\\
+[cd]=+1.13382\\
+[ce]=+0.06400\\
+[cf]=+0.26341\\
+[dd]=+12.00340\\
+[de]=-0.37137\\
+[df]=-0{,}11762\\
+[ee]=+2.28215\\
+[ef]=-0.36136\\
+[ff]=+5.62456\\[3pt]
+\text{Hinc porro deduxi}\\[3pt]
+[nn,1]=+125569\\
+[bn,1]=-138534
+\end{gathered}&
+\begin{gathered}{}
+[cn,1]=-119.31\\
+[dn,1]=-125.18\\
+[en,1]=+72.52\\
+[fn,1]=-43.22\\
+[bb,1]=+2458225\\
+[bc,1]=+62.13\\
+[bd,1]=-510.58\\
+[be,1]=+213.84\\
+[bf,1]=+73.45\\
+[cc,1]=+0.71769\\
+[cd,1]=+1.09773\\
+[ce,1]=-0.05852\\
+[cf,1]=+0.26054\\
+[dd,1]=+11.12064\\
+[de,1]=-0.50528\\
+[df,1]=-0.18790\\
+[ee,1]=+2.26185\\
+[ef,1]=-0.37202\\
+[ff,1]=+5.61905\\[3pt]
+\text{Atque hinc simili modo}\\[3pt]
+[nn,2]=+117763\\
+[cn,2]=-115.81\\
+[dn,2]=-153.95\\
+[en,2]=+84.57\\
+[fn,2]=-39.08\\
+[cc,2]=+0.71612\\
+[cd,2]=+1.11063\\
+[ce,2]=-0.06392\\
+[cf,2]=+0.25868\\
+[dd,2]=+11.01463\\
+[de,2]=-0.46088
+\end{gathered}&
+\begin{gathered}{}
+[df,2]=-0.17265\\
+[ee,2]=+2.24325\\
+[ef,2]=-0.37841\\
+[ff,2]=+5.61686\\[3pt]
+\text{Hinc porro}\\[3pt]
+[nn,3]=+99034\\
+[dn,3]=+25.66\\
+[en,3]=+74.23\\
+[fn,3]=+2.75\\
+[dd,3]=+9.29213\\
+[de,3]=-0.36175\\
+[df,3]=-0.57384\\
+[ee,3]=+2.23754\\
+[ef,3]=-0.35532\\
+[ff,3]=+5.52342\\[3pt]
+\text{Hinc eodem modo}\\[3pt]
+[nn,4]=+98963\\
+[en,4]=+75.23\\
+[fn,4]=+4.33\\
+[ee,4]=+2.22346\\
+[ef,4]=-0.37766\\
+[ff,4]=+5.48798\\[3pt]
+\text{Hinc}\\[3pt]
+[nn,5]=+96418\\
+[fn,5]=+17.11\\
+[ff,5]=+5.42383\\[3pt]
+\text{Atque hinc tandem}\\[3pt]
+[nn,6]=+96364
+\end{gathered}
+\end{array}
+\]
+}
+Habemus itaque ad determinationem incognitarum sex aequationes sequentes:
+\[
+\begin{aligned}
+0={}&+17''11+5.42383\mathrm di\\
+0={}&+75''23+2.22346\mathrm d\AscendingNode-0.37766\mathrm di\\
+0={}&+25''66+9.29213\mathrm d\varphi-0.36175\mathrm d\AscendingNode-0.57384\mathrm di\\
+0={}&-115''81+0.71612\mathrm d\Pi+1.11063\mathrm d\varphi-0.06392\mathrm d\AscendingNode+0.25868\mathrm di\\
+0={}&-13854''+2458225\mathrm d\MeanMotionGlyph+62.13\mathrm d\Pi-510.58\mathrm d\varphi+213{,}84\mathrm d\AscendingNode\\
+&+73.45\mathrm di\\[4pt]
+0={}&-371''09+5.91569\mathrm dL+7203.91\mathrm d\MeanMotionGlyph-0.09344\mathrm d\Pi-2.28516\mathrm d\varphi\\
+&-0.34664\mathrm d\AscendingNode-0.18194\mathrm di
+\end{aligned}
+\]
+\SourceLeaf{29}
+unde deducitur
+\[
+\begin{aligned}
+\mathrm di&=-3''15\\
+\mathrm d\AscendingNode&=-34''37\\
+\mathrm d\varphi&=-4''29\\
+\mathrm d\Pi&=+166''44\\
+\mathrm d\MeanMotionGlyph&=+0''054335\\
+\mathrm dL&=-3''06
+\end{aligned}
+\]
+
+Elementa itaque elliptica correcta, quae omnibus sex oppositionibus quam proxime satisfaciunt, haec sunt:
+\begin{center}\fontsize{9}{11}\selectfont\setlength{\tabcolsep}{3pt}\begin{tabular}{lr}
+Epocha longitudinis mediae 1803, ad meridianum Gottingensem&$221^0\,34'\,53''64$\\
+Motus medius tropicus diurnus $\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .$&$770''5010$\\
+Longitudo perihelii 1803 $\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .$&$121^0\,8'\,8''54$\\
+Longitudo nodi ascendentis 1803 $\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .$&$172\quad28\quad12.43$\\
+Inclinatio orbitae $\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .$&$34\quad37\quad28.35$\\
+Excentricitas $=\sin14^0\,9'\,59''79\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .$&$0.2447424$\\
+Logarithmus semiaxis maioris $\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .$&$0.4422071$
+\end{tabular}\end{center}
+\Article{15}
+Substitutis valoribus correctionum $\mathrm dL$, $\mathrm d\MeanMotionGlyph$ etc., quos modo invenimus, in duodecim aequationibus art. 12, differentias sequentes inter valores longitudinum heliocentricarum atque latitudinum geocentricarum observatos atque computatos obtinemus:
+\begin{center}\begin{tabular}{c|r|r}
+in oppositione&\multicolumn{2}{c}{differentia}\\
+anni&\multicolumn{1}{c|}{longitudinis}&\multicolumn{1}{c}{latitudinis}\\\hline
+1803&$-111''00$&$-8''31$\\
+1804&$+59.18$&$-36.67$\\
+1805&$+19.92$&$+0.07$\\
+1807&$+85.77$&$+25.01$\\
+1808&$+135.88$&$+28.72$\\
+1809&$-216.54$&$+83.01$
+\end{tabular}\end{center}

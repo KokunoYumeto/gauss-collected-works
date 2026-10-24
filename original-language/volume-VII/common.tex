@@ -1,0 +1,49 @@
+\documentclass[11pt,oneside,openany]{book}
+\usepackage[paperwidth=6.5in,paperheight=9.5in,inner=.72in,outer=.72in,top=.75in,bottom=.78in,headheight=14pt]{geometry}
+\usepackage{fontspec}
+\setmainfont{lmroman10-regular.otf}[BoldFont=lmroman10-bold.otf,ItalicFont=lmroman10-italic.otf,BoldItalicFont=lmroman10-bolditalic.otf,SmallCapsFont=lmromancaps10-regular.otf]
+\usepackage[main=latin]{babel}
+\usepackage{amsmath,amssymb,graphicx,microtype,fancyhdr,needspace}
+\usepackage[unicode,hidelinks]{hyperref}
+\hypersetup{pdftitle={Carl Friedrich Gauss: Werke, Band VII. Titelblätter, Praefatio, Contenta und Liber I, 1–114.},pdfauthor={Carl Friedrich Gauss}}
+\setlength{\parindent}{1.2em}\setlength{\parskip}{0pt plus .3pt}
+\setlength{\emergencystretch}{1.4em}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small THEORIA MOTUS CORPORUM COELESTIUM}
+\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{.25pt}
+\newcommand{\SourceLeaf}[1]{\hypertarget{native-#1}{}\label{native-#1}}
+\renewcommand{\thefootnote}{*)}
+\widowpenalty=10000\clubpenalty=10000\displaywidowpenalty=10000
+\raggedbottom
+\newcommand{\BareRoot}[2][]{\mathord{{}^{#1}\!\surd}#2}
+
+\makeatletter
+\newcommand{\HistoricalNoteEight}[1]{\begingroup
+\renewcommand{\thefootnote}{[*)]}
+\long\def\@makefntext##1{\noindent [*)\ ##1}
+\footnote{#1}\endgroup}
+\makeatother
+
+\makeatletter
+\newcommand{\HistoricalDisplayNoteMark}{\begingroup\renewcommand{\thefootnote}{[*)]}\footnotemark\endgroup}\newcommand{\HistoricalDisplayNoteText}[1]{\begingroup\renewcommand{\thefootnote}{[*)]}\long\def\@makefntext##1{\noindent [*)\ ##1}\footnotetext{#1}\endgroup\ignorespaces}
+\makeatother
+\newfontfamily\AstroSymbols{Segoe UI Symbol}
+\newcommand{\AscendingNode}{\text{\mdseries\AstroSymbols ☊}}
+
+\makeatletter
+\newcommand{\HistoricalNoteDouble}[1]{\begingroup
+\renewcommand{\thefootnote}{[**)]}
+\long\def\@makefntext##1{\noindent [**)\ ##1}
+\footnote{#1}\endgroup}
+\makeatother
+
+\newcommand{\HistoricalNoteDoubleUnbracketed}[1]{\begingroup\renewcommand{\thefootnote}{**)}\footnote{#1}\endgroup}
+
+\makeatletter
+\newcommand{\HistoricalUnmarkedNote}[1]{\begingroup
+\renewcommand{\thefootnote}{}
+\long\def\@makefntext##1{\noindent ##1}
+\footnote{#1}\endgroup\ignorespaces}
+\makeatother
+
+\newcommand{\GaussCurrentLastArticle}{114}

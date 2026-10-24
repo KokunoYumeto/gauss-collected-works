@@ -1,0 +1,112 @@
+\SourceLeaf{71}metiatur. Tum congruentia $x^t\equiv1$ secundum modulum $p$ habebit $k$ radices diversas, quibus per $A,B,C$ etc. designatis, radix quaecunque eiusdem congruentiae secundum modulum $p^n$, congrua esse debet secundum modulum $p$ alicui numerorum $A,B,C$ etc. Iam demonstrabimus, congruentiam $x^t\equiv1.\,(\operatorname{mod.}p^n)$ habere $p^{\nu}$ radices ipsi $A$, totidem ipsi $B$ etc. congruas secundum modulum $p$. Quo facto omnium radicum numerus erit $kp^{\nu}$ sive $e$, uti diximus. Illam vero demonstrationem ita adornabimus, ut \emph{primo} ostendamus, si $\alpha$ fuerit radix ipsi $A$ secundum modulum $p$ congrua, etiam
+
+\[\alpha+p^{n-\nu},\ \alpha+2p^{n-\nu},\ \alpha+3p^{n-\nu},\mathinner{.\,.\,.\,.}\alpha+(p^{\nu}-1)p^{n-\nu}\]
+
+fore radices; \emph{secundo,} numeros ipsi $A$ secundum modulum $p$ congruos alios quam qui in forma $\alpha+hp^{n-\nu}$ sint comprehensi (denotante $h$ integrum quemcunque), radices esse non posse: unde manifesto $p^{\nu}$ radices diversae habebuntur, et non plures: atque idem etiam de radicibus, quae singulis $B,C$ etc. sunt congruae, locum habebit: \emph{tertio} docebimus, quomodo semper radix, ipsi $A$ secundum $p$ congrua, inveniri possit.
+
+\Article{86}
+
+\textsc{Theorema.} \emph{Si uti in art. praec. $t$ est numerus per $p^{\nu}$, neque vero per $p^{\nu+1}$ divisibilis, erit}
+
+\[\begin{aligned}
+(\alpha+hp^{\mu})^t-\alpha^t&\equiv0\,(mod.p^{\mu+\nu}),\\
+&\textit{at}\ \equiv\alpha^{t-1}hp^{\mu}t\,(mod.p^{\mu+\nu+1})
+\end{aligned}\]
+
+Theorematis pars posterior locum non habet, quando $p=2$ simulque $\mu=1$.
+
+Demonstratio huius theorematis ex evolutione potestatis binomii peti posset, si ostenderetur omnes terminos post secundum per $p^{\mu+\nu+1}$ divisibiles esse. Sed quoniam consideratio denominatorum coefficientium in aliquot ambages deducit, methodum sequentem praeferimus.
+
+Ponamus \emph{primo} $\mu>1$ atque $\nu=1$, eritque propter
+
+\[x^t-y^t=(x-y)(x^{t-1}+x^{t-2}y+x^{t-3}y^2+\text{etc.}+y^{t-1})\]
+
+\[\begin{aligned}
+(\alpha+hp^{\mu})^t-\alpha^t={}&hp^{\mu}((\alpha+hp^{\mu})^{t-1}\\
+&+(\alpha+hp^{\mu})^{t-2}\alpha+\text{etc.}+\alpha^{t-1})
+\end{aligned}\]
+
+At est $\alpha+hp^{\mu}\equiv\alpha\,(\operatorname{mod.}p^2)$
+\SourceLeaf{72}quare quisque terminus $(\alpha+hp^{\mu})^{t-1}$, $(\alpha+hp^{\mu})^{t-2}\alpha$ etc. erit $\equiv\alpha^{t-1}(\operatorname{mod.}p^2)$, adeoque omnium summa $\equiv t\alpha^{t-1}(\operatorname{mod.}p^2)$ sive formae $t\alpha^{t-1}+Vp^2$ denotante $V$ numerum quemcunque. Hinc $(\alpha+hp^{\mu})^t-\alpha^t$ erit formae
+
+\[\begin{aligned}
+&\alpha^{t-1}hp^{\mu}t+Vhp^{\mu+2},\\
+&\textit{i. e.}\ \equiv\alpha^{t-1}hp^{\mu}t(\operatorname{mod.}p^{\mu+2})\quad\text{et}\ \equiv0\,(\operatorname{mod.}p^{\mu+1}).
+\end{aligned}\]
+
+\noindent Pro hoc itaque casu theorema est demonstratum.
+
+Iam si theorema pro aliis ipsius $\nu$ valoribus verum non esset, manente etiamnum $\mu>1$, limes aliquis necessario daretur, usque ad quem theorema semper verum foret, ultra vero falsum. Sit minimus valor ipsius $\nu$, pro quo falsum est $=\varphi$, unde facile perspicitur, si $t$ per $p^{\varphi-1}$ non autem per $p^{\varphi}$ fuerit divisibilis, theorema adhuc verum esse, at si loco ipsius $t$ substituatur $tp$, falsum. Habemus itaque
+
+\[\begin{aligned}
+(\alpha+hp^{\mu})^t&\equiv\alpha^t+\alpha^{t-1}hp^{\mu}t(\operatorname{mod.}p^{\mu+\varphi})\\
+&\text{sive}\ =\alpha^t+\alpha^{t-1}hp^{\mu}t+up^{\mu+\varphi}
+\end{aligned}\]
+
+\noindent denotante $u$ numerum integrum. At quia pro $\nu=1$ theorema iam est demonstratum, erit
+
+\[\begin{aligned}
+(\alpha^t+\alpha^{t-1}hp^{\mu}t+up^{\mu+\varphi})^p\equiv{}&\alpha^{tp}+\alpha^{tp-1}hp^{\mu+1}t\\
+&+\alpha^{tp-t}up^{\mu+\varphi+1}\,(\operatorname{mod.}p^{\mu+\varphi+1})
+\end{aligned}\]
+
+\noindent adeoque etiam
+
+\[(\alpha+hp^{\mu})^{tp}\equiv\alpha^{tp}+\alpha^{tp-1}hp^{\mu}tp\,(\operatorname{mod.}p^{\mu+\varphi+1})\]
+
+\noindent \emph{i. e.} theorema etiam verum, si loco ipsius $t$ substituitur $tp$, \emph{i. e.} etiam pro $\nu=\varphi$, contra hypothesin. Unde manifestum pro omnibus ipsius $\nu$ valoribus theorema verum esse.
+
+\Article{87}
+
+Superest casus ubi $\mu=1$. Per methodum prorsus similem ei qua in art. praec. usi sumus, sine adiumento theorematis binomialis demonstrari potest, esse
+
+\[\begin{aligned}
+(\alpha+hp)^{t-1}&\equiv\alpha^{t-1}+\alpha^{t-2}(t-1)hp\quad(\operatorname{mod.}p^2)\\
+\alpha(\alpha+hp)^{t-2}&\equiv\alpha^{t-1}+\alpha^{t-2}(t-2)hp\\
+\alpha\alpha(\alpha+hp)^{t-3}&\equiv\alpha^{t-1}+\alpha^{t-2}(t-3)hp\\
+\text{etc.}\quad&
+\end{aligned}\]
+
+\noindent unde aggregatum erit (quia partium multitudo $=t$)
+
+\SourceLeaf{73}
+\[\equiv t\alpha^{t-1}+\tfrac{(t-1)t}{2}\alpha^{t-2}hp(\operatorname{mod.}p^2)\]
+
+At quoniam $t$ per $p$ divisibilis, etiam $\dfrac{(t-1)t}{2}$ per $p$ divisibilis erit in omnibus casibus excepto eo ubi $p=2$ de quo iam in art. praec. monuimus. In reliquis autem casibus erit $\tfrac{(t-1)t}{2}\alpha^{t-2}hp\equiv0\,(\operatorname{mod.}p^2)$, adeoque etiam illud aggregatum $\equiv t\alpha^{t-1}(\operatorname{mod.}p^2)$ ut in art. praec. In reliquis demonstratio hic eodem modo procedit ut istic.
+
+Colligimus igitur generaliter unico casu $p=2$ excepto, esse
+
+\[(\alpha+hp^{\mu})^t\equiv\alpha^t(\operatorname{mod.}p^{\mu+\nu})\]
+
+\noindent et $(\alpha+hp^{\mu})^t\ \textit{non}\equiv\alpha^t$ pro quovis modulo qui sit altior potestas ipsius $p$, quam haec $p^{\mu+\nu}$, quoties quidem $h$ per $p$ non est divisibilis, atque $p^{\nu}$ potestas suprema ipsius $p$ quae numerum $t$ dividit.
+
+Hinc protinus derivantur propositiones 1. et 2. quas art. 85 demonstrandas nobis proposueramus: scilicet
+
+\emph{primo,} si $\alpha^t\equiv1$, erit etiam $(\alpha+hp^{n-\nu})^t\equiv1\,(\operatorname{mod.}p^n)$;
+
+\emph{secundo} si numerus aliquis $\alpha'$ ipsi $A$ adeoque etiam ipsi $\alpha$ secundum modulum $p$ congruus, neque vero huic secundum modulum $p^{n-\nu}$, congruentiae $x^t\equiv1\,(\operatorname{mod.}p^n)$ satisfaceret, ponamus $\alpha'$ esse $=\alpha+lp^{\lambda}$, ita ut $l$ per $p$ non sit divisibilis, eritque $\lambda<n-\nu$, tunc autem $(\alpha+lp^{\lambda})^t$ secundum modulum $p^{\lambda+\nu}$ ipsi $\alpha^t$ congruus erit, non autem secundum modulum $p^n$, quae est altior potestas, quare $\alpha'$ radix congruentiae $x^t\equiv1$ esse nequit.
+
+\Article{88}
+
+\emph{Tertium} vero fuit radicem aliquam congruentiae $x^t\equiv1\,(\operatorname{mod.}p^n)$, ipsi $A$ congruam, invenire. Ostendemus hic tantummodo quomodo hoc fieri possit, si iam radix eiusdem congruentiae secundum modulum $p^{n-1}$ innotuerit; manifesto hoc sufficit, quum a modulo $p$ pro quo $A$ est radix, ad modulum $p^2$, sicque deinceps ad omnes potestates consecutivas progredi possimus.
+
+Esto itaque $\alpha$ radix congruentiae $x^t\equiv1\,(\operatorname{mod.}p^{n-1})$ quaeriturque radix eiusdem congruentiae secundum modulum $p^n$, ponatur haec $=\alpha+hp^{n-\nu-1}$, quam formam eam habere debere ex art. praec. sequitur (casum ubi $\nu=n-1$
+\SourceLeaf{74}postea seorsim considerabimus: maior vero quam $n-1$, $\nu$ esse nequit). Debet itaque esse
+
+\[(\alpha+hp^{n-\nu-1})^t\equiv1(\operatorname{mod.}p^{n-1})\]
+
+\noindent At\hfill $(\alpha+hp^{n-\nu-1})^t\equiv\alpha^t+\alpha^{t-1}htp^{n-\nu-1}\,(\operatorname{mod.}p^n)$\hfill\mbox{}
+
+\noindent Si itaque $h$ ita determinatur, ut fiat $1\equiv\alpha^t+\alpha^{t-1}htp^{n-\nu-1}\,(\operatorname{mod.}p^n)$; sive (quia per hyp. $1\equiv\alpha^t(\operatorname{mod.}p^{n-1})$ atque $t$ per $p^{\nu}$ divisibilis) ita ut fiat $\dfrac{\alpha^t-1}{p^{n-1}}+\alpha^{t-1}h\dfrac{t}{p^{\nu}}$ per $p$ divisibilis, quaesito satisfactum erit. Hoc autem semper fieri posse ex Sect. praec. manifestum, quum $t$ per altiorem ipsius $p$ potestatem quam $p^{\nu}$ dividi non posse hic supponamus, adeoque $\alpha^{t-1}\dfrac{t}{p^{\nu}}$ ad $p$ sit primus.
+
+Si vero $\nu=n-1$ \emph{i. e} $t$ per $p^{n-1}$ sive etiam per altiorem ipsius $p$ potestatem divisibilis, quivis valor $A$ congruentiae $x^t\equiv1$ secundum modulum $p$ satisfaciens eidem etiam secundum modulum $p^n$ satisfaciet. Sit enim $t=p^{n-1}\tau$, eritque $t\equiv\tau(\operatorname{mod.}p-1)$: quare quoniam $A^t\equiv1\,(\operatorname{mod.}p)$ erit etiam $A^{\tau}\equiv1\,(\operatorname{mod.}p)$. Ponatur itaque $A^{\tau}=1+hp$ eritque $A^t=(1+hp)^{p^{n-1}}\equiv1(\operatorname{mod.}p^n)$ art. 87.
+
+\Article{89}
+
+Omnia quae art. 57 sqq. adiumento theorematis, congruentiam $x^t\equiv1$ plures quam $t$ radices diversas non habere eruimus, etiam pro modulo qui est numeri primi potestas locum habent, et si \emph{radices primitivae} vocantur numeri, qui ad exponentem $p^{n-1}(p-1)$ pertinent, sive in quorum periodis omnes numeri per $p$ non divisibiles inveniuntur, etiam hic radices primitivae exstabunt. Omnia autem quae supra de indicibus eorumque usu tradidimus, necnon de solutione congruentiae $x^t\equiv1$, ad hunc quoque casum applicari possunt. Quae quum nulli difficultati obnoxia sint omnia ex integro repetere superfluum foret. Praeterea radices congruentiae $x^t\equiv1$ secundum modulum $p^n$ e radicibus eiusdem congruentiae secundum $p$ deducere docuimus. Sed de eo casu ubi potestas aliqua numeri 2 est modulus, quia supra exceptus fuit, aliqua adhuc sunt adiicienda.
+
+\begin{center}\emph{Moduli qui sunt potestates binarii.}\end{center}
+
+\Article{90}
+
+\emph{Si potestas aliqua numeri 2, altior quam secunda, puta $2^n$ pro modulo accipitur, numeri cuiusvis imparis potestas exponentis $2^{n-2}$, unitati est congrua.}
