@@ -8,6 +8,7 @@ AI-transcribed text, AI-produced source comparisons, and AI-created editable mat
 
 The collected work is *Theoria motus corporum coelestium in sectionibus conicis solem ambientium*, Hamburg, 1809. Digital witness: [Göttinger Digitalisierungszentrum, PPN236008730](https://gdz.sub.uni-goettingen.de/id/PPN236008730).
 
+These editions are freely available for study and teaching.
 
 Alternative witness for article 98: [Internet Archive, Werke volume 7, item werkehrsgvonderg07gausuoft](https://archive.org/details/werkehrsgvonderg07gausuoft), Gerstein–University of Toronto digitization; retained PDF werkehrsgvonderg07gausuoft.pdf, leaves 140–141, printed pages 130–131. This witness supports the qualified exponent reading and the comparison of the small detached marks.
 

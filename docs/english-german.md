@@ -1,8 +1,8 @@
 # Gauss: English and German translations
 
-**Read the [English collection, 1076 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24i/Gauss_Collected_English.pdf) or the [German collection, 1108 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24i/Gauss_Werke_Deutsch.pdf).**
+**Read the [English collection, 1076 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24j/Gauss_Collected_English.pdf) or the [German collection, 1108 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24j/Gauss_Werke_Deutsch.pdf).**
 
-[Download the complete editable LaTeX package](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24i/Gauss_English_German_Collected_LaTeX.zip) · [Browse the source tree](../translations/) · [Individual volume readers](https://github.com/KokunoYumeto/gauss-collected-works/releases/tag/gauss-english-german-2026-10-24i)
+[Download the complete editable LaTeX package](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24j/Gauss_English_German_Collected_LaTeX.zip) · [Browse the source tree](../translations/) · [Individual volume readers](https://github.com/KokunoYumeto/gauss-collected-works/releases/tag/gauss-english-german-2026-10-24j)
 
 Both languages contain Volume I in full: the historical title matter,
 dedication, preface, all seven sections of the *Disquisitiones Arithmeticae*
@@ -88,7 +88,7 @@ AI-translated into English and German using OpenAI GPT-6.1 Sol; AI-produced type
 
 The originally German Fragments III–IV and VIII–X, the geometric notes and the historical remarks are rendered in modern German in the German reader. Their historical originals are supplied separately in the source package.
 
-The corresponding editable original-language editions are available in the [Gauss original-language collection](https://github.com/KokunoYumeto/gauss-collected-works/releases/tag/gauss-original-language-2026-10-24): [Volume I](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-original-language-2026-10-24/Gauss_I_Original_Language_20261023_LaTeX.zip), [Volume II](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-original-language-2026-10-24/Gauss_II_Original_Language_20261023_LaTeX.zip), [Volume III](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-original-language-2026-10-24/Gauss_III_Original_Language_20261023_LaTeX.zip). Their text, formula and diagram TeX files correspond byte for byte to the retained editable sources used for these translations. Exact translation-source archive versions and SHA-256 identities are recorded in CITATIONS.bib; the published original-language archives have their own packaging and archive identities.
+The corresponding editable original-language editions are available in the [Gauss original-language collection](https://github.com/KokunoYumeto/gauss-collected-works/releases/tag/gauss-original-language-2026-10-24): [Volume I](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-original-language-2026-10-24/Gauss_I_Original_Language_20261024_LaTeX.zip), [Volume II](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-original-language-2026-10-24/Gauss_II_Original_Language_20261024_LaTeX.zip), [Volume III](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-original-language-2026-10-24/Gauss_III_Original_Language_20261024_LaTeX.zip). Their text, formula and diagram TeX files correspond byte for byte to the retained editable sources used for these translations. Exact translation-source archive versions and SHA-256 identities are recorded in CITATIONS.bib; the published original-language archives have their own packaging and archive identities.
 
 ## Translation sources and terminology
 
@@ -132,10 +132,11 @@ Formulierungen bleiben die der Originalvorlage. Die oben genannten
 
 Crystallographic terminology references: Ian O. Angell and Moreton Moore, *Projections of cubic crystals*, IUCr, Table 2, https://www.iucr.org/what-we-do/education/pamphlets/projections-of-cubic-crystals ; Th. Hahn, H. Klapper, U. Müller and M. I. Aroyo, *Point groups and crystal classes*, International Tables for Crystallography A (2016), chapter 3.2, https://doi.org/10.1107/97809553602060000930 . These references guide terminology and usage; their running prose is not reproduced.
 
-## AI authorship
+## AI authorship and sources
 
 These English and German editions are AI-translated using OpenAI GPT-6.1 Sol, with AI-produced typesetting. Gauss is the author of the historical mathematical text; signed historical editorial contributions retain their authorship. The named human translations and writings cited above are credited for their stated terminology and usage roles.
 
+These editions are freely available for study and teaching.
 
 
 [Scholarly citation metadata](../translations/CITATIONS.bib) identifies the original editions and the named terminology references.

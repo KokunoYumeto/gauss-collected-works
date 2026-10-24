@@ -8,3 +8,4 @@ AI-transcribed text, AI-produced source comparisons, and AI-created editable mat
 
 Historical editorial contributions, including those signed by Fricke, retain their printed authorship. The complete alternative Kyushu photograph supplies the right-hand text of historical page 95 that is cut off in the principal scan.
 
+These editions are freely available for study and teaching.

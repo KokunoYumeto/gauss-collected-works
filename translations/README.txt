@@ -140,17 +140,16 @@ Formulierungen bleiben die der Originalvorlage. Die oben genannten
 Crystallographic terminology references: Ian O. Angell and Moreton Moore, Projections of cubic crystals, IUCr, Table 2, https://www.iucr.org/what-we-do/education/pamphlets/projections-of-cubic-crystals ; Th. Hahn, H. Klapper, U. Müller and M. I. Aroyo, Point groups and crystal classes, International Tables for Crystallography A (2016), chapter 3.2, https://doi.org/10.1107/97809553602060000930 . These references guide terminology and usage; their running prose is not reproduced.
 
 
-## AI authorship and publication rights
+## AI authorship and sources
 
 These English and German editions are AI-translated using OpenAI GPT-6.1 Sol, with AI-produced typesetting. Gauss is the author of the historical mathematical text; signed historical editorial contributions retain their authorship. The named human translations and writings cited above are credited for their stated terminology and usage roles.
 
-The editions are available free of charge for non-commercial, purely educational purposes. Publication rests on the publisher's presumption that the respective rights holders would not object; this is not established permission. Free access to a source does not itself authorize derivative publication. Rights in the originals and any protected derivative contributions remain with their respective rights holders. No project-wide licence or public-domain dedication is granted here.
+These editions are freely available for study and teaching.
 
-Rights holders may raise objections through the [GitHub issue page](https://github.com/KokunoYumeto/modern-latex-manuscripts/issues). The publisher undertakes to take down the affected material upon a rights holder's request.
 
 [Scholarly citation metadata](https://github.com/KokunoYumeto/modern-latex-manuscripts/blob/main/sources/gauss/english-german-2026-10-22/CITATIONS.bib) identifies the original editions and the named terminology references.
 
 
 Corresponding editable original-language editions: https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/gauss-original-language-2026-10-24
-Volume III: https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/gauss-original-language-2026-10-24/Gauss_III_Original_Language_20261023_LaTeX.zip
+Volume III: https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/gauss-original-language-2026-10-24/Gauss_III_Original_Language_20261024_LaTeX.zip
 Exact source archive versions and identities are recorded in CITATIONS.bib.

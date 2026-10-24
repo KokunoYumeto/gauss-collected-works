@@ -6,3 +6,4 @@ Source edition: Carl Friedrich Gauss, *Werke*, Band I, 1863. The historical titl
 
 The principal digital witness is Göttinger Digitalisierungszentrum PPN235993352; the comparative second printing is dated 1870. AI-transcribed text and AI-produced corrections and typesetting incorporate work by OpenAI GPT-6.1 Sol (Ultra) and OpenAI GPT-6 Astra (Ultra). Earlier ChatGPT packet drafts have no established exact backend identity.
 
+These editions are freely available for study and teaching.

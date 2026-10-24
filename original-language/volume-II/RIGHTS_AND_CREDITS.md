@@ -6,3 +6,4 @@ Source edition: Carl Friedrich Gauss, *Werke*, Band II, 1876, second impression.
 
 AI-transcribed text, AI-produced source comparisons, and AI-created editable mathematical drawings, where present: OpenAI GPT-6 Astra, Ultra. This credit concerns the modern encoding and does not replace historical authorship. No human or independent review is claimed.
 
+These editions are freely available for study and teaching.
