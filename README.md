@@ -2,7 +2,7 @@
 
 Original-language LaTeX editions and modern English and German translations of Gauss’s collected works, with reader PDFs and editable build sources. The full corpus remains unfinished; the coverage below identifies the available editions.
 
-**Read in translation:** [English collection — 1108 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24l/Gauss_Collected_English.pdf) · [German collection — 1141 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24l/Gauss_Werke_Deutsch.pdf)
+**Read in translation:** [English collection — 1112 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24m/Gauss_Collected_English.pdf) · [German collection — 1145 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24m/Gauss_Werke_Deutsch.pdf)
 
 ## Original-language editions
 
@@ -21,16 +21,16 @@ Volumes I–IV, VI and VIII cover the supplied collected volumes. Volume V conta
 
 ## English and German translations
 
-The current translations contain complete Volume I and the Volume II texts through its historical contents and imprint. Volume III contains the historical title matter and the complete 1799 dissertation, Articles 1–24, all ten historical footnotes, the closing October 1797 statement and all four figures in editable LaTeX. Gauss’s discussion of earlier proofs, geometric proof and concluding alternative argument retain their formulations and qualifications. Its originally German title matter is rendered in modern German in the German reader, with the historical German and Latin source bodies and editable figures supplied separately. The complete second proof of 1815 follows, with its title, Articles 1–20 and both historical footnotes. The complete third proof of 1816 follows with its title, introduction, Articles 1–4 and historical footnote. Volume II retains its selection designation; a complete-volume assembly claim is not made. The rest of the requested translation corpus remains unfinished.
+The current translations contain complete Volume I and the Volume II texts through its historical contents and imprint. Volume III contains the historical title matter and the complete 1799 dissertation, Articles 1–24, all ten historical footnotes, the closing October 1797 statement and all four figures in editable LaTeX. Gauss’s discussion of earlier proofs, geometric proof and concluding alternative argument retain their formulations and qualifications. Its originally German title matter is rendered in modern German in the German reader, with the historical German and Latin source bodies and editable figures supplied separately. The complete second proof of 1815 follows, with its title, Articles 1–20 and both historical footnotes. The complete third proof of 1816 follows with its title, introduction, Articles 1–4 and historical footnote. The complete 1828 Proof of an Algebraic Theorem follows, on positive and negative roots and coefficient signs, including missing terms. Volume II retains its selection designation; a complete-volume assembly claim is not made. The rest of the requested translation corpus remains unfinished.
 
 | Edition | English | German |
 |---|---|---|
-| Collected reader | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24l/Gauss_Collected_English.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24l/Gauss_Werke_Deutsch.pdf) |
-| Volume I | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24l/Gauss_Werke_I_English.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24l/Gauss_Werke_I_Deutsch.pdf) |
-| Volume II selection | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24l/Gauss_Werke_II_English_Selection.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24l/Gauss_Werke_II_Deutsch_Auswahl.pdf) |
-| Volume III: first three complete proofs | [PDF, 63 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24l/Gauss_Werke_III_English_Selection.pdf) | [PDF, 65 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24l/Gauss_Werke_III_Deutsch_Auswahl.pdf) |
+| Collected reader | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24m/Gauss_Collected_English.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24m/Gauss_Werke_Deutsch.pdf) |
+| Volume I | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24m/Gauss_Werke_I_English.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24m/Gauss_Werke_I_Deutsch.pdf) |
+| Volume II selection | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24m/Gauss_Werke_II_English_Selection.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24m/Gauss_Werke_II_Deutsch_Auswahl.pdf) |
+| Volume III: first four complete works | [PDF, 67 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24m/Gauss_Werke_III_English_Selection.pdf) | [PDF, 69 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24m/Gauss_Werke_III_Deutsch_Auswahl.pdf) |
 
-[Editable translation package](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24l/Gauss_English_German_Collected_LaTeX.zip) · [Translation scope, sources and terminology](docs/english-german.md)
+[Editable translation package](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-24m/Gauss_English_German_Collected_LaTeX.zip) · [Translation scope, sources and terminology](docs/english-german.md)
 
 ## Editable editions
 
@@ -48,4 +48,4 @@ These editions are freely available for study and teaching.
 The [original-language publication](https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/gauss-original-language-2026-10-24) and [English/German edition](https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/gauss-english-german-2026-10-24h) in the manuscript collection remain available as edition provenance.
 
 
-Corresponding English and German edition in the manuscript collection: [collected readers and editable sources](https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/gauss-english-german-2026-10-24l).
+Corresponding English and German edition in the manuscript collection: [collected readers and editable sources](https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/gauss-english-german-2026-10-24m).
