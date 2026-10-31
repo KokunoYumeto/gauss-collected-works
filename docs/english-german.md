@@ -2,7 +2,7 @@
 
 **Read the [English collection, 1810 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-31k/Gauss_Collected_English.pdf) or the [German collection, 1860 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-31k/Gauss_Werke_Deutsch.pdf).**
 
-[Download the complete editable LaTeX package](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-31k/Gauss_English_German_Collected_LaTeX.zip) · [Browse the source tree](https://github.com/KokunoYumeto/gauss-collected-works/tree/main/translations/) · [Individual volume readers](https://github.com/KokunoYumeto/gauss-collected-works/releases/tag/gauss-english-german-2026-10-31k)
+[Download the complete editable LaTeX package](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-10-31k/Gauss_English_German_Collected_LaTeX.zip) · [Browse the source tree](https://github.com/KokunoYumeto/gauss-collected-works/tree/60743a97d08ea2cd9e2e2dd7d964fbfe92be13d0/translations/) · [Individual volume readers](https://github.com/KokunoYumeto/gauss-collected-works/releases/tag/gauss-english-german-2026-10-31k)
 
 Both languages contain Volume I in full: the historical title matter,
 dedication, preface, all seven sections of the *Disquisitiones Arithmeticae*
@@ -243,6 +243,6 @@ These English and German editions are AI-translated using OpenAI GPT-6.1 Sol, wi
 These editions are freely available for study and teaching.
 
 
-[Scholarly citation metadata](https://github.com/KokunoYumeto/gauss-collected-works/blob/main/translations/CITATIONS.bib) identifies the original editions and the named terminology references.
+[Scholarly citation metadata](https://github.com/KokunoYumeto/gauss-collected-works/blob/60743a97d08ea2cd9e2e2dd7d964fbfe92be13d0/translations/CITATIONS.bib) identifies the original editions and the named terminology references.
 
 The citation metadata records the exact editable transcription archives used for the translations, with their SHA-256 identities, alongside the historical editions and named terminology references.
