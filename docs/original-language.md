@@ -86,6 +86,6 @@ Historical author: Carl Friedrich Gauss. The historical editors, correspondents,
 
 AI-transcribed text and AI-produced corrections and typesetting incorporate OpenAI GPT-6.1 Sol (Ultra) and GPT-6 Astra (Ultra) work in Volume I; the current source comparisons and the modern transcription and drawing work in the other supplied volumes use OpenAI GPT-6 Astra (Ultra). Earlier ChatGPT packet drafts do not have an established exact backend identity. These credits concern modern encoding and do not replace the authorship of inherited writing. The per-volume RIGHTS_AND_CREDITS.md files accompany the editable sources.
 
-Historical provenance: [Volume I’s GDZ witness, PPN235993352](https://gdz.sub.uni-goettingen.de/id/PPN235993352), [Volume VII’s GDZ witness, PPN236008730](https://gdz.sub.uni-goettingen.de/id/PPN236008730), and the [earlier deposited collection](https://zenodo.org/records/23396426). The historical [Gauss deposit family](https://doi.org/10.5281/zenodo.20410934) identifies that deposit history, not this GitHub collection. No DOI is asserted for these GitHub files.
+Historical provenance: [Volume I’s GDZ witness, PPN235993352](https://gdz.sub.uni-goettingen.de/id/PPN235993352) and [Volume VII’s GDZ witness, PPN236008730](https://gdz.sub.uni-goettingen.de/id/PPN236008730).
 
 These editions are freely available for study and teaching.
