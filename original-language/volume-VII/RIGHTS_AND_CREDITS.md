@@ -30,3 +30,6 @@ Alternative witness for the eighth Zusatz: Carl Friedrich Gauss, *Werke*, Band V
 
 
 Alternative witness for the eleventh Zusatz: Carl Friedrich Gauss, *Werke*, Band VII (1906), [Internet Archive item werkehrsgvonderg07gausuoft](https://archive.org/details/werkehrsgvonderg07gausuoft), Gerstein–University of Toronto digitization, PDF `werkehrsgvonderg07gausuoft.pdf`, leaf 317, printed page 307. This supplies a comparison for the fragmented bracket-shaped contour after und; it does not corroborate the qualified principal reading. Physical independence of the typesetting or image processing is not asserted.
+
+
+Alternative witness for the thirteenth Zusatz: Carl Friedrich Gauss, *Werke*, Band VII (1906), [Internet Archive item werkehrsgvonderg07gausuoft](https://archive.org/details/werkehrsgvonderg07gausuoft), Gerstein–University of Toronto digitization, PDF `werkehrsgvonderg07gausuoft.pdf`, leaf 319, printed page 309. The faint integral exponent supports the qualified reading 3/2; dense principal contours remain partly unresolved. Physical independence of the typesetting or image processing is not asserted.
