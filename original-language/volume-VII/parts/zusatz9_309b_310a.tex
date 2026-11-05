@@ -1,0 +1,59 @@
+\needspace{10\baselineskip}
+\begin{center}
+\pdfbookmark[1]{9. Zu Art. 138.}{zusatz-009}
+[9. Zu Art. 138.]
+\end{center}
+Das Criterium des Falls, wo der die geocentrische Bewegung tangirende grösste Kreis durch den Sonnenort geht, lässt sich sehr elegant auf die heliocentrischen Positionen beziehen.
+
+Es seien
+\begin{center}
+\begin{tabular}{@{}l@{\quad}p{.79\linewidth}@{}}
+\(R,r\)&Abstände von der Sonne für Erde und Planet;\\
+\(L,l\)&Längen der Erde und des Planeten, letztere in der Bahn und beide vom aufsteigenden Knoten gezählt;\\
+\(E,e\)&Excentricitäten;\\
+\(V,v\)&wahre Anomalien;\\
+\(P,p\)&halbe Parameter;
+\end{tabular}
+\end{center}
+dann ist das Criterium jenes Falls in der Gleichung
+\[
+\frac{r\sin l}{\BareRoot{p}}=\frac{R\sin L}{\BareRoot{P}}
+\quad\text{oder}\quad
+\frac{\BareRoot{p}\mathbin{.}\sin l}{1+e\cos v}=\frac{\BareRoot{P}\mathbin{.}\sin L}{1+E\cos V}
+\]
+enthalten.
+
+\SourceLeaf{310}
+Der Beweis stützt sich auf folgende Figur:
+\begin{center}
+\begin{tikzpicture}[x=.35pt,y=-.35pt,line width=.6pt,line cap=round,line join=round]
+\path[use as bounding box] (1640,600) rectangle (2440,1010);
+\draw (1665,818)..controls(1720,816)and(1790,816)..(1855,817)..controls(2040,815)and(2260,840)..(2371,865);
+\draw (1678,952)..controls(1755,951)and(1820,946)..(1887,937)..controls(2070,927)and(2260,886)..(2371,865);
+\draw (1796,632)--(1855,817)--(1887,937);
+\fill (1796,632) circle[radius=2.5pt];
+\fill (1800,816.5) circle[radius=2.5pt];
+\fill (1835,944) circle[radius=2.5pt];
+\node[inner sep=0pt,font=\fontsize{10}{11}\selectfont] at (1822,632) {\(\mathsf{B}\)};
+\node[inner sep=0pt,font=\fontsize{10}{11}\selectfont] at (1805,781) {\(\mathsf{C}'\)};
+\node[inner sep=0pt,font=\fontsize{10}{11}\selectfont] at (1870,782) {\(\mathsf{C}\)};
+\node[inner sep=0pt,font=\fontsize{10}{11}\selectfont] at (2081,785) {\(\mathsf{l}\)};
+\node[inner sep=0pt,font=\fontsize{10}{11}\selectfont] at (1833,982) {\(\mathsf{A}'\)};
+\node[inner sep=0pt,font=\fontsize{10}{11}\selectfont] at (1890,980) {\(\mathsf{A}\)};
+\node[inner sep=0pt,font=\fontsize{10}{11}\selectfont] at (2075,951) {\(\mathsf{L}\)};
+\node[inner sep=0pt,font=\fontsize{10}{11}\selectfont] at (2400,872) {\(\AscendingNode\)};
+\end{tikzpicture}
+\end{center}
+
+\(A\) Ort der Erde, \(B\) geoc., \(C\) helioc. Ort des Planeten; \(A',C'\) Plätze von \(A\) und \(C\) nach unendl. kl. Zwischenzeit \(\mathrm{d}t\).
+
+Es ist also
+\[
+AA'=\mathrm{d}L,\qquad CC'=\mathrm{d}l.
+\]
+Vermöge der Natur des Problems müssen die beiden neuen Plätze von der durch Sonne, Erde und Planet gelegten (durch \(ACB\) repräs. Ebene) gleich weit abstehen. Diese Abstände sind \(R\mathrm{d}L\sin A\) und \(r\mathrm{d}l\sin C\); da nun \(\sin A:\sin C=\sin l:\sin L\), so wird \(\dfrac{R\mathrm{d}L}{\sin L}=\dfrac{r\mathrm{d}l}{\sin l}\mathpunct{\raisebox{.45ex}{,}}\) oder da \(RR\mathrm{d}L:rr\mathrm{d}l=\BareRoot{P}:\BareRoot{p}\):
+\[
+\frac{\BareRoot{P}}{R\sin L}=\frac{\BareRoot{p}}{r\sin l}\mathpunct{\raisebox{.45ex}{,}}
+\]
+welches die obige Gleichung ist.
+\begin{center}\rule{.18\textwidth}{.35pt}\end{center}
