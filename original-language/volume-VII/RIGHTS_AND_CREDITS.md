@@ -18,3 +18,15 @@ Alternative witness for article 179: [Internet Archive, Werke volume 7, item wer
 
 
 Alternative witness for Table II: [Internet Archive, Werke volume 7, item werkehrsgvonderg07gausuoft](https://archive.org/details/werkehrsgvonderg07gausuoft), Gerstein–University of Toronto digitization; PDF werkehrsgvonderg07gausuoft.pdf, leaves 280 and 285, printed pages 270 and 275. These leaves support the qualified historical-note coefficient and exponent, the initial logarithm digit, and the final digit of the entry at h = 0,518. They do not independently establish every table value; physical independence of the typesetting or image processing is not asserted.
+
+
+Alternative witness for the sixth Zusatz: Carl Friedrich Gauss, *Werke*, Band VII (1906), [Internet Archive item werkehrsgvonderg07gausuoft](https://archive.org/details/werkehrsgvonderg07gausuoft), Gerstein–University of Toronto digitization, PDF `werkehrsgvonderg07gausuoft.pdf`, leaf 309, printed page 299. It supports the qualified opening fraction and the recurrence coefficients. Physical independence of the typesetting or image processing is not asserted.
+
+
+Alternative witness for the seventh Zusatz: Carl Friedrich Gauss, *Werke*, Band VII (1906), [Internet Archive item werkehrsgvonderg07gausuoft](https://archive.org/details/werkehrsgvonderg07gausuoft), Gerstein–University of Toronto digitization, PDF `werkehrsgvonderg07gausuoft.pdf`, leaves 310–311, printed pages 300–301. This supplies comparisons for the dense nested coefficients and final exponent, whose internal contours remain partly unresolved. Physical independence of the typesetting or image processing is not asserted.
+
+
+Alternative witness for the eighth Zusatz: Carl Friedrich Gauss, *Werke*, Band VII (1906), [Internet Archive item werkehrsgvonderg07gausuoft](https://archive.org/details/werkehrsgvonderg07gausuoft), Gerstein–University of Toronto digitization, PDF `werkehrsgvonderg07gausuoft.pdf`, leaf 312, printed page 302. This supplies the comparison for the joined prime contours and partly surviving closing parenthesis in the twelve-term expression. Physical independence of the typesetting or image processing is not asserted.
+
+
+Alternative witness for the eleventh Zusatz: Carl Friedrich Gauss, *Werke*, Band VII (1906), [Internet Archive item werkehrsgvonderg07gausuoft](https://archive.org/details/werkehrsgvonderg07gausuoft), Gerstein–University of Toronto digitization, PDF `werkehrsgvonderg07gausuoft.pdf`, leaf 317, printed page 307. This supplies a comparison for the fragmented bracket-shaped contour after und; it does not corroborate the qualified principal reading. Physical independence of the typesetting or image processing is not asserted.
