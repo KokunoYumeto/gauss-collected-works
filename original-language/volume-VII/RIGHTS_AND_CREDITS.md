@@ -33,3 +33,6 @@ Alternative witness for the eleventh Zusatz: Carl Friedrich Gauss, *Werke*, Band
 
 
 Alternative witness for the thirteenth Zusatz: Carl Friedrich Gauss, *Werke*, Band VII (1906), [Internet Archive item werkehrsgvonderg07gausuoft](https://archive.org/details/werkehrsgvonderg07gausuoft), Gerstein–University of Toronto digitization, PDF `werkehrsgvonderg07gausuoft.pdf`, leaf 319, printed page 309. The faint integral exponent supports the qualified reading 3/2; dense principal contours remain partly unresolved. Physical independence of the typesetting or image processing is not asserted.
+
+
+Alternative witness for the fifteenth Zusatz: Carl Friedrich Gauss, *Werke*, Band VII (1906), [Internet Archive item werkehrsgvonderg07gausuoft](https://archive.org/details/werkehrsgvonderg07gausuoft), Gerstein–University of Toronto digitization, PDF `werkehrsgvonderg07gausuoft.pdf`, leaves 321–322, printed pages 311–312. The variable contours support the qualified 7-shaped and vartheta readings. The faint second page does not independently establish every number or leader, or confidently establish the comma-shaped leader. Physical independence of the typesetting or image processing is not asserted.
