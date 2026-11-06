@@ -17,6 +17,8 @@ def cmex_unicode(name):
     # separate private-use values because each is only part of a delimiter.
     if name in ('integraltext', 'integraldisplay'):
         return 0x222B
+    if name in ('summationtext', 'summationdisplay'):
+        return 0x2211
     for stem, value in [('parenleft', 0x28), ('parenright', 0x29),
                         ('bracketleft', 0x5B), ('bracketright', 0x5D),
                         ('braceleft', 0x7B), ('braceright', 0x7D)]:

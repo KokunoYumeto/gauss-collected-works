@@ -1,0 +1,144 @@
+\par\bigskip
+\hypertarget{native-392-ceres5}{}
+\begin{center}\pdfbookmark[2]{5. Integration der Störungsgleichungen}{ceres-005}[5.]\end{center}
+\noindent\hspace*{\parindent}[Die rechten Seiten der Gleichungen 11 und 12 für \(\delta r\) und \(\delta v\) können auf folgende Weise berechnet werden;] es sei [allgemein]
+\[
+\text{ein Glied von }Q=A\cos\{(kn-k'n')t-a\}=A\cos\psi,
+\]
+\noindent[und man setze] näherungsweise [d. i. mit Vernachlässigung der 2. Potenzen der Excentricitäten:]
+\[V=M-2e\sin M,\]
+\[\sin V=\sin M-e\sin2M,\]
+\[\cos V=\cos M+e-e\cos2M,\]
+\[r=a(1+e\cos M),\]
+\[r\sin V=a(\sin M-\tfrac12e\sin2M),\]
+\[r\cos V=a(\cos M+\tfrac32e-\tfrac12e\cos2M),\]
+\noindent so ist [das entsprechende \hypertarget{native-393}{}Glied von] \(rQ\sin V\)
+\[
+\begin{aligned}
+={}&\tfrac12aA\{\sin(M+\psi)+\sin(M-\psi)\}\\
+&-\tfrac14eaA\{\sin(2M+\psi)+\sin(2M-\psi)\}
+\end{aligned}
+\]
+\noindent Glied von] \(rQ\cos V\)
+\[
+\begin{aligned}
+={}&\tfrac12aA\{\cos(M+\psi)+\cos(M-\psi)\}+\tfrac32eaA\cos\psi\\
+&-\tfrac14eaA\{\cos(2M+\psi)+\cos(2M-\psi)\}.
+\end{aligned}
+\]
+
+Nach der Integration
+\[
+\begin{gathered}
+{}[\text{Glied von }\cos V\int rQ\sin V\mathord{.}\,n\mathrm{d}t=]\\[1ex]
+\left\{\begin{aligned}
+&-\frac{\tfrac12aA\cos(M+\psi)}{1+k-k'\theta}-\frac{\tfrac12aA\cos(M-\psi)}{1-k+k'\theta}\\
+&+\frac{\tfrac14eaA\cos(2M+\psi)}{2+k-k'\theta}+\frac{\tfrac14eaA\cos(2M-\psi)}{2-k+k'\theta}
+\end{aligned}\right\}\\[1ex]
+(\cos M+e-e\cos2M)
+\end{gathered}
+\]
+\[
+\begin{gathered}
+{}[\text{Glied von }-\sin V\int rQ\cos V\mathord{.}\,n\mathrm{d}t=]\\[1ex]
+\left\{\begin{aligned}
+&-\frac{\tfrac12aA\sin(M+\psi)}{1+k-k'\theta}-\frac{\tfrac12aA\sin(M-\psi)}{1-k+k'\theta}\\
+&-\frac{\tfrac32eaA\sin\psi}{k-k'\theta}\\
+&+\frac{\tfrac14eaA\sin(2M+\psi)}{2+k-k'\theta}+\frac{\tfrac14eaA\sin(2M-\psi)}{2-k+k'\theta}
+\end{aligned}\right\}\\[1ex]
+(\sin M-e\sin2M).
+\end{gathered}
+\]
+
+Hieraus folgt [nach 11] das zugehörige
+\[
+\begin{gathered}
+{}[14]\quad\text{Glied von }\delta r=\\[1ex]
+\frac{\mu aaA}{\BareRoot{(1-ee)}}\left\{\begin{aligned}
+&-\frac{\cos\psi}{1-(k-k'\theta)^2}+\frac{\tfrac14e\cos(M+\psi)}{2+k-k'\theta}\\
+&+\frac{(k-k'\theta)e\cos(M+\psi)}{1-(k-k'\theta)^2}+\frac{\tfrac34e\cos(M+\psi)}{k-k'\theta}\\
+&+\frac{\tfrac14e\cos(M-\psi)}{2-k+k'\theta}-\frac{(k-k'\theta)e\cos(M-\psi)}{1-(k-k'\theta)^2}\\
+&-\frac{\tfrac34e\cos(M-\psi)}{k-k'\theta}
+\end{aligned}\right\}
+\end{gathered}
+\]
+
+[Diese Formel erleidet eine Ausnahme, wenn einer der Nenner verschwindet; und zwar erstens, wenn \(\psi=0\), also \(k=k'=0\) ist; dann ist dafür zu setzen
+\[
+-\frac{\mu aaA}{\BareRoot{(1-ee)}}(1-\tfrac14e\cos M+\tfrac32ent\sin M);
+\]
+\noindent und zweitens] für \(\psi=nt-\text{constans}\) [also \(k=1\), \(k'=0\)] wird [dieses Glied:]
+\[
+\begin{gathered}
+=\frac{\mu aaA}{\BareRoot{(1-ee)}}\\[1ex]
+\left\{\begin{aligned}
+&-\tfrac14\cos\psi-\tfrac12nt\sin\psi\\
+&\left[\begin{aligned}
+&+\tfrac7{12}e\cos(M+\psi)+\tfrac12ent\sin(M+\psi)\\
+&-\tfrac14e\cos(M-\psi)+\tfrac12ent\sin(M-\psi)
+\end{aligned}\right]
+\end{aligned}\right\}
+\end{gathered}
+\]
+\noindent[wo übrigens \(M-\psi\) eine Constante ist.
+
+Der Ausdruck 12 für \(\delta v\) lässt sich schreiben:]
+\[
+\begin{aligned}
+{}[15]\quad\delta v=\frac1{\BareRoot{(1-ee)}}\Bigg\{&\frac{2\BareRoot{\frac ra}\,\mathrm{d}\left(\rho\BareRoot{\frac ra}\right)}{an\mathrm{d}t}\\
+&+2\mu a\int Qn\mathrm{d}t-\mu a\iint\partial Rn\mathrm{d}t\Bigg\}
+\end{aligned}
+\]
+
+[Zunächst ist das erste Glied in der Klammer zu berechnen:] es ist der aus [dem Theil von \(Q\), welcher gleich] \(A\cos\psi\), entsprungene Theil von \(\rho\) \hypertarget{native-394}{}[aus der Gleichung 14 zu entnehmen; er gibt, nach der Multiplication mit] \(\BareRoot{\frac ra}=1+\tfrac12e\cos M\), [den zugehörigen Theil von \(\frac\rho a\BareRoot{\frac ra}\)]=
+\[
+\begin{gathered}
+\frac{\mu aA}{\BareRoot{(1-ee)}}\\[1ex]
+\left\{\begin{aligned}
+&-\frac{\cos\psi}{1-(k-k'\theta)^2}\\
+&+\left(\frac{\tfrac14}{2+k-k'\theta}+\frac{k-k'\theta-\tfrac14}{1-(k-k'\theta)^2}+\frac{\tfrac34}{k-k'\theta}\right)e\cos(M+\psi)\\
+&+\left(\frac{\tfrac14}{2-k+k'\theta}-\frac{k-k'\theta+\tfrac14}{1-(k-k'\theta)^2}-\frac{\tfrac34}{k-k'\theta}\right)e\cos(M-\psi)
+\end{aligned}\right\},
+\end{gathered}
+\]
+\noindent folglich [der zugehörige Theil von] \(2\frac{\mathrm{d}\left(\frac\rho a\BareRoot{\frac ra}\right)}{n\mathrm{d}t}=\)
+\[
+\begin{gathered}
+\frac{\mu aA}{\BareRoot{(1-ee)}}\\[1ex]
+\left\{\begin{aligned}
+&\frac{2(k-k'\theta)}{1-(k-k'\theta)^2}\sin\psi\\
+&-\left(\frac{\tfrac12(1+k-k'\theta)}{2+k-k'\theta}+\frac{2(k-k'\theta)-\tfrac12}{1-k+k'\theta}+\frac{\tfrac32(1+k-k'\theta)}{k-k'\theta}\right)\\
+&\hfill e\sin(M+\psi)\\
+&-\left(\frac{\tfrac12(1-k+k'\theta)}{2-k+k'\theta}-\frac{2(k-k'\theta)+\tfrac12}{1+k-k'\theta}-\frac{\tfrac32(1-k+k'\theta)}{k-k'\theta}\right)\\
+&\hfill e\sin(M-\psi)
+\end{aligned}\right\}.
+\end{gathered}
+\]
+
+[Hieraus ergibt sich der entsprechende Theil von \(\frac{2\BareRoot{\frac ra}\,\mathrm{d}\left(\rho\BareRoot{\frac ra}\right)}{an\mathrm{d}t}\) gleich dem vorstehenden, dem] rechter Hand durch die Multiplication mit \(\BareRoot{\frac ra}\) hinzugefügt wird:
+\[
+\frac{\mu aA}{\BareRoot{(1-ee)}}\left\{\begin{aligned}
+&\tfrac12\frac{k-k'\theta}{1-(k-k'\theta)^2}e\sin(M+\psi)\\
+&-\tfrac12\frac{k-k'\theta}{1-(k-k'\theta)^2}e\sin(M-\psi)
+\end{aligned}\right\}.
+\]
+
+[In den beiden letzten Ausdrücken findet wieder Ausnahme statt, erstens wenn \(\psi=\text{constans}\); dann wird das Glied in \(\frac{2\BareRoot{\frac ra}\,\mathrm{d}\left(\rho\BareRoot{\frac ra}\right)}{an\mathrm{d}t}\) gleich
+\[
+-\frac{\mu aA}{\BareRoot{(1-ee)}}\{\tfrac52e\sin M+3entM\}
+\]
+\noindent und zweitens] für \(\psi=nt-\text{constans}\) [ergibt die Rechnung dieses Glied in] \(\frac{2\BareRoot{\frac ra}\,\mathrm{d}\left(\rho\BareRoot{\frac ra}\right)}{an\mathrm{d}t}=\)
+\[
+\begin{gathered}
+\frac{\mu aA}{\BareRoot{(1-ee)}}\\[1ex]
+\left\{\begin{aligned}
+&-\tfrac12\sin\psi-nt\cos\psi\\
+&\left[\begin{aligned}
+&-\tfrac{35}{24}e\sin(M+\psi)+\tfrac{11}8e\sin(M-\psi)\\
+&+\tfrac54ent\cos(M+\psi)-\tfrac14ent\cos(M-\psi)
+\end{aligned}\right]
+\end{aligned}\right\}.
+\end{gathered}
+\]
+\noindent[Der übrige Theil von \(\delta v\) ist leicht zu bilden.]
+\par\medskip\centerline{\rule{.28\linewidth}{.35pt}}\par
