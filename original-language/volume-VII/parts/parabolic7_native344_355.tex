@@ -1,0 +1,997 @@
+\clearpage
+\SourceLeaf{344}
+\pdfbookmark[2]{7. Allgemeine Theorie der Berechnung der Cometenbahnen}{parabolisch-007}
+\begin{center}
+[7.]\par\medskip
+Allgemeine Theorie der Berechnung der Cometenbahnen\par
+[nebst Anwendung auf den zweiten Cometen des Jahrs 1813].
+\end{center}
+\begin{center}\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{c|c|c}
+Beobachtungszeiten & Beobachtete Längen & Beobachtete Breiten\\\hline
+\(t=[1813\ \text{April}]\ 7{,}55002\)&\(\alpha=271^{0}\,16'\,38''\)&\(\beta=+29^{0}\,2'\,0''\)\\
+\(t'=\text{»}\quad\text{»}\quad14{,}54694\)&\(\alpha'=266\quad27\quad22\)&\(\beta'=+22\quad52\quad18\)\\
+\(t''=\text{»}\quad\text{»}\quad21{,}59931\)&\(\alpha''=256\quad48\quad8\)&\(\beta''=+\ 9\quad53\quad12\)
+\end{tabular}
+\end{center}
+\begin{center}
+\begin{tabular}{c|c}
+\shortstack{Längen der Sonne}&\shortstack{Logarithmen der Abstände\\von der Erde}\\\hline
+\(\odot=17^{0}\,47'\,41''\)&\(\log R=0{,}00091\)\\
+\(\odot'=24\quad38\quad45\)&\(\log R'=0{,}00175\)\\
+\(\odot''=31\quad31\quad25\)&\(\log R''=0{,}00260\)
+\end{tabular}
+\end{center}
+\noindent[\(r,r',r''\) die Abstände von der Sonne,\par
+\noindent\(\rho,\rho',\rho''\) die Abstände von der Erde.]
+\begin{center}Vorläufige Operationen:\end{center}
+[Es ist
+\[
+\begin{aligned}
+rr&=\rho\rho-2\rho R\cos\beta\cos(\alpha-\odot)+RR\\
+r''r''&=\rho''\rho''-2\rho''R''\cos\beta''\cos(\alpha''-\odot'')+R''R'';
+\end{aligned}
+\]
+setzt man, wie in der Abhandlung »Observationes cometae secundi A. MDCCCXIII« etc.]
+\[
+\begin{array}{l@{\quad}l}
+[\mathrm{I}]&\begin{aligned}
+\cos\psi&=\cos\beta\cos(\alpha-\odot),& A&=R\sin\psi\\
+\cos\psi''&=\cos\beta''\cos(\alpha''-\odot''),& A''&=R''\sin\psi'',
+\end{aligned}
+\end{array}
+\]
+[so wird
+\[
+\begin{aligned}
+rr&=(\rho-R\cos\psi)^2+AA\\
+r''r''&=(\rho''-R''\cos\psi'')^2+A''A''.
+\end{aligned}
+\]
+
+Legt man durch den ersten und dritten geocentrischen Ort einen grössten Kreis, der die Ekliptik im Punkte \(N\) unter dem Neigungswinkel \(J\) schneide, so ist, wenn die Länge dieses Punkts ebenfalls mit \(N\) bezeichnet wird,
+\SourceLeaf{345}
+\[
+\begin{aligned}
+\operatorname{tang}J\sin(\alpha-N)&=\operatorname{tang}\beta\\
+\operatorname{tang}J\sin(\alpha''-N)&=\operatorname{tang}\beta'';
+\end{aligned}
+\]
+\(J\) und \(N\) können aus den Formeln, vgl. Theoria motus corporum coelestium Art. 78,]
+\[
+\begin{array}{l@{\quad}l}
+[\mathrm{II}]&\begin{aligned}
+\operatorname{tang}J\sin(\alpha-N)&=\operatorname{tang}\beta\\
+\operatorname{tang}J\cos(\alpha-N)&=\frac{\operatorname{tang}\beta''-\operatorname{tang}\beta\cos(\alpha''-\alpha)}{\sin(\alpha''-\alpha)}
+\end{aligned}
+\end{array}
+\]
+[berechnet werden.
+
+Indem man die Längen vom Punkte \(N\) aus zählt, hat man für die Chorde zwischen dem ersten und dritten Ort
+\[
+\begin{aligned}
+\text{Chorde}^2={}&\bigl\{\rho''\cos\beta''\cos(\alpha''-N)-\rho\cos\beta\cos(\alpha-N)\\
+&\qquad{}-R''\cos(\odot''-N)+R\cos(\odot-N)\bigr\}^2\\
+&+\bigl\{\rho''\cos\beta''\sin(\alpha''-N)-\rho\cos\beta\sin(\alpha-N)\\
+&\qquad{}-R''\sin(\odot''-N)+R\sin(\odot-N)\bigr\}^2\\
+&+\{\rho''\sin\beta''-\rho\sin\beta\}^2.
+\end{aligned}
+\]
+
+Man setze
+\[
+\begin{aligned}
+R''\cos(\odot''-N)-R\cos(\odot-N)&=f\cos(F-N)\\
+R''\sin(\odot''-N)-R\sin(\odot-N)&=f\sin(F-N)
+\end{aligned}
+\]
+und bezeichne mit \(K,K''\) die Abstände des ersten und dritten geocentrischen Orts vom Punkte \(N\); alsdann ist
+\[
+\begin{aligned}
+\cos\beta\cos(\alpha-N)&=\cos K,\\
+\cos\beta\sin(\alpha-N)&=\cos J\sin K,\\
+\sin\beta&=\sin J\sin K\\
+\cos\beta''\cos(\alpha''-N)&=\cos K'',\\
+\cos\beta''\sin(\alpha''-N)&=\cos J\sin K'',\\
+\sin\beta''&=\sin J\sin K'',
+\end{aligned}
+\]
+womit wird
+\[
+\begin{aligned}
+\text{Chorde}^2={}&(\rho''\cos K''-\rho\cos K-f\cos(F-N))^2\\
+&+(\rho''\cos J\sin K''-\rho\cos J\sin K-f\sin(F-N))^2\\
+&+(\rho''\sin J\sin K''-\rho\sin J\sin K)^2.
+\end{aligned}
+\]
+
+Man kann die Grössen \(f,F,K,K''\) aus den Formeln]
+\[
+\begin{array}{l@{\quad}l}
+[\mathrm{III}]&\begin{aligned}
+R''\cos(\odot''-\odot)-R&=f\cos(F-\odot)\\
+R''\sin(\odot''-\odot)&=f\sin(F-\odot)
+\end{aligned}
+\end{array}
+\]
+\[
+\begin{array}{l@{\quad}l}
+[\mathrm{IV}]&\begin{aligned}
+\frac{\operatorname{tang}(\alpha-N)}{\cos J}&=\operatorname{tang}K\\
+\frac{\operatorname{tang}(\alpha''-N)}{\cos J}&=\operatorname{tang}K''
+\end{aligned}
+\end{array}
+\]
+\SourceLeaf{346}
+[berechnen und noch setzen]
+\[
+\begin{array}{l@{\quad}l}
+[\mathrm{V}]&\begin{aligned}
+f\cos J\sin(F-N)&=g\sin G\\
+f\cos(F-N)&=g\cos G.
+\end{aligned}
+\end{array}
+\]
+
+[Legt man nun durch den mittlern geocentrischen Ort einen grössten Kreis, welcher den durch die beiden äussern Örter gehenden grössten Kreis rechtwinklig schneidet und nennt man \(Q\) die Länge des Punkts, in dem dieser Kreis die Ekliptik schneidet, so ist]
+\[
+\begin{array}{l@{\quad}l}
+[\mathrm{VI}]&\begin{aligned}
+\operatorname{tang}(Q-N)&=\operatorname{tang}(\alpha'-N)\cdot\left(1+\frac{\operatorname{tang}J\operatorname{tang}\beta'}{\sin(\alpha'-N)}\right)\\
+&=\operatorname{tang}(\alpha'-N)+\frac{\operatorname{tang}J\operatorname{tang}\beta'}{\cos(\alpha'-N)}\mathpunct{\cdot}
+\end{aligned}
+\end{array}
+\]
+
+[In unserm Beispiel wird]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\cos\beta&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}94168\\
+\cos(\alpha-\odot)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}45379_n\\\hline
+\cos\psi&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}39547_n\\
+R&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}00091\\
+\sin\psi&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}98615\\\hline
+A&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}98706
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\cos\beta''&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}99350\\
+\cos(\alpha''-\odot'')&\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}84736_n\\\hline
+\cos\psi''&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}84086_n\\
+R''&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}00260\\
+\sin\psi''&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}85778\\\hline
+A''&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}86038
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+R''&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}00260\\
+\cos(\odot''-\odot)&\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}98741\\
+\sin(\odot''-\odot)&\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}37535\\\hline
+[R''\cos(\odot''-\odot)]&&9{,}99001\\
+-R&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}00091_n\\\hline
+\left[\begin{array}{@{}l@{}}f\cos(F-\odot)\\f\sin(F-\odot)\end{array}\right]&
+\begin{array}{@{}l@{}}\mathord{.}\\\mathord{.}\end{array}&
+\begin{array}{@{}r@{}}8{,}39501_n\\9{,}37795\end{array}\\\hline
+\sin(F-\odot)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}99766\\
+f&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}38029\\
+\multicolumn{2}{r}{F-\odot=}&95^{0}\,56'\,16''\\
+\multicolumn{2}{r}{\odot=}&17\quad47\quad41\\\cline{2-3}
+\multicolumn{2}{r}{F=}&113\quad43\quad57
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\operatorname{tang}\beta&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}74435\\
+\cos(\alpha''-\alpha)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}98599\\\hline
+&&9{,}73034_n\\
+\operatorname{tang}\beta''&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}24127\\\hline
+&&9{,}56010_n\\
+\sin(\alpha''-\alpha)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}39786_n\\\hline
+\left[\begin{array}{@{}l@{}}\operatorname{tang}J\cos(\alpha-N)\\\operatorname{tang}J\sin(\alpha-N)\end{array}\right]&&
+\begin{array}{@{}r@{}}0{,}16224\\9{,}74435\end{array}\\\hline
+\cos(\alpha-N)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}97041\\
+\operatorname{tang}J&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}19183\\
+\sin J&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}92487\\
+\cos J&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}73304\\
+\multicolumn{2}{r}{\alpha-N=}&20^{0}\,54'\,32''
+\end{array}
+\]
+\[
+\begin{array}{r@{\;}l}
+N=&250^{0}\,22'\,6''\\
+\alpha'-N=&16\quad5\quad16\\
+\alpha''-N=&6\quad26\quad2\\
+F-N=&223\quad21\quad51
+\end{array}
+\]
+\SourceLeaf{347}
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\operatorname{tang}(\alpha-N)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}58211\\
+\operatorname{tang}(\alpha''-N)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}05218\\
+\cos J&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}73304\\\hline
+\multicolumn{2}{r}{K=}&35^{0}\,14'\,19''\\
+\multicolumn{2}{r}{K''=}&11\quad46\quad42
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\cos J&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}73304\\
+f&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}38029\\
+\sin(F-N)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}83672_n\\
+\cos(F-N)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}86154_n\\\hline
+\left[\begin{array}{@{}l@{}}g\sin G\\g\cos G\end{array}\right]&
+\begin{array}{@{}l@{}}\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\\\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\end{array}&
+\begin{array}{@{}r@{}}8{,}95005_n\\9{,}24183_n\end{array}\\\hline
+\cos G&\mathord{.}\,\mathord{.}\,\mathord{.}\quad\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}94966_n\\
+g&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}29217\\
+\multicolumn{2}{r}{G=}&207^{0}\,3'\,23''
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\sin(\alpha'-N)&\mathord{,}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}44265\\
+\operatorname{cotang}J&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}80817\\
+\operatorname{cotang}\beta'&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}37486\\\hline
+&&9{,}62568\\
+\multicolumn{3}{l}{\left[1+\dfrac{\operatorname{tang}J\operatorname{tang}\beta'}{\sin(\alpha'-N)}\quad\mathord{.}\,\mathord{.}\quad0{,}52733\right]}\\
+\operatorname{tang}(\alpha'-N)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}46000\\\hline
+\operatorname{tang}(Q-N)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}98733
+\end{array}
+\]
+\[
+\begin{array}{r@{\;}l}
+Q-N=&44^{0}\,9'\,51''\\
+Q=&294\quad31\quad57\\
+\odot'-Q=&90\quad6\quad48\\
+\alpha-Q=&-23\quad15\quad19\\
+\alpha'-Q=&-28\quad4\quad35\\
+\alpha''-Q=&-37\quad43\quad49\\
+\odot-Q=&83\quad15\quad44\\
+\odot''-Q=&96\quad59\quad28.
+\end{array}
+\]
+
+Die bisherigen Vorschriften sind allgemein. Jetzt muss man sich entschliessen, was man von den Beobachtungsdatis weglassen will. Man denke sich durch den mittelsten geocentrischen Ort zwei grösste Kreise gezogen. Er befindet sich also wirklich in beiden zugleich, allein da man zu viele Data hat, so wird man die eine Bedingung aufopfern, und bloss die beibehalten, dass er in \textls[150]{einem} gegebenen grössten Kreise liegt. Dieser ist an sich ganz willkürlich; legt man ihn durch den [mittelsten] Ort der Sonne, so hat man die bequemste Rechnung, aber zuweilen nicht hinlängliche Schärfe. Allgemein schneide derselbe die Ekliptik in dem Punkte, dessen Länge \(=P\). Setzt man \(P=N\), so wird bloss die Krümmung der scheinbaren Cometenbahn dargestellt, aber nicht die veränderte Geschwindigkeit. Setzt man \(P=Q\), so verhält sichs umgekehrt, und dies wird im allgemeinen das schärfste Resultat geben.
+
+Wir haben nunmehro, wenn wir \(n,n',n'',k\) in der Bedeutung der Th[eoria] M[otus] C[orporum] C[oelestium] nehmen, hingegen \(\rho,\rho''\) die wahren Abstände des Cometen [von der Erde] bedeuten lassen [und wenn wir die Längen von dem noch ganz willkürlichen Punkte \(P\) zählen, nach Art. 112 der genannten
+\SourceLeaf{348}Theoria
+\[
+\begin{aligned}
+&n\rho\cos\beta\sin(\alpha-P)-n'\rho'\cos\beta'\sin(\alpha'-P)\\
+&\qquad{}+n''\rho''\cos\beta''\sin(\alpha''-P)\\
+&\quad=nR\sin(\odot-P)-n'R'\sin(\odot'-P)+n''R''\sin(\odot''-P)\\
+&n\rho\sin\beta-n'\rho'\sin\beta'+n''\rho''\sin\beta''=0
+\end{aligned}
+\]
+und hieraus zur Herstellung einer Beziehung zwischen \(\rho\) und \(\rho''\)] die vollkommen strenge Gleichung
+\[
+\begin{array}{l@{\quad}l}
+[\mathrm{VII}]&\begin{aligned}
+&n\rho\sin\beta\left(\frac{\sin(\alpha-P)}{\operatorname{tang}\beta}-\frac{\sin(\alpha'-P)}{\operatorname{tang}\beta'}\right)\\
+&{}+n''\rho''\sin\beta''\left(\frac{\sin(\alpha''-P)}{\operatorname{tang}\beta''}-\frac{\sin(\alpha'-P)}{\operatorname{tang}\beta'}\right)\\
+&=nR\sin(\odot-P)-n'R'\sin(\odot'-P)\\
+&\qquad{}+n''R''\sin(\odot''-P).
+\end{aligned}
+\end{array}
+\]
+
+Nun kann man ohne Bedenken setzen [vgl. Art. 133 und 134 der Theoria motus]
+\[
+\begin{aligned}
+\frac{n''}{n}&=\frac{t'-t}{t''-t'}\\
+n'&=(n+n'')\left(1-\frac{4kk(t'-t)(t''-t')}{(r+r'')^3}\right)
+\end{aligned}
+\]
+[oder
+\[
+\frac{n'}{n}=\frac{t''-t}{t''-t'}-\frac{4kk(t''-t)(t'-t)}{(r+r'')^3}\Biggr]\mathpunct{\cdot}
+\]
+Wir haben also
+\[
+\begin{array}{l@{\quad}l}
+[\mathrm{VIII}]&\displaystyle\frac{1}{(r+r'')^3}=\mu+M\rho+M''\rho'',
+\end{array}
+\]
+wenn wir setzen
+\[
+\begin{array}{l@{\quad}l}
+[\mathrm{IX}]&\displaystyle M=\frac{\sin\beta\left(\dfrac{\sin(\alpha-P)}{\operatorname{tang}\beta}-\dfrac{\sin(\alpha'-P)}{\operatorname{tang}\beta'}\right)}{4kk(t''-t)(t'-t)R'\sin(\odot'-P)}
+\end{array}
+\]
+\[
+\begin{array}{l@{\quad}l}
+[\mathrm{X}]&\displaystyle M''=\frac{\sin\beta''\left(\dfrac{\sin(\alpha''-P)}{\operatorname{tang}\beta''}-\dfrac{\sin(\alpha'-P)}{\operatorname{tang}\beta'}\right)}{4kk(t''-t)(t''-t')R'\sin(\odot'-P)}
+\end{array}
+\]
+\[
+\begin{array}{l@{\quad}l}
+[\mathrm{XI}]&\displaystyle\mu=-\frac{\begin{gathered}(t''-t')R\sin(\odot-P)-(t''-t)R'\sin(\odot'-P)\\{}+(t'-t)R''\sin(\odot''-P)\end{gathered}}{4kk(t''-t)(t'-t)(t''-t')R'\sin(\odot'-P)}\mathpunct{\cdot}
+\end{array}
+\]
+
+Man kann indessen hier füglich annehmen \(\mu=\dfrac{1}{(R+R'')^3}\) oder \(\mu=\dfrac{1}{8R'^3}\) [denn die Gleichungen VII und VIII gelten auch, die letztere genähert, wenn man anstatt aller auf den Cometen sich beziehender Data die entsprechenden für die Erde setzt, wobei \(\rho\) und \(\rho''\) verschwinden und der vorstehende Näherungswert sich ergibt.
+
+Unser Beispiel gibt, wenn \(P=272^{0}\,40'\,21''\) genommen wird:]
+\SourceLeaf{349}
+\[
+\begin{array}{l@{\;}l@{\;}r}
+4kk&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&7{,}07322\\
+R'&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}00175\\
+\sin(\odot'-P)&&9{,}96725\\\hline
+&&7{,}04222\\
+t''-t&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&1{,}14766\\\hline
+&&8{,}18988\\
+t''-t'&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}84833\\
+t'-t&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}84491
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\sin(\alpha-P)&&8{,}38650_n\\
+\operatorname{tang}\beta&\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}74435\\
+\sin(\alpha'-P)&&9{,}03456_n\\
+\operatorname{tang}\beta'&\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}62514\\
+\sin(\alpha''-P)&&9{,}43689_n\\
+\operatorname{tang}\beta''&\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}24127
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\left[\dfrac{\sin(\alpha-P)}{\operatorname{tang}\beta}\right]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&8{,}64215_n\\[3pt]
+\left[-\dfrac{\sin(\alpha'-P)}{\operatorname{tang}\beta'}\right]&\mathord{.}\,\mathord{.}&9{,}40942\\[3pt]\hline
+&&9{,}32803\\
+\sin\beta&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}68603\\\hline
+&&9{,}01406\\
+{}[\text{Nenner}]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}03479\\\hline
+M&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}97927
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\left[\dfrac{\sin(\alpha''-P)}{\operatorname{tang}\beta''}\right]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}19562_n\\[3pt]
+&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}40942\\\hline
+&&0{,}11803_n\\
+\sin\beta''&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}23477\\\hline
+&&9{,}35280_n\\
+{}[\text{Nenner}]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}03821\\\hline
+M''&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}31459_n
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\sin(\odot-P)&\mathord{.}\,\mathord{.}&9{,}98470\\
+-R&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}00091_n\\
+\text{C log Denom.}&\mathord{.}&0{,}96521\\\hline
+&&0{,}95082_n
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\sin(\odot'-P)&\mathord{.}&9{,}96725\\
+R'&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}00175\\
+&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&1{,}26454\\\hline
+&&1{,}23354
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\sin(\odot''-P)&\mathord{.}\,\mathord{.}&9{,}94245\\
+-R''&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}00260_n\\
+&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}96179\\\hline
+&&0{,}90684_n
+\end{array}
+\]
+\[
+\begin{array}{r@{\;}l@{\;}r}
+\mu&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}0888\\
+\text{aus der Näherungsformel: }\mu&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}09166.
+\end{array}
+\]
+
+Die übrigen Vorbereitungsrechnungen sind folgende:
+
+[Man setze
+\[
+\begin{aligned}
+M\sin K''+M''\sin K&=h\sin H\\
+M\cos K''+M''\cos K&=h\cos H,
+\end{aligned}
+\]
+oder für die Rechnung bequemer]
+\[
+\begin{array}{l@{\quad}l}
+[\mathrm{XII}]&\begin{aligned}
+M\sin(K''-K)&=h\sin(H-K)\\
+M\cos(K''-K)+M''&=h\cos(H-K)
+\end{aligned}
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+M&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}97927\\
+\sin(K''-K)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}60001_n\\
+\cos(K''-K)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}96253\\\hline
+\left[\begin{array}{@{}l@{}}M\cos(K''-K)\\M''\quad\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\end{array}\right]&
+\begin{array}{@{}l@{}}\mathord{.}\\\mathord{.}\end{array}&
+\begin{array}{@{}r@{}}9{,}94180\\0{,}31459_n\end{array}
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\left[\begin{array}{@{}l@{}}h\sin(H-K)\\h\cos(H-K)\end{array}\right]&
+\begin{array}{@{}l@{}}\mathord{.}\,\mathord{.}\\\mathord{.}\,\mathord{.}\end{array}&
+\begin{array}{@{}r@{}}9{,}57928_n\\0{,}07513_n\end{array}\\\hline
+[\cos(H-K)]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}97892_n\\
+h&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}09621\\
+\multicolumn{2}{r}{H-K=}&197^{0}\,42'\,23''\\
+\multicolumn{2}{r}{H=}&232\quad56\quad42\\
+\multicolumn{2}{r}{H-K''=}&221\quad10\quad0.
+\end{array}
+\]
+
+\SourceLeaf{350}
+[Der Ausdruck für die Chorde geht nun in folgenden über, indem man für \(\rho''\) seinen Wert aus VIII einsetzt:
+\[
+\begin{aligned}
+\text{Chorde}^2={}&\Bigl\{\frac{\rho}{M''}h\cos H+g\cos G\\
+&\qquad{}+\frac{\cos K''}{M''}\left(\mu-\frac{1}{(r+r'')^3}\right)\Bigr\}^2\\
+&+\Bigl\{\frac{\rho}{M''}h\cos J\sin H+\frac{g\sin G}{\cos J}\\
+&\qquad{}+\frac{\cos J\sin K''}{M''}\left(\mu-\frac{1}{(r+r'')^3}\right)\Bigr\}^2\\
+&+\Bigl\{\frac{\rho}{M''}h\sin J\sin H\\
+&\qquad{}+\frac{\sin J\sin K''}{M''}\left(\mu-\frac{1}{(r+r'')^3}\right)\Bigr\}^2\\
+={}&\frac{\rho\rho hh}{M''M''}+gg+gg\operatorname{tang}J^2\sin G^2\\
+&+\frac{1}{M''M''}\left(\mu-\frac{1}{(r+r'')^3}\right)^2\\
+&+\frac{2\rho gh}{M''}\cos(H-G)\\
+&+\frac{2\rho h}{M''M''}\left(\mu-\frac{1}{(r+r'')^3}\right)\cos(H-K'')\\
+&+\frac{2g}{M''}\left(\mu-\frac{1}{(r+r'')^3}\right)\cos(G-K'')
+\end{aligned}
+\]
+oder, wenn man \(\cos(G-K'')=\cos(H-G)\cos(H-K'')+\sin(H-G)\sin(H-K'')\) setzt und einige leicht ersichtliche Transformationen ausführt:
+\[
+\begin{aligned}
+\text{Chorde}^2={}&\Bigl\{\frac{\rho h}{M''}+g\cos(H-G)\\
+&\qquad{}+\frac{\cos(H-K'')}{M''}\left(\mu-\frac{1}{(r+r'')^3}\right)\Bigr\}^2\\
+&+(f\sin J\sin(F-N))^2\\
+&+\Bigl\{g\sin(H-G)\\
+&\qquad{}+\frac{\sin(H-K'')}{M''}\left(\mu-\frac{1}{(r+r'')^3}\right)\Bigr\}^2\mathpunct{\cdot}\Bigr]
+\end{aligned}
+\]
+Hienächst hat man folgende Ausdrücke [wenn man
+\[
+\begin{aligned}
+-u={}&\frac{\rho h}{M''}+g\cos(H-G)\\
+&+\frac{\cos(H-K'')}{M''}\left(\mu-\frac{1}{(r+r'')^3}\right)\\
+={}&-\frac{\rho''h}{M}+g\cos(H-G)\\
+&-\frac{\cos(H-K)}{M}\left(\mu-\frac{1}{(r+r'')^3}\right)
+\end{aligned}
+\]
+setzt, und beachtet, dass \(\dfrac{\sin(H-K'')}{M''}=-\dfrac{\sin(K''-K)}{h}\) ist]:
+\[
+\begin{array}{l@{\quad}l}
+[1]&\begin{aligned}
+\rho={}&-\frac{M''}{h}\Bigl\{u+g\cos(H-G)+\frac{\mu\cos(H-K'')}{M''}\\
+&\qquad{}-\frac{\cos(H-K'')}{M''}\frac{1}{(r+r'')^3}\Bigr\}
+\end{aligned}
+\end{array}
+\]
+\[
+\begin{array}{l@{\quad}l}
+[2]&\begin{aligned}
+\rho''={}&\frac{M}{h}\Bigl\{u+g\cos(H-G)-\frac{\mu\cos(H-K)}{M}\\
+&\qquad{}+\frac{\cos(H-K)}{M}\frac{1}{(r+r'')^3}\Bigr\}
+\end{aligned}
+\end{array}
+\]
+\[
+\begin{array}{l@{\quad}l}
+[3]&\begin{aligned}
+rr={}&AA+\frac{M''M''}{hh}\Bigl\{u-\frac{\cos(H-K'')}{M''}\frac{1}{(r+r'')^3}\\
+&\qquad{}+g\cos(H-G)+\frac{\mu\cos(H-K'')}{M''}-\frac{hR\cos\psi}{M''}\Bigr\}^2
+\end{aligned}
+\end{array}
+\]
+\[
+\begin{array}{l@{\quad}l}
+[4]&\begin{aligned}
+r''r''={}&A''A''+\frac{MM}{hh}\Bigl\{u+\frac{\cos(H-K)}{M}\frac{1}{(r+r'')^3}\\
+&\qquad{}+g\cos(H-G)-\frac{\mu\cos(H-K)}{M}-\frac{hR''\cos\psi''}{M}\Bigr\}^2
+\end{aligned}
+\end{array}
+\]
+\[
+\begin{array}{l@{\quad}l}
+[5]&\begin{aligned}
+\text{Chorde}^2={}&uu+\{f\sin J\sin(F-N)\}^2\\
+&+\Bigl\{\frac{\sin(K''-K)}{h}\frac{1}{(r+r'')^3}\\
+&\qquad{}+g\sin(H-G)-\frac{\sin(K''-K)}{h}\mu\Bigr\}^2
+\end{aligned}
+\end{array}
+\]
+
+\SourceLeaf{351}
+[Numerisch gestalten sich die Gleichungen 1—5 folgendermaassen:]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+-M''&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}31459\\
+h&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}09621\\\hline
+&&0{,}21838
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\cos(H-K'')&\mathord{.}\,\mathord{.}&9{,}87668_n\\
+-M''&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}31459\\\hline
+&&9{,}56209_n\\
+-\mu&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}09166_n\\\hline
+[\mathrm{I}]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&8{,}65375
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+[M]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}97927\\
+&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}09621\\\hline
+&&9{,}88306
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+[\cos(H-K)]&\mathord{.}&9{,}97892_n\\
+{}[M]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}97927\\\hline
+&&9{,}99965_n\\
+&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}09166_n\\\hline
+[\mathrm{II}]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}09131
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+R\cos\psi&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}39638_n\\
+\dfrac{h}{M''}&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}78162_n\\[2pt]\hline
+&&9{,}17800
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+-R''\cos\psi''&\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}84346\\
+\left[\dfrac{h}{M}\right]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}11694\\[2pt]\hline
+&&9{,}96040
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+g&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}29217\\
+\cos(H-G)&&9{,}95407\\\hline
+[\mathrm{III}]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}24624
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+[\mathrm{I}+\mathrm{III}]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}34508\\
+{}[\mathrm{II}+\mathrm{III}]&\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}47668
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+f\sin(F-N)&\mathord{.}\,\mathord{.}&9{,}21701_n\\
+\sin J&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}92487\\\hline
+&&9{,}14188_n
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\sin(K''-K)&\mathord{.}\,\mathord{.}&9{,}60001_n\\
+h&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}09621\\\hline
+&&9{,}50380_n\\
+-\mu&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}09166_n\\\hline
+&&8{,}59546
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+g&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}29217\\
+\sin(H-G)&\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}64010\\\hline
+&&8{,}93227
+\end{array}
+\]
+\[
+\begin{array}{l@{\quad}l}
+1)&\begin{aligned}\rho={}&(0{,}21838)\Bigl\{u+(9{,}56209_n)\frac{1}{(r+r'')^3}\\
+&\qquad{}+(9{,}34508)\Bigr\}\end{aligned}\\[7pt]
+2)&\begin{aligned}\rho''={}&(9{,}88306)\Bigl\{u+(9{,}99965_n)\frac{1}{(r+r'')^3}\\
+&\qquad{}+(9{,}47668)\Bigr\}\end{aligned}
+\end{array}
+\]
+\[
+\begin{array}{l@{\quad}l}
+3)&\begin{aligned}rr={}&(9{,}98706)^2+(0{,}21838)^2\Bigl\{u+\frac{(9{,}56209_n)}{(r+r'')^3}\\
+&\qquad{}+(9{,}57055)\Bigr\}^2\end{aligned}\\[7pt]
+4)&\begin{aligned}r''r''={}&(9{,}86038)^2+(9{,}88306)^2\Bigl\{u+\frac{(9{,}99965_n)}{(r+r'')^3}\\
+&\qquad{}+(0{,}08370)\Bigr\}^2\end{aligned}
+\end{array}
+\]
+\[
+\begin{array}{l@{\quad}l}
+5)&\begin{aligned}\text{Chorde}^2={}&uu+(9{,}14188)^2\\
+&+\left\{\frac{(9{,}50380_n)}{(r+r'')^3}+(9{,}09676)\right\}^2.
+\end{aligned}
+\end{array}
+\]
+
+Hiemit sind nun noch folgende Formeln zu verbinden
+\[
+\begin{array}{l@{\quad}l}
+6)&\displaystyle r+r''=\left(\frac{t''-t}{m\BareRoot{\dfrac{108}{5}}}\right)^{\frac{2}{3}}\left(\frac{\BareRoot[5]{\sec W}}{\operatorname{tang}W}\right)^{\frac{2}{3}}
+\end{array}
+\]
+\[
+\begin{array}{l@{\quad}l}
+7)&\displaystyle\text{Chorde}=\left(\frac{t''-t}{m\BareRoot[4]{\dfrac{135}{4}}}\right)^{\frac{2}{3}}\operatorname{tang}W^{\frac{1}{3}}\mathord{\raisebox{-.6ex}{.}}\sec W^{\frac{2}{15}}.
+\end{array}
+\]
+
+[Entwickelt man nemlich die bekannte Gleichung, vgl. Band VI, Seite 33,
+\SourceLeaf{352}
+\[
+(r+r''+\text{Chorde})^{\frac{3}{2}}-(r+r''-\text{Chorde})^{\frac{3}{2}}=\frac{t''-t}{m}
+\]
+nach Potenzen der Grösse \(\dfrac{\text{Chorde}}{r+r''}\mathpunct{\raisebox{.45ex}{,}}\) so wird
+\[
+\begin{aligned}
+\frac{t''-t}{3m}={}&(r+r'')^{\frac{3}{2}}\frac{\text{Chorde}}{r+r''}\Bigl\{1-\frac{1}{24}\left(\frac{\text{Chorde}}{r+r''}\right)^2\\
+&\qquad{}-\frac{1}{8\mathord{.}16}\left(\frac{\text{Chorde}}{r+r''}\right)^4\\
+&\qquad{}-\frac{3}{16\mathord{.}64}\left(\frac{\text{Chorde}}{r+r''}\right)^6-\mathord{.}\,\mathord{.}\,\mathord{.}\Bigr\}
+\end{aligned}
+\]
+und setzt man
+\[
+\frac{\text{Chorde}}{r+r''}=\BareRoot{\frac{12}{5}}\mathord{.}\operatorname{tang}W,
+\]
+so ist
+\[
+\begin{aligned}
+\frac{t''-t}{m}={}&(r+r'')^{\frac{3}{2}}\BareRoot{\frac{108}{5}}\operatorname{tang}W\Bigl\{1-\frac{1}{10}\operatorname{tang}W^2\\
+&\qquad{}-\frac{9}{200}\operatorname{tang}W^4-\mathord{.}\,\mathord{.}\,\mathord{.}\Bigr\};
+\end{aligned}
+\]
+nun ist aber
+\[
+\BareRoot[5]{\cos W}=1-\frac{1}{10}\operatorname{tang}W^2+\frac{11}{200}\operatorname{tang}W^4-\mathord{.}\,\mathord{.}\,\mathord{.}\Bigr\},
+\]
+also genähert
+\[
+\frac{t''-t}{m\BareRoot{\dfrac{108}{5}}}=(r+r'')^{\frac{3}{2}}\operatorname{tang}W\BareRoot[5]{\cos W},
+\]
+womit die Gleichungen 6 und 7 sich ergeben.]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+m&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}986\,2673\\
+\BareRoot{\dfrac{108}{5}}&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}667\,2269\\[3pt]\hline
+&&1{,}653\,4942\\
+t''-t&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&1{,}147\,6544\\\hline
+&&0{,}505\,8398
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}986\,2673\\
+\BareRoot[4]{\dfrac{135}{4}}&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}382\,0684\\[3pt]\hline
+&&1{,}368\,3357\\
+&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&1{,}147\,6544\\\hline
+&&0{,}220\,6813
+\end{array}
+\]
+\[
+\begin{array}{l@{\quad}l}
+[6]&\displaystyle r+r''=\frac{(9{,}66277)}{\left(\dfrac{\operatorname{tang}W}{\BareRoot[5]{\sec W}}\right)^{\frac{2}{3}}}\mathpunct{\raisebox{.45ex}{,}}\\[8pt]
+[7]&\displaystyle\text{Chorde}=(9{,}85288)\operatorname{tang}W^{\frac{1}{3}}\mathord{.}\sec W^{\frac{2}{15}}.
+\end{array}
+\]
+
+Nach einem vorausgesetzten Werthe von \(W\) berechnet man aus den Formeln 6 und 7 die Chorde und \(r+r''\); demnächst aus der Formel 5 den Werth von \(u\) und endlich aus 3 und 4 den zweiten Werth von \(r+r''\).
+
+Noch zweckmässiger ist folgende Formel
+\[
+\begin{array}{l@{\quad}l}
+[8]&\begin{aligned}
+\text{Chorde}&=\frac{\dfrac{t''-t}{3m}}{\BareRoot{(r+r'')}\mathord{.}\BareRoot[14]{\left(1-\dfrac{(t''-t)^2}{\dfrac{108}{7}mm(r+r'')^3}\right)}}\\[5pt]
+&=\frac{(9{,}68427)}{\BareRoot{(r+r'')}\mathord{.}\BareRoot[14]{\left(1-\dfrac{(9{,}1344484)}{(r+r'')^3}\right)}}
+\end{aligned}
+\end{array}
+\]
+\SourceLeaf{353}
+[aus welcher man mit einem vorausgesetzten Werth von \(r+r''\) die Chorde berechnet, worauf, wie vorher, die Gleichung 5 den Werth von \(u\) und 3 und 4 den zweiten Werth von \(r+r''\) liefern.
+
+Man findet die Gleichung 8, indem man die obige Reihe umkehrt, womit
+\[
+\begin{aligned}
+\text{Chorde}={}&\frac{t''-t}{3m\BareRoot{(r+r'')}}\Bigl\{1+\frac{1}{2\mathord{.}108}\left(\frac{t''-t}{m(r+r'')^{\frac{3}{2}}}\right)^2\\
+&\qquad{}+\frac{15}{8\mathord{.}108^2}\left(\frac{t''-t}{m(r+r'')^{\frac{3}{2}}}\right)^4\\
+&\qquad{}+\frac{177}{16\mathord{.}108^3}\left(\frac{t''-t}{m(r+r'')^{\frac{3}{2}}}\right)^6+\mathord{.}\,\mathord{.}\,\mathord{.}\Bigr\}
+\end{aligned}
+\]
+wird; da nun
+\[
+\begin{aligned}
+\frac{1}{\BareRoot[14]{\left(1-\dfrac{(t''-t)^2}{\dfrac{108}{7}mm(r+r'')^3}\right)}}
+&=1+\frac{1}{2\mathord{.}108}\left(\frac{t''-t}{m(r+r'')^{\frac{3}{2}}}\right)^2\\
+&\quad{}+\frac{15}{8\mathord{.}108^2}\left(\frac{t''-t}{m(r+r'')^{\frac{3}{2}}}\right)^4\\
+&\quad{}+\frac{145}{16\mathord{.}108^3}\left(\frac{t''-t}{m(r+r'')^{\frac{3}{2}}}\right)^6+\mathord{.}\,\mathord{.}\,\mathord{.},
+\end{aligned}
+\]
+so folgt die Gleichung 8, welche eine noch grössere Annäherung gibt, als die Gleichungen 6 und 7].
+\begin{center}Numerische Rechnung.\end{center}
+Vorausgesetzter Werth \(\log(r+r'')=0{,}42622\).
+\[
+\begin{array}{l@{\;}l@{\;}r}
+(r+r'')^3&\mathord{.}\,\mathord{.}&1{,}27866\\
+&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}13445\\\hline
+&&[7{,}85579]
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+&&9{,}50380_n\\
+(r+r'')^3&\mathord{.}\,\mathord{.}&1{,}27866\\\hline
+&&8{,}22514_n\\
+&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}09676\\\hline
+&&9{,}03408
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+&&9{,}56209_n\\
+(r+r'')^3&\mathord{.}&1{,}27866\\\hline
+&&8{,}28343_n\\
+&&9{,}57055\\
+u&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}37691\\\hline
+&&9{,}77157
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+&&9{,}99965_n\\
+&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&1{,}27866\\\hline
+&&8{,}72099_n\\
+&&0{,}08370\\
+&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}37691\\\hline
+&&0{,}14555
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\BareRoot{(r+r'')}&\mathord{.}&0{,}21311\\
+&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&-0{,}00022\\\hline
+[\text{Nenner}]&\mathord{.}&0{,}21289\\
+&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}68427\\\hline
+\text{Chorde}&\mathord{.}\,\mathord{.}&9{,}47138
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+&&[8{,}06816]\\
+&&[8{,}28376]\\
+\multicolumn{3}{r}{[\text{Chorde}^2\,\mathord{.}\quad8{,}94276]}\\\hline
+u&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}37691
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+&&\left[\begin{array}{@{}r@{}}9{,}54314\\0{,}43676\\\hline9{,}97990\\9{,}97412\end{array}\right]\\\hline
+r&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}13902
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+&&\left[\begin{array}{@{}r@{}}0{,}29110\\9{,}76612\\\hline0{,}05722\\9{,}72076\end{array}\right]\\\hline
+r''&\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}11091
+\end{array}
+\]
+\noindent wie vorausgesetzt, wird \(r+r''\quad\mathord{.}\,\mathord{.}\,\mathord{.}\quad0{,}42622\).
+\SourceLeaf{354}
+\[
+\begin{array}{l@{\;}l@{\;}r}
+&&8{,}28343_n\\
+&&9{,}34508\\
+u&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}37691\\\hline
+&&9{,}64378\\
+&&0{,}21838\\\hline
+\rho&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}86216
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+&&8{,}72099_n\\
+&&9{,}47668\\
+&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}37691\\\hline
+&&9{,}68599\\
+&&9{,}88306\\\hline
+\rho''&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}56905
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\rho&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}86216\\
+\cos\beta&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}94168\\\hline
+\rho\cos\beta&\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}80334
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\rho''&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}56905\\
+\cos\beta''&\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}99350\\\hline
+\rho''\cos\beta''&\mathord{.}\,\mathord{.}&9{,}56255
+\end{array}
+\]
+
+Wir fügen zugleich die vollständige Berechnung der Elemente bei [vgl. Band VI, Seite 34—36]:
+\[
+\alpha-\odot=253^{0}\,28'\,57''
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\rho\cos\beta&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}80384\\
+\cos(\alpha-\odot)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}45379_n\\
+\sin(\alpha-\odot)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}98170_n\\
+\operatorname{tang}\beta&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}74435\\\hline
+\end{array}
+\]
+\[
+[\alpha''-\odot''=]\ 225^{0}\,16'\,43''
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\left[\begin{array}{@{}l@{}}\rho''\cos\beta''\quad\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\\\cos(\alpha''-\odot'')\\\sin(\alpha''-\odot'')\\\operatorname{tang}\beta''\quad\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\end{array}\right]&
+\begin{array}{@{}l@{}}\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\\\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\\\mathord{.}\quad\mathord{.}\,\mathord{.}\,\mathord{.}\\\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\end{array}&
+\begin{array}{@{}r@{}}9{,}56255\\9{,}84736_n\\9{,}85159_n\\9{,}24127\end{array}\\\hline
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+[\rho\cos\beta\cos(\alpha-\odot)]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}25763_n\\
+-R&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}00091_n\\\hline
+\left[\begin{array}{@{}l@{}}r\cos b\cos(\lambda-\odot)\\r\cos b\sin(\lambda-\odot)\end{array}\right]&
+\begin{array}{@{}l@{}}\mathord{.}\,\mathord{.}\\\mathord{.}\,\mathord{.}\end{array}&
+\begin{array}{@{}r@{}}0{,}07301_n\\9{,}78554_n\end{array}\\\hline
+\multicolumn{3}{l}{\left[\begin{array}{l@{\;}l@{\;}r}
+\cos(\lambda-\odot)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}94876_n\\
+r\cos b&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}12425\\
+r\sin b&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}54819
+\end{array}\right]}\\\hline
+\cos b&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}98522\\
+r&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}13903
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+[\rho''\cos\beta''\cos(\alpha''-\odot'')]&\mathord{.}&9{,}40991_n\\
+{}[-R'']&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}00260_n\\\hline
+\left[\begin{array}{@{}l@{}}r''\cos b''\cos(\lambda''-\odot'')\\r''\cos b''\sin(\lambda''-\odot'')\end{array}\right]&&
+\begin{array}{@{}r@{}}0{,}10140_n\\9{,}41414_n\end{array}\\\hline
+\multicolumn{3}{l}{\left[\begin{array}{l@{\;}l@{\;}r}
+\cos(\lambda''-\odot'')&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}99102_n\\
+r''\cos b''&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}11038\\
+r''\sin b''&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&8{,}80382
+\end{array}\right]}\\\hline
+\left[\begin{array}{@{}l@{}}\cos b''\\r''\quad\mathord{.}\,\mathord{.}\,\mathord{.}\end{array}\right]&
+\begin{array}{@{}l@{}}\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\\\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\end{array}&
+\begin{array}{@{}r@{}}9{,}99947\\0{,}11091\end{array}
+\end{array}
+\]
+\[
+\begin{array}{r@{\;}l}
+[\lambda-\odot]=&207^{0}\,17'\,14''\\
+\odot=&17\quad47\quad41\\
+\lambda=&225\quad4\quad55\\
+b=&14\quad51\quad54
+\end{array}
+\]
+\[
+\begin{array}{r@{\;}l}
+[\lambda''-\odot'']=&191^{0}\,36'\,39''\\
+\left[\begin{array}{@{}r@{}}\odot''=\\\lambda''=\\b''=\end{array}\right]&
+\begin{array}{@{}r@{\quad}r@{\quad}r@{}}31&31&25\\223&8&4\\2&49&34\end{array}
+\end{array}
+\]
+\SourceLeaf{355}
+\[
+\begin{array}{l@{\;}l@{\;}r}
+-\operatorname{tang}b&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}42394_n\\
+\cos(\lambda''-\lambda)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}99975\\\hline
+&&9{,}42369_n\\
+{}[\operatorname{tang}b'']&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&8{,}69344\\\hline
+&&9{,}33426_n\\
+\sin(\lambda''-\lambda)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&8{,}53127_n\\\hline
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\left[\begin{array}{@{}l@{}}\operatorname{tang}i\sin(\lambda-\AscendingNode)\\\operatorname{tang}i\cos(\lambda-\AscendingNode)\end{array}\right]&&
+\begin{array}{@{}r@{}}9{,}42394_n\\0{,}80299_n\end{array}\\\hline
+[\cos(\lambda-\AscendingNode)]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}99962_n
+\end{array}
+\]
+\[
+\begin{array}{r@{\;}l}
+\lambda-\AscendingNode=&182^{0}\,23'\,32''\\
+\lambda=&225\quad4\quad55\\\hline
+\AscendingNode=&42\quad41\quad23\\
+\lambda''-\AscendingNode=&180\quad26\quad41\\
+\operatorname{tang}i\quad\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}80337\\
+i=&81^{0}\,3'\,45''
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\operatorname{tang}(\lambda-\AscendingNode)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&8{,}62095_n\\
+\operatorname{tang}(\lambda''-\AscendingNode)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&7{,}88997_n\\
+{}[\cos i]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}19132\\\hline
+\end{array}
+\]
+\[
+\begin{array}{r@{\;}l}
+v-\AscendingNode=&195^{0}\,3'\,8''\\
+v''-\AscendingNode=&182\quad51\quad37\\
+\AscendingNode=&42\quad41\quad23\\\hline
+v=&237\quad44\quad31\\
+v''=&225\quad33\quad0\\
+\frac{1}{2}(v''-v)=&-6\quad5\quad45{,}5
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+\dfrac{1}{\BareRoot{r}}&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}93048\\[3pt]
+\operatorname{tang}\frac{1}{2}(v''-v)&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}02856_n\\\hline
+\sin\frac{1}{2}(v''-v)&\mathord{.}\,\mathord{.}\,\mathord{.}\quad\mathord{.}&9{,}02610_n\\
+\dfrac{1}{\BareRoot{r''}}&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}94454\\[3pt]\hline
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}r}
+&0{,}90192_n\\
+&0{,}91844\\\hline
+\left[\begin{array}{@{}l@{}}\dfrac{1}{\BareRoot{q}}\sin\frac{1}{2}(v-\Pi)\\[4pt]\dfrac{1}{\BareRoot{q}}\cos\frac{1}{2}(v-\Pi)\end{array}\right]&
+\begin{array}{@{}r@{}}9{,}49042\\[4pt]9{,}93048\end{array}\\\hline
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+[\cos\frac{1}{2}(v-\Pi)]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&9{,}97311\\
+\multicolumn{2}{r}{\frac{1}{2}(v-\Pi)=}&19^{0}\,57'\,8''\\
+q&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}08526\\
+\multicolumn{2}{r}{v-\Pi=}&39^{0}\,54'\,16''\\
+\multicolumn{2}{r}{[v=]}&237\quad44\quad31\\\hline
+\multicolumn{2}{r}{\Pi=}&197\quad50\quad15\\
+\multicolumn{2}{r}{v''-\Pi=}&27\quad42\quad45
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}r}
+n&\mathord{.}\quad\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}03987\\
+q^{\frac{3}{2}}&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&0{,}12789\\\hline
+&&0{,}16776
+\end{array}
+\]
+\[
+\begin{array}{c@{\qquad}c}
+\begin{array}{l@{\;}l@{\;}r}
+[M]&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&1{,}45367\\
+&&[0{,}16776]\\\hline
+\multicolumn{3}{l}{[T-t\quad\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\quad1{,}62143]}\\
+\left[\begin{array}{@{}r@{}}T-t=\\t=\end{array}\right]&&\begin{array}{@{}r@{}}41{,}8245\\7{,}5500\end{array}\\\hline
+\end{array}
+&
+\begin{array}{l@{\;}l@{\;}r}
+[M'']&\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}&1{,}27589\\
+&&[0{,}16776]\\\hline
+\multicolumn{3}{l}{[T-t''\quad\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\quad1{,}44365]}\\
+\left[\begin{array}{@{}r@{}}T-t''=\\t''=\end{array}\right]&&\begin{array}{@{}r@{}}27{,}7746\\21{,}5993\end{array}\\\hline
+\end{array}\\
+\multicolumn{2}{c}{\underbrace{\begin{array}{c@{\qquad}c}[T=]\ 49{,}3745&[T=]\ 49{,}3739\end{array}}_{\textstyle[\text{Mittel }T=]\ 49{,}3742}}\\[4pt]
+\multicolumn{2}{c}{[=\text{ Mai }19{,}3742.]}
+\end{array}
+\]
+\par\medskip\centerline{\rule{.18\linewidth}{.4pt}}\medskip
