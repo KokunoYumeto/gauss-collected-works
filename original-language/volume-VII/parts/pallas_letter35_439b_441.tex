@@ -1,0 +1,66 @@
+\par\Needspace{7\baselineskip}\bigskip
+\begin{center}
+\pdfbookmark[2]{Hansen an Gauss, Gotha, 7. Februar 1843}{pallas-brief-18430207}
+\textsc{Hansen} an \textsc{Gauss}, Gotha, 7. Februar 1843.
+\end{center}
+\noindent\hspace*{\parindent}\{Es gereicht mir zu besonderm Vergnügen Ihnen mit der heutigen Post das Résumé einer Abhandlung übersenden zu können, worin ich ein Verfahren beschrieben habe, um die absoluten Störungen (d. h. die Störungen für die unbestimmte Zeit \(t\)) der Himmelskörper zu berechnen, die sich in Bahnen von beliebiger elliptischer Excentricität und Neigung bewegen. Bekanntlich ist dies eine bis jetzt unaufgelöste Aufgabe, und eine Aufgabe, von welcher man hie und da die Möglichkeit der Auflösung bezweifelt hat. Erstes Beispiel der Anwendung meines Verfahrens ist die Berechnung der Störungen, die der \textsc{Encke}sche Comet vom Saturn erleidet; andere Beispiele werde ich in der Abhandlung selbst, die zum Druck fertig ist, geben. Das Verfahren ist nicht bloss auf Bahnen von grosser Excentricität anwendbar, sondern die Excentricität der Ellipse kann beliebig sein. Namentlich ist die Berechnung der Störungen, die die Pallas vom Jupiter erleidet, nach meinem Verfahren sehr leicht, und diese Störungen werden aus einer mässig grossen Anzahl von Gliedern bestehen, aus einer geringern Anzahl wie die Mondstörungen. Ich habe also hiemit eine anwendbare Auflösung der Aufgabe gegeben, die die Pariser Academie im Jahr 1811 mit doppeltem Preise aufstellte.
+\par\SourceLeaf{440}Sie werden in dem Résumé bloss die Darlegung des Verfahrens für den Fall finden, wo der Radius Vector des Cometen kleiner ist wie der des Planeten; der entgegengesetzte Fall ist darin nur kurz angedeutet, aber Sie werden sogleich sehen, wie ich in diesem Falle verfahre.
+\par Ich habe schon vor einer Reihe von Jahren ein Verfahren gefunden um die Reihenentwickelung der Störungsfunction durch Hülfe von elliptischen Transcendenten auszuführen. Ich brauche dazu ausser einigen leicht zu findenden Theoremas, und denjenigen die Sie in Ihrer berühmten »Determinatio attractionis etc.« betitelten Abhandlung gegeben haben, das Integral
+\[
+\frac{1}{2\pi}\int\frac{\alpha+\alpha'\cos T+\alpha''\sin T}{\gamma+\gamma'\cos T+\gamma''\sin T}\frac{\mathrm{d}T}{\BareRoot{(mm\cos T^2+nn\sin T^2)}}\mathpunct{\raisebox{.45ex}{,}}
+\]
+welches in den Schriften über die elliptischen Transcendenten nicht vorkommt. (Die Bezeichnungen sind die Ihrer angeführten Abhandlung.) Für die Berechnung dieses Integrals habe ich folgende Vorschriften gefunden. Man mache
+\[
+\begin{gathered}
+\alpha''\gamma''=p,\quad(\alpha'\gamma''+\alpha''\gamma')=q,\quad\alpha'\gamma'=r;\\
+1+\gamma''\gamma''=p_1,\quad2\gamma'\gamma''=q_1,\quad1+\gamma'\gamma'=r_1,
+\end{gathered}
+\]
+ferner
+\[
+\begin{aligned}
+p'&=2m'm'(p_1r+pr_1)\\
+q'&=m'q(mr_1-np_1)+m'q_1(mr-np)\\
+r'&=(np+mr)(np_1+mr_1)-n'n'qq_1\\
+p_1'&=4m'm'p_1r_1\\
+q_1'&=2m'q_1(mr_1-np_1)\\
+r_1'&=(np_1+mr_1)^2-n'n'q_1q_1.
+\end{aligned}
+\]
+\par Sind hieraus \(p',\ q',\ r',\ p_1',\ q_1',\ r_1'\) gefunden, so berechne man durch dieselben 6 Ausdrücke mit Zugrundelegung dieser Grössen, die Grössen \(p'',\ q'',\ r'',\ p_1'',\ q_1'',\ r_1''\) und so fort. Diese Grössen convergiren aber sehr rasch nach den Grenzen
+\[
+p_1^{(\nu)}=r_1^{(\nu)},\quad q_1^{(\nu)}=0,\quad p^{(\nu)}=r^{(\nu)},\quad q^{(\nu)}=0
+\]
+und wenn diese Grenzen erreicht sind, ist der Werth des obigen Integrals
+\[
+=\frac{p^{(\nu)}}{p_1^{(\nu)}\mu}\mathpunct{\raisebox{.45ex}{,}}
+\]
+wo \(\mu\) das medium arithmetico-geometricum aus \(m\) und \(n\) ist. In allen Fällen, \SourceLeaf{441}in welchen ich die vorstehenden Formeln bereits angewandt habe, ist die Convergenz der obigen Grössen zur gemeinschaftlichen Grenze eben so stark, wie die der Grössen \(m\) und \(n\) zu ihrer Grenze \(\mu\). Ich erlaube mir ein aus der Natur entlehntes Beispiel hier anzuführen. Es fand sich
+\[
+\begin{array}{r@{\,}c@{\,}l@{\quad}r@{\,}c@{\,}l@{\quad}r@{\,}c@{\,}l}
+\log m&=&0{,}016\,3851&\log p&=&0{,}368\,2319_n&\log p_1&=&0{,}460\,6912\\
+\log n&=&9{,}548\,7463&\log q&=&8{,}438\,7296&\log q_1&=&8{,}821\,2120_n\\
+&&&\log r&=&6{,}374\,0322&\log r_1&=&0{,}000\,2522
+\end{array}
+\]
+und hieraus ergab sich
+\[
+\begin{array}{r@{\,}c@{\,}l@{\quad}r@{\,}c@{\,}l@{\quad}r@{\,}c@{\,}l}
+\log m'&=&9{,}842\,6840&\log p'&=&0{,}354\,7552_n&\log p_1'&=&0{,}748\,3714\\
+\log n'&=&9{,}782\,5657&\log q'&=&8{,}57727_n&\log q_1'&=&7{,}19751_n\\
+&&&\log r'&=&0{,}230\,7606_n&\log r_1'&=&0{,}627\,9994\\\cline{2-3}\cline{5-6}\cline{8-9}
+\log m''&=&9{,}813\,6642&\log p''&=&1{,}210\,3355_n&\log p_1''&=&1{,}605\,7592\\
+\log n''&=&9{,}812\,6249&\log q''&=&8{,}02648&\log q_1''&=&6{,}95555\\
+&&&\log r''&=&1{,}210\,4711_n&\log r_1''&=&1{,}605\,7688\\\cline{2-3}\cline{5-6}\cline{8-9}
+\log m'''&=&9{,}813\,1448&\log p'''&=&3{,}044\,5167_n&\log p_1'''&=&3{,}439\,8774\\
+\log n'''&=&9{,}813\,1446&\log q'''&=&\text{—}&\log q_1'''&=&5{,}899\\
+&&&\log r'''&=&3{,}044\,5171_n&\log r_1'''&=&3{,}439\,8776
+\end{array}
+\]
+so dass man entschieden mit \(p'''\) ausreicht, und schon bei \(p''\) die Rechnung hätte schliessen können, denn \(p'''\) und \(p_1'''\) gibt den Logarithmus des Integrals
+\[
+=9{,}791\,4947_n
+\]
+und \(p''\) und \(p_1''\) geben denselben \(=9{,}791\,4946_n\).
+\par Diese Berechnung dieses Integrals, obgleich sicher, ist länger wie die Berechnung der beiden andern von \(\mu\) und \(\nu\) (Determinatio attr. etc.) abhängigen Integrale, und dieser Umstand veranlasst mich Sie zu fragen, ob Sie ein einfaches Berechnungsverfahren des oben angeführten Integrals besitzen, so wie zur Bitte, in diesem Falle mir selbiges, mit der Erlaubniss zur angemessenen Bekanntmachung in meiner Abhandlung, gütigst mittheilen zu wollen.\quad\mbox{. . . . .\}}
+\par

@@ -1,0 +1,397 @@
+\clearpage
+\begin{landscape}
+\begingroup
+\fontsize{10}{13}\selectfont
+\fancyhead[L]{\small NACHLASS. STÖRUNGEN DER PALLAS}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\VSevenPoint}{\mathord{.}\mkern5mu}
+\newcommand{\VSevenFivePoints}{\VSevenPoint\VSevenPoint\VSevenPoint\VSevenPoint\VSevenPoint}
+\pdfbookmark[2]{Allgemeine Störungen, Erste Rechnung, [7]}{pallas-V-fragment7}
+\begin{center}[7.]\end{center}
+\par\noindent\hspace*{\parindent}[Es sollen nun die Störungen der Neigung und der Länge der Knotenlinie (das am wenigsten mühsame) bestimmt werden. Nach Artikel [1] ist
+\SourceLeaf{520}
+\[
+\begin{aligned}
+\frac{\mathrm{d}i}{n\,\mathrm{d}t}&=W\cos(v-\tilde\omega)\mathord{.}\cos(\tilde\omega-\Omega)-W\sin(v-\tilde\omega)\mathord{.}\sin(\tilde\omega-\Omega)\\
+\frac{\sin i\,\mathrm{d}\Omega}{n\,\mathrm{d}t}&=W\sin(v-\tilde\omega)\mathord{.}\cos(\tilde\omega-\Omega)+W\cos(v-\tilde\omega)\mathord{.}\sin(\tilde\omega-\Omega).
+\end{aligned}
+\]
+\par\noindent\hspace*{\parindent}Da \(\tilde\omega-\Omega\) constant angenommen wird, so sind die Grössen \(W\cos(v-\tilde\omega)\) und \(W\sin(v-\tilde\omega)\) nach Vielfachen von \(M\) und \(M'\) zu entwickeln. Hiezu sind aus den numerischen Werthen von \(W\) auf voriger Seite die entsprechenden Werthe dieser beiden Grössen zu berechnen, für welche man also zwei ganz gleich eingerichtete Tafeln erhält. Aus den numerischen Werthen jeder Horizontalreihe dieser Tafeln ist nach den Vorschriften des Artikels [5] je eine Reihe nach Vielfachen von \(M\) herzustellen, welches die Reihen 3 des Artikels [5] sind.
+\par\noindent\hspace*{\parindent}Ein Beispiel mag die Rechnung erläutern und zwar soll hiezu die Berechnung der Coefficienten von \(\cos(M'-M)\) in \(W\cos(v-\tilde\omega)\) dienen: Nach der vorigen Seite ist der Werth dieses Coefficienten in \(W\) für \(M\) resp.\ \(=0,\;30^0,\;60^0\) etc.:
+\begin{center}
+\begingroup\fontsize{8.5}{11}\selectfont\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}l*{12}{r}@{}}
+&\(0^0\)&\(30^0\)&\(60^0\)&\(90^0\)&\(120^0\)&\(150^0\)&\(180^0\)&\(210^0\)&\(240^0\)&\(270^0\)&\(300^0\)&\(330^0\)\\[4pt]
+&\(-2''{,}092\)&\(+0''{,}899\)&\(+11''{,}026\)&\(+16''{,}136\)&\(+19''{,}671\)&\(+24''{,}501\)&\(+24''{,}756\)&\(+15''{,}198\)&\(-3''{,}029\)&\(-2''{,}309\)&\(+5''{,}297\)&\(+2''{,}814\)\\[4pt]
+die Logarithmen:&\(\text{—}\)&\(9{,}95736\)&\(1{,}04242\)&\(1{,}20779\)&\(1{,}29382\)&\(1{,}38919\)&\(\text{—}\)&\(1{,}18179\)&\(0{,}48130_n\)&\(0{,}36342_n\)&\(0{,}72403\)&\(0{,}44932\)\\[4pt]
+\(\log\cos(v-\tilde\omega)\)&\(\text{—}\)&\(9{,}81987\)&\(8{,}63027\)&\(9{,}65764_n\)&\(9{,}88822_n\)&\(9{,}97571_n\)&\(\text{—}\)&\(9{,}97571_n\)&\(9{,}88822_n\)&\(9{,}65764_n\)&\(8{,}63027\)&\(9{,}81987\)
+\end{tabular}
+\endgroup
+\end{center}
+\noindent also die entsprechenden Coefficienten von \(W\cos(v-\tilde\omega)\):
+\begin{center}
+\begingroup\fontsize{9}{12}\selectfont\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}*{12}{r}@{}}
+\(-2''{,}092\)&\(+0''{,}594\)&\(+0''{,}471\)&\(-7''{,}335\)&\(-15''{,}207\)&\(-23''{,}168\)&\(-24''{,}756\)&\(-14''{,}371\)&\(+2''{,}342\)&\(+1''{,}050\)&\(+0''{,}226\)&\(+1''{,}859\).
+\end{tabular}
+\endgroup
+\end{center}
+\par\noindent\hspace*{\parindent}Hiemit stellt sich die Interpolationsrechnung wie folgt, wenn wir diese Coefficienten vorübergehend mit \(A_0,\;A_1,\;A_2\ldots A_{11}\) bezeichnen und auch sonst die Bezeichnungen der Artikel [2]—[3] benutzen
+\[
+\begin{array}{rrrrrrr}
+A_0=-2{,}092&A_1=+0{,}594&A_2=+0{,}471&A_3=-7{,}335&A_4=-15{,}207&A_5=-23{,}168&A_6=-24{,}756\\
+&A_{11}=+1{,}859&A_{10}=+0{,}226&A_9=+1{,}050&A_8=+2{,}342&A_7=-14{,}371&
+\end{array}
+\]
+\[
+\begin{array}{rrrr}
+B_0=-4{,}184&B_1=+2{,}453&B_2=+0{,}697&B_3=-6{,}285\\
+B_6=-49{,}512&B_5=-37{,}539&B_4=-12{,}865&
+\end{array}
+\]
+\[
+\begin{array}{rrrrrr}
+F_0=-53{,}696&K_0=-66{,}266&H_0=-41{,}126&D_0=+45{,}328&D_0+D_2=+58{,}890&\frac12(\alpha_1+\alpha_5)=+4{,}908\\
+F_1=-35{,}086&K_1=-47{,}254&H_1=-22{,}918&D_1=+39{,}992&D_0-2D_2=+18{,}204&\frac12(\alpha_1-\alpha_5)=+5{,}772\\
+F_2=-12{,}168&K_0+2K_1=-160{,}774&H_0+H_1=-64{,}044&D_2=+13{,}562&D_1\VSevenFivePoints\VSevenFivePoints1{,}60197&\\
+F_3=-12{,}570&K_0-K_1=-19{,}012&H_0-2H_1=+4{,}710&&\BareRoot{48}\VSevenFivePoints\VSevenPoint\VSevenPoint\VSevenPoint\VSevenPoint0{,}84062&
+\end{array}
+\]
+\[
+\begin{array}{rrr}
+C_1=-1{,}265&C_2=+0{,}452&C_3=-8{,}385\\
+C_5=-8{,}797&C_4=-17{,}549&
+\end{array}
+\]
+\[
+\begin{array}{rrrrr}
+G_1=+7{,}532&J_1\VSevenFivePoints1{,}40357&E_1=-10{,}062&E_1+E_3=-26{,}832&\frac12(\beta_1+\beta_5)=-2{,}236\\
+G_2=+17{,}794&L_1\VSevenPoint\VSevenPoint\VSevenPoint\VSevenPoint1{,}01123_n&E_2=-17{,}304&2E_1-E_3=-3{,}354&\frac12(\beta_1-\beta_5)=-2{,}497\\
+&\BareRoot{48}\VSevenPoint\VSevenPoint\VSevenPoint0{,}84062&E_3=-16{,}770&E_2\VSevenFivePoints\VSevenPoint\VSevenPoint\VSevenPoint\VSevenPoint1{,}23815_n&\\
+&&&\BareRoot{48}\VSevenFivePoints\VSevenPoint\VSevenPoint0{,}84062&
+\end{array}
+\]
+\par\noindent\hspace*{\parindent}Es ergibt sich also der Coefficient von \(\cos(M'-M)\) in der Entwickelung von \(W\cos(v-\tilde\omega)\), der der Grösse \(\alpha_1\) in Artikel [5] entspricht, wie folgt:
+\SourceLeaf{521}
+\[
+\begin{aligned}
+&-6''{,}699\\
+&+10{,}680\cos M&&-4''{,}733\sin M\\
+&-5{,}337\cos2M&&+3{,}656\sin2M\\
+&+1{,}517\cos3M&&-0{,}279\sin3M\\
+&-1{,}584\cos4M&&-1{,}481\sin4M\\
+&-0{,}865\cos5M&&+0{,}261\sin5M\\
+&+0{,}196\cos6M.
+\end{aligned}
+\]
+\par\noindent In gleicher Weise ergibt sich der Coefficient von \(\sin(M'-M)\):
+\[
+\begin{aligned}
+&+13''{,}541\\
+&-16{,}187\cos M&&-1''{,}886\sin M\\
+&+11{,}080\cos2M&&+3{,}829\sin2M\\
+&+1{,}065\cos3M&&-7{,}255\sin3M\\
+&-1{,}831\cos4M&&+1{,}502\sin4M\\
+&+0{,}481\cos5M&&+1{,}153\sin5M\\
+&+0{,}227\cos6M.
+\end{aligned}
+\]
+\clearpage
+\fontsize{9.5}{12}\selectfont
+\setlength{\jot}{2pt}
+\par\noindent\hspace*{\parindent}Es würde zu weit führen, für alle Coefficienten die Werthe hier aufzuführen; es soll darum nur das Resultat gegeben werden, das man nach der Ausmultiplicirung der Reihen erhält:
+\[
+W\cos(v-\tilde\omega)=\left\{\begin{array}{@{}l@{\quad}l@{}}
+\begin{aligned}[t]
+&+13''{,}770\\
+&-14{,}824\cos M&&+2''{,}572\sin M\\
+&+9{,}814\cos2M&&-2{,}263\sin2M\\
+&+1{,}900\cos3M&&-4{,}383\sin3M\\[5pt]
+&-0{,}754\cos(M'-3M)&&+3{,}712\sin(M'-3M)\\
+&+4{,}398\cos(M'-2M)&&-5{,}727\sin(M'-2M)\\
+&-6{,}699\cos(M'-M)&&+13{,}541\sin(M'-M)\\
+&+6{,}283\cos M'&&-10{,}460\sin M'\\
+&-4{,}583\cos(M'+M)&&+7{,}368\sin(M'+M)\\
+&+4{,}386\cos(M'+2M)&&+0{,}383\sin(M'+2M)\\[5pt]
+&-0{,}648\cos(2M'-3M)&&+2{,}489\sin(2M'-3M)\\
+&-13{,}818\cos(2M'-2M)&&-6{,}141\sin(2M'-2M)\\
+&+14{,}183\cos(2M'-M)&&+7{,}982\sin(2M'-M)\\
+&-15{,}476\cos2M&&-8{,}473\sin2M\\
+&+0{,}765\cos(2M'+M)&&+5{,}570\sin(2M'+M)\\
+&+3{,}130\cos(2M'+2M)&&-2{,}425\sin(2M'+2M)\\[5pt]
+&+4{,}226\cos(3M'-3M)&&-4{,}819\sin(3M'-3M)\\
+&-8{,}858\cos(3M'-2M)&&+6{,}373\sin(3M'-2M)\\
+&+11{,}340\cos(3M'-M)&&-6{,}865\sin(3M'-M)\\
+&-8{,}114\cos3M'&&-0{,}035\sin3M'\\
+&+2{,}327\cos(3M'+M)&&+3{,}797\sin(3M'+M)
+\end{aligned}&
+\begin{aligned}[t]
+&-1''{,}047\cos(4M'-3M)&&-5''{,}588\sin(4M'-3M)\\
+&+0{,}956\cos(4M'-2M)&&+8{,}503\sin(4M'-2M)\\
+&+1{,}632\cos(4M'-M)&&-6{,}672\sin(4M'-M)\\
+&-4{,}219\cos4M'&&+1{,}735\sin4M'\\
+&+2{,}574\cos(4M'+M)&&+1{,}314\sin(4M'+M)\\[5pt]
+&+2{,}608\cos(5M'-4M)&&-0{,}307\sin(5M'-4M)\\
+&-4{,}716\cos(5M'-3M)&&-1{,}385\sin(5M'-3M)\\
+&+4{,}143\cos(5M'-2M)&&+3{,}598\sin(5M'-2M)\\
+&-0{,}973\cos(5M'-M)&&-4{,}083\sin(5M'-M)\\
+&-1{,}271\cos5M'&&+1{,}617\sin5M'\\[5pt]
+&+1{,}261\cos(6M'-4M)&&-2{,}052\sin(6M'-4M)\\
+&-2{,}407\cos(6M'-3M)&&+1{,}539\sin(6M'-3M)\\
+&+3{,}280\cos(6M'-2M)&&+0{,}585\sin(6M'-2M)\\
+&-1{,}627\cos(6M'-M)&&-1{,}898\sin(6M'-M)\\[5pt]
+&-0{,}832\cos(7M'-4M)&&-2{,}051\sin(7M'-4M)\\
+&-0{,}535\cos(7M'-3M)&&+2{,}088\sin(7M'-3M)\\
+&+1{,}378\cos(7M'-2M)&&-0{,}771\sin(7M'-2M)\\[5pt]
+&-1{,}208\cos(8M'-4M)&&-0{,}843\sin(8M'-4M)\\
+&+0{,}295\cos(8M'-3M)&&+1{,}321\sin(8M'-3M)
+\end{aligned}
+\end{array}\right.
+\]
+\clearpage
+\SourceLeaf{522}
+\[
+W\sin(v-\tilde\omega)=\left\{\begin{array}{@{}l@{\quad}l@{}}
+\begin{aligned}[t]
+&-6''{,}277\\
+&-3{,}498\cos M&&-6''{,}957\sin M\\
+&+7{,}228\cos2M&&+9{,}736\sin2M\\
+&+3{,}892\cos3M&&+0{,}703\sin3M\\[5pt]
+&+3{,}276\cos(M'-3M)&&+3{,}397\sin(M'-3M)\\
+&-2{,}729\cos(M'-2M)&&-6{,}241\sin(M'-2M)\\
+&+3{,}178\cos(M'-M)&&-3{,}768\sin(M'-M)\\
+&+1{,}362\cos M'&&+0{,}997\sin M'\\
+&-7{,}559\cos(M'+M)&&+2{,}765\sin(M'+M)\\
+&+1{,}665\cos(M'+2M)&&+3{,}324\sin(M'+2M)\\[5pt]
+&+4{,}105\cos(2M'-3M)&&+2{,}575\sin(2M'-3M)\\
+&-0{,}982\cos(2M'-2M)&&+10{,}981\sin(2M'-2M)\\
+&+0{,}014\cos(2M'-M)&&-5{,}909\sin(2M'-M)\\
+&-1{,}141\cos2M'&&-14{,}972\sin2M'\\
+&-3{,}288\cos(2M'+M)&&+4{,}237\sin(2M'+M)\\
+&+3{,}617\cos(2M'+2M)&&+1{,}902\sin(2M'+2M)\\[5pt]
+&-3{,}239\cos(3M'-3M)&&-2{,}445\sin(3M'-3M)\\
+&+5{,}214\cos(3M'-2M)&&+5{,}607\sin(3M'-2M)\\
+&+7{,}065\cos(3M'-M)&&-0{,}696\sin(3M'-M)\\
+&-4{,}350\cos3M'&&-3{,}101\sin3M'\\
+&-2{,}073\cos(3M'+M)&&+4{,}199\sin(3M'+M)
+\end{aligned}&
+\begin{aligned}[t]
+&-4''{,}008\cos(4M'-3M)&&+3''{,}050\sin(4M'-3M)\\
+&+1{,}114\cos(4M'-2M)&&+3{,}450\sin(4M'-2M)\\
+&+4{,}055\cos(4M'-M)&&-3{,}344\sin(4M'-M)\\
+&-3{,}527\cos4M'&&-1{,}834\sin4M'\\
+&-0{,}030\cos(4M'+M)&&+1{,}824\sin(4M'+M)\\[5pt]
+&-0{,}588\cos(5M'-4M)&&-2{,}443\sin(5M'-4M)\\
+&-2{,}200\cos(5M'-3M)&&+1{,}467\sin(5M'-3M)\\
+&+2{,}113\cos(5M'-2M)&&+2{,}408\sin(5M'-2M)\\
+&+1{,}702\cos(5M'-M)&&-2{,}648\sin(5M'-M)\\
+&-2{,}340\cos5M'&&+0{,}080\sin5M'\\[5pt]
+&-0{,}950\cos(6M'-4M)&&-1{,}456\sin(6M'-4M)\\
+&-1{,}575\cos(6M'-3M)&&+1{,}487\sin(6M'-3M)\\
+&+1{,}895\cos(6M'-2M)&&+0{,}995\sin(6M'-2M)\\
+&+0{,}952\cos(6M'-M)&&-1{,}760\sin(6M'-M)\\[5pt]
+&-0{,}902\cos(7M'-4M)&&-0{,}935\sin(7M'-4M)\\
+&-0{,}736\cos(7M'-3M)&&+1{,}301\sin(7M'-3M)\\
+&+1{,}388\cos(7M'-2M)&&+0{,}422\sin(7M'-2M)\\[5pt]
+&-0{,}843\cos(8M'-4M)&&-0{,}467\sin(8M'-4M)\\
+&-0{,}135\cos(8M'-3M)&&+0{,}952\sin(8M'-3M)
+\end{aligned}
+\end{array}\right.
+\]
+\clearpage
+\endgroup
+\end{landscape}
+\par\noindent\hspace*{\parindent}Die weitere Rechnung wurde folgendermassen ausgeführt: Nimmt man aus den vorstehenden Ausdrücken von \(W\cos(v-\tilde\omega)\) und \(W\sin(v-\tilde\omega)\) ein beliebiges Argument heraus, und zwar sowohl das entsprechende Cosinus- wie das Sinus-Glied und bezeichnet man der Kürze halber dieses Argument vorübergehend mit \(z\), so dass also \(z\) jedenfalls von der Form \(m'M'+mM\) (\(m'\) und \(m\) ganze positive oder negative Zahlen, die Null eingeschlossen) ist, so ist
+\[
+\begin{array}{rcl}
+\text{Glied in }W\cos(v-\tilde\omega)&=&b\cos z+b'\sin z\\
+\text{»\quad »\quad }W\sin(v-\tilde\omega)&=&c\cos z+c'\sin z,
+\end{array}
+\]
+\noindent wo mit \(b,\;b',\;c,\;c'\) die numerischen Coefficienten bezeichnet sind; es ist dann offenbar das hieraus entspringende
+\[
+\text{Glied in }\frac{\mathrm{d}i}{n\,\mathrm{d}t}=p\cos(z-P)
+\]
+\noindent und das entsprechende
+\[
+\text{Glied in }\frac{\sin i\,\mathrm{d}\Omega}{n\,\mathrm{d}t}=p'\cos(z-P'),
+\]
+\noindent wo
+\[
+\begin{aligned}
+p\cos P&=b\cos(\tilde\omega-\Omega)-c\sin(\tilde\omega-\Omega)\\
+p\sin P&=b'\cos(\tilde\omega-\Omega)-c'\sin(\tilde\omega-\Omega)\\
+p'\cos P'&=c\cos(\tilde\omega-\Omega)+b\sin(\tilde\omega-\Omega)\\
+p'\sin P'&=c'\cos(\tilde\omega-\Omega)+b'\sin(\tilde\omega-\Omega)
+\end{aligned}
+\]
+\SourceLeaf{523}
+\noindent gesetzt ist; es entspringt also hieraus
+\[
+\begin{array}{rcl}
+\text{das Glied in }i&=&\dfrac{p}{m'\dfrac{n'}{n}+m}\sin(z-P)\\[8pt]
+\text{»\quad »\quad »\quad }\Omega&=&\dfrac{p'}{\left(m'\dfrac{n'}{n}+m\right)\sin i}\sin(z-P').
+\end{array}
+\]
+\noindent Zur leichtern Berechnung von \(p,\;p',\;P,\;P'\) kann man die Hülfsgrössen
+\[
+\begin{aligned}
+q\cos Q&=b&\qquad q'\cos Q'&=b'\\
+q\sin Q&=c& q'\sin Q'&=c'
+\end{aligned}
+\]
+\noindent einführen, womit
+\[
+\begin{aligned}
+p\cos P&=q\cos(Q+\tilde\omega-\Omega)&\quad p'\cos P'&=q\sin(Q+\tilde\omega-\Omega)\\
+p\sin P&=q'\cos(Q'+\tilde\omega-\Omega)&p'\sin P'&=q'\sin(Q'+\tilde\omega-\Omega)
+\end{aligned}
+\]
+\noindent wird.
+\par\noindent\hspace*{\parindent}Das constante Glied in \(W\cos(v-\tilde\omega)\) und \(W\sin(v-\tilde\omega)\) gibt die säcularen Störungen; hier verschwinden die Grössen \(z,\;b',\;c',\;q',\;P,\;P'\) und es wird
+\[
+\begin{aligned}
+p&=q\cos(Q+\tilde\omega-\Omega)\\
+p'&=q\sin(Q+\tilde\omega-\Omega),
+\end{aligned}
+\]
+\noindent sowie die jährliche Zunahme
+\[
+\begin{aligned}
+\text{der Neigung}&=pn\mathord{.}\,365{,}25\\
+\text{der Länge des Knotens}&=\frac{p'}{\sin i}n\mathord{.}\,365{,}25.
+\end{aligned}
+\]
+\par\noindent\hspace*{\parindent}Als Beispiel mag die Berechnung des vom Argument \(5M'-2M\) abhangenden Gliedes gegeben werden, welches die grosse Gleichung in den Pallasstörungen darstellt; hiebei ist \(\log\sin i=9{,}75453\) und \(\log\dfrac{n'}{n}=9{,}589\,684\):
+\begingroup
+\newcommand{\VSevenLogPoint}{\mathord{.}\mkern3mu}
+\newcommand{\VSevenLogFive}{\VSevenLogPoint\VSevenLogPoint\VSevenLogPoint\VSevenLogPoint\VSevenLogPoint}
+\begin{center}
+\fontsize{9}{12}\selectfont
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}l@{\qquad}l@{}}
+\(\log c\VSevenLogFive\VSevenLogFive\VSevenLogFive\VSevenLogPoint\VSevenLogPoint0{,}32490\)&\(\log c'\VSevenLogFive\VSevenLogFive\VSevenLogFive\VSevenLogPoint\VSevenLogPoint0{,}38166\)\\[3pt]
+\(\log b\VSevenLogFive\VSevenLogFive\VSevenLogFive\VSevenLogPoint\VSevenLogPoint0{,}61731\)&\(\log b'\VSevenLogFive\VSevenLogFive\VSevenLogFive\VSevenLogPoint0{,}55606\)\\[3pt]
+\(\log\cos Q\VSevenLogFive\VSevenLogFive\VSevenLogPoint\VSevenLogPoint\VSevenLogPoint9{,}94980\)&\(\log\cos Q'\VSevenLogFive\VSevenLogFive\VSevenLogPoint\VSevenLogPoint\VSevenLogPoint9{,}91963\)\\[3pt]
+\multicolumn{1}{r}{\(Q=27^0\;1'\;21''\)}&\multicolumn{1}{r}{\(Q'=33^0\;47'\;36''\)}\\[3pt]
+\multicolumn{1}{r}{\(\Omega-\tilde\omega=51\;30\;47\)}&\multicolumn{1}{r}{\(\Omega-\tilde\omega=51\;30\;47\)}\\[3pt]
+\(\log q\VSevenLogFive\VSevenLogFive\VSevenLogFive\VSevenLogPoint\VSevenLogPoint0{,}66751\)&\(\log q'\VSevenLogFive\VSevenLogFive\VSevenLogFive\VSevenLogPoint0{,}63643\)\\[3pt]
+\(\log\cos(Q+\tilde\omega-\Omega)\VSevenLogPoint\VSevenLogPoint\VSevenLogPoint\VSevenLogPoint9{,}95905\)&\(\log\cos(Q'+\tilde\omega-\Omega)\VSevenLogPoint\VSevenLogPoint\VSevenLogPoint9{,}97889\)\\[3pt]
+\(\log\sin(Q+\tilde\omega-\Omega)\VSevenLogPoint\VSevenLogPoint\VSevenLogPoint\VSevenLogPoint9{,}61757_n\)&\(\log\sin(Q'+\tilde\omega-\Omega)\VSevenLogPoint\VSevenLogPoint\VSevenLogPoint9{,}48339_n\)\\[3pt]
+\hline\noalign{\vskip4pt}
+\(\log P\sin P\VSevenLogFive\VSevenLogFive\VSevenLogPoint\VSevenLogPoint0{,}61532\)&\(\log p'\sin P'\VSevenLogFive\VSevenLogFive\VSevenLogPoint0{,}11982_n\)\\[3pt]
+\(\log p\cos P\VSevenLogFive\VSevenLogFive\VSevenLogPoint\VSevenLogPoint0{,}62656\)&\(\log p'\cos P'\VSevenLogFive\VSevenLogFive\VSevenLogPoint0{,}28508_n\)\\[3pt]
+\(\log\cos P\VSevenLogFive\VSevenLogFive\VSevenLogPoint\VSevenLogPoint\VSevenLogPoint9{,}85503\)&\(\log\cos P'\VSevenLogFive\VSevenLogFive\VSevenLogPoint\VSevenLogPoint\VSevenLogPoint9{,}91676_n\)\\[3pt]
+\(\log p\VSevenLogFive\VSevenLogFive\VSevenLogFive\VSevenLogPoint\VSevenLogPoint0{,}77153\)&\(\log p'\VSevenLogFive\VSevenLogFive\VSevenLogFive\VSevenLogPoint\VSevenLogPoint0{,}36832\)\\[5pt]
+\(\log\left(5\dfrac{n'}{n}-2\right)\VSevenLogFive\VSevenLogPoint\VSevenLogPoint\VSevenLogPoint\VSevenLogPoint8{,}74966_n\)&\(\log\left(5\dfrac{n'}{n}-2\right)\sin i\VSevenLogFive8{,}50419_n\)\\[6pt]
+\hline\noalign{\vskip4pt}
+\multicolumn{1}{r}{\(2{,}02187_n\)}&\multicolumn{1}{r}{\(1{,}86413_n\)}
+\end{tabular}
+\end{center}
+\endgroup
+\noindent woraus das entsprechende Störungsglied folgt:
+\SourceLeaf{524}
+\[
+\begin{aligned}
+\text{in }i&=-105''{,}16\sin(5M'-2M-44^0\,15'\,31'')\\
+\text{in }\Omega&=-73{,}14\sin(5M'-2M-214\;21\;9).
+\end{aligned}
+\]
+\par\noindent\hspace*{\parindent}Auf diese Weise ergeben sich schliesslich die Störungen der Neigung und der Länge des Knotens, wie folgt:
+\begingroup
+\renewcommand{\arraystretch}{1.15}
+\begin{longtable}{@{}r@{}l@{}}
+\(\delta i={}\)&\(-12''{,}57\cos(M+252^0\,11'\;0'')\)\\
+&\(-6{,}65\cos(2M+62\;9\;56)\)\\
+&\(-1{,}59\cos(3M+117\;14\;37)\)\\
+&\(+2{,}07\cos(M'-3M+22\;51\;40)\)\\
+&\(+5{,}26\cos(M'-2M+175\;55\;55)\)\\
+&\(+9{,}37\cos(M'-M+342\;56\;4)\)\\
+&\(-19{,}52\cos(M'+139\;1\;23)\)\\
+&\(-7{,}97\cos(M'+M+307\;35\;9)\)\\
+&\(-2{,}06\cos(M'+2M+54\;50\;40)\)\\
+&\(+2{,}04\cos(2M'-3M+38\;14\;51)\)\\
+&\(+8{,}60\cos(2M'-2M+297\;0\;4)\)\\
+&\(+38{,}05\cos(2M'-M+87\;46\;49)\)\\
+&\(-25{,}71\cos(2M'+211\;46\;21)\)\\
+&\(-4{,}01\cos(2M'+M+342\;3\;52)\)\\
+&\(-1{,}72\cos(2M'+2M+90\;14\;43)\)\\
+&\(+2{,}68\cos(3M'-3M+178\;53\;45)\)\\
+&\(+10{,}17\cos(3M'-2M+350\;16\;40)\)\\
+&\(-81{,}05\cos(3M'-M+110\;56\;28)\)\\
+&\(-7{,}55\cos(3M'+253\;50\;42)\)\\
+&\(-2{,}61\cos(3M'+M+358\;13\;53)\)\\
+&\(+2{,}73\cos(4M'-3M+253\;56\;48)\)\\
+&\(+18{,}26\cos(4M'-2M+10\;24\;3)\)\\
+&\(-14{,}34\cos(4M'-M+148\;14\;50)\)\\
+&\(-2{,}76\cos(4M'+265\;14\;47)\)\\
+&\(-1{,}07\cos(4M'+M+35\;6\;18)\)\\
+&\(+1{,}17\cos(5M'-4M+151\;3\;50)\)\\
+&\(+4{,}42\cos(5M'-3M+273\;31\;7)\)\\
+&\(+105{,}16\cos(5M'-2M+45\;44\;29)\)\\
+&\(-4{,}95\cos(5M'-M+171\;2\;53)\)\\
+&\(-1{,}46\cos(5M'+292\;10\;28)\)\\
+&\(+1{,}45\cos(6M'-4M+179\;1\;17)\)\\
+&\(+5{,}18\cos(6M'-3M+307\;50\;46)\)\\
+&\(-11{,}14\cos(6M'-2M+72\;2\;1)\)\\
+&\(-1{,}93\cos(6M'-M+174\;2\;6)\)\\
+&\(+1{,}84\cos(7M'-4M+211\;21\;27)\)\\
+&\(+8{,}93\cos(7M'-3M+338\;35\;3)\)\\
+&\(-2{,}70\cos(7M'-2M+94\;23\;51)\)\\
+&\(+1''{,}88\cos(8M'-4M+237^0\,45'\,50'')\)\\
+&\(-14{,}25\cos(8M'-3M+2\;50\;46)\)
+\end{longtable}
+\begin{center}
+\begin{tabular}{rl}
+säculares Glied: jährlich&\(+4''{,}984\)\\
+täglich&\(+0''{,}013645\)
+\end{tabular}
+\end{center}
+\begin{longtable}{@{}r@{}l@{}}
+\(\delta\Omega={}\)&\(-20''{,}00\cos(M+123^0\;56\;7'')\)\\
+&\(-7{,}44\cos(2M+337\;52\;25)\)\\
+&\(-2{,}33\cos(3M+13\;35\;12)\)\\
+&\(+1{,}85\cos(M'-3M+106\;45\;20)\)\\
+&\(+5{,}65\cos(M'-2M+276\;38\;41)\)\\
+&\(+42{,}67\cos(M'-M+150\;50\;34)\)\\
+&\(-43{,}92\cos(M'+335\;11\;49)\)\\
+&\(-5{,}32\cos(M'+M+195\;25\;45)\)\\
+&\(-2{,}19\cos(M'+2M+306\;25\;32)\)\\
+&\(+2{,}44\cos(2M'-3M+96\;26\;32)\)\\
+&\(+22{,}28\cos(2M'-2M+41\;14\;23)\)\\
+&\(+112{,}69\cos(2M'-M+228\;10\;44)\)\\
+&\(-26{,}52\cos(2M'+103\;15\;1)\)\\
+&\(-3{,}02\cos(2M'+M+235\;39\;24)\)\\
+&\(-1{,}96\cos(2M'+2M+356\;17\;50)\)\\
+&\(+5{,}55\cos(3M'-3M+292\;55\;15)\)\\
+&\(+21{,}72\cos(3M'-2M+98\;22\;39)\)\\
+&\(-70{,}58\cos(3M'-M+317\;48\;2)\)\\
+&\(-6{,}20\cos(3M'+117\;34\;4)\)\\
+&\(-2{,}54\cos(3M'+M+263\;25\;5)\)\\
+&\(+7{,}91\cos(4M'-3M+345\;2\;59)\)\\
+&\(+17{,}83\cos(4M'-2M+180\;41\;57)\)\\
+&\(-10{,}72\cos(4M'-M+21\;38\;13)\)\\
+&\(-3{,}00\cos(4M'+160\;36\;40)\)\\
+&\(-1{,}40\cos(4M'+M+273\;0\;2)\)\\
+&\(+2{,}33\cos(5M'-4M+241\;59\;58)\)\\
+&\(+5{,}10\cos(5M'-3M+49\;18\;21)\)\\
+&\(+73{,}14\cos(5M'-2M+235\;38\;51)\)\\
+&\(-4{,}46\cos(5M'-M+49\;37\;25)\)\\
+&\(-1{,}18\cos(5M'+200\;46\;47)\)\\
+&\(+1{,}83\cos(6M'-4M+293\;52\;21)\)\\
+&\(+2{,}49\cos(6M'-3M+107\;10\;7)\)\\
+\SourceLeaf{525}&\(-7''{,}39\cos(6M'-2M+276^0\,37'\,43'')\)\\
+&\(-2{,}52\cos(6M'-M+281\;48\;56)\)\\
+&\(+1{,}41\cos(7M'-4M+5\;1\;7)\)\\
+&\(+5{,}21\cos(7M'-3M+182\;43\;35)\)\\
+&\(-2{,}18\cos(7M'-2M+346\;4\;12)\)\\
+&\(+1''{,}11\cos(8M'-4M+48^0\,44'\,38'')\)\\
+&\(-8{,}67\cos(8M'-3M+324\;30\;7)\)
+\end{longtable}
+\begin{center}
+\begin{tabular}{rl}
+säculares Glied: jährlich&\(-35''{,}227\)\\
+täglich&\(-0''{,}096447\).]
+\end{tabular}
+\end{center}
+\endgroup

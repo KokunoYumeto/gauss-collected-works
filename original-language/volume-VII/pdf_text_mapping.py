@@ -1,4 +1,4 @@
-"""Add searchable CMEX10 character mappings without changing page graphics.
+"""Add searchable CMEX character mappings without changing page graphics.
 
 Usage: python pdf_text_mapping.py input.pdf output.pdf
 Requires PyMuPDF and fontTools. The output must be a new file.
@@ -13,6 +13,8 @@ from fontTools import agl
 
 
 def cmex_unicode(name):
+    if name in ('tildewide', 'tildewider', 'tildewidest'):
+        return 0x0303
     # Complete delimiters map to their characters; extensible pieces retain
     # separate private-use values because each is only part of a delimiter.
     if name in ('integraltext', 'integraldisplay'):
@@ -42,14 +44,14 @@ def main(source, output):
     fonts = {f[0]: f for page in doc for f in page.get_fonts(full=True)}
     changed = 0
     for xref, font in fonts.items():
-        if font[3].split('+')[-1] != 'CMEX10':
+        if not re.fullmatch(r'CMEX[0-9]+', font[3].split('+')[-1]):
             continue
         kind, _ = doc.xref_get_key(xref, 'ToUnicode')
         if kind == 'xref':
             continue
         _, extension, _, data = doc.extract_font(xref)
         if extension != 'cff':
-            raise ValueError('Expected embedded CMEX10 CFF font.')
+            raise ValueError('Expected embedded CMEX CFF font.')
         cff = CFFFontSet()
         cff.decompile(io.BytesIO(data), None)
         encoding = cff[cff.fontNames[0]].Encoding
@@ -72,7 +74,7 @@ def main(source, output):
         changed += 1
     doc.save(output)
     doc.close()
-    print(f'Wrote {output.name}; added {changed} CMEX10 text mapping(s).')
+    print(f'Wrote {output.name}; added {changed} CMEX text mapping(s).')
 
 
 if __name__ == '__main__':

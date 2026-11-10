@@ -1,0 +1,75 @@
+\par\Needspace{9\baselineskip}\bigskip
+\pdfbookmark[3]{Exposition, Zweiter Entwurf., 22}{pallas-II-second-article22}
+\begin{center}22.\end{center}
+\begingroup
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\setlength{\lineskip}{4pt}\setlength{\lineskiplimit}{4pt}
+\noindent\hspace*{\parindent}Nous venons de prouver que \textit{s’il existe} une série
+\[
+\begin{aligned}
+&a+a'\cos x+a''\cos2x+a'''\cos3x+\text{etc.}\\
+&\quad{}+\beta'\sin x+\beta''\sin2x+\beta'''\sin3x+\text{etc.,}
+\end{aligned}
+\]
+\noindent égale à la fonction \(\mathrm{X}\), les coëfficiens \(a\), \(a'\), \(\beta'\), \(a''\), \(\beta''\) etc. seront conformes aux formules indiquées. Mais comme la possibilité générale d’un tel développement pourrait paraître douteuse, il sera à propos de traiter encore séparément le théorème inverse.
+\par
+Supposons donc que \(\mathrm{f}x\) exprime une fonction de \(x\), soit périodique ou non, mais dont la valeur reste toujours \textit{finie}, tandisque \(x\) est entre \(0\) et \(2\pi\). Soit, en étendant les intégrales de \(x=0\) jusqu’à \(x=2\pi\),
+\[
+\begin{gathered}
+\int\mathrm{f}x.\mathrm{d}x=2\pi a,\quad\int\mathrm{f}x.\cos x.\mathrm{d}x=\pi a',\\[3pt]
+\int\mathrm{f}x.\cos2x.\mathrm{d}x=\pi a'',\quad\int\mathrm{f}x.\cos3x.\mathrm{d}x=\pi a'''\text{etc.}\\[3pt]
+\int\mathrm{f}x.\sin x.\mathrm{d}x=\pi\beta',\quad\int\mathrm{f}x.\sin2x.\mathrm{d}x=\pi\beta'',\\[3pt]
+\int\mathrm{f}x.\sin3x.\mathrm{d}x=\pi\beta'''\text{etc.}
+\end{gathered}
+\]
+\noindent et cherchons à déterminer la valeur de la série
+\[
+\tag*{(T)}\begin{aligned}
+&a+a'\cos t+a''\cos2t+a'''\cos3t+\text{etc.}\\
+&\quad{}+\beta'\sin t+\beta''\sin2t+\beta'''\sin3t+\text{etc.}
+\end{aligned}
+\]
+\noindent Comme évidemment elle est une fonction périodique de \(t\), il sera permis de \SourceLeaf{477}supposer \(t\) entre \(0\) et \(2\pi\): nous verrons ci-après qu’il faut distinguer le cas où \(t\) est entre ces limites exclusivement, de celui où \(t=0\) ou \(=2\pi\).
+\par
+Considérons d’abord la suite plus générale
+\[
+\tag*{(U)}\begin{aligned}
+&a+a'\tfrac{1-e}{1+e}\cos t+a''\left(\tfrac{1-e}{1+e}\right)^2\cos2t+a'''\left(\tfrac{1-e}{1+e}\right)^3\cos3t+\text{etc.}\\[3pt]
+&\quad{}+\beta'\tfrac{1-e}{1+e}\sin t+\beta''\left(\tfrac{1-e}{1+e}\right)^2\sin2t+\beta'''\left(\tfrac{1-e}{1+e}\right)^3\sin3t+\text{etc.}
+\end{aligned}
+\]
+\noindent Remarquons qu’elle est l’intégrale
+\[
+\begin{aligned}
+&\int\frac{1}{2\pi}\mathrm{f}x.\mathrm{d}x.\Bigl(1+2\frac{1-e}{1+e}\cos(x-t)\\[3pt]
+&\qquad{}+2\left(\frac{1-e}{1+e}\right)^2\cos2(x-t)+2\left(\frac{1-e}{1+e}\right)^3\cos3(x-t)+\text{etc.}\Bigr),
+\end{aligned}
+\]
+\noindent prise de \(x=0\) jusqu’à \(x=2\pi\). La série sous parenthèse est égale à
+\[
+\frac{1-\left(\frac{1-e}{1+e}\right)^2}{1+\left(\frac{1-e}{1+e}\right)^2-2\frac{1-e}{1+e}\cos(x-t)}
+=\frac{e}{\sin\tfrac12(x-t)^2+ee\cos\tfrac12(x-t)^2},
+\]
+\noindent comme on peut aisément vérifier par la multiplication. Ainsi on a
+\[
+{}^{\mathrm{e}}_{\mathrm{e}}\!U=\frac{1}{2\pi}\int\frac{e\mathrm{f}x.\mathrm{d}x}{\sin\tfrac12(x-t)^2+ee\cos\tfrac12(x-t)^2},
+\]
+\noindent prenant l’intégrale de \(x=0\) jusqu’à \(x=2\pi\). Maintenant introduisons une autre variable \(y\) telle qu’on ait
+\[
+\operatorname{tang}\tfrac12(x-t)=e\operatorname{tang}\tfrac12y,
+\]
+\noindent où l’on peut supposer \(\tfrac12y\) dans le même quadrant où est \(\tfrac12(x-t)\) (pourvu que \(e\) soit positif). On aura donc
+\[
+U=\frac{1}{2\pi}\int\mathrm{f}x.\mathrm{d}y,
+\]
+\noindent l’intégration étant étendue de la valeur de \(y\) qui répond à \(x=0\) jusqu’à celle qui répond à \(x=2\pi\), c’est à dire, de \(y=\theta-\pi\) jusqu’à \(y=\theta+\pi\), si l’on fait
+\[
+e\operatorname{cotang}\tfrac12t=\operatorname{tang}\tfrac12\theta
+\]
+\noindent et qu’on prenne \(\theta\) entre \(-90^0\) et \(+90^0\).
+\par
+Or on voit que \(T\) est la limite de \(U\), \(e\) décroissant à l’infini. Supposons donc \(e\) infiniment petit, \(\theta\) le sera aussi, du moins si l’on excepte le cas \(t=0\), duquel nous parlerons séparément. Donc puisque la valeur de \(\mathrm{f}x\) est toujours\SourceLeaf{478} finie, la valeur de l’intégrale \(\int\mathrm{f}x.\mathrm{d}y\) prise entre \(y=-\pi\) et \(y=\theta-\pi\) et de même la valeur entre \(y=\pi\) et \(y=\theta+\pi\) sera infiniment petite. De plus il est évident, que pour toutes les valeurs de \(y\) entre \(-\pi\) et \(+\pi\) et dont la différence à ces limites est finie, \(x\) diffère infiniment peu de \(t\), et par conséquent \(\mathrm{f}x\) infiniment peu de \(\mathrm{f}t\). Ainsi l’intégrale \(\int\mathrm{f}x.\mathrm{d}y\) prise de \(y=\theta-\pi\) jusqu’à \(y=\theta+\pi\) différera infiniment peu de la même intégrale prise de \(y=-\pi\) jusqu’à \(y=+\pi\) (la différence est généralement et rigoureusement nulle, toutes les fois que \(\mathrm{f}\) est une fonction périodique), et celle-ci à son tour différera infiniment peu de l’intégrale \(\int\mathrm{f}t.\mathrm{d}y\) prise entre les mêmes limites, c. à d. de \(2\pi\mathrm{f}t\). On a donc \(T=\mathrm{f}t\).
+\par
+Dans le cas \(t=0\), l’intégration dans la formule \(U=\frac{1}{2\pi}\int\mathrm{f}x.\mathrm{d}y\) doit s’étendre de \(y=0\) jusqu’à \(y=2\pi\). Pour toutes les valeurs de \(y\) entre \(0\) et \(\pi\), dont la distance à ces limites est finie, \(x\) sera infiniment petit; mais pour toutes les valeurs de \(y\) entre \(\pi\) et \(2\pi\), dont la distance à ces limites est finie, \(x\) différera infiniment peu de \(2\pi\). Ainsi l’intégrale \(\int\mathrm{f}x.\mathrm{d}y\) prise de \(y=0\) jusqu’à \(y=\pi\) différera infiniment peu de l’intégrale \(\int\mathrm{f}0.\mathrm{d}y\), c. à d. de \(\pi\mathrm{f}0\); mais prise de \(y=\pi\) jusqu’à \(y=2\pi\) elle différera infiniment peu de \(\int\mathrm{f}2\pi.\mathrm{d}y\), c. à d. de \(\pi\mathrm{f}2\pi\), de sorte qu’on ait \(T=\frac12(\mathrm{f}0+\mathrm{f}2\pi)\). Au reste, lorsque \(\mathrm{f}\) désigne une fonction périodique, ce résultat est compris sous la formule générale \(T=\mathrm{f}t\).
+\par\medskip\begin{center}\rule{.24\linewidth}{.3pt}\end{center}
+\endgroup

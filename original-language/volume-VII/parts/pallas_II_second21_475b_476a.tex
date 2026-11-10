@@ -1,0 +1,32 @@
+\par\Needspace{12\baselineskip}\bigskip
+\pdfbookmark[2]{Quatrième Section. [Zweiter Entwurf.]}{pallas-II-fourth-second-draft}
+\begin{center}{\large\bfseries Quatrième Section. [Zweiter Entwurf.]\par}\medskip
+\textit{Développement des fonctions périodiques en séries.}\end{center}
+\pdfbookmark[3]{Exposition, Zweiter Entwurf., 21}{pallas-II-second-article21}
+\begin{center}21.\end{center}
+\begingroup
+\noindent\hspace*{\parindent}On appelle fonction périodique d’une variable toute celle qui ne change pas en augmentant la valeur de cette variable d’une quantité constante: cette augmentation de la variable peut être appelée sa période. Une fonction à plusieurs variables peut être périodique relativement à quelques-unes d’entre elles, et non-périodique relativement à d’autres. On peut supposer que les variables relativement auxquelles une fonction est périodique, sont des arcs de cercle, et que la période de chacune est égale à \(360^0\) ou \(2\pi\). En effet si une fonction de \(x,y,z\) etc. ne change pas en augmentant \(x\) de \(a\), \(y\) de \(b\), \(z\) de \(c\) etc., on n’a qu’à introduire à la place des variables \(x,y,z\) etc. celles-ci: \(x'=\frac{2\pi x}{a}\), \(y'=\frac{2\pi y}{b}\), \(z'=\frac{2\pi z}{c}\) etc.
+\par
+Considérons d’abord la fonction périodique \(\mathrm{X}\) d’une seule variable \(x\), et supposons
+\[
+\begin{aligned}
+\mathrm{X}={}&a+a'\cos x+a''\cos2x+a'''\cos3x+\text{etc.}\\
+&{}+\beta'\sin x+\beta''\sin2x+\beta'''\sin3x+\text{etc.}
+\end{aligned}
+\]
+\noindent\SourceLeaf{476}On aura \(a=\frac{\int\mathrm{X}\mathrm{d}x}{2\pi}\), l’intégrale étant prise de \(x=0\) jusqu’à \(x=2\pi\). En effet l’intégration indéfinie nous donne
+\[
+\begin{aligned}
+\int\mathrm{X}\mathrm{d}x={}&\text{Const.}+ax+a'\sin x+\tfrac12a''\sin2x+\tfrac13a'''\sin3x+\text{etc.}\\
+&{}-\beta'\cos x-\tfrac12\beta''\cos2x-\tfrac13\beta'''\cos3x-\text{etc.}
+\end{aligned}
+\]
+\noindent et puisque, excepté le terme \(ax\), tous les autres ont la même valeur pour \(x=0\) et pour \(x=2\pi\), la valeur de l’intégrale entre ces limites sera \(2\pi a\). On aura de la même manière
+\[
+\setlength{\arraycolsep}{4pt}
+\begin{array}{lll}
+a'=\dfrac{\int\mathrm{X}\cos x\mathrm{d}x}{\pi},&a''=\dfrac{\int\mathrm{X}\cos2x\mathrm{d}x}{\pi},&a'''=\dfrac{\int\mathrm{X}\cos3x\mathrm{d}x}{\pi}\quad\text{etc.}\\[4pt]
+\beta'=\dfrac{\int\mathrm{X}\sin x\mathrm{d}x}{\pi},&\beta''=\dfrac{\int\mathrm{X}\sin2x\mathrm{d}x}{\pi},&\beta'''=\dfrac{\int\mathrm{X}\sin3x\mathrm{d}x}{\pi}\quad\text{etc.}
+\end{array}
+\]
+\par\endgroup

@@ -1,0 +1,85 @@
+\par\begingroup
+\setlength{\lineskip}{4pt}\setlength{\lineskiplimit}{4pt}
+\Needspace{8\baselineskip}\bigskip
+\pdfbookmark[3]{Exposition, 18}{pallas-II-article18}
+\begin{center}18.\end{center}
+\noindent\hspace*{\parindent}Soit \(\mathrm{f}t\) une fonction de \(t\) dont on a les valeurs numériques pour \(t=T,\ t=T+\theta,\ t=T+2\theta,\ t=T+3\theta\) etc. Désignons par \(\mathrm{f}'t\) la différence
+\[
+\mathrm{f}(t+\tfrac12\theta)-\mathrm{f}(t-\tfrac12\theta),
+\]
+et de même
+\[
+\begin{aligned}
+\text{par }\mathrm{f}''t&\text{ la différence }\mathrm{f}'(t+\tfrac12\theta)-\mathrm{f}'(t-\tfrac12\theta)\\
+\mathrm{f}'''t&\text{ la différence }\mathrm{f}''(t+\tfrac12\theta)-\mathrm{f}''(t-\tfrac12\theta)\\
+\mathrm{f}^{\mathrm{IV}}t&\text{ la différence }\mathrm{f}'''(t+\tfrac12\theta)-\mathrm{f}'''(t-\tfrac12\theta)
+\end{aligned}
+\]
+et ainsi de suite.
+\par La formation des séries des différences nous fournira les valeurs de \SourceLeaf{468}\(\mathrm{f}'(T+\tfrac12\theta),\ \mathrm{f}'(T+\tfrac32\theta),\ \mathrm{f}'(T+\tfrac52\theta)\) etc., \(\mathrm{f}''(T+\theta),\ \mathrm{f}''(T+2\theta),\ \mathrm{f}''(T+3\theta)\) etc., \(\mathrm{f}'''(T+\tfrac32\theta),\ \mathrm{f}'''(T+\tfrac52\theta)\) etc. etc. Supposons de plus
+\[
+\begin{gathered}
+\begin{aligned}
+\mathrm{f}t&=\mathrm{f}^{(-1)}(t+\tfrac12\theta)-\mathrm{f}^{(-1)}(t-\tfrac12\theta)\\
+\mathrm{f}^{(-1)}t&=\mathrm{f}^{(-2)}(t+\tfrac12\theta)-\mathrm{f}^{(-2)}(t-\tfrac12\theta)
+\end{aligned}\\
+\text{etc.}
+\end{gathered}
+\]
+On pourra donner une valeur arbitraire à \(\mathrm{f}^{(-1)}(T-\tfrac12\theta)\), et l’addition successive des valeurs de \(\mathrm{f}t\) donnera les valeurs de \(\mathrm{f}^{(-1)}(T+\tfrac12\theta),\ \mathrm{f}^{(-1)}(T+\tfrac32\theta),\ \mathrm{f}^{(-1)}(T+\tfrac52\theta)\) etc.; de même on donnera une valeur arbitraire à \(\mathrm{f}^{(-2)}(T-\theta)\), et l’addition successive des valeurs de \(\mathrm{f}^{(-1)}t\) donnera les valeurs de \(\mathrm{f}^{(-2)}T,\ \mathrm{f}^{(-2)}(T+\theta),\ \mathrm{f}^{(-2)}(T+2\theta)\) etc. et ainsi de suite.
+\par Cela supposé nous aurons
+\[
+\begin{aligned}
+\mathrm{I.}\quad&\int\mathrm{f}t.\,\mathrm{d}t=\alpha+\theta\bigl\{\mathrm{f}^{(-1)}t+\tfrac1{24}\mathrm{f}'t\\
+&\qquad-\tfrac{17}{5760}\mathrm{f}'''t+\tfrac{367}{967680}\mathrm{f}^{\mathrm{V}}t\\
+&\qquad-\tfrac{27859}{464486400}\mathrm{f}^{\mathrm{VII}}t+\tfrac{1295803}{122624409600}\mathrm{f}^{\mathrm{IX}}t-\text{etc.}\bigr\}
+\end{aligned}
+\]
+\[
+\begin{aligned}
+\mathrm{II.}\quad&\int\!\int\mathrm{f}t.\,\mathrm{d}t^2=\alpha t+\beta+\theta\theta\bigl\{\mathrm{f}^{(-2)}t+\tfrac1{12}\mathrm{f}t\\
+&\qquad-\tfrac1{240}\mathrm{f}''t+\tfrac{31}{60480}\mathrm{f}^{\mathrm{IV}}t\\
+&\qquad-\tfrac{289}{3628800}\mathrm{f}^{\mathrm{VI}}t+\tfrac{317}{22809600}\mathrm{f}^{\mathrm{VIII}}t-\text{etc.}\bigr\},
+\end{aligned}
+\]
+\(\alpha\) et \(\beta\) étant des quantités constantes.
+\par Les coëfficiens de la première série se trouvent en divisant l’unité par
+\[
+\begin{aligned}
+&1-\tfrac1{24}xx+\tfrac3{640}x^4-\tfrac5{7168}x^6+\text{etc.}\\
+&\quad=1-\tfrac18\cdot\tfrac13xx+\dfrac{1.3}{8.16}\cdot\tfrac15\cdot x^4\\
+&\qquad\quad-\dfrac{1.3.5}{8.16.24}\cdot\tfrac17\cdot x^6+\dfrac{1.3.5.7}{8.16.24.32}\cdot\tfrac19\cdot x^8-\text{etc.}\\
+&\quad=\dfrac{\log(\BareRoot{(1+\tfrac14xx)}+\tfrac12x)}{\tfrac12x}\mathpunct{\cdot}
+\end{aligned}
+\]
+Élevant le quotient au quarré, on aura les coëfficiens de la seconde série. Les puissances plus élevées du quotient donneraient de même les coëfficiens de séries analogues pour exprimer les intégrales \(\int^3\mathrm{f}t.\,\mathrm{d}t^3\) etc., dont nous n’avons pas besoin dans notre recherche.
+\par Voici encore deux autres séries, dont on peut faire usage:
+\[
+\begin{aligned}
+\mathrm{III.}\quad&\int\mathrm{f}t.\,\mathrm{d}t=\alpha+\tfrac12\theta\bigl\{\\
+&\quad(\mathrm{f}^{(-1)}(t-\tfrac12\theta)+\mathrm{f}^{(-1)}(t+\tfrac12\theta))\\
+&\quad-\tfrac1{12}(\mathrm{f}'(t-\tfrac12\theta)+\mathrm{f}'(t+\tfrac12\theta))\\
+&\quad+\tfrac{11}{720}(\mathrm{f}'''(t-\tfrac12\theta)+\mathrm{f}'''(t+\tfrac12\theta))\\
+&\quad-\tfrac{191}{60480}(\mathrm{f}^{\mathrm{V}}(t-\tfrac12\theta)+\mathrm{f}^{\mathrm{V}}(t+\tfrac12\theta))+\text{etc.}\bigr\}
+\end{aligned}
+\]
+\[
+\begin{aligned}
+\mathrm{IV.}\quad&\int\!\int\mathrm{f}t.\,\mathrm{d}t^2=\alpha t+\beta+\tfrac12\theta\theta\bigl\{\\
+&\quad(\mathrm{f}^{(-2)}(t-\tfrac12\theta)+\mathrm{f}^{(-2)}(t+\tfrac12\theta))\\
+&\quad-\tfrac1{24}(\mathrm{f}(t-\tfrac12\theta)+\mathrm{f}(t+\tfrac12\theta))\\
+&\quad+\tfrac{17}{1920}(\mathrm{f}''(t-\tfrac12\theta)+\mathrm{f}''(t+\tfrac12\theta))\\
+&\quad-\tfrac{367}{193536}(\mathrm{f}^{\mathrm{IV}}(t-\tfrac12\theta)+\mathrm{f}^{\mathrm{IV}}(t+\tfrac12\theta))+\text{etc.}\bigr\}.
+\end{aligned}
+\]
+\SourceLeaf{469}Les coëfficiens de la troisième série se trouvent en divisant \(1-\tfrac18xx+\dfrac{1.3}{8.16}x^4-\dfrac{1.2.5}{8.16.24}x^6+\text{etc.}\) par \(1-\tfrac18\cdot\tfrac13xx+\dfrac{1.3}{8.16}\cdot\tfrac15x^4-\dfrac{1.3.5}{8.16.24}\cdot\tfrac17x^6+\text{etc.}\) ou en développant en série
+\[
+\dfrac{\tfrac12x}{\BareRoot{(1+\tfrac14xx)}.\log(\BareRoot{(1+\tfrac14xx)}+\tfrac12x)}\mathpunct{\cdot}
+\]
+De même les coëfficiens de la quatrième série naissent du développement de
+\[
+\dfrac{\tfrac14xx}{\BareRoot{(1+\tfrac14xx)}.\{\log(\BareRoot{(1+\tfrac14xx)}+\tfrac12x)\}^2}\mathpunct{\cdot}
+\]
+On a encore plus facilement les coëfficiens de la quatrième série, en multipliant ceux de la première par \(1,\ -1,\ -3,\ -5,\ -7\) etc. On pourrait aussi exprimer d’une manière analogue les intégrales d’un ordre plus élevé.
+\par Nous supprimons ici les démonstrations de ces théorèmes, puisqu’elles peuvent être déduites facilement de la théorie des fonctions génératrices, qu’un illustre géomètre vient de donner.
+\par\endgroup
