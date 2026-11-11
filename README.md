@@ -2,7 +2,7 @@
 
 Original-language LaTeX editions and modern English and German translations of Gauss’s collected works, with reader PDFs and editable build sources. The full corpus remains unfinished; the coverage below identifies the available editions.
 
-**Read in translation:** [English collection — 4,007 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_Collected_English.pdf) · [German collection — 4,142 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_Werke_Deutsch.pdf)
+**Read in translation:** [English collection — 4,439 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Collected_English.pdf) · [German collection — 4,585 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_Deutsch.pdf)
 
 ## Original-language editions
 
@@ -25,15 +25,16 @@ English and German translations of a growing part of the collected works, with r
 
 | Edition | English | German |
 |---|---|---|
-| Collected reader | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_Collected_English.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_Werke_Deutsch.pdf) |
-| Volume I | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_Werke_I_English.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_Werke_I_Deutsch.pdf) |
-| Volume II selection | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_Werke_II_English_Selection.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_Werke_II_Deutsch_Auswahl.pdf) |
-| Volume III, algebraic and analytic works | [706 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_Werke_III_English_Selection.pdf) | [723 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_Werke_III_Deutsch_Auswahl.pdf) |
-| Volume IV, observations, geometry and geodesy | [559 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_Werke_IV_English.pdf) | [579 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_Werke_IV_Deutsch.pdf) |
-| Volume V selection, mathematical physics | [525 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_Werke_V_English.pdf) | [551 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_Werke_V_Deutsch.pdf) |
-| Volume VI, astronomical writings | [1172 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_Werke_VI_English.pdf) | [1213 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_Werke_VI_Deutsch.pdf) |
+| Collected reader | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Collected_English.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_Deutsch.pdf) |
+| Volume I | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_I_English.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_I_Deutsch.pdf) |
+| Volume II selection | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_II_English_Selection.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_II_Deutsch_Auswahl.pdf) |
+| Volume III, algebraic and analytic works | [706 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_III_English_Selection.pdf) | [723 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_III_Deutsch_Auswahl.pdf) |
+| Volume IV, observations, geometry and geodesy | [559 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_IV_English.pdf) | [579 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_IV_Deutsch.pdf) |
+| Volume V selection, mathematical physics | [525 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_V_English.pdf) | [551 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_V_Deutsch.pdf) |
+| Volume VI, astronomical writings | [1172 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_VI_English.pdf) | [1213 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_VI_Deutsch.pdf) |
+| Volume VIII, supplements to Volumes I–IV | [432 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_VIII_English.pdf) | [443 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_VIII_Deutsch.pdf) |
 
-[Editable translation package](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11/Gauss_English_German_Collected_LaTeX.zip) · [Translation scope, sources and terminology](docs/english-german.md)
+[Editable translation package](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_English_German_Collected_LaTeX.zip) · [Translation scope, sources and terminology](docs/english-german.md)
 
 ### What the translations contain
 
@@ -64,15 +65,23 @@ English and German translations of a growing part of the collected works, with r
     Integral* [I.]; the papers on the theory of the new transcendental functions [II.]–[V.], among them *One Hundred
     Theorems* [IV.];
   - *Pentagramma mirificum*; Schering's final remarks; the historical contents and imprint.
-- **Volume IV**, selection: the historical volume titles and *Theoria combinationis observationum erroribus minimis
+- **Volume IV**: the historical volume titles and *Theoria combinationis observationum erroribus minimis
   obnoxiae* (Theory of the Combination of Observations Subject to the Smallest Errors): First Part (presented
   15 February 1821, published 1823; Articles 1–22) and Second Part (presented 2 February 1823, published 1823;
-  Articles 23–40).
+  Articles 23–40). The volume includes the supplement and notices, the writings on widows’ funds and annuities,
+  the mapping paper, the curved-surfaces memoir, both higher-geodesy memoirs, geometrical papers and notices,
+  the coordinate register, survey outlines and reports, historical errata, contents and imprint.
+- **Volume V**, selected complete mathematical physics writings on attraction, mechanics, fluids, magnetism,
+  dioptrics, electrodynamics and related subjects, with Schering’s historical remarks, contents and imprint.
+- **Volume VI**, the 1874 collected astronomical writings, with papers, correspondence excerpts, observations,
+  tables, reviews, Schering’s historical remarks, contents and imprint.
+- **Volume VIII**, the complete 1900 supplemental volume, with its historical titles and portrait, all nine
+  divisions, editorial remarks, errata and additions, contents and publisher’s advertisement.
 
 The translations keep Gauss's formulations, hypotheses, qualifications, formulas and numerical values, including
 printed irregularities and unfinished passages; the remarks of the historical editors (Schering, Dedekind and others)
 are translated as theirs. Latin is translated into English and German; German originals are translated into English
-and rendered in modern German in the German reader. The Latin and German originals are supplied separately with the
+and rendered in modern German in the German reader. The original-language texts are supplied separately with the
 editable sources.
 
 ## Editable editions
@@ -85,6 +94,12 @@ Carl Friedrich Gauss is the author of the historical mathematical text. Historic
 
 The translation guide credits H. Maser; James Caddall Morehead and Adam Miller Hiltebeitel; Paul Taylor and Bernard Leak; and the other named terminology references for their stated roles. See the [full scholarly credits](docs/english-german.md#translation-sources-and-terminology) and [citation metadata](translations/CITATIONS.bib). AI work does not replace historical or inherited human authorship.
 
+The title-page portrait is reproduced from the [Göttingen State and University Library copy (GDZ PPN236010751)](https://gdz.sub.uni-goettingen.de/id/PPN236010751). The text at the right edge of historical page 95 follows the [alternative photograph from Kyushu University Library (item 410995)](https://hdl.handle.net/2324/410995). The relationship between the photographed copies remains undetermined.
+
+Volume VIII was AI-translated into English and modern German and typeset by OpenAI GPT-6.1 Sol (Ultra). The original-language transcription and editable mathematical drawings were produced by OpenAI GPT-6 Astra (Ultra).
+
 These editions are freely available for study and teaching.
 
 Earlier publications in the [manuscript collection](https://github.com/KokunoYumeto/modern-latex-manuscripts): [original-language edition](https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/gauss-original-language-2026-10-24), [English and German edition](https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/gauss-english-german-2026-10-24h), [later English and German edition](https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/gauss-english-german-2026-10-31i).
+
+[Earlier English and German edition](https://github.com/KokunoYumeto/gauss-collected-works/releases/tag/gauss-english-german-2026-11-11)
