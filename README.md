@@ -2,7 +2,7 @@
 
 Original-language LaTeX editions and modern English and German translations of Gauss’s collected works, with reader PDFs and editable build sources. The full corpus remains unfinished; the coverage below identifies the available editions.
 
-**Read in translation:** [English collection — 4,439 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Collected_English.pdf) · [German collection — 4,585 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_Deutsch.pdf)
+**Read in translation:** [English collection — 4,439 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Collected_English.pdf) · [German collection — 4,585 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Werke_Deutsch.pdf)
 
 ## Original-language editions
 
@@ -25,16 +25,16 @@ English and German translations of a growing part of the collected works, with r
 
 | Edition | English | German |
 |---|---|---|
-| Collected reader | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Collected_English.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_Deutsch.pdf) |
-| Volume I | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_I_English.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_I_Deutsch.pdf) |
-| Volume II selection | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_II_English_Selection.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_II_Deutsch_Auswahl.pdf) |
-| Volume III, algebraic and analytic works | [706 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_III_English_Selection.pdf) | [723 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_III_Deutsch_Auswahl.pdf) |
-| Volume IV, observations, geometry and geodesy | [559 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_IV_English.pdf) | [579 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_IV_Deutsch.pdf) |
-| Volume V selection, mathematical physics | [525 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_V_English.pdf) | [551 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_V_Deutsch.pdf) |
-| Volume VI, astronomical writings | [1172 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_VI_English.pdf) | [1213 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_VI_Deutsch.pdf) |
-| Volume VIII, supplements to Volumes I–IV | [432 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_VIII_English.pdf) | [443 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_Werke_VIII_Deutsch.pdf) |
+| Collected reader | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Collected_English.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Werke_Deutsch.pdf) |
+| Volume I | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Werke_I_English.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Werke_I_Deutsch.pdf) |
+| Volume II selection | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Werke_II_English_Selection.pdf) | [PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Werke_II_Deutsch_Auswahl.pdf) |
+| Volume III, algebraic and analytic works | [706 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Werke_III_English_Selection.pdf) | [723 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Werke_III_Deutsch_Auswahl.pdf) |
+| Volume IV, observations, geometry and geodesy | [559 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Werke_IV_English.pdf) | [579 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Werke_IV_Deutsch.pdf) |
+| Volume V selection, mathematical physics | [525 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Werke_V_English.pdf) | [551 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Werke_V_Deutsch.pdf) |
+| Volume VI, astronomical writings | [1172 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Werke_VI_English.pdf) | [1213 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Werke_VI_Deutsch.pdf) |
+| Volume VIII, supplements to Volumes I–IV | [432 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Werke_VIII_English.pdf) | [443 pages](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_Werke_VIII_Deutsch.pdf) |
 
-[Editable translation package](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11a/Gauss_English_German_Collected_LaTeX.zip) · [Translation scope, sources and terminology](docs/english-german.md)
+[Editable translation package](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-english-german-2026-11-11b/Gauss_English_German_Collected_LaTeX.zip) · [Translation scope, sources and terminology](docs/english-german.md)
 
 ### What the translations contain
 
