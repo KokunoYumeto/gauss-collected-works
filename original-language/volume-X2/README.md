@@ -2,6 +2,8 @@
 
 [Read the 425-page PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-original-language-2026-10-24/Gauss_X2_Original_Language_Through_Staeckel28.pdf) · [Download the editable LaTeX](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-original-language-2026-10-24/Gauss_X2_Original_Language_Through_Staeckel28_LaTeX.zip) · [Browse the corresponding sources](edition-20261114/)
 
+[Further editable text](source-20261114/) contains the studies through Geppert, closing matter and final publisher catalogue. This source selection extends beyond the PDF above; its expanded PDF layout remains unchecked.
+
 Volume X, second part: Bachmann’s number-theory study and Stern’s appendix; Schlesinger’s function-theory study with indexes, errata and contents; Ostrowski’s introduction and sections 1–6 with errata; and Stäckel’s Gauss als Geometer through section 28. The later contributions are outside this selection.
 
 The studies in this selection are by Paul Bachmann, M. A. Stern, Ludwig Schlesinger, Alexander Ostrowski and Paul Stäckel. Their historical authorship, and the quoted writings of Gauss and others, are retained. Text, mathematics and diagrams are AI-transcribed and AI-typeset as editable LaTeX.

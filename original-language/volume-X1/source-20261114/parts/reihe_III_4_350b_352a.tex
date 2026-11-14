@@ -1,0 +1,104 @@
+\begingroup
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\ArithmeticHead{343}{R}{{\scriptsize ZUR THEORIE DER REIHE $F(\alpha,\beta,\gamma,x)$.\quad III.}}
+\NumberedItem{4}
+Eine der merkwürdigsten Relationen finden wir auf folgende Art: Man setze
+\[P=P'(1-x)^\mu,\]
+\noindent so wird die Differentialgleichung
+\[
+\begin{aligned}
+&\left(\alpha\beta+\frac{\mu(\gamma-(\alpha+\beta+\mu)x)}{1-x}\right)P'\\
+&\quad -(\gamma-(\alpha+\beta+2\mu+1)x)\frac{dP'}{dx}-(x-xx)\frac{d^2P'}{dx^2}=0.
+\end{aligned}
+\]
+\noindent Man setze $\mu=\gamma-\alpha-\beta$, so wird diese Gleichung
+\[
+\begin{aligned}
+&(\gamma-\alpha)(\gamma-\beta)P'-(\gamma-(2\gamma-\alpha-\beta+1)x)\frac{dP'}{dx}\\
+&\quad -(x-xx)\frac{d^2P'}{dx^2}=0,
+\end{aligned}
+\]
+\noindent woraus leicht folgt
+\[P'=F(\gamma-\alpha,\gamma-\beta,\gamma),\]
+\noindent also
+\begin{equation}
+F(\alpha,\beta,\gamma)=(1-x)^{-\alpha-\beta+\gamma}F(\gamma-\alpha,\gamma-\beta,\gamma).
+\tag*{(32)}
+\end{equation}
+\clearpage\SourceLeaf{351}\ArithmeticHead{344}{L}{ANALYSIS.\quad NACHLASS.}
+Zur Verwandlung unserer Functionen oder ihrer Verhältnisse in continuirliche Brüche sind folgende Relationen brauchbar:
+\begin{equation}
+\begin{aligned}
+&F(\alpha,\beta,\gamma+1)-F(\alpha,\beta,\gamma)\\
+&\quad=-\frac{\alpha\beta x}{\gamma{.}\gamma+1}F(\alpha+1,\beta+1,\gamma+2),
+\end{aligned}\tag*{(33)}
+\end{equation}
+\begin{equation}
+F(\alpha,\beta+1,\gamma)-F(\alpha,\beta,\gamma)=\frac{\alpha x}{\gamma}F(\alpha+1,\beta+1,\gamma+1),
+\tag*{(34)}
+\end{equation}
+\begin{equation}
+F(\alpha+1,\beta,\gamma)-F(\alpha,\beta,\gamma)=\frac{\beta x}{\gamma}F(\alpha+1,\beta+1,\gamma+1),\text{[*)]}
+\tag*{(35)}
+\end{equation}
+\noindent {\small [S. 41]}
+\begin{equation}
+\begin{aligned}
+&F(\alpha,\beta+1,\gamma+1)-F(\alpha,\beta,\gamma)\\
+&\quad=\frac{\alpha(\gamma-\beta)x}{\gamma{.}\gamma+1}F(\alpha+1,\beta+1,\gamma+2),
+\end{aligned}\tag*{(36)}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+&F(\alpha+1,\beta,\gamma+1)-F(\alpha,\beta,\gamma)\\
+&\quad=\frac{\beta(\gamma-\alpha)x}{\gamma{.}\gamma+1}F(\alpha+1,\beta+1,\gamma+2),
+\end{aligned}\tag*{(37)}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+&F(\alpha-1,\beta+1,\gamma)-F(\alpha+1,\beta-1,\gamma)\\
+&\quad=\frac{(\alpha-\beta)x}{\gamma}F(\alpha+1,\beta+1,\gamma+1).
+\end{aligned}\tag*{(38)}
+\end{equation}
+
+Aus der Verbindung von (36) und (37) folgt
+\begin{equation}
+\frac{F(\alpha,\beta+1,\gamma+1)}{F(\alpha,\beta,\gamma)}
+=\cfrac[l]{1}{1-\cfrac[l]{\dfrac{\alpha(\gamma-\beta)x}{\gamma{.}\gamma+1}}
+ {1-\cfrac[l]{\dfrac{(\beta+1)(\gamma+1-\alpha)x}{\gamma+1{.}\gamma+2}}
+ {1-\cfrac[l]{\dfrac{(\alpha+1)(\gamma+1-\beta)x}{\gamma+2{.}\gamma+3}}
+ {1-\cfrac[l]{\dfrac{(\beta+2)(\gamma+2-\alpha)x}{\gamma+3{.}\gamma+4}}
+ {1-\mathrm{etc.}}}}}}
+\tag*{(39)}
+\end{equation}
+\begin{equation}
+\frac{F(\alpha+1,\beta,\gamma)}{F(\alpha,\beta,\gamma)}
+=\cfrac[l]{1}{1-\cfrac[l]{\dfrac{\beta x}{\gamma}}
+ {1-\cfrac[l]{\dfrac{(\alpha+1)(\gamma-\beta)x}{\gamma{.}\gamma+1}}
+ {1-\cfrac[l]{\dfrac{(\beta+1)(\gamma-\alpha)x}{\gamma+1{.}\gamma+2}}
+ {1-\underset{\mathrm{etc.}}{\dfrac{(\alpha+2)(\gamma+1-\beta)x}{\gamma+2{.}\gamma+3}}}}}}
+\tag*{(40)}
+\end{equation}
+\noindent Also für $\alpha=0$
+\par\medskip\hrule\smallskip
+{\small\noindent [*) Zwischen die Gleichungen (35) und (36) hat \textsc{Gauss} später die Gleichung hingeschrieben:]
+\[
+\begin{aligned}
+&F(\alpha-1,\beta+1,\gamma)-F(\alpha,\beta,\gamma)\\
+&\quad=\frac{(\alpha-\beta-1)x}{\gamma}F(\alpha,\beta+1,\gamma+1).
+\end{aligned}
+\]
+}
+\clearpage\SourceLeaf{352}\ArithmeticHead{345}{R}{{\scriptsize ZUR THEORIE DER REIHE $F(\alpha,\beta,\gamma,x)$.\quad III.}}
+\begin{equation}
+\begin{aligned}
+&1+\frac{\beta}{\gamma}x+\frac{\beta{.}\beta+1}{\gamma{.}\gamma+1}xx
+ +\frac{\beta{.}\beta+1{.}\beta+2}{\gamma{.}\gamma+1{.}\gamma+2}x^3+\mathrm{etc.}\\[1.2ex]
+&\quad=\cfrac[l]{1}{1-\cfrac[l]{\dfrac{\beta}{\gamma}x}
+ {1-\cfrac[l]{\dfrac{2(\gamma-\beta)}{\gamma{.}\gamma+1}x}
+ {1-\cfrac[l]{\dfrac{(\beta+1)\gamma}{\gamma+1{.}\gamma+2}x}
+ {1-\dfrac{3(\gamma+1-\beta)}{\gamma+2{.}\gamma+3}x\ \mathrm{etc.}}}}}
+\end{aligned}\tag*{(41)}
+\end{equation}
+\clearpage
+\endgroup

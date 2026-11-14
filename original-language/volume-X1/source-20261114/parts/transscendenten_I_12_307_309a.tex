@@ -1,0 +1,124 @@
+\begingroup
+\newcommand{\TransBracket}[1]{\boldsymbol{[}#1\boldsymbol{]}}
+\ArithmeticHead{300}{L}{ANALYSIS. NACHLASS.}
+\SourceLeaf{307}
+\NumberedItem{12}
+\noindent[S. 47]\par
+\par\indent Zum Beweise der ersten Sätze hingegen wird man sich auf folgende Art verhalten.
+\[\begin{aligned}
+&(1-xy)(1+xxy)\left(1+\frac{x^8}{y}\right)\left(1-\frac{x^9}{y}\right)\\
+&\qquad(1-x^{11}y)(1+x^{12}y)\ \text{etc.}
+\end{aligned}\]
+\noindent wird entwickelt in
+\[\begin{aligned}
+&P\left\{\begin{aligned}
+&1-x^3yy+x^{26}y^4-x^{69}y^6+{.}{.}{.}\\
+&\phantom{1}{-}\frac{x^{17}}{yy}+\frac{x^{54}}{y^4}-\frac{x^{111}}{y^6}+{.}{.}{.}
+\end{aligned}\right\}\\[1ex]
+&{}+Q\left\{\begin{aligned}
+&\phantom{{}-{}}y-x^{13}y^3+x^{46}y^5-{.}{.}{.}\\
+&-\frac{x^7}{y}+\frac{x^{34}}{y^3}-\frac{x^{81}}{y^5}+{.}{.}{.}
+\end{aligned}\right\}
+\end{aligned}\]
+\noindent wo $P$ und $Q$ bloss Functionen von $x$ sind. Um diese zu bestimmen, setzen wir erst $y=x^{\frac72}$, wodurch
+\[\begin{aligned}
+&(1-x^9)(1-x^{11})(1-x^{29})(1-x^{31}){.}{.}{.}\\
+&\qquad=P(1-2x^{10}+2x^{40}-{.}{.}{.})
+=P\frac{\TransBracket{x^{10}}^2}{\TransBracket{x^{20}}}.
+\end{aligned}\]
+\noindent Zweitens setzen wir
+\[
+y=\frac1x,
+\]
+\noindent so wird
+\[\begin{aligned}
+&P\{1-x-x^{19}+x^{22}+x^{58}{.}{.}{.}\}\\
+&\qquad+\frac Qx\{1-x^9-x^{11}+x^{38}+x^{42}-x^{87}{.}{.}{.}\}=0,\ \text{[*)]}
+\end{aligned}\]
+\noindent also
+\[\begin{aligned}
+Q&=-xP\frac{(1-x)(1-x^{19})(1-x^{21}){.}{.}{.}}{(1-x^9)(1-x^{11})(1-x^{29}){.}{.}{.}}\\
+&=-x\left[\frac{\TransBracket{x^{20}}}{\TransBracket{x^{10}}^2}\right](1-x)(1-x^{19})(1-x^{21}){.}{.}{.}
+\end{aligned}\]
+\noindent Setzen wir also
+\[\begin{aligned}
+(1-x)(1+xx)(1+x^8)(1-x^9){.}{.}{.}&=t\\
+(1-x^3)(1+x^4)(1+x^6)(1-x^7){.}{.}{.}&=u,
+\end{aligned}\]
+\noindent so hat man (aus $y=1$ und $y=xx$)
+\Needspace{3\baselineskip}
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small\par\indent [*) In der Handschrift steht $x^{67}$ statt $x^{87}$.]\par}
+\clearpage
+\ArithmeticHead{301}{R}{{\scriptsize ZUR THEORIE DER TRANSSCENDENTEN FUNCTIONEN. I.}}
+\SourceLeaf{308}
+\[\begin{aligned}
+t&=P(1-x^3-x^{17}+x^{26}+x^{54}-{.}{.}{.})\\
+&\qquad+Q(1-x^7-x^{13}+{.}{.}{.})\\[.8ex]
+u&=P(1-x^7-x^{13}+x^{34}+x^{46}-{.}{.}{.})\\
+&\qquad+Qxx(1-x^3-x^{17}+x^{26}+x^{54}{.}{.}{.}).
+\end{aligned}\]
+\ClosingRule
+\par\indent Man findet aber auch durch ein ganz ähnliches Verfahren
+\[\begin{aligned}
+&(1-x^3y)(1+x^4y)\left(1+\frac{x^6}{y}\right)\left(1-\frac{x^7}{y}\right){.}{.}{.}\\
+&=P\left(1-x^7yy-\frac{x^{13}}{yy}\quad\begin{aligned}
+&+x^{34}y^4{.}{.}{.}\\
+&+\frac{x^{46}}{y^4}{.}{.}{.}
+\end{aligned}\right)\\[1ex]
+&\qquad+Qxx\left(\begin{aligned}
+&\phantom{{}-{}}y-x^{17}y^3+{.}{.}{.}\\
+&-\frac{x^3}{y}+\frac{x^{26}}{y^3}-{.}{.}{.}
+\end{aligned}\right).
+\end{aligned}\]
+\ClosingRule
+\par\indent Hieraus folgt
+\[\begin{aligned}
+tx+u&=(P+Qx)\{1+x-x^4-x^7-x^{13}-x^{18}+x^{27}+x^{34}{.}{.}{.}\}\\
+-tx+u&=(P-Qx)\{1-x+x^4-x^7-x^{13}+x^{18}-x^{27}+x^{34}{.}{.}{.}\}
+\end{aligned}\]
+\noindent oder
+\[\begin{aligned}
+tx+u&=(P+Qx)\TransBracket{-x^5}(1+x)(1-x^4)(1-x^6)(1+x^9){.}{.}{.}\\
+u-tx&=(P-Qx)\TransBracket{-x^5}(1-x)(1+x^4)(1+x^6)(1-x^9){.}{.}{.}
+\end{aligned}\]
+\noindent Nun ist ferner
+\[\begin{aligned}
+&(P+Qx)(1-x-x^{19}+x^{22}+{.}{.}{.})\\
+&\qquad=-\frac Qx(1-xx+x^3-x^9-x^{11}+x^{21}+x^{24}{.}{.}{.})\\
+&\qquad=-\frac Qx\TransBracket{-x^5}(1-xx)(1+x^3)(1+x^7)(1-x^8){.}{.}{.}
+\end{aligned}\]
+\[\begin{aligned}
+&(P-Qx)(1-x-x^{19}+x^{22}+{.}{.}{.})\\
+&\qquad=-\frac Qx(1+xx-x^3-x^9-x^{11}-x^{21}+x^{24}\quad{.}{.})\\
+&\qquad=-\frac Qx\TransBracket{-x^5}(1+xx)(1-x^3)(1-x^7)(1+x^8){.}{.}{.},
+\end{aligned}\]
+\noindent also
+\[\begin{aligned}
+P+Qx&=\frac{\TransBracket{-x^5}}{\TransBracket{x^{10}}^2}(1-xx)(1+x^3)(1+x^7)(1-x^8){.}{.}{.}\\
+P-Qx&=\frac{\TransBracket{-x^5}}{\TransBracket{x^{10}}^2}(1+xx)(1-x^3)(1-x^7)(1+x^8){.}{.}{.}
+\end{aligned}\]
+\[\begin{aligned}
+tx+u&=(1+x^5)^2(1+x^{15})^2{.}{.}{.}\\
+&\qquad.(1+x)(1-xx)(1+x^3)(1-x^4)\\
+&\qquad\phantom{.}(1-x^6)(1+x^7)(1-x^8)(1+x^9){.}{.}{.}
+\end{aligned}\]
+\clearpage
+\ArithmeticHead{302}{L}{ANALYSIS. NACHLASS.}
+\SourceLeaf{309}
+\[\begin{aligned}
+u-tx&=(1+x^5)^2(1+x^{15})^2{.}{.}{.}\\
+&\qquad.(1-x)(1+xx)(1-x^3)(1+x^4)\\
+&\qquad\phantom{.}(1+x^6)(1-x^7)(1+x^8)(1-x^9){.}{.}{.}
+\end{aligned}\]
+\noindent[S. 48]\par
+\par\indent Hieraus folgt
+\[\begin{aligned}
+tx+u&=\frac{\TransBracket{xx}^3}{\TransBracket{x}\TransBracket{x^4}}\cdot\frac{\TransBracket{x^{10}}}{\TransBracket{x^5}\TransBracket{x^{20}}}\\
+&=\frac{\TransBracket{x}\TransBracket{x^4}}{\TransBracket{xx}^2}\frac{\TransBracket{x^{10}}}{\TransBracket{x^5}\TransBracket{x^{20}}}(1+2x+2x^4+2x^9{.}{.}{.})\\[1ex]
+u-tx&=\frac{\TransBracket{x}\TransBracket{x^4}}{\TransBracket{xx}^2}\cdot\frac{\TransBracket{x^{10}}^6}{\TransBracket{x^5}^3\TransBracket{x^{20}}^3}\\
+&=\frac{\TransBracket{x}\TransBracket{x^4}}{\TransBracket{xx}^2}\frac{\TransBracket{x^{10}}}{\TransBracket{x^5}\TransBracket{x^{20}}}(1+2x^5+2x^{20}+2x^{45}{.}{.}{.}).
+\end{aligned}\]
+\noindent Woraus das Theorem [die beiden ersten Gleichungen von art. 10., S. 297, 298] von selbst folgt.
+\clearpage
+\endgroup

@@ -1,0 +1,203 @@
+\clearpage\begingroup
+\emergencystretch=4em\relax\NoSourceHead\SourceLeaf{523}
+\renewcommand{\thefootnote}{\arabic{footnote})}\setcounter{footnote}{20}
+\newcommand{\BolzaEqualAboveLess}{\mathrel{\vcenter{\offinterlineskip\hbox{$\scriptstyle=$}\kern-.15ex\hbox{$<$}}}}
+\ArithmeticHead{66}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\begin{center}\textls[100]{3) Der \textsc{Darboux-Kneser}sche Hinlänglichkeitsbeweis.}\end{center}
+\noindent\hspace*{\parindent}14. Einen weiteren wichtigen Anstoss hat die Variationsrechnung von
+der \textsc{Gauss}schen Normalform für das Linienelement (Art. 19, 22) bei Zugrundelegung
+von geodätischen Polar- oder Parallelkoordinaten erhalten. Auf diese
+Normalform hat nämlich \textsc{Darboux}\footnote{G. \textsc{Darboux}, \textit{Leçons sur la théorie générale des surfaces}, Bd. 2, (Paris 1889), Nr. 521. Der Grundgedanke
+der Methode findet sich übrigens schon bei F. \textsc{Minding} (1864) in der in Fussnote 13a) zitierten
+Arbeit; vgl. darüber Fussnote 23b).} einen einfachen Hinlänglichkeitsbeweis
+für die geodätische Linie als kürzeste Linie zwischen zwei Punkten auf einer
+Fläche gegründet: Ist $AB$ ein Bogen einer geodätischen Linie von der Länge
+$r_1$, so mache man den Punkt $A$ zum Anfangspunkt eines Systems geodätischer
+Polarkoordinaten $r,\varphi$. Zieht man dann auf der Fläche von $A$ nach $B$ irgend
+eine zweite Kurve, so ist deren Länge nach \textsc{Gauss} gegeben durch das Integral
+\[
+\int_0^{r_1}\sqrt{dr^2+m^2d\varphi^2}
+\]
+und dieses Integral ist sicher grösser als die Länge
+\[
+r_1=\int_0^{r_1}dr
+\]
+des geodätischen Bogens $AB$. Der Beweis setzt voraus, dass die zu vergleichenden
+Kurven im Innern eines Bereichs liegen, in dem keine zwei der
+von $A$ ausgehenden geodätischen Linien sich zum zweiten Mal schneiden,
+eine Voraussetzung, die mit der \textsc{Jacobi}schen Bedingung äquivalent ist. Denselben
+Schluss hat \textsc{Darboux}\footnote{G. \textsc{Darboux}, loc. cit. 21), Nr. 545.} auch noch auf das Aktionsintegral
+\[
+\int\sqrt{2(U+h)}\,ds
+\]
+für die ebene Bewegung eines materiellen Punktes angewandt.
+\par\noindent\hspace*{\parindent}15. Diesen \textsc{Darboux}schen Gedanken hat dann später \textsc{Kneser}\footnote{\textsc{Kneser}, \textit{Lehrbuch}, § 16.} zu einem
+Hinlänglichkeitsbeweis für das Extremum des allgemeinen Integrals
+\begin{equation*}\tag{8}
+J=\int F(x,y,x',y')\,dt
+\end{equation*}
+weiter entwickelt und zwar nicht nur für den Fall fester Endpunkte, sondern
+\clearpage\SourceLeaf{524}
+\ArithmeticHead{67}{R}{DER HINLÄNGLICHKEITSBEWEIS.}
+\noindent auch für den Fall, wo einer der beiden Endpunkte fest, der andere auf einer
+gegebenen Kurve beweglich ist. \textsc{Kneser} führt dazu in das Integral $J$ statt
+der rechtwinkligen Koordinaten $x,y$ krummlinige Koordinaten $u,v$ ein durch
+eine Transformation
+\begin{equation*}\tag{12}
+x=X(u,v),\quad y=Y(u,v),
+\end{equation*}
+bei der die Kurven $v=\text{const.}$ eine ein Feld bildende Extremalenschar des
+Integrals $J$ sind, die Kurven $u=\text{const.}$ dagegen die Transversalen dieser
+Schar. Dadurch geht das Integral $J$ in ein neues Integral
+\[
+J'=\int G(u,v,u',v')\,dt
+\]
+von demselben Typus über, wobei wegen des speziellen Charakters der Transformation
+(12) die Funktion $G$ — entsprechend den Relationen $E=1$, $F=0$
+im Fall der geodätischen Linien — den folgenden Relationen genügt
+\begin{equation*}\tag{38}
+G(u,v,u',0)=u',\quad G_{v'}(u,v,u',0)=0.
+\end{equation*}
+
+Betrachtet man jetzt in der $x,y$-Ebene einen Extremalenbogen $AB$, definiert
+durch $u_0\BolzaEqualAboveLess u\BolzaEqualAboveLess u_1$, $v=v_0$, und eine beliebige zweite Kurve $CB$, die
+von irgend einem Punkte $C$ der durch den Punkt $A$ gehenden Transversale
+$u=u_0$ nach demselben Endpunkt $B$ führt und ganz im Felde verläuft, und
+sind $A'B'$, bezw. $C'B'$ die Bilder der beiden Kurven in der $u,v$-Ebene, so
+ist der Zuwachs $\Delta J$, den das Integral $J$ beim Übergang von $AB$ zu $CB$ erfährt,
+gleich dem Zuwachs $\Delta J'$, den das Integral $J'$ beim Übergang von $A'B'$
+zu $C'B'$ erfährt. Nun ist aber
+\[
+\Delta J'=\int_{t_0}^{t_1}G(u,v,u',v')\,dt-(u_1-u_0),
+\]
+das Integral genommen entlang der Kurve $C'B'$, und da wegen der Lage der
+Endpunkte des Bogens $CB$: $u(t_0)=u_0$, $u(t_1)=u_1$ ist, kann man schreiben
+\[
+u_1-u_0=\int_{t_0}^{t_1}u'\,dt
+\]
+und so die totale Variation $\Delta J'$ in ein über die Kurve $C'B'$ genommenes
+Integral verwandeln
+\begin{equation*}\tag{39}
+\Delta J'=\int_{t_0}^{t_1}[G(u,v,u',v')-u']\,dt.
+\end{equation*}
+\par\smallskip\noindent\hfill$9^*$\par
+\clearpage\SourceLeaf{525}
+\ArithmeticHead{68}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent\hspace*{\parindent}Aus den Eigenschaften (38) der Funktion $G$ lassen sich nun aber Schlüsse
+auf das Vorzeichen des Integranden ziehen, die zu hinreichenden Bedingungen
+für ein Extremum des Integrals $J'$ und damit zugleich des Integrals $J$ führen.
+Übrigens folgt aus den Relationen (38) zugleich, dass die Gleichung (39) nichts
+anderes ist als der \textsc{Weierstrass}sche Ausdruck der vollständigen Variation durch
+die $E$-Funktion, angewandt auf das Integral $J'$.
+
+Neuerdings hat \textsc{Kneser} seine hier kurz skizzierte Verallgemeinerung der
+\textsc{Gauss}schen Theorie der geodätischen Linien auf das sogenannte \textsc{Mayer}sche
+Problem ausgedehnt\begingroup\renewcommand{\thefootnote}{23a)}\footnote{\textit{Die Gausssche Theorie der geodätischen Linie übertragen auf das Mayersche Problem der
+Variationsrechnung}, Journal für r. u. a. Math., Bd. 146 (1915), S. 116.}\endgroup. Da in dieser Arbeit eine unmittelbare und starke
+Einwirkung von \textsc{Gauss} vorliegt, so mag hier noch kurz darüber berichtet
+werden, jedoch unter Beschränkung auf den einfachsten Fall des \textsc{Mayer}schen
+Problems mit zwei unbekannten Funktionen $y,z$ von $x$, zwischen denen eine
+Differentialgleichung besteht. Die Anfangswerte $x_0,y_0,z_0$ sind gegeben, ebenso
+die Endwerte $x_1,y_1$; der Endwert $z_1$ soll zu einem Extremum gemacht werden.
+
+Indem $x,y,z$ als Funktionen eines Parameters $t$ gedacht werden, wird
+die gegebene Differentialgleichung in der Form angenommen
+\[
+z'=F(x,y,z,x',y'),
+\]
+wobei $F$ homogen von der ersten Dimension in $x',y'$ ist.
+
+\textsc{Kneser} betrachtet nun eine einparametrige Extremalenschar
+\begin{equation*}\tag{$12'$}
+x=X(t,a),\quad y=Y(t,a),\quad z=Z(t,a),
+\end{equation*}
+und bildet, der \textsc{Gauss}schen Funktion $S$ entsprechend, den Ausdruck
+\begin{equation*}\tag{$14'$}
+S(t,a)=\Omega_{x'}X_a+\Omega_{y'}Y_a+\Omega_{z'}Z_a,
+\end{equation*}
+wobei
+\[
+\Omega=\lambda\bigl(z'-F(x,y,z,x',y')\bigr)
+\]
+und die Argumente der Ableitungen von $\Omega$ sich auf die Extremalenschar $(12')$
+beziehen. Er beweist dann, der Gleichung (15) entsprechend, die Gleichung
+\begin{equation*}\tag{$15'$}
+\frac{\partial S}{\partial t}=0
+\end{equation*}
+und daraus den Satz: Wenn die Extremalenschar $(12')$ von einer Kurve
+\clearpage\SourceLeaf{526}
+\ArithmeticHead{69}{R}{DER HINLÄNGLICHKEITSBEWEIS.}
+\noindent transversal geschnitten wird, so wird sie von jeder sie überhaupt schneidenden
+Kurve transversal geschnitten. Dabei ist »transversal« so zu verstehen, dass
+eine Kurve
+\[
+x=X(\tau(a),a)\equiv\tilde x(a),\quad y=Y(\tau(a),a)\equiv\tilde y(a),\quad Z(\tau(a),a)\equiv\tilde z(a)
+\]
+die Extremalenschar $(12')$ transversal schneidet, wenn
+\[
+\left.\Omega_{x'}\tilde x_a+\Omega_{y'}\tilde y_a+\Omega_{z'}\tilde z_a\right|^{t=\tau(a)}=0.
+\]
+
+Den \textsc{Gauss}schen geodätischen Parallelkoordinaten entsprechend führt nun
+\textsc{Kneser} auf folgende Weise in der $x,y$-Ebene krummlinige Koordinaten $u,v$
+ein: Er nimmt in der $x,y$-Ebene eine beliebige Kurve $\mathfrak K$ an und errichtet in
+ihren Punkten Senkrechte $z=z_0$, deren Endpunkte eine Raumkurve $\mathfrak K'$ bilden.
+Dann kann man stets eine einparametrige Extremalenschar $(12')$ bestimmen,
+die von dieser Raumkurve transversal geschnitten wird. Alsdann schneiden
+nach dem obigen Satz die sämtlichen Schnittkurven der Ebenenschar $z=\text{const.}$
+mit der Extremalenschar die letztere ebenfalls transversal. Die Projektionen
+einerseits der Extremalen, andererseits dieser Schnittkurven auf die $x,y$-Ebene
+liefern dann das die krummlinigen Koordinaten $u,v$ bestimmende Kurvensystem
+$u=\text{const.}$, $v=\text{const.}$ in der $x,y$-Ebene.
+
+Nach Einführung von $u,v$ an Stelle von $x,y$ nimmt die Differentialgleichung
+für $z$ die Form an:
+\[
+z'=G(u,v,z,u'\mathpunct{.}v'),
+\]
+wobei $G$ wieder homogen von der ersten Dimension in $u',v'$ ist und, den
+Gleichungen (38) entsprechend, die beiden charakteristischen Eigenschaften
+besitzt
+\begin{equation*}\tag{$38'$}
+G(u,v,u,1,0)=1,\quad G_{v'}(u,v,u,1,0)=0,
+\end{equation*}
+aus denen dann \textsc{Kneser} für die vollständige Variation des Endwertes $z_1$, der
+Gleichung (39) entsprechend, einen Ausdruck herleitet, aus dem auf das Vorzeichen
+dieser vollständigen Variation geschlossen werden kann, und zwar
+nicht nur für den Fall gegebener Anfangswerte $x_0,y_0,z_0$, sondern auch für
+den Fall, wo der Punkt $x_0,y_0$ sich frei auf der Kurve $\mathfrak K$ bewegen kann.
+\clearpage\SourceLeaf{527}
+\ArithmeticHead{70}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent\hspace*{\parindent}In einer andern Richtung hat F. \textsc{Minding}\begingroup\renewcommand{\thefootnote}{23b)}\footnote{loc. cit. 13a); die auf das Minimum des Integrals $(19')$ bezügliche Stelle findet sich auf S. 131
+und lautet mit einigen Auslassungen: »Verum fundamentum huius doctrinae manifesto positum est in
+discretione aggregati $\Omega\,dt^2$ in plura quadrata, quarum unum radicem habet per se integrabilem. Quae
+discretio non solum aequationes differentiales minimi, quae nostris in signis erunt $L_1=0$, $L_2=0$, $\ldots$,
+$L_{p-1}=0$, ipsumque minimum $\int dV$, verum etiam terminos, ultra quos integrationem extendere, nisi cessante
+minimo, non licet, non indicare nequit«.
+\par In demselben Zusammenhang ist auch zu erwähnen R. \textsc{Lipschitz}, \textit{Untersuchung eines Problems der
+Variationsrechnung, in welchem das Problem der Mechanik enthalten ist}, Journal für die r. u. a. Mathematik,
+Bd. 74 (1872), S. 116—149, besonders S. 119 und 129.}\endgroup\ die \textsc{Gauss}sche Normalform
+für das Quadrat des Linienelementes verallgemeinert, indem er die Aufgabe
+löst, eine positive quadratische Differentialform von $n$ Variabeln $p_1,p_2,\ldots,p_n$
+in eine Summe von $n$ Quadraten von linearen Differentialformen zu verwandeln,
+von denen eine ein vollständiges Differential ist:
+\[
+\Omega\,dt^2\equiv\sum_{i,k}E_{ik}\,dp_i\,dp_k=(dV)^2+(L_1^2+L_2^2+\cdots+L_{n-1}^2)\,dt^2,
+\]
+wobei
+\[
+L_i=C_{ii}\,dp_i+C_{i,i+1}\,dp_{i+1}+\cdots+C_{in}\,dp_n,
+\]
+während die Grössen $E_{ik}$ gegebene, die Grössen $V,C_{ik}$ gesuchte Funktionen
+von $p_1,p_2,\ldots,p_n$ sind.
+
+Von seinen Resultaten macht er dann eine Anwendung auf das Variationsproblem,
+das Integral
+\begin{equation*}\tag{$19'$}
+\int\sqrt{\Omega}\,dt
+\end{equation*}
+zu einem Minimum zu machen. Er beschränkt sich zwar dabei auf eine
+kurze Andeutung; aus derselben geht jedoch hervor, dass ihm bereits im
+Jahre 1864 der Grundgedanke des späteren \textsc{Darboux-Kneser}schen Hinlänglichkeitsbeweises
+geläufig war.
+\par\clearpage\endgroup

@@ -1,0 +1,267 @@
+\begingroup
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\newcommand{\AgmNotEqual}{\mathrel{\ooalign{\hfil$=$\hfil\cr\hfil$|$\hfil\cr}}}
+\ArithmeticHead{251}{R}{GAUSS AN BESSEL.}
+\SourceLeaf{258b}
+\pdfbookmark[1]{Bemerkungen: Abriß der Theorie des arithmetisch-geometrischen Mittels}{x1-agm-abriss}
+\HistoricTitle{BEMERKUNGEN.}
+\par\indent Die im Vorstehenden (beginnend auf S. 172) zum ersten Male im Zusammenhange abgedruckten Aufzeichnungen geben im Verein mit den bereits in den Bänden III und VIII der Werke aus dem Nachlaß veröffentlichten Stücken und mit den artt. 16.—19. der von \textsc{Gauss} selbst veröffentlichten \textit{Determinatio attractionis} (1818, Werke III, S. 352) so ziemlich alles, was von \textsc{Gauss}’ Arbeiten zur Lehre von dem \textls[120]{arithmetisch-geometrischen Mittel}\textsuperscript{***)} auf uns gekommen ist. Zum Teil sind die vorstehenden Aufzeichnungen so lückenhaft, daß sie ausführliche Erläuterungen erfordern. Wir werden uns dabei einer festen und einheitlichen Bezeichnung bedienen, die wir im engen Anschluß an \textsc{Gauss} wählen und hier mit einem Abriß der Lehre von dem agM. vorab zusammen stellen wollen. Die Anordnung dieses Abrisses soll zugleich den Gang der Entwicklung von \textsc{Gauss}’ Untersuchungen auf dem Gebiete veranschaulichen. Es folgen dann die eigentlichen Erläuterungen nach Abschnitten geordnet.
+\begin{center}\textls[120]{Abriß der Theorie des arithmetisch-geometrischen Mittels.}\end{center}
+\begin{center}1.\end{center}
+\par\indent Es seien $a,b$ zwei beliebige Zahlen, $a\AgmNotEqual0$, $b\AgmNotEqual0$, $a^2\AgmNotEqual b^2$. Wir bilden den Algorithmus\textsuperscript{$\dagger$)}
+\begin{equation*}\tag*{(1)}
+\left\{\begin{array}{r@{}l@{\quad}r@{}l}
+a_1&=\dfrac{a+b}{2},& b_1&=\sqrt{ab},\\[5pt]
+a_2&=\dfrac{a_1+b_1}{2},& b_2&=\sqrt{a_1b_1},\\[4pt]
+\multicolumn{4}{c}{.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.}\\[4pt]
+a_{n+1}&=\dfrac{a_n+b_n}{2},& b_{n+1}&=\sqrt{a_nb_n},\\[4pt]
+\multicolumn{4}{c}{.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.}
+\end{array}\right.
+\end{equation*}
+\vfill
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small
+\par\indent ***) Wir schreiben im folgenden allemal kurz agM.
+\par\indent $\dagger$) Er findet sich schon bei \textsc{Lagrange}, \textit{Sur une nouvelle Méthode de calcul intégral}, Mémoires de l’Acad. de Turin, \textbf{2}, 1784—85, Oeuvres II, S. 251, siehe besonders S. 272 ff., 304 ff.
+\par}
+\begin{flushright}32\textsuperscript{*}\end{flushright}
+\clearpage
+\ArithmeticHead{252}{L}{ANALYSIS. NACHLASS.}
+\SourceLeaf{259}
+\noindent Dann existiert\textsuperscript{*)}
+\begin{equation*}\tag*{(2)}
+\lim_{n\to\infty}a_n=\lim_{n\to\infty}b_n=M(a,b)=M(a_n,b_n)
+\end{equation*}
+\noindent und wird das agM. zwischen $a$ und $b$ genannt. Es ist für ein beliebiges $\rho$
+\begin{equation*}\tag*{(3)}M(\rho a,\rho b)=\rho M(a,b).\end{equation*}
+\par\indent Setzt man
+\begin{equation*}\tag*{(4)}c^2=\sqrt{a^2-b^2}\end{equation*}
+\noindent und bildet den Algorithmus
+\begin{equation*}\tag*{(5)}
+\left\{\begin{array}{r@{}l@{\quad}r@{}l}
+\bar a_1&=\dfrac{a+c}{2},& \bar c_1&=\sqrt{ac},\\[4pt]
+\multicolumn{4}{c}{.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.}\\[4pt]
+\bar a_{n+1}&=\dfrac{\bar a_n+\bar c_n}{2},&\bar c_{n+1}&=\sqrt{\bar a_n\bar c_n},\\[4pt]
+\multicolumn{4}{c}{.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.}
+\end{array}\right.
+\end{equation*}
+\noindent der zu dem Grenzwerte
+\begin{equation*}\tag*{(6)}\lim_{n\to\infty}\bar a_n=\lim_{n\to\infty}\bar c_n=M(a,c)\end{equation*}
+\noindent führt, so kann zwischen den beiden Algorithmen (1) und (5) durch \textls[120]{Rückwärtsverlängerung} ein Zusammenhang hergestellt werden. Man bildet zu dem Ende:
+\begin{equation*}\tag*{(4a)}c_n=\sqrt{a_n^2-b_n^2}\qquad(n=1,2,3,\ldots).\end{equation*}
+\noindent Dann ist
+\begin{equation*}\tag*{(7)}
+\left\{\begin{array}{r@{}l@{\quad}r@{}l}
+a&=a_1+c_1,&b&=a_1-c_1,\\[3pt]
+\multicolumn{4}{c}{.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.}\\[3pt]
+a_{n-1}&=a_n+c_n,&b_{n-1}&=a_n-c_n.
+\end{array}\right.
+\end{equation*}
+\noindent Man bildet nun analog
+\begin{equation*}\tag*{$(1')$}
+\left\{\begin{aligned}
+&a_{-1}=a+c,\qquad b_{-1}=a-c,\\
+&c_{-1}=\sqrt{a_{-1}^2-b_{-1}^2},\\[3pt]
+&.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\\[3pt]
+&a_{-n-1}=a_{-n}+c_{-n},\qquad b_{-n-1}=a_{-n}-c_{-n},\\
+&c_{-n-1}=\sqrt{a_{-n-1}^2-b_{-n-1}^2},
+\end{aligned}\right.
+\end{equation*}
+\noindent dann gelten in den beiden Folgen
+\[
+\begin{gathered}
+\ldots a_{-2},\ a_{-1},\ a,\ a_1,\ a_2,\ldots\\
+\ldots b_{-2},\ b_{-1},\ b,\ b_1,\ b_2,\ldots
+\end{gathered}
+\]
+\noindent die für positive Indizes aufgestellten Beziehungen auch für negative Indizes und es ist ferner
+\begin{equation*}\tag*{(8)}\frac{1}{2^n}a_{-n}=\bar a_n,\qquad\frac{1}{2^n}c_{-n}=\bar c_n.\end{equation*}
+\noindent Die Rückwärtsverlängerung des Algorithmus (5) ergibt sich, indem man setzt
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small\par\indent *) \textsc{Gauss} liefert den Existenzbeweis (Werke III, S. 361) nur für reale positive $a,b$ und unter der Annahme, daß in dem Algorithmus (1) alle Quadratwurzeln mit dem positiven Vorzeichen gewählt werden. Den direkten und vollständigen Existenzbeweis für den allgemeinsten Fall hat zuerst L. v. \textsc{Dávid} erbracht, \textsc{Crelles} Journal für Mathematik \textbf{135} (1907), S. 62.\par}
+\clearpage
+\fancyhead{}\fancyhead[R]{\small253}\fancyhead[C]{\scriptsize BEMERKUNGEN ZUM AGM. ABRISS DER THEORIE.}
+\SourceLeaf{260}
+\begin{equation*}\tag*{(8)}\bar b_n^2=\bar a_n^2-\bar c_n^2\qquad(n=1,2,3,\ldots)\end{equation*}
+\noindent und
+\begin{equation*}\tag*{$(5)'$}
+\left\{\begin{aligned}
+&\bar a_{-1}=a+b,\qquad\bar c_{-1}=a-b,\\
+&\bar b_{-1}=\sqrt{\bar a_{-1}^2-\bar c_{-1}^2},\\[3pt]
+&.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\\[3pt]
+&\bar a_{-n-1}=\bar a_{-n}+\bar b_{-n},\qquad\bar c_{-n-1}=\bar a_{-n}-\bar b_{-n},\\
+&\bar b_{-n-1}=\sqrt{\bar a_{-n-1}^2-\bar c_{-n-1}^2}\\[3pt]
+&.\,.\,.\,.\,.\,.\,.\,\raisebox{.4ex}{.}\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.
+\end{aligned}\right.
+\end{equation*}
+\noindent Es ist dann für $n=1,2,3,\ldots$
+\begin{equation*}\tag*{(8a)}2^na_n=\bar a_{-n},\qquad2^nb_n=\bar b_{-n},\qquad2^nc_n=\bar c_{-n}\end{equation*}
+\noindent und ferner
+\begin{equation*}\tag*{(9)}
+\left\{\begin{aligned}
+\lim_{n\to\infty}a_n&=\lim_{n\to\infty}b_n=\lim_{n\to\infty}\frac{\bar a_{-n}}{2^n}=\lim_{n\to\infty}\frac{\bar b_{-n}}{2^n}\\
+&=M(a,b)=M(a_n,b_n)=M(a_{-n},b_{-n})\\
+&=2^{-n}M(\bar a_{-n},\bar b_{-n})=2^nM(\bar a_n,\bar b_n),\\[6pt]
+\lim_{n\to\infty}\bar a_n&=\lim_{n\to\infty}\bar c_n=\lim_{n\to\infty}\frac{a_{-n}}{2^n}=\lim_{n\to\infty}\frac{b_{-n}}{2^n}\\
+&=M(a,c)=M(\bar a_n,\bar c_n)=M(\bar a_{-n},\bar c_{-n})\\
+&=2^nM(a_n,c_n)=2^{-n}M(a_{-n},c_{-n}).
+\end{aligned}\right.
+\end{equation*}
+\noindent Endlich bestehen die Gleichungen
+\begin{equation*}\tag*{(10)}
+\left\{\begin{aligned}
+\sqrt{a_n}+\sqrt{b_n}&=2\sqrt{a_{n+2}},\\
+\sqrt{a_n}-\sqrt{b_n}&=2\sqrt{c_{n+2}}.
+\end{aligned}\right.
+\end{equation*}
+\noindent wo $a_0=a$, $b_0=b$, $c_0=c$ zu nehmen ist.
+\begin{center}2.\end{center}
+\par\indent Aus den Definitionsgleichungen des Algorithmus folgen (siehe Werke III, S. 373, vergl. auch die Ausführungen von \textsc{Schering}, ebenda S. 380) die Gleichungen
+\begin{equation*}\tag*{(11)}
+\begin{aligned}
+\frac{1}{c^2}d\log\frac ab&=\frac1{2^n}\frac1{c_n^2}d\log\frac{a_n}{b_n}\\
+&=\frac1{2^n}\frac1{b_n^2}d\log\frac{c_n}{a_n}=\frac1{2^n}\frac1{a_n^2}d\log\frac{c_n}{b_n}.
+\end{aligned}
+\end{equation*}
+\noindent Lassen wir also $n$ als positive ganze Zahl ins Unendliche wachsen, so ist
+\[\frac1{c^2}d\log\frac ab=-\lim_{n\to\infty}\frac1{2^n}\frac1{b_n^2}d\log\frac{a_n}{c_n}\]
+\noindent oder, da nach (9)
+\begin{equation*}\tag*{(12)}\frac1{2^n}\log\frac{4a_n}{c_n}=\frac{M(a,b)}{M(a,c)}\, .\,\frac{M(a_n,c_n)}{M(a_n,b_n)}\log\frac{4a_n}{c_n}\end{equation*}
+\noindent ist,
+\begin{equation*}\tag*{(13)}\frac1{c^2}d\log\frac ab=-C\frac1{M(a,b)^2}d\frac{M(a,b)}{M(a,c)},\end{equation*}
+\noindent wo für einen Augenblick
+\begin{equation*}\tag*{(14)}C=\lim_{n\to\infty}\frac{M(a_n,c_n)}{M(a_n,b_n)}\log\frac{4a_n}{c_n}=\lim_{\varepsilon\to0}M(1,\varepsilon)\log\frac4\varepsilon\end{equation*}
+\noindent gesetzt wurde. Zur Bestimmung dieses Grenzwertes schlägt \textsc{Gauss} in der Aufzeichnung [IX.] art. [4.], S. 220 das folgende Verfahren ein.
+\clearpage
+\ArithmeticHead{254}{L}{ANALYSIS. NACHLASS.}
+\SourceLeaf{261}
+\par\indent Wir setzen
+\begin{equation*}\tag*{(15)}k=\sqrt{\frac{a^2-b^2}{a^2}}=\frac ca,\quad k'=\frac ba,\quad k^2+k'^2=1,\end{equation*}
+\begin{equation*}\tag*{(16)}
+\left\{\begin{aligned}
+A&=\frac a{M(a,c)}=\frac1{M(1,k)},\\[4pt]
+B&=\frac a{M(a,b)}=\frac1{M(1,k')}.
+\end{aligned}\right.
+\end{equation*}
+\noindent Dann lautet die Gleichung (13)
+\[-\frac1{c^2}d\log k'=-\frac C{a^2}(AdB-BdA)\]
+\noindent oder (vergl. Werke III, S. 222, Gl. [96] und oben [IX.] art. [4.], S. 220)
+\begin{equation*}\tag*{(17)}\frac1C=k'(k'^2-1)\left(A\frac{dB}{dk'}-B\frac{dA}{dk'}\right).\end{equation*}
+\noindent Für $A,B$ gelten die Reihenentwicklungen
+\begin{equation*}\tag*{(18)}
+\begin{aligned}
+A&=1+\frac14k'^2+\left(\frac{1\, .\,3}{2\, .\,4}\right)^2k'^4+\ldots\\
+&=F\left(\frac12,\frac12,1,k'^2\right),\qquad |k'|<1,
+\end{aligned}
+\end{equation*}
+\begin{equation*}\tag*{(19)}
+\begin{aligned}
+B&=1+\frac14k^2+\left(\frac{1\, .\,3}{2\, .\,4}\right)^2k^2+\ldots\\
+&=F\left(\frac12,\frac12,1,k^2\right),\qquad |k|<1,
+\end{aligned}
+\end{equation*}
+\noindent die am einfachsten nach der von \textsc{Gauss} in der Abhandlung vom Jahre 1800 (Werke III, S. 366) angegebenen Methode\textsuperscript{*)} abgeleitet werden können.
+\par\indent Aus ihnen ergibt sich (vergl. den art. 8. der Abhandlung von 1800, Werke III, S. 370) zunächst, daß $A,B$ ein System linearunabhängiger Lösungen der Differentialgleichung
+\begin{equation*}\tag*{(20)}k'(k'^2-1)\frac{d^2u}{dk'^2}+(3k'^2-1)\frac{du}{dk'}+k'u=0\end{equation*}
+\noindent bilden. Daraus folgt durch einfache Integration, daß die rechte Seite von (17), also auch $C$, von $k'$ unabhängig ist (siehe oben [IX.] art. [4.], S. 220\textsuperscript{**)}).
+\par\indent Ferner läßt sich mit Hilfe der Reihenentwicklungen (18), (19) leicht die Beziehung angeben, die das agM. mit dem Ellipsenquadranten verknüpft.
+\par\indent Für eine Ellipse mit den Halbachsen $a$ und $b$, $a>b$ hat man die bekannten Darstellungen des Quadranten $q$ durch Integral und Reihe\textsuperscript{***)}
+\begin{equation*}\tag*{(21)}
+\left\{\begin{aligned}
+q&=a\int_0^1\frac{(1-k^2x^2)dx}{\sqrt{(1-x^2)(1-k^2x^2)}}\\[4pt]
+&=\frac\pi2a\left(1-\left(\frac12\right)^2\frac{k^2}1-\left(\frac{1\, .\,3}{2\, .\,4}\right)^2\frac{k^4}3-\ldots\right).
+\end{aligned}\right.
+\end{equation*}
+\noindent Die Vergleichung mit (19) ergibt (siehe oben [II.] art. [2.], Gl. [14], S. 178)
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small
+\par\indent *) Vergl. H. v. \textsc{Mangoldt}, \textit{Über eine Stelle aus den von Gauss nachgelassenen Schriften über das arithm.-geom. Mittel}, Zeitschrift für Mathem. und Physik \textbf{20}, 1875, S. 362.
+\par\indent **) Vergl. auch den art. [4.] des Abschnitts [VII.] S. 211.
+\par\indent ***) Siehe z. B. \textsc{Euler}, \textit{Animadversiones in Rectificationem Ellipsis}, Opuscula varii argumenti II (1750), S. 128; Opera omnia, ser. I, vol. 20, S. 21. Vergl. oben [II.], art. [1.], S. 177.
+\par}
+\clearpage
+\fancyhead{}\fancyhead[R]{\small255}\fancyhead[C]{\scriptsize BEMERKUNGEN ZUM AGM. ABRISS DER THEORIE.}
+\SourceLeaf{262}
+\begin{equation*}\tag*{(22)}q=\frac\pi2a\left(k(1-k^2)\frac{dB}{dk}+(1-k^2)B\right).\end{equation*}
+\par\indent Nun folgt aus der Differentialgleichung (20) auf elementare Weise, daß
+\begin{equation*}\tag*{(23)}\lim_{k\to1}(1-k)B=0,\end{equation*}
+\noindent ferner ist \textls[120]{geometrisch} evident, daß für ein festes $a$ und gegen Null abnehmendes $b$ der Ellipsenquadrant dem Grenzwert $a$ zustrebt, also daß
+\begin{equation*}\tag*{(24)}\lim_{k\to1}q=a\end{equation*}
+\noindent ist. Danach ergibt sich aus (22)
+\begin{equation*}\tag*{(25)}\lim_{k\to1}k(1-k^2)\frac{dB}{dk}=\frac2\pi.\end{equation*}
+\par\indent Da $A$ ebenso von $k'$ abhängt, wie $B$ von $k$, so folgt aus (23) und (25)
+\begin{equation*}\tag*{(26)}\lim_{k'\to1}(1-k')A=0,\quad\lim_{k'\to1}k'(1-k'^2)\frac{dA}{dk'}=\frac2\pi,\end{equation*}
+\noindent und da nach (19) offenbar
+\[\lim_{k'\to1}B=1,\qquad\lim_{k'\to1}\frac{dB}{dk'}=-\frac12\]
+\noindent ist, so finden wir, indem wir in der Gleichung (17) $k'$ gegen $1$ konvergieren lassen,
+\begin{equation*}\tag*{(27)}\frac1C=\frac2\pi\end{equation*}
+\noindent wodurch der Grenzwert (14) gleich $\dfrac\pi2$, also die Gleichung
+\begin{equation*}\tag*{(14a)}\lim_{\varepsilon\to0}M(1,\varepsilon)\log\frac4\varepsilon=\frac\pi2\end{equation*}
+\noindent gefunden ist. Die Gleichung (13) erscheint hiernach in der Form
+\begin{equation*}\tag*{(13a)}\frac1{c^2}d\log\frac ab=-\frac\pi2\frac1{M(a,b)^2}d\frac{M(a,b)}{M(a,c)},\end{equation*}
+\noindent und aus (12) ergibt sich, indem man $n$ ins Unendliche wachsen läßt,
+\begin{equation*}\tag*{(12a)}\lim_{n\to\infty}\frac1{2^n}\log\frac{4a_n}{c_n}=\frac\pi2\, .\,\frac{M(a,b)}{M(a,c)}.\end{equation*}
+\par\indent Die Gleichung (13a) hat \textsc{Gauss} für außerordentlich wichtig gehalten, er hat sie wiederholt aufgezeichnet, oben [IX.] art. [4.] als \textls[120]{Schönen Lehrsatz}, in der Werke VIII, S. 98 abgedruckten Aufzeichnung als \textls[120]{Theorema elegantissimum}.
+\Needspace{10\baselineskip}
+\begin{center}3.\end{center}
+\par\indent Die für $|x|<1$ konvergenten Reihen, deren Exponenten die Quadratzahlen sind,
+\begin{equation*}\tag*{(28)}\left\{\begin{aligned}p(x)&=1+2x+2x^4+2x^9+\ldots\\q(x)&=1-2x+2x^4-2x^9+\ldots\end{aligned}\right.\end{equation*}
+\noindent erfüllen (vergl. Werke III, S. 466) die Gleichungen
+\begin{equation*}\tag*{(29)}\left\{\begin{aligned}\tfrac12[p(x)^2+q(x)^2]&=p(x^2)^2,\\p(x)\, .\,q(x)&=q(x^2)^2.\end{aligned}\right.\end{equation*}
+\clearpage
+\ArithmeticHead{256}{L}{ANALYSIS. NACHLASS.}
+\SourceLeaf{263}
+\noindent Setzt man also
+\begin{equation*}\tag*{(30)}a=\mu p(x)^2,\qquad b=\mu q(x)^2,\end{equation*}
+\noindent so ist
+\begin{equation*}\tag*{(31)}a_n=\mu p(x^{2^n})^2,\quad b_n=\mu q(x^{2^n})^2.\quad(n=\pm1,\pm2,\ldots)\end{equation*}
+\noindent Es entsteht nun die Frage, ob sich bei gegebenen $a,b$ die Größen $\mu$ und $x$ stets so bestimmen lassen, daß die Gleichungen (30) bestehen.
+\par\indent Da
+\[\lim_{n\to\infty}p(x^{2^n})=\lim_{n\to\infty}q(x^{2^n})=1\]
+\noindent ist, so wird das agM. zwischen $p(x)^2$ und $q(x)^2$ gleich Eins (vergl. Werke III, S. 467, Theorem (23)), wir haben also
+\begin{equation*}\tag*{(32)}\mu=M(a,b).\end{equation*}
+\noindent Bildet man nun $r(x)$ so, daß
+\[r(x)^4=p(x)^4-q(x)^4,\]
+\noindent so ist also
+\begin{equation*}\tag*{(33)}c=M(a,b)r(x)^2\end{equation*}
+\noindent und allgemein
+\begin{equation*}\tag*{(33a)}c_n=M(a,b)r(x^{2^n})^2,\qquad(n=\pm1,\pm2,\ldots)\end{equation*}
+\noindent und es ergibt sich aus der zweiten der Gleichungen (10) für $n=0$
+\begin{equation*}\tag*{(34)}2r(x^4)=p(x)-q(x),\end{equation*}
+\begin{equation*}\tag*{(35)}r(x)=2x^{\frac14}(1+x^2+x^6+x^{10}+\ldots)\end{equation*}
+\noindent Hiernach haben wir
+\begin{equation*}\tag*{(36)}\lim_{n\to\infty}\left\{\frac{r(x^{2^n})}{2}\right\}^{\frac1{2^{n-2}}}=x,\end{equation*}
+\noindent also nach (33)
+\begin{equation*}\tag*{(37)}x=\lim_{n\to\infty}\left\{\frac{c_n}{4M(a,b)}\right\}^{\frac1{2^{n-1}}}=\lim_{n\to\infty}\left(\frac{c_n}{4a_n}\right)^{\frac1{2^{n-1}}}\end{equation*}
+\noindent (vergl. oben [IX.] art. [11.], S. 227)), so daß die Vergleichung mit (12a) die Bestimmung
+\begin{equation*}\tag*{(38)}x=e^{-\pi\frac{M(a,b)}{M(a,c)}}\end{equation*}
+\noindent ergibt.
+\Needspace{10\baselineskip}
+\begin{center}4.\end{center}
+\par\indent Die Beziehung des agM. zum vollständigen elliptischen Integral erster Gattung wird durch die Formeln (vergl. (15), (16))
+\begin{equation*}\tag*{(39)}
+\left\{\begin{aligned}
+A&=\frac a{M(a,c)}=\frac1{M(1,k)}=\frac2\pi\int_0^1\frac{dx}{\sqrt{(1-x^2)(1-k'^2x^2)}}\\[6pt]
+B&=\frac a{M(a,b)}=\frac1{M(1,k')}=\frac2\pi\int_0^1\frac{dx}{\sqrt{(1-x^2)(1-k^2x^2)}}
+\end{aligned}\right.
+\end{equation*}
+\clearpage
+\fancyhead{}\fancyhead[R]{\small257}\fancyhead[C]{\scriptsize BEMERKUNGEN ZUM AGM. ABSCHNITT I.}
+\SourceLeaf{264a}
+\noindent dargestellt. Für ihre Herleitung hat \textsc{Gauss} zwei verschiedene Methoden angegeben. Bei der ältern\textsuperscript{*)} wird zuerst mit Hilfe der Reihenentwicklung (18) von $A$ gezeigt, daß in der Entwicklung nach Kosinus der Vielfachen von $\varphi$ der Funktion
+\[\frac1{\sqrt{1-k'^2\cos^2\varphi}}=P+2Q\cos2\varphi+2R\cos4\varphi+\ldots\]
+\noindent der von $\varphi$ freie Teil
+\[P=\frac1{M(1,\sqrt{1-k'^2})}=A\]
+\noindent ist, woraus dann durch Integration in Bezug auf $\varphi$ zwischen den Grenzen $0$ und $\dfrac\pi2$ die Integraldarstellung (39) von $A$ folgt. Bei der späteren\textsuperscript{**)} wird durch Anwendung der \textsc{Landen}schen Transformation\textsuperscript{***)} direkt die Invarianz des Integrals
+\[\int_0^{\frac\pi2}\frac{d\varphi}{\sqrt{a^2\cos^2\varphi+b^2\sin^2\varphi}}\]
+\noindent beim Übergange von $a,b$ zu $a_1,b_1$ gezeigt und daraus die Darstellung (39) durch Grenzübergang gewonnen.
+\ClosingRule
+\vfill
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small
+\par\indent *) Siehe die Aufzeichnungen [III.] art. [2.], oben S. 182 und [IV.] artt. [1.], [2.], S. 184, 185, ferner die Abhandlung von 1800, art. 8, Werke III, S. 370 und Werke VIII, S. 84.
+\par\indent **) Siehe die Aufzeichnung [IX.] art. [10.] oben S. 227 und die \textit{Determinatio attractionis} (1818), art. 16, Werke III, S. 352.
+\par\indent ***) Diese findet sich schon bei \textsc{Lagrange} a. a. O. Oeuvres II, S. 273.
+\par}
+\clearpage
+\endgroup

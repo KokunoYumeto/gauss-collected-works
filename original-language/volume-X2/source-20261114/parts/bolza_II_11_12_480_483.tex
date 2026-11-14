@@ -1,0 +1,162 @@
+\clearpage\begingroup
+\emergencystretch=4em\relax\NoSourceHead\SourceLeaf{480}
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\renewcommand{\thefootnote}{\arabic{footnote})}\setcounter{footnote}{34}
+\ArithmeticHead{23}{R}{GAUSS’ PRINCIPIA GENERALIA THEORIAE FIGURAE FLUIDORUM.}
+\begin{center}\textls[100]{A) Aufstellung der ersten Variation.}\end{center}
+\noindent\hspace*{\parindent}11. Für die Variationsrechnung weitaus am wichtigsten ist derjenige Teil
+der \textsc{Gauss}schen Untersuchung, der sich mit der Berechnung der Variation des
+Flächeninhalts $U$ beschäftigt.
+
+Die in der Form
+\begin{equation*}
+z=z(x,y)\tag{28}
+\end{equation*}
+angenommene freie Oberfläche $U$ wird in der Weise variiert, dass jeder Punkt
+$x,y,z$ der Fläche durch einen benachbarten Punkt\footnote{Die Bezeichnungen $\bar x$, $\bar y$, $\bar z$, $\bar U$, $\mathfrak{A}$ finden sich bei \textsc{Gauss} nicht; ebensowenig weiter unten die Bezeichnungen $M$, $M_1$, $M_2$, u. s. w.}
+\begin{equation*}
+\bar x=x+\delta x,\quad\bar y=y+\delta y,\quad\bar z=z+\delta z\tag{29}
+\end{equation*}
+ersetzt wird, wobei $\delta x$, $\delta y$, $\delta z$ »unbestimmte, aber unendlich kleine Funktionen
+von $x$ und $y$« sind, deren erste partielle Ableitungen stillschweigend ebenfalls
+als unendlich klein vorausgesetzt werden.
+
+Die so entstehende variierte Fläche, ebenso wie ihr Inhalt, möge mit
+$\bar U$ bezeichnet werden. Beide Flächenstücke $U$ und $\bar U$ werden erhalten, wenn
+die unabhängigen Variabeln $x,y$ ein und denselben Bereich der $x,y$-Ebene
+überstreichen, nämlich die Projektion $\mathfrak{A}$ des Flächenstücks $U$ auf die $x,y$-Ebene.
+
+Die Variation, — worunter immer die erste Variation verstanden wird —,
+$\delta U$ ist dann der Zuwachs $\bar U-U$ bei Vernachlässigung unendlich kleiner Grössen
+höherer Ordnung. Bei der Berechnung von $\delta U$ geht nun \textsc{Gauss} in dem Bestreben,
+möglichst wenig bei seiner Ableitung vorauszusetzen und den Beweis
+von den allereinfachsten Elementen aus aufzubauen, so weit, dass er nicht
+einmal den allgemeinen Ausdruck für den Inhalt eines Flächenstücks als bekannt
+voraussetzt. Vielmehr berechnet er direkt den Inhalt eines Elementes
+der ursprünglichen Fläche $U$ und den des entsprechenden Elementes der
+variierten Fläche $\bar U$. Daraus erhält er zunächst die Variation des Flächenelementes
+und erst weiterhin durch Integration die Variation des Gesamtflächeninhaltes
+$U$. Im einzelnen verfährt \textsc{Gauss} folgendermassen (Art. 21):
+\par\clearpage\SourceLeaf{481}
+\ArithmeticHead{24}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent\hspace*{\parindent}Sind $M$, $M_1$, $M_2$ die Punkte der Fläche $U$ bezw. mit den Abszissen
+\[
+(x,y),\quad (x+dx,\ y+dy),\quad (x+d'x,\ y+d'y)
+\]
+und $N_1$, $N_2$ diejenigen Punkte des Raumes, die aus $M_1$, $M_2$ hervorgehen, wenn
+man in deren $z$-Koordinaten die vollständigen Inkremente von $z$ durch die
+entsprechenden Differentiale ersetzt, also
+\[
+z(x+dx,\ y+dy)\quad\text{durch}\quad z(x,y)+p\,dx+q\,dy,
+\]
+bezw.
+\[
+z(x+d'x,\ y+d'y)\quad\text{durch}\quad z(x,y)+p\,d'x+q\,d'y,
+\]
+so nimmt \textsc{Gauss} das Dreieck $MN_1N_2$ als Element der ursprünglichen Fläche
+und berechnet dessen Inhalt $dU$ nach der bekannten Formel für den Flächeninhalt
+eines Dreiecks. Den drei Punkten $M$, $M_1$, $M_2$ der Fläche $U$ entsprechen
+nun mittels der Zuordnung (29) auf der variierten Fläche $\bar U$ drei Punkte
+$\bar M$, $\bar M_1$, $\bar M_2$; mit $\bar N_1$, $\bar N_2$ mögen diejenigen Punkte bezeichnet werden, die
+aus $\bar M_1$, $\bar M_2$ hervorgehen, wenn man in den Ausdrücken der Koordinaten
+wieder die vollständigen Inkremente von $z$, $\delta x$, $\delta y$, $\delta z$ durch die Differentiale
+ersetzt. Dann betrachtet \textsc{Gauss} als Element der variierten Fläche das Dreieck
+$\bar M\bar N_1\bar N_2$ und berechnet dessen Inhalt wieder nach der allgemeinen Formel
+für den Inhalt eines Dreiecks. Nunmehr werden die höheren Potenzen von
+$\delta x$, $\delta y$, $\delta z$ und ihren partiellen Ableitungen vernachlässigt; das so erhaltene
+Resultat möge mit $d\bar U$ bezeichnet werden. Dann ist
+\[
+d\bar U-dU=\delta dU.
+\]
+Daraus ergibt sich schliesslich $\delta U$ durch Integration über die Fläche $U$.
+
+Dabei führt \textsc{Gauss} an Stelle der partiellen Ableitungen $p,q$ die Richtungskosinus
+$\xi$, $\eta$, $\zeta$ der in Beziehung auf die Flüssigkeit äusseren Normale der
+Fläche $U$ im Punkt $x,y,z$ ein und erhält so schliesslich das Resultat in der
+Form
+\begin{equation*}
+\begin{aligned}
+\delta U={}&\int dU\left((\eta^2+\zeta^2)\frac{\partial\delta x}{\partial x}-\xi\eta\frac{\partial\delta y}{\partial x}-\xi\zeta\frac{\partial\delta z}{\partial x}\right)\\
+&+\int dU\left(-\xi\eta\frac{\partial\delta x}{\partial y}+(\xi^2+\zeta^2)\frac{\partial\delta y}{\partial y}-\eta\zeta\frac{\partial\delta z}{\partial y}\right).
+\end{aligned}\tag{30}
+\end{equation*}
+
+Wir bemerken, dass sich dasselbe Resultat ergibt, wenn man in der \textsc{Lagrange}schen
+Fundamentalformel (21) $V=\sqrt{1+p^2+q^2}$ setzt.
+\par\clearpage\SourceLeaf{482}
+\ArithmeticHead{25}{R}{GAUSS’ PRINCIPIA GENERALIA THEORIAE FIGURAE FLUIDORUM.}
+\noindent\hspace*{\parindent}12. Um zu erkennen, was das eben geschilderte \textsc{Gauss}sche Verfahren,
+bei dem die Schwierigkeiten der Berechnung des Inhalts einer krummen Fläche
+in eigentümlicher Weise mit denjenigen der Variation der Doppelintegrale
+verwoben sind, für die \textls[100]{allgemeine} Variationsrechnung bedeutet, hat man
+zunächst die beiden Arten von Schwierigkeiten von einander zu trennen, indem
+man die allgemeine Formel für den Inhalt einer in Parameterdarstellung gegebenen
+Fläche, die \textsc{Gauss}\footnote{\textit{Theoria attractionis corporum sphaeroidicorum etc.}, Comm. Soc. Reg. sc. Gotting. rec. vol. II, 1813, Art. 10; Werke, Bd. V, S. 15.} schon im Jahr 1813 angegeben hatte, als bekannt
+und für die beiden Flächenstücke $U$ und $\bar U$ als gültig voraussetzt. Berechnet
+man nach dieser Formel den Inhalt einerseits der durch die Gleichung
+(28) dargestellten Fläche $U$, andererseits der durch die Gleichungen (29) in
+Parameterdarstellung mit $x,y$ als Parametern dargestellten Fläche $\bar U$, wobei
+in beiden Integralen die unabhängigen Variabeln auf denselben Bereich $\mathfrak{A}$ zu
+beschränken sind, und bildet die Differenz $\bar U-U$, so erhält man nach Vernachlässigung
+der Glieder höherer Ordnung in $\delta x$, $\delta y$, $\delta z$ und ihren partiellen
+Ableitungen den \textsc{Gauss}schen Ausdruck (30) für $\delta U$. Das ist sozusagen der
+der Variationsrechnung angehörige Bestandteil des \textsc{Gauss}schen Gedankengangs.
+
+Wir versuchen jetzt, denselben Gedankengang auf das allgemeine Integral
+\[
+J=\iint\limits_{\mathfrak{A}}V(x,y,z,p,q)\,dx\,dy
+\]
+mit variablem Integrationsbereich zu übertragen. Wir haben dann zunächst
+dasselbe Integral $J$ für die Fläche $\bar U$ zu bilden, d. h. wenn wir alle auf die
+Fläche $\bar U$ bezüglichen Grössen durch Überstreichen auszeichnen,
+\[
+\bar J=\iint\limits_{\bar{\mathfrak{A}}}V(\bar x,\bar y,\bar z,\bar p,\bar q)\,d\bar x\,d\bar y.
+\]
+Dabei ist die Fläche $\bar U$ in der aus den Gleichungen (29) durch Elimination
+von $x,y$ sich ergebenden Form
+\begin{equation*}
+\bar z=\bar z(\bar x,\bar y)\tag{31}
+\end{equation*}
+gedacht, $\bar p$, $\bar q$ sind die Ableitungen von $\bar z$ nach $\bar x$ und $\bar y$, und $\bar{\mathfrak{A}}$ ist die Projektion
+von $\bar U$ auf die $x,y$-Ebene.
+
+Kehrt man jetzt von der Darstellung (31) der Fläche $\bar U$ zur Parameterdarstellung
+\par\smallskip\noindent{\small X 2 Abh. 5.}\hfill{\small 4}\par
+\clearpage\SourceLeaf{483}
+\ArithmeticHead{26}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent (29) zurück, so bedeutet das, dass man in dem Doppelintegral $\bar J$
+durch die Substitution
+\[
+\bar x=x+\delta x,\quad\bar y=y+\delta y
+\]
+$x,y$ als unabhängige Variable einführt. Das gibt aber
+\[
+\bar J=\iint\limits_{\mathfrak{A}}V(\bar x,\bar y,\bar z,\bar p,\bar q)
+\left(\frac{\partial\bar x}{\partial x}\frac{\partial\bar y}{\partial y}-\frac{\partial\bar x}{\partial y}\frac{\partial\bar y}{\partial x}\right)dx\,dy,
+\]
+wobei nunmehr der Integrationsbereich für $\bar J$ derselbe ist wie für $J$.
+
+Durch die Zurückführung des Integrationsbereichs des Integrals $\bar J$ auf
+den Integrationsbereich von $J$ sind nun aber die mit der Variation des Integrationsbereichs
+verbundenen grundsätzlichen Schwierigkeiten überwunden, und
+die Berechnung von $\delta J$ bietet keine Schwierigkeiten mehr. Das Resultat ist
+die \textsc{Lagrange}sche Formel (21) mit den früher angegebenen Werten (18), (16)
+für $\delta V$, $\delta p$, $\delta q$. Diese Verallgemeinerung des \textsc{Gauss}schen Verfahrens ist zwar
+im Grunde mit der \textsc{Poisson}schen Methode der Parameterdarstellung aufs engste
+verwandt, verdient aber doch als besondere Methode der Behandlung der
+Doppelintegrale aufgeführt zu werden; wir werden sie die \textls[100]{Substitutionsmethode}
+nennen. Sie findet sich zuerst klar ausgesprochen und durchgeführt
+in der (trotz einiger Fehler) vortrefflichen Darstellung der Variationsrechnung,
+die \textsc{Bordoni}\footnote{\textsc{A. M. Bordoni}, \textit{Lezioni di calcolo sublime}, Mailand 1831, Bd. II, Art. 398.} im Anschluss an die Darstellung von \textsc{Lagrange}\begingroup\renewcommand{\thefootnote}{37a)}\footnote{\textsc{J. L. Lagrange}, \textit{Leçons sur le calcul des fonctions}, Journal de l'École Polyt., cah. 12, 1804, nouvelle édition 1806, Oeuvres t. X.}\endgroup\setcounter{footnote}{37}\ und diese
+nach den verschiedenen Richtungen weiterführend gegeben hat, und die in
+der Literatur der Variationsrechnung viel zu wenig Beachtung gefunden hat.
+
+Die Entwicklungen von \textsc{Bordoni} sind allem Anschein nach unbeeinflusst
+durch \textsc{Gauss} und vermutlich ohne Kenntnis der \textsc{Gauss}schen Arbeit geschrieben.
+
+Später ist dieselbe Methode, verallgemeinert, von \textsc{Sabinine}\footnote{\textit{Démonstration d'une formule de M. Ostrogradsky relative au calcul des variations des intégrales multiples}, Journal für r. u. a. Mathematik, Bd. 59 (1861), S. 185—189.} zum Beweis
+der beim $n$-fachen Integral der \textsc{Lagrange}schen Fundamentalformel entsprechenden
+Formel von \textsc{Ostrogradsky} und \textsc{Pagani} benutzt worden. Auch
+\textsc{C. Jordan} legt diese Methode seiner Darstellung der Variation mehrfacher
+Integrale\footnote{\textsc{C. Jordan}, \textit{Cours d'Analyse de l'École Polyt.}, Bd. III (1896), Nr. 396.} zugrunde.
+\par\clearpage\endgroup

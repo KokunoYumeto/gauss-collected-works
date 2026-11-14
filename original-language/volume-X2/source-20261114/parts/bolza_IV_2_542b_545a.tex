@@ -1,0 +1,105 @@
+\clearpage\begingroup\NoSourceHead\SourceLeaf{542b}
+\renewcommand{\thefootnote}{\arabic{footnote})}\setcounter{footnote}{2}
+\ArithmeticHead{85}{R}{VEREINZELTE ANWENDUNGEN DER VARIATIONSRECHNUNG.}
+\begin{center}\textls[100]{2. Über die elastische Kurve.}\\
+\small (Einzelner Zettel, Werke, Bd. XI 1.)\end{center}
+\noindent\hspace*{\parindent}\textsc{Daniel Bernoulli} hatte zuerst das Prinzip aufgestellt und \textsc{Euler}\footnote{\textsc{Euler}, \textit{Methodus inveniendi} etc., Lausanne 1744, S. 246: »Cum \textsc{Daniel Bernoulli} mihi indicasset
+se universam vim, quae in lamina elastica incurvata insit, una quadam formula quam \textls[120]{vim potentialem}
+appellat, complecti posse; hancque expressionem in curva elastica minimam esse oportere; .\ .\ .«.} mitgeteilt, dass die elastische Kurve als Gleichgewichtslage einer elastischen Lamelle die potentielle Energie (»vis potentialis«) der Lamelle, d. h. das Integral
+\begin{equation*}\tag{3}
+\int\frac{ds}{\rho^2}
+\end{equation*}
+zu einem Minimum machen muss, wobei $\rho$ den Krümmungsradius, $ds$ das
+\clearpage\SourceLeaf{543}
+\ArithmeticHead{86}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent Bogenelement der Kurve bedeutet. Hieran anknüpfend hatte dann \textsc{Euler} im
+Anhang zu seiner \textit{Methodus inveniendi lineas curvas maximi minimive proprietate
+gaudentes} (S. 245—310) seine allgemeinen Methoden auf das Variationsproblem
+angewandt: Unter allen (ebenen) Kurven derselben Länge, die nicht nur durch
+zwei gegebene Punkte $A$ und $B$ hindurchgehen, sondern auch in diesen
+Punkten von gegebenen Geraden berührt werden, diejenige zu bestimmen, die
+das Integral (3) zu einem Minimum macht. In rechtwinkligen Koordinaten
+$x,y$ mit $x$ als unabhängiger Variabeln nimmt die Aufgabe die Form an: Das
+Integral
+\[
+\int\frac{q^2\,dx}{(1+p^2)^{\frac52}},\quad p=\frac{dy}{dx},\quad q=\frac{d^2y}{dx^2},
+\]
+zu einem Minimum zu machen mit der isoperimetrischen Nebenbedingung
+\[
+\int\sqrt{1+p^2}\,dx=S.
+\]
+\par\noindent\hspace*{\parindent}Da $x$ und $y$ nicht unter dem Integralzeichen vorkommen, so lassen sich
+zwei Integrale der \textsc{Euler}schen Differentialgleichung nach einer allgemeinen,
+von \textsc{Euler} herrührenden Bemerkung unmittelbar angeben; eine weitere Integration führt \textsc{Euler} auf die Gleichung
+\begin{equation*}\tag{4}
+\frac{2\sqrt{\alpha\sqrt{1+p^2}+\beta p+\gamma}}{(1+p^2)^{\frac14}}=\beta x-\gamma y+\delta,
+\end{equation*}
+worin $\alpha$ die isoperimetrische Konstante, $\beta$, $\gamma$ und $\delta$ Integrationskonstanten sind.
+Diese Gleichung vereinfacht er dadurch, dass er durch passende Wahl des
+Koordinatensystems $\gamma$ und $\delta$ zum Verschwinden bringt. Die Auflösung der
+so vereinfachten Gleichung (4) nach $p$ gibt dann das Resultat in der bekannten Form
+\[
+dy=\frac{(x^2+b)\,dx}{\sqrt{a^4-(x^2+b)^2}}.
+\]
+\par\noindent\hspace*{\parindent}Hieraus leitet \textsc{Euler} die Gestalt der elastischen Kurve ab, wobei er im
+ganzen neun verschiedene Fälle unterscheidet. Lässt man die Grenzfälle bei
+Seite, so subsummieren sich alle unter zwei Hauptfälle, die elastische Kurve
+mit Wendepunkten und diejenige ohne Wendepunkte.
+\par\noindent\hspace*{\parindent}In dem vorliegenden Fragment gibt nun \textsc{Gauss} eine Lösung desselben
+Variationsproblems, die an Eleganz wohl nicht zu übertreffen ist. Indem er
+\clearpage\SourceLeaf{544}
+\ArithmeticHead{87}{R}{VEREINZELTE ANWENDUNGEN DER VARIATIONSRECHNUNG.}
+\noindent einerseits die Bogenlänge $s$ als unabhängige Variable und andererseits den
+Tangentenwinkel $\varphi$ als unbekannte Funktion einführt\footnote{Denselben Kunstgriff hat M. \textsc{Born} in seiner Dissertation »\textit{Untersuchungen über die Stabilität der
+elastischen Linie in Ebene und Raum}« (Göttingen 1906) S. 15, angewandt. Vgl. auch die Behandlung des
+Problems bei \textsc{Kneser}, \textit{Lehrbuch der Variationsrechnung} (1900), S. 223—226.}, gelingt es ihm, das
+Problem auf ein isoperimetrisches Problem vom einfachsten Typus mit zwei
+isoperimetrischen Bedingungen zurückzuführen, bei denen unter dem Integralzeichen nur eine unbekannte Funktion und ihre erste Ableitung vorkommen.
+Das gegebene Problem geht nämlich dadurch in die Aufgabe über, $\varphi$ als
+Funktion von $s$ so zu bestimmen, dass das Integral
+\[
+\int_0^S\left(\frac{d\varphi}{ds}\right)^2ds
+\]
+ein Minimum wird mit den beiden isoperimetrischen Bedingungen
+\[
+\int_0^S\cos\varphi\,ds=x_1-x_0,\quad\int_0^S\sin\varphi\,ds=y_1-y_0.
+\]
+und der Anfangsbedingung:
+\[
+\varphi(0)=\varphi_0,\quad\varphi(S)=\varphi_1,
+\]
+wobei $x_0,y_0$ und $x_1,y_1$ die Koordinaten der gegebenen Punkte und $\varphi_0$ und $\varphi_1$
+die gegebenen Anfangs-, bezw. Endrichtungen bedeuten. Hieraus folgt die
+Differentialgleichung
+\[
+\frac{d^2\varphi}{ds^2}+A\cos\varphi+B\sin\varphi=0,
+\]
+wobei $A$ und $B$ die beiden isoperimetrischen Konstanten sind. Eine erste
+Integration liefert die Gleichung
+\[
+\frac1\rho=-Ax-By-C,
+\]
+in der durch passende Wahl des Koordinatensystems bewirkt werden kann, dass
+\[
+A=0,\quad C=0,\quad B>0.
+\]
+Eine zweite Integration liefert dann die Gleichung
+\begin{equation*}\tag{5}
+\cos\varphi=\frac B2\,y^2+D,
+\end{equation*}
+\clearpage\SourceLeaf{545}
+\ArithmeticHead{88}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent die mit der in der oben angegebenen Weise vereinfachten \textsc{Euler}schen Gleichung (4) bei passendem Wechsel der Bezeichnung identisch wird.
+\par\noindent\hspace*{\parindent}Hier wäre nun eine Fallunterscheidung nötig gewesen, je nachdem die
+Integrationskonstante $D$, die stets $\EqualAboveLess1$ ist, grösser-gleich oder kleiner als $-1$
+ist. Indem \textsc{Gauss} $D=\cos2\vartheta$ ansetzt, beschränkt er sich auf den ersten der
+beiden Fälle, den er dann auf elliptische Integrale zurückführt. Setzt man
+in den \textsc{Gauss}schen Formeln
+\[
+u=\frac\pi2-\psi,\quad\sin\vartheta=k,
+\]
+so gehen sie in die übliche Darstellung der Elastica mit Wendepunkten über.
+\par\noindent\hspace*{\parindent}Für die Untersuchung des von \textsc{Gauss} bei Seite gelassenen zweiten Falles
+$D<-1$ setze man in der Gleichung (5) $\frac\varphi2=\psi$, $\frac2{1-D}=k^2$; dann liefert ein
+dem von \textsc{Gauss} für den ersten Fall angewandten analoges Verfahren die üblichen Formeln für die Elastica ohne Wendepunkte.
+\clearpage\endgroup

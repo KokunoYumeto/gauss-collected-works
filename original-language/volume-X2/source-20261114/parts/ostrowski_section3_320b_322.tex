@@ -1,0 +1,89 @@
+\par\medskip
+\textls[100]{3. Wurzeln von \(U=0\) für feste \(x\).} Um den Verlauf von \(U=0\)
+\textls[100]{innerhalb} des Kreises \((R)\) zu studieren, benutzen wir kartesische Koordinaten
+\(x,y\), behalten aber die Funktionalbezeichnung \(U\) bei. Enthält \(U\) mehrfache
+Faktoren, so dividiere man sie sukzessive aus \(U\) heraus, bis man zu
+einem Polynom \(U^{(1)}\) ohne mehrfache Faktoren gelangt, für das die Kurve
+\(U^{(1)}=0\) aus den gleichen Punkten besteht wie \(U=0\). Sonst sei \(U^{(1)}=U\).
+Enthält sodann \(U^{(1)}\) Faktoren von der Form \(x-x'\), so dividieren wir sie aus
+\(U^{(1)}\) heraus und erhalten dadurch \(U^{(0)}\). Andernfalls sei \(U^{(0)}=U^{(1)}\). Die
+Gleichung \(U^{(0)}=0\) hat für kein \(x\) mehr als \(n\) Wurzeln in \(y\). Wir notieren
+nun alle Werte von \(x\), falls es solche gibt, für die zugleich \(U^{(0)}\) und\par
+\clearpage\SourceLeaf{321}\ArithmeticHead{12}{L}{A. OSTROWSKI, ÜBER DEN ERSTEN UND VIERTEN GAUSSSCHEN BEWEIS USW.}
+\noindent \(\frac{\partial U^{(0)}}{\partial y}\), oder \(U^{(0)}\) und \(\frac{\partial U^{(0)}}{\partial x}\) verschwinden kann. Gäbe es deren unendlich viele,
+so müsste \(U^{(0)}\) mehrfache Faktoren besitzen\footnote[2]{Es ist übrigens leicht zu zeigen, dass \(U\) keine mehrfachen Faktoren haben kann. Denn entfernt man einen solchen Faktor, so wird der Grad von \(U\) verkleinert, und \(U\) kann dann nicht auf jedem Kreise von hinreichend grossem Halbmesser \(2n\) verschiedene Nullpunkte haben.}. Ferner notieren wir die Werte
+von \(x\), für die \(U^{(0)}=0\) den Kreis \((R)\) schneidet, sowie die Werte \(x'\), für die
+\(U^{(1)}\) durch \(x-x'\) teilbar ist.
+\par
+Sind die so notierten Werte \(x_1<x_2<\cdots<x_k\), so legen wir die Schar
+der Parallelen \(x=x_1,\ x=x_2,\ldots\), durch die das Innere des Kreises in endlich
+viele Streifen eingeteilt wird. Wir betrachten das Innere eines solchen
+Streifens, etwa zwischen \(x=x_1\) und \(x=x_2\). Es habe nun \(U^{(0)}(x,y)\) für irgend
+ein \(\overline x\) mit \(x_1<\overline x<x_2\) genau \(m\) Nullstellen \(\eta_1<\eta_2<\cdots<\eta_m\). \textls[100]{Dann hat \(U\),
+behaupten wir, für \textit{jedes} solche \(x\) mit \(x_1<x<x_2\) genau \(m\) Nullstellen.}
+Zum Beweise bemerken wir vor allem, dass \(U^{(0)}\) auf der Geraden
+\(x=\overline x\) beim Durchgang durch eine Nullstelle \(\eta\) das Vorzeichen ändert, da
+auf dieser Geraden \(\frac{\partial U^{(0)}}{\partial y}\ne0\) ist.
+\par
+Zuerst zeigen wir nun, dass jedem hinreichend kleinen \(\varepsilon>0\) ein solches
+\(\delta\) entspricht, dass es für jedes \(x\) zwischen \(\overline x-\delta\) und \(\overline x+\delta\) \(m\) Nullstellen von
+\(U\) gibt, die bezw. innerhalb der mit dem Halbmesser \(2\varepsilon\) um \(\eta_1,\eta_2,\ldots\eta_m\) beschriebenen
+Kreise liegen. Es sei für ein hinreichend kleines \(\overline\delta<\varepsilon\) etwa
+\[
+\begin{aligned}
+U^{(0)}(\overline x,\eta_1-\overline\delta)&<0,\quad U^{(0)}(\overline x,\eta_1+\overline\delta)>0,\\
+U^{(0)}(\overline x,\eta_2-\overline\delta)&>0,\quad U^{(0)}(\overline x,\eta_2+\overline\delta)<0
+\end{aligned}
+\]
+usw. Da \(U^{(0}{}_{)}\) stetig in \(x\) ist, gibt es ein solches \(\delta<\varepsilon\) (für das überdies
+\(x_1<\overline x-\delta<\overline x+\delta<x_2\) bleibt), dass
+\[
+\begin{aligned}
+U^{(0)}(x,\eta_1-\overline\delta)&<0,\quad U^{(0)}(x,\eta_1+\overline\delta)>0,\\
+U^{(0)}(x,\eta_2-\overline\delta)&>0,\quad U^{(0)}(x,\eta_2+\overline\delta)<0
+\end{aligned}
+\]
+usw. für \(\overline x-\delta<x<\overline x+\delta\) ist. Dann liegt für jedes solche \(x\) wenigstens
+eine Nullstelle von \(U^{(0)}\) zwischen \(\eta_1-\overline\delta\) und \(\eta_1+\overline\delta\), ihre Entfernung von \((\overline x,\eta_1)\)
+ist also \(<\delta+\overline\delta<2\varepsilon\), und das Analoge gilt auch für \(\eta_2,\eta_3,\ldots\eta_m\).
+\par
+Es seien \(t'\) und \(t''\) \((t'<t'')\) die Ordinaten der Punkte, in denen die Gerade
+\(x=\overline x\) den Kreis \((R)\) schneidet. Da \(\frac{\partial U^{(0)}}{\partial y}\) in \(\eta_1,\ldots,\eta_m\) von 0 verschieden
+ist, so kann man \(\varepsilon\) wegen der Stetigkeit von \(\frac{\partial U^{(0)}}{\partial y}\) so klein gewählt denken,\par
+\clearpage\SourceLeaf{322}\ArithmeticHead{13}{R}{A. OSTROWSKI, ÜBER DEN ERSTEN UND VIERTEN GAUSSSCHEN BEWEIS USW.}
+\noindent dass \(\frac{\partial U^{(0)}}{\partial y}\) in jedem der obigen um \(\eta_1,\eta_2,\ldots,\eta_m\) beschriebenen Kreise \(\ne0\)
+bleibt. Dann kann nach dem \textsc{Rolle}schen Satze in jedem dieser Kreise für
+jedes \(x\) zwischen \(\overline x-\delta\) und \(\overline x+\delta\) nur eine Nullstelle von \(U^{(0)}\) liegen. Es sei
+\(2M\) die untere Grenze von \(U^{(0)}\) in den auf der Geraden \(x=\overline x\) gelegenen Intervallen
+\[
+t'\leqq y\leqq\eta_1-\varepsilon,\ \eta_1+\varepsilon\leqq y\leqq\eta_2-\varepsilon,\ \ldots,\ \eta_m+\varepsilon\leqq y\leqq t''.
+\]
+Wegen der gleichmässigen Stetigkeit von \(U^{(0)}\) als Funktion der Variabeln \(x\)
+und des Parameters \(y\) kann man \(\delta\) so klein wählen, dass die Änderung von
+\(U^{(0)}\), wenn \(x\) sich zwischen \(\overline x-\delta\) und \(\overline x+\delta\) bewegt, \(y\) aber in den obigen Intervallen
+bleibt, nicht grösser als \(M\) ist, und \(U^{(0)}\) selbst daher von 0 verschieden
+bleibt.
+\par
+Es sei ferner \(\varepsilon\) so klein, dass in den Kreisen um \((\overline x,t'),\ (\overline x,t'')\) mit dem
+Halbmesser \(\varepsilon\) keine Nullstellen von \(U^{(0)}\) liegen. Wählen wir dann \(\delta\) so klein,
+dass die Schnittpunkte der Geraden \(x=\overline x+\delta\) und \(x=\overline x-\delta\) mit dem Kreise
+\((R)\) von den entsprechenden Punkten \((\overline x,t'),\ (\overline x,t'')\) um weniger als \(\varepsilon\) entfernt
+sind, so sind wir sicher, dass für kein \(x\) zwischen \(\overline x-\delta\) und \(\overline x+\delta\) die Funktion
+\(U^{(0)}\) Nullstellen ausserhalb der um \(\eta_1,\eta_2,\ldots\eta_m\) mit dem Halbmesser \(\varepsilon\)
+beschriebenen Kreise besitzt, d. h., dass \(U^{(0)}\) für diese \(x\) genau \(m\) Wurzeln hat,
+die in beliebige Nähe bezw. von \(\eta_1,\eta_2,\ldots\eta_m\) gebracht werden können, wenn
+man \(\delta\) hinreichend klein wählt. Gibt es nun zwischen \(x_1\) und \(x_2\) solche \(x\),
+für die die Anzahl der Wurzeln der Funktion \(U^{(0)}\) von \(m\) verschieden ist, und
+gibt es solche \(x\) insbesondere auch zwischen \(x_1\) und \(\overline x\), so sei \(\overline{\overline x}\) die obere
+Grenze aller der letzten Bedingung genügenden \(x\). Ist die Anzahl der Wurzeln
+von \(U^{(0)}\) für \(\overline{\overline x}\) gleich \(m_1\), so gilt nach dem oben Bewiesenen dasselbe auch in
+einer gewissen Umgebung von \(\overline{\overline x}\) nach rechts. Da aber \(\overline{\overline x}\) die obere Grenze
+aller \(x\) zwischen \(x_1\) und \(\overline x\) ist, für die die Anzahl der Wurzeln von \(m\) verschieden
+ist, so muss \(m_1=m\) sein. Dann ist aber nach dem oben Bewiesenen
+auch in einer gewissen Umgebung von \(\overline{\overline x}\) nach links die Anzahl der Wurzeln
+von \(U^{(0)}\) gleich \(m\), und dies widerspricht der Annahme, dass \(\overline{\overline x}\) die obere Grenze
+der \(x\) ist, denen eine von \(m\) verschiedene Anzahl der Wurzeln von \(U^{(0)}\) entspricht.
+Folglich gibt es keine solchen \(x\) zwischen \(x_1\) und \(\overline x\). Und ebenso
+beweist man, dass es keine solchen \(x\) zwischen \(\overline x\) und \(x_2\) gibt. Damit ist
+unsere Behauptung vollständig bewiesen.
+\par

@@ -1,0 +1,163 @@
+% GDZ PPN236018647,native581lower–585upper;HKUST582–586.
+\NumberedItem{113}
+\noindent\hspace*{\parindent}Problema e calculo probabilitatis circa fractiones continuas olim frustra tentatum solvimus.
+\par\noindent\hfill[1800] Oct. 25.
+
+\par\medskip\begingroup\small
+\renewcommand{\thefootnote}{***)}
+\noindent\hspace*{\parindent}Das Problem, von dem hier die Rede ist, erwähnt \textsc{Gauss} in dem oben S. 371 abgedruckten Briefe an \textsc{Laplace} vom 30. Januar 1812, in dem er von einer Aufgabe der Wahrscheinlichkeitsrechnung schreibt, mit der er sich vor 12 Jahren beschäftigt habe. Es handelt sich danach um die folgende Frage: Es sei \(M\) eine unbekannte, zwischen 0 und 1 gelegene Größe, für die alle Werte in gleichem Maße wahrscheinlich sind; man verwandle \(M\) in einen Kettenbruch
+\[
+M=\cfrac1{a'+\cfrac1{a''+\text{etc.}}}
+\]
+\noindent mit positiven ganzzahligen Nennern \(a',a'',\ldots\) und frage nach der Wahrscheinlichkeit \(P(n,x)\) dafür, daß der Wert des Kettenbruchs
+\[
+\cfrac1{a^{(n+1)}+\cfrac1{a^{(n+2)}+\text{etc.}}}
+\]
+\noindent zwischen den Grenzen 0 und \(x\) liege, wo auch \(x\) einen positiven echten Bruch bedeutet. — Hieraus geht hervor, daß eine in dem als Scheda Ab bezeichneten Hefte des Nachlasses befindliche Aufzeichnung vom 5. Februar 1799\footnote{Diese Aufzeichnung hat \textsc{Schlesinger} in der Scheda Ab bemerkt und für den nachstehenden Abdruck bearbeitet.} die Untersuchungen wiedergibt, auf die \textsc{Gauss} in der vorliegenden Tagebuchnotiz mit den Worten hinweist: \textit{olim frustra tentatum.} Wir lassen zunächst diese ältere Aufzeichnung hier folgen.
+\par\endgroup
+
+\clearpage\SourceLeaf{582}\ArithmeticHead{553}{R}{1800 IUN. 12—1800 OCT. 25.}
+\HistoricTitle{Disquisitiones ad Calculum probabilitatis pertinentes.\quad Febr. 5.}
+\HistoricCitation{[Aus Scheda Ab, Exercitationes atque Schedae analyticae, 1798 Nov., S. 5 und 4.]}
+\begingroup
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\noindent\hspace*{\parindent}Quantitas quaedam incognita \(A\), quae supponitur iacere inter 0 et 1, ita ut probabilitas eam iacere inter binos arctiores limites aeque-distantes eadem sit, transmutatur in fractionem continuam formae\textsuperscript{[*)]}
+\renewcommand{\thefootnote}{[*)}\footnotetext[1]{In der Handschrift sind die im folgenden auftretenden Nenner statt mit \(a',a'',a''',\ldots\) mit [1], [2], [3], \(\ldots\) bezeichnet.]}
+\[
+\cfrac1{a'+\cfrac1{a''+\cfrac1{a'''+\text{etc.}}}}
+\]
+\noindent Quanta est probabilitas, ut aliquis denominatorum \(a',a'',a'''\) etc., cuius locus datur, numero integro dato sit aequalis?
+\par\noindent\hspace*{\parindent}Brevitatis gratia designamus per \(\varphi'x\) probabilitatem fractionem primariam esse inter 0 et \(x\); per \(\varphi''x\) prob[abilitatem] fractionem secundam
+\[
+\cfrac1{a''+\cfrac1{a'''+\text{etc.}}}
+\]
+\noindent iacere inter 0 et \(x\); similiterque \(\varphi'''x\) etc. Tum erit
+\begin{equation*}\tag*{[1]}\varphi'x=x,\end{equation*}
+\begin{equation*}\tag*{[2]}\varphi^{n+1}x=\varphi^n1-\varphi^n\frac1{1+x}+\varphi^n\frac12-\varphi^n\frac1{2+x}+\text{etc.}\end{equation*}
+\noindent Quare erit
+\begin{equation*}\tag*{[3]}\varphi''x=1\left[-\frac1{1+x}\right]+\frac12\left[-\frac1{2+x}\right]+\frac13\left[-\frac1{3+x}\right]+\ldots\text{\textsuperscript{[**)]}}.\end{equation*}
+\renewcommand{\thefootnote}{[**)}\footnotetext[2]{In der Handschrift lautet diese Stelle: »Quare \(\varphi''x\) erit \(=1+\frac12+\ldots+\frac1x\)«, was aber nur für positive ganzzahlige Werte von \(x\) gilt, vergl. \textit{Disquisitiones circa seriem}, 1812, art. 31., Gl. [67], Werke III, S. 154.]}
+\noindent\begin{minipage}[t]{.50\linewidth}
+\small
+\begin{equation*}\tag*{[4]}\varphi^{n+1}\frac12=1-\varphi^n\frac23+\ldots,\end{equation*}
+\[
+\left[\psi x=\varphi^n\frac1x,\quad\psi'x=\varphi^{n+1}\frac1x,\right]
+\]
+\[
+\begin{aligned}
+\psi'\frac1x&=\psi1-\psi(1+x)\\
+&\quad+\psi2-\psi(2+x)\\
+&\quad+\mathord{.}\;\mathord{.}\;\mathord{.}\;\mathord{.}\;\mathord{.}\;\mathord{.}\;\mathord{.}\;\mathord{.}
+\end{aligned}
+\]
+\end{minipage}\hfill\vrule width.3pt\hfill\begin{minipage}[t]{.45\linewidth}
+\small
+\[
+\begin{aligned}
+\varphi''\frac12&=\frac22-\frac23+\frac24-\frac25+\ldots\\[1ex]
+\varphi''\frac23&=\frac33-\frac35+\frac36-\frac38+\ldots\\[1ex]
+\varphi''\frac25&=\frac55-\frac57+\frac5{10}-\frac5{12}+\ldots
+\end{aligned}
+\]
+\end{minipage}
+\par\noindent{\small X1.\hfill70}
+\par\endgroup
+
+\clearpage\SourceLeaf{583}\ArithmeticHead{554}{L}{TAGEBUCH MIT ERLÄUTERUNGEN.}
+\begingroup
+\renewcommand{\arraystretch}{1.8}
+\[
+\begin{array}{c|c|c}
+x&\varphi''x&\varphi'''x\\\hline
+0&0&\\
+1&1&\\
+\frac12=0{,}5&2-2\,l2=0{,}6137&0{,}5748\\
+\frac13=0{,}333\ldots&3-\frac32\,l3-\frac\pi{\surd12}=0{,}4451818&\\
+\frac23=0{,}666\ldots&\frac32-\frac32\,l3+\frac\pi{\surd12}=0{,}7590&
+\end{array}
+\]
+\endgroup
+\noindent{\small[S. 4]}\par
+\noindent\hspace*{\parindent}Tam complicatae evadunt, ut nulla spes superesse videatur.
+\ClosingRule
+
+\par\medskip\begingroup\small
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\noindent\hspace*{\parindent}Dazu ist folgendes zu bemerken. Wenn die erste Stufe der Kettenbruchentwicklung des positiven echten Bruches \(M\)
+\[
+M=\frac1{a'+\mu}
+\]
+\noindent ist, wo \(a'\) eine positive ganze Zahl und \(\mu\) wieder einen echten Bruch bedeutet, so können die positiven echten Brüche \(M\) nach den Werten von \(a'\) in \textls[120]{Klassen} eingeteilt werden und die Werte einer Klasse werden in abnehmender Folge durchlaufen, wenn \(\mu\) von 0 einschließlich bis 1 ausschließlich wächst; es sind die Zahlen des Intervalls von \(\frac1{a'}\) bis \(\frac1{a'+1}\), dessen Länge \(\frac1{a'}-\frac1{a'+1}\) ist.
+\par\noindent\hspace*{\parindent}Nach der Fragestellung von \textsc{Gauss} werden jetzt die Zahlen herausgehoben, bei denen \(\mu\) zwischen 0 und \(x\) liegt, wo \(0<x<1\). In der Klasse \(a'\) sind dies die Zahlen zwischen \(\frac1{a'}\) und \(\frac1{a'+x}\). Sind diese gleich wahrscheinlich, so liefert also das Intervall den Beitrag \(\frac1{a'}-\frac1{a'+x}\), und da das Gesamtintervall der Werte \(M\) die Länge 1 hat, so ergibt sich für die gesuchte Wahrscheinlichkeit in Übereinstimmung mit der Gleichung [3] auf voriger Seite
+\begin{equation*}\tag*{(5)}P(1,x)=\varphi''(x)=\sum_{a'=1}^{\infty}\left\{\frac1{a'}-\frac1{a'+x}\right\}=\Psi(x)-\Psi(0),\end{equation*}
+\noindent wenn (vergl. die \textit{Disquis. circa seriem}, 1812, Werke III, S. 153)
+\[
+\Psi(x)=\frac{d\log\Pi(x)}{dx}
+\]
+\noindent die logarithmische Ableitung der \textsc{Gauss}schen \(\Pi\)-Funktion bedeutet. Damit ist die Angabe von \textsc{Gauss} in dem Briefe an \textsc{Laplace} (siehe oben S. 372), daß \(P(1,x)\) von der inexplikablen Funktion \textsc{Eulers}
+\[
+1+\frac12+\frac13+\ldots+\frac1x
+\]
+\noindent abhänge, bestätigt.
+\par\noindent\hspace*{\parindent}Beim nächsten Schritt wird
+\[
+M=\cfrac1{a'+\cfrac1{a''+\nu}}
+\]
+\noindent gesetzt, wo \(a',a''\) ganze, positive Zahlen sind und \(\nu\) einen echten Bruch bedeutet. Man findet
+\par\endgroup
+
+\clearpage\SourceLeaf{584}\ArithmeticHead{555}{R}{1800 OCT. 25.}
+\par\begingroup\small
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\renewcommand{\thefootnote}{*)}
+\[
+P(2,x)=\varphi'''(x)=\sum_{a'=1}^{\infty}\sum_{a''=1}^{\infty}\left\{\cfrac1{a'+\cfrac1{a''+x}}-\cfrac1{a'+\cfrac1{a''}}\right\},
+\]
+\noindent indem die Zahlen der Klasse \(a'\) in Unterklassen nach dem Werte der Zahlen \(a''\) eingeteilt werden, die jetzt, wenn \(\nu\) von 0 bis 1 wächst, in zunehmender Folge durchlaufen werden.
+\par\noindent\hspace*{\parindent}Allgemein ist\footnote{Für diesen Absatz benutzen wir eine briefliche Mitteilung von \textsc{O. Perron}.}
+\[
+P(n,x)=\varphi^{(n+1)}(x)=\sum_{a',\ldots,a^{(n)}}\left|\cfrac1{a'+\cfrac1{a''+\ddots\cfrac1{a^{(n)}}}}-\cfrac1{a'+\cfrac1{a''+\ddots\cfrac1{a^{(n)}+x}}}\right|.
+\]
+\noindent Bezeichnet man den \(n\)-ten Näherungsbruch des Kettenbruchs für \(M\) mit \(\frac{A_n}{B_n}\), wo
+\[
+|A_nB_{n-1}-A_{n-1}B_n|=1
+\]
+\noindent ist, so erhält man
+\begin{equation*}\tag*{(6)}
+\begin{aligned}
+P(n,x)&=\sum_{a',\ldots,a^{(n)}}\left|\frac{A_n}{B_n}-\frac{A_n+xA_{n-1}}{B_n+xB_{n-1}}\right|\\
+&=\sum_{a',\ldots,a^{(n)}}\frac{x}{B_n(B_n+xB_{n-1})}.
+\end{aligned}
+\end{equation*}
+\noindent Da nun
+\[
+B_{n+1}=a^{(n+1)}B_n+B_{n-1}
+\]
+\noindent ist, so ergibt sich
+\[
+\begin{aligned}
+P(n+1,x)&=\sum_{a',\ldots,a^{(n+1)}}\frac{x}{(a^{(n+1)}B_n+B_{n-1})(a^{(n+1)}B_n+B_{n-1}+xB_n)}\\[1ex]
+&=\sum_{a',\ldots,a^{(n)}}\sum_{a^{(n+1)}=1}^{\infty}\Biggl\{\frac{\dfrac1{a^{(n+1)}}}{B_n\left(B_n+\dfrac1{a^{(n+1)}}B_{n-1}\right)}\\[1ex]
+&\hspace{9em}-\frac{\dfrac1{a^{(n+1)}+x}}{B_n\left(B_n+\dfrac1{a^{(n+1)}+x}B_{n-1}\right)}\Biggr\},
+\end{aligned}
+\]
+\noindent also indem man die \(n\)-fache Summe nach (6) auswertet
+\begin{equation*}\tag*{(7)}P(n+1,x)=\sum_{\nu=1}^{\infty}\left\{P\left(n,\frac1\nu\right)-P\left(n,\frac1{\nu+x}\right)\right\},\end{equation*}
+\noindent und dies ist nichts anderes, als die von \textsc{Gauss} aufgestellte Gleichung [2].
+\par\noindent\hspace*{\parindent}Nach der Tagebuchaufzeichnung Nr. 113 ist es \textsc{Gauss} im Oktober 1800 gelungen »das Problem zu lösen«. Gemeint ist damit der von ihm in dem Briefe an \textsc{Laplace} (oben S. 372) angegebene asymptotische Wert
+\begin{equation*}\tag*{(8)}\lim_{n\to\infty}P(n,x)=\frac{\log(1+x)}{\log2}.\end{equation*}
+\noindent Wie \textsc{Gauss} diesen Wert gefunden haben mag, hat sich nicht feststellen lassen. Unter der Voraussetzung, daß \(\displaystyle\lim_{n\to\infty}P(n,x)=f(x)\) existiert, ergibt sich aus (7)
+\begin{equation*}\tag*{(9)}f(x)=\sum_{\nu=1}^{\infty}\left\{f\left(\frac1\nu\right)-f\left(\frac1{\nu+x}\right)\right\}\end{equation*}
+\noindent und diese Funktionalgleichung wird offenbar durch den Wert
+\begin{equation*}\tag*{(10)}f(x)=\text{const.}\log(1+x)\end{equation*}
+\par\noindent\hfill70*
+\par\endgroup
+
+\clearpage\SourceLeaf{585}\ArithmeticHead{556}{L}{TAGEBUCH MIT ERLÄUTERUNGEN.}
+\par\begingroup\small
+\noindent befriedigt. Da für \(P(n,x)\) als Wahrscheinlichkeit sofort \(P(n,1)=1\) folgt, ist auch \(f(1)=1\), mithin ergibt sich aus (10) in Übereinstimmung mit (8)
+\[
+f(x)=\frac{\log(1+x)}{\log2}.
+\]
+\par\noindent\hfill\textsc{Stäckel.}
+\par\endgroup

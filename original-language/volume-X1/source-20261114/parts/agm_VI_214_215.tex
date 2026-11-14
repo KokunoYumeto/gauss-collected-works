@@ -1,0 +1,51 @@
+% Werke X/1 (1917), native214–215, printed207–208.
+\begingroup
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\clearpage\SourceLeaf{214}\NoSourceHead
+\SourceGroup{VI}
+\HistoricTitle{DIFFERENTIATIO MEDIORUM\\ARITH[METICO]-GEOM[ETRICORUM].}
+\HistoricCitation{[Aus Scheda Ae, Varia, Julius 1800, S.\ 6.]}
+\begin{center}1.\end{center}
+\par\indent Quum pro valore quocunque ipsius \(n\) sit
+\[M(x+nx,\;y+ny)=M(xy)+nM(x,y)\]
+\noindent erit differentiando secundum \(n\)
+\[\begin{aligned}
+\frac{dM(x+nx,y+ny)}{dn}
+&=\frac{dM(x+nx,y+ny)}{d(x+nx)}.\frac{d(x+nx)}{dn}\\
+&\quad+\frac{dM(x+nx,y+ny)}{d(y+ny)}.\frac{d(y+ny)}{dn}=M(x,y)
+\end{aligned}\]
+\noindent sive
+\[\frac{x\,dM(x,y)}{dx}+\frac{y\,dM(x,y)}{dy}=M(x,y).\]
+\begin{center}2.\end{center}
+\par\indent Porro fit
+\begin{equation*}\tag*{(1)}
+\frac{dM(x,y)}{dx}=\frac12\frac{dM(x,y)}{dx'}+\frac12\frac{y'}x\frac{dM(x,y)}{dy'}
+\end{equation*}
+\begin{equation*}\tag*{(2)}
+\frac{dM(x,y)}{dy}=\frac12\frac{dM(x,y)}{dx'}+\frac12\frac{y'}y\frac{dM(x,y)}{dy'}.
+\end{equation*}
+\noindent Hinc ex (1)
+{\small
+\[\begin{aligned}
+\frac{dM(x,y)}{dx}&=\frac12\frac Mx+\frac12\left(1-\frac{x'}x\right)\frac{dM(x',y')}{dx'}\\
+&=M\left(\frac1{2x}+\frac14\frac1{xx'}(x-x')+\frac18\frac1{xx'x''}(x-x')(x'-x'')\ldots\right)
+\end{aligned}\]}
+\clearpage\SourceLeaf{215}\ArithmeticHead{208}{L}{ANALYSIS.\quad NACHLASS.}
+{\small
+\[\begin{aligned}
+\frac{dM(x,y)}{dx}&=\frac12.\frac Mx+\frac{2x'(x'x'-y'y')}{x(xx-yy)}.\frac{dM(x',y')}{dx'}\\
+&=\frac M{2x}\left(1+\frac{2(x'x'-y'y')}{xx-yy}+\frac{4(x''x''-y''y'')}{xx-yy}\ldots\right)
+\end{aligned}\]
+\[\begin{aligned}
+\frac{dM(x,y)}{dy}&=\frac12.\frac M{x'}+\frac12\left(\frac{y'}y-\frac{y'}{x'}\right)\frac{dM(x',y')}{dy'}\\
+&=\frac12.\frac M{x'}+\frac{2y'}y.\frac{x'x'-y'y'}{xx-yy}.\frac{dM(x',y')}{dy'}\\
+&=\frac12.\frac M{x'}\left(1+2\frac{y'(x'x'-y'y')}{y(xx-yy)}+4\frac{y''(x''x''-y''y'')}{y(xx-yy)}\ldots\right)
+\end{aligned}\]
+\[dM(x,y)=M\times
+\begin{array}{@{}l@{}}
+dx\times\dfrac1{2x(xx-yy)}\{xx-yy+2(x'x'-y'y')+4(\ldots\quad\}\\[1.2em]
+dy\times\dfrac1{2y(xx-yy)}\{xx-yy-2(x'x'-y'y')-4(\ldots\quad\}
+\end{array}\]
+}
+\par\bigskip\centerline{\rule{.25\linewidth}{.4pt}}
+\clearpage\endgroup

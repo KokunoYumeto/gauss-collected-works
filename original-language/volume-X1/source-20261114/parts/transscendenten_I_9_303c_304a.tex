@@ -1,0 +1,64 @@
+\begingroup
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\newcommand{\TransBracket}[1]{\boldsymbol{[}#1\boldsymbol{]}}
+\ArithmeticHead{296}{L}{ANALYSIS. NACHLASS.}
+\NumberedItem{9}
+\par\indent Durch Induction gefunden:
+\[\varepsilon-\varepsilon\varepsilon=\surd3\]
+\[\begin{aligned}
+&\{1+2x+2x^4+2x^9+{.}{.}{.}\}+(\varepsilon-\varepsilon\varepsilon)\{1+2x^3+2x^{12}+2x^{27}+{.}{.}{.}\}\\
+&=-2\varepsilon\varepsilon(1-\varepsilon x)(1-\varepsilon\varepsilon x^3)(1-\varepsilon x^5)(1-\varepsilon\varepsilon x^7){.}{.}{.}\\
+&\qquad(1+x^3)(1+x^9)(1+x^{15})(1+x^{21}){.}{.}{.}\\
+&\qquad\times(1-x^4)(1-x^8)(1-x^{12}){.}{.}{.}
+\end{aligned}\]
+\noindent Dieselbe Summe wäre demnach
+\[\begin{aligned}
+&=-2\varepsilon\varepsilon\{1-\varepsilon x-\varepsilon\varepsilon x^3+\varepsilon\varepsilon x^6+\varepsilon x^{10}-x^{15}-x^{21}+\varepsilon x^{28}+\varepsilon\varepsilon x^{36}-\text{etc.}\}\\
+&\qquad.(1+x^3)(1+x^9)(1+x^{15}){.}{.}{.}\\
+&=\frac2{x^{\frac18}}\{-\varepsilon\varepsilon x^{\frac18}+x^{\frac98}+\varepsilon x^{\frac{25}8}-\varepsilon x^{\frac{49}8}-x^{\frac{81}8}+\varepsilon\varepsilon x^{\frac{121}8}-\text{etc.}\}\\
+&\qquad(1+x^3)(1+x^9)(1+x^{15})\ \text{etc.}
+\end{aligned}\]
+\clearpage
+\ArithmeticHead{297}{R}{{\scriptsize ZUR THEORIE DER TRANSSCENDENTEN FUNCTIONEN. I}}
+\SourceLeaf{304}
+\noindent Woraus folgt
+\begin{equation*}\tag*{1.}
+\begin{aligned}
+&1+2x+2x^4+2x^9+\text{etc.}\\
+&=\frac1{x^{\frac18}}\{x^{\frac18}+2x^{\frac98}-x^{\frac{25}8}+x^{\frac{49}8}-2x^{\frac{81}8}-{.}{.}{.}\}\\
+&\qquad.(1+x^3)(1+x^9)(1+x^{15}){.}{.}{.}
+\end{aligned}
+\end{equation*}
+\begin{equation*}\tag*{2.}
+\begin{aligned}
+&1+2x^3+2x^{12}+2x^{27}+\text{etc.}\\
+&=\frac1{x^{\frac18}}\{x^{\frac18}+x^{\frac{25}8}-x^{\frac{49}8}-x^{\frac{121}8}+x^{\frac{169}8}+{.}{.}{.}\}\\
+&\qquad.(1+x^3)(1+x^9)(1+x^{15}){.}{.}{.}[\text{*)}]
+\end{aligned}
+\end{equation*}
+\[\text{Factor communis}=\frac{\TransBracket{x^6}^2}{\TransBracket{x^3}\TransBracket{x^{12}}}\mathpunct{\raisebox{.5ex}{.}}\]
+\par\indent Auch scheint zu seyn
+\begin{equation*}\tag*{[9]}
+\left\{\begin{aligned}
+&1+2x^9+2x^{36}+\text{etc.}\\
+&=\frac1{x^{\frac18}}\{x^{\frac18}-x^{\frac{25}8}+x^{\frac{49}8}-x^{\frac{121}8}-x^{\frac{169}8}{.}{.}{.}\}\\
+&\qquad(1+x^3)(1+x^9)(1+x^{15}){.}{.}{.}
+\end{aligned}\right.
+\end{equation*}
+\begin{equation*}\tag*{[10]}
+\left\{\begin{aligned}
+&x+x^4+x^{16}+x^{25}+\text{etc.}\\
+&=\frac1{x^{\frac18}}\{x^{\frac98}-x^{\frac{81}8}-x^{\frac{225}8}+x^{\frac{441}8}+x^{\frac{729}8}-{.}{.}{.}\}\\
+&\qquad(1+x^3)(1+x^9)(1+x^{15}){.}{.}{.}\\
+&=x\frac{\TransBracket{x^6}^2\TransBracket{x^9}\TransBracket{x^{36}}}{\TransBracket{x^3}\TransBracket{x^{12}}\TransBracket{x^{18}}},
+\end{aligned}\right.
+\end{equation*}
+\noindent folglich
+\[1-x-x^3+x^6+\text{etc.}=\frac{\TransBracket{x}\TransBracket{x^4}}{\TransBracket{xx}},\]
+\noindent wie gehörig.
+\begin{center}\textit{Ist alles bewiesen.}\end{center}
+\Needspace{3\baselineskip}
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small\par\indent [*) In der Handschrift steht $-x^{\frac{169}8}-{.}{.}{.}$]\par}
+\clearpage
+\endgroup

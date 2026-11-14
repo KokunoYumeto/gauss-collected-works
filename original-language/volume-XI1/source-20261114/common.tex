@@ -1,0 +1,17 @@
+\documentclass[11pt,oneside,openany]{book}
+\usepackage[paperwidth=7.4in,paperheight=10.4in,margin=.75in,headheight=20pt]{geometry}
+\usepackage{fontspec}
+\setmainfont{lmroman10-regular.otf}[BoldFont=lmroman10-bold.otf,ItalicFont=lmroman10-italic.otf,BoldItalicFont=lmroman10-bolditalic.otf,SmallCapsFont=lmromancaps10-regular.otf]
+\usepackage[main=german,latin,english]{babel}
+\usepackage{amsmath,amssymb,microtype,fancyhdr,needspace,tikz}
+\usepackage[unicode,hidelinks]{hyperref}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0pt plus .3pt}
+\setlength{\emergencystretch}{1.4em}
+\widowpenalty=10000\clubpenalty=10000\displaywidowpenalty=10000
+\pagestyle{fancy}\fancyhf{}\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}\raggedbottom
+\newcommand{\SourceLeaf}[1]{\hypertarget{native-#1}{}\label{native-#1}}
+\newcommand{\NoSourceHead}{\fancyhead{}\fancyfoot[L]{}\fancyfoot[R]{}}
+\newcommand{\HistoricalHead}[3]{\NoSourceHead\fancyhead[#2]{\small #1}\fancyhead[C]{\fontsize{7.5}{9}\selectfont #3}}
+\newcommand{\HistoricalFoot}[2]{\fancyfoot[L]{\small #1}\fancyfoot[R]{\small #2}}

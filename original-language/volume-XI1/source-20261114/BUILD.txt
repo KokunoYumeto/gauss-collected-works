@@ -1,0 +1,2 @@
+Use XeLaTeX with the fonts and packages named in common.tex. From this directory, run xelatex -no-shell-escape source.tex twice. Retain all files in parts/.
+For mathematical text extraction, run python map_math_text.py source.pdf. This requires PyMuPDF, fontTools and the installed LaTeX glyphtounicode-cmex.tex mapping file. Its credits include Han The Thanh, Peter Selinger and Ross Moore.

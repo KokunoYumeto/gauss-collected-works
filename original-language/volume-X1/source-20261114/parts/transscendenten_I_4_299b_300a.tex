@@ -1,0 +1,73 @@
+\begingroup
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\newcommand{\TransBracket}[1]{\boldsymbol{[}#1\boldsymbol{]}}
+\newcommand{\TransCrescent}{\tikz[baseline=-.1em,x=.09em,y=.09em]{\draw[line width=.4pt] (5,0) .. controls (-1,0) and (-1,8) .. (5,8) .. controls (0,7.5) and (0,.5) .. (5,0);}}
+\ArithmeticHead{292}{L}{ANALYSIS. NACHLASS.}
+\NumberedItem{4}
+\noindent{\small[S. 43]}\par
+\par\indent Wir bezeichnen
+\[(1-x)(1-xx)(1-x^3)\ \text{etc.}\ \text{mit}\ \TransBracket{x}[\text{*)}],\]
+\noindent so ist
+\[x\TransBracket{x^{24}}=x-x^{25}-x^{49}+x^{121}+x^{169}-x^{289}-x^{361}-\text{etc.}[\text{**)}],\]
+\begin{equation*}\tag*{$[2]'$}
+\left\{\begin{aligned}
+&1+x+x^3+x^6+\text{etc.}\\
+&=\frac{(1-xx)(1-x^4)(1-x^6){.}{.}{.}}{(1-x)(1-x^3)(1-x^5){.}{.}{.}}=\frac{\TransBracket{xx}^2}{\TransBracket{x}}\\
+&=(1+x)(1+xx)(1+x^3)(1+x^4)(1+x^5){.}{.}{.}\\
+&\qquad.(1-x^2)(1-x^4)(1-x^{16}){.}{.}{.}
+\end{aligned}\right.
+\end{equation*}
+\begin{equation*}\tag*{[3]}
+\begin{aligned}
+&1-2x+2x^4-2x^9+\text{etc.}\\
+&=\frac{(1-x)(1-xx)(1-x^3){.}{.}{.}}{(1+x)(1+xx)(1+x^3){.}{.}{.}}=\frac{\TransBracket{x}^2}{\TransBracket{xx}}
+\end{aligned}
+\end{equation*}
+\begin{equation*}\tag*{[4]}
+\left\{\begin{aligned}
+&1+2x+2x^4+2x^9+\text{etc.}\\
+&=\frac{(1+x)(1-xx)(1+x^3){.}{.}{.}}{(1-x)(1+xx)(1-x^3){.}{.}{.}}=\frac{\TransBracket{xx}^5}{\TransBracket{x}^2\TransBracket{x^4}^2}\\
+&=(1+x)^2(1-xx)(1+x^3)^2(1-x^4)(1+x^5)^2{.}{.}{.}[\text{***)}]
+\end{aligned}\right.
+\end{equation*}
+\begin{equation*}\tag*{[5]}
+\TransBracket{-x}=\frac{\TransBracket{xx}}{\TransBracket{x}\TransBracket{x^4}}.
+\end{equation*}
+\ClosingRule
+\Needspace{5\baselineskip}
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small
+\par\indent [*) Zum Unterschied von den die Zusätze des Herausgebers einschließenden Klammern sind die hier von \textsc{Gauss} benutzten Klammern verstärkt.]
+\par\indent [**)] Folgt aus \# [S. 293], wenn man statt $x,y$ schreibt $x^3,-x$ [und dann an die Stelle von $x$ setzt $x^{12}$].
+\par\indent [***)] Entwickelt die Potenzen der Reihe.
+\par}
+\clearpage
+\ArithmeticHead{293}{R}{{\scriptsize ZUR THEORIE DER TRANSSCENDENTEN FUNCTIONEN. I}}
+\SourceLeaf{300}
+\[\begin{aligned}
+&{.}{.}{.}\left[\left(1+\frac{x^{16}}{yy}\right)\left(1+\frac{x^8}{yy}\right)\right]\left(y+\frac1y\right)\\
+&\qquad(1+x^8yy)(1+x^{16}yy)(1+x^{24}yy){.}{.}{.}\\
+&=\frac1{\TransBracket{x^8}x}\left\{\left(y+\frac1y\right)x+\left(y^3+\frac1{y^3}\right)x^9+{.}{.}{.}\right\}
+\end{aligned}\]
+\[\begin{aligned}
+&(1+xy)(1+x^2y)(1+x^3y)(1+x^4y){.}{.}{.}\\
+&\qquad\left(1+\frac xy\right)\left(1+\frac{x^2}y\right)\left(1+\frac{x^3}y\right)\left(1+\frac{x^4}y\right){.}{.}{.}\\
+&=\frac1{\TransBracket{x}}\Biggl\{1+x\left(y-1+\frac1y\right)+x^3\left(yy-y+1-\frac1y+\frac1{yy}\right)\\
+&\qquad+x^6\left(y^3-yy+y-1+\frac1y-\frac1{yy}+\frac1{y^3}\right){.}{.}{.}\Biggr\}
+\end{aligned}\]
+\ClosingRule
+\[\TransBracket{x^3}=1-3x+5x^3-7x^6+9x^{10}-\text{etc.}\]
+\noindent folgt leicht aus \TransCrescent\ [S. 294], wenn man $y=1+\omega$ setzt und daraus die Bedingungsgl[eichung] bildet.
+\ClosingRule
+\begin{equation*}\tag*{\#}
+\left\{\begin{aligned}
+&(1+xy)(1+x^3y)(1+x^5y){.}{.}{.}\left(1+\frac xy\right)\left(1+\frac{x^3}y\right)\left(1+\frac{x^5}y\right){.}{.}{.}\\
+&=\frac1{\TransBracket{xx}}\left\{1+x\left(y+\frac1y\right)+x^4\left(yy+\frac1{yy}\right)+x^9\left(y^3+\frac1{y^3}\right)+{.}{.}{.}\right\},
+\end{aligned}\right.
+\end{equation*}
+\[\begin{aligned}
+&\text{etc.}+x^{(\omega-1)^2}+x^{\omega\omega}+x^{(\omega+1)^2}+\text{etc.}\\
+&=\frac{\TransBracket{xx}{.}{.}{.}1+x^{2\omega+3}.1+x^{2\omega+1}.1+x^{2\omega-1}.1+x^{2\omega-3}{.}{.}{.}}{x^{-\omega\omega}.x^{2\omega-1}.x^{2\omega-3}{.}{.}{.}}\mathpunct{\raisebox{.5ex}{.}}
+\end{aligned}\]
+\clearpage
+\endgroup

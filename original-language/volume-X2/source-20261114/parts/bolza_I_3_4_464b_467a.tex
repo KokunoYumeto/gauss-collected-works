@@ -1,0 +1,134 @@
+\clearpage\begingroup\NoSourceHead
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\renewcommand{\thefootnote}{\arabic{footnote})}\setcounter{footnote}{5}
+\ArithmeticHead{7}{R}{GESCHICHTE DER EXTREMA VON DOPPELINTEGRALEN VOR GAUSS.}
+\noindent\hspace*{\parindent}3. Obwohl \textsc{Gauss} sich der Methode der Variation der unabhängigen
+Variabeln bedient, so ist es der Vollständigkeit halber doch erforderlich,
+einiges über die Methode der Variation der Grenzen vorauszuschicken.
+
+Der Grundgedanke der Methode kommt schon bei \textsc{Lagrange}\footnote{Oeuvres de \textsc{Lagrange}, Bd. XIV, S. 147—149.} vor in
+einem Brief an \textsc{Euler} vom 20. November 1755 und zwar bei der Lösung des
+Problems der Brachistochrone von einem gegebenen Punkt nach einer gegebenen
+Kurve.
+
+Aber erst siebzig Jahre später (1825) ist die Methode von \textsc{Ohm}\footnote{\textsc{Martin Ohm}, \textit{Die Lehre vom Grössten und Kleinsten}, Berlin 1825.} systematisch
+durchgeführt und auch auf Doppelintegrale angewandt worden. Dabei
+ist zunächst die Sorgfalt hervorzuheben, die \textsc{Ohm} im Gegensatz zu seinen Vorgängern
+auf die Bezeichnung verwendet. So hat er bereits — siebzehn Jahre
+vor \textsc{Sarrus} — ein einfaches und ein doppeltes \textls[100]{Substitutionszeichen}, und
+die Grenzen der bestimmten Integrale werden stets angegeben, ebenso die
+\par\clearpage\SourceLeaf{465}
+\ArithmeticHead{8}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent Integrationsordnung bei Doppelintegralen. Dieser sorgfältigen Bezeichnung
+ist es nun auch zum grossen Teil zuzuschreiben, dass \textsc{Ohm} bei der Variation
+der Doppelintegrale ganz wesentlich über seine Vorgänger \textsc{Euler} und \textsc{Lagrange}
+hinausgekommen ist.
+
+\textsc{Ohm} legt seinen Untersuchungen die \textsc{Euler}sche Auffassung der Variation
+als Differentiation nach einem Parameter zugrunde. Dem entsprechend werden
+in dem zu variierenden Doppelintegral
+\begin{equation*}
+J=\int_{x_0}^{x_1}\left(\int_{y_0(x)}^{y_1(x)}V\left(x,y,z,\frac{\partial z}{\partial x},\frac{\partial z}{\partial y},\ldots\right)dy\right)dx\tag{8}
+\end{equation*}
+die Grössen:
+\[
+z(x,y),\quad y_0(x),\quad y_1(x),\quad x_0,\quad x_1
+\]
+durch Funktionen eines Parameters $\varkappa$:
+\[
+\bar z(x,y,\varkappa),\quad\bar y_0(x,\varkappa),\quad\bar y_1(x,\varkappa),\quad\bar x_0(\varkappa),\quad\bar x_1(\varkappa)
+\]
+ersetzt, die sich für $\varkappa=0$ auf die vorigen reduzieren. Das so entstehende
+Integral $\bar J$ wird dann nach $\varkappa$ differentiiert und dann $\varkappa=0$ gesetzt. Durch
+zweimalige Anwendung der Regel für die Differentiation eines bestimmten
+Integrals nach einem Parameter ergibt sich die folgende \textls[100]{erste Fundamentalformel
+von \textsc{Ohm}}\footnote{\textsc{Ohm}, loc. cit. 7), S. 121, 122. \textsc{Ohm} selbst leitet die Formel (9) durch zweimalige Anwendung der von ihm vorher bewiesenen entsprechenden Formel für einfache Integrale ab.}:
+\begin{equation*}
+\begin{aligned}
+\delta J={}&\int_{x_0}^{x_1}\int_{y_0}^{y_1}\delta V\,dy\,dx
++\int_{x_0}^{x_1}\delta y_1\Big|^{y_1}V\,dx-\int_{x_0}^{x_1}\delta y_0\Big|^{y_0}V\,dx\\
+&+\delta x_1\Big|^{x_1}\int_{y_0}^{y_1}V\,dy-\delta x_0\Big|^{x_0}\int_{y_0}^{y_1}V\,dy.
+\end{aligned}\tag{9}
+\end{equation*}
+
+Dabei haben wir von dem einfachen Substitutionssymbol in der aus dem
+\textsc{Lindelöf-Moigno}schen Lehrbuch\begingroup\renewcommand{\thefootnote}{8a)}\footnote{\textsc{F. Moigno, L. Lindelöf}, \textit{Leçons sur le calcul différentiel et intégral}, IV, Calcul des Variations, Paris 1861.}\endgroup\setcounter{footnote}{8}\ 
+bekannten Form Gebrauch gemacht, und
+das Symbol $\delta$ bedeutet allgemein die Operation
+\[
+\delta\varphi=\left(\frac{\partial\bar\varphi}{\partial\varkappa}\right)_{\varkappa=0}.
+\]
+\par\clearpage\SourceLeaf{466}
+\ArithmeticHead{9}{R}{GESCHICHTE DER EXTREMA VON DOPPELINTEGRALEN VOR GAUSS.}
+\noindent Mit der Formel (9) war die Aufgabe der \textls[100]{Aufstellung} der ersten Variation
+für Doppelintegrale mit variablen Grenzen gelöst.
+
+4. Von fast noch grösserer Wichtigkeit ist die \textls[100]{Umformung}, die nunmehr
+\textsc{Ohm} mit dem in der Formel (9) auftretenden Doppelintegral vornimmt,
+nachdem er dasselbe zunächst auf die Form (3) gebracht hat. — Die Schwierigkeit,
+aus der Gleichung (7) weitere Folgerungen zu ziehen, hatte im wesentlichen
+darin bestanden, dass in den beiden einfachen Integralen auf der linken
+Seite nach verschiedenen Variabeln und zwischen verschiedenen Grenzen integriert
+wird. Um diesem Übelstand abzuhelfen, macht \textsc{Ohm} von der folgenden
+Formel Gebrauch, die sich unmittelbar aus der Regel für die Differentiation
+eines bestimmten Integrals nach einem Parameter ergibt,
+\begin{equation*}
+\int_{y_0}^{y_1}\frac{\partial A(x,y)}{\partial x}\,dy
+=\frac{d}{dx}\int_{y_0}^{y_1}A(x,y)\,dy-A(x,y_1)\frac{dy_1}{dx}+A(x,y_0)\frac{dy_0}{dx}.\tag{10}
+\end{equation*}
+Hiernach erhält man an Stelle der \textsc{Euler}schen Formel (5) die folgende
+\begin{equation*}
+\int_{x_0}^{x_1}\int_{y_0}^{y_1}\left(\frac{\partial A}{\partial x}+\frac{\partial B}{\partial y}\right)dy\,dx
+=\Big|_{x_0}^{x_1}\int_{y_0}^{y_1}A\,dy+\int_{x_0}^{x_1}\Big|_{y_0}^{y_1}\left(B-A\frac{dy}{dx}\right)dx,\tag{11}
+\end{equation*}
+wobei wir zur Abkürzung ausser von dem \textsc{Cauchy}schen Doppel-Substitutionszeichen
+noch von der \textsc{Lindelöf}schen Bezeichnung
+\begin{equation*}
+\Big|_{y_0}^{y_1}A\frac{dy}{dx}=\frac{dy_1}{dx}\Big|^{y_1}A-\frac{dy_0}{dx}\Big|^{y_0}A\tag{12}
+\end{equation*}
+Gebrauch gemacht haben.
+
+Die Anwendung der Formel (11) auf das in (9) vorkommende Doppelintegral
+liefert für den einfachsten Fall, wo in dem Integral $J$ keine höheren
+als die ersten Ableitungen der Funktion $z$ vorkommen, die folgende \textls[100]{zweite
+Fundamentalformel von \textsc{Ohm}}\footnote{\textsc{Ohm}, loc. cit. 7), S. 306; bereits \textsc{Todhunter} hat auf die Formel (13) von \textsc{Ohm} aufmerksam gemacht, loc. cit. 5), S. 32.}:
+\begin{equation*}
+\begin{aligned}
+\int_{x_0}^{x_1}\int_{y_0}^{y_1}\delta V\,dy\,dx
+={}&\int_{x_0}^{x_1}\int_{y_0}^{y_1}\left(N-\frac{\partial P}{\partial x}-\frac{\partial Q}{\partial y}\right)\omega\,dy\,dx\\
+&+\Big|_{x_0}^{x_1}\int_{y_0}^{y_1}P\omega\,dy+\int_{x_0}^{x_1}\Big|_{y_0}^{y_1}\left(Q-P\frac{dy}{dx}\right)\omega\,dx.
+\end{aligned}\tag{13}
+\end{equation*}
+\par\smallskip\noindent{\small X 2 Abh. 5.}\hfill{\small 2}\par
+\clearpage\SourceLeaf{467}
+\ArithmeticHead{10}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent\hspace*{\parindent}Der Ausdruck, der sich nunmehr durch Kombination von (9) und (13)
+für $\delta J$ ergibt, hat die folgenden beiden Eigenschaften:
+
+1) Die Integrationen und Substitutionen werden in allen Gliedern von $\delta J$
+in derselben festen Reihenfolge ausgeführt.
+
+2) In keinem Glied kommt unter einem Integralzeichen eine nach der
+Integrationsvariabeln genommene partielle Ableitung von $\omega$ vor.
+
+Das sind aber gerade die beiden charakteristischen Eigenschaften der
+Normalform, auf die \textsc{Sarrus} in seiner Preisarbeit\footnote{\textit{Recherches sur le calcul des variations}, eingereicht 1842, jedoch erst 1848 veröffentlicht in den Mémoires présentés par divers savants à l’Académie des Sciences (Paris), Bd. X, S. 1—128.} die erste Variation eines
+beliebigen $n$-fachen Integrals gebracht hat. \textsc{Ohm} hat also mit den beiden
+Formeln (9) und (13) für den einfachsten Typus von Doppelintegralen die
+\textsc{Sarrus}schen Resultate bereits vorweggenommen.
+
+Damit war \textsc{Ohm} sehr nahe an die Ableitung der »Randbedingungen«
+herangekommen; den letzten Schritt jedoch, die Aufstellung eines »Fundamentallemmas«,
+das ihm gestattet hätte, alle Folgerungen aus dem Verschwinden
+der ersten Variation zu ziehen, hat er nicht gemacht. Er hat zwar auch nach
+dieser Richtung Untersuchungen angestellt; dieselben haben aber zu keinem
+befriedigenden Ergebnis geführt\footnote{\textsc{Ohm}, loc. cit. 7), S. 75—80; der allgemeine Satz auf S. 79 ist unrichtig.}. — In seiner grossen Preisarbeit (1842) hat
+dann \textsc{Sarrus} dieselbe Methode der Variation der Grenzen systematisch und
+mit grösster Konsequenz auf beliebige vielfache Integrale ausgedehnt und die
+ganze Theorie durch sein »allgemeines Fundamentallemma«\footnote{\textsc{Sarrus}, loc. cit. 10), S. 55—84.} erst zum vollen
+Abschluss gebracht. Auch die gleichzeitige Preisarbeit von \textsc{Delaunay}\footnote{\textit{Mémoire sur le calcul des variations}, eingereicht 1842, veröffentlicht 1843 im Journal de l’École Polytechnique, Cahier 29, S. 37—120.} bedient
+sich der Methode der Variation der Grenzen und ebenso die beiden
+wichtigsten Lehrbücher der Variationsrechnung des neunzehnten Jahrhunderts,
+\textsc{Jellett}\begingroup\renewcommand{\thefootnote}{13a)}\footnote{\textsc{J. H. Jellett}, \textit{An elementary treatise on the calculus of variations}, Dublin 1850; deutsch von \textsc{C. H. Schnuse}, Braunschweig 1860.}\endgroup\setcounter{footnote}{13}\ und \textsc{Lindelöf-Moigno}\textsuperscript{8a)}, die sich bezw. an \textsc{Delaunay} und \textsc{Sarrus}
+anlehnen.
+\par\clearpage\endgroup

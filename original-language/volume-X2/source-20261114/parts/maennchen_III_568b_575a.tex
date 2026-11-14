@@ -1,0 +1,294 @@
+\clearpage\begingroup
+\ArithmeticHead{13}{R}{III. ÜBUNG DES DIVISIONSVERFAHRENS AN KETTENBRÜCHEN.}
+\renewcommand{\thefootnote}{\arabic{footnote})}\setcounter{footnote}{0}
+\newcommand{\MDown}[2]{\mathord{\raisebox{#1}{$\displaystyle #2$}}}
+\begin{center}III.\\[3pt]{\large\textls[100]{Übung des Divisionsverfahrens an Kettenbrüchen.}}\end{center}
+\noindent\hspace*{\parindent}Eine andere Anfangsübung ist die Bestimmung von $\sqrt{5}$\footnote{Nachlass, Kapsel 44.}:
+\[
+\sqrt{5}=3-\frac{1}{4}-\frac{6}{13}+\frac{6}{29}+\frac{34}{211}-\frac{177}{421}=\frac{299537289}{133957148}.
+\]
+\noindent Hier benutzt er bereits die Kettenbruchentwicklung für $\sqrt{5}$, und zwar den
+12. Näherungsbruch, zerlegt den Nenner in die Faktoren $4\mathord{.}13\mathord{.}29\mathord{.}211\mathord{.}421$,
+macht dann in der oben geschilderten Weise die Partialbruchzerlegung und
+erhält so das rechts von $\sqrt{5}$ stehende Aggregat. Auch den 8. Näherungswert
+derselben Kettenbruchentwicklung gibt er darunter an:
+\[
+\sqrt{5}=\frac{930249}{416020}\qquad 416020=4\mathord{.}5\mathord{.}11\mathord{.}31\mathord{.}61.
+\]
+\clearpage\SourceLeaf{569}\ArithmeticHead{14}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\setcounter{footnote}{0}
+\noindent Eine vollständig durchgeführte Übungsaufgabe dieser Art finden wir \textsc{Leiste},
+S. 50. Es handelt sich um $\sqrt{17}=4+\frac{1}{8}\MDown{-.4ex}{+\frac{1}{8}}\MDown{-.8ex}{+\ldots\ \text{in inf.}}$
+Man beachte wieder die praktische Anordnung.
+\begingroup\small\setlength{\arraycolsep}{3pt}
+\[
+\begin{array}{ccccccccc}
+\scriptstyle1&\scriptstyle2&\scriptstyle3&\scriptstyle4&\scriptstyle5&\scriptstyle6&\scriptstyle7&\scriptstyle8&\scriptstyle9\\
+\frac{4}{1}&\frac{33}{8}&\frac{268}{65}&\frac{2177}{528}&\frac{17684}{4289}&\frac{143649}{34840}&\frac{1166876}{283009}&\frac{9478657}{2298912}&\frac{}{65\mathord{.}287297}\\
+&&&&\text{pr.}&&\text{pr.}&&
+\end{array}
+\]
+\endgroup
+\[
+\frac{9478657}{2298912}=\frac{5}{7}+\frac{2}{3}+\frac{4}{11}+\frac{1}{32}+\frac{730}{311}
+\]
+\begingroup\small
+\[
+\begin{array}{r@{\;}l}
+\frac{730}{311}={}&2{,}347266881028938906752411575562\\[5pt]
+\frac{1}{32}={}&\phantom{0{,}0}3125\\[5pt]
+\text{Cetera}={}&1{,}744588744588744588744588744588\\\hline
+&4{,}12310562561768349549
+\end{array}\text{\textsuperscript{1)}}.
+\]
+\endgroup
+\setcounter{footnote}{1}\footnotetext{Er addiert zunächst $\frac{2}{3}+\frac{4}{11}=1+\frac{1}{33}=1{,}030303$, und dieses Ergebnis zählt er zu $\frac{5}{7}=0{,}714285714285$ in der Dezimalbruchtabelle.}
+\par\noindent\hspace*{\parindent}Man sieht, dass der 5. Näherungswert bereits auf seine Brauchbarkeit
+untersucht worden ist; allein der Nenner erwies sich als Primzahl (pr.).
+Ebenso war es mit dem Nenner des 7. Näherungswertes. Der 6. war zwar
+brauchbar; denn der Nenner ist $40\mathord{.}13\mathord{.}67$; aber er wurde wohl einstweilen
+zurückgestellt. Ein Näherungswert für eine Quadratwurzel scheint unbrauchbar zu sein, wenn der Nenner nicht in Primfaktoren unter 1000 zerlegbar ist,
+da in diesem Falle die Dezimalbruchtabelle nicht benutzt werden kann. Man
+kann aber, wenn der Zähler in dieser Weise zerlegbar ist,
+\[
+\frac{1}{N}\approx\frac{1}{\sqrt{17}}=\frac{1}{17}\sqrt{17}
+\]
+\noindent berechnen und dann mit 17, oder allgemein mit dem Radikanden multiplizieren. Solche Versuche, den Zähler zu zerlegen, finden sich gelegentlich
+bei \textsc{Gauss}.
+
+Über diese Stufe erhebt sich nun \textsc{Gauss} durch die Versuche, die \textls[100]{Genauigkeit zu verschärfen}. In Kapsel 44 des Nachlasses findet sich ein
+Blatt mit dem folgenden Beispiel:
+\[
+\begin{aligned}
+\sqrt{2}&=\frac{275807^2+2\mathord{.}195025^2}{2\mathord{.}195025\mathord{.}275807}=\frac{152139002499}{107578520350}\quad\text{quam proxime}\\
+&=\frac{7}{50}+\frac{1}{7}+\frac{2}{29}+\frac{37}{41}+\frac{134}{269}+\frac{636}{961}-1.
+\end{aligned}
+\]
+\clearpage\SourceLeaf{570}\ArithmeticHead{15}{R}{III. ÜBUNG DES DIVISIONSVERFAHRENS AN KETTENBRÜCHEN.}
+\noindent Der Gedankengang ist vermutlich der folgende gewesen: Für
+\[
+\sqrt{2}=1+\frac{1}{2}\MDown{-.4ex}{+\frac{1}{2}}\MDown{-.8ex}{+\ldots\ \text{in inf.}}
+\]
+\noindent ist der 14. Näherungswert $\frac{275807}{195025}$. Nun sei $\frac{u}{v}$ ein Näherungswert für $\sqrt{n}$ und
+zwar $\frac{u}{v}>\sqrt{n}$; dann ist $\frac{u}{v\sqrt{n}}>1$ und $\frac{v\sqrt{n}}{u}<1$. Alsdann ist mit noch viel
+geringerer Abweichung die Gleichung erfüllt:
+\[
+\frac{u}{v\sqrt{n}}+\frac{v\sqrt{n}}{u}=2,
+\]
+\noindent woraus folgt:
+\[
+\frac{u}{v}+\frac{nv}{u}=2\sqrt{n},
+\]
+\noindent und hieraus:
+\[
+\frac{u^2+nv^2}{2uv}=\sqrt{n},
+\]
+\par\noindent\hspace*{\parindent}Noch wahrscheinlicher ist allerdings der folgende Gedankengang, der ein
+besseres Urteil über den Grad der erreichten Genauigkeit ermöglicht:
+\[
+\begin{aligned}
+&\sqrt{n}\approx\frac{u}{v};\quad v^2\mathord{.}n=u^2\pm\varepsilon\\
+&\hspace{3em}n=\frac{u^2\pm\varepsilon}{v^2}=\frac{u^2}{v^2}\left(1\pm\frac{\varepsilon}{u^2}\right)\\
+&\hspace{2em}\sqrt{n}=\frac{u}{v}\left(1\pm\frac{\varepsilon}{u^2}\right)^{\frac12}=\frac{u}{v}\left(1\pm\frac{\varepsilon}{2u^2}+\ldots\right)=\frac{u}{v}\pm\frac{\varepsilon}{2uv}\\
+&\hspace{2em}\sqrt{n}=\frac{2u^2\pm\varepsilon}{2uv},
+\end{aligned}
+\]
+\noindent und da $u^2\pm\varepsilon=v^2\mathord{.}n$ ist,
+\[
+\sqrt{n}=\frac{u^2+nv^2}{2uv}.
+\]
+\par\noindent\hspace*{\parindent}Auf der nächsten Stufe zeigt \textsc{Gauss} bereits eine Rechengewandtheit, der
+nur schwer zu folgen ist. Die Kettenbruchentwicklung liefert ihm für $\sqrt{15}$:
+\begingroup\small
+\[
+\begin{aligned}
+\text{1)}\quad\sqrt{15}\ \text{quam proxime}&=\frac{457470751}{118118440}=4+\frac{3}{8}+\frac{2}{5}-\frac{2}{11}-\frac{9}{19}-\frac{20}{71}+\frac{7}{199}\\[4pt]
+\text{2)}\quad\sqrt{15}\ \text{quam proxime}&=\frac{28355806081}{7321437648}=5+\frac{5}{16}-\frac{1}{7}+\frac{1}{9}-\frac{9}{23}-\frac{11}{31}-\frac{21}{61}-\frac{53}{167}.
+\end{aligned}
+\]
+\endgroup
+\noindent Nun schreibt er Ergebnis und Interpolationen:
+\begingroup\small\setlength{\arraycolsep}{2pt}
+\[
+\begin{array}{r@{\;}r@{\;}l}
+\text{zu 1)}&3{,}872983\,346207\,416894\,432401\,917939\,315825\,708500\,721817\,8635&\text{etc.}\\
+&-\quad9\,253136\,518156\,916248\,036269\,795441\,7885&\text{etc.}\\
+&416885\,179265\,399782\,399577\,672230\,926376\,0750&\text{etc.}\\
+&+\qquad33\,160690\,778915\,5160&\text{etc.}\\[-2pt]
+&\overline{399610\,832921\,705291\,5910}&
+\end{array}
+\]
+\endgroup
+\clearpage\SourceLeaf{571}\ArithmeticHead{16}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\begingroup\small\setlength{\arraycolsep}{2pt}
+\[
+\begin{array}{r@{\;}r@{\;}l}
+\text{zu 2)}&3{,}872983\,346207\,416885\,181673\,816530\,193032\,929862\,629624\,3505&\text{etc.}\\
+&-\quad2408\,416747\,793422\,096943\,170845\,6075&\text{etc.}\\
+&179265\,399782\,399610\,832919\,458778\,7430&\text{etc.}\\
+&+\qquad2\,246512\,8480&\text{etc.}\\[-2pt]
+&\overline{832921\,705291\,5910}&\text{etc.}
+\end{array}
+\]
+\endgroup
+\par\noindent\hspace*{\parindent}Man sieht: Der erste Näherungswert liefert $\sqrt{15}$ auf 16 Dezimalstellen;
+der zweite auf 19 Stellen; die zweimalige Interpolation auf mehr als 50
+Stellen! Eine Andeutung der Methode war nirgends zu finden, wir wollen
+daher versuchen, den Weg aufzudecken, den \textsc{Gauss} gegangen sein könnte.
+
+Bezeichnet man den von \textsc{Gauss} unter 1) angegebenen, aus der Kettenbruchentwicklung
+\[
+\sqrt{15}=4-\frac{1}{8}\MDown{-.4ex}{-\frac{1}{8}}\MDown{-.8ex}{-\ \text{in inf.}}
+\]
+\noindent gewonnenen Wert mit $\frac{Z}{N}$, so besteht auf Grund dieser Entwicklung die
+Gleichung
+\[
+15N^2=Z^2-1,
+\]
+\noindent also
+\[
+\begin{aligned}
+15&=\frac{Z^2-1}{N^2}=\frac{Z^2}{N^2}\left(1-\frac{1}{Z^2}\right);\\
+\sqrt{15}&=\frac{Z}{N}\left(1-\frac{1}{Z^2}\right)^{\frac12}.
+\end{aligned}
+\]
+\noindent Berücksichtigt man nur die drei ersten Glieder der Binomialreihe, so entsteht die Gleichung:
+\[
+\sqrt{15}=\frac{Z}{N}\left(1-\frac{1}{2}\mathord{.}\frac{1}{Z^2}-\frac{1}{8}\mathord{.}\frac{1}{Z^4}\right).
+\]
+\par\noindent\hspace*{\parindent}Diese Entwicklung war \textsc{Gauss} naturgemäss nicht »zierlich« genug. Denn
+die Division durch $Z^2$, also hier durch $457470751^2$, war unvermeidlich, und
+wir sehen ja, dass er bereits der Division durch $N$, also durch 118118440
+aus dem Wege gegangen ist, indem er $\frac{Z}{N}$ in Teilbrüche zerlegt hat, die er
+mit Hilfe seiner Tafel der reziproken Werte der Primzahlen leicht auf beliebig viele Stellen hinschreiben konnte. Zu diesem Zweck hatte er 118118440
+in seine Primfaktoren zerlegt; und nun müsste er in gleicher Weise 457470751
+zerlegen. Das wäre erstens umständlich, und zweitens wäre der Erfolg zweifelhaft.
+\clearpage\SourceLeaf{572}\ArithmeticHead{17}{R}{III. ÜBUNG DES DIVISIONSVERFAHRENS AN KETTENBRÜCHEN.}
+\noindent\hspace*{\parindent}Dagegen ist die Division durch $Z^2-1$ aussichtsreich; denn diese Zahl
+ist nach unserer ersten Formel gleich $15N^2$, und $N$ ist ja bereits in Faktoren
+zerlegt. Statt der Division durch $457470751^2$ wird daher die durch
+\[
+457470751^2-1=15\mathord{.}(8\mathord{.}5\mathord{.}11\mathord{.}19\mathord{.}71\mathord{.}199)^2
+\]
+\noindent gewählt.
+\par\noindent\hspace*{\parindent}Nun ist
+\[
+\begin{gathered}
+\frac{1}{Z^2-1}=\frac{\frac{1}{Z^2}}{1-\frac{1}{Z^2}}=\frac{1}{Z^2}\left(1+\frac{1}{Z^2}+\frac{1}{Z^4}+\ldots\right);\quad\text{also}\quad\frac{1}{Z^2}=\frac{1}{Z^2-1}-\frac{1}{Z^4}-\ldots\\[6pt]
+\begin{aligned}
+\sqrt{15}&=\frac{Z}{N}-\frac{1}{2}\mathord{.}\frac{Z}{N}\left(\frac{1}{Z^2}+\frac{1}{4}\mathord{.}\frac{1}{Z^4}\right)=\frac{Z}{N}-\frac{1}{2}\mathord{.}\frac{Z}{N}\mathord{.}\frac{1}{Z^2}\left(1+\frac{1}{4}\mathord{.}\frac{1}{Z^2}\right)\\
+&=\frac{Z}{N}-\frac{1}{2}\mathord{.}\frac{Z}{N}\mathord{.}\frac{1}{Z^2-1}\left(1-\frac{3}{4}\mathord{.}\frac{1}{Z^2}\right).
+\end{aligned}
+\end{gathered}
+\]
+\noindent In dem Klammerausdruck setzt man für $\frac{1}{Z^2}$ den Wert $\frac{1}{Z^2-1}$, ohne die oben
+abgegrenzte Genauigkeit zu beeinträchtigen. Es ergibt sich also:
+\[
+\sqrt{15}=\frac{Z}{N}-\left(\frac{Z}{N}\right)\mathord{.}\frac{1}{2}\mathord{.}\frac{1}{Z^2-1}+\left(\frac{Z}{N}\mathord{.}\frac{1}{2}\mathord{.}\frac{1}{Z^2-1}\right)\mathord{.}\frac{3}{4}\mathord{.}\frac{1}{Z^2-1}.
+\]
+\par\noindent\hspace*{\parindent}Mit dem Einklammern soll angedeutet werden, dass etwas bereits Berechnetes zur weiteren Rechnung benutzt wird, also zuerst der Näherungswert $\frac{Z}{N}$, dann die erste Interpolationsgrösse.
+\par\noindent\hspace*{\parindent}Nach dieser theoretischen Auseinandersetzung soll nun die ganze Rechnung durchgeführt werden.
+\begingroup\small\setlength{\arraycolsep}{3pt}\renewcommand{\arraystretch}{1.2}
+\[
+\begin{array}{r@{\;}l}
+\frac{Z}{N}={}&3{,}872983\,346207\,416894\,432401\,917939\,315825\,708500\,721817\,8635\\
+{}[:\;40]&0{,}096824\,583655\,185422\,360810\,047948\,482895\,642712\,518045\,4465\\
+{}[:\;40]&0{,}002420\,614591\,379635\,559020\,251198\,712072\,391067\,812951\,1361\\
+{}[:\;11]&0{,}000220\,055871\,943603\,232638\,204654\,428370\,217369\,801177\,3760\\
+{}[:\;11]&0{,}000020\,005079\,267600\,293876\,200423\,129851\,837942\,709197\,9432\\
+{}[:\;19]&0{,}000001\,052898\,908821\,068098\,747390\,691044\,833575\,932063\,0496\\
+{}[:\;19]&0{,}000000\,055415\,732043\,214110\,460388\,983739\,201767\,154319\,1078\\
+{}[:\;71]&0{,}000000\,000780\,503268\,214283\,245920\,971601\,960588\,269779\,1423\\
+{}[:\;71]&0{,}000000\,000010\,993003\,777665\,961210\,154529\,605078\,708025\,0583\\
+{}[:\;199]&0{,}000000\,000000\,055241\,225013\,396790\,000776\,530678\,787477\,5128\\
+{}[:\;199]&0{,}000000\,000000\,000277\,594095\,544707\,487441\,088093\,863253\,6558\\
+{}[:\;30]&0{,}000000\,000000\,000009\,253136\,518156\,916248\,036269\,795441\,7885.
+\end{array}
+\]
+\endgroup
+\par\smallskip\noindent{\small X\textsubscript{2} Abh. 6.}\hfill{\small 3}\par
+\clearpage\SourceLeaf{573}\ArithmeticHead{18}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\noindent\hspace*{\parindent}Damit ist der erste Interpolationswert
+\[
+J_1=\frac{Z}{N}\mathord{.}\frac{1}{2}\mathord{.}\frac{1}{Z^2-1}=\frac{Z}{N}\mathord{.}\frac{1}{2}\mathord{.}\frac{1}{15}\mathord{.}\frac{1}{(8\mathord{.}5\mathord{.}11\mathord{.}19\mathord{.}71\mathord{.}199)^2}
+\]
+\noindent berechnet. Hieraus gewinnt man den zweiten, indem man den ersten mit\linebreak
+$\frac{3}{4}\mathord{.}\frac{1}{15}\mathord{.}\frac{1}{(8\mathord{.}5\mathord{.}11\mathord{.}19\mathord{.}71\mathord{.}199)^2}$ multipliziert. Wir wollen auch diese Rechnung ausführen und dabei, wie es auch \textsc{Gauss} vielfach zu tun pflegte, auf die vorausgehenden Nullen keine Rücksicht nehmen.
+\begingroup\small\setlength{\arraycolsep}{3pt}\renewcommand{\arraystretch}{1.2}
+\[
+\begin{array}{r@{\;}l}
+J_1={}&.\quad.\quad.\quad9253136\,518156\,916248\,036269\,795441\,7885\\
+{}[:\;40]&.\quad.\quad.\quad231328\,412953\,922906\,200906\,744886\,0447\\
+{}[:\;40]&.\quad.\quad.\quad.\quad5783\,210323\,848072\,655022\,668622\,1511\\
+{}[:\;11]&.\quad.\quad.\quad.\quad.\quad525\,746393\,077097\,514092\,969874\,7410\\
+{}[:\;11]&.\quad.\quad.\quad.\quad.\quad47\,795126\,643372\,501281\,179079\,5219\\
+{}[:\;19]&.\quad.\quad.\quad.\quad.\quad2\,515532\,981230\,131646\,377847\,3432\\
+{}[:\;19]&.\quad.\quad.\quad.\quad.\quad.\quad132396\,472696\,322718\,440939\,3338\\
+{}[:\;71]&.\quad.\quad.\quad.\quad.\quad.\quad.\quad1864\,739052\,060883\,358323\,0892\\
+{}[:\;71]&.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad26\,263930\,310716\,667018\,6350\\
+{}[:\;199]&.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad131979\,549300\,083753\,8624\\
+{}[:\;199]&.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad663\,213815\,578310\,3209\\
+{}[:\;20]&.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad.\quad33\,160690\,778915\,5160.
+\end{array}
+\]
+\endgroup
+\par\noindent\hspace*{\parindent}Damit haben wir den zweiten Interpolationswert $J_2$, der mit dem von
+\textsc{Gauss} berechneten genau übereinstimmt. Wer ein besonders klares Bild von
+der Gewandtheit, Sicherheit und Ausdauer des 16- bis 17jährigen \textsc{Gauss} erhalten will, der möge das obige Beispiel einmal selbst vollständig durchrechnen.
+Bezüglich der rechnerischen Durchführung seien noch einige Bemerkungen
+angebracht.
+
+Die Darstellung ist auch hier wieder, wie bei andern in dieser Arbeit
+behandelten Beispielen, so, dass die Stellenzahl beliebig vergrössert werden
+kann, ohne dass früher ausgeführte Rechnungen wiederholt werden müssen.
+Denn wie man zu einer beliebigen Stelle eines Divisionsergebnisses unter Benutzung der vorhergehenden und der nachfolgenden den zu der betreffenden
+Stelle gehörigen Rest ermittelt, das braucht wohl nicht besonders ausgeführt
+zu werden. Der junge \textsc{Gauss} beherrschte dieses Verfahren sicherlich, und es
+\clearpage\SourceLeaf{574}\ArithmeticHead{19}{R}{III. ÜBUNG DES DIVISIONSVERFAHRENS AN KETTENBRÜCHEN.}
+\setcounter{footnote}{0}
+\noindent kam ihm zweifellos u. a. bei der Anwendung seiner Dezimalbruchtabelle\footnote{Werke II, S. 411ff.} sehr
+zustatten. Die Reste der Divisionen durch 40, 11, 19, 71, 199 hat \textsc{Gauss}
+höchst wahrscheinlich »im Sinne behalten«, wenn es auch nicht ausgeschlossen
+ist, dass er hie und da, um eine Ruhepause zu machen, den einen oder den
+andern Rest auf einem Täfelchen notierte. Nun sind allerdings die bei unserm
+Beispiel auftretenden Primzahlen hierzu ganz gut geeignet. Für 11 und 19
+braucht dies keinen besonderen Nachweis; die Vielfachen von 71 sind leicht
+zu bilden, und $199=200-1$ gibt die Möglichkeit, die Divisionsreste leicht
+im Kopf zu berechnen. Die Durchführung ist also im \textsc{Gauss}schen Sinne
+»zierlich«, wenn auch die Rechenfreudigkeit eines \textsc{Gauss} dazu gehört, bis auf
+52 Dezimalstellen zu gehen.
+
+Bei dem von \textsc{Gauss} unter 2) angegebenen Näherungswert
+\[
+\frac{Z'}{N'}=\frac{28355806081}{7321437648}=5+\frac{5}{16}-\frac{1}{7}+\frac{1}{9}-\frac{9}{23}-\frac{11}{31}-\frac{21}{61}-\frac{53}{167}
+\]
+\noindent gelten für $Z'$, $N'$, $J'_1$ und $J'_2$ die gleichen Beziehungen wie für $Z$, $N$, $J_1$, $J_2$.
+Die Durchführung gestaltet sich scheinbar weniger angenehm, da die Division
+durch 23 und noch mehr die durch 167 abschrecken.
+
+Wir dürfen jedoch sicher sein, dass \textsc{Gauss} auch dieser Unannehmlichkeit
+ausgewichen ist. So kann man z. B. die Ergebnisse
+\[
+3\mathord{.}23=70-1
+\]
+\noindent und
+\[
+3\mathord{.}167=500+1
+\]
+\noindent benutzen, um weit bequemer zu dividieren. Ob \textsc{Gauss} gerade diese Beziehungen benutzte, oder ob er andere aufgespürt hat, das lässt sich freilich
+nicht feststellen; jedenfalls gehen bei Benutzung der beiden erwähnten Beziehungen die Rechenschwierigkeiten wieder auf ein bescheidenes Mass zurück.
+
+Warum hat \textsc{Gauss} die Aufgabe zweimal gelöst? War es die Freude am
+Rechnen, war es die Absicht, die Rechenfertigkeit durch Übung zu steigern,
+diente die eine Rechnung als Kontrolle der andern, wollte er den Grad der
+Genauigkeit rechnerisch ergründen? Vermutlich haben damals noch alle diese
+Gründe mitgespielt. Und dann ist möglicherweise noch eine andere Ursache
+dazugekommen. Von den beiden Werten $\frac{Z}{N}$ und $\frac{Z'}{N'}$ ist der zweite als späterer
+Näherungswert in der Kettenbruchentwicklung der genauere, und die Frage
+\par\smallskip\noindent\hfill{\small 3\textsuperscript{*}}\par
+\clearpage\SourceLeaf{575}\ArithmeticHead{20}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\noindent liegt nahe, wie man mit Hilfe dieser beiden Näherungswerte dem wahren
+Werte möglichst nahe kommen kann. Diese Frage in allgemeinerer Fassung
+hat ihn bekanntlich intensiv beschäftigt und in der berühmten Methode der
+kleinsten Quadrate ihren Abschluss gefunden.
+\par\clearpage\endgroup

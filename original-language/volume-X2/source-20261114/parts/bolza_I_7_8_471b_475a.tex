@@ -1,0 +1,184 @@
+\clearpage\begingroup\NoSourceHead
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\renewcommand{\thefootnote}{\arabic{footnote})}\setcounter{footnote}{18}
+\ArithmeticHead{14}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent\hspace*{\parindent}7. Der erste Versuch, die Methode der Variation der unabhängigen Variabeln
+auf zweidimensionale Probleme anzuwenden, rührt von \textsc{Euler}\footnote{\textsc{Euler}, loc. cit. 2), Art. 141—149.} (1770)
+her. Er deutet den Variationsprozess geometrisch: den Variabeln $x,y,z$, die
+als rechtwinklige Koordinaten eines Punktes einer Fläche $z=z(x,y)$ aufgefasst
+werden, werden unendlich kleine Zuwächse $\delta x$, $\delta y$, $\delta z$ erteilt, die Funktionen
+der beiden unabhängigen Variabeln $x,y$ sind. Dadurch entsteht eine der
+ersten unendlich benachbarte Fläche, wobei zugleich dem Punkt $x,y,z$ der
+ursprünglichen Fläche der Punkt $x+\delta x$, $y+\delta y$, $z+\delta z$ der zweiten Fläche
+zugeordnet ist.
+
+Es kommt nun zunächst auf die Berechnung der Variation der partiellen
+Ableitungen
+\[
+p=\frac{\partial z}{\partial x},\quad q=\frac{\partial z}{\partial y}
+\]
+an. \textsc{Euler} schliesst aus der Bedeutung von $\delta p$, dass
+\[
+\delta p=\frac{\partial(z+\delta z)}{\partial(x+\delta x)}-\frac{\partial z}{\partial x}
+=\frac{\partial z+\partial\delta z}{\partial x+\partial\delta x}-\frac{\partial z}{\partial x}
+\]
+und erhält daraus durch Vernachlässigung unendlich kleiner Grössen höherer
+Ordnung
+\begin{equation*}
+\delta p=\frac{\partial\delta z}{\partial x}-p\frac{\partial\delta x}{\partial x}\tag{14}
+\end{equation*}
+und die analoge Formel für $\delta q$.
+
+Das ist dasselbe Resultat, dass sich auch durch rein mechanische Anwendung
+des $\delta$-Algorithmus nach der Formel
+\[
+\delta\left(\frac{\partial z}{\partial x}\right)
+=\frac{\partial x\,\delta\partial z-\partial z\,\delta\partial x}{\partial x^2}
+\]
+unter Benutzung der Gleichungen $\delta\partial x=\partial\delta x$, $\delta\partial z=\partial\delta z$ ergeben haben würde,
+\par\clearpage\SourceLeaf{472}
+\ArithmeticHead{15}{R}{GESCHICHTE DER EXTREMA VON DOPPELINTEGRALEN VOR GAUSS.}
+\noindent und in der Tat haben später \textsc{Lagrange}\footnote{Oeuvres de \textsc{Lagrange}, Bd. XI, S. 105: »On aura, en différentiant« (nämlich mit dem Symbol $\delta$).} und \textsc{Lacroix}\footnote{\textsc{Lacroix}, loc. cit. 18), Art. 861: »différentiant ces fractions à la manière ordinaire, et changeant un $d$ en $\delta$«.} die Formel (14) auf
+diese Weise abgeleitet.
+
+Aus den Formeln für $\delta p$, $\delta q$ leitet dann \textsc{Euler} die Variationen der zweiten
+partiellen Ableitungen her, indem er diese schreibt
+\[
+r=\frac{\partial p}{\partial x},\quad s=\frac{\partial p}{\partial y}=\frac{\partial q}{\partial x},\quad t=\frac{\partial q}{\partial y}.
+\]
+
+Die Variation von $\delta s$ kann man dabei auf zwei verschiedenen Wegen
+erhalten, die jedoch zu verschiedenen Resultaten führen. Um den Widerspruch
+aufzuklären, sucht nun \textsc{Euler} nachzuweisen, dass \textls[100]{$\delta x$ nur von $x$, $\delta y$ nur von
+$y$ abhängen dürfen}. Bei dieser spezialisierenden Annahme fallen dann die
+beiden verschiedenen Werte von $\delta s$ zusammen.
+
+Aber \textsc{Euler} traut der Sache selbst nicht recht; er schreibt: »Omnibus
+autem dubiis in hac investigatione felicissime occurremus, si soli quantitati $z$
+variationes tribuamus, binis reliquis $x$ et $y$ plane invariatis relictis, ita ut sit
+tam $\delta x=0$ quam $\delta y=0$«. Er gibt daher, um sicher zu gehen, bei der
+weiteren Behandlung der Doppelintegrale, über die wir bereits in Nr. 1 berichtet
+haben, die Variation der unabhängigen Variabeln $x,y$ auf und variiert
+nur die Funktion $z$; und dabei ist er auch in seiner späteren Arbeit\footnote{\textsc{Euler}, loc. cit. 3).} vom
+Jahr 1771 geblieben. Damit hat er sich freilich, da er auch die Grenzen
+nicht variiert, den Zugang zu Problemen mit variablem Integrationsbereich
+versperrt, für die übrigens die Zeit ohnehin nicht reif war. —
+
+Die Überlegungen, durch die \textsc{Euler} zu beweisen sucht, dass man $\delta x$ als
+nur von $x$, $\delta y$ nur von $y$ abhängig annehmen müsse, sind nicht stichhaltig,
+und der wahre Grund des Widerspruchs der beiden Ausdrücke für $\delta s$ liegt
+darin, dass schon die \textsc{Euler}schen Formeln für $\delta p$, $\delta q$ falsch sind. Den Fehler
+in \textsc{Euler}s Schlussweise hat erst \textsc{M. Ostrogradsky}\footnote{\textit{Mémoire sur le calcul des variations des intégrales multiples}, Journal für r. u. a. Math., Bd. 15 (1836), S. 334.} (1834) aufgedeckt.
+
+Zugleich bestätigt sich hier, dass die oben als »formale Variation« bezeichnete
+rein mechanische Anwendung des $\delta$-Algorithmus bei gleichzeitiger
+Variation der unabhängigen Variabeln, unter Umständen zu direkt falschen
+\par\clearpage\SourceLeaf{473}
+\ArithmeticHead{16}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent Resultaten führen kann, und daher eine ohne genaue Feststellung der Grenzen
+ihrer Anwendbarkeit unzulässige Operation ist.
+
+8. Nach diesem ersten missglückten Versuch von \textsc{Euler} ist erst vierzig
+Jahre später das Problem der Variation von Doppelintegralen bei variablem
+Integrationsbereich wieder aufgenommen worden und zwar von \textsc{Lagrange}\footnote{Oeuvres de \textsc{Lagrange}, Bd. XI, S. 103—110.}
+selbst in einem kurzen Exkurs über Variationsrechnung in der zweiten Auflage
+der \textit{Mécanique analytique} (1811).
+
+Es handelt sich darum, die erste Variation des Doppelintegrals
+\[
+J=\iint V(x,y,z,p,q,\ldots)\,dx\,dy
+\]
+bei gleichzeitiger Variation von $x,y,z$ zu berechnen. Dabei macht \textsc{Lagrange}
+dieselbe spezialisierende Annahme wie \textsc{Euler}, dass $\delta x$ nur von $x$, $\delta y$ nur von
+$y$ abhängt, dass somit
+\begin{equation*}
+\frac{\partial\delta x}{\partial y}=0,\quad\frac{\partial\delta y}{\partial x}=0,\tag{15}
+\end{equation*}
+ohne jedoch zu behaupten, dass diese Einschränkung notwendig sei, sondern
+nur »um die Rechnung zu vereinfachen«. Es kommt nun vor allem wieder
+auf die Berechnung von $\delta p$, $\delta q$ an. Nachdem \textsc{Lagrange}, wie bereits oben
+erwähnt, die \textsc{Euler}sche Formel (14) für $\delta p$ durch »formale Variation« abgeleitet
+hat, formt er dieselbe dadurch um, dass er das unter der speziellen Voraussetzung
+(15) verschwindende Glied
+\[
+-q\frac{\partial\delta y}{\partial x}
+\]
+hinzufügt. So erhält er für $\delta p$, $\delta q$ die Ausdrücke
+\begin{equation*}
+\left\{\begin{aligned}
+\delta p&=\frac{\partial\omega}{\partial x}+\frac{\partial p}{\partial x}\delta x+\frac{\partial q}{\partial x}\delta y,\\
+\delta q&=\frac{\partial\omega}{\partial y}+\frac{\partial p}{\partial y}\delta x+\frac{\partial q}{\partial y}\delta y,
+\end{aligned}\right.\tag{16}
+\end{equation*}
+wo nunmehr
+\begin{equation*}
+\omega=\delta z-p\delta x-q\delta y.\tag{17}
+\end{equation*}
+
+Aus den Formeln für $\delta p$, $\delta q$ leitet er dann sehr einfache und übersichtliche
+Ausdrücke für die Variationen der höheren Ableitungen von $z$ her, mit deren
+\par\clearpage\SourceLeaf{474}
+\ArithmeticHead{17}{R}{GESCHICHTE DER EXTREMA VON DOPPELINTEGRALEN VOR GAUSS.}
+\noindent Hilfe er nunmehr $\delta V$ auf die einfache Form bringen kann
+\begin{equation*}
+\delta V=\frac{\partial V}{\partial x}\delta x+\frac{\partial V}{\partial y}\delta y+N\omega
++P\frac{\partial\omega}{\partial x}+Q\frac{\partial\omega}{\partial y}+\ldots.\tag{18}
+\end{equation*}
+
+Weiter gibt \textsc{Lagrange} ohne weitere Erläuterung, also doch wohl auf Grund
+»formaler Variation«, für die Variation des Integrals $J$ den Ausdruck
+\begin{equation*}
+\delta J=\iint\delta(V\,dx\,dy)=\iint(dx\,dy\,\delta V+V\delta(dx\,dy)).\tag{19}
+\end{equation*}
+
+Die nächste Schwierigkeit ist die Berechnung von $\delta(dx\,dy)$. Hier geht
+\textsc{Lagrange} auf die geometrische Bedeutung von $dx\,dy$ als Flächeninhalt des
+Rechtecks mit den Eckenkoordinaten
+\[
+x,\ y;\quad x+dx,\ y;\quad x,\ y+dy;\quad x+dx,\ y+dy
+\]
+zurück und erhält
+\begin{equation*}
+\delta(dx\,dy)=\left(\frac{\partial\delta x}{\partial x}+\frac{\partial\delta y}{\partial y}\right)dx\,dy.\tag{20}
+\end{equation*}
+
+Die Formel (19) geht nunmehr über in
+\begin{equation*}
+\begin{aligned}
+\delta J={}&\iint\left(\delta V-\frac{\partial V}{\partial x}\delta x-\frac{\partial V}{\partial y}\delta y\right)dx\,dy\\
+&+\iint\left(\frac{\partial(V\delta x)}{\partial x}+\frac{\partial(V\delta y)}{\partial y}\right)dx\,dy;
+\end{aligned}\tag{21}
+\end{equation*}
+dabei sind, — ebenso wie auch schon in (18) —, vor Ausführung der Differentiationen
+nach $x$ und $y$ die Grössen $z,p,q,\ldots$ als Funktionen von $x,y$ in
+$V$ eingesetzt zu denken.
+
+Diese Formel ist für die Methode der Variation der unabhängigen Variabeln
+das Gegenstück zu der Fundamentalformel (9) von \textsc{Ohm}; wir werden
+sie die \textsc{Lagrange}sche \textls[100]{Fundamentalformel} nennen. Sie ist später von
+\textsc{Ostrogradsky}\footnote{\textsc{Ostrogradsky}, loc. cit. 23), S. 339, 340.} (1834) und \textsc{G. M. Pagani}\footnote{\textit{Résolution d'un problème relatif au calcul des variations}, Journal für r. u. a. Mathematik, Bd. 15 (1836), S. 84 ff., insbes. S. 92.} (1834) auf $n$-fache Integrale
+verallgemeinert worden.
+
+Das Einsetzen des Wertes (18) von $\delta V$ liefert nun unter Benutzung der
+Formeln (2) für $\delta J$ das \textls[100]{Schlussresultat}\footnote{\textsc{Lagrange} schreibt übrigens dieses Schlussresultat gar nicht explizite hin, ebensowenig wie die explizite Formel (21); er begnügt sich, den Gang der dazu führenden Rechnung angegeben zu haben.}:
+\begin{equation*}
+\delta J=\iint\Omega\omega\,dx\,dy+\iint\left(\frac{\partial(A+V\delta x)}{\partial x}+\frac{\partial(B+V\delta y)}{\partial y}\right)dx\,dy,\tag{22}
+\end{equation*}
+\par\smallskip\noindent{\small X 2 Abh. 5.}\hfill{\small 3}\par
+\clearpage\SourceLeaf{475}
+\ArithmeticHead{18}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent wobei die Grössen $\Omega,A,B,\omega$ durch die Gleichungen (4) und (17) definiert
+sind.
+
+Die Formel (22) ist das genaue Analogon einer entsprechenden, von \textsc{Euler}\footnote{\textsc{Euler}, loc. cit. 2), Art. 86.}
+für einfache Integrale bewiesenen Formel, die vermutlich \textsc{Lagrange} bei seiner
+Untersuchung, insbesondere bei seiner Ableitung der Formeln (16) als Wegweiser
+gedient hat.
+
+Auf die weitere Behandlung des zweiten Doppelintegrals in (22) ist \textsc{Lagrange}
+nicht eingegangen; es genügt ihm, festzustellen, dass dieses bei fester
+Begrenzung verschwindet, da es ihm bei der ganzen Ableitung lediglich darauf
+ankommt zu beweisen, dass man bei gleichzeitiger Variation von $x,y,z$ zu
+derselben partiellen Differentialgleichung kommt, wie bei alleiniger Variation
+von $z$.
+\par\clearpage\endgroup

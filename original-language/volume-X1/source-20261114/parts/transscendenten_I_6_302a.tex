@@ -1,0 +1,42 @@
+\begingroup
+\newcommand{\TransBracket}[1]{\boldsymbol{[}#1\boldsymbol{]}}
+\ArithmeticHead{295}{R}{{\scriptsize ZUR THEORIE DER TRANSSCENDENTEN FUNCTIONEN. I}}
+\SourceLeaf{302}
+\NumberedItem{6}
+\noindent{\small[S. 44]}\par
+\par\indent Durch Induction haben wir gefunden:
+\[\begin{aligned}
+&1+x+x^5+x^8+x^{16}+x^{21}+x^{33}{.}{.}{.}\\
+&=(1+x)(1+x^5)(1-x^6)(1+x^7)(1+x^{11})\\
+&\qquad(1-x^{12})(1+x^{13})(1+x^{17})(1-x^{18})(1+x^{19})\\
+&=\frac{\TransBracket{xx}^2\TransBracket{x^3}\TransBracket{x^{12}}}{\TransBracket{x}\TransBracket{x^4}\TransBracket{x^6}}
+=\frac{\TransBracket{x^6}^2\TransBracket{-x}}{\TransBracket{-x^3}\TransBracket{xx}}\\
+&=(1-x^3-x^9+x^{18}+x^{30}{.}{.}{.})(1+x)(1+x^3)(1+x^5){.}\quad{.},
+\end{aligned}\]
+\[\begin{aligned}
+&\left(1+\left(y^3+\frac1{y^3}\right)x^9+\left(y^6+\frac1{y^6}\right)x^{36}+\text{etc.}\right)\\
+&\qquad\left(\frac1y x+yyx^4+\frac1{y^4}x^{16}+y^5x^{25}+{.}{.}{.}\right)\\
+&\qquad.\left(yx+\frac1{yy}x^4+y^4x^{16}+\frac1{y^5}x^{25}+{.}{.}{.}\right)\\
+&=\left(1+\left(y^3+\frac1{y^3}\right)x^3+\left(y^6+\frac1{y^6}\right)x^{12}+{.}{.}{.}\right)
+\frac{xx\TransBracket{x^{18}}^3}{\TransBracket{x^6}},
+\end{aligned}\]
+\noindent Factor
+\[\frac{\TransBracket{x^{18}}^3}{\TransBracket{x^6}}
+=\frac{(1-x^{18})(1-x^{18}\ (1-x^{36})(1-x^{36}){.}{.}{.}}
+{(1-x^6\ (1-x^{12})(1-x^{24})(1-x^{30}){.}{.}{.}}\mathpunct{\raisebox{.5ex}{.}}\]
+\noindent Also
+\[\begin{aligned}
+&(1-2x^{36}+2x^{144}-{.}{.}{.})\\
+&\quad.\bigl\{(x-x^{25}-x^{49}+x^{121}+\text{etc.})^2\\
+&\qquad\quad+(x^4-x^{16}-x^{64}+x^{100}+x^{196}-\text{etc.})^2\bigr\}\\
+&=(1-2x^{12}+2x^{48}-2x^{108}+\text{etc.})\frac{xx\TransBracket{x^{18}}^3}{\TransBracket{x^6}}\mathpunct{\raisebox{.5ex}{.}}
+\end{aligned}\]
+\[\frac{\TransBracket{x^{36}}^2}{\TransBracket{x^{72}}}
+\left\{\TransBracket{x^{24}}^2+x^6\frac{\TransBracket{x^{12}}^2\TransBracket{x^{72}}^4}{\TransBracket{x^{36}}^2\TransBracket{x^{24}}^2}\right\}
+=\frac{\TransBracket{x^{12}}^2\TransBracket{x^{18}}^3}{\TransBracket{x^{24}}\TransBracket{x^6}}\mathpunct{\raisebox{.5ex}{.}}\]
+\noindent Also
+\[\frac{\TransBracket{x}\TransBracket{x^4}^3\TransBracket{x^6}^2}{\TransBracket{xx}^2\TransBracket{x^3}^3\TransBracket{x^{12}}}
++x\frac{\TransBracket{x}\TransBracket{x^{12}}^3}{\TransBracket{x^3}^3\TransBracket{x^4}}=1;\]
+\[\TransBracket{x^2}^{24}=16x\TransBracket{x}^8\TransBracket{x^4}^{16}+\TransBracket{x}^{16}\TransBracket{x^4}^8.\]
+\clearpage
+\endgroup

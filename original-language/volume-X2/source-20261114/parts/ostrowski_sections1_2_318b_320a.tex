@@ -1,0 +1,79 @@
+\par\medskip
+\textls[100]{1. Nullstellen von \(U\) und \(T\) ausserhalb \((R)\).} Es sei
+\[
+f(z)\equiv z^n+Az^{n-1}+\cdots+C=T(r,\varphi)+iU(r,\varphi)=0,\quad z=x+iy,
+\]
+die vorgegebene algebraische Gleichung, wo \(r,\varphi\) Polarkoordinaten, \(x,y\) kartesische
+Koordinaten sind. Um zu beweisen, dass die Kurven \(T=0,\ U=0\)
+sich schneiden, ist es nötig, den Verlauf dieser Kurven zu untersuchen. Wir
+benutzen dabei zuerst Polarkoordinaten.
+\par\clearpage\SourceLeaf{319}\ArithmeticHead{10}{L}{A. OSTROWSKI, ÜBER DEN ERSTEN UND VIERTEN GAUSSSCHEN BEWEIS USW.}
+Es sei \(\omega=\frac{\pi}{4n}\). Teilen wir durch \(4n\) Halbstrahlen \(\varphi=-\omega,\ \varphi=\omega\),
+\(\varphi=3\omega\) usw. die ganze Ebene in \(4n\) Winkelräume und bezeichnen sie in der
+entsprechenden Reihenfolge durch \((1),(2),\ldots,(4n)\), so gibt es, wie wir jetzt
+beweisen werden, eine Zahl \(R\) mit den folgenden Eigenschaften:
+\par
+1) \(f(z)\) hat keine Wurzel vom absoluten Betrage \(\geqq R\).
+\par
+2) Man beschreibe um den Nullpunkt eine Kreislinie \((\overline R)\) mit dem Halbmesser
+\(\overline R\geqq R\) und betrachte \(T\) und \(U\) auf dieser Kreislinie. Dann sind in den \(\varphi\)-Intervallen
+\((4n+1)\) \(T\) und \(\frac{\partial U}{\partial\varphi}\) positiv, \(U\) ist hingegen zuerst \(<0\), dann \(>0\), hat also eine
+Wurzel innerhalb jedes \(\varphi\)-Intervalls \((4n+1)\) auf jedem Kreise \((\overline R)\) und zwar nur eine,
+wegen \(\frac{\partial U}{\partial\varphi}>0\). In den \(\varphi\)-Intervallen \((4n+2)\) ist \(U>0,\ \frac{\partial T}{\partial\varphi}<0\), \(T\) zuerst
+\(>0\), dann \(<0\), also innerhalb jedes solchen Intervalls \((4n+2)\) einmal und nur einmal
+\(=0\). In den \(\varphi\)-Intervallen \((4n+3)\) ist \(T<0,\ \frac{\partial U}{\partial\varphi}<0\), \(U\) wechselt je einmal
+das Vorzeichen. In den \(\varphi\)-Intervallen \((4n)\) endlich ist \(U<0,\ \frac{\partial T}{\partial\varphi}>0\),
+\(T\) wechselt je einmal das Vorzeichen.
+\par
+Um ein solches \(R\) zu finden, bezeichnen wir die absoluten Beträge der
+Koeffizienten \(A,\ldots,C\) von \(f(z)\) mit \(a,\ldots,c\) und die Summe dieser absoluten
+Beträge mit \(S\). Dann besitzt \(R=\sqrt{2}S+1\) die geforderte Eigenschaft. In
+der Tat gilt mit diesem Wert von \(R\) für \(\overline R\geqq R\):
+\[
+\begin{aligned}
+|T-\overline R^n\cos n\varphi|&\leqq a\overline R^{n-1}+\cdots+c\leqq\overline R^{n-1}S<\sqrt{\tfrac12}(\overline R)^n,\\
+\left|\frac{\partial U}{\partial\varphi}-n\overline R^n\cos n\varphi\right|&\leqq(n-1)a\overline R^{n-1}+\cdots<n\overline R^{n-1}S<n\sqrt{\tfrac12}(\overline R)^n.
+\end{aligned}
+\]
+\noindent Daher haben dann für jedes \(\varphi\), für das \(|\cos n\varphi|\geqq\sqrt{\tfrac12}\) ist, \(T\) und \(\frac{\partial U}{\partial\varphi}\) das Vorzeichen
+von \(\cos n\varphi\). Dies findet also für alle \(\varphi\) statt, die für ganze \(k\) zwischen
+\((8k-1)\omega\) und \((8k+1)\omega\), oder zwischen \((8k+3)\omega\) und \((8k+5)\omega\) liegen, d. h.
+in den Intervallen \((1),(3),(5)\ldots\). Und zwar sind in \((1),(5),\ldots\) \(T\) und \(\frac{\partial U}{\partial\varphi}\) positiv,
+in \((3),(7),\ldots\) negativ. Ganz analog sehen wir, dass, sobald \(|\sin n\varphi|\geqq\sqrt{\tfrac12}\) ist,
+\(U\) für \(\overline R\geqq R\) das Vorzeichen von \(\sin n\varphi\) und \(\frac{\partial T}{\partial\varphi}\) das Vorzeichen von \(-\sin n\varphi\)
+hat. Dies findet also für alle \(\varphi\) statt, die für ganze \(k\) zwischen \((8k+1)\omega\)
+und \((8k+3)\omega\) oder zwischen \((8k+5)\omega\) und \((8k+7)\omega\) liegen, d. h. in \((2),(4)\),
+\((6),\ldots\). Und zwar ist in \((2),(6),\ldots\) \(U\) positiv, \(\frac{\partial T}{\partial\varphi}\) negativ, in \((4),(8),\ldots\)
+aber \(U\) negativ, \(\frac{\partial T}{\partial\varphi}\) positiv. — Daraus ergibt sich 1) und 2) sofort.
+\par\clearpage\SourceLeaf{320}\ArithmeticHead{11}{R}{A. OSTROWSKI, ÜBER DEN ERSTEN UND VIERTEN GAUSSSCHEN BEWEIS USW.}
+\HistoricalFoot{}{2\textsuperscript{*}}
+\textls[100]{2. Verlauf von \(U=0\) und \(T=0\) ausserhalb \((R)\).} Danach ist es
+leicht, den Verlauf etwa der Kurve \(U=0\) für \(r\geqq R\) zu beschreiben. Sie
+zerfällt ausserhalb der Kreislinie \((R)\) mit dem Halbmesser \(R\) in \(2n\) Zweige, die
+in den Intervallen \((1),(3),\ldots\) getrennt verlaufen. Fassen wir etwa die
+Nullstellen von \(U\) ausserhalb \((R)\) in (1) ins Auge, so liegt auf jedem Kreise
+\(r=\overline R(\overline R\geqq R)\) genau eine. Alle diese Nullstellen bilden aber eine stetige
+Kurve. Um dies zu beweisen, brauchen wir nur Folgendes zu zeigen:
+\par
+Ist \(w\geqq R\) und \((w,\vartheta)\) die Nullstelle von \(U\), die in (1) auf dem Kreise
+\(r=w\) liegt, so kann man jedem \(\varepsilon\) ein solches \(\delta\) zuordnen, dass, wenn \(w'\geqq R\),
+\(w-\delta<w'<w+\delta\) ist und die auf dem Kreise \(r=w'\) in (1) liegende Wurzel
+mit \((w',\vartheta(w'))\) bezeichnet wird, \(|\vartheta-\vartheta(w')|<\varepsilon\) bleibt.
+\par
+Da aber \(U\) in \((w,\vartheta)\) auf dem Kreise \(r=w\) von negativen zu positiven
+Werten übergeht, so ist für ein hinreichend kleines \(\varepsilon'<\varepsilon\)
+\[
+U(w,\vartheta-\varepsilon')<0,\quad U(w,\vartheta+\varepsilon')>0,
+\]
+und sowohl \((w,\vartheta-\varepsilon')\) als auch \((w,\vartheta+\varepsilon')\) bleiben innerhalb (1). Da \(U\) stetig
+in den Variabeln \(r,\varphi\) ist, so hat man für ein hinreichend kleines \(\delta\)
+\[
+U(w',\vartheta-\varepsilon')<0,\quad U(w',\vartheta+\varepsilon')>0,
+\]
+solange \(w-\delta<w'<w+\delta\) bleibt. Daher befindet sich auf dem Kreise \(r=w'\)
+in (1) eine Nullstelle von \(U\), deren Argument zwischen \(\vartheta-\varepsilon'\) und \(\vartheta+\varepsilon'\) liegt,
+für die also \(|\vartheta(w')-\vartheta|<\varepsilon\) ist.
+\par
+Und genau analog schliesst man für die übrigen Intervalle \((3),(5),\ldots\),
+sowie für die Kurve \(T=0\).
+\par

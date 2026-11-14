@@ -1,6 +1,8 @@
 # Carl Friedrich Gauss: Werke — Volume XI, part 1
 
-[Read the 206-page PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-original-language-2026-10-24/Gauss_XI1_Original_Language_Native002_003_006_008_147.pdf) · [Download the editable LaTeX](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-original-language-2026-10-24/Gauss_XI1_Original_Language_Native002_003_006_008_147_LaTeX.zip) · [Browse the corresponding sources](edition-20261114-r23/)
+[Read the 206-page PDF](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-original-language-2026-10-24/Gauss_XI1_Original_Language_Native002_003_006_008_147.pdf) · [Download the editable LaTeX](https://github.com/KokunoYumeto/gauss-collected-works/releases/download/gauss-original-language-2026-10-24/Gauss_XI1_Original_Language_Native002_003_006_008_147_LaTeX_CompleteInputs.zip) · [Browse the corresponding sources](edition-20261114-r23/)
+
+[Further editable text](source-20261114/) contains Dioptrik I–VI and correspondence through letter [13]. This source selection extends beyond the PDF above; its expanded PDF layout remains unchecked.
 
 Volume XI, first part: opening titles, both reports on the Hannover standard foot and pound, the mechanics correspondence, the report on a room for magnetic observations, twelve magnetic Nachlass pieces and thirty magnetic letters and excerpts, and Dioptrik I–V with the historical explanations. Native leaves 2, 3, 6 and 8–147; the remaining volume is outside this selection.
 

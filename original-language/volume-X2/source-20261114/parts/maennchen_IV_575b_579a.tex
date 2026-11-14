@@ -1,0 +1,190 @@
+\clearpage\begingroup
+\ArithmeticHead{20}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\renewcommand{\thefootnote}{\arabic{footnote})}\setcounter{footnote}{0}
+\begin{center}IV.\\[3pt]{\large\textls[100]{Rechnungen mit Logarithmen.}}\end{center}
+\noindent\hspace*{\parindent}Wir kehren wieder zur ersten Stufe zurück, um \textsc{Gauss}’ Logarithmenberechnung noch etwas näher in Augenschein zu nehmen. Es wurde schon
+erwähnt, dass \textsc{Wolfram} die natürlichen Logarithmen in \textsc{Schulze}s Tabellen
+auf 48 Stellen berechnet hat und zwar bis 2200 für alle Zahlen und bis 10009
+für die Prim- und einige ausgewählte zusammengesetzte Zahlen. \textsc{Gauss} scheint,
+als er in den Besitz der schönen Logarithmentafel kam, versucht zu haben,
+die Tabelle noch zu erweitern. Eine Rechnung ist zum grossen Teil durchgeführt und soll hier besprochen werden. Es handelt sich um $\ln10037$. Wir
+finden (\textsc{Leiste}, S. 110 und 109):
+\[
+\begin{gathered}
+10037\mathord{.}97\mathord{.}691+1=672750000=225\mathord{.}10000\mathord{.}299,\\
+\ln10037=\ln10000+\ln225+\ln299-\ln97-\ln691\\
+-\frac{1}{a}=\frac{1}{1000000}\left(\frac{2}{9}+\frac{9}{13}+\frac{2}{23}-1\right)\text{\textsuperscript{1)}}.
+\end{gathered}
+\]
+\setcounter{footnote}{1}\footnotetext{Das Ergebnis hat \textsc{Gauss} in sein Exemplar von \textsc{Lambert}s Logarithmentafel S. 258 unten eingetragen.}
+\noindent Dieses Beispiel erscheint ganz besonders lehrreich. \textsc{Gauss} hat die Absicht,
+$\ln10037$ möglichst »zierlich« zu berechnen — diesen Ausdruck gebraucht er
+mit Vorliebe — und sucht daher nach einem Faktor, der ein Produkt liefert,
+das möglichst nahe bei einer Zahl mit mehreren Nullen am Ende liegt.
+Zweifellos kommt ihm zunächst blitzschnell der Gedanke: $37\mathord{.}27=999$; der
+Faktor muss also auf 027 endigen; er habe nun $a$ Tausender. Dann entstehen im Produkt $7a$ Tausender; das sollen wieder 9 sein; daher $a=7$.
+Der gesuchte Faktor muss also auf 7027 endigen. Er wählt 67027; denn
+das ist $(700-9)(100-3)=691\mathord{.}97$. Das Glück ist ihm nun noch besonders
+günstig, da er in die Nähe von 672750000, d. i. $\frac14\mathord{\cdot}2691000000$, kommt.
+Daher bei der Korrektion:
+\[
+-\frac{1}{a}=\frac{1}{1000000}\mathord{\cdot}\frac{4}{2692}=\frac{1}{1000000}\mathord{\cdot}\frac{4}{9\mathord{.}13\mathord{.}23}=\frac{1}{1000000}\left(\frac{2}{9}+\frac{9}{13}+\frac{2}{23}-1\right).
+\]
+\clearpage\SourceLeaf{576}\ArithmeticHead{21}{R}{IV. RECHNUNGEN MIT LOGARITHMEN.}
+\noindent Dass er sich mit dieser Berechnung lediglich in ein neues Verfahren einarbeiten wollte, liegt auf der Hand; denn nur einem ganz unpraktischen
+Rechner kann es entgehen, dass $10000\left(1+\frac{37}{10000}\right)$ viel bequemer und schneller
+zum Ziele führt. Er wollte gerüstet sein für den Fall, dass eine Zahl, deren
+Logarithmus er bestimmen wollte, nicht in der Nähe einer andern Zahl lag,
+die in Primfaktoren unter 1000 zerlegbar war. Da sich sonst kein Beispiel
+im Nachlass fand, so wollen wir selbst ein solches bilden, um noch einige
+Erläuterungen daran knüpfen zu können.
+
+Wir wählen die Zahl 13553, die bei einem weiter unten zu erörternden
+\textsc{Gauss}schen Beispiel vorkommt. Die Überlegungen sind dieselben, wie vorhin, nur wird jetzt schriftlich gerechnet:
+\[
+\begin{array}{r}
+13553\\
+783\\\hline
+40659\\
+108424\phantom{0}\\
+94871\phantom{00}\\\hline
+10611999
+\end{array}
+\]
+\par\noindent\hspace*{\parindent}Man sieht zunächst, dass der Multiplikator eine 3 am Ende haben muss.
+Zu den 5 Zehnern von $13553\mathord{.}3$ müssen noch 4 Zehner kommen; also muss
+der gesuchte Multiplikator 8 Zehner haben. $13553\mathord{.}83$ hat $6+2=8$ Hunderter, hierzu muss noch 1 Hunderter kommen; also muss der Multiplikator
+7 Hunderter haben. Hier brechen wir ab; denn 783 ist $3\mathord{.}3\mathord{.}3\mathord{.}29$ und
+\[
+10611999=1000\mathord{.}4\mathord{.}7\mathord{.}379-1.
+\]
+\noindent Demnach ist
+\begingroup\small
+\[
+\begin{aligned}
+\ln13553&=\ln1000+\ln4+\ln7+\ln379-3\ln3-\ln29-\frac{1}{1000\mathord{.}4\mathord{.}7\mathord{.}379}-\ldots\\
+&=\ln1000+\ln4+\ln7+\ln379-3\ln3-\ln29-\left(\frac{173}{379}-\frac{683}{4000}-\frac{2}{7}\right).
+\end{aligned}
+\]
+\endgroup
+\par\noindent\hspace*{\parindent}Es gilt hier, an geeigneter Stelle abzubrechen, derart, dass der Multiplikator in nicht allzu grosse Primfaktoren zerlegbar wird, und das um 1 vermehrte Resultat ebenfalls. Geht es nicht, so probiert man in gleicher Weise,
+an eine auf $\ldots\,0001$ endigende Zahl heranzukommen. Zweifellos haben solche
+Rechnungen einen gewissen Reiz, da sie durch den beständigen Anlass,
+\clearpage\SourceLeaf{577}\ArithmeticHead{22}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\setcounter{footnote}{0}
+\noindent Multiplikator und Ergebnis auf ihre Zerlegbarkeit zu prüfen, vor ödem Mechanismus bewahren\footnote{Ein umfangreicheres Beispiel findet sich \textsc{Leiste}, S. 79:
+\[
+\begin{array}{r@{\;}l@{\qquad}l}
+&\multicolumn{2}{l}{1585682973\mathord{.}10037=15915500000001}\\
+81)&19576333&\\
+49)&399517&31831=139\mathord{.}229.\\
+17)&23501&\\
+71)&331&
+\end{array}
+\]
+\noindent Es handelt sich hier vermutlich, wie in dem auf Seite 20 und 21 erläuterten Beispiel, um die genauere Berechnung des Logarithmus von 10037. Der geeignete Faktor ergab die Zerlegung in $81\mathord{.}49\mathord{.}17\mathord{.}71\mathord{.}331$. Das Produkt ist um 1 grösser als $5\mathord{.}31831\mathord{.}10^8$. Daran schliesst sich nun die auf S. 9 und 10 erläuterte Zerlegung von $\frac{2}{31831}$.}.
+
+Die Zahl 13553 in unserm eben behandelten Beispiel tritt bei \textsc{Gauss} in
+folgendem Beispiel auf\footnote{Zettel in Abt. E, Kapsel 44.}:
+\par\noindent\hspace*{\parindent}Quaeritur logarithmus hyperbolicus ipsius
+\[
+\tfrac12+\tfrac12\sqrt{2}=1{,}207106781186547\ .\,.\,.\,.
+\]
+\noindent Nun hat wohl \textsc{Gauss} zunächst die aus den 6 ersten Ziffern dieser Zahl $A$ gebildete Zahl auf ihre Zerlegbarkeit geprüft. Da der Erfolg nicht befriedigend
+ausfiel, probierte er das gleiche mit dem reziproken Wert, den er ohne weiteres hinschrieb:
+\[
+\frac{1}{A}=0{,}82842712474619\text{\textsuperscript{3)}}
+\]
+\setcounter{footnote}{3}\footnotetext{Es ist nämlich
+\[
+\frac{1}{A}=\frac{1}{\frac12+\frac12\sqrt{2}}=2\sqrt{2}-2=4A-4.
+\]}
+\[
+6627417\quad\text{[Mult. mit 8]}
+\]
+\[
+\left.\begin{aligned}
+2209139&=3\mathord{.}1209^2+115\mathord{.}17^2\\
+&=3\mathord{.}\phantom{1}401^2+115\mathord{.}185^2
+\end{aligned}\right\}
+\begin{array}{l}\text{[gibt das Doppelte der}\\\text{links stehenden Zahl].}\end{array}
+\]
+\[
+\begin{array}{r@{\quad}l}
+1209\phantom{00}&\\
+9672\phantom{0}&[1209\mathord{.}185]\\
+6045&\\\cline{1-1}
+223665&\\
+6817&[401\mathord{.}17]\\\cline{1-1}
+216848&\text{[Div. durch 16]}\\
+13553&
+\end{array}
+\]
+\[
+[2209139]=163\mathord{.}13553.
+\]
+\clearpage\SourceLeaf{578}\ArithmeticHead{23}{R}{IV. RECHNUNGEN MIT LOGARITHMEN.}
+\setcounter{footnote}{0}
+\noindent\hspace*{\parindent}Hier bricht die Rechnung ab und unser vorhin durchgeführtes Beispiel
+wäre als Fortsetzung denkbar. Freilich ist auch dann erst ein roher Näherungswert erreicht, und die weitere Interpolation ist jetzt noch zu besprechen.
+Wir wählen aber zu diesem Zweck ein Beispiel, das \textsc{Gauss} auf einem im
+Nachlass befindlichen Zettel\footnote{Abt. E d, Kapsel 44.} ausgerechnet hat. Dabei handelt es sich allerdings um die umgekehrte Aufgabe, zu einem vielstelligen Logarithmus den
+Numerus zu ermitteln:
+\[
+\begin{aligned}
+&\sqrt[4]{2}\ \text{obiter}\ 1{,}189207115\\
+&\phantom{\sqrt[4]{2}}118920711=3\mathord{.}7\mathord{.}13\mathord{.}435607\\
+&\phantom{\sqrt[4]{2}1189}435607=7+660^2\\
+&\phantom{\sqrt[4]{2}1189435607}=7\mathord{.}249^2+40^2\\
+&\phantom{\sqrt[4]{2}1189435607}=53\mathord{.}8219.
+\end{aligned}
+\]
+\par\noindent\hspace*{\parindent}Damit ist die Zerlegung in solche Faktoren erreicht, deren Logarithmen
+in der \textsc{Wolfram}schen Tabelle stehen. Nun kommt die Interpolation zwischen
+diesem Logarithmus und $\frac14\mathord{\cdot}\ln2$, und darauf gestützt die Bestimmung von $\sqrt[4]{2}$
+selbst. Man beachte die äusserst geschickte Verwendung der welschen Praktik.
+\begingroup\footnotesize\renewcommand{\arraystretch}{1.4}
+\begin{center}
+\begin{tabular}{@{}r@{\quad}p{.37\linewidth}@{}}
+$\log8219=9{,}0142038261485000124342426$&\\
+$\log159=5{,}0689042022202315255397144$&\\
+$\log91=4{,}5108595065168500411588402$&\\
+$\text{Compl. }9\log10=1{,}5793192560476345278560684$&[d. h. $\log10-9\log\log10=-8\log10$]\\\cline{1-1}
+$0{,}1732867909332161069888656$&$[\log A]$\\
+$0{,}1732867951399863273543080$&[d. i. $\frac14\log2=\log(A+\varepsilon)$]\\\cline{1-1}
+$42067702203654424$&$[=\delta,$ d. i. $\log(A+\varepsilon)-\log A=\frac{\varepsilon}{A}-\frac12\frac{\varepsilon^2}{A^2}]$\\
+$88484582$&$[=\frac{\delta^2}{2},$ die letzte Ziffer um 3 Einh. zu gross]\\\cline{1-1}
+$42067702292139006$&[d. i. $\delta+\frac{\delta^2}{2}=\frac{\varepsilon}{A}]$\\
+$4206770229213900_{6}$&\\\cline{1-1}
+$46274472521352906_{6}$&$[=\frac{\varepsilon}{A}\mathord{\cdot}1{,}1]$\\
+$3701957801708232_{5}$&$[=\frac{\varepsilon}{A}\mathord{\cdot}1{,}1\mathord{\cdot}0{,}08]$\\
+$50481242750566_{8}$&$[=\frac{\varepsilon}{A}\mathord{\cdot}0{,}0012]$\\\cline{1-1}
+$50026911565811705_{9}$&$[=\frac{\varepsilon}{A}\mathord{\cdot}1{,}1892]$
+\end{tabular}
+\end{center}
+\endgroup
+\clearpage\SourceLeaf{579}\ArithmeticHead{24}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\setcounter{footnote}{0}
+\begingroup\small
+\[
+\begin{array}{r@{\quad}l}
+294473916044_{9}&[=\frac{\varepsilon}{A}\mathord{\cdot}0{,}000007]\\
+4627447252_{1}&[=\frac{\varepsilon}{A}\mathord{\cdot}0{,}000000011]\\\cline{1-1}
+\sqrt[4]{2}=1{,}18920711500272106671\,(75002_{9})&[=A+\frac{\varepsilon}{A}\mathord{\cdot}A]\\
+74999705685.&
+\end{array}
+\]
+\endgroup
+\par\noindent\hspace*{\parindent}Die Addition ist zwar richtig ausgeführt; dennoch hat \textsc{Gauss} die 6 letzten
+(hier in Klammern gesetzten) Stellen durchgestrichen und eine auf 5 Stellen
+weiter gehende Verbesserung angebracht. Diese Eigentümlichkeit wird später
+besprochen werden. Solche geschickt ausgeführte Multiplikationen, wie hier
+die mit 1,18920711 unter Anwendung der welschen Praktik, findet man noch
+öfter im \textsc{Gauss}schen Nachlass; einige besonders glänzende Beispiele sind in
+der \textit{Sammlung von Rechnungen}\footnote{Werke III, S. 426ff.} abgedruckt. Das erste a. a. O. behandelte
+Beispiel hat überdies eine gewisse Ähnlichkeit mit dem eben vorgeführten, nur
+ist es sowohl inbezug auf den Aufbau als auch inbezug auf das gesteckte
+Ziel noch weit grosszügiger als das von uns gebotene, das es ausserdem noch
+um 25 Dezimalstellen übertrifft. Freilich liegt auch ein Zeitraum von mehr
+als 10 Jahren zwischen der Bearbeitung der beiden Aufgaben.
+\par\clearpage\endgroup

@@ -1,0 +1,299 @@
+\clearpage\begingroup\SourceLeaf{595}
+\ArithmeticHead{40}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\renewcommand{\thefootnote}{\arabic{footnote})}\setcounter{footnote}{0}
+\newcommand{\MCurve}[1]{\underset{\smash{\scriptscriptstyle\smile}}{#1}}
+\newcommand{\MCot}{\operatorname{arc\,cotg}}
+\noindent\hspace*{\parindent}Wir wählen zunächst das Beispiel, das \textsc{Gauss} mit 5) bezeichnet hat.
+\begin{center}\small\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\linewidth}{@{}p{.18\linewidth}p{.32\linewidth}X@{}}
+5) $8273:9$ & $5\mathord{.}29\mathord{.}53\mathord{.}61\mathord{.}73$ & [d. h. $8273^2+9^2$ hat die Faktoren $5\mathord{.}29\mathord{.}53\mathord{.}61\mathord{.}73$]\\
+\hspace*{1em}$919\frac{2}{9}$ & [$37\mathord{.}101\mathord{.}113$ in Tab. I]; & [$919\frac{2}{9}$ ist das Resultat von $8273:9$, daher sieht das ganze Blatt aus, wie ein Chaos von Divisionsaufgaben].
+\end{tabularx}
+\begin{tabularx}{\linewidth}{@{\hspace{1em}}p{5em}X@{}}
+8273 &\\
+\hspace*{.5em}919 &\\
+74457 & [man beachte hier wieder die Anwendung der welschen Praktik]\\
+\hspace*{.5em}148914 &\\
+\hspace*{1.5em}8273 &\\\cline{1-1}
+7602896 & $[:2]$\\
+3801448 & $5\mathord{.}29\mathord{.}37\mathord{.}53\mathord{.}61\mathord{.}73\mathord{.}101\mathord{.}113$.
+\end{tabularx}\end{center}
+\noindent\hspace*{\parindent}Vor der Angabe weiterer Beispiele schicken wir den allgemeinen Satz
+voraus, der sich aus der flüchtig hingeworfenen Darstellung dieser Hilfsrechnungen herauslesen lässt.
+
+Zwei Zahlen $a$ und $b$ mögen die Eigenschaft haben, dass $b$ durch $a$ geteilt den Rest $r$ lässt; dann ist $b=an+r$. Ferner möge $b$ in der Tafel der
+$a^2+n^2$ und $a$ in der Tafel der $a^2+1$ auftreten. Dann müssen, falls $r$ eine
+Primzahl ist, entweder zu $ab+n$ in der Tafel für $a^2+r^2$ dieselben Faktoren
+gehören, wie zu $a$ und $b$ in den oben angegebenen Tafeln, oder, wenn $ab+n$
+durch $r$ teilbar ist, so müssen zu $\frac{ab+n}{r}$ in Tafel I dieselben Faktoren gehören, wobei $r^2$ allerdings zu streichen ist, falls der Faktor $r$ zu $a$ und $b$ gehört. Der Beweis steckt in der leicht beweisbaren Identität:
+\[
+(a^2+1)\mathord{.}[(na+r)^2+n^2]=[a(an+r)+n]^2+r^2.
+\]
+
+Nun noch einige Beispiele:
+\begin{center}\footnotesize\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{@{}p{.57\linewidth}|X@{}}
+{\begin{tabularx}{\linewidth}[t]{@{}Xr@{}}
+$96:7=13$, Rest 5, zu 96 Taf. VII: & $5\mathord{.}17\mathord{.}109$\\
+\hspace*{1em}zu 13 in Taf. I: & $5\mathord{.}17$\\
+$13\mathord{.}96+7=1255$ &\\
+\hspace*{2em}$1255:5=251$ &\\
+\hspace*{1em}zu 251 in Taf. I: & $17\mathord{.}17\mathord{.}109$
+\end{tabularx}}
+& {\begin{tabularx}{\linewidth}[t]{@{}Xr@{}}
+\multicolumn{2}{@{}l@{}}{Darstellung bei \textsc{Gauss}:}\\
+\hspace*{.5em}$\MCurve{5}$ &\\
+$96:7$ & $5\mathord{.}17\mathord{.}109$\\
+$13:1$ & $5\mathord{.}17$\\
+\multicolumn{2}{@{}l@{}}{$1248+7=1255$}\\
+251 & $17\mathord{.}17\mathord{.}109$
+\end{tabularx}}
+\end{tabularx}\end{center}
+\noindent\hspace*{\parindent}Wenn $r$ keine Primzahl ist, dann ist es auch noch möglich, dass zwar
+$ab+n$ nicht durch $r$ teilbar ist, wohl aber durch einen Teiler $t$ von $r$. Sei
+\clearpage\SourceLeaf{596}\ArithmeticHead{41}{R}{VIII. ZUR CYKLOTECHNIE.}
+\noindent nun $r=t\mathord{.}r'$, so finden wir alsdann die Zahl $\frac{ab+n}{t}+r'$ in der Tafel der
+$a^2+r^{\prime2}$, und zwar gehören wieder zu dieser Zahl dieselben Faktoren wie zu
+$a$ und $b$ in ihren Tafeln, wobei wieder $t^2$ oder das Quadrat eines Faktors von
+$t$ zu streichen ist, falls $t$ oder dieser Faktor zu $a$ und $b$ gehört.
+
+Zur Erläuterung diene ein komplizierteres Beispiel, dessen einzelne Bruchstücke auf dem \textsc{Gauss}schen Zettel erst zusammengesucht werden müssen.
+Zwischen diesen Bruchstücken stehen Ansätze zu Berechnungen, die anscheinend zu keinem brauchbaren Ergebnis geführt haben.
+\begin{center}\footnotesize\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{}l l|l@{}}
+229 & & \hspace*{7em}Erklärung:\\
+\hspace*{.5em}34 & & $229:7=34$, Rest $-9$;\\
+687 & & 229 in Taf. VII: $5\mathord{.}29\mathord{.}181$\\
+\hspace*{.5em}916 & & \hspace*{.6em}34\quad »\quad »\qquad I:\quad $13\mathord{.}89$\\
+$7793:9$ & $5\mathord{.}13\mathord{.}29\mathord{.}89\mathord{.}181$ & $229\mathord{.}34+7=7793$\\
+\hspace*{1em}$\substack{\mathord{.}\\\mathord{.}\\\mathord{.}\\\mathord{.}}$ & & \hspace*{2em}7793 in Taf. IX: $5\mathord{.}13\mathord{.}29\mathord{.}89\mathord{.}181$\\
+\hspace*{.8em}$\MCurve{58}$ & &\\
+$7793:9$ & $5\mathord{.}13\mathord{.}[29]\mathord{.}89\mathord{.}181$ & $7793:9=853$, Rest $2\mathord{.}58$\\
+\hspace*{.5em}853 & $5\mathord{.}13\mathord{.}[29]\mathord{.}193$ & \hspace*{.5em}853 in Taf. I: $5\mathord{.}13\mathord{.}29\mathord{.}193$\\
+62344 & &\\
+\hspace*{.5em}38965 & & $7793\mathord{.}853+9=6647438$\\
+\hspace*{1em}23379 & & $6647438:(2\mathord{.}58)=6647438:(29\mathord{.}2\mathord{.}2)$\\
+6647438 & & $6647438:29=229222$\\
+\hspace*{1em}$\substack{\mathord{.}\\\mathord{.}\\\mathord{.}}$ & &\\
+\hspace*{.5em}229222 & & \hspace*{1em}$229222:2=114611$\\
+\multicolumn{2}{@{}l|}{\hspace*{1em}$114611:2$ iam adest} & \hspace*{1em}114611 in Taf. II: $5\mathord{.}5\mathord{.}13\mathord{.}13\mathord{.}89\mathord{.}181\mathord{.}193$.
+\end{tabular}\end{center}
+\noindent\hspace*{\parindent}Auf einem andern Blatt finden sich folgende Formeln:
+\[
+\begin{aligned}
+(2n)-(3n)-(6n)&=(36n^3+7n)\\
+\left(\frac{2n}{3}\right)-(n)-(2n)&=\frac{(4n^3+7)n}{3}\\
+(n)-(3n)-\left(\frac{3n}{2}\right)&=\frac{9n^3+7n}{2},
+\end{aligned}
+\]
+\noindent z. B. $n=33$
+\[
+\begin{gathered}
+\frac{9808\mathord{.}33}{2}=161832=5^2\mathord{.}13^2\mathord{.}29\mathord{.}37\mathord{.}53\mathord{.}109\\
+[9808=9\mathord{.}33^2+7].
+\end{gathered}
+\]
+\par\noindent X 2 Abh. 6.\hfill 6
+\clearpage\SourceLeaf{597}\ArithmeticHead{42}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\noindent\hspace*{\parindent}Die zu $\left(\frac{9n^3+7n}{2}\right)$ gehörigen Primfaktoren setzen sich also aus den zu $(33)$,
+$(99)$ und $\left(\frac{99}{2}\right)$ gehörigen zusammen. Dieses Verfahren wird \textsc{Gauss} wohl auch,
+wie die vorhin geschilderten, angewandt haben, um Lücken zu ermitteln und
+auszufüllen.
+
+Denn es war für \textsc{Gauss} von besonderer Wichtigkeit, die sämtlichen Tafeln
+\textls[120]{lückenlos} herzustellen, d. h. es durfte keine zerlegbare Zahl $a^2+n^2$ ($a$ und
+$n$ teilerfremd) fehlen. Und zwar aus zwei Gründen, die wir jetzt besprechen
+wollen. Zunächst war die Lückenlosigkeit notwendig wegen der \textls[120]{praktischen
+Verwendung}. Wir haben schon auf S. 36 die Vermutung ausgesprochen,
+dass \textsc{Gauss} mit den \textit{Tafeln zur Cyklotechnie} andere Pläne verfolgte, als der
+Name zunächst annehmen lässt. Wenn \textsc{Gauss} durch eine grosse Zahl dividieren oder den Logarithmus dieser Zahl ermitteln wollte, so musste er sie
+doch, wie oben ausgeführt wurde, in Faktoren zerlegen. Zu diesem Zweck
+wurde sie in die Form $a\alpha^2+b\beta^2$ gebracht, und zwar wurde wahrscheinlich
+zuerst versucht, $a=b=1$ und $\beta\leqq9$ zu erhalten. Es handelte sich also um
+die Lösung der Aufgabe:
+\[
+u\mathord{.}n=x^2+y^2\hspace{6em}(y\leqq9).
+\]
+\noindent Bei der Lösung dieser Aufgabe war jedenfalls die im vorigen Abschnitt beschriebene Tafel der quadratischen Reste vorzüglich geeignet zum Exkludieren.
+Gelang nun dieser Versuch, so brauchte man nur in der Tafel $a^2+y^2$ die
+Zahl $x$ zu suchen. Stand sie dort, so hatte man ohne weiteres ihre vollständige Faktorenzerlegung; stand sie nicht dort, so war dies ein Zeichen,
+dass Primfaktoren über 200 darin steckten. Dieser Schluss wäre jedoch bei
+einer lückenhaften Tafel nicht stichhaltig gewesen.
+
+Der andere Grund hat im Gegensatz zum ersten ein durchaus \textls[120]{wissenschaftliches Gepräge}. Der Mann, der vom zarten Jünglingsalter bis zum
+hohen Greisenalter immer und immer wieder über das Verteilungsgesetz der
+Primzahlen nachgegrübelt hat, wird sich sicher auch bei der Herstellung der
+\textit{Tafeln zur Cyklotechnie} gefragt haben: Wieviel zerlegbare $a^2+1$, $a^2+4$ usw.
+gibt es von $a=1$ bis $a\leqq100$, oder wieviel im 1. Tausender, in der 1. Million?
+Gibt es eine Formel, um diese Zahl zu berechnen? Gibt es ein Kennzeichen,
+um eine Lücke zu entdecken?
+
+Wir haben im Nachlass keine Aufzeichnung finden können, die mit Be-\clearpage\SourceLeaf{598}\ArithmeticHead{43}{R}{VIII. ZUR CYKLOTECHNIE.}
+\setcounter{footnote}{0}
+\noindent stimmtheit auf eine derartige Formel oder ein derartiges Kennzeichen hinweist;
+wohl aber finden sich an sehr vielen Stellen des Nachlasses Zusammenstellungen
+von systematisch vorgenommenen Zählungen. Auch die Hilfstafeln, die \textsc{Schering}
+abgedruckt hat, und von denen er vermutet\footnote{Werke II, S. 499.}, dass sie zur leichteren Übersicht beim Gebrauche dienen, sind von \textsc{Gauss} lediglich aufgestellt, um
+Zählungen vorzunehmen. Und zwar treten hier noch speziellere Fragen auf:
+Wieviel zerlegbare $a^2+1$ gibt es innerhalb der ersten Million, die 17 als
+grössten Primteiler haben? und ähnliche\footnote{Es hat den Anschein, dass \textsc{Gauss} gerade über diese Frage viel nachgedacht hat. Die zerlegbaren
+$a^2+1$, die eine gegebene Primzahl als höchsten Primteiler haben, sind immer nur in \textls[120]{endlicher} Anzahl
+vorhanden. Den Beweis hierfür hat \textsc{Störmer} geliefert: \textit{Quelques théorèmes sur l’équation de Pell}, Videnskabsselskabets Skrifter I. Mathem.-naturvid. Klasse 1897, Nr. 2. Für die übrigen $a^2+p^2$ beweist \textsc{Pólya},
+Math. Zeitschr. \textbf{1}, 1918, S. 143, die gleiche Eigenschaft. Während aber diese Autoren nur zeigen, dass
+für die Anzahl der zerlegbaren $a^2+1$ mit dem höchsten Primfaktor $n$ eine obere Grenze vorhanden ist,
+suchte \textsc{Gauss} anscheinend diese Zahl als eine Funktion derjenigen Zahl darzustellen, die angibt, die wievielte Primzahl dieser höchste Primfaktor ist. Wenn man die vorhin geschilderten Rechnungsverfahren in
+geeigneter Weise modifiziert, so kann man erreichen, dass man nur zu solchen $a^2+1$ kommt, die $n$
+als höchsten Primteiler haben. Man bleibt also in einem \textls[120]{Cyklus}, und möglicherweise hat sich \textsc{Gauss}
+gerade mit Rücksicht auf diese Cyklen entschlossen, den Namen Cyklotechnie beizubehalten, obgleich die
+ursprüngliche Bedeutung (Verfahren zur Berechnung cyklometrischer Funktionen) längst in den Hintergrund
+getreten war.}.
+
+Vielleicht sollte also wieder, wie in den Tagen seiner Jugend, das vermutete zahlentheoretische Gesetz auf induktivem Wege ermittelt werden. Wie
+weit \textsc{Gauss} hier mit seinem empirischen Verfahren gekommen ist, das brauchen
+wir nicht zu untersuchen; denn wir haben durch Zufall gefunden, dass die
+Tafeln nicht lückenlos sind, trotzdem sie \textsc{Gauss} augenscheinlich dafür gehalten hat.
+
+Um dies zu zeigen, führen wir folgende Rechnung aus:
+\[
+\begin{array}{r@{\;}l}
+\MCurve{5}\hphantom{{}:9}&\\
+98:9&[5\mathord{.}13\mathord{.}149]\\
+31:3&[5\mathord{.}97]\\
+98\hphantom{{}:3}&\\
+294\hphantom{{}:3}&\\
+3038\hphantom{{}:3}&\\
+27\hphantom{{}:3}&\\
+3065:5&\\
+613:3&[13\mathord{.}97\mathord{.}149].
+\end{array}
+\]
+\par\hfill $6^{\ast}$
+\clearpage\SourceLeaf{599}\ArithmeticHead{44}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\setcounter{footnote}{0}
+\noindent Diese Zahl 613 findet sich in der \textsc{Gauss}schen Tafel für $a^2+9$ \textls[120]{nicht}, gleichwohl gehört sie hinein; denn $613^2+9$ hat ausser dem Primfaktor 2 keine
+anderen Faktoren als die oben angegebenen\footnote{Ein anderes Beispiel ist 6853 in Tafel III $[13\mathord{.}53\mathord{.}173\mathord{.}197]$. Ein drittes: 160754 in Tafel III
+$[5\mathord{.}5\mathord{.}29\mathord{.}29\mathord{.}73\mathord{.}113\mathord{.}149]$. Dagegen haben sich in Tafel I noch keine Lücken finden lassen. \textsc{Goldscheider} hat vor einigen Jahren noch folgende Lücken ergänzt: $46^2+9^2=13^2$; $524^2+7^2=65^3$;
+$285^2+8^2=13^3\mathord{.}37$.}.
+
+Wir sehen also: \textsc{Gauss} hat seine \textit{Tafeln zur Cyklotechnie} zu praktischen,
+wie zu wissenschaftlichen Zwecken benutzt. Wenn er auch das oben
+(Seite 43) gekennzeichnete Ziel nicht, oder wenigstens nicht in allen Tabellen erreicht hat, so hat er doch ohne Zweifel eine Fülle von zahlentheoretischen und praktisch verwertbaren Ergebnissen mit Hülfe dieser Tafeln
+gefunden; ja, es hat sogar den Anschein, als wären diese Tafeln für ihn ein
+Riesenbassin gewesen, aus dem er von Zeit zu Zeit zahlentheoretische Sätze herausfischte. Und da $a^2+n^2$ auch den absoluten Betrag einer jeden komplexen
+ganzen Zahl darstellt, so spielten wohl die Tafeln auch eine hervorragende
+Rolle bei seinen Untersuchungen über komplexe ganze Zahlen und biquadratische Reste. So würde es sich denn auch ohne Schwierigkeit erklären, dass
+\textsc{Gauss} mehr als vier Jahrzehnte hindurch an diesen Tabellen gearbeitet hat.
+
+Die \textit{Tafeln zur Cyklotechnie} können auch als eine grosszügige Erweiterung
+der S. 8 erwähnten Tabelle zur \textls[120]{Berechnung der Logarithmen} angesehen
+werden. Zur Erläuterung brauchen wir nur eine Berechnung, mit der \textsc{Gauss}
+ein anderes Ziel verfolgt hat, ein wenig umzuformen. Wir entnehmen aus
+Tafel I:
+\[
+\begin{array}{r|l}
+5257&2\mathord{.}5^2\mathord{.}13\mathord{.}17\mathord{.}41\mathord{.}61\\
+9466&29\mathord{.}37^3\mathord{.}61\\
+12943&2\mathord{.}5^4\mathord{.}13^3\mathord{.}61\\
+34208&5\mathord{.}13^2\mathord{.}17\mathord{.}29\mathord{.}53^2\\
+44179&2\mathord{.}13^3\mathord{.}17^2\mathord{.}29\mathord{.}53\\
+85353&2\mathord{.}5\mathord{.}13\mathord{.}17\mathord{.}37\mathord{.}41^2\mathord{.}53\\
+114669&2\mathord{.}17\mathord{.}37\mathord{.}53^2\mathord{.}61^2\\
+330182&5^5\mathord{.}13\mathord{.}29\mathord{.}37\mathord{.}41\mathord{.}61\\
+485298&5\mathord{.}13^4\mathord{.}29^2\mathord{.}37\mathord{.}53.
+\end{array}
+\]
+
+Die 9 Zahlen $a$ haben die Eigenschaft, dass die zugehörigen $a^2+1$ nur
+die 9 Primfaktoren 2, 5, 13, 17, 29, 37, 41, 53, 61 enthalten. Kennt man
+\clearpage\SourceLeaf{600}\ArithmeticHead{45}{R}{VIII. ZUR CYKLOTECHNIE.}
+\noindent also die Logarithmen dieser 9 Primzahlen, so kann man die der 9 Zahlen $a$
+mit Hilfe von gut konvergierenden Reihen bestimmen.
+
+Das gewählte Beispiel stammt aus einer Zusammenstellung, die \textsc{Gauss}
+gemacht hat, um die Werte von $\MCot$ für die 9 Primfaktoren zu bestimmen.
+Er bezeichnet $\MCot(a^2+\varepsilon^2)$ mit $(a^2+\varepsilon^2)$ oder auch mit $\left[\frac{a}{\varepsilon}\right]$. Aus
+\[
+\begin{aligned}
+18^2+1&=5^2\mathord{.}13\\
+57^2+1&=2\mathord{.}5^3\mathord{.}13\\
+239^2+1&=2\mathord{.}13^4
+\end{aligned}
+\]
+\noindent ermittelt er (durch Zerlegung von $18+i$, $57+i$, $239+i$ in ihre komplexen
+Primfaktoren):
+\[
+\begin{array}{r@{\;}c@{\;}r@{\;}r@{\;}r}
+(18)&=&2[2]&-2[5]&-[13]\\
+(57)&=&-[2]&+3[5]&-[13]\\
+(239)&=&3[2]&&-4[13].
+\end{array}
+\]
+\noindent Hieraus ermittelt er $[2]$, $[5]$ und $[13]$ und erhält
+\[
+\begin{gathered}
+[2]=12(18)+8(57)-5(239)\\
+\text{usw.}
+\end{gathered}
+\]
+\noindent Da nun nach dem Obigen für $[2]$ auch $[1^2+1]$ oder $(1)$ gesetzt werden kann,
+so ist
+\[
+(1)=\frac{\pi}{4}=12(18)+8(57)-5(239).
+\]
+\noindent Durch weitere Zerlegung und Elimination erhält er auch:
+\[
+(1)=\frac{\pi}{4}=12(38)+20(57)+7(239)+24(268).
+\]
+\noindent Damit hat \textsc{Gauss} zwei neue Reihenentwicklungen zur Berechnung von $\pi$ gewonnen, ein Ergebnis, das allerdings nur theoretische Bedeutung hat. Denn
+praktisch wird es durch die Reihe von \textsc{Machin}:
+\[
+(1)=4(5)-(239)
+\]
+\noindent übertroffen, während die Reihen von \textsc{Euler}
+\[
+(1)=(2)+(3)
+\]
+\noindent und die von \textsc{Vega}
+\[
+(1)=2(3)+(7)
+\]
+\noindent zwar einfacher sind, aber schlecht konvergieren.
+\clearpage\SourceLeaf{601}\ArithmeticHead{46}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\noindent\hspace*{\parindent}Es hat auch nicht den Anschein, als ob \textsc{Gauss} nur die Absicht gehabt
+habe, die Zahl der Reihen zur Berechnung von $\pi$ zu vergrössern, sondern es
+ist viel wahrscheinlicher, dass auch hier wieder zahlentheoretische Sätze mit
+im Spiel sind. So spielt z. B. die Zahlentheorie bereits eine Rolle bei der
+Zerlegung von $\MCot\frac{a}{b}$ in eine algebraische Summe von $\MCot$.
+
+Wenn nämlich
+\[
+\text{I)}\qquad a+bi=(\alpha_1\pm\beta_1i)(\alpha_2\pm\beta_2i)(\alpha_3\pm\beta_3i)\;\mathord{.}\;\mathord{.}\;\mathord{.}
+\]
+\noindent ist, so ist
+\[
+\text{II)}\qquad a^2+b^2=(\alpha_1^2+\beta_1^2)(\alpha_2^2+\beta_2^2)(\alpha_3^2+\beta_3^3)\;\mathord{.}\;\mathord{.}\;\mathord{.}
+\]
+\noindent und
+\[
+\text{III)}\quad \MCot\frac{a}{b}=\pm\MCot\frac{\alpha_1}{\beta_1}\pm\MCot\frac{\alpha_2}{\beta_2}\pm\MCot\frac{\alpha_3}{\beta_3}\mathord{\cdots}.
+\]
+\noindent Die S. 41 wiedergegebenen Notizen finden hierdurch ihre einfache Erklärung.
+
+Inwieweit \textsc{Gauss} das Verfahren, nach dem \textsc{Euler}, \textsc{Vega} und \textsc{Machin} ihre
+Reihen für $\pi$ gefunden haben, für seine Zwecke benutzt hat, das lässt sich
+wohl schwerlich feststellen. Es handelt sich um die wiederholte Anwendung
+der Formel
+\[
+\MCot u\pm\MCot v=\MCot\frac{uv\mp1}{v\pm u},
+\]
+\noindent die auch benutzt werden kann, um aus zwei Zahlen eine dritte zu ermitteln.
+Z. B.
+\[
+\begin{gathered}
+(v)=\left(\tfrac{6}{7}\right)\big|5\mathord{.}17;\qquad
+(u)=\left(\tfrac{4}{5}\right)\big|41;\\
+\frac{\frac{4}{5}\mathord{.}\frac{6}{7}+1}{\frac{6}{7}-\frac{4}{5}}=\left|\left(\frac{59}{2}\right)\right.;\qquad
+\left(\frac{59}{2}\right)\big|\;5\mathord{.}17\mathord{.}41.
+\end{gathered}
+\]
+\clearpage\endgroup

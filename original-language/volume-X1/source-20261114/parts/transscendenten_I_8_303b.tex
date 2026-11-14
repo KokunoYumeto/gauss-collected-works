@@ -1,0 +1,29 @@
+\begingroup
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\newcommand{\TransBracket}[1]{\boldsymbol{[}#1\boldsymbol{]}}
+\ArithmeticHead{296}{L}{ANALYSIS. NACHLASS.}
+\NumberedItem{8}
+\noindent{\small[S. 45]}\par
+\par\indent Durch Induction gefunden:
+\begin{equation*}\tag*{[7]}
+\left\{\begin{aligned}
+&(1+2x+2x^4+2x^9+{.}{.}{.})+(1+2x^3+2x^{12}+2x^{27}+{.}{.}{.})\\
+&=2(1+x)(1+x^3)(1+x^5)(1+x^7){.}{.}{.}\\
+&\qquad\times(1-x^5)(1-x^7)(1-x^{17})(1-x^{19}){.}{.}{.}\\
+&\qquad\times(1-x^{12})(1-x^{24})(1-x^{36}){.}{.}{.}\\
+&=\frac{2\TransBracket{xx}^2\TransBracket{x^{12}}}{\TransBracket{x}\TransBracket{x^4}}
+\times(1-x^5)(1-x^7)(1-x^{17})(1-x^{19}){.}{.}{.}
+\end{aligned}\right.
+\end{equation*}
+\begin{equation*}\tag*{[8]}
+\left\{\begin{aligned}
+&(1+2x+2x^4+2x^9+{.}{.}{.})-(1+2x^3+2x^{12}+2x^{27}+{.}{.}{.})\\
+&=2x(1+x)(1+x^3)(1+x^5)(1+x^7){.}{.}{.}\\
+&\qquad\times(1-x)(1-x^{11})(1-x^{13})(1-x^{23}){.}{.}{.}\\
+&\qquad\times(1-x^{12})(1-x^{24}){.}{.}{.}\\
+&=\frac{2x\TransBracket{xx}^2\TransBracket{x^{12}}}{\TransBracket{x}\TransBracket{x^4}}
+(1-x)(1-x^{11})(1-x^{13})(1-x^{23}){.}{.}{.}
+\end{aligned}\right.
+\end{equation*}
+\clearpage
+\endgroup

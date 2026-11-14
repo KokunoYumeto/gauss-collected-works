@@ -1,0 +1,87 @@
+\clearpage\begingroup\NoSourceHead\SourceLeaf{527b}
+\renewcommand{\thefootnote}{\arabic{footnote})}\setcounter{footnote}{23}
+\ArithmeticHead{70}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\begin{center}\textls[100]{C. Die geodätische Krümmung und der Satz über die Total-}\\
+\textls[100]{krümmung.}\end{center}
+\begin{center}\textls[100]{1. Die geodätische Krümmung und ihre Verallgemeinerung.}\end{center}
+\noindent\hspace*{\parindent}16. Die geodätische Krümmung kommt zwar in den \textit{Disquisitiones generales circa superficies curvas} nicht vor, wohl aber in einer früheren, vermutlich
+aus der Zeit zwischen 1822 und 1825 stammenden Arbeit, die als Vorarbeit
+\clearpage\SourceLeaf{528}
+\ArithmeticHead{71}{R}{GEODÄTISCHE KRÜMMUNG.}
+\noindent zu den \textit{Disquisitiones} zu betrachten ist, und die sich in \textsc{Gauss}' Nachlass gefunden hat\footnote{C. F. \textsc{Gauss}, Werke, Bd. VIII, S. 386—395. Wegen der Datierung vergleiche die Bemerkung
+von \textsc{Stäckel}, ebenda S. 395.}. \textsc{Gauss} definiert darin die geodätische Krümmung — oder, wie
+er sagt, die »Seitenkrümmung« — einer auf einer Fläche gelegenen Kurve als
+das Produkt der absoluten Krümmung der Kurve in dem betrachteten Punkt
+in den Sinus des Winkels $\psi$ zwischen der Richtung der Hauptnormale der
+Kurve und der (negativen) Flächennormale
+\[
+K_g=\frac{\sin\psi}{r}.
+\]
+\par\noindent\hspace*{\parindent}Er berechnet ihren Wert für den Fall, dass die Fläche durch zwei Parameter $p$, $q$ dargestellt und die Kurve auf der Fläche dadurch gegeben ist, dass
+$p$ und $q$ als Funktionen einer unabhängigen Variabeln $t$ angenommen werden\footnote{\textsc{Gauss} schreibt $t$, $\theta$; $u$; $P$, $Q$, $R$; $\chi$ statt $p$, $q$; $t$; $E$, $F$, $G$; $\theta$.}.
+Als Resultat erhält er den bekannten, später zuerst von \textsc{Minding}\footnote{F. \textsc{Minding}, \textit{Bemerkungen über die Abwickelung krummer Linien auf Flächen}, Journal für r. u. a.
+Mathematik, Bd. 6 (1830), S. 160.} veröffentlichten Ausdruck für die geodätische Krümmung, in dem ausser den ersten und
+zweiten Ableitungen von $p$ und $q$ nach $t$ nur die Fundamentalgrössen erster
+Ordnung $E$, $F$, $G$ und ihre ersten Ableitungen nach $p$ und $q$ vorkommen.
+\par\noindent\hspace*{\parindent}Die Beziehungen zwischen der geodätischen Krümmung und der Variationsrechnung ergeben sich nun, wenn man die \textsc{Weierstrass}sche Formel für die
+erste Variation des allgemeinen Integrals (8)
+\begin{equation*}\tag{8}
+J=\int_{t_0}^{t_1}F(x,y,x',y')\,dt,
+\end{equation*}
+nämlich
+\[
+\delta J=[F_{x'}\delta x+F_{y'}\delta y]_{t_0}^{t_1}+\int_{t_0}^{t_1}T(y'\delta x-x'\delta y)\,dt,
+\]
+worin
+\[
+\begin{aligned}
+T&=F_{xy'}-F_{yx'}+F_1(x'y''-y'x''),\\
+F_1&=\frac{F_{x'x'}}{y'^2}=-\frac{F_{x'y'}}{x'y'}=\frac{F_{y'y'}}{x'^2},
+\end{aligned}
+\]
+auf das Längenintegral (4)
+\begin{equation*}\tag{4}
+s=\int_{t_0}^{t_1}\sqrt{Ep'^2+2Fp'q'+Gq'^2}\,dt
+\end{equation*}
+\clearpage\SourceLeaf{529}
+\ArithmeticHead{72}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent anwendet. Man erhält dann\footnote{Vgl. O. \textsc{Bolza}, \textit{Lectures on the Calculus of Variations}, Chicago 1904, S. 129.}
+\[
+T=\sqrt{EG-F^2}\,K_g
+\]
+und daraus für die erste Variation des Bogens\footnote{T. J. I'A. \textsc{Bromwich}, Bulletin of the American Mathematical Society, Bd. 9 (1905), S. 547.}:
+\begin{equation*}\tag{41}
+\delta s=[\cos\varphi\,\delta e]_0^1-\int_{s_0}^{s_1}K_g\sin\varphi\mathpunct{.}\,\delta e\mathpunct{.}\,ds,
+\end{equation*}
+wo $\varphi$ den Winkel zwischen der Kurventangente und dem Variationsvektor
+$(\delta x,\delta y,\delta z)$ bedeutet und
+\[
+\delta e=\sqrt{(\delta x)^2+(\delta y)^2+(\delta z)^2}.
+\]
+\par\noindent\hspace*{\parindent}Für den speziellen Fall
+\[
+\varphi=-\frac{\pi}{2},\quad\delta e=1
+\]
+vereinfacht sich der Ausdruck (41) zu der Formel
+\begin{equation*}\tag{42}
+\delta s=\int_{s_0}^{s_1}K_g\,ds,
+\end{equation*}
+auf die \textsc{Landsberg}\footnote{G. \textsc{Landsberg}, \textit{Ueber die Krümmung in der Variationsrechnung}, Mathematische Annalen, Bd. 65
+(1908), S. 316.} seine »innere« Definition der geodätischen Krümmung
+gründet.
+\par\noindent\hspace*{\parindent}Als Verallgemeinerung der geodätischen Krümmung beim Übergang von
+dem Längenintegral (4) zu dem allgemeinen Integral (8) erscheint daher der
+Ausdruck
+\begin{equation*}\tag{43}
+K_e=\frac{T}{F_1^{\frac12}F^{\frac32}},
+\end{equation*}
+den \textsc{Landsberg} deshalb die »extremale Krümmung« der betrachteten Kurve
+im Punkt $x$, $y$ nennt. Sie ist eine absolute Invariante\footnote{G. \textsc{Landsberg}, loc. cit. 29), S. 329 und A. L. \textsc{Underhill}, \textit{Invariants of the Function $F(x,y,x',y')$
+in the Calculus of Variations}, Transactions of the American Mathematical Society, Bd. 9 (1908), S. 332, 337.
+Vgl. ferner P. \textsc{Funk}, Mathematische Zeitschrift, Bd. 3 (1919), S. 87.} sowohl gegenüber
+allen Punkttransformationen der $x,y$-Ebene und ihren Erweiterungen als auch
+gegenüber allen Parametertransformationen des Kurvenparameters $t$, worin die
+\clearpage\SourceLeaf{530}
+\ArithmeticHead{73}{R}{DER SATZ ÜBER DIE TOTALKRÜMMUNG.}
+\noindent entsprechenden Invarianteneigenschaften der geodätischen Krümmung als Spezialfall enthalten sind.
+\clearpage\endgroup

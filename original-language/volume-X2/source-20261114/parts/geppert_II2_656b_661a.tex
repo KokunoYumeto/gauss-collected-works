@@ -1,0 +1,189 @@
+\clearpage\begingroup\SourceLeaf{656b}
+\ArithmeticHead{21}{R}{II. DAS PRINZIP DES KLEINSTEN ZWANGES.}
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\renewcommand{\thefootnote}{\arabic{footnote})}\setcounter{footnote}{37}
+\begin{center}\textls[100]{2. Die \textsc{Gauss}sche Arbeit über das Prinzip des kleinsten Zwanges.}\end{center}
+\noindent\hspace*{\parindent}\textsc{Gauss} geht nun einen Schritt weiter auf dem von \textsc{Lagrange} eingeschlagenen
+Wege der Vereinheitlichung und Ökonomie, indem er den beiden letztgenannten
+Prinzipien ein einziges neues, das des kleinsten Zwanges, substituiert. Er
+empfindet es als Mangel, dass Statik und Dynamik gesondert behandelt werden,
+während doch von einem höheren Standpunkte aus erstere nur einen ganz
+speziellen Fall der Mechanik bilde. Diesen Mangel soll sein neues Prinzip
+beheben, es soll also das einzige Gesetz der Mechanik schlechthin sein.
+
+Es seien $A_1\, .\, .\, .\, A_n$ die Positionen der $n$ Massenpunkte mit den Koordinaten
+$x_i$ im Zeitpunkte $t$, die einerseits den angreifenden Kräften mit den
+Komponenten $X_i$ unterliegen, andererseits gewissen $m$ Bedingungsgleichungen
+(1) genügen, deren Koeffizienten Funktionen der Koordinaten und der Zeit
+sind. Die Bedingungsgleichungen äussern sich im Auftreten von Zwangskräften,
+deren Zusammensetzung mit den angreifenden Kräften die wirklichen
+Kräfte ergibt. Letzteren verdanken die Punkte ihre wirkliche Bewegung,
+durch die sie im Zeitpunkte $t+\Delta t$ in die Stellungen $C_1\, .\, .\, .\, C_n$ gelangen, deren
+Koordinaten durch $x_i+\dot x_i\Delta t+\frac12\ddot x_i(\Delta t)^2+ .\, .\, .$ gegeben sind; würden in den
+Punkten $A_1\, .\, .\, .\, A_n$ nur die angreifenden Kräfte unter Ausschaltung der Zwangskräfte
+wirken, so hätten die Punkte im Momente $t+\Delta t$ die Positionen $B_1\, .\, .\, .\, B_n$
+mit den Koordinaten $x_i+\dot x_i\Delta t+\dfrac12\dfrac{X_i}{m_i}(\Delta t)^2+ .\, .\, .$ angenommen. Die Vektoren
+$\overrightarrow{B_\nu C_\nu}\ (\nu=1\, .\, .\, .\, n)$ messen also durch ihre Länge die Abweichung der wirklichen
+von der freien, d.\,h. ohne Bindungen vor sich gehenden Bewegung
+nach Ablauf der infinitesimalen Zeit $\Delta t$. \textsc{Gauss} bezeichnet dann $m_{3\nu}|B_\nu C_\nu|^2$
+als den Zwang, den der $\nu$-te Massenpunkt infolge der herrschenden Bedingungen
+im Zeitelement $\Delta t$ erleidet, und somit
+\[
+Z=\sum_{\nu=1}^{n}m_{3\nu}|B_\nu C_\nu|^2
+=\frac{(\Delta t)^4}{4}\sum_{i=1}^{3n}\frac1{m_i}(X_i-m_i\ddot x_i)^2\tag{5}
+\]
+\clearpage\SourceLeaf{657}\ArithmeticHead{22}{L}{H. GEPPERT, ÜBER GAUSS’ ARBEITEN ZUR MECHANIK UND POTENTIALTHEORIE.}
+\noindent als den Zwang des ganzen Systems $\Sigma$. Die Vektoren $\overrightarrow{B_\nu C_\nu}$ sind andererseits
+proportional zu Kräften, die sich vermöge der Bedingungen das Gleichgewicht
+halten, d.\,h. infolge letzterer nicht wirksam werden. Wendet man also auf
+sie das Prinzip der virtuellen Verrückungen an, so folgt, dass
+\[
+\sum_{i=1}^{3n}(X_i-m_i\ddot x_i)\delta x_i=0
+\]
+\noindent sein muss, womit sich das \textsc{d’Alembert}sche Prinzip ergibt.
+
+\textsc{Gauss} gibt aber diesem letzten Schluss eine andere Wendung. Fasst
+man nämlich $Z$ nur als Funktion der $\ddot x_i$ auf und sucht diejenigen Werte dieser
+Variablen, die $Z$ zum Extremum (und zwar offenbar zum Minimum) machen,
+so findet man die Bedingung
+\[
+\sum_{i=1}^{3n}(X_i-m_i\ddot x_i)\delta\ddot x_i=0,\tag{6}
+\]
+\noindent die formal mit der Gleichung des \textsc{d’Alembert}schen Prinzips (4) übereinstimmt,
+wenn die $\delta\ddot x_i$ noch die den Beziehungen (3) entsprechenden Bedingungsgleichungen
+\[
+\sum_{i=1}^{3n}a_{\varkappa i}\delta\ddot x_i=0
+\qquad\qquad(\varkappa=1\, .\, .\, .\, m)\tag{7}
+\]
+\noindent erfüllen. Diese letzten Gleichungen kann man aber folgendermassen deuten:
+aus (1) folgt, dass die wirklichen Beschleunigungskomponenten $\ddot x_i$ $m$ Relationen
+der Form
+\[
+\sum_{i=1}^{3n}a_{\varkappa i}\ddot x_i+\Phi_\varkappa(x_i,\dot x_i,t)=0
+\qquad(\varkappa=1\, .\, .\, .\, m)\tag{8}
+\]
+\noindent genügen müssen, worin die Funktionen $\Phi_\varkappa$ die $\ddot x_i$ nicht enthalten. Ordnen
+wir also der wirklichen Bahn eine variierte Bahn zu, bei der Koordinaten
+und Geschwindigkeiten im Zeitpunkte $t$ unverändert bleiben:
+\[
+\delta x_i=\delta\dot x_i=0\qquad\qquad(i=1\, .\, .\, .\, 3n),
+\]
+\noindent und nur die Beschleunigungen um $\delta\ddot x_i$ variiert werden, und verlangen wir, dass
+diese variierte Bahn ebenfalls zulässig sei, also den vorgelegten Bedingungen
+(1) genüge, so muss neben (8) eben die Beziehung (7) für die Variationen
+gelten. Man bezeichnet die dargelegte Art der Variation als eine \textsc{Gauss}sche
+\clearpage\SourceLeaf{658}\ArithmeticHead{23}{R}{II. DAS PRINZIP DES KLEINSTEN ZWANGES.}
+\noindent Variation. Somit bedeutet (6), dass bei einer \textsc{Gauss}schen Variation der Bahn
+$\delta Z=0$ ist, d.\,h. dass die wirkliche Bahn im Vergleich zu den nach \textsc{Gauss}
+variierten Bahnen den Zwang zu einem Minimum macht. Dies ist das Prinzip
+des kleinsten Zwanges, und es ist aus seiner Ableitung evident, dass es mit
+dem Prinzip von \textsc{d’Alembert} und dem der virtuellen Verrückungen — wenigstens
+solange die obige Ableitung ihre Geltung behält — völlig gleichwertig ist.
+
+\textsc{Mach}\footnote{a.\,a.\,O. S. 338.} hat darauf hingewiesen, dass dieses Prinzip mit folgender Aussage
+identisch ist: die Arbeit, durch die in einem Zeitelement die Abweichung
+der wirklichen, d.\,h. erzwungenen Bewegung von der freien hervorgebracht
+wird, also die sog. verlorene Arbeit, ist ein Minimum. Man kann aus dem
+\textsc{Gauss}schen Prinzip eine Reihe weiterer Minimumsprinzipe ableiten, die alle
+mit ihm äquivalent sind\footnote{Die vollständige Literatur ist aufgezählt bei \textsc{Voss} a.\,a.\,O. S. 84.}. In der letztgenannten Fassung erscheint das \textsc{Gauss}sche
+Prinzip zugleich in neuer historischer Beleuchtung, denn schon \textsc{Carnot}\footnote{L. N. M. \textsc{Carnot}, \textit{Principes fondamentaux de l’équilibre et des mouvements.} Paris 1803, S. 157.} hatte
+beim Versuche einer sachlichen Erklärung der metaphysischen Gedankengänge,
+mit denen \textsc{Maupertuis} sein Prinzip der kleinsten Aktion umrahmte, darauf
+hingewiesen, dass beim elastischen und unelastischen Stoss die verlorenen
+lebendigen Kräfte ein Minimum sein müssten; insofern erscheint das \textsc{Gauss}sche
+Prinzip als der Abschluss einer mit dem \textsc{Maupertuis}schen Prinzip zusammenhängenden
+Entwicklung.
+
+\textsc{Gauss} selbst hat sein neues Prinzip zum ersten Male in dem oben zitierten
+Briefe an \textsc{Olbers} 1829 ausgesprochen und im gleichen Jahre in seiner
+Abhandlung über diesen Gegenstand bekannt gemacht. In seinen späteren
+Arbeiten ist er nicht mehr darauf zurückgekommen, und dies mag es wohl
+z.\,T. erklären, dass sein Grundsatz erst erheblich später in seiner fundamentalen
+Bedeutung erkannt und angewandt wurde. Noch kurz vor seinem Tode
+entstand unter \textsc{Gauss}’ unmittelbarem Einfluss die Dissertation von A. \textsc{Ritter},
+die neben einer ausführlichen Erläuterung Beispiele entwickelt und die elementaren
+Sätze der Statik aus dem \textsc{Gauss}schen Prinzip ableitet. Das erste
+Lehrbuch, das das \textsc{Gauss}sche Prinzip unter die dynamischen Grundgesetze
+einreihte, war das von \textsc{Earnshaw} (\textit{Dynamics}, Cambridge 1839). Die ersten
+Arbeiten über das \textsc{Gauss}sche Prinzip befassen sich nur mit Erläuterungen
+\clearpage\SourceLeaf{659}\ArithmeticHead{24}{L}{H. GEPPERT, ÜBER GAUSS’ ARBEITEN ZUR MECHANIK UND POTENTIALTHEORIE.}
+\noindent und direkten Anwendungen, so z.\,B. gibt \textsc{Reuschle}\footnote{\textsc{Reuschle}, \textit{Über das Prinzip des kleinsten Zwanges und die damit zusammenhängenden mechanischen Prinzipe.} Archiv d. Math. und Phys., 6, 1845, S. 238—270.} die Anwendung auf
+den Hebel und \textsc{Scheffler}\footnote{H. \textsc{Scheffler}, \textit{Über das Gausssche Grundgesetz der Mechanik.} Zeitschr. f. Math. und Phys.,
+3, 1858, S. 197—223, 261—274.} ausserdem die Behandlung der Pendelbewegung,
+des unelastischen Stosses und der Bewegung eines schweren Punktes auf
+einer Fläche. Diesen Beispielen hat \textsc{Mach} einige weitere aus der Statik und
+Dynamik hinzugefügt. Der erste, der das \textsc{Gauss}sche Prinzip in seiner vollen
+Tragweite würdigte, war wohl \textsc{Heinrich Hertz}\footnote{H. \textsc{Hertz}, \textit{Die Prinzipien der Mechanik.} Leipzig 1894. Ges. Werke III, vergl. S. 184 ff.}, denn in seinem Buche ist
+dieses Prinzip zusammen mit dem \textsc{Galilei}schen Trägheitsgesetz zum Grundpfeiler
+seiner kräftelosen Mechanik erhoben.
+
+Der von \textsc{Gauss} gegebene Beweis seines Prinzips, der sich nur in der
+geometrischen Einkleidung von den oben wiedergegebenen Überlegungen unterscheidet,
+impliziert eine Voraussetzung, die \textsc{Gauss} selbst nicht beachtet, und
+auf die erst \textsc{Stäckel}\footnote{P. \textsc{Stäckel}, \textit{Bemerkungen zum Prinzip des kleinsten Zwanges.} Sitzungsber. d. Heidelb. Akad.
+d. Wiss. Abt. A. Jahrg. 1919.} aufmerksam gemacht hat, nämlich, dass alle auftretenden
+Bedingungsgleichungen (1) linear in den Differentialen seien. Betrachtet
+man die $m$-reihige Matrix
+\[
+\left(\begin{array}{@{}cccc@{}}
+a_{11},&a_{12},&.\, .\, .&a_{1,3n}\\
+a_{21},&a_{22},&.\, .\, .&a_{2,3n}\\
+\multicolumn{4}{c}{.\; .\; .\; .\; .\; .\; .\; .\; .\; .}\\
+a_{m1},&a_{m2},&.\, .\, .&a_{m,3n}
+\end{array}\right),
+\]
+\noindent die selbst Funktion des Ortes und der Zeit ist, so kann sie entweder den
+Rang $m$, oder einen Rang $r<m$ haben. Ist das Erstere der Fall, so nennen wir
+die Lage des Systems $\Sigma$ regulär, ist hingegen $r<m$, so heisst die Lage
+singulär. Tritt letzteres ein, so hat dies zur Folge, dass eine der Gleichungen
+(1) durch eine Gleichung höheren Grades in den Differentialen zu ersetzen
+ist, wie man daraus erkennt, dass es sich in den Bedingungen (1) ja um die
+ersten Glieder von Taylorentwicklungen handelt. Nimmt man z.\,B. einen
+Punkt mit der Masse Eins, der auf dem Kegel
+\[
+x_1^2+x_2^2-x_3^2=0
+\]
+\clearpage\SourceLeaf{660}\ArithmeticHead{25}{R}{II. DAS PRINZIP DES KLEINSTEN ZWANGES.}
+\HistoricalFoot{X 2 Abh. 7.}{4}
+\noindent zu laufen gezwungen ist, so lautet die Bedingung (1) im allgemeinen
+\[
+x_1dx_1+x_2dx_2-x_3dx_3=0.
+\]
+\noindent Sie versagt jedoch in der Kegelspitze, dem Orte der singulären Lage, und
+statt ihrer müssen die Differentiale dort die Beziehung erfüllen
+\[
+(dx_1)^2+(dx_2)^2-(dx_3)^2=0.
+\]
+\noindent Für reguläre Lagen sind nun das \textsc{d’Alembert}sche und das \textsc{Gauss}sche Prinzip
+gleichwertig; beide bestimmen die Beschleunigungen eindeutig aus dem augenblicklichen
+Bewegungszustand, und auf solche Lagen bezog sich der obige
+Beweis. Anders verhält es sich für singuläre Lagen; die einfachsten Beispiele
+zeigen, dass in solchen Fällen das \textsc{d’Alembert}sche Prinzip versagt und zu
+Widersprüchen führen kann; die Minimumsaufgabe des \textsc{Gauss}schen Prinzips
+behält dagegen auch dann ihren Sinn, wenn die Variationen der Beschleunigungskomponenten,
+die von der wirklichen zu der nach \textsc{Gauss} variierten Bahn
+führen, nicht durch lineare, sondern allgemeiner durch algebraische Gleichungen
+verknüpft sind. Ein Unterschied muss jedoch hervorgehoben werden: bei regulärer
+Lage liefert das \textsc{Gauss}sche Prinzip ein einziges absolutes Minimum des Zwanges,
+legt also die Beschleunigungen vollkommen eindeutig fest; bei singulärer Lage
+kann es hingegen mehrere Minima des Zwanges geben, die die von dieser
+Lage aus möglichen Bewegungen charakterisieren; der sog. Eindeutigkeitssatz
+der Mechanik wird also für singuläre Lagen ungültig. Dass dem so ist, erkennt
+man leicht, wenn man die Grössen $\ddot x_i\sqrt{m_i}$ als Koordinaten eines $3n$-dimensionalen
+linearen Raumes $R_{3n}$ deutet; ist dann die Lage regulär, führen also die Bedingungen
+(1) zu linearen Bindungen zwischen den $\ddot x_i$, so wird durch diese
+eine im $R_{3n}$ eingebettete lineare Mannigfaltigkeit $R_{3n-m}$ ausgesondert, und
+das \textsc{Gauss}sche Prinzip erfordert, geometrisch gedeutet, die Bestimmung des
+kürzesten Abstandes des Punktes mit den Koordinaten $\dfrac{X_i}{\sqrt{m_i}}$ von diesem $R_{3n-m}$;
+ist die Lage singulär, bestehen also zwischen den $\ddot x_i$ nichtlineare algebraische
+Bedingungsgleichungen, so sondern diese aus dem $R_{3n}$ eine algebraische nichtlineare
+Mannigfaltigkeit $V_{3n-m}$ aus, und die Bestimmung des kürzesten Abstandes
+derselben von dem Punkte $\dfrac{X_i}{\sqrt{m_i}}$ kann dann zu mehreren Lösungen führen\footnote{Die Frage nach der physikalischen Möglichkeit oder Unmöglichkeit singulärer Lagen liegt ausserhalb
+des Rahmens unserer Aufgabe; sie hängt damit zusammen, dass den mechanischen Prinzipien eine
+unter Umständen physikalisch unzulässige Idealisierung zugrunde liegt.}.
+\clearpage\SourceLeaf{661}\ArithmeticHead{26}{L}{H. GEPPERT, ÜBER GAUSS’ ARBEITEN ZUR MECHANIK UND POTENTIALTHEORIE.}
+\noindent Somit folgt, dass für singuläre Lagen das \textsc{Gauss}sche Prinzip mehr leistet als
+das \textsc{d’Alembert}sche und also aus diesem nicht abgeleitet werden kann. Man
+wird vielmehr das Prinzip des kleinsten Zwanges für singuläre Lagen als ein
+neues, weitertragendes Axiom aufzufassen haben.
+\clearpage\endgroup

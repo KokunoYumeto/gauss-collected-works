@@ -1,0 +1,165 @@
+\clearpage\begingroup
+\ArithmeticHead{9}{R}{II. DAS GAUSSSCHE DIVISIONSVERFAHREN.}
+\renewcommand{\thefootnote}{\arabic{footnote})}\setcounter{footnote}{0}
+\newcommand{\MLowComma}{\mathord{\raisebox{-.45ex}{,}}}
+\begin{center}II.\\[3pt]{\large\textls[100]{Das \textsc{Gauss}sche Divisionsverfahren.}}\end{center}
+\noindent\hspace*{\parindent}Warum \textsc{Gauss} hier abgebrochen hat? Die Division durch 12983008
+hat ihn vermutlich wenig gereizt. Damit kommen wir auf eine weitere Eigentümlichkeit des \textsc{Gauss}schen Zahlenrechnens. Das Rechnen mit Vorteil kann
+man definieren als die Kunst, unangenehme Rechnungen nach Möglichkeit
+zu vermeiden. Zu diesen unangenehmen Rechnungen gehört in erster Linie
+das Dividieren durch grosse Zahlen. Dieser Unannehmlichkeit ist \textsc{Gauss} in
+genialer Weise ausgewichen.
+
+Hat \textsc{Gauss} einen Bruch $\frac{a}{p_1p_2}$, wo $p_1$ und $p_2$ verschiedene Primzahlen bedeuten, so weiss er diesen Bruch leicht in zwei Teilbrüche $\frac{u_1}{p_1}+\frac{u_2}{p_2}$ zu zerlegen. Das ist ja an sich nichts Ungewöhnliches, denn die Aufgabe gehört
+zu den \textsc{Diophant}ischen Aufgaben und ihre Lösung ist schon sehr alt\footnote{Vergl. \textsc{G. Loria}, \textit{Studî intorno alla logistica greco-egiziana.} Giornale di matematiche, \textbf{32} (1894), S. 28.}. \textsc{Gauss}
+kennt jedoch Verfahren, die äusserst rasch zum Ziele führen, so dass die
+Rechnungen bei ein- und zweistelligen Werten sofort im Kopf ausführbar
+werden. Er gibt zwar in seinen \textit{Disquisitiones}, Sectio Sexta\footnote{Werke I, S. 381.}, allgemeine Anleitungen dazu, allein in der Praxis hat er Kunstgriffe angewandt, die in
+seinem Werke nicht verzeichnet sind. In dem schon oben erwähnten \textsc{Leiste}
+findet sich bei S. 79 folgende Aufzeichnung:
+\[
+\begin{array}{c@{\quad}c}
+\frac{2}{31831}=\frac{a}{139}+\frac{b}{229}&\frac{2}{90}=\frac{28}{9}=\frac{34}{1}\\[5pt]
+&\frac{2}{-90}=\frac{46}{-9}=\frac{-56}{1}.
+\end{array}
+\]
+\par\noindent\hspace*{\parindent}Die Deutung ergibt sich so:
+\par\noindent\hspace*{\parindent}Aus der Gleichung
+\[
+229a+139b=2
+\]
+\par\smallskip\noindent{\small X\textsubscript{2} Abh. 6.}\hfill{\small 2}\par
+\clearpage\SourceLeaf{565}\ArithmeticHead{10}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\setcounter{footnote}{0}
+\noindent folgt
+\begingroup\makeatletter\tagsleft@true\let\veqno\leqno\makeatother
+\begin{equation*}
+a\equiv\frac{2}{229}\equiv\frac{2}{229-139}\; (\mathrm{mod}\;139)\text{\textsuperscript{1)}}.\tag*{(1)}
+\end{equation*}
+\setcounter{footnote}{1}\footnotetext{$\frac{a}{b}\equiv\frac{c}{d}$ soll hier bedeuten $a\equiv\lambda c\;(\mathrm{mod}\,n)$ und $b\equiv\lambda d\;(\mathrm{mod}\,n)$.}
+\par\noindent\hspace*{\parindent}Aus derselben Gleichung folgt ebenso
+\begin{equation*}
+b\equiv\frac{2}{139}\equiv\frac{2}{139-229}\; (\mathrm{mod}\;229).\tag*{(2)}
+\end{equation*}
+\endgroup
+\par\noindent\hspace*{\parindent}Aus (1) ergibt sich
+\[
+\frac{2}{90}\equiv\frac{280}{90}\equiv\frac{28}{9}\;(\mathrm{mod}\;139),
+\]
+\noindent und weiter
+\[
+\frac{28}{9}\equiv\frac{306}{9}\equiv\frac{34}{1}\;(\mathrm{mod}\;139).
+\]
+\par\noindent\hspace*{\parindent}In gleicher Weise ergibt sich aus (2)
+\[
+\frac{2}{-90}\equiv\frac{460}{-90}\equiv\frac{46}{-9}\;(\mathrm{mod}\;229),
+\]
+\noindent und weiter
+\[
+\frac{46}{-9}\equiv\frac{1557}{9}\equiv\frac{173}{1}\equiv\frac{-56}{1}\;(\mathrm{mod}\;229).
+\]
+\par\noindent\hspace*{\parindent}In diesem Beispiel treten bereits verhältnismässig grosse Nenner auf; und
+doch scheint es, als ob \textsc{Gauss} mit diesem Algorithmus auch Beispiele mit
+noch grösseren Zahlen spielend bewältigt habe.
+
+Nun kommt die weitere Rechnung für $\frac{u_1}{p_1}+\frac{u_2}{p_2}$. Um sie auszuführen, hat
+\textsc{Gauss} zunächst die \textit{Tafel zur Verwandlung gemeiner Brüche mit Nennern aus
+dem ersten Tausend in Dezimalbrüche}\textsuperscript{1)} angelegt. In dieser Tabelle findet sich
+die Dezimalbruchperiode der reziproken Werte einer jeden Primzahl und
+Primzahlpotenz zwischen 1 und 200; später hat er die Tabelle bis 1000 fortgeführt. $\frac{u_1}{p_1}$ braucht nun nicht durch Multiplikation mit $u_1$ ermittelt zu
+werden; denn sobald man weiss, welche Potenz von 10 kongruent $u_1\;(\mathrm{mod}\,p_1)$
+ist, so braucht man nur $\frac{1}{p_1}$ mit dieser Potenz von 10 zu multiplizieren, dann
+folgt nach dem Komma die Dezimalbruchperiode von $\frac{u_1}{p_1}$. Zur Erleichterung
+dieser Rechnung hat \textsc{Gauss} auch hierfür eine besondere Tabelle aufgestellt.
+\setcounter{footnote}{2}\footnotetext{Werke II, S. 411ff.}
+
+Aber, so wird man fragen, wie hat er die Riesenarbeit bewältigt, die
+\par\clearpage\SourceLeaf{566}\ArithmeticHead{11}{R}{II. DAS GAUSSSCHE DIVISIONSVERFAHREN.}
+\setcounter{footnote}{0}
+\noindent Tafel zur Verwandlung der gemeinen Brüche aufzustellen? Da muss doch
+reichlich dividiert werden und zwar zum Teil auf Hunderte von Dezimalstellen, um die vollständige Periode zu erhalten. Dass er Kunstgriffe angewandt hat, um diese Tabelle »quam citissime« zu konstruieren, gibt er selbst
+zu\footnote{Werke I, S. 388.}, die Kunstgriffe selbst verschweigt er und verweist auf \textsc{Robertson}\footnote{\textsc{Robertson}, \textit{Theory of circulating fractions.} Philos. Transact. 1768, S. 207.} und
+\textsc{Bernoulli}, die vor ihm schon ähnliche Vorteile angewandt hätten. Bei \textsc{Bernoulli}\footnote{\textsc{Johann III. Bernoulli}, \textit{Sur les fractions décimales périodiques.} Nouv. Mémoires de l’Acad., Berlin 1771 (1773), S. 273. Vergl. auch \textsc{Lambert}, Acta Eruditorum 1769, S. 107—128.} wird auf folgende Vorteile hingewiesen:
+
+1) Wenn für den reziproken Wert der Primzahl $p$ die Periode die grösste
+Stellenzahl $p-1$ hat, so ergänzt jede Ziffer der 1. Hälfte der Periode die
+entsprechende der 2. Hälfte zu 9. Demnach braucht man nur die eine Hälfte
+zu berechnen.
+
+2) Hat man für $\frac{10^m+1}{p}$ den Quotienten $q$, so ist für $\frac{10^{2m}-1}{p}$ der Quotient
+$(10^m-1)q$, und folglich genügt es, $q$ von $10^m\mathpunct{.}q$ abzuziehen, um die Periode
+von $\frac{1}{p}$ zu erhalten. Denn da $\frac{10^{2m}-1}{p}=10^m\mathpunct{.}q-q$ ist, so ist $\frac{1}{p}=\frac{10^m\mathpunct{.}q-q}{10^{2m}-1}$.
+Beispiel:
+\[
+\frac{10^3+1}{13}=77;\quad 77000-77=76923;\quad \frac{1}{13}=0{,}\overline{076923}.
+\]
+\par\noindent\hspace*{\parindent}3) Sobald sich ein Rest ergibt, der $\frac{1}{2}$, $\frac{1}{3}$, $\frac{1}{4}$ usw. eines bereits aufgetretenen
+Restes ist, so ist der nun folgende Teil der Periode $\frac{1}{2}$, $\frac{1}{3}$, $\frac{1}{4}$ usw. der Periode
+vom ursprünglichen Rest ab. Z. B.
+\[
+\frac{1}{71}=0{,}0\MLowComma14^{\prime}0845\MLowComma07^{\prime}04225352112676056338028169\vert01408.
+\]
+\noindent Zu der ersten Stelle nach dem Komma gehört der Rest 10, zu der 7. Stelle
+der Rest 5; also folgt von der 8. Stelle ab die Hälfte der Periode von der
+2. Stelle ab. Nach der 9. Stelle folgt aus dem gleichen Grunde die Hälfte
+der nach der 3. Stelle folgenden Periode. Nach der 4. Stelle ist der Rest
+60, nach der 30. Stelle der Rest 20; also folgt von hier ab der 3. Teil der
+Periode nach der 4. Stelle, usw. Auf diese Weise lässt sich die Arbeit auf
+eine bequeme Division mit einstelligem Divisor zurückführen.
+
+Es gibt noch weitere Vorteile ähnlicher Art, auf die wir aber hier nicht
+\par\smallskip\noindent\hfill{\small 2\textsuperscript{*}}\par
+\clearpage\SourceLeaf{567}\ArithmeticHead{12}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\setcounter{footnote}{0}
+\noindent eingehen, zumal es sich kaum feststellen lässt, welche von diesen Kunstgriffen
+\textsc{Gauss} angewandt haben mag. Jedenfalls geht der Arbeitsaufwand zur Herstellung einer Dezimalbruchperiodentabelle bei der Anwendung derartiger Verfahren auf ein bescheidenes Mass zurück.
+
+Hatte nun \textsc{Gauss} eine Divisionsaufgabe $\frac{a}{p_1\mathpunct{.}p_2\mathpunct{.}p_3\mathpunct{.}p_4}$, so bildete er daraus
+rasch die Aufgabe $\frac{\alpha_1}{p_1}+\frac{\alpha_2}{p_2}+\frac{\alpha_3}{p_3}+\frac{\alpha_4}{p_4}$, suchte in der Periodentafel die Dezimalbruchwerte dieser 4 Glieder, schrieb sie untereinander und addierte. Wir begreifen nun auch, dass es ihm da auf 10 Stellen mehr oder weniger nicht
+anzukommen brauchte.
+
+Dass die ganze Rechnung bei ihm mit grosser Schnelligkeit erledigt wurde,
+geht daraus hervor, dass er in seinen \textit{Disquisitiones}\footnote{Werke I, S. 387.} darüber sagt: »Quando
+enim paucae [figurae decimales] sufficiunt, divisio vulgaris sive logarithmi
+\textls[100]{aeque expedite} plerumque adhiberi poterunt«.
+
+Die Schnelligkeit, mit der er sein Verfahren handhabte, war wohl eine
+Folge der grossen Übung, die er sich durch die beständige Anwendung erworben hat. Zu den Anfangsübungen darf man wohl auch die folgende
+rechnen:
+\par\smallskip\noindent\hspace*{3em}\textsc{Leiste}, S. 54.
+\[
+\renewcommand{\arraystretch}{1.35}
+\begin{array}{r@{\quad}l}
+[0{,}]14159\MLowComma26535&[=a]\text{\textsuperscript{2)}}\\
+353981633&[\frac{1}{4}a]\\
+2831853&[\frac{1}{500}a]\\
+356813486&[0{,}252a]\\
+35681348_{6}&[0{,}0252a]\\
+392494835&[0{,}2772a]\\
+{}[0{,}0]3925\;[\mathbin{:}5]\phantom{00000}&\\
+{}[0{,}00]785\phantom{000000000}&[0{,}05544a]
+\end{array}
+\]
+\setcounter{footnote}{2}\footnotetext{Die Bemerkungen in den eckigen Klammern sind von uns hinzugefügt.}
+\[
+\pi=3\,\frac{785}{5544}=1+\frac{1}{7}+\frac{5}{8}+\frac{5}{9}+\frac{9}{11}.
+\]
+\par\noindent\hspace*{\parindent}Das Bemerkenswerteste an diesem Beispiel ist das eigenartige Rechenverfahren, um zu dem Näherungswert $\frac{785}{5544}$ zu gelangen. Er wendet hier die
+beim kaufmännischen Rechnen übliche »welsche Praktik« an\footnote{»Solche Zurückführungen gesuchter Ergebnisse auf schon Ermitteltes durch Addition oder Subtraktion einfacher Bruchteile des Ermittelten übten nach ursprünglich altägyptischem Muster vorzugsweise italienische Kaufleute, durch welche das Verfahren spätestens im 15. Jahrh. in ganz Europa bekannt wurde.« (\textsc{M. Cantor}, \textit{Politische Arithmetik}, 2. Aufl., Leipzig 1903, S. 7.)
+\par Ein einfaches Beispiel aus der kaufmännischen Praxis möge hier angeführt werden: 200 Pfd. kosten 8,40 Mk., was kosten 162 Pfd.?
+\begin{center}\begin{tabular}{r@{\enspace}c@{\quad}c@{\quad}r@{\enspace}l}
+200&Pfd.&.\quad .\quad .&8,40&Mk.\\
+20&»&.\quad .\quad .&0,84&»\\\hline
+180&»&.\quad .\quad .&7,56&»\\
+18&»&.\quad .\quad .&0,76&»\\\hline
+162&»&.\quad .\quad .&6,80&» .
+\end{tabular}\end{center}
+\par Die Anregung zum Gebrauch der welschen Praktik erhielt \textsc{Gauss} jedenfalls aus \textsc{Remer}, \textit{Arithmetica Theoretico-Practica}, Braunschweig 1737. \textsc{Gauss} besass dieses Buch bereits im Alter von 8 Jahren und hat wohl schon frühzeitig die Anleitungen zum \textit{Rechnen mit Vorteil} durchstudiert. Besonders geschickt durchgeführte Multiplikationsbeispiele finden sich in Caput IV dieses Rechenbuchs, S. 120 u. ff.
+\par Über »welsche Praktik« vergl. \textsc{J. Tropfke}, \textit{Geschichte der Elementarmathematik} I, 1921, S. 122 und 154 oder \textsc{M. Cantor}, \textit{Geschichte der Mathematik} II, 1900, S. 226.}. Wir werden
+\par\clearpage\SourceLeaf{568}\ArithmeticHead{13}{R}{III. ÜBUNG DES DIVISIONSVERFAHRENS AN KETTENBRÜCHEN.}
+\noindent später noch an einem andern Beispiel sehen, mit welchem ungewöhnlichen
+Geschick er diese Praktik handhabte. Die Aufzeichnung fällt möglicherweise
+in eine Zeit, wo ihm die Kettenbrüche noch nicht geläufig waren, sonst hätte
+er wohl $\frac{355}{113}$ vorgezogen. Noch wahrscheinlicher ist aber, dass die ganze
+Notiz lediglich den Charakter einer Übungsaufgabe hat.
+\par\clearpage\endgroup

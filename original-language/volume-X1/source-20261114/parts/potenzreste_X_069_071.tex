@@ -1,0 +1,139 @@
+% Gauss, Werke X/1 (1917), native69–71, printed62–64.
+\newcommand{\GaussCrossFour}{\tikz[baseline=-.5ex,x=1em,y=1em,line width=.4pt]{\draw(.10,.10)--(.90,.60) (.10,.60)--(.90,.10);\draw(.05,.07)circle(.065) (.95,.63)circle(.065) (.05,.63)circle(.065) (.95,.07)circle(.065);}}
+\SourceLeaf{069}\ArithmeticHead{62}{L}{ARITHMETIK.\quad NACHLASS.}
+\noindent Also
+\[
+M=\tfrac14bb-\tfrac14(a-1)b+\varphi(2b,a)-\varphi(b-a,b+a).
+\]
+\noindent Nun ist
+\[
+\begin{aligned}
+\varphi(b-a,b+a)&=\varphi(b-a,2b)-\tfrac18(b-a)^2+\tfrac18\\
+&=\tfrac12(b-a-1)b-\tfrac18(b-a)^2+\tfrac18-\varphi(2b,b-a)\\
+&=\tfrac38bb-\tfrac14ab-\tfrac18aa-\tfrac12b+\tfrac18-\varphi(2b,b-a).
+\end{aligned}
+\]
+\noindent Also
+\[
+M=\tfrac18aa-\tfrac18bb+\tfrac34b-\tfrac18+\varphi(2b,a)+\varphi(2b,b-a).
+\]
+\par\noindent\hspace*{\parindent}\GaussCrossFour\ Da nun $a$ ungerade und $b$ gerade ist, so wird
+\[
+\begin{aligned}
+\varphi(2b,b-a)={}&\left[\frac{b-a}{2b}\right]+\left[\frac{3(b-a)}{2b}\right]+\left[\frac{5(b-a)}{2b}\right]+\left[\frac{7(b-a)}{2b}\right]\\
+&+\ldots+\left[\frac{(b-1)(b-a)}{2b}\right]\\
+&+\left[\frac{b-a}b\right]+\left[\frac{2(b-a)}b\right]+\left[\frac{3(b-a)}b\right]+\ldots+\left[\frac{\tfrac12b(b-a)}b\right],
+\end{aligned}
+\]
+\noindent oder wenn die ersten Theile rückwärts genommen werden,
+\[
+\begin{aligned}
+{}={}&\left[\frac a{2b}\right]+\left[\frac{3a}{2b}\right]+\left[\frac{5a}{2b}\right]+\ldots+\left[\frac{(b-1)a}{2b}\right]\\
+&+\frac{b-a-1}2+\frac{b-a-3}2+\frac{b-a-5}2+\ldots-\frac{a-1}2\\
+&-\left[\frac ab\right]-\left[\frac{2a}b\right]-\left[\frac{3a}b\right]-\ldots-\left[\frac{\tfrac12ba}b\right]+1+2+3+\ldots+\tfrac12b-1.
+\end{aligned}
+\]
+\noindent Also
+\[
+\begin{aligned}
+\varphi(2b,a)+\varphi(2b,b-a)={}&2\left\{\left[\frac a{2b}\right]+\left[\frac{3a}{2b}\right]+\left[\frac{5a}{2b}\right]+\ldots+\left[\frac{(b-1)a}{2b}\right]\right\}\\
+&+\frac{b(b-a-1)}4
+\end{aligned}
+\]
+\noindent und
+\[
+\begin{aligned}
+M={}&2\left\{\left[\frac a{2b}\right]+\left[\frac{3a}{2b}\right]+\left[\frac{5a}{2b}\right]+\ldots+\left[\frac{(b-1)a}{2b}\right]\right\}\\
+&+\tfrac18(D-1)+\tfrac12b-\tfrac14ab,
+\end{aligned}
+\]
+\[
+\begin{array}{cl}
+(\#)&\begin{aligned}
+M&=2\varphi(2b,a)-2\varphi(b,a)+\tfrac18(D-1)+\tfrac12b-\tfrac14ab\\
+&=-2\varphi(a,2b)+2\varphi(a,b)+\tfrac18(D-1)+\tfrac14ab
+\end{aligned}
+\end{array}
+\]
+\begingroup\footnotesize
+\[
+\begin{array}{cll}
+&&\text{je nachdem}\\
+(\ast)&\left\{\begin{aligned}
+M&=-\tfrac12(a-1)(b-1)+4\left\{\left[\frac ba\right]+\left[\frac{3b}a\right]+\left[\frac{5b}a\right]+\ldots+\left[\frac{\tfrac12(a-3)b}a\right]\right\}\quad a\equiv1\\[1.5ex]
+M&=-\tfrac12(a+1)\underbrace{(b-1)+4\Bigl\{\left[\frac ba\right]}_{\displaystyle+\tfrac18(D-1)+\tfrac14ab}+\left[\frac{3b}a\right]+\left[\frac{5b}a\right]+\ldots+\left[\frac{\tfrac12(a-1)b}a\right]\Bigr\}\quad a\equiv3
+\end{aligned}\right.&\begin{array}{l}\vphantom{\dfrac11}\\[-1ex](\mathrm{mod.}\ 4)\end{array}
+\end{array}
+\]
+\endgroup
+\clearpage
+
+\SourceLeaf{070}\ArithmeticHead{63}{R}{ZUR THEORIE DES BIQUADRATISCHEN RESTES $1+i$.}
+\par\indent Man hat auch
+\[
+\begin{aligned}
+\varphi(a,b)+\varphi(a,2b)={}&\tfrac14(a+1)(b-1)\\
+&+2\left\{\left[\frac{2b}a\right]+\left[\frac{4b}a\right]+\left[\frac{6b}a\right]+\ldots+\left[\frac{[\tfrac14a]\mathpunct{.}2b}a\right]\right\}.
+\end{aligned}
+\]
+\par\noindent\hspace*{\parindent}Es sei
+\[
+\varepsilon=\pm1\quad\text{für}\quad a\equiv\pm1\ (\mathrm{mod.}\ 4),
+\]
+\noindent so ist
+\[
+\begin{array}{rlr}
+(a-\varepsilon)b&\text{durch}&8\\
+(a-\varepsilon)(a+2+\varepsilon)&\text{durch}&16\\
+(a-\varepsilon)(a+3\varepsilon)[b]&\text{durch}&32
+\end{array}
+\]
+\noindent theilbar.
+\[
+\begin{aligned}
+M&\equiv\tfrac12(a-\varepsilon)+\tfrac18(D-1)+\tfrac14ab\\
+&\equiv\tfrac12(a-\varepsilon)+\tfrac18((a+b)^2-1).
+\end{aligned}
+\]
+\NumberedItem{3}
+\par\indent Obige Formel $(\ast)$ kann auch so dargestellt werden:
+\[
+\begin{aligned}
+M={}&\tfrac18(D-1)+\tfrac14ab+\tfrac12(a\mp1)\\
+&-4\left\{\left[\frac{b+a}{2b}\right]+\left[\frac{b+2a}{2b}\right]+\left[\frac{b+3a}{2b}\right]+\ldots+\left[\frac{b+\tfrac12ba}{2b}\right]\right\}.
+\end{aligned}
+\]
+\noindent Nemlich sogleich aus $(\#)$
+\[
+\begin{aligned}
+M={}&\tfrac18(D-1)-\tfrac14ab+\tfrac12b\\
+&+2\left[\frac a{2b}\right]+2\left[\frac{2a}{2b}\right]+2\left[\frac{3a}{2b}\right]+\ldots+2\left[\frac{\tfrac12ba}{2b}\right]\\
+&+2\left[\frac{(\tfrac12b+1)a}{2b}\right]+\ldots+2\left[\frac{ba}{2b}\right]\\
+&-2\left[\frac ab\right]-2\left[\frac{2a}b\right]-2\left[\frac{3a}b\right]-\ldots-2\left[\frac{\tfrac12ba}b\right]
+\end{aligned}
+\]
+\[
+\begin{aligned}
+{}={}&\tfrac18(D-1)-\tfrac14ab+\tfrac12b\\
+&-2\left[\frac{a+b}{2b}\right]-2\left[\frac{2a+b}{2b}\right]-2\left[\frac{3a+b}{2b}\right]-\ldots-2\left[\frac{\tfrac12(b-1)a+b}{2b}\right]\\
+&-2\left[\frac{\tfrac12ba+b}{2b}\right]+2\left[\frac{(b-1)a}{2b}\right]+2\left[\frac{(b-2)a}{2b}\right]\\
+&+\ldots+2\left[\frac{(\tfrac12b+1)a}{2b}\right]+2\left[\frac{ba}{2b}\right]
+\end{aligned}
+\]
+\[
+\begin{aligned}
+{}={}&\tfrac18(D-1)+\tfrac14ab+2\left[\frac{a+2}4\right]\\
+&-4\left\{\left[\frac{b+a}{2b}\right]+\ldots+\left[\frac{b+\tfrac12ba}{2b}\right]\right\}.
+\end{aligned}
+\]
+\par\noindent\hspace*{\parindent}Die Form der Verwandlung wird wol schon von dem Zeichen \GaussCrossFour\ an mit Vortheil abgekürzt werden können. Vielleicht noch früher.
+\clearpage
+
+\SourceLeaf{071}\ArithmeticHead{64}{L}{ARITHMETIK.\quad NACHLASS.}
+\begin{center}\textbf{BEMERKUNG.}\end{center}
+\begingroup\small
+\par\indent Zu [1.] art. 1, 2, 3 vgl. \textit{Commentatio secunda} art. 72 (Werke II, S. 143), wo die Zeichen $m,n$ durch $g,g'$ und $D=a^2+b^2$ durch $p$ ersetzt sind. Der zu beweisende Satz steht am Ende des art. 76.
+
+In [2.] bedeutet $M$ dasselbe, wie $m$ in [1.]. Die Ausgangsformel $M=-P+Q-R$ ist nichts anderes als der Ausdruck für $g$ als Summe größter Ganzen, von der in art. 74 ausgegangen und woraus die Formel für $M$ vor dem Zeichen \GaussCrossFour\ in völlig gleicher Weise hergeleitet wird. Die Formel für $M$ beim Zeichen $\#$ ist die Schlußformel für das $g$ des art. 74. Die weiteren Umformungen, welche für $M$ denselben Ausdruck liefern, der für $g$ in art. 75 (S. 148, Z. 2) gegeben wird, weichen von denjenigen der \textit{Commentatio secunda} ab, wo »die Form der Verwandlung schon von dem Zeichen \GaussCrossFour\ an mit Vortheil abgekürzt« wird. Da der Satz in [1.] aus einem auf Induktion gegründeten Lemma gewonnen und dieses in [2.] durch ein anderes »ersetzt« wird, ist zu vermuten, daß der Ausdruck, den \textsc{Gauss} für $g$ in art. 74 der \textit{Commentatio secunda} \textls[120]{hergeleitet} hat, ihm zur Zeit der Niederschrift dieser Betrachtungen ebenfalls nur induktorisch gewiß war; die Übereinstimmung der weiteren Entwicklungen mit denen der \textit{Commentatio secunda} aber läßt vermuten, daß sie nicht viel früheren Datums sind, als der in der letzteren gegebene \textls[120]{Beweis} des Ergänzungssatzes für $1+i$.
+\begin{flushright}\textsc{Bachmann.}\end{flushright}
+\ClosingRule\clearpage\endgroup

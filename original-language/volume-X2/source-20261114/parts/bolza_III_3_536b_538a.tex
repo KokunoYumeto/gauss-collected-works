@@ -1,0 +1,71 @@
+\clearpage\begingroup\NoSourceHead\SourceLeaf{536b}
+\renewcommand{\thefootnote}{\arabic{footnote})}\setcounter{footnote}{6}
+\newcommand{\BolzaEqualAboveGreater}{\mathrel{\vcenter{\offinterlineskip\hbox{$\scriptstyle=$}\kern-.15ex\hbox{$>$}}}}
+\ArithmeticHead{79}{R}{EIN EXISTENZTHEOREM DER POTENTIALTHEORIE.}
+\noindent\hspace*{\parindent}3. Um nun das eigentliche Variationsproblem zu lösen, ersetzt \textsc{Gauss}
+die als gefunden angenommene, das Minimum liefernde Massenverteilung $m$
+durch eine benachbarte $m+\mu$, wo $\mu$ eine auf der Fläche stetige Funktion ist,
+die wegen (1) den Bedingungen
+\begin{gather*}
+m+\mu\BolzaEqualAboveGreater0,\tag{2}\\
+\int\mu\,ds=0\tag{3}
+\end{gather*}
+unterworfen ist. Die entsprechende erste Variation von $V$ ist dann
+\[
+\delta V=\int\frac{\mu\,ds}{r}.
+\]
+Dieses Integral ist selbst wieder ein Potential, nämlich dasjenige der Massenverteilung $\mu$ auf der Fläche $s$, und daher gilt nach einem von \textsc{Gauss} in Art. 19
+seiner Arbeit bewiesenen Satz der Potentialtheorie die Gleichung
+\[
+\int\delta V\mathpunct{.}\,m\,ds=\int V\mu\,ds,
+\]
+unter deren Berücksichtigung die erste Variation des Integrals $\Omega$ die Form
+annimmt
+\[
+\delta\Omega=2\int W\mu\,ds,
+\]
+wenn zur Abkürzung: $W=V-U$ gesetzt wird. Für ein Minimum ist nun
+erforderlich, dass $\delta\Omega\BolzaEqualAboveGreater0$ für alle dem absoluten Wert nach hinreichend
+kleinen stetigen Funktionen $\mu$, die den beiden Bedingungen (2) und (3) genügen. Beschränken wir uns zunächst auf solche Teile der Fläche, in denen
+$m>0$ ist, so kann $\mu$ sowohl positive wie negative Werte annehmen; daraus
+folgt, dass $W=\mathrm{Const.}$ sein muss in allen Punkten der Fläche, in denen
+$m>0$. \textsc{Gauss} leitet dieses Resultat durch folgende Überlegung her: Angenommen $W$ wäre nicht konstant in den mit Masse belegten Teilen der Fläche.
+Dann sei $A$ eine zwischen dem grössten und kleinsten Wert von $W$ gelegene
+Konstante; alsdann lassen sich stets zwei mit Masse belegte Stücke $p$ und $q$
+der Fläche von gleichem Flächeninhalt angeben, so dass $W-A>0$ in $p$ und
+$W-A<0$ in $q$. Nun wähle man, unter $\nu$ eine positive Konstante verstanden, $\mu=-\nu$ in $p$, dagegen $\mu=\nu$ in $q$ und $\mu=0$ in allen übrigen Teilen
+\clearpage\SourceLeaf{537}
+\ArithmeticHead{80}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent der Fläche; für diese Wahl von $\mu$, die der Bedingung (3) genügt, würde
+dann $\delta\Omega<0$ werden, da wegen (3) $\delta\Omega$ in der Form
+\begin{equation*}\tag{4}
+\delta\Omega=2\int(W-A)\mu\,ds
+\end{equation*}
+geschrieben werden kann.
+\par\noindent\hspace*{\parindent}Damit ist implizite zugleich das folgende allgemeine Lemma der Variationsrechnung bewiesen: Wenn die Funktion $N(x)$ stetig ist im Intervall $(x_0x_1)$ und
+\[
+\int_{x_0}^{x_1}N(x)\zeta(x)\,dx=0
+\]
+für alle Funktionen $\zeta(x)$, die in $(x_0x_1)$ stetig sind und der Bedingung
+\[
+\int_{x_0}^{x_1}\zeta(x)\,dx=0
+\]
+genügen, so ist stets $N(x)=\mathrm{Const.}$ in $(x_0x_1)$. Dieser Satz, ein Spezialfall
+des Fundamentallemmas für isoperimetrische Probleme, ist mit dem sogenannten \textsc{du Bois-Reymond}schen Lemma äquivalent; er ist auf anderem Wege
+von P. \textsc{du Bois-Reymond}\footnote{P. \textsc{du Bois-Reymond}, \textit{Erläuterungen zu den Anfangsgründen der Variationsrechnung}, Mathematische Annalen, Bd. 15 (1879), S. 313.} bei Gelegenheit seiner Modifikation des Beweises
+der \textsc{Euler}schen Differentialgleichung bewiesen worden und später von \textsc{Hilbert}\footnote{In Vorlesungen, vgl. z. B. \textsc{Bolza}, \textit{Vorlesungen über Variationsrechnung}, S. 28. Vgl. auch die Verallgemeinerung des Satzes von E. \textsc{Zermelo}, \textit{Über die Herleitung der Differentialgleichung bei Variationsproblemen}, Mathematische Annalen, Bd. 58 (1904), S. 558.}
+nach einer Methode, deren Grundgedanke mit dem des \textsc{Gauss}schen Beweises
+übereinstimmt.
+\par\noindent\hspace*{\parindent}Freilich ist gegen den \textsc{Gauss}schen Beweis einzuwenden, dass die von
+\textsc{Gauss} benutzte Funktion $\mu$ nicht stetig ist auf der Fläche. Der Beweis lässt
+sich aber leicht so abändern, dass auch der Stetigkeitsbedingung genügt wird.
+Man wähle die Flächenstücke $p$, $q$ so wie oben, nur dass sie nicht notwendig
+von gleichem Flächeninhalt zu sein brauchen; dann setze man $\mu=-\varepsilon\varphi$ in
+$p$, wo $\varepsilon$ eine kleine positive Konstante und $\varphi$ auf der Begrenzung von $p$ gleich
+Null, sonst aber in $p$ positiv und stetig ist; ferner sei $\mu=\varepsilon'\psi$ in $q$, wo $\varepsilon'$
+und $\psi$ für $q$ entsprechend definiert sind wie $\varepsilon$ und $\varphi$ für $p$; überall sonst sei
+$\mu=0$. Dann drücke man $\varepsilon'$ mittels der Gleichung (3) durch $\varepsilon$ aus. Die so
+\clearpage\SourceLeaf{538}
+\ArithmeticHead{81}{R}{EIN EXISTENZTHEOREM DER POTENTIALTHEORIE.}
+\noindent definierte Funktion $\mu$ genügt dann bei hinreichend kleinem $\varepsilon$ allen Bedingungen und macht $\delta\Omega<0$.
+\clearpage\endgroup

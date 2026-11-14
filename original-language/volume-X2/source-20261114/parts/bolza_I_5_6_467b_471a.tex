@@ -1,0 +1,135 @@
+\clearpage\begingroup\NoSourceHead
+\renewcommand{\thefootnote}{\arabic{footnote})}\setcounter{footnote}{13}
+\ArithmeticHead{10}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent\hspace*{\parindent}5. Die Methode der Variation der Grenzen, wie sie von \textsc{Ohm} und \textsc{Sarrus}
+ausgebildet worden ist, lässt an Klarheit und Einfachheit nichts zu wünschen
+\par\clearpage\SourceLeaf{468}
+\ArithmeticHead{11}{R}{GESCHICHTE DER EXTREMA VON DOPPELINTEGRALEN VOR GAUSS.}
+\noindent übrig. Sie leidet aber an einer Schwäche, auf die wir schon oben angespielt
+haben (Nr. 2), und die zu Tage tritt, sobald man die Methode auf geometrische
+Aufgaben anwenden will. Man sehe sich z. B. die geradezu ungeheuerlichen
+Formeln an, die \textsc{Sarrus}\footnote{\textsc{Sarrus}, loc. cit. 10), S. 102—114.} nötig hat, um das einfache Problem des Körpers
+von grösstem Volumen bei gegebener Oberfläche zu behandeln.
+
+Der Grund dieser Schwäche scheint mir darin zu liegen, dass die Aufgabe,
+die durch die \textsc{Ohm-Sarrus}sche Methode gelöst wird, im allgemeinen für
+die Geometrie kein Interesse hat, während umgekehrt die Aufgaben, die für
+die Geometrie Interesse haben, nicht unter die \textsc{Ohm-Sarrus}sche Theorie fallen.
+Denn der Integrationsbereich des Integrals (8) ist der durch die Geraden $AB$:
+$x=x_0$, $CD$: $x=x_1$ einerseits und die beiden Kurven $AC$: $y=y_0(x)$, $BD$:
+$y=y_1(x)$ andererseits eingeschlossene Bereich der $x,y$-Ebene, wobei $x_0<x_1$
+und $y_0(x)\EqualAboveLess y_1(x)$ für $x_0\EqualAboveLess x\EqualAboveLess x_1$ vorausgesetzt wird. Einen solchen Bereich
+wollen wir der Kürze halber einen »Elementarbereich« nennen.
+
+Dann ist auch für das variierte Integral $\bar J$ der Integrationsbereich ein
+Elementarbereich $\bar A\bar C\bar D\bar B$ und die Aufgabe, mit deren Lösung sich die Methode
+der Variation der Grenzen beschäftigt, lautet in geometrischer Fassung
+(für den Fall des Doppelintegrals):
+
+Unter allen Flächenstücken: $z=z(x,y)$, deren Projektionen auf die $x,y$-Ebene
+Elementarbereiche sind, dasjenige zu bestimmen, das ein Extremum für
+das Doppelintegral $J$ liefert.
+
+Diese Beschränkung auf Elementarbereiche erscheint aber vom geometrischen
+Standpunkt aus durchaus unnatürlich und gekünstelt, und wird wohl
+nur in den seltensten Fällen einmal bei einer aus der Geometrie selbst entsprungenen
+Aufgabe auftauchen.
+
+Man kann nun versuchen, diesem Mangel dadurch abzuhelfen, dass man
+dem Elementarbereich die Bedingung auferlegt, dass die Punkte $A$ und $B$, $C$
+und $D$ zusammenfallen sollen, und dass überdies die beiden Kurven $y=y_0(x)$
+und $y=y_1(x)$ die Ordinaten $x=x_0$ und $x=x_1$ in den Punkten $A=B$, bezw.
+$C=D$ berühren, und analog für die variierten Kurven.
+
+Dann tritt aber der Übelstand ein, dass die Ableitungen $dy_0/dx$ und $dy_1/dx$
+für die Werte $x=x_0$ und $x=x_1$ unendlich werden. Das macht sich zwar
+\par\smallskip\noindent\hfill{\small 2\textsuperscript{*}}\par
+\clearpage\SourceLeaf{469}
+\ArithmeticHead{12}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent bei der Ableitung der Formel (9) noch nicht geltend, macht aber die Umformung
+der ersten Variation durch partielle Integration, — wenigstens in
+der Form, wie sie von \textsc{Ohm}, \textsc{Sarrus} und \textsc{Delaunay} gehandhabt worden
+ist —, hinfällig. Das ist ein Einwand, der auch die sonst so vortrefflichen
+Lehrbücher von \textsc{Jellett} und \textsc{Lindelöf-Moigno} unbefriedigend erscheinen lässt,
+soweit es sich um geometrische Anwendungen der Variationsrechnung handelt.
+
+Die Lösung der hier vorliegenden Schwierigkeit wird einerseits durch
+Einführung des Begriffs des Linienintegrals, andererseits durch die Methode
+der Variation der unabhängigen Variabeln geliefert, zu deren Betrachtung
+wir nunmehr übergehen.
+
+6. Die Methode der \textls[100]{Variation der unabhängigen Variabeln} knüpft
+unmittelbar an die Definition des $\delta$-Algorithmus an, die \textsc{Lagrange}\footnote{\textsc{Lagrange}, loc. cit. 1), S. 336. Es verdient jedoch hervorgehoben zu werden, dass \textsc{Lagrange} in seinen ersten \textls[100]{brieflichen} Mitteilungen über seine Entdeckung an \textsc{Euler} vom Jahre 1755 die Variable $x$ noch nicht variiert, vgl. \textsc{Lagrange}, loc. cit. 6), S. 140, 148.} in seiner
+ersten Veröffentlichung (1760/1) über Variationsrechnung zunächst für einfache
+Integrale gegeben hat:
+
+Unter $Z$ wird eine beliebige Funktion der Variabeln $x,y,z$ und einer
+Anzahl ihrer \textls[100]{Differentiale} verstanden und dann $\delta Z$ definiert als das Differential
+dieser Funktion $Z$ in Bezug auf die als unabhängige Variable betrachteten
+Grössen $x,y,z,dx,dy,dz,d^2x,d^2y,d^2z,\ldots$ Dazu kommen dann
+die Gleichungen
+\[
+\begin{gathered}
+\delta\!\int Z=\int\delta Z,\\
+\delta dx=d\delta x,\quad\delta d^2x=d^2\delta x,\quad\ldots
+\end{gathered}
+\]
+
+Es unterliegt keinem Zweifel, dass \textsc{Lagrange} sich dabei die Variabeln
+$x,y,z$ als Funktionen einer unbestimmt gelassenen unabhängigen Hilfsvariabeln,
+die wir $t$ nennen wollen, gedacht hat, obgleich er dies nirgends ausdrücklich
+ausgesprochen hat. Daher kann man bei \textsc{Lagrange} streng genommen noch
+nicht von einer Variation der \textls[100]{unabhängigen} Variabeln sprechen, insofern
+bei ihm $x,y,z$ gleichberechtigt auftreten und die wahre unabhängige Variable
+$t$ nicht variiert wird.
+
+Etwas anders liegen die Dinge bereits bei \textsc{Euler}\footnote{\textsc{Euler}, loc. cit. 2), Art. 1—174.}, der in den \textit{Institutiones
+calculi integralis} (1770) eine ausführliche und systematische Darstellung und
+\par\clearpage\SourceLeaf{470}
+\ArithmeticHead{13}{R}{GESCHICHTE DER EXTREMA VON DOPPELINTEGRALEN VOR GAUSS.}
+\noindent Weiterführung der \textsc{Lagrange}schen Variationsmethode gegeben hat. Da er im
+Gegensatz zu \textsc{Lagrange} das zu variierende Integral im einfachsten Fall in
+der Form
+\[
+\begin{gathered}
+U=\int V(x,y,p,q,\ldots)\,dx,\\
+p=\frac{dy}{dx},\quad q=\frac{dp}{dx},\quad\ldots
+\end{gathered}
+\]
+annimmt, so erscheint die Variable $x$ so ausgesprochen in der Rolle der unabhängigen
+Variabeln, dass man bei \textsc{Euler} füglich von einer Variation der
+\textls[100]{unabhängigen} Variabeln reden kann, wenn er selbst sich auch $x$ und $y$
+als Funktionen einer Hilfsvariabeln gedacht haben mag, wofür mancherlei
+Anzeichen sprechen.
+
+Nun hat zwar einerseits \textsc{Euler} durch geometrische Deutung des Variationsprozesses
+dem \textsc{Lagrange}schen Algorithmus einen mehr konkreten Inhalt zu
+geben gesucht, andererseits hat er aber doch auch zu einer rein mechanischen
+Anwendung des $\delta$-Prozesses beigetragen; so, wenn er z. B. ohne jede weitere
+Begründung schreibt
+\[
+\delta U=\int\delta(V\,dx)=\int(\delta V\,dx+V\delta dx),
+\]
+oder wenn er die Gleichung
+\[
+\delta\left(\frac{dy}{dx}\right)=\frac{dx\,\delta dy-dy\,\delta dx}{dx^2}
+=\frac{d\delta y}{dx}-\frac{dy}{dx}\frac{d\delta x}{dx}
+\]
+mit den Worten begründet\footnote{\textsc{Euler}, loc. cit. 2), Art. 45.}: »Variatio quaesita $\delta p$ per notas differentiationis
+regulas reperitur, dummodo loco signi differentiationis $\partial$ scribatur signum variationis
+$\delta$«. Ganz unverhüllt ist dann später diese wörtliche, rein mechanische
+Anwendung der \textsc{Lagrange}schen Definition des $\delta$-Algorithmus, — für die wir
+in der Folge die Bezeichnung »\textit{formale Variation}« gebrauchen werden — bei
+der die Bedeutung der Operation vollständig hinter dem Algorithmus zurückgetreten
+ist, und bei der keinerlei Bezugnahme auf eine Hilfsvariable mehr
+erkennbar ist, bei \textsc{Lacroix}\footnote{\textit{Traité du calcul différentiel et du calcul intégral}, Bd. II, 2. Aufl., Paris 1814. Vgl. insbesondere Art. 845, 861, 862.} aufgetreten und hat von da aus den unheilvollsten
+Einfluss auf die Weiterentwicklung der Variationsrechnung ausgeübt. Denn
+diese wörtliche Anwendung der \textsc{Lagrange}schen Definition des $\delta$-Algorithmus
+\par\clearpage\SourceLeaf{471}
+\ArithmeticHead{14}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent bei gleichzeitiger Variation der unabhängigen Variabeln ist \textls[100]{falsch}, wie schon
+die direkte Anwendung auf die zweite Ableitung $d^2y/dx^2$ zeigt, und sie musste,
+konsequent durchgeführt, früher oder später zu falschen Resultaten führen,
+wie dies denn auch bei der Variation der Doppelintegrale tatsächlich eingetreten
+ist.
+\par\clearpage\endgroup

@@ -1,0 +1,31 @@
+\begingroup
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\newcommand{\TransBracket}[1]{\boldsymbol{[}#1\boldsymbol{]}}
+\ArithmeticHead{295}{R}{{\scriptsize ZUR THEORIE DER TRANSSCENDENTEN FUNCTIONEN. I}}
+\NumberedItem{7}
+\par\indent Durch Induction ferner gefunden:
+\begin{equation*}\tag*{[6]}
+\left\{\begin{aligned}
+&1+x+x^2+x^5+x^7+x^{12}+x^{15}+{.}{.}{.}\\
+&=(1+x)(1+x^2)(1-x^3)(1+x^4)(1+x^5)\\
+&\qquad(1-x^6)(1+x^7)(1+x^8)(1-x^9){.}{.}{.}\\
+&=\frac{(1-x^3)(1-x^6)(1-x^9)(1-x^{12})(1-x^{15})(1-x^{18}){.}{.}{.}}
+{(1-x)(1-x^5)(1-x^7)(1-x^{11})\ 1-x^{13})(1-x^{17}){.}{.}{.}}\\
+&=\frac{\TransBracket{xx}\TransBracket{x^3}^2}{\TransBracket{x}\TransBracket{x^6}}
+\end{aligned}\right.
+\end{equation*}
+\clearpage
+\ArithmeticHead{296}{L}{ANALYSIS. NACHLASS.}
+\SourceLeaf{303}
+\[\frac{4x(2)^3(6)(12)^2}{(1)(3)(4)^2}
+=\frac{(2)^{10}}{(1)^4(4)^4}-\frac{(6)^{16}}{(3)^4(12)^4}[\text{*)}]\]
+\[-4x\bigl[(1)\bigr]\frac{(3)(12)^3}{(4)(6)^2}
+=\frac{(1)^4}{(2)^2}-\frac{(3)^4}{(6)^2}[\text{**)}].\]
+\Needspace{4\baselineskip}
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small
+\par\indent [*) Hier ist $(n)=\TransBracket{x^n}$ gesetzt.]
+\par\indent [**) In der Handschrift fehlt links vom Gleichheitszeichen der Faktor $(1)$.]
+\par}
+\clearpage
+\endgroup

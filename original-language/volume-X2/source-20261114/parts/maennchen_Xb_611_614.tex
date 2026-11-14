@@ -1,0 +1,200 @@
+\clearpage\begingroup\SourceLeaf{611}
+\ArithmeticHead{56}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\renewcommand{\thefootnote}{\arabic{footnote})}\setcounter{footnote}{0}
+\noindent\hspace*{\parindent}Nimmt also $c$ um 1 ab, so nimmt $e$ um 4 ab. Das gleiche zeigt sich
+bei der weiteren Behandlung der Gruppe:
+\[
+\begin{gathered}
+n_{J+152}\equiv n_{J+40}\equiv n_{J+12}\equiv n_J+12+3\equiv n_J+1\; (\mathrm{mod}\ 7)\\
+e_{J+152}\equiv e_J-1\equiv e_J-8\; (\mathrm{mod}\ 7)\quad\text{usw.}
+\end{gathered}
+\]
+\noindent Ergebnis: $e$ ist eine lineare Funktion von $c$, und zwar ist
+\[
+e\equiv4c+\sigma\; (\mathrm{mod}\ 7),
+\]
+\noindent wobei $\sigma$ von $c$ unabhängig ist.
+
+Fassen wir die drei Ergebnisse zusammen, so folgt:
+\par\noindent $e$ ist eine lineare Funktion von $b$, $c$, $d$, und zwar ist
+\[
+e\equiv2b+4c+6d+\tau\; (\mathrm{mod}\ 7),
+\]
+\noindent wo $\tau$ eine Konstante ist. Diese Konstante kann man nun leicht bestimmen,
+indem man entweder für irgend ein Jahr den Wochentag des Frühlingsvollmonds berechnet, oder indem man in einer Ostertabelle für irgend ein Jahr
+den Ostertermin abliest und in die obigen Formeln einsetzt. Für das Jahr
+980 z. B. hat man $b=0$, $c=0$, $d=14$, $O=42$, also $e=6$, somit
+\[
+6\equiv0+0+84+\tau\; (\mathrm{mod}\ 7).
+\]
+\noindent Also ist $\tau\equiv6$, und die Formel lautet endgültig:
+\[
+e\equiv2b+4c+6d+6\; (\mathrm{mod}\ 7),
+\]
+
+Damit ist eine Berechnungsmethode für das julianische Osterfest gewonnen, genau in der Form, wie sie \textsc{Gauss} geprägt hat. Sie hat der \textsc{Lambert}schen Formel gegenüber den bedeutsamen Vorteil, dass sie geeignet ist,
+sich sowohl den veränderten Verhältnissen des gregorianischen Kalenders, als
+auch sogar den sonderbaren Ausnahmebestimmungen für das gregorianische
+Osterfest anzupassen.
+
+Bei dieser Anpassung werden nur die Formeln für $d$ und $e$ etwas abgeändert, alles übrige bleibt. Wir erhalten nach \textsc{Gauss}:
+\[
+d\equiv19a+M\; (\mathrm{mod}\ 30)
+\]
+\noindent und
+\[
+e\equiv2b+4c+6d+N\; (\mathrm{mod}\ 7).
+\]
+\noindent Die Werte $M$ und $N$ sind im Laufe eines Jahrhunderts konstant; sie sind
+nur beim Übergang von einem Jahrhundert in das andere gewissen Veränderungen unterworfen. Die Veränderung von $N$ ist bedingt durch die bei der
+\clearpage\SourceLeaf{612}\ArithmeticHead{57}{R}{X. CHRONOLOGISCHE ARBEITEN.}
+\noindent gregorianischen Reform neu eingeführte sogenannte \textls[120]{Sonnengleichung der
+Epakte}. Diese bewirkt, dass infolge des Ausfalls des Schalttags in den Jahren
+1700, 1800, 1900, 2100, .\ .\ .\ . die Epakte um 1 kleiner wird (Epaktensprung),
+und somit das Datum des Frühlingsvollmonds um einen Tag vorrückt. Die
+Veränderung von $M$ ist ebenfalls durch diese Sonnengleichung beeinflusst, aber
+ausserdem auch durch die \textls[120]{Mondgleichung}. Diese Grösse entsteht dadurch,
+dass der 19jährige Metonische Zyklus nicht genau ein ganzzahliges Vielfaches
+des synodischen Monats beträgt, sondern dass nach Ablauf eines solchen
+Zyklus die Epakte um $0{,}0609$ Tage zu klein geworden ist, d. h. dass der wirkliche Neumond nun um $0{,}0609$ Tage früher eintritt, als der berechnete \textls[120]{ekklesiastische} Neumond. Nach Verlauf von $16{,}42$ solcher Zyklen würde
+dieser Fehler zu einem vollen Tage angewachsen sein, und man hätte daher
+nach $16{,}42\mathord{.}19=312$ Jahren die Epakte um 1 erhöhen müssen, um wieder
+Übereinstimmung zu erhalten. Dies geschieht erst seit der gregorianischen
+Reform, und zwar derart, dass man alle 300 Jahre die Epakte um 1 erhöht.
+Man wählt diejenigen Jahrhundertanfänge, deren Hunderter durch 3 teilbar
+sind, also 1800, 2100 usw. Diese Erhöhung der Epakte infolge der Mondgleichung bedingt einen Rückgang der Ostergrenze um einen Tag, während
+der Rückgang der Epakte infolge der Sonnengleichung eine Erhöhung der
+Ostergrenze um einen Tag zur Folge hat. Das sind die chronologischen
+Daten, die der Bestimmung von $M$ und $N$ zugrunde liegen.
+
+Wir wollen mit \textsc{Gauss} die Anzahl der Hunderter eines gegebenen Jahrhunderts mit $k$ bezeichnen und die in der Osterformel auftretende Zahl $M$ aus den Summanden $k$ und $\nu$ zusammensetzen. Ferner wollen
+wir die Werte von $k$ von 15 bis 24 untereinanderschreiben und neben jedes $k$ den zugehörigen Wert von $M$ setzen unter Berücksichtigung von Sonnen- und Mondgleichung. In die
+folgende Spalte schreiben wir die zugehörigen
+Werte von $\nu$, und neben diese noch die Werte
+$p$ und $q$, welche die ganzzahligen Bestandteile
+von $\frac{k}{4}$ und $\frac{k}{3}$ darstellen. Denn diese ganzzahligen Bestandteile erfahren alle 4 bezw. 3 Jahre eine Veränderung; der
+\begin{center}\setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{c|l|c|c|c}\hline\hline
+$k$&\multicolumn{1}{c|}{$M$}&$\nu$&$p$&$q$\\\hline\hline
+15&$22\hphantom{{}+0-0}=22$&7&3&5\\
+16&$22+0-0=22$&6&4&5\\
+17&$22+1-0=23$&6&4&5\\
+18&$23+1-1=23$&5&4&6\\
+19&$23+1-0=24$&5&4&6\\
+20&$24+0-0=24$&4&5&6\\
+21&$24+1-1=24$&3&5&7\\
+22&$24+1-0=25$&3&5&7\\
+23&$25+1-0=26$&3&5&7\\
+24&$26+0-1=25$&1&6&8
+\end{tabular}\end{center}
+\par\noindent X 2 Abh. 6.\hfill 8
+\clearpage\SourceLeaf{613}\ArithmeticHead{58}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\setcounter{footnote}{0}
+\noindent Einfluss der Sonnengleichung bedingt alle 4 Jahre \textls[120]{keine} Veränderung, der
+der Mondgleichung alle 3 Jahre eine Veränderung. Man erkennt auf den
+ersten Blick, dass $\nu+p+q=15$ ist, und somit die Richtigkeit der \textsc{Gauss}schen Formel
+\[
+M=k+15-p-q.
+\]
+\noindent Der Wert $M=22$ für $k=15$ ergibt sich leicht, wenn man für $k=15$ eine
+Jahreszahl sucht, für die der früheste Ostertermin (22. März) eintrat. Das
+war 1598. In diesem Fall musste $d=e=0$ sein, und so ergibt sich leicht
+$M=22$ und $N=2$.
+
+Für $N$ erhalten wir folgende Tabelle
+\begin{center}\setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{c|l|c}\hline\hline
+$k$&\multicolumn{1}{c|}{$N$}&$p$\\\hline\hline
+15&2&3\\
+16&$2+0=2$&4\\
+17&$2+1=3$&4\\
+18&$3+1=4$&4\\
+19&$4+1=5$&4\\
+20&$5+0=5$&5\\
+21&$5+1=6$&5\\
+22&$6+1=7$&5\\
+23&$7+1=8$&5\\
+24&$8+0=8$&6
+\end{tabular}\end{center}
+\noindent Hier sieht man sofort:
+\[
+\begin{gathered}
+k-N-p=10\\
+N=k-p-10,
+\end{gathered}
+\]
+\noindent oder, da wir nur den Rest von $N$ $(\mathrm{mod}\ 7)$ brauchen:
+\[
+N\equiv k-p+4\; (\mathrm{mod}\ 7).
+\]
+
+Damit ist nun die allgemeine Regel entwickelt, und
+es wäre höchstens noch dazu zu bemerken, dass \textsc{Gauss}
+sich dabei zunächst an eine genauere Festsetzung nicht
+gekehrt hat. Da nämlich die Mondgleichung alle 300
+Jahre berücksichtigt wird statt alle 312 Jahre, so würde
+schon nach 2400 Jahren die Korrektur 8 mal angebracht sein, während diese
+Korrektur nahezu für 2500 Jahre ausreicht. Von \textsc{Français} (1813) und von
+\textsc{Tittel} (1816) darauf aufmerksam gemacht, berichtigte er die ursprüngliche
+Fassung in der folgenden Weise:
+
+»$p$ wird bestimmt als Quotient bei der Division von $8k+13$ mit 25«\footnote{Werke VI, S. 73, am Schluss.}.
+\par\noindent Warum hat wohl \textsc{Gauss} nicht von vornherein die genauere Bestimmung von
+$p$ gewählt? Es liegen zwei Möglichkeiten vor, dies zu erklären. Die eine
+Möglichkeit ist die, dass er bei der Aufstellung seiner Formel sich gar nicht,
+oder möglichst wenig, um die Regeln der Epaktenrechnung kümmerte, sondern dass er auch hier die Formel aus den Tabellen herauslas. Die andere,
+wahrscheinlichere, ist wohl die, dass ihm die fernliegenden Jahrhunderte gleich-
+\clearpage\SourceLeaf{614}\ArithmeticHead{59}{R}{X. CHRONOLOGISCHE ARBEITEN.}
+\setcounter{footnote}{0}
+\noindent gültig waren, da er überzeugt war, dass auch die gregorianische Reform nicht
+für alle Zeiten bleiben würde. Diesem Gedanken gibt er auch Ausdruck am
+Schluss des Aufsatzes: \textit{Noch etwas über die Bestimmung des Osterfestes} (Werke
+VI, S. 82 ff., Braunschw. Magazin 1807, Sept. 12).
+
+Jetzt muss noch den beiden eigentümlichen Ausnahmebestimmungen Rechnung getragen werden, und es mag für \textsc{Gauss} besonders reizvoll gewesen sein,
+die beiden willkürlichen Festsetzungen über die Lage des Osterfestes zahlentheoretisch zu erfassen.
+
+Die eine Bestimmung kann kurz so ausgesprochen werden: Der 25. April
+ist der äusserste Ostertermin. Diese Bestimmung ist für das julianische Osterfest automatisch erfüllt, da der 49. März die äusserste Ostergrenze ist. Bei
+der Formel für den gregorianischen Kalender ist sie dagegen nicht automatisch
+erfüllt, da ja $M$ nicht mehr konstant ist. Man braucht aber nur folgende
+Fassung zu wählen, die \textsc{Gauss}\footnote{Werke VI, S. 79.} vorgeschlagen hat: »Ergibt sich
+nach der Rechnung der 26. April als Ostertermin, so fällt Ostern
+tatsächlich auf den 19. April«, ein Fall, der im Jahre 1609 eintrat und 1981\footnote{Werke VI, S. 79, Zeile 11 heisst es statt 1981 irrtümlich 1989; die richtige Zahl findet sich z. B.
+ebenda S. 85, Zeile 15 v. u.} wieder stattfinden wird.
+
+Komplizierter ist die zweite willkürliche Bestimmung: Der
+Frühlingsvollmond darf in einem Metonischen Zyklus nicht
+zweimal auf denselben Tag fallen. Vielleicht geschah diese
+Bestimmung auch in Anlehnung an die Tatsache, dass im
+julianischen Kalender diese Eigenschaft automatisch erfüllt
+war, während in den meisten Zyklen Doubletten von Osterterminen zu finden sind. Unter Metonischen Zyklen im gregorianischen Kalender muss man freilich nur solche verstehen, die
+keinen Übergang in ein neues Jahrhundert enthalten, bei dem $\nu$
+von Null verschieden ist; andernfalls wären nämlich Doubletten
+nicht zu vermeiden. Wir wollen einen solchen Zyklus in allgemeiner Form hinschreiben. Zu jedem $a$ setzen wir den entsprechenden Wert von $d$, und da $d+21$ die Ostergrenze darstellt, so entspricht einer Doublette für die Ostergrenze auch
+eine solche für $d$.
+\begin{center}\setlength{\tabcolsep}{7pt}\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{c|l}\hline\hline
+$a$&\multicolumn{1}{c}{$d$}\\\hline\hline
+0&$d_0$\\
+1&$d_0+19$\\
+2&$d_0+8$\\
+3&$d_0+27$\\
+4&$d_0+16$\\
+5&$d_0+5$\\
+6&$d_0+24$\\
+7&$d_0+13$\\
+8&$d_0+2$\\
+9&$d_0+21$\\
+10&$d_0+10$\\
+11&$d_0+29$\\
+12&$d_0+18$\\
+13&$d_0+7$\\
+14&$d_0+26$\\
+15&$d_0+15$\\
+16&$d_0+4$\\
+17&$d_0+23$\\
+18&$d_0+12$
+\end{tabular}\end{center}
+\par\hfill $8^{\ast}$
+\clearpage\endgroup

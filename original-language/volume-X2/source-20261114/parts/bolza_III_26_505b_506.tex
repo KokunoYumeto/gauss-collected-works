@@ -1,0 +1,83 @@
+\clearpage\begingroup\NoSourceHead\SourceLeaf{505b}
+\renewcommand{\thefootnote}{\arabic{footnote})}\setcounter{footnote}{70}
+\ArithmeticHead{48}{L}{BOLZA, GAUSS UND DIE VARIATIONSRECHNUNG.}
+\noindent\hspace*{\parindent}26. Wir haben in diesem Zusammenhang noch eine eigenartige und
+elegante Methode zu erwähnen, die H. \textsc{Minkowski} (1907) in seinem Encyklopädieartikel\footnote{\textit{Encyklopädie der Mathematischen Wissenschaften}, Bd. V 1, S. 561—563.}
+über Kapillarität zur Berechnung von $\delta U$ angewandt hat.
+
+Der \textsc{Euler}schen Auffassung des Variationsprozesses entsprechend wird die
+Fläche $U$ als Individuum einer Schar von Flächenstücken mit den Flächenparametern
+$u,v$ und dem Scharparameter $\varepsilon$ aufgefasst, wobei alle Flächenstücke
+demselben Bereich in der $u,v$-Ebene entsprechen. Als Parameterkurven werden
+nun auf allen Flächen der Schar die beiden Scharen von Krümmungskurven
+gewählt. Die Variabeln $u,v,\varepsilon$ lassen sich dann auch als krummlinige Raumkoordinaten
+auffassen; für diese lässt sich das Quadrat des Linienelements
+auf die Form bringen
+\begin{equation*}\tag{65}
+dx^2+dy^2+dz^2=L_1^2(du-l_1\,d\varepsilon)^2+L_2^2(dv-l_2\,d\varepsilon)^2+N^2\,d\varepsilon^2.
+\end{equation*}
+
+Für irgend eine Fläche der Schar lautet dann der Ausdruck für den
+Flächeninhalt
+\[
+U(\varepsilon)=\iint L_1 L_2\,du\,dv,
+\]
+und daher ist
+\begin{equation*}\tag{66}
+\frac{dU(\varepsilon)}{d\varepsilon}=\iint\left(L_1\frac{\partial L_2}{\partial\varepsilon}+L_2\frac{\partial L_1}{\partial\varepsilon}\right)du\,dv.
+\end{equation*}
+
+Zur Umformung des Integranden wird nunmehr durch eine geometrische
+Infinitesimalbetrachtung, bei der von der charakteristischen Eigenschaft der
+Krümmungslinien Gebrauch gemacht wird, und in deren Mittelpunkt die
+\clearpage\SourceLeaf{506}
+\ArithmeticHead{49}{R}{WIRKUNGEN DER GAUSSSCHEN ARBEIT.}
+\noindent \textsc{Bertrand}sche Proportionalität (63) steht, für die Hauptkrümmungsradien die
+Relation abgeleitet
+\[
+\frac{N}{R}=\frac{1}{L_1}\left(\frac{\partial L_1}{\partial u}l_1+\frac{\partial L_2}{\partial v}l_2+\frac{\partial L_1}{\partial\varepsilon}+L_1\frac{\partial l_1}{\partial\varepsilon}\right)
+\]
+und eine analoge für $R'$. Aus beiden zusammen ergibt sich dann der folgende
+Ausdruck für die mittlere Krümmung
+\begin{equation*}\tag{67}
+L_1 L_2 N\left(\frac{1}{R}+\frac{1}{R'}\right)
+=L_1\frac{\partial L_2}{\partial\varepsilon}+L_2\frac{\partial L_1}{\partial\varepsilon}
++\frac{\partial(L_1 L_2 l_1)}{\partial u}+\frac{\partial(L_1 L_2 l_2)}{\partial v}.
+\end{equation*}
+
+Setzt man jetzt in (66) für den Integranden den aus dieser Gleichung
+sich ergebenden Wert ein und macht von der \textsc{Green}schen Formel Gebrauch,
+so erhält man nach leichter Rechnung die \textsc{Gauss}sche Formel (45) für $\delta U$.
+
+Übrigens hatte bereits H. A. \textsc{Schwarz}\footnote{\textit{Ueber ein die Flächen kleinsten Flächeninhalts betreffendes Problem der Variationsrechnung} (1885),
+Gesammelte mathematische Abhandlungen, Bd. I, S. 229—233; vgl. auch unten Nr. 27.} unter etwas anderen spezialisierenden
+Voraussetzungen über die krummlinigen Koordinaten $u,v,\varepsilon$ die der
+\textsc{Minkowski}schen Formel (67) entsprechende Formel rein analytisch abgeleitet.
+Er setzt allgemein
+\begin{equation*}\tag{68}
+dx^2+dy^2+dz^2=E\,du^2+2F\,du\,dv+G\,dv^2+2H\,du\,d\varepsilon+2I\,dv\,d\varepsilon+K\,d\varepsilon^2
+\end{equation*}
+und macht dann die spezialisierende Annahme, dass $H=0$, $I=0$. Unter
+dieser Voraussetzung beweist er die Gleichung
+\begin{equation*}\tag{69}
+\sqrt{EG-F^2}\sqrt K\left(\frac{1}{R}+\frac{1}{R'}\right)
+=\frac{\partial\sqrt{EG-F^2}}{\partial\varepsilon}.
+\end{equation*}
+
+Sowohl die \textsc{Minkowski}sche Formel (67) als die \textsc{Schwarz}sche Formel (69)
+sind übrigens als spezielle Fälle in der folgenden allgemeinen Formel enthalten,
+die für beliebige Flächenscharen ohne jede spezialisierende Voraussetzung
+unter Annahme des Quadrats des Linienelementes in der Form (68)
+gilt:
+\begin{equation*}\tag{70}
+J\left(\frac{1}{R}+\frac{1}{R'}\right)
+=\frac{\partial}{\partial\varepsilon}\sqrt{EG-F^2}
+-\frac{\partial}{\partial u}\left(\frac{GH-FI}{\sqrt{EG-F^2}}\right)
+-\frac{\partial}{\partial v}\left(\frac{EI-FH}{\sqrt{EG-F^2}}\right).
+\end{equation*}
+Dabei bedeutet $J$ die Funktionaldeterminante
+\[
+J=\frac{\partial(x,y,z)}{\partial(u,v,\varepsilon)}.
+\]
+\par\smallskip\noindent{\small X 2 Abh. 5.}\hfill{\small 7}\par
+\clearpage\endgroup

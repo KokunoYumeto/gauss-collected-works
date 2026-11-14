@@ -1,0 +1,182 @@
+\clearpage\begingroup
+\ArithmeticHead{27}{R}{VI. GAUSS’ METHODEN, DIE FAKTOREN GROSSER ZAHLEN ZU FINDEN.}
+\renewcommand{\thefootnote}{\arabic{footnote})}\setcounter{footnote}{0}
+\begin{center}VI.\\[3pt]{\large\textls[80]{\textsc{Gauss}’ Methoden, die Faktoren grosser Zahlen zu finden.}}\end{center}
+\noindent\hspace*{\parindent}In den meisten der bisher behandelten Beispiele beginnt die Rechnung
+mit einer Faktorenzerlegung, und damit kommen wir an eine der bemerkenswertesten Stellen in \textsc{Gauss}’ rechnerischer Betätigung, an die Stelle, wo Zahlentheorie und Zahlenrechnen vielleicht am vollkommensten ineinandergreifen.
+Die Hauptergebnisse auf diesem Gebiet sind in den \textit{Disquisitiones arithmeticae}
+auseinandergesetzt und längst Gemeingut aller Zahlentheoretiker; wir können
+uns daher, ohne auf allgemeine Entwicklungen einzugehen, auf die besonderen
+Vorteile beschränken, die er von Fall zu Fall angewandt hat.
+\par\hfill 4\textsuperscript{*}
+\clearpage\SourceLeaf{583}\ArithmeticHead{28}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\noindent\hspace*{\parindent}Bei der Berechnung von $\sqrt[4]{2}$ (S. 23) tritt die Zahl 435607 auf, und es
+gilt zu untersuchen, ob sie in Faktoren zerlegbar ist. Zunächst findet \textsc{Gauss},
+und das kostet ihn sicherlich nur wenige Sekunden,
+\[
+435607=7+660^2.
+\]
+\noindent Dann sucht er 435607 auf eine zweite Art in $7\alpha^2+1\mathord{.}\beta^2$ zu zerlegen. Die
+Überlegung wird sich wohl nicht streng nach der in den \textit{Disquisitiones} gegebenen Methode der Exkludenten\footnote{Werke I, S. 391 ff. Diese Methode hat \textsc{Gauss} anscheinend nur dann vorschriftsmässig angewandt, wenn es galt, nachzuweisen, dass die zu untersuchende Zahl Primzahl war.} abgespielt haben, sondern vielleicht folgendermassen:
+\[
+\begin{gathered}
+7\alpha^2+1\mathord{.}\beta^2=7\mathord{.}1^2+1\mathord{.}660^2\\
+7(\alpha^2-1)=660^2-\beta^2=(660+\beta)(660-\beta).
+\end{gathered}
+\]
+\noindent Einer der beiden Faktoren auf der rechten Seite muss nun durch 7 teilbar
+sein. Man wähle den ersten. Der kleinste Wert für $\beta$ ist 5, allgemein $5+7k$;
+denn es ist: $665=95\mathord{.}7$. Man führe die Division durch 7 aus und erhält:
+\[
+\alpha^2-1=\frac{660+\beta}{7}(660-\beta)
+\]
+\noindent oder
+\[
+\alpha^2=\frac{660+\beta}{7}(660-\beta)+1.
+\]
+\par\noindent\hspace*{\parindent}Für $\beta=5$ kommt $95\mathord{.}655+1$; diese Zahl kann keine Quadratzahl sein,
+da sie den Viererrest 2, also einen quadratischen Nichtrest hat. Wir bleiben
+zunächst bei Fünferzahlen, müssen also $k=5$ setzen. Dann erhalten wir
+$660+40=700$. Also:
+\[
+\alpha^2=100\mathord{.}620+1=62001=\frac{1000}{4}\mathord{.}248+1=249^2.
+\]
+\noindent Somit ergibt sich:
+\[
+435607=7\mathord{.}249^2+1\mathord{.}40^2.
+\]
+\par\noindent\hspace*{\parindent}Aus dem Gleichungssystem
+\[
+\begin{aligned}
+7\mathord{.}\phantom{249}1^2+1\mathord{.}660^2&=435607\\
+7\mathord{.}249^2+1\mathord{.}\phantom{6}40^2&=435607
+\end{aligned}
+\]
+\noindent folgt: Wenn 435607 in Primfaktoren zerlegt werden kann, so müssen diese
+auch in $(249\mathord{.}660+40)(249\mathord{.}660-40)$ enthalten sein. Der erste Faktor ist
+\[
+\frac14\mathord{.}660000-660+40=164380=20\mathord{.}8219.
+\]
+\clearpage\SourceLeaf{584}\ArithmeticHead{29}{R}{VI. GAUSS’ METHODEN, DIE FAKTOREN GROSSER ZAHLEN ZU FINDEN.}
+\setcounter{footnote}{0}
+\noindent Die Faktoren 2 und 5 können nicht in Betracht kommen, also probieren wir
+die Division durch 8219. Diese Division geht in der Tat auf, und damit
+haben wir die Zerlegung auf S. 23\footnote{Das Verfahren stammt von \textsc{Euler}, \textit{Quomodo numeri praemagni sint explorandi, utrum sint primi nec ne}, Novi Comment. Acad. Petropol. \textbf{13} (1768), 1769, S. 67, \textsc{Leonhardi Euleri}, Opera Omnia, ser. I, vol. III, S. 112; da jedoch die Mehrzahl der von uns hier wiedergegebenen Jugendübungen \textls[100]{vor 1795} datiert werden muss, also vor den bedeutsamen Zeitpunkt, wo \textsc{Gauss} in Göttingen \textsc{Euler}s Werke kennen lernte, so folgt mit grosser Wahrscheinlichkeit, dass \textsc{Gauss} sich auch diesen Weg selbständig erschlossen hat}.
+
+Die Begründung ist ja einfach:
+\[
+\begin{array}{c}
+a\mathord{.}\alpha_1^2+b\mathord{.}\beta_1^2=n\\
+a\mathord{.}\alpha_2^2+b\mathord{.}\beta_2^2=n\\\hline
+a(\alpha_1^2\beta_2^2-\alpha_2^2\beta_1^2)=n(\beta_2^2-\beta_1^2).
+\end{array}
+\]
+\par\noindent\hspace*{\parindent}Ist $a$ mit $n$ teilerfremd, so müssen alle Faktoren von $n$ in dem Klammerausdruck auf der linken Seite enthalten sein, w. z. b. w.
+
+Aus der Beweisführung erkennt man sofort, dass man statt $n$ auch irgend
+ein Vielfaches von $n$ in die Form $a\alpha_1^2+b\beta_1^2$ setzen kann. In dem andern
+Beispiel auf S. 22 hat \textsc{Gauss} statt der Zahl 2209139 das Doppelte dieser
+Zahl in $3\mathord{.}1209^2+115\mathord{.}17^2$ zerlegt. Nun erhalten wir wieder:
+\[
+\begin{gathered}
+3(1209^2-\alpha^2)=115(\beta^2-17^2)\\
+3\mathord{.}\frac{1209+\alpha}{115}(1209-\alpha)+17^2=\beta^2.
+\end{gathered}
+\]
+\noindent $\alpha$ hat die Form $56+\varkappa\mathord{.}115$, und für $\varkappa=0,\;1,\;2,\;3$ hat man:
+\[
+\alpha=56,\;171,\;286,\;401\ \ldots\ \text{und}\ \frac{1209+\alpha}{15}=11,\;12,\;13,\;14\ \ldots
+\]
+\begingroup\footnotesize\setlength{\tabcolsep}{2.5pt}
+\begin{center}
+\begin{tabular}{rlllllllll}
+1)&$\varkappa=0$&$3\mathord{.}11\mathord{.}(\ldots\ 3)+17^2$&endigt auf&8,&kann&also&kein&Quadrat&sein.\\
+2)&$\varkappa=1$&$3\mathord{.}12\mathord{.}(\ldots\ 8)+17^2$&»\quad »&7,&»&»&»&»&»\\
+3)&$\varkappa=2$&$3\mathord{.}13\mathord{.}(\ldots23)+17^2$&»\quad »&86,&»&»&»&»&»\\
+\multicolumn{10}{l}{4)\quad $\varkappa=3\quad 3\mathord{.}14\mathord{.}808+17^2=202\mathord{.}168+17^2=(185+17)(185-17)+17^2=185^2.$}
+\end{tabular}
+\end{center}
+\endgroup
+\noindent Die übrige Rechnung ist auf S. 22 ausgeführt.
+
+Diese Faktorenzerlegung spielt auch aus einem andern Grunde bei \textsc{Gauss}
+eine wichtige Rolle. Es wurde schon darauf aufmerksam gemacht, dass \textsc{Gauss}
+seit früher Jugend nach einem Verteilungsgesetz der Primzahlen geforscht
+hat, und dass ihm daher die Primzahlen innerhalb eines möglichst grossen
+Zahlengebiets bekannt sein mussten. Zu Beginn seiner Laufbahn war dieses
+\clearpage\SourceLeaf{585}\ArithmeticHead{30}{L}{PHILIPP MAENNCHEN, GAUSS ALS ZAHLENRECHNER.}
+\setcounter{footnote}{0}
+\noindent Gebiet noch klein; später wurde es, namentlich durch den Einfluss von \textsc{Euler}s
+Schriften, immer weiter erstreckt. Es galt also in seiner ersten Zeit, das
+Gebiet zu erweitern, und später war es nützlich, Stichproben auf ausgearbeitete
+Primzahltabellen zu machen. Dazu kam, dass er grosse Zahlen, die ihm bei
+seinen Forschungen begegneten, auf ihre Zerlegbarkeit in Faktoren zu untersuchen pflegte, und so erklärt es sich wohl auch, dass die so vielseitig untersuchten Zahlen sich seinem von Natur schon gewaltigen Gedächtnis derart
+einprägten, dass er stets darüber verfügen konnte. Daher ist auch das schriftliche Verzeichnis der von ihm untersuchten Zahlen nicht allzu reichhaltig.
+Auf einem im Nachlass befindlichen Zettel\footnote{Arithmetik a 5, Kapsel 40.} findet sich ein solches, das hier
+wiedergegeben werden soll:
+
+Numeri quorum divisores per methodos nostras experti sumus\footnote{Vergl. \textit{Calculus numerico-exponentialis}, Werke III, S. 426 ff. und X, 1, S. 551. Die Zahl 5), also 317827, geht, wie \textsc{Goldscheider} bemerkt hat, aus 12071067811865 durch Division mit $2\mathord{.}9\mathord{.}211$ hervor; dabei ist $1{,}2071067811865$ der um seine beiden letzten Dezimalstellen verkürzte Näherungswert von $\frac12+\frac12\sqrt2$, den wir auf S. 22 besprochen haben.}.
+\begingroup\footnotesize\setlength{\arraycolsep}{3pt}
+\[
+\begin{array}{rl}
+1)&2969257\left(\text{pr. pr. }e^{\frac{-25\pi}{4}}:10\ldots\right)=1657^2+11^2\mathord{.}1848\ \text{adeoque primus.}\\
+2)&\phantom{2}556027=33\mathord{.}87^2+10\mathord{.}175^2\ \text{primus.}\\
+3)&\phantom{2}119443=11\mathord{.}29^2+35\mathord{.}81^2.\\
+&\phantom{2119443}\left.\begin{aligned}
+&=\left[\tfrac12\right]\mathord{.}11\mathord{.}29^2+35\mathord{.}81^2\\
+&=\phantom{\left[\tfrac12\right]\mathord{.}}11\mathord{.}69^2+35\mathord{.}73^3
+\end{aligned}\right\}\,31\mathord{.}3853.\\
+4)&\phantom{2}274691=521^2+130\mathord{.}5^2=311^2+130\mathord{.}37^2=31\mathord{.}8861.\\
+5)&\phantom{2}317827=3\mathord{.}81^2+22^2\mathord{.}616\ \text{primus.}\\
+6)&\phantom{2}270071.\\
+7)&\phantom{2}208321=\\
+8)&\phantom{2}241403=\frac{29692569}{123}=491^2+322=475^2+322\mathord{.}49=163\mathord{.}1481.
+\end{array}
+\]
+\endgroup
+\par\noindent\hspace*{\parindent}Bei dieser Gelegenheit hat \textsc{Gauss} vermutlich Material zu seinen \textit{Disquisitiones} gesammelt. Denn das Charakteristische ist auch hier wieder, dass die
+Sätze induktiv gefunden wurden, um dann von umfassenden Gesichtspunkten
+aus deduktiv erschlossen zu werden.
+
+Eine ältere Sammlung induktiv ermittelten Materials hat sich im Nachlass nicht vorgefunden; nur das folgende Beispiel ist vorhanden\textsuperscript{1)}, vielleicht
+\clearpage\SourceLeaf{586}\ArithmeticHead{31}{R}{VI. GAUSS’ METHODEN, DIE FAKTOREN GROSSER ZAHLEN ZU FINDEN.}
+\noindent ein Überbleibsel einer ehemals reicheren Sammlung, die wohl nach ihrer deduktiven Erledigung vernichtet worden ist:
+
+Propositio quae demonstrationem exspectat. Si datur Quadratum, quod
+per $z$ divisum residuum $r$ efficit — datur item Quadratum, quod per $4r+z$
+divisum dat idem residuum: siquidem $4r+z$ sit numerus primus.
+
+Auf dem Zettel stand erst noch ein Zusatz, der anscheinend die Möglichkeit offen liess, dass die Zahl $4r+z$ auch Potenz einer Primzahl sein könne;
+dieser Zusatz ist gestrichen.
+
+In der Handschrift ist es ungewiss, ob es heisst »datur idem quadratum«
+oder »item quadratum«. Wahrscheinlich schrieb \textsc{Gauss} erst idem und hat
+dann das d in t verbessert. Bei dieser Annahme erhält man einen Satz, der
+sich mit Hilfe des Reziprozitätsgesetzes leicht beweisen lässt. Er lautet: Wenn
+$r$ quadratischer Rest mod $z$ ist, so ist $r$ auch quadratischer Rest mod $4r+z$, falls
+$4r+z$ eine Primzahl ist. Zum Beweis haben wir vier Fälle zu unterscheiden:
+
+a) $r$ ist von der Form $4n+1$, $z$ ebenfalls, und demnach auch $4r+z$.
+Da nach Voraussetzung $r$ quadratischer Rest mod $z$ ist, so ist nach dem Reziprozitätsgesetz $z$ quadratischer Rest mod $r$, daher auch $4r+z$ quadratischer
+Rest mod $r$, und daher auch wieder umgekehrt $r$ quadratischer Rest mod $4r+z$,
+falls $4r+z$ Primzahl ist.
+
+b) $r$ ist von der Form $4n+1$, $z$ von der Form $4n+3$, $4r+z$ von der
+Form $4n+3$; $r$ qu. R. mod $z$, $z$ qu. R. mod $r$, $4r+z$ qu. R. mod $r$, $r$ qu. R.
+mod $4r+z$.
+
+c) $r$ ist von der Form $4n+3$, $z$ von der Form $4n+1$, $4r+z$ von der
+Form $4n+1$; $r$ qu. R. mod $z$, $z$ qu. R. mod $r$, $4r+z$ qu. R. mod $r$, $r$ qu. R.
+mod $4r+z$.
+
+d) $r$ ist von der Form $4n+3$, $z$ ebenfalls; daher auch $4r+z$; $r$ qu. R.
+mod $z$, $z$ Nichtrest mod $r$, $4r+z$ Nichtrest mod $r$, $r$ qu. R. mod $4r+z$, q. e. d.
+Man erkennt leicht, dass sich der Beweis auch für jeden Primzahlmodul von
+der Form $4k+z$ führen liesse.
+
+Als \textsc{Gauss} die »propositio« aufschrieb, kannte er das Reziprozitätsgesetz
+noch nicht; das beweist der Zusatz »quae demonstrationem exspectat«. Sie ist
+also empirisch gefunden und diente ihm möglicherweise zur Kontrolle seiner
+Tafel des quadratischen Charakters der Primzahlen, von der jetzt die Rede
+sein wird.
+\clearpage\endgroup
