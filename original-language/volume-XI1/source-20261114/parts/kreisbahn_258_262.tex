@@ -1,0 +1,136 @@
+\clearpage
+\begingroup
+\NoSourceHead
+\makeatletter\tagsleft@true\let\veqno\leqno\makeatother
+\SourceLeaf{258}
+\begin{center}
+{\large\bfseries DIE GAUSS’SCHE METHODE\\ZUR BERECHNUNG EINER KREISBAHN\textsuperscript{*)}.}\par\medskip
+\rule{\linewidth}{.3pt}\\
+{\small [Aus W. \textsc{Klinkerfues}, Theoretische Astronomie, 1. Aufl., Braunschweig 1871, S. 63,\\
+3. Aufl., herausgegeben von H. \textsc{Buchholz}, Braunschweig 1912, S. 237.]}\\
+\rule{\linewidth}{.3pt}
+\end{center}
+\begingroup\renewcommand{\thefootnote}{*)}\footnotetext{Der Verfasser [\textsc{Klinkerfues}] verdankt diese Methode den mündlichen Mittheilungen von \textsc{Gauss}, bei Gelegenheit eines Auftrages zur Untersuchung der Bahn der Eunomia.}\endgroup
+\noindent\hspace*{\parindent}Das Verfahren von \textsc{Gauss}, an zwei vollständige Beobachtungen eines Planeten eine Kreisbahn anzuschliessen, gewährt für die Ekliptik eine sehr bequeme Rechnung.
+
+Wir beginnen damit, uns die Lage der Bahnebene gegen die Ekliptik, sowie die Bedingungen der Aufgabe . . . . . in [der beigefügten] Figur zu versinnlichen.
+\begin{center}\input{parts/fig_kreisbahn_258.tex}\end{center}
+\clearpage
+\HistoricalHead{254}{L}{THEORETISCHE ASTRONOMIE.}
+\SourceLeaf{259}
+Es sei $EC$ der die Ekliptik vorstellende grösste Kreis der Himmelskugel, $T$ und $T'$ seien die Örter der Erde auf derselben, d. h. diejenigen Punkte der Sphäre, auf welche die Radienvectoren der Erde in den beiden Beobachtungen gerichtet sind. Durch jede vollständige Beobachtung wird die Richtung oder eine Gerade, auf welcher der Planet sich zur Zeit der Beobachtung befinden muss, völlig bekannt, demnach auch die Lage der Ebene, welche durch diese Gerade und den Radiusvector der Erde in derselben Beobachtung gelegt werden kann. Diese Ebenen für die erste und die zweite Beobachtung werden in der Figur durch die grössten Kreise $TD$ und $T'D$, welche sich in $D$ schneiden, vorgestellt. $\AstNode PP'O$ sei die Bahnebene des Planeten, worin $\AstNode$ der aufsteigende Knoten in der Ekliptik, $P$ und $P'$ die heliocentrischen Örter des Planeten in beiden Beobachtungen. Die geocentrischen Örter, in der Figur mit $\Pi$ und $\Pi'$ bezeichnet, fallen offenbar ebenfalls in die grössten Kreise $TD$ und $T'D$. Man kann ferner noch leicht bemerken, dass der Bogen $TP$ nichts Anderes ist, als der Winkel, welchen der Radiusvector des Planeten mit dem Radiusvector der Erde in der ersten Beobachtung bildet, $T'P'$ dasselbe für die zweite Beobachtung. Diese beiden Bogen sind nicht von vornherein gegeben, dagegen die Bogen $T\Pi$ und $T'\Pi'$, d. h. die Winkel, welche an der Erde die Beobachtungsrichtungen mit den Verlängerungen der Radienvectoren der Erde in beiden Beobachtungen bilden; diese . . . wollen wir . . . mit $\chi$ und $\chi'$ bezeichnen . . . Stellen $z$ und $z'$ die Winkel am Planeten im Dreieck: Sonne, Erde, Planet für die Beobachtungszeiten $t$ und $t'$ vor, so ist nach dem Vorhergehenden:
+\[
+\begin{aligned}
+TP&=\chi-z,\\
+T'P'&=\chi'-z',\\
+T\Pi&=\chi,\\
+T'\Pi'&=\chi'.
+\end{aligned}
+\]
+\noindent\hspace*{\parindent}Der Kürze halber bezeichnen wir auch noch die sphärischen Winkel $TDT'$ mit $\varepsilon$, $DTC$ mit $\gamma$, $DT'C$ mit $\gamma'$. Legen wir noch durch $\Pi$ und $\Pi'$ die Bogen $\Pi A$ und $\Pi'A'$ senkrecht zur Ekliptik, so ist, wenn:
+\[
+\begin{array}{rlll}
+\lambda,\lambda'&\text{die geocentrischen}&\text{Längen}&\text{des Planeten,}\\
+\beta,\beta'&\text{»}\quad\text{»}&\text{Breiten}&\text{»}\quad\text{»}\\
+L,L'&\multicolumn{3}{l}{\text{die Längen der Erde bedeuten,}}
+\end{array}
+\]
+\clearpage
+\HistoricalHead{255}{R}{DIE GAUSS’SCHE METHODE ZUR BERECHNUNG EINER KREISBAHN.}
+\SourceLeaf{260}
+\[
+\begin{aligned}
+TA&=\lambda-L,\\
+T'A'&=\lambda'-L',\\
+\Pi A&=\beta,\\
+\Pi'A'&=\beta',
+\end{aligned}
+\]
+\noindent also nach den Formeln rechtwinkliger sphärischer Dreiecke
+\begin{equation*}\operatorname{tg}\gamma=\frac{\operatorname{tg}\beta}{\sin(\lambda-L)},\tag*{(1)}\end{equation*}
+\begin{equation*}\sin\chi=\frac{\sin\beta}{\sin\gamma}.\tag*{(2)}\end{equation*}
+\noindent\hspace*{\parindent}Die Formel für $\chi$:
+\[
+\cos\chi=\cos\beta\cos(\lambda-L)
+\]
+\noindent kann zur Controle der Rechnung dienen. Für einen eben entdeckten noch in der Nähe seiner Opposition befindlichen Planeten, pflegt der Winkel $\chi$ nicht gross zu sein, weshalb seine Bestimmung durch (1) und (2) der anderen vorzuziehen ist.
+
+Bei der zweiten Beobachtung hat man analog:
+\begin{equation*}\operatorname{tg}\gamma'=\frac{\operatorname{tg}\beta'}{\sin(\lambda'-L')},\tag*{(3)}\end{equation*}
+\begin{equation*}\sin\chi'=\frac{\sin\beta'}{\sin\gamma'}.\tag*{(4)}\end{equation*}
+\noindent\hspace*{\parindent}Nach der Berechnung von $\gamma$ und $\gamma'$ kann man nun sofort zur Auflösung des Dreiecks $TDT'$, d. h. zur Bestimmung der beiden Seiten $TD$, $T'D$ und des Winkels $TDT'$ oder $\varepsilon$, aus den Winkeln $\gamma$, $(180^0-\gamma')$ und der dazwischen liegenden Seite $TT'$ oder $L'-L$ schreiten. Die \textsc{Gauss}’schen Dreiecksformeln liefern hier die Gleichungen:
+\begin{align*}
+\sin\tfrac12\varepsilon\mathbin{.}\sin\tfrac12(TD+T'D)&=\sin\tfrac12(L'-L)\sin\tfrac12(\gamma'+\gamma),\tag*{(5)}\\
+\sin\tfrac12\varepsilon\mathbin{.}\cos\tfrac12(TD+T'D)&=\cos\tfrac12(L'-L)\sin\tfrac12(\gamma'-\gamma),\tag*{(6)}\\
+\cos\tfrac12\varepsilon\mathbin{.}\sin\tfrac12(TD-T'D)&=\sin\tfrac12(L'-L)\cos\tfrac12(\gamma'+\gamma),\tag*{(7)}\\
+\cos\tfrac12\varepsilon\mathbin{.}\cos\tfrac12(TD-T'D)&=\cos\tfrac12(L'-L)\cos\tfrac12(\gamma'-\gamma).\tag*{(8)}
+\end{align*}
+\noindent\hspace*{\parindent}Hat man diese Vorbereitungsrechnungen beendigt, so erhält man für jede Hypothese über den Werth von $r$ oder den Abstand des Planeten von der Sonne sofort die Bogen $DP$ und $DP'$, aus denen man dann in
+\clearpage
+\HistoricalHead{256}{L}{THEORETISCHE ASTRONOMIE.}
+\SourceLeaf{261}
+\noindent Verbindung mit dem von ihnen eingeschlossenen Winkel $\varepsilon$ die Seite $PP'$ des Dreiecks $PDP'$, d. h. den heliocentrischen Bogen $PP'$, welcher, wenn die Hypothese richtig ist, gleich $\dfrac{k(t'-t)}{r^{\frac32}}$ sein soll, bestimmen kann. Denn ein Blick auf die Figur zeigt, dass:
+\begin{align*}
+DP&=DT-PT=DT-(\chi-z),\tag*{(9)}\\
+DP'&=DT'-P'T'=DT'-(\chi-z'),\tag*{(10)}
+\end{align*}
+\noindent während
+\[
+\sin z=\frac{R\sin\chi}{r},\qquad\sin z'=\frac{R'\sin\chi'}{r};
+\]
+\noindent wobei $R$ und $R'$ die Radienvectoren der Erde vorstellen.
+
+Setzen wir der Kürze halber:
+\[
+\text{Winkel }DPO=\eta,\qquad\text{Winkel }DP'O=\eta',
+\]
+\noindent so haben wir wieder nach den \textsc{Gauss}schen trigonometrischen Formeln:
+\begin{align*}
+\sin\tfrac12PP'\sin\tfrac12(\eta'+\eta)&=\sin\tfrac12\varepsilon\sin\tfrac12(DP+DP'),\tag*{(11)}\\
+\cos\tfrac12PP'\sin\tfrac12(\eta'-\eta)&=\sin\tfrac12\varepsilon\cos\tfrac12(DP+DP'),\tag*{(12)}\\
+\sin\tfrac12PP'\cos\tfrac12(\eta'+\eta)&=\cos\tfrac12\varepsilon\sin\tfrac12(DP-DP'),\tag*{(13)}\\
+\cos\tfrac12PP'\cos\tfrac12(\eta'-\eta)&=\cos\tfrac12\varepsilon\cos\tfrac12(DP-DP'),\tag*{(14)}
+\end{align*}
+\noindent aus denen $PP'$, $\eta'$ und $\eta$ sich ergeben. Die beiden letzteren Grössen $\eta$ und $\eta'$ gewinnen erst Interesse, wenn man den definitiven Werth von $r$ gefunden hat, weshalb es vortheilhaft ist, dieselben aus den Versuchen zu eliminiren. Man addire zu dem Zwecke die Gleichungen (11) und (13), nachdem man auf beiden Seiten in das Quadrat erhoben hat, wodurch sich ergibt:
+\begin{equation*}
+\begin{aligned}
+\sin\tfrac12PP'{}^2&=\sin\tfrac12\varepsilon^2\sin\tfrac12(DP+DP')^2\\
+&\quad+\cos\tfrac12\varepsilon^2\sin\tfrac12(DP-DP')^2,
+\end{aligned}\tag*{(15)}
+\end{equation*}
+\noindent (während kaum nöthig scheint, zu bemerken, dass sich der Exponent 2 nicht auf die in Klammern stehenden Bogen, sondern auf das Quadriren des Sinus bezieht).
+
+Hat man die definitive Lösung gefunden, so rechnet man nach den Formeln (9) und (12), so dass auch $\eta$ und $\eta'$ bekannt werden. Wieder ein Blick auf [die] Figur zeigt uns, wie die drei Elemente $\AstNode$, $i$ und der Abstand vom Knoten bei der ersten Beobachtung oder das Argument der Breite $u$
+\clearpage
+\HistoricalHead{257}{R}{DIE GAUSS’SCHE METHODE ZUR BERECHNUNG EINER KREISBAHN.}
+\SourceLeaf{262}
+\noindent durch Auflösung des Dreiecks $P\AstNode T$ zu finden sind. In diesem ist offenbar:
+\[
+\begin{aligned}
+\text{Winkel }P\AstNode T&=i=\text{Neigung der Bahnebene zur Ekliptik,}\\
+\AstNode P&=u,\\
+\AstNode T&=L-\AstNode,
+\end{aligned}
+\]
+\noindent und da auch Winkel $\AstNode PT=\eta$, $PT\AstNode=180^0-\gamma$, $PT=\chi-z$, so ist nach den Dreiecksformeln:
+\begin{align*}
+\sin\tfrac12i\sin\tfrac12[u+(L-\AstNode)]&=\sin\tfrac12(\chi-z)\sin\tfrac12(\gamma+\eta),\tag*{(16)}\\
+\sin\tfrac12i\cos\tfrac12[u+(L-\AstNode)]&=\cos\tfrac12(\chi-z)\sin\tfrac12(\gamma-\eta),\tag*{(17)}\\
+\cos\tfrac12i\sin\tfrac12[u-(L-\AstNode)]&=\sin\tfrac12(\chi-z)\cos\tfrac12(\gamma+\eta),\tag*{(18)}\\
+\cos\tfrac12i\cos\tfrac12[u-(L-\AstNode)]&=\cos\tfrac12(\chi-z)\cos\tfrac12(\gamma-\eta).\tag*{(19)}
+\end{align*}
+\noindent\hspace*{\parindent}Zur Controle der Rechnung dient die Übereinstimmung des $i$ oder der Neigung, wie sie aus (16) und (17) und aus $\sin\tfrac12i$ folgt, mit der aus (18) und (19) und aus $\cos\tfrac12i$.
+
+Zu weiterer Sicherung der Richtigkeit kann man noch das Dreieck $\AstNode P'T'$ zur Bestimmung der Elemente verwenden.
+
+Man hat darnach auch:
+\begin{align*}
+\sin\tfrac12i\sin\tfrac12[u'+(L'-\AstNode)]&=\sin\tfrac12(\chi'-z')\sin\tfrac12(\gamma'+\eta'),\tag*{(20)}\\
+\sin\tfrac12i\cos\tfrac12[u'+(L'-\AstNode)]&=\cos\tfrac12(\chi'-z')\sin\tfrac12(\gamma'-\eta'),\tag*{(21)}\\
+\cos\tfrac12i\sin\tfrac12[u'-(L'-\AstNode)]&=\sin\tfrac12(\chi'-z')\cos\tfrac12(\gamma'+\eta'),\tag*{(22)}\\
+\cos\tfrac12i\cos\tfrac12[u'-(L'-\AstNode)]&=\cos\tfrac12(\chi'-z')\cos\tfrac12(\gamma'-\eta').\tag*{(23)}
+\end{align*}
+\noindent\hspace*{\parindent}Das Argument der Breite in der zweiten Beobachtung, $u'$, muss noch der Bedingung genügen, dass $u'-u=PP'=\dfrac{k(t'-t)}{r^{\frac32}}$ wird, wie es immer der Fall sein wird, wenn die Rechnung vorher in allen Theilen scharf geführt worden ist.
+\begin{center}\rule{.24\linewidth}{.3pt}\end{center}
+\clearpage
+\endgroup
