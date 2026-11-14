@@ -1,0 +1,216 @@
+\clearpage\begingroup\NoSourceHead\SourceLeaf{211}
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\begin{center}
+{\Large\textls[180]{NACHLASS.}}\\[1.5em]
+{[I.]}\\[.8em]
+\textbf{[DEN WOCHENTAG DES 1. JANUAR EINES JAHRES ZU FINDEN.\\
+GÜLDENE ZAHL. EPAKTE. OSTERGRENZE.]}\\[.8em]
+\rule{\textwidth}{.35pt}\\[.2em]
+{\small [Handschriftliche Eintragung in: Sammlung astronomischer Tafeln, unter Aufsicht der Kgl. Preußischen Akademie der Wissenschaften, I. Band, Berlin 1776. — 1798 von \textsc{Gauss} erworben.]}\\[.2em]
+\rule{\textwidth}{.35pt}
+\end{center}
+\noindent\hspace*{\parindent}Bezeichnet man den kleinsten positiven Rest einer Grösse $A$ nach dem Modulus $m$ durch $R:A$ (mod. $m$), so lassen sich alle Vorschriften des Gregori[ani]schen Kalenders auf folgende geschmeidige Art darstellen:
+\begin{center}1.\end{center}
+\noindent\hspace*{\parindent}Wenn man die Tage vom 1\textsuperscript{ten} Januar 1701 an zählt, d. i. diesen mit 1, den 2\textsuperscript{ten} mit 2, den 31\textsuperscript{ten} Dec. 1700 mit 0, den 30\textsuperscript{ten} mit $-1$ etc. bezeichnet, so ist der 1\textsuperscript{te} Januar in irgend einem Jahre $A$
+\[
+\begin{aligned}
+={}&1+(A-1701)365+\frac14\bigl((A-1701)-R:(A-1701)\ \mathrm{mod.}\,4\bigr)\\
+&-\frac1{100}\bigl((A-1701)-R:(A-1701)\ \mathrm{mod.}\,100\bigr)\\
+&+\frac1{400}\bigl((A-1601)-R:(A-1601)\ \mathrm{mod.}\,400\bigr).
+\end{aligned}
+\]
+\begin{center}2.\end{center}
+\noindent\hspace*{\parindent}Die Wochentage Sonntag, Montag etc. mit 0, 1 etc. bezeichnet, ist der 1\textsuperscript{te} Januar irgend eines Jahres, qua Wochentag,
+\clearpage\SourceLeaf{212}\HistoricalHead{207}{R}{WOCHENTAG DES 1. JANUAR. GÜLDENE ZAHL. EPAKTE. OSTERGRENZE.}
+\[
+\left.\begin{aligned}
+\equiv{}&6+A+(2A+5R:(A-1)\ \mathrm{mod.}\,4)\\
+&+(3A+4R:(A-1)\ \mathrm{mod.}\,100)\\
+&+(A+2+6R:(A-1)\ \mathrm{mod.}\,400)
+\end{aligned}\right\}\ \mathrm{mod.}\,7.
+\]
+\noindent Also von 1601 bis 2000
+\[
+\equiv6+6A+5R:(A-1)\ \mathrm{mod.}\,4+4R:(A-1)\ \mathrm{mod.}\,100.
+\]
+\noindent Allgemein
+\[
+\begin{aligned}
+\equiv{}&1+5R:(A-1)\ \mathrm{mod.}\,4+4R:(A-1)\ \mathrm{mod.}\,100\\
+&+6R:(A-1)\ \mathrm{mod.}\,400.
+\end{aligned}
+\]
+\begin{center}3.\end{center}
+\noindent\hspace*{\parindent}Güldene Zahl $=1+R:A$ (mod. 19).\par
+\noindent\hspace*{\parindent}Epakte von 1700 bis $1900\equiv11(R:A\ \mathrm{mod.}\,19)\ \mathrm{mod.}\,30$.\par
+\noindent\hspace*{\parindent}Ostergrenze
+\[
+\begin{aligned}
+&18\ \text{April}-R:(5+11R:A\ \mathrm{mod.}\,19)\ \mathrm{mod.}\,30\\
+={}&21\ \text{Merz}+R:(23+19\text{[*)]}R:A\ \mathrm{mod.}\,19)\ \mathrm{mod.}\,30.
+\end{aligned}
+\]
+\begingroup\renewcommand{\thefootnote}{}\footnotetext{[*) In der Handschrift steht hier irrtümlich 11 statt 19.]}\endgroup
+\begin{center}\textbf{BEMERKUNGEN ZU 1 UND 2.}\end{center}
+\begingroup\small
+\noindent\hspace*{\parindent}Wählt man den 31. Dezember 1700 als Ausgangstermin, zählt diesen, wie es \textsc{Gauss} verlangt, mit 0, den ihm folgenden 1. Januar 1701 mit 1 u.s.w., so sind bis zum 1. Januar des Jahres $A$ ($A\geqq1701$), diesen Tag mitgerechnet, entsprechend den 365 regulären Tagen eines Jahres $1+(A-1701)\mathbin{.}365$ Tage vergangen. Hierzu kämen, wenn jedes vierte Jahr ein Schaltjahr wäre, noch die Schalttage in der Anzahl
+\[
+Q\left(\frac{A-1701}{4}\right)^{**)}.
+\]
+\begingroup\renewcommand{\thefootnote}{}\footnotetext{**) Sind $a$ und $b$ irgend welche ganze Zahlen ($b>0$), so soll $R\left(\frac ab\right)$ den kleinsten nicht negativen Rest der Division von $a$ durch $b$ und $Q\left(\frac ab\right)$ den zugehörigen Quotienten bedeuten. (Für $R\left(\frac ab\right)$ schreibt \textsc{Gauss} $R:a$ (mod. $b$); der oben S. 206, erste Textzeile von \textsc{Gauss} gegebenen Definition des Symbols $R:a$ (mod. $b$) muß also noch hinzugefügt werden, daß man ihm den Wert Null beizulegen hat, wenn $a$ durch $b$ teilbar ist.) Z. B. ist für $A=1696$:
+\[
+\begin{gathered}
+Q\left(\frac{1696-1701}{4}\right)=-2,\quad R\left(-\frac54\right)=3,\\
+Q\left(\frac{1696-1701}{100}\right)=-1,\quad R\left(-\frac5{100}\right)=95.
+\end{gathered}
+\]
+Bei dieser Festsetzung gibt (vergl. den Artikel 1, oben S. 206) für $A<1701$ die negative Zahl
+\[
+\begin{aligned}
+&1+(A-1701)\mathbin{.}365+Q\left(\frac{A-1701}{4}\right)\\
+&\qquad-Q\left(\frac{A-1701}{100}\right)+Q\left(\frac{A-1601}{400}\right)
+\end{aligned}
+\]
+an, wieviel Tage der 1. Januar des Jahres $A$ vor dem 31. Dezember 1700 liegt. Mithin wird auch der}\endgroup
+\clearpage\SourceLeaf{213}\HistoricalHead{208}{L}{CHRONOLOGIE. NACHLASS.}
+\noindent Nun sind aber die durch 400 nicht teilbaren Säkularjahre keine Schaltjahre, folglich ist dem Ausdruck
+\[
+1+(A-1701)\mathbin{.}365+Q\left(\frac{A-1701}{4}\right)
+\]
+\noindent noch die Zahl
+\[
+-Q\left(\frac{A-1701}{100}\right)+Q\left(\frac{A-1601}{400}\right)
+\]
+\noindent beizufügen; die zu subtrahierende Größe gibt nämlich die Anzahl der Schalttage, die ausfallen würden, wenn \textls[120]{kein} Säkularjahr ein Schaltjahr wäre, die zu addierende Größe bestimmt die Anzahl der Schalttage, die hinzutreten, da die durch 400 teilbaren Säkularjahre Schaltjahre sind.
+
+Bedeuten $\lambda$ und $a$ ganze positive Zahlen, so hat man
+\[
+A-a=\lambda Q\left(\frac{A-a}{\lambda}\right)+R\left(\frac{A-a}{\lambda}\right)
+\]
+\noindent oder
+\begin{equation}
+Q\left(\frac{A-a}{\lambda}\right)=\frac1\lambda\left\{A-a-R\left(\frac{A-a}{\lambda}\right)\right\}.\tag*{(1)}
+\end{equation}
+\noindent Wendet man die Gleichung (1) der Reihe nach an erstens für $a=1701$ und $\lambda=4$, zweitens für $a=1701$ und $\lambda=100$, drittens für $a=1601$ und $\lambda=400$, so wird
+\[
+\begin{aligned}
+&1+(A-1701)\mathbin{.}365+Q\left(\frac{A-1701}{4}\right)-Q\left(\frac{A-1701}{100}\right)+Q\left(\frac{A-1601}{400}\right)\\
+&\quad=1+(A-1701)\mathbin{.}365+\frac14\left[(A-1701)-R\left(\frac{A-1701}{4}\right)\right]\\
+&\qquad\qquad-\frac1{100}\left[(A-1701)-R\left(\frac{A-1701}{100}\right)\right]\\
+&\qquad\qquad+\frac1{400}\left[(A-1601)-R\left(\frac{A-1601}{400}\right)\right],
+\end{aligned}
+\]
+\noindent wie \textsc{Gauss} im Artikel 1 angibt.
+
+Der 1. Januar 1701 war ein Samstag; zählt man nach \textsc{Gauss} die Wochentage in der Reihenfolge Sonntag, Montag u.s.w. mit 0, 1 u.s.w., so erhält Samstag die Nummer 6. Die Zahl, die dem Wochentag des 1. Januar des Jahres $A$ entspricht, ist daher kongruent
+\begin{equation}
+\begin{aligned}
+&6+(A-1701)\mathbin{.}365+Q\left(\frac{A-1701}{4}\right)-Q\left(\frac{A-1701}{100}\right)+Q\left(\frac{A-1601}{400}\right)\\
+&\quad\equiv6+A+\left[Q\left(\frac{A-1}{4}\right)-425\right]-\left[Q\left(\frac{A-1}{100}\right)-17\right]\\
+&\qquad\qquad+\left[Q\left(\frac{A-1}{400}\right)-4\right]\quad(\mathrm{mod.}\,7).
+\end{aligned}\tag*{(2)}
+\end{equation}
+\noindent Multipliziert man die Identität
+\[
+A-1=4Q\left(\frac{A-1}{4}\right)+R\left(\frac{A-1}{4}\right)
+\]
+\noindent mit 2, so wird
+\[
+2A-2=8Q\left(\frac{A-1}{4}\right)+2R\left(\frac{A-1}{4}\right)
+\]
+\noindent und folglich
+\begin{equation}
+Q\left(\frac{A-1}{4}\right)\equiv2A-2-2R\left(\frac{A-1}{4}\right)\quad(\mathrm{mod.}\,7).\tag*{(3)}
+\end{equation}
+\begingroup\renewcommand{\thefootnote}{}\footnotetext{Wochentag des 1. Januar eines Jahres $A<1701$ durch unsere Formel (2) (siehe oben im Text) bestimmt, so daß der von \textsc{Gauss} im Artikel 2 gegebenen Regel allgemeine Gültigkeit seit der Einführung des gregorianischen Kalenders, auch für $A<1701$, zukommt.}\endgroup
+\clearpage\SourceLeaf{214}\HistoricalHead{209}{R}{BEMERKUNGEN.}\HistoricalFoot{XI\textsubscript{1}.}{27}
+\noindent Multipliziert man die Identität
+\[
+A-1=100Q\left(\frac{A-1}{100}\right)+R\left(\frac{A-1}{100}\right)
+\]
+\noindent mit 3, so wird
+\[
+3A-3=300Q\left(\frac{A-1}{100}\right)+3R\left(\frac{A-1}{100}\right)
+\]
+\noindent und folglich
+\[
+3A-3\equiv6Q\left(\frac{A-1}{100}\right)+3R\left(\frac{A-1}{100}\right)\quad(\mathrm{mod.}\,7)
+\]
+\noindent oder
+\begin{equation}
+-Q\left(\frac{A-1}{100}\right)\equiv3A-3+4R\left(\frac{A-1}{100}\right)\quad(\mathrm{mod.}\,7).\tag*{(4)}
+\end{equation}
+\noindent Weiter ist
+\[
+A-1=400Q\left(\frac{A-1}{400}\right)+R\left(\frac{A-1}{400}\right)
+\]
+\noindent und folglich
+\begin{equation}
+Q\left(\frac{A-1}{400}\right)\equiv A-1+6R\left(\frac{A-1}{400}\right)\quad(\mathrm{mod.}\,7).\tag*{(5)}
+\end{equation}
+\noindent Setzt man für $Q\left(\frac{A-1}{4}\right)$, $-Q\left(\frac{A-1}{100}\right)$ und $Q\left(\frac{A-1}{400}\right)$ ihre Werte aus (3), (4) und (5) in (2) ein, so geht (2) über in
+\[
+\begin{aligned}
+&6+A+\left[2A-2-2R\left(\frac{A-1}{4}\right)-425\right]\\
+&\qquad+\left[3A-3+4R\left(\frac{A-1}{100}\right)+17\right]+\left[A-1+6R\left(\frac{A-1}{400}\right)-4\right]\\
+&\quad\equiv6+A+\left[2A+5R\left(\frac{A-1}{4}\right)\right]+\left[3A+4R\left(\frac{A-1}{100}\right)\right]\\
+&\qquad\qquad+\left[A+2+6R\left(\frac{A-1}{400}\right)\right]\quad(\mathrm{mod.}\,7)\\
+&\quad\equiv1+5R\left(\frac{A-1}{4}\right)+4R\left(\frac{A-1}{100}\right)+6R\left(\frac{A-1}{400}\right)\quad(\mathrm{mod.}\,7).
+\end{aligned}
+\]
+
+Dies ist das Resultat von \textsc{Gauss}. Seine Angaben über die Jahre von 1601 bis 2000 ergeben sich aus der Tatsache, daß in diesem Zeitraum die Säkularjahre keine Schaltjahre sind und infolgedessen in der Formel (2) das Glied $Q\left(\frac{A-1601}{400}\right)$, also in der vorletzten Formel das Glied $A+2+6R\left(\frac{A-1}{400}\right)$ fortgelassen werden kann.
+\begin{center}\textbf{BEMERKUNGEN ZU 3.}\end{center}
+\noindent\hspace*{\parindent}Die goldene Zahl, die Ordnungszahl des Jahres $A$ im 19jährigen Mondzyklus ist, wie \textsc{Gauss} angibt, $1+R\left(\frac A{19}\right)$ (vergl. auch Werke VI, S. 75).
+
+Die gregorianische Epakte hat für das Jahr $A$ den Wert
+\[
+E=R\left(\frac{53+11R\left(\dfrac A{19}\right)-M}{30}\right),
+\]
+\noindent wobei
+\[
+M=R\left(\frac{15+k-Q\left(\dfrac{8k+13}{25}\right)-Q\left(\dfrac k4\right)}{30}\right),\quad k=Q\left(\frac A{100}\right)
+\]
+\noindent zu nehmen ist. Die gregorianische Ostergrenze (d. h. der Ostervollmond) fällt auf
+\[
+\text{März }21+R\left(\frac{M+19R\left(\dfrac A{19}\right)}{30}\right);
+\]
+\clearpage\SourceLeaf{215}\HistoricalHead{210}{L}{CHRONOLOGIE. NACHLASS.}
+\noindent wenn jedoch der 19. April herauskommt, so ist allemal der 18. zu nehmen, und wenn sich der 18. April ergibt und zugleich $R\left(\frac A{19}\right)>10$ ist, der 17. April. Der erste Ausnahmefall
+\[
+R\left(\frac{M+19R\left(\dfrac A{19}\right)}{30}\right)=29
+\]
+\noindent ist nur möglich, wenn $M$ einen der von \textsc{Gauss}, Werke VI, S. 79 angegebenen 19 Werte
+\[
+0,\ 2,\ 3,\ 5,\ 6,\ 8,\ 10,\ 11,\ 13,\ 14,\ 16,\ 17,\ 19,\ 21,\ 22,\ 24,\ 25,\ 27,\ 29
+\]
+\noindent besitzt; der zweite Ausnahmefall
+\[
+R\left(\frac{M+19R\left(\dfrac A{19}\right)}{30}\right)=28,\quad R\left(\frac A{19}\right)>10
+\]
+\noindent kann nur eintreten, wenn $M$ einen der von \textsc{Gauss} ebenda angegebenen 8 Werte
+\[
+2,\ 5,\ 10,\ 13,\ 16,\ 21,\ 24,\ 29
+\]
+\noindent hat. Setzt man also
+\[
+R\left(\frac{M+19R\left(\dfrac A{19}\right)}{30}\right)=d,\quad R\left(\frac A{19}\right)=a,
+\]
+\noindent so wird die gregorianische Ostergrenze \textls[120]{ausnahmslos} bestimmt durch die Formel
+\[
+\text{März }21+d-Q\left(\frac{d+Q\left(\dfrac a{11}\right)}{29}\right).
+\]
+
+Für die Jahre 1700 bis 1899 hat $M$ den Wert 23; für diesen Zeitraum ergibt sich also in Übereinstimmung mit der Angabe von \textsc{Gauss} (oben S. 207, Artikel 3)
+\[
+E=R\left(\frac{11R\left(\dfrac A{19}\right)}{30}\right).
+\]
+\noindent Da der Wert $M=23$ bei den beiden besprochenen Ausnahmefällen nicht auftritt, wird die Ostergrenze für die Jahre 1700 bis 1899, wie \textsc{Gauss} a. a. O. und auch in seiner ersten Veröffentlichung Werke VI, S. 75 angibt, durch die Formel
+\[
+\text{März }21+R\left(\frac{23+19R\left(\dfrac A{19}\right)}{30}\right)=\text{April }18-R\left(\frac{5+11R\left(\dfrac A{19}\right)}{30}\right)
+\]
+\noindent bestimmt, ohne daß hier eine Korrektur erforderlich wäre.
+\begin{flushright}\textsc{Loewy.}\end{flushright}
+\endgroup
+\begin{center}\rule{.24\textwidth}{.35pt}\end{center}
+\clearpage\endgroup
