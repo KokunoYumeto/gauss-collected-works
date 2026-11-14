@@ -1,0 +1,5 @@
+Carl Friedrich Gauss, Werke XI, erste Abteilung (1927).
+Scope: source leaves 2, 3, 6, 8-147.
+AI-transcribed editable LaTeX; historical authorship and source information are given in edition_notice.tex.
+Use XeLaTeX with Latin Modern OpenType fonts and the packages named in common.tex. Run xelatex source.tex twice.
+To map extensible mathematical glyphs for text extraction, run map_math_text.py on source.pdf with --glyph-map pointing to the installed LaTeX glyphtounicode-cmex.tex file.

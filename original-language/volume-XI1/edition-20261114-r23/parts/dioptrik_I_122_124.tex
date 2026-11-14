@@ -1,0 +1,123 @@
+\clearpage\begingroup
+\NoSourceHead\SourceLeaf{122}
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\begin{center}
+{\Large [DIOPTRIK.]}\par\bigskip
+{\large\textls[150]{NACHLASS.}}\par\bigskip
+[I.]\par\medskip
+NEUER ALGORITHMUS.\par\medskip
+\rule{\linewidth}{.4pt}\par
+{\small [Aus Handbuch 21, Bg, Aufsätze, Notizen und Rechnungen zur Mathematik und Astronomie gehörig; Angefangen September 1813, S. 27, 28.]}\par
+\rule{\linewidth}{.4pt}
+\end{center}
+\noindent\hspace*{\parindent}Die Grössen $A, B, C, D$ etc. entstehen aus $a, b, c, d$ etc. so, dass
+\[
+A=a,\quad B=bA-1,\quad C=cB-A,\quad D=dC-B\quad\text{etc.}
+\]
+\noindent Wir bezeichnen dann
+\[
+A\text{ mit }(a,a),\quad B\text{ mit }(a,b),\quad
+C\text{ mit }(a,c),\quad D\text{ mit }(a,d)\quad\text{etc.},
+\]
+\noindent wo also bei $a, b, c, d$ etc. die Ordnung als bestimmt betrachtet wird.
+
+Dieser Algorithmus bietet die interessante Eigenschaft, dass man\textsuperscript{[*)]}\begingroup\renewcommand{\thefootnote}{}\footnotetext{[*) In der Handschrift steht hier noch das Wort »statt«.]}\endgroup\ \textls[120]{vier} oder mehr aufeinander folgende Elemente immer durch \textls[120]{drei} ersetzen kann.
+
+Man hat dann folgende schöne Lehrsätze (Ordn[un]g $a,b,c,\, .\, .\, .\ g,h,i,\, .\, .\, .\ p,q,r,\, .\, .\, .\ z$)
+\begin{equation}
+(a,p)\mathbin{.}(i,z)-(i,p)\mathbin{.}(a,z)=(a,g)\mathbin{.}(r,z),,
+\tag*{I.}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+\partial(a,z)={}&(b,z)\partial a+(a,a)(c,z)\partial b\mathbin{+}{}\\
+& (a,b)(d,z)\partial c+(a,c)(e,z)\partial d+\text{etc.}
+\end{aligned}
+\tag*{II.}
+\end{equation}
+
+\clearpage\SourceLeaf{123}\HistoricalHead{118}{L}{PHYSIK.\quad NACHLASS.}
+Diese Formeln werden noch eleganter, wenn man die Bezeichnung\textsuperscript{[*)]}\begingroup\renewcommand{\thefootnote}{}\footnotetext{[*) In der Handschrift steht hier noch das Wort »anders«.]}\endgroup\ modificirt und
+\[
+\begin{gathered}
+(a,a)=0,\quad (a,b)=1,\quad (a,c)=b,\\
+(a,d)=c(a,c)-(a,b),\quad (a,e)=d(a,d)-(a,c)\quad\text{etc.}
+\end{gathered}
+\]
+\noindent setzt. Alsdann hat man nemlich:
+\begin{equation}
+(a,p)\mathbin{.}(i,z)-(i,p)\mathbin{.}(a,z)=(a,i)\mathbin{.}(p,z),
+\tag*{I[a].}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+\partial(a,z)={}&(a,b)(b,z)\partial b+(a,c)(c,z)\partial c\mathbin{+}{}\\
+& (a,d)(d,z)\partial d+\text{etc.}
+\end{aligned}
+\tag*{II[a].}
+\end{equation}
+
+Auf Einer Axe seyn $\mu+1$ Gläser geordnet, deren Brennweiten $\frac{1}{f},\frac{1}{f'},\frac{1}{f''},\frac{1}{f'''}$ etc. $\frac{1}{f^\mu}$, die Distanzen von einander $h,h',h'',\, .\, .\, .\ h^{\mu-1}$ sind. Man mache, indem obigen Elementen $a,b,c$ etc. jetzt die Grössen $f,h,f',h',f'',h''$ etc. entsprechen:
+\[
+\begin{array}{cc}
+[\mathrm{III.}]\left\{\begin{aligned}
+\alpha&=1,\\ \alpha'&=(f,h),\\ \alpha''&=(f,h'),\\ \alpha'''&=(f,h''),
+\end{aligned}\right.
+&[\mathrm{IV.}]\left\{\begin{aligned}
+\beta&=f,\\ \beta'&=(f,f'),\\ \beta''&=(f,f''),\\ \beta'''&=(f,f'''),
+\end{aligned}\right.\\[1em]
+{}[\mathrm{V.}]\left\{\begin{aligned}
+\gamma&=0,\\ \gamma'&=h,\\ \gamma''&=(h,h'),\\ \gamma'''&=(h,h''),
+\end{aligned}\right.
+&[\mathrm{VI.}]\left\{\begin{aligned}
+\delta&=1,\\ \delta'&=(h,f'),\\ \delta''&=(h,f''),\\ \delta'''&=(h,f''')
+\end{aligned}\right.
+\end{array}
+\]
+\begin{center}etc.\end{center}
+\noindent\hspace*{\parindent}Die Bedeutung dieser Grössen versinnlicht folgende Figur:
+\input{parts/dioptrik_I_figures.tex}
+
+\clearpage\SourceLeaf{124}\HistoricalHead{119}{R}{NEUER ALGORITHMUS.}
+Hier wird nun:
+\par\smallskip\noindent
+\begin{tabular}{@{}p{.29\linewidth}@{\hspace{1em}}p{\dimexpr.71\linewidth-1em\relax}@{}}
+\multicolumn{2}{@{}p{\linewidth}@{}}{$\delta^\mu$ die Vergrösserung; bei geradem $\mu$ ist $\delta^\mu$ positiv bei aufrechtem Bilde, negativ bei verkehrtem,}\\[.5em]
+$\frac{g}{\beta},\ \frac{g}{\beta'},\ \frac{g}{\beta''}$ etc.&Grösse der einzelnen Bilder, wenn $g$ das Gesichtsfeld,\\[.5em]
+$g\gamma',\ g\gamma'',\ g\gamma'''$ etc.&Oeffnungen der Gläser wegen des Gesichtsfeldes,\\[.5em]
+$\frac{\omega}{\delta},\ \frac{\omega}{\delta'},\ \frac{\omega}{\delta''}$ etc.&Durchmesser der Stralenkegel,\\[.5em]
+$\omega\alpha',\ \omega\alpha'',\ \omega\alpha'''$ etc.&Oeffnungen der Gläser wegen der Helligkeit.
+\end{tabular}
+\par\medskip
+Für weitsichtige Augen muss $\beta^\mu=0$ werden; für kurzsichtige, deren Augenweite $=k$, muss $\beta^\mu\delta^\mu k=-1$ seyn.
+
+Die Breite des farbigen Saumes um das Gesichtsfeld wird
+\begin{equation}
+\tfrac{1}{2}\delta^\mu g(\alpha^\mu\partial\delta^\mu-\beta^\mu\partial\gamma^\mu)
+\tag*{[VII]}
+\end{equation}
+\noindent und zwar ist der Saum, wenn diese Grösse positiv wird, blau; roth, wenn sie negativ ist
+\begin{equation}
+\begin{aligned}
+={}&\frac{1}{2}\delta^\mu g\frac{\partial n}{n-1}\{\alpha'\gamma'f'+\alpha''\gamma''f''\mathbin{+}{}\\
+&\alpha'''\gamma'''f'''+\alpha^{\mathrm{IV}}\gamma^{\mathrm{IV}}f^{\mathrm{IV}}+\text{etc.}+\alpha^\mu\gamma^\mu f^\mu\},
+\end{aligned}
+\tag*{[VIIa]}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+={}&\frac{1}{2}\delta^\mu g\frac{\partial n}{n-1}\{\alpha'(\delta+\delta')+\alpha''(\delta'+\delta'')\mathbin{+}{}\\
+&\alpha'''(\delta''+\delta''')+\text{etc.}+\alpha^\mu(\delta^{\mu-1}+\delta^\mu)\},
+\end{aligned}
+\tag*{[VIIb]}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+={}&\frac{1}{2}\delta^\mu g\frac{\partial n}{n-1}\{\gamma'(\beta+\beta')+\gamma''(\beta'+\beta'')\mathbin{+}{}\\
+&\gamma'''(\beta''+\beta''')+\text{etc.}+\gamma^\mu(\beta^{\mu-1}+\beta^\mu)\}\text{[*)]}.\!
+\end{aligned}
+\tag*{[VIIc]}
+\end{equation}
+\begingroup\renewcommand{\thefootnote}{}\footnotetext{[*) In der Handschrift steht in den drei letzten Formeln $\delta^m$ statt $\delta^\mu$.]}\endgroup
+\begin{center}\rule{.25\linewidth}{.4pt}\end{center}
+\clearpage\endgroup
