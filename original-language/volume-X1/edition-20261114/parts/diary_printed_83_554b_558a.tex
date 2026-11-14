@@ -1,0 +1,180 @@
+% GDZ PPN236018647,native554lower–558upper;HKUST555–559.
+\NumberedItem{83}
+\indent Positis:
+\[
+l(1+x)=\varphi'x;\quad l(1+\varphi'x)=\varphi''x;\quad l(1+\varphi''x)=\varphi'''x,\quad\text{etc.}
+\]
+\noindent erit
+\[
+\varphi^i x={}^3\!\surd\frac1{\frac32 i}+\cdots.
+\]
+\begingroup\renewcommand{\thefootnote}{[*)]}
+\par\noindent\hfill Brunsv[igae, 1798] Apr.\footnotemark
+\renewcommand{\thefootnote}{[*)}
+\footnotetext{Die Unterbrechung in den Eintragungen vom 16. Oktober 1797 bis zum April 1798 läßt darauf schließen, daß \textsc{Gauss}, als er sich Mitte Oktober 1797 nach Göttingen begab, das Tagebuch in Braunschweig zurückgelassen hatte. Erst nach seiner Rückkehr setzt er die Aufzeichnungen fort.]}
+\par\endgroup
+
+\medskip\begingroup\small
+\indent In dieser Aufzeichnung wird die von einer Funktion \(l(1+x)\) gebildete \(i\)-te Iterierte \(\varphi^{(i)}(x)\) durch eine Reihe dargestellt, von der das allein angegebene erste Glied vermuten läßt, daß sie zur Bestimmung des asymptotischen Verhaltens von \(\varphi^{(i)}(x)\) für große Werte des Index \(i\) dienen soll. Welche Funktion \textsc{Gauss} hier unter \(l(1+x)\) versteht, läßt sich unmittelbar weder aus der Aufzeichnung selbst noch aus
+\par\endgroup
+
+\clearpage\SourceLeaf{555}\ArithmeticHead{526}{L}{TAGEBUCH MIT ERLÄUTERUNGEN.}
+\begingroup\small
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\noindent andern Stücken des Nachlasses feststellen. Man könnte daran denken, \(l(1+x)\) mit dem natürlichen Logarithmus oder mit der in dem \textit{Specimen termini medii etc.} (oben, S. 172) auftretenden Funktion, die im art. [3.] (oben, S. 174) mit \(l(1+x)\) bezeichnet wird, zu identifizieren, d. h. also in der Umgebung von \(x=0\) zu setzen
+\begin{equation}
+l(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\frac{x^4}{4}+\cdots\tag*{(1)}
+\end{equation}
+\noindent oder
+\begin{equation}
+l(1+x)=x-\frac{x^2}{4}+\frac{x^3}{8}-\frac9{112}x^4+\cdots;\tag*{(2)}
+\end{equation}
+\noindent aber diese beiden Möglichkeiten scheiden aus, da, wie sich alsbald zeigen wird, für die beiden Funktionen (1), (2) das Anfangsglied der Entwicklung der \(i\)-ten Iterierten anders lautet, als \textsc{Gauss} es angibt. Wir wollen vielmehr fragen, was sich aus dem \textsc{Gauss}schen Anfangsgliede für die Funktion \(l(1+x)\) erschließen läßt, wenn wir annehmen, daß diese Funktion in der Umgebung von \(x=0\) in der Form
+\begin{equation}
+l(1+x)=x+a_2x^2+a_3x^3+\cdots\tag*{(3)}
+\end{equation}
+\noindent entwickelbar ist.
+
+Setzt man
+\begin{equation}
+l(1+x)=x_1,\quad l(1+x_1)=x_2,\quad\ldots,\quad l(1+x_i)=x_{i+1},\quad\ldots,\tag*{(4)}
+\end{equation}
+\noindent so gilt für \(x_i=\varphi^{(i)}(x)\) die Funktional- oder Differenzengleichung
+\begin{equation}
+x_{i+1}=x_i+a_2x_i^2+a_3x_i^3+\cdots.\tag*{(5)}
+\end{equation}
+\noindent Diese Gleichung ist als besonderer Fall in der Gleichung
+\begin{equation}
+\begin{gathered}
+x_{i+1}=ax_i+\sum A_{\lambda\mu}\left(\frac1i\right)^\lambda x_i^\mu
+\qquad(\lambda=1,\ \mu=0;\ \lambda+\mu\geqq1)
+\end{gathered}\tag*{(6)}
+\end{equation}
+\noindent enthalten, die J. \textsc{Horn} unter der Voraussetzung \(a\ne1\) im ersten Teile seiner Abhandlung \textit{Laplacesche Integrale als Lösungen von Funktionalgleichungen}\footnote{\textsc{Crelles} Journal für Mathematik \textbf{146}, 1915, S. 95.} untersucht. Den Fall \(a=1\), der nach (5) gerade für uns hier in Betracht kommt\begingroup\renewcommand{\thefootnote}{**)}\footnote{Die Begründung dafür, daß hier nur die Form (5), also die Form (3) der Entwicklung von \(l(1+x)\) in Betracht kommt, geben wir weiter unten.}\endgroup, hat \textsc{Horn} a. a. O. nicht behandelt; in einer brieflichen Mitteilung gibt er darüber die folgenden Erörterungen. Die Gleichung (5), oder wie wir schreiben wollen:
+\begin{equation}
+x_{i+1}=x_i+a_{m+1}x_i^{m+1}+a_{m+2}x_i^{m+2}+\cdots,\tag*{(7)}
+\end{equation}
+\noindent wo \(a_{m+1}\ne0\) sein soll, wird formal durch eine Reihe von der Form
+\begin{equation}
+x_i=\sum C_{\lambda\mu}i^{-\frac{\lambda+1}{m}}\left(\frac{\log i}{i}\right)^\mu
+\qquad(\lambda,\mu=0,1,2,\ldots)\tag*{(8)}
+\end{equation}
+\noindent befriedigt, in der die Koeffizienten durch Rekursionsformeln bestimmt werden, bis auf \(C_{m0}\), das als willkürliche Konstante (oder periodische Funktion von \(i\) mit der Periode 1) anzusehen ist. Der Anfangskoeffizient \(C_{00}\) ergibt sich, da
+\[
+\begin{aligned}
+x_{i+1}-x_i&=C_{00}\left\{(i+1)^{-\frac1m}-i^{-\frac1m}\right\}+\cdots\\
+&=C_{00}i^{-\frac1m}\left\{\left(1+\frac1i\right)^{-\frac1m}-1\right\}+\cdots\\
+&=-\frac{C_{00}}m i^{-\frac{m+1}{m}}+\cdots,
+\end{aligned}
+\]
+\[
+a_{m+1}x_i^{m+1}+\cdots=a_{m+1}C_{00}^{m+1}i^{-\frac{m+1}{m}}+\cdots
+\]
+\par\endgroup
+
+\clearpage\SourceLeaf{556}\ArithmeticHead{527}{R}{1798 APR.}
+\begingroup\small
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\noindent ist, aus der Gleichung
+\[
+-\frac{C_{00}}m=a_{m+1}C_{00}^{m+1};
+\]
+\noindent die Reihe (8) lautet also, wenn wir nur das Anfangsglied hinschreiben,
+\begin{equation}
+x_i=\sqrt[m]{-\frac1{ma_{m+1}i}}+\cdots.\tag*{(9)}
+\end{equation}
+
+Um Übereinstimmung mit dem Anfangsgliede von \textsc{Gauss} zu erzielen, hat man zu nehmen
+\begin{equation}
+m=3,\quad a_{m+1}=-\tfrac12,\tag*{(10)}
+\end{equation}
+\noindent d. h. für \(l(1+x)\) eine Entwicklung in der Umgebung von \(x=0\) von der Form
+\begin{equation}
+l(1+x)=x-\frac{x^4}{2}+x^5\mathfrak{P}(x),\tag*{(11)}
+\end{equation}
+\noindent wo \(\mathfrak{P}(x)\) eine beliebige in der Umgebung von \(x=0\) konvergente gewöhnliche Potenzreihe bedeutet. Dagegen würde für die Annahmen (1) bezw. (2) das Anfangsglied der Entwicklung (8) \(\frac2i\) bezw. \(\frac4i\) lauten.
+
+\textsc{Horn} bemerkt weiter, daß nunmehr mit Hilfe der von ihm sonst angewandten Methoden die Reihe (8) mit den Lösungen der Differenzengleichung (7) in Verbindung zu bringen und, um aus (8) eine asymptotische Reihe für die \(i\)-te Iterierte \(x_i\) zu erhalten, das noch willkürliche \(C_{m0}\) in der Weise zu bestimmen wäre, daß die entsprechende Lösung von (7) die Anfangsbedingung \(x_0=x\) erfüllt.
+
+Will man sich aber darauf beschränken, die quantitative Bedeutung des \textls[120]{ersten} Gliedes der Reihe (8) hervortreten zu lassen, so bedarf es nur der sehr viel einfacheren Methoden, die L. \textsc{Leau}\footnote{\textit{Étude sur les équations fonctionnelles etc.} Thèses, Paris 1897, auch Annales de la Faculté des Sciences de Toulouse \textbf{11}, Abhandlung E.} angegeben hat. Da bei \textsc{Gauss} nur das erste Glied angegeben ist, so erscheint diese Beschränkung gerechtfertigt. Als weitere Vereinfachung wollen wir annehmen, daß die Koeffizienten \(a_{m+1},\ a_{m+2},\ldots\) in der Gleichung (7) reell sind, und daß auch \(x\) eine reelle Veränderliche bedeute, eine Annahme, die \textsc{Gauss} im Jahre 1798 sicher gemacht haben wird. Wir schließen uns nun an \textsc{Leau}\begingroup\renewcommand{\thefootnote}{**)}\footnote{A. a. O., Chapitre III, S. 29 ff.}\endgroup an.
+
+Nach (7) oder
+\begin{equation}
+x_i=x_{i-1}+a_{m+1}x_{i-1}^{m+1}+a_{m+2}x_{i-1}^{m+2}+\cdots\tag*{(7)$'$}
+\end{equation}
+\noindent hat man
+\begin{equation}
+\frac1{x_i^m}=\frac1{x_{i-1}^m}-h(x_{i-1}),\tag*{(12)}
+\end{equation}
+\noindent wo
+\begin{equation}
+h(x)=\frac1{x^m}-\frac1{x_1^m}=ma_{m+1}+\cdots\tag*{(13)}
+\end{equation}
+\noindent in der Umgebung von \(x=0\) holomorph ist. Aus (12) folgt
+\[
+\frac1{x_i^m}=\frac1{x^m}-\left\{h(x)+h(x_1)+\cdots+h(x_{i-1})\right\}
+\]
+\noindent oder
+\begin{equation}
+x_i^m=\frac{x^m}{1-(h(x)+\cdots+h(x_{i-1}))x^m}.\tag*{(14)}
+\end{equation}
+\noindent Setzt man
+\begin{equation}
+h(x)=ma_{m+1}(1+\delta(x)),\tag*{(15)}
+\end{equation}
+\par\endgroup
+
+\clearpage\SourceLeaf{557}\ArithmeticHead{528}{L}{TAGEBUCH MIT ERLÄUTERUNGEN.}
+\begingroup\small
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\noindent so ist \(\delta(0)=0\) und \(\delta(x)\) in der Umgebung von \(x=0\) holomorph. Um einen bestimmten Fall vor Augen zu haben, nehmen wir an, daß \(a_{m+1}\) \textls[120]{negativ} sei; für die bei \textsc{Gauss} vorliegende Form (11) von \(l(1+x)\) tritt dies wirklich ein. Dann ist für hinreichend kleine positive Werte von \(x\) \textls[120]{erstens} \(0<x_1<x\), und man kann \textls[120]{zweitens} \(x\) so klein wählen, daß \(|\delta(x)|<K<1\) sei. Ein in dieser Weise abgegrenzter Bereich positiver Werte von \(x\) heiße \(G\). Liegt \(x\) innerhalb \(G\), so gilt also das gleiche von jedem \(x_i\) und es ist folglich auch \(|\delta(x_i)|<K<1\); wir haben also nach (14) und (15)
+\begin{equation}
+x_i^m=\frac{x^m}{1-ima_{m+1}x^m\left(1+\frac1i(\delta(x)+\delta(x_1)+\cdots+\delta(x_{i-1}))\right)},\tag*{(16)}
+\end{equation}
+\noindent und da
+\[
+\frac1i|\delta(x)+\delta(x_1)+\cdots+\delta(x_{i-1})|<K<1
+\]
+\noindent ist, so folgt \(\displaystyle\lim_{i\to\infty}x_i^m=0\), also auch \(\displaystyle\lim_{i\to\infty}x_i=0\). Für ein dem Bereiche \(G\) angehöriges \(x\) und ein beliebig kleines positives \(\varepsilon\) kann man also \(k\) so groß wählen, daß für \(i\geqq k\), \(|\delta(x_i)|<\varepsilon\) ist. Dann ist
+\[
+\frac1i|\delta(x)+\delta(x_1)+\cdots+\delta(x_{i-1})|<\frac{kK+(i-k)\varepsilon}{i},
+\]
+\noindent wo die rechte Seite für \(i\to\infty\) den Grenzwert \(\varepsilon\) hat. Schreibt man nun (16) in der Form
+\[
+ix_i^m=\frac1{-ma_{m+1}+\frac1{ix^m}-ma_{m+1}\frac1i\bigl(\delta(x)+\delta(x_1)+\cdots+\delta(x_{i-1}\bigr)},
+\]
+\noindent so erkennt man, daß sich \(ix_i^m\) von \(-\frac1{ma_{m+1}}\) beliebig wenig unterscheidet, wenn \(i\) hinreichend groß gewählt wird. Es ist also, wenn \(x\) dem Bereiche \(G\) angehört,
+\[
+\lim_{i\to\infty}ix_i^m=-\frac1{ma_{m+1}},
+\]
+\noindent oder etwas anders geschrieben
+\begin{equation}
+\lim_{i\to\infty}\sqrt[m]{i}\left(x_i-\sqrt[m]{-\frac1{ma_{m+1}i}}\right)=0,\tag*{(17)}
+\end{equation}
+\noindent also insbesondere für den bei \textsc{Gauss} vorliegenden Fall (10)
+\begin{equation}
+\lim_{i\to\infty}\sqrt[3]{i}\left(\varphi^{(i)}(x)-\sqrt[3]{\frac1{\frac32 i}}\right)=0.\tag*{(18)}
+\end{equation}
+
+\textsc{Gauss} hat für seine Funktion \(l(1+x)\) unzweifelhaft die Reihe (8) bezw. (9) formal aufgestellt und dabei den Grenzwert (18) vor Augen gehabt. Wie wir gesehen haben, folgt aus den Angaben unserer Tagebuchaufzeichnung für \(l(1+x)\) nur die Form (11). Daß tatsächlich nur der Ansatz (3) für die Darstellung von \(l(1+x)\) in der Umgebung von \(x=0\) den Angaben der Tagebuchnotiz entspricht, geht daraus hervor, daß für den Ansatz
+\begin{equation}
+l(1+x)=a_1x+a_2x^2+\cdots,\tag*{(3)$'$}
+\end{equation}
+\noindent wo \(a_1\ne1\) ist, also für die Differenzengleichung
+\begin{equation}
+x_{i+1}=a_1x_i+a_2x_i^2+\cdots,\tag*{(5)$'$}
+\end{equation}
+\noindent wenn \(0<|a_1|<1\) vorausgesetzt wird, nach \textsc{Koenigs} (\textit{Recherches sur les intégrales de certaines équations}
+\par\endgroup
+
+\clearpage\SourceLeaf{558}\ArithmeticHead{529}{R}{1798 APR.—1798 MAI.}
+\begingroup\small
+\noindent\textit{fonctionnelles}, Annales de l'École Norm. Sup. 2. série \textbf{1}, 1884, Supplém. S. 1) die Gleichung
+\[
+\lim_{i\to\infty}\frac{x_i}{a_1^i}=B(x)
+\]
+\noindent gilt, wo \(B(x)\) in der Umgebung von \(x=0\) holomorph, in \(x=0\) von der ersten Ordnung Null und \(B'(0)=1\) ist.
+
+Man vergl. die geschichtlichen Bemerkungen oben S. 443, 444.
+\par\noindent\hfill\textsc{Schlesinger.}
+\par\endgroup

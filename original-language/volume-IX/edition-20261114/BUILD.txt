@@ -1,0 +1,32 @@
+Building the editable LaTeX source
+
+Use a LaTeX distribution with pdfLaTeX, UTF-8 input and T1 font support,
+ngerman Babel, Latin Modern, amsmath, amssymb, longtable, pdflscape, TikZ,
+microtype, geometry, graphicx and hyperref. The supplied delimiter helper uses
+pdfTeX primitives and is included by main.tex.
+
+Extract the complete source archive. Keep both source directories:
+
+    20261110_native310_311/
+    20261110_native311b_onward/
+
+Article [4] is in the first directory; main.tex and the remaining sources
+are in the second. The relative include of Article [4] depends on this
+sibling-directory layout.
+
+From the extracted archive directory, run:
+
+    cd 20261110_native311b_onward
+    pdflatex -no-shell-escape -halt-on-error -jobname=gauss_ix main.tex
+    pdflatex -no-shell-escape -halt-on-error -jobname=gauss_ix main.tex
+
+The result is gauss_ix.pdf in that directory. The archive contains the
+107 editable LaTeX inputs, including the modern edition notice and the
+delimiter helper. The historical diagrams are drawn in LaTeX/TikZ; no
+source scan is needed to compile the text.
+
+The Hannover map uses the Latin Modern TS1 long-s glyph and pdfTeX page
+size primitives. It occupies a separate A2 landscape page; subsequent
+text pages return to A4. All map elements are editable LaTeX/TikZ.
+
+The original historical portrait is the single raster illustration, gauss_historical_portrait.png, included beside main.tex. It is a required build input; text, mathematics, tables and diagrams are not images.

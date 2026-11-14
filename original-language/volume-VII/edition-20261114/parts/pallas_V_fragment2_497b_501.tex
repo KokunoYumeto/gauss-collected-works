@@ -1,0 +1,304 @@
+\clearpage
+\begin{landscape}
+\begingroup
+\fontsize{9.5}{12}\selectfont
+\fancyhead[L]{\small NACHLASS. STÖRUNGEN DER PALLAS}
+\renewcommand{\headrulewidth}{0pt}
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\setlength{\lineskip}{4pt}\setlength{\lineskiplimit}{4pt}
+\pdfbookmark[2]{Allgemeine Störungen, Erste Rechnung, [2]}{pallas-V-fragment2}
+\begin{center}[2.]\end{center}
+\newcommand{\VtwoLowPoint}{\makebox[0pt][l]{\kern-.05em\raisebox{-.4ex}{\rule{.065em}{.065em}}}}
+\newcommand{\VtwoMarkedSin}{\mathop{\mathrm{sin}\text{\llap{\raisebox{-.6ex}{\rule{.06em}{.06em}}\kern.1em}}}}
+\newcommand{\VtwoMarkedL}{\mathord{L\text{\rlap{\kern.06em\raisebox{1.2ex}{\rule{.06em}{.06em}}}}}}
+\newcommand{\VtwoLeader}{\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}}
+\par\noindent\hspace*{\parindent}[Sei \(X\) eine Function des Winkels \(x\) von der Form
+\[
+\begin{aligned} X &= \alpha_0 + \alpha_1\cos x + \alpha_2\cos 2x + \alpha_3\cos 3x + \cdots \\ &\quad + \beta_1\sin x + \beta_2\sin 2x + \beta_3\sin 3x + \cdots \end{aligned}
+\]
+und seien f\"ur \(\mu\) \"aquidistante Werthe von \(x\), nemlich \(x=0, a, 2a, 3a, \ldots (\mu-1)a\) die entsprechenden Werthe von \(X\), nemlich \(X = A_0, A_1, A_2, \ldots A_{\mu-1}\) gegeben; sei ferner \(\mu a = 360^{0}\), so dass die \(\mu\) Werthe von \(x\) den ganzen Kreisumfang in \(\mu\) gleiche Theile theilen, und nimmt man noch an, dass \(\mu\) eine gerade Zahl sei, so kann man, indem man \(\mu = 2m\) setzt, nach Art.\ 22 der Theoria interpolationis methodo nova tractata (Band III Seite 298) die \(2m\) Coefficienten \(\alpha_0, \alpha_1, \alpha_2 \ldots \alpha_m, \beta_1, \beta_2 \ldots \beta_{m-1}\) bestimmen und so eine angen\"aherte Darstellung der Function \(X\) erhalten.
+\par\noindent\hspace*{\parindent}Aus dem in der genannten Abhandlung (Band III, Seite 299) abgeleiteten und dort mit \(T\) bezeichneten Ausdruck erh\"alt man zur Bestimmung der Coefficienten die folgenden Gleichungen:
+\[
+\begin{aligned}
+m\alpha_n &= A_0 + A_1\cos na + A_2\cos 2na + \cdots + A_{\mu-1}\cos(\mu-1)na\\
+m\beta_n &= A_1\sin na + A_2\sin 2na + \cdots + A_{\mu-1}\sin(\mu-1)na,
+\end{aligned}
+\]
+wo dem Index \(n\) die Werte \(1, 2 \ldots m-1\) zu ertheilen sind, w\"ahrend
+\[
+\begin{aligned}
+\mu\alpha_0 &= A_0 + A_1 + A_2 + A_3 + \cdots + A_{\mu-1}\\
+\mu\alpha_m &= A_0 - A_1 + A_2 - A_3 + \cdots - A_{\mu-1}
+\end{aligned}
+\]
+ist.
+\par\noindent\hspace*{\parindent}Diese Gleichungen sind noch bedeutender Vereinfachungen f\"ahig:
+\par\noindent\hspace*{\parindent}Es ist \(\cos(\mu-1)na = \cos na\) etc., \(\sin(\mu-1)na = -\sin na\) etc., so dass man schreiben kann:
+\[
+\begin{aligned}
+m\alpha_n &= \tfrac12 B_0 + B_1\cos na + B_2\cos 2na + \cdots + B_{\frac{\mu}{2}-1}\cos\Big(\frac{\mu}{2}-1\Big)na + \tfrac12 B_{\frac{\mu}{2}}\cos\frac{\mu}{2}na\\
+m\beta_n &= C_1\sin na + C_2\sin 2na + \cdots + C_{\frac{\mu}{2}-1}\sin\Big(\frac{\mu}{2}-1\Big)na,
+\end{aligned}
+\]
+wo
+\[
+\begin{gathered}
+B_0 = 2A_0,\quad B_1 = A_1+A_{\mu-1},\quad B_2 = A_2+A_{\mu-2},\quad \ldots\quad B_{\frac{\mu}{2}-1} = A_{\frac{\mu}{2}-1}+A_{\frac{\mu}{2}+1},\quad B_{\frac{\mu}{2}} = 2A_{\frac{\mu}{2}}\\[4pt]
+C_1 = A_1-A_{\mu-1},\quad C_2 = A_2-A_{\mu-2},\quad \ldots\quad C_{\frac{\mu}{2}-1} = A_{\frac{\mu}{2}-1}-A_{\frac{\mu}{2}+1}.
+\end{gathered}
+\]
+\par\noindent\hspace*{\parindent}Weiter ist
+\[
+\begin{gathered}
+\cos\Big(\frac{\mu}{2}-1\Big)na = \mp\cos na \quad \text{etc.}\\[4pt]
+\sin\Big(\frac{\mu}{2}-1\Big)na = \pm\sin na \quad \text{etc.,}
+\end{gathered}
+\]
+wo das obere oder untere Zeichen gilt, je nachdem \(n\) ungerade oder gerade ist.
+\SourceLeaf{498}
+\par\noindent\hspace*{\parindent}Ist also \textls[140]{sowohl \(n\) wie \(\frac{\mu}{2}=m\) ungerade}, so hat man
+\[
+\tag*{1)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}D_0 + D_1\cos na + D_2\cos 2na + \cdots + D_{\frac{\mu}{4}-\frac{1}{2}}\cos\left(\frac{\mu}{4}-\frac{1}{2}\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} E_1\sin na + E_2\sin 2na + \cdots + E_{\frac{\mu}{4}-\frac{1}{2}}\sin\left(\frac{\mu}{4}-\frac{1}{2}\right)na,
+\end{array}
+\]
+wo
+\[
+\begin{gathered}
+D_0 = B_0 - B_{\frac{\mu}{2}}, \quad D_1 = B_1 - B_{\frac{\mu}{2}-1}, \quad D_2 = B_2 - B_{\frac{\mu}{2}-2}, \quad \ldots \quad D_{\frac{\mu}{4}-\frac{1}{2}} = B_{\frac{\mu}{4}-\frac{1}{2}} - B_{\frac{\mu}{4}+\frac{1}{2}}\\[4pt]
+E_1 = C_1 + C_{\frac{\mu}{2}-1}, \quad E_2 = C_2 + C_{\frac{\mu}{2}-2}, \quad \ldots \quad E_{\frac{\mu}{4}-\frac{1}{2}} = C_{\frac{\mu}{4}-\frac{1}{2}} + C_{\frac{\mu}{4}+\frac{1}{2}}.
+\end{gathered}
+\]
+\par\noindent\hspace*{\parindent}Ist \textls[140]{\(n\) ungerade und \(\frac{\mu}{2}=m\) gerade}, so hat man:
+\[
+\tag*{2)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}D_0 + D_1\cos na + D_2\cos 2na + \cdots + D_{\frac{\mu}{4}-1}\cos\left(\frac{\mu}{4}-1\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} E_1\sin na + E_2\sin 2na + \cdots + E_{\frac{\mu}{4}-1}\sin\left(\frac{\mu}{4}-1\right)na + \tfrac{1}{2}E_{\frac{\mu}{4}}\sin\frac{\mu}{4}na,
+\end{array}
+\]
+wo wieder
+\[
+\begin{gathered}
+D_0 = B_0 - B_{\frac{\mu}{2}}, \quad D_1 = B_1 - B_{\frac{\mu}{2}-1}, \quad \ldots \quad D_{\frac{\mu}{4}-1} = B_{\frac{\mu}{4}-1} - B_{\frac{\mu}{4}+1}\\[4pt]
+E_1 = C_1 + C_{\frac{\mu}{2}-1}, \quad \ldots \quad E_{\frac{\mu}{4}-1} = C_{\frac{\mu}{4}-1} + C_{\frac{\mu}{4}+1}, \quad E_{\frac{\mu}{4}} = 2C_{\frac{\mu}{4}}.
+\end{gathered}
+\]
+\par\noindent\hspace*{\parindent}Ist \textls[140]{\(n\) gerade und \(\frac{\mu}{2}=m\) ungerade}, so hat man dagegen:
+\[
+\tag*{3)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}F_0 + F_1\cos na + F_2\cos 2na + \cdots + F_{\frac{\mu}{4}-\frac{1}{2}}\cos\left(\frac{\mu}{4}-\frac{1}{2}\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} G_1\sin na + G_2\sin 2na + \cdots + G_{\frac{\mu}{4}-\frac{1}{2}}\sin\left(\frac{\mu}{4}-\frac{1}{2}\right)na,
+\end{array}
+\]
+wo
+\[
+\begin{gathered}
+F_0 = B_0 + B_{\frac{\mu}{2}}, \quad F_1 = B_1 + B_{\frac{\mu}{2}-1}, \quad F_2 = B_2 + B_{\frac{\mu}{2}-2}, \quad \ldots \quad F_{\frac{\mu}{4}-\frac{1}{2}} = B_{\frac{\mu}{4}-\frac{1}{2}} + B_{\frac{\mu}{4}+\frac{1}{2}}\\[4pt]
+G_1 = C_1 - C_{\frac{\mu}{2}-1}, \quad G_2 = C_2 - C_{\frac{\mu}{2}-2}, \quad \ldots \quad G_{\frac{\mu}{4}-\frac{1}{2}} = C_{\frac{\mu}{4}-\frac{1}{2}} - C_{\frac{\mu}{4}+\frac{1}{2}}.
+\end{gathered}
+\]
+\par\noindent\hspace*{\parindent}Sind \textls[140]{\(n\) und \(\frac{\mu}{2}=m\) beide gerade}, so ist wieder:
+\[
+\tag*{4)}
+\begin{array}{l}
+m\alpha = \tfrac{1}{2}F_0 + F_1\cos na + F_2\cos 2na + \cdots + F_{\frac{\mu}{4}-1}\cos\left(\frac{\mu}{4}-1\right)na + \tfrac{1}{2}F_{\frac{\mu}{4}}\cos\frac{\mu}{4}na \\[4pt]
+m\beta_n = \phantom{{}={}} G_1\sin na + G_2\sin 2na + \cdots + G_{\frac{\mu}{4}-1}\sin\left(\frac{\mu}{4}-1\right)na,
+\end{array}
+\]
+wo
+\[
+\begin{gathered}
+F_0 = B_0 + B_{\frac{\mu}{2}}, \quad F_1 = B_1 + B_{\frac{\mu}{2}-1}, \quad \ldots \quad F_{\frac{\mu}{4}-1} = B_{\frac{\mu}{4}-1} + B_{\frac{\mu}{4}+1}, \quad F_{\frac{\mu}{4}} = 2B_{\frac{\mu}{4}}\\[4pt]
+G_1 = C_1 - C_{\frac{\mu}{2}-1}, \quad \ldots \quad G_{\frac{\mu}{4}-1} = C_{\frac{\mu}{4}-1} - C_{\frac{\mu}{4}+1}.
+\end{gathered}
+\]
+\par\noindent\hspace*{\parindent}Bei der Anwendung auf die Berechnung der Pallasst\"orungen soll \(\frac{\mu}{2}=m\) stets gerade angenommen werden, und aus diesem Grunde sollen auch nur die beiden Formeln 2 und 4 weiter entwickelt werden:
+\par\noindent\hspace*{\parindent}Betrachtet man zun\"achst den
+\par\nobreak\smallskip\noindent\hfill\textls[140]{Fall, wo \(n\) ungerade ist,}\hfill\mbox{}\par\nobreak\smallskip\noindent
+also die Formel 2, und setzt man dort \(m-n\) statt \(n\), so kommt
+\SourceLeaf{499}
+\[
+\begin{array}{l}
+m\alpha_{m-n} = \tfrac{1}{2}D_0 + D_1\cos\left(\frac{\mu}{2}-n\right)a + D_2\cos 2\left(\frac{\mu}{2}-n\right)a + \cdots + D_{\frac{\mu}{4}-1}\cos\left(\frac{\mu}{4}-1\right)\left(\frac{\mu}{2}-n\right)a \\[4pt]
+m\beta_{m-n} = \phantom{{}={}} E_1\sin\left(\frac{\mu}{2}-n\right)a + E_2\sin 2\left(\frac{\mu}{2}-n\right)a + \cdots + E_{\frac{\mu}{4}-1}\sin\left(\frac{\mu}{4}-1\right)\left(\frac{\mu}{2}-n\right)a \\[4pt]
+\phantom{m\beta_{m-n} = {}} + \tfrac{1}{2}E_{\frac{\mu}{4}}\sin\frac{\mu}{4}\left(\frac{\mu}{2}-n\right)a.
+\end{array}
+\]
+Da aber
+\[
+\begin{gathered}
+\cos\left(\frac{\mu}{2}-n\right)a = -\cos na, \quad \cos 2\left(\frac{\mu}{2}-n\right)a = +\cos 2na, \quad \ldots \quad \cos\left(\frac{\mu}{4}-1\right)\left(\frac{\mu}{2}-n\right)a = \pm\cos\left(\frac{\mu}{4}-1\right)na\\[4pt]
+\sin\left(\frac{\mu}{2}-n\right)a = +\sin na, \quad \sin 2\left(\frac{\mu}{2}-n\right)a = -\sin 2na, \quad \VtwoLeader\\[4pt]
+\sin\left(\frac{\mu}{4}-1\right)\left(\frac{\mu}{2}-n\right)a = \mp\sin\left(\frac{\mu}{4}-1\right)na, \quad \sin\frac{\mu}{4}\left(\frac{\mu}{2}-n\right)a = \pm\sin\frac{\mu}{4}na,
+\end{gathered}
+\]
+wo das obere oder untere Zeichen gilt, je nachdem \(\frac{\mu}{4}=\frac{m}{2}\) ungerade oder gerade ist, so wird f\"ur \(\frac{\mu}{4}\) ungerade:
+\[
+\tag*{5)}
+\begin{array}{l}
+\frac{m}{2}(\alpha_n+\alpha_{m-n}) = \tfrac{1}{2}D_0 + D_2\cos 2na + D_4\cos 4na + \cdots + D_{\frac{\mu}{4}-1}\cos\left(\frac{\mu}{4}-1\right)na \\[4pt]
+\frac{m}{2}(\alpha_n-\alpha_{m-n}) = \phantom{{}={}} D_1\cos na + D_3\cos 3na + \cdots + D_{\frac{\mu}{4}-2}\cos\left(\frac{\mu}{4}-2\right)na \\[4pt]
+\frac{m}{2}(\beta_n+\beta_{m-n}) = \phantom{{}={}} E_1\sin na + E_3\sin 3na + \cdots + E_{\frac{\mu}{4}-2}\sin\left(\frac{\mu}{4}-2\right)na + \tfrac{1}{2}E_{\frac{\mu}{4}}\sin\frac{\mu}{4}na \\[4pt]
+\frac{m}{2}(\beta_n-\beta_{m-n}) = \phantom{{}={}} E_2\sin 2na + E_4\sin 4na + \cdots + E_{\frac{\mu}{4}-1}\sin\left(\frac{\mu}{4}-1\right)na,
+\end{array}
+\]
+und f\"ur \(\frac{\mu}{4}\) gerade:
+\[
+\tag*{6)}
+\begin{array}{l}
+\frac{m}{2}(\alpha_n+\alpha_{m-n}) = \tfrac{1}{2}D_0 + D_2\cos 2na + D_4\cos 4na + \cdots + D_{\frac{\mu}{4}-2}\cos\left(\frac{\mu}{4}-2\right)na \\[4pt]
+\frac{m}{2}(\alpha_n-\alpha_{m-n}) = \phantom{{}={}} D_1\cos na + D_3\cos 3na + \cdots + D_{\frac{\mu}{4}-1}\cos\left(\frac{\mu}{4}-1\right)na \\[4pt]
+\frac{m}{2}(\beta_n+\beta_{m-n}) = \phantom{{}={}} E_1\sin na + E_3\sin 3na + \cdots + E_{\frac{\mu}{4}-1}\sin\left(\frac{\mu}{4}-1\right)na \\[4pt]
+\frac{m}{2}(\beta_n-\beta_{m-n}) = \phantom{{}={}} E_2\sin 2na + E_4\sin 4na + \cdots + E_{\frac{\mu}{4}-2}\sin\left(\frac{\mu}{4}-2\right)na + \tfrac{1}{2}E_{\frac{\mu}{4}}\sin\frac{\mu}{4}na.
+\end{array}
+\]
+\par\nobreak\medskip\noindent\hfill\textls[140]{F\"ur den Fall, dass \(n\) gerade ist,}\hfill\mbox{}\par\nobreak\smallskip\noindent
+hat man in \VtwoLowPoint der Gleichung 4:
+\[
+\begin{gathered}
+\cos\frac{\mu}{2}na = \mp 1, \quad \cos\left(\frac{\mu}{4}-1\right)na = \mp\cos na \quad \text{etc.}\\[4pt]
+\sin\left(\frac{\mu}{4}-1\right)na = \pm\sin na \quad \text{etc.,}
+\end{gathered}
+\]
+wo das obere oder untere Zeichen gilt, je nachdem \(\frac{n}{2}\) ungerade oder gerade ist. Die Gleichungen 4 gehen also in die folgenden \"uber:
+\par\noindent\hspace*{\parindent}Wenn sowohl \(\frac{n}{2}\) wie \(\frac{\mu}{4}\) ungerade ist:
+\SourceLeaf{500}
+\[
+\tag*{7)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}H_0 + H_1\cos na + H_2\cos 2na + \cdots + H_{\frac{\mu}{8}-\frac{1}{2}}\cos\left(\frac{\mu}{8}-\frac{1}{2}\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} \mathrm{J}_1\sin na + \mathrm{J}_2\sin 2na + \cdots + \mathrm{J}_{\frac{\mu}{8}-\frac{1}{2}}\sin\left(\frac{\mu}{8}-\frac{1}{2}\right)na,
+\end{array}
+\]
+wo
+\[
+\begin{gathered}
+H_0 = F_0 - F_{\frac{\mu}{4}}, \quad H_1 = F_1 - F_{\frac{\mu}{4}-1}, \quad \ldots \quad H_{\frac{\mu}{8}-\frac{1}{2}} = F_{\frac{\mu}{8}-\frac{1}{2}} - F_{\frac{\mu}{8}+\frac{1}{2}}\\[4pt]
+\mathrm{J}_1 = G_1 + G_{\frac{\mu}{4}-1}, \quad \ldots \quad \mathrm{J}_{\frac{\mu}{8}-\frac{1}{2}} = G_{\frac{\mu}{8}-\frac{1}{2}} + G_{\frac{\mu}{8}+\frac{1}{2}};
+\end{gathered}
+\]
+wenn \(\frac{n}{2}\) ungerade und \(\frac{\mu}{4}\) gerade ist:
+\[
+\tag*{8)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}H_0 + H_1\cos na + H_2\cos 2na + \cdots + H_{\frac{\mu}{8}-1}\cos\left(\frac{\mu}{8}-1\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} \mathrm{J}_1\sin na + \mathrm{J}_2\sin 2na + \cdots + \mathrm{J}_{\frac{\mu}{8}-1}\sin\left(\frac{\mu}{8}-1\right)na + \tfrac{1}{2}\mathrm{J}_{\frac{\mu}{8}}\sin\frac{\mu}{8}na,
+\end{array}
+\]
+wo
+\[
+\begin{gathered}
+H_0 = F_0 - F_{\frac{\mu}{4}}, \quad H_1 = F_1 - F_{\frac{\mu}{4}-1}, \quad \ldots \quad H_{\frac{\mu}{8}-1} = F_{\frac{\mu}{8}-1} - F_{\frac{\mu}{8}+1}\\[4pt]
+\mathrm{J}_1 = G_1 + G_{\frac{\mu}{4}-1}, \quad \ldots \quad \mathrm{J}_{\frac{\mu}{8}-1} = G_{\frac{\mu}{8}-1} + G_{\frac{\mu}{8}+1}, \quad \mathrm{J}_{\frac{\mu}{8}} = 2G_{\frac{\mu}{8}};
+\end{gathered}
+\]
+wenn \(\frac{n}{2}\) gerade und \(\frac{\mu}{4}\) ungerade ist:
+\[
+\tag*{9)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}K_0 + K_1\cos na + K_2\cos 2na + \cdots + K_{\frac{\mu}{8}-\frac{1}{2}}\cos\left(\frac{\mu}{8}-\frac{1}{2}\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} L_1\sin na + L_2\sin 2na + \cdots + L_{\frac{\mu}{8}-\frac{1}{2}}\sin\left(\frac{\mu}{8}-\frac{1}{2}\right)na,
+\end{array}
+\]
+wo
+\[
+\begin{gathered}
+K_0 = F_0 + F_{\frac{\mu}{4}}, \quad K_1 = F_1 + F_{\frac{\mu}{4}-1}, \quad \ldots \quad K_{\frac{\mu}{8}-\frac{1}{2}} = F_{\frac{\mu}{8}-\frac{1}{2}} + F_{\frac{\mu}{8}+\frac{1}{2}}\\[4pt]
+L_1 = G_1 - G_{\frac{\mu}{4}-1}, \quad \ldots \quad L_{\frac{\mu}{8}-\frac{1}{2}} = G_{\frac{\mu}{8}-\frac{1}{2}} - G_{\frac{\mu}{8}+\frac{1}{2}};
+\end{gathered}
+\]
+wenn \(\frac{n}{2}\) und \(\frac{\mu}{4}\) beide gerade sind:
+\[
+\tag*{10)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}K_0 + K_1\cos na + K_2\cos 2na + \cdots + K_{\frac{\mu}{8}-1}\cos\left(\frac{\mu}{8}-1\right)na + \tfrac{1}{2}K_{\frac{\mu}{8}}\cos\frac{\mu}{8}na \\[4pt]
+m\beta_n = \phantom{{}={}} L_1\sin na + L_2\sin 2na + \cdots + L_{\frac{\mu}{8}-1}\VtwoMarkedSin\left(\frac{\mu}{8}-1\right)na,
+\end{array}
+\]
+wo
+\[
+\begin{gathered}
+K_0 = F_0 + F_{\frac{\mu}{4}}, \quad K_1 = F_1 + F_{\frac{\mu}{4}-1}, \quad \ldots \quad K_{\frac{\mu}{8}-1} = F_{\frac{\mu}{8}-1} + F_{\frac{\mu}{8}+1}, \quad K_{\frac{\mu}{8}} = 2F_{\frac{\mu}{8}}\\[4pt]
+L_1 = G_1 - G_{\frac{\mu}{4}-1}, \quad \ldots \quad L_{\frac{\mu}{8}-1} = G_{\frac{\mu}{8}-1} - G_{\frac{\mu}{8}+1}.
+\end{gathered}
+\]
+\par\noindent\hspace*{\parindent}Die Formeln 7, 8, 9 lassen sich nicht weiter in derselben Weise zusammenziehen; wohl aber die Formel 10, bei der \(\frac{n}{2}\) als gerade vorausgesetzt wurde.
+\par\noindent\hspace*{\parindent}Es ist nemlich
+wieder:
+\[
+\begin{gathered}
+\cos\frac{\mu}{8}na = \mp 1, \quad \cos\left(\frac{\mu}{8}-1\right)na = \mp\cos na \quad \text{etc.}\\[4pt]
+\sin\left(\frac{\mu}{8}-1\right)na = \pm\sin na\mathord{.}\quad \text{etc.,}
+\end{gathered}
+\]
+wo das obere oder untere Zeichen gilt, je nachdem \(\frac{n}{4}\) ungerade oder gerade ist. Hiemit
+wird, wenn \(\frac{n}{4}\)
+\SourceLeaf{501}
+und \(\frac{\mu}{8}\) beide ungerade sind:
+\[
+\tag*{11)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}M_0 + M_1\cos na + M_2\cos 2na + \cdots + M_{\frac{\mu}{16}-\frac{1}{2}}\cos\left(\frac{\mu}{16}-\frac{1}{2}\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} N_1\sin na + N_2\sin 2na + \cdots + N_{\frac{\mu}{16}-\frac{1}{2}}\sin\left(\frac{\mu}{16}-\frac{1}{2}\right)na,
+\end{array}
+\]
+wo
+\[
+\begin{gathered}
+M_0 = K_0 - K_{\frac{\mu}{8}}, \quad M_1 = K_1 - K_{\frac{\mu}{8}-1}, \quad \ldots \quad M_{\frac{\mu}{16}-\frac{1}{2}} = K_{\frac{\mu}{16}-\frac{1}{2}} - K_{\frac{\mu}{16}+\frac{1}{2}}\\[4pt]
+N_1 = L_1 + L_{\frac{\mu}{8}-1}, \quad \ldots \quad N_{\frac{\mu}{16}-\frac{1}{2}} = L_{\frac{\mu}{16}-\frac{1}{2}} + \VtwoMarkedL_{\frac{\mu}{16}+\frac{1}{2}};
+\end{gathered}
+\]
+wenn \(\frac{n}{4}\) ungerade und \(\frac{\mu}{8}\) gerade ist:
+\[
+\tag*{12)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}M_0 + M_1\cos na + M_2\cos 2na + \cdots + M_{\frac{\mu}{16}-1}\cos\left(\frac{\mu}{16}-1\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} N_1\sin na + N_2\sin 2na + \cdots + N_{\frac{\mu}{16}-1}\sin\left(\frac{\mu}{16}-1\right)na + \tfrac{1}{2}N_{\frac{\mu}{16}}\sin\frac{\mu}{16}na,
+\end{array}
+\]
+wo
+\[
+\begin{gathered}
+M_0 = K_0 - K_{\frac{\mu}{8}}, \quad M_1 = K_1 - K_{\frac{\mu}{8}-1}, \quad \ldots \quad M_{\frac{\mu}{16}-1} = K_{\frac{\mu}{16}-1} - K_{\frac{\mu}{16}+1}\\[4pt]
+N_1 = L_1 + L_{\frac{\mu}{8}-1}, \quad \ldots \quad N_{\frac{\mu}{16}-1} = L_{\frac{\mu}{16}-1} + L_{\frac{\mu}{16}+1}, \quad N_{\frac{\mu}{16}} = 2L_{\frac{\mu}{16}};
+\end{gathered}
+\]
+wenn \(\frac{n}{4}\) gerade und \(\frac{\mu}{8}\) ungerade ist:
+\[
+\tag*{13)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}P_0 + P_1\cos na + P_2\cos 2na + \cdots + P_{\frac{\mu}{16}-\frac{1}{2}}\cos\left(\frac{\mu}{16}-\frac{1}{2}\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} Q_1\sin na + Q_2\sin 2na + \cdots + Q_{\frac{\mu}{16}-\frac{1}{2}}\sin\left(\frac{\mu}{16}-\frac{1}{2}\right)na,
+\end{array}
+\]
+wo
+\[
+\begin{gathered}
+P_0 = K_0 + K_{\frac{\mu}{8}}, \quad P_1 = K_1 + K_{\frac{\mu}{8}-1}, \quad \ldots \quad P_{\frac{\mu}{16}-\frac{1}{2}} = K_{\frac{\mu}{16}-\frac{1}{2}} + K_{\frac{\mu}{16}+\frac{1}{2}}\\[4pt]
+Q_1 = L_1 - L_{\frac{\mu}{8}-1}, \quad \ldots \quad Q_{\frac{\mu}{16}-\frac{1}{2}} = L_{\frac{\mu}{16}-\frac{1}{2}} - L_{\frac{\mu}{16}+\frac{1}{2}};
+\end{gathered}
+\]
+wenn \(\frac{n}{4}\) und \(\frac{\mu}{8}\) beide gerade sind:
+\[
+\tag*{14)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}P_0 + P_1\cos na + P_2\cos 2na + \cdots + P_{\frac{\mu}{16}-1}\cos\left(\frac{\mu}{16}-1\right)na + \tfrac{1}{2}P_{\frac{\mu}{16}}\cos\frac{\mu}{16}na \\[4pt]
+m\beta_n = \phantom{{}={}} Q_1\sin na + Q_2\sin 2na + \cdots + Q_{\frac{\mu}{16}-1}\sin\left(\frac{\mu}{16}-1\right)na,
+\end{array}
+\]
+wo
+\[
+\begin{gathered}
+P_0 = K_0 + K_{\frac{\mu}{8}}, \quad P_1 = K_1 + K_{\frac{\mu}{8}-1}, \quad \ldots \quad P_{\frac{\mu}{16}-1} = K_{\frac{\mu}{16}-1} + K_{\frac{\mu}{16}+1}, \quad P_{\frac{\mu}{16}} = 2K_{\frac{\mu}{16}}\\[4pt]
+Q_1 = L_1 - L_{\frac{\mu}{8}-1}, \quad \ldots \quad Q_{\frac{\mu}{16}-1} = L_{\frac{\mu}{16}-1} - L_{\frac{\mu}{16}+1}.
+\end{gathered}
+\]
+\par\noindent\hspace*{\parindent}Es ist leicht zu \"ubersehen, dass auch Formel 14 sich weiter transformiren l\"asst und das eingeschlagene Verfahren \"uberhaupt beliebig weit fortgesetzt werden kann, je nach dem Werthe von \(\mu\); es soll indessen darauf verzichtet werden, hier noch weitere Transformationen auszuf\"uhren, nicht bloss weil sie ohne Weiteres einzusehen sind, sondern auch weil man f\"ur den hier vorliegenden Zweck nicht weiter zu gehen braucht.]
+\par
+\endgroup
+\end{landscape}

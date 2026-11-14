@@ -1,0 +1,62 @@
+\begingroup
+\ArithmeticHead{290}{L}{ANALYSIS. NACHLASS.}
+\SourceLeaf{297}
+\NumberedItem{2}
+\par\indent Man setze
+\[\begin{aligned}
+P={}&1+\frac{x^n.1-x^{2n+1}}{1+x^n.1+x^{n+1}}
++\frac{x^{2n}.1-x^{2n+2}.1-x^{n+1}}{1+x^n.1+x^{n+1}.1+x^{n+2}}\\
+&+\frac{x^{2n}.1-x^{2n+3}.1-x^{n+1}.1-x^{n+2}}{1+x^n.1+x^{n+1}.1+x^{n+2}.1+x^{n+3}}+\text{etc.}
+\end{aligned}\]
+\[\begin{aligned}
+Q={}&\frac{x^n}{1+x^n}+\frac{x^{2n}.1-x^{n+1}}{1+x^n.1+x^{n+1}}
++\frac{x^{3n}.1-x^{n+1}.1-x^{n+2}}{1+x^n.1+x^{n+1}.1+x^{n+2}}\\
+&+\frac{x^{4n}.1-x^{n+1}.1-x^{n+2}.1-x^{n+3}}{1+x^n.1+x^{n+1}.1+x^{n+2}.1+x^{n+3}}+\text{etc.}
+\end{aligned}\]
+\[R=P-Q.\]
+\noindent Man suche zuerst diese Differenz, indem man das erste, zweite, dritte Glied u.s.w. der Reihe $Q$ von dem ersten, zweiten, dritten Gliede der Reihe $P$ abzieht, so kommt
+\[\begin{aligned}
+R={}&\frac1{1+x^n}+\frac{x^n.1-x^n}{1+x^n.1+x^{n+1}}
++\frac{x^{2n}.1-x^n\,1-x^{n+1}}{1+x^n.1+x^{n+1}\,1+x^{n+2}}\\
+&+\frac{x^{3n}.1-x^n\,1-x^{n+1}.1-x^{n+2}}{1+x^n.1+x^{n+1}.1+x^{n-2}.1+x^{n+3}}\ \text{etc.}
+\end{aligned}\]
+\noindent Wir bezeichnen diese Reihe durch $\varphi(x,n)$.
+\par\indent Man suche ferner jene Differenz $R$, indem man das erste, zweite, dritte Glied u.s.w. der Reihe $Q$ von dem zweiten, dritten, vierten u.s.w. der Reihe $P$ abzieht, so wird
+\[\begin{aligned}
+R={}&1-\frac{x^{2n+1}}{1+x^{n+1}}-\frac{x^{3n+2}.1-x^{n+1}}{1+x^{n+1}.1+x^{n+2}}\\
+&-\frac{x^{4n+3}\,1-x^{n+1}.1-x^{n+2}}{1+x^{n+1}.1+x^{n+2}.1+x^{n+3}}-\text{u.s.w.}
+\end{aligned}\]
+\noindent oder offenbar
+\[R=1-x^{2n+1}\varphi(x,n+1)\]
+\noindent folglich
+\[\varphi(x,n)=1-x^{2n+1}\varphi(x,n+1).\]
+\noindent Dieser Schluss ist allgemein, so lange $n>1$, man hat demnach unter dieser Einschränkung
+\[\varphi(x,n)=1-x^{2n+1}+x^{4n+4}-x^{6n+9}+x^{8n+16}-\text{etc.}\]
+\noindent Hingegen ist für den Fall $n=0$ das letzte Glied von $Q$ nicht als verschwindend zu betrachten. Setzt man es $=T$, so wird der erste Werth von $R$ um $T$ kleiner seyn als der zweite, also
+\clearpage
+\ArithmeticHead{291}{R}{{\scriptsize ZUR THEORIE DER TRANSSCENDENTEN FUNCTIONEN. I.}}
+\SourceLeaf{298}
+\[T=1-x\varphi(x,1)-\varphi(x,0)\]
+\noindent oder
+\[\varphi(x,0)=1-x\varphi(x,1)-T=1-x+x^4-x^9+x^{16}-{.}{.}{.}-T,\]
+\noindent also da
+\par\noindent{\small[S. 42]}\par
+\[\varphi(x,0)=\tfrac12\]
+\noindent und
+\[2T=\frac{1-x}{1+x}.\frac{1-xx}{1+xx}.\frac{1-x^3}{1+x^3}.\frac{1-x^4}{1+x^4}\ \text{etc.},\]
+\noindent so wird
+\[\begin{gathered}
+\frac{1-x}{1+x}.\frac{1-xx}{1+xx}.\frac{1-x^3}{1+x^3}.\frac{1-x^4}{1+x^4}\ \text{etc.}\\
+=1-2x+2x^4-2x^9+2x^{16}-\text{etc.}
+\end{gathered}\]
+\noindent Der erste Theil ist hier
+\[\begin{aligned}
+&1-x.1-x^3.1-x^5.1-x^7{.}{.}{.}\frac{1-xx}{1+x}.\frac{1-x^4}{1+xx}.\frac{1-x^6}{1+x^3}\ \text{etc.}\\
+&=(1-x)^2(1-xx)(1-x^3)^2(1-x^4)(1-x^5)^2(1-x^6)\ \text{etc.}
+\end{aligned}\]
+\noindent Bezeichnen wir noch
+\[1-2x+2x^4-2x^9+2x^{16}\ \text{etc.}\ \text{mit}\ Fx,\]
+\noindent so wird offenbar
+\[Fx.F(-x)=(Fxx)^2.\]
+\clearpage
+\endgroup

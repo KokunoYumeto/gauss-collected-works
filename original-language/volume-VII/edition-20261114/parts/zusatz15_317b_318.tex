@@ -1,0 +1,141 @@
+\needspace{10\baselineskip}
+\hypertarget{native-317-zusatz15}{}
+\begin{center}
+\pdfbookmark[1]{15. Differentialformeln bei Berechnung der Oppositionen}{zusatz-015}
+[15.]
+\end{center}
+\begin{center}
+Differentialformeln bei Berechnung der Oppositionen.
+\end{center}
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\(\lambda\) & ber. hel. Länge\\
+\(\lambda^{\prime}\) & beob. hel. Länge\\
+\(\omega\) & Sonnennähe\\
+\(v\) & wahre Anomalie\\
+\(E\) & excentrische Anomalie\\
+\(e=\sin\varphi\) & Excentricität\\[5pt]
+\(r\) & Radius Vector\\
+\(a\) & halbe grosse Axe\\
+\(i\) & Neigung der Bahn\\
+\(\AscendingNode\) & Knoten\\
+\(\vartheta\) & heliocentrische Breite\\
+\(\beta\) & geocentrische Breite\\[5pt]
+\(n\) & Tage seit Epoche\\
+\(\mathord{7}\) & tägliche Bewegung
+\end{tabular}
+\end{center}
+\[
+\begin{aligned}
+\frac{\sin2(\lambda-\AscendingNode)}{\sin2(v+\omega-\AscendingNode)}&=A,\\[5pt]
+\frac{Aaa\cos\varphi}{rr}&=B,\\[5pt]
+\frac{Aaa\sin E(2-ee-e\cos E)}{rr}&=C,
+\end{aligned}
+\]
+\[
+\begin{aligned}
+\mathrm{d}\lambda={}&B\mathord{.}\mathrm{dEp.}+nB\mathord{.}\mathrm{d}\mathord{7}+(A-B)\mathrm{d}\omega+C\mathord{.}\mathrm{d}\varphi\\
+&+(1-A)\mathrm{d}\AscendingNode-\tfrac12\operatorname{tang}i\sin2(\lambda-\AscendingNode)\mathrm{d}i;
+\end{aligned}
+\]
+\[
+\frac{\sin\beta\sin(\beta-\vartheta)}{\sin\vartheta}=D,\qquad
+\sin\beta\cos(\beta-\vartheta)\cos\vartheta=\mathrm{E},
+\]
+\[
+\frac{Da\operatorname{tang}\varphi\sin v}{r}=F,\qquad
+\frac{Da\cos\varphi\cos v}{r}=G,
+\]
+\[
+\begin{aligned}
+\mathrm{d}\beta={}&-F\mathord{.}\mathrm{dEp.}+\left(\frac{2D}{3\mathord{7}}-nF\right)\mathrm{d}\mathord{7}+F\mathord{.}\mathrm{d}\omega+G\mathord{.}\mathrm{d}\varphi\\
+&-\frac{\mathrm{E}}{\operatorname{tang}(\lambda^{\prime}-\AscendingNode)}\mathrm{d}\AscendingNode
++\frac{\mathrm{E}}{\sin i\cos i}\mathrm{d}i.
+\end{aligned}
+\]
+\SourceLeaf{318}
+\begin{center}
+Beispiel. Opposition der Pallas von 1807.
+\end{center}
+[Mit den in der Disquisitio de elementis ellipticis Palladis art. 2. 3. 8 gegebenen Werthen
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\(\log a=0{,}44223\) & \([v=107^{0}\,47^{\prime}\,31^{\prime\prime}\)\\
+\(e=0{,}24476\) & \(\lambda=223\quad37\quad25\)\\
+\(\varphi=14^{0}\,10^{\prime}\,4^{\prime\prime}\) & \(\lambda^{\prime}=223\quad37\quad28]\)\\
+\(\tilde\omega=121\quad8\quad59\) & \(\beta=42\quad11\quad28\)\\
+\(\AscendingNode=172\quad32\quad24\) & \(\vartheta=28\quad14\quad51\)\\
+\(i=34\quad37\quad32]\) &
+\end{tabular}
+\end{center}
+[und den leicht zu findenden
+\[
+E=93^{0}\,46^{\prime}\,4^{\prime\prime}\qquad \log r=0{,}44916
+\]
+ergibt die Rechnung:]
+\begin{center}
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{@{}lr@{}}
+\(\sin2(\lambda-\AscendingNode)\) . . & \(9{,}99013\)\\
+\(\sin2(v+\omega-\AscendingNode)\)  & \(9{,}96466\)\\
+\(-\tfrac12\operatorname{tang}i\) . . . & \(9{,}53814_n\)\\
+\hline
+\(A\) . . . . . . . . . . & \(0{,}02547\)\\
+\(\dfrac{rr}{aa}\) . . . . . . . . . & \(0{,}01386\)\\[4pt]
+\(\dfrac{Aaa}{rr}\) . . . . . . . . & \(0{,}01161\)\\
+\(\sin E\) . . . . . . . & \(9{,}99906\)\\
+\(2-ee-e\cos E\)  & \(0{,}29141\)\\
+\hline
+\(C\) . . . . . . . . . . & \(0{,}30208\)\\
+\(B\) . . . . . . . . . . & \(9{,}99819\)\\
+\(n\) . . . . . . . . . . & \(3{,}20020\)\\
+\end{tabular}
+\end{center}
+\begin{center}
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{@{}lr@{}}
+\(\sin\beta\) . . . . . . & \(9{,}82712\)\\
+\(\sin(\beta-\vartheta)\) . . & \(9{,}38195\)\\
+\(\mathrm{C}\log\sin\vartheta\) . & \(0{,}32488\)\\
+\hline
+\(D\) . . . . . . . . & \(9{,}53395\)\\
+\(\dfrac{2}{3\mathord{7}}\) . . . . . . . . & \(2{,}25167\)\\[4pt]
+\(\dfrac{r}{a}\) . . . . . . . . & \(0{,}00693\)\\[4pt]
+\(\dfrac{Da}{r}\) . . . . . . . & \(9{,}52702\)\\
+\(\operatorname{tang}\varphi\) . . . . . & \(9{,}40216\)\\
+\(\sin v\) . . . . . . & \(9{,}97872\)\\
+\hline
+\(F\) . . . . . . . . & \(8{,}90790\)\\
+\(n\) , . . . . . . . . & \(3{,}20020\)\\
+\end{tabular}
+\end{center}
+\begin{center}
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{@{}lr@{}}
+\(\sin\beta\) . . . . . . & \(9{,}82712\)\\
+\(\cos(\beta-\vartheta)\) . . & \(9{,}98701\)\\
+\(\cos\vartheta\) . . . . . . & \(9{,}94493\)\\
+\hline
+\(\mathrm{E}\) . . . . . . . . & \(9{,}75906\)\\
+\(\operatorname{tang}(\lambda^{\prime}-\AscendingNode)\)  & \(0{,}09293\)\\
+\(\tfrac12\sin2i\) . . . . & \(9{,}66985\)\\
+\(\dfrac{Da}{r}\) . . . . . . . & \(9{,}52702\)\\
+\([\cos\varphi\) . . . . . & \(9{,}98658]\)\\
+\(\cos v\) . . . . . . & \(9{,}48510_n\)\\
+\hline
+\([G\) . . . . . . . & \(8{,}99870_n]\)\\
+\end{tabular}
+\end{center}
+\[
+\begin{aligned}
+\mathrm{d}\lambda={}&0{,}99584\,\mathrm{dEp.}+1579{,}03\,\mathrm{d}\mathord{7}+2{,}00486\,\mathrm{d}\varphi\\
+&+0{,}06456\,\mathrm{d}\omega-0{,}06040\,\mathrm{d}\AscendingNode-0{,}33750\,\mathrm{d}i
+\end{aligned}
+\]
+\[
+\begin{aligned}
+\mathrm{d}\beta={}&-0{,}08089\,\mathrm{dEp.}-67{,}22\,\mathrm{d}\mathord{7}-0{,}09970\,\mathrm{d}\varphi\\
+&+0{,}08089\,\mathrm{d}\omega-0{,}46359\,\mathrm{d}\AscendingNode+1{,}22803\,\mathrm{d}i.
+\end{aligned}
+\]
+\par\medskip\begin{center}\rule{.22\textwidth}{.3pt}\end{center}

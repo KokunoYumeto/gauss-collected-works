@@ -1,0 +1,99 @@
+\par\bigskip\Needspace{9\baselineskip}
+\pdfbookmark[2]{Zweite Methode, [2]}{ceres-second-2}
+\begin{center}[2.]\end{center}
+\begingroup\small
+\noindent\hspace*{\parindent}[Zur Berechnung der Breitenstörungen soll die ungestörte Bahn der Ceres als Fundamentalebene gewählt werden; es ist also zunächst die gegenseitige Lage der Bahnen von {\AstroSymbols ⚳} und {\AstroSymbols ♃} zu berechnen\refstepcounter{footnote}\hyperlink{ceresIII2-note}{\textsuperscript{*)}}\begingroup
+\makeatletter\long\def\@makefntext#1{\noindent[*) #1}\makeatother
+\footnotetext{\hypertarget{ceresIII2-note}{}Siehe Art. 15 der weiter unten abgedruckten: Exposition d’une nouvelle méthode de calculer les perturbations planétaires oder auch die etwas ausführlichere Darstellung bei der Berechnung der Pallasstörungen.]}
+\endgroup{}.
+
+Nimmt man an, wenn \(N\) und \(N'\) die Längen der aufsteigenden Knoten beider Bahnen bedeuten:
+\[
+\begin{array}{@{}r@{\;}l@{\qquad}r@{\;}l@{}}
+i=&10^{0}37'54''&i'=&1^{0}18'51''\\
+N=&80\ 57\ 43&N'=&98\ 26\ 27,
+\end{array}
+\]
+so ergibt sich:
+\[
+\text{Neigung beider Bahnen}=\mathrm{J}=9^{0}23'11'',\qquad \log\sin\mathrm{J}=9{,}2124316,
+\]
+Länge des aufsteigenden Knotens der {\AstroSymbols ⚳}-Bahn auf der {\AstroSymbols ♃}-Bahn:
+\[
+\begin{array}{@{}c@{\;}c@{\;}c@{\;}l@{\quad}l@{}}
+\text{gezählt}&\text{in}&\text{der}&\text{{\AstroSymbols ⚳}-Bahn:}&78^{0}32'26''\\
+\text{»}&\text{»}&\text{»}&\text{{\AstroSymbols ♃}-Bahn:}&\AscendingNode=78^{0}34'38''.
+\end{array}
+\]
+
+Schreibt man in der Gleichung \(*\) für \(\theta\) (S. 381) statt der Länge \(v\) die wahre Anomalie \(V\), so wird
+\[
+\theta=\frac{\mu a}{\BareRoot{(1-ee)}}
+\left\{\begin{aligned}
+&\cos V\!\int r\left(\frac{\mathrm{d}R}{\mathrm{d}z}\right)\sin V.n\,\mathrm{d}t\\
+&-\sin V\!\int r\left(\frac{\mathrm{d}R}{\mathrm{d}z}\right)\cos V.n\,\mathrm{d}t
+\end{aligned}\right\}.
+\]
+Nun ist (vgl. S. 378)
+\[
+\begin{gathered}
+\left(\frac{\mathrm{d}R}{\mathrm{d}z}\right)=z'\left(\frac{1}{r'^{3}}-\frac{1}{\mathfrak{R}^{3}}\right)\mathpunct{\raisebox{.45ex}{,}}\qquad
+\mathfrak{R}=\BareRoot{(rr+r'r'-2rr'\cos w)}.
+\end{gathered}
+\]
+
+Bezeichnet man mit \(l\) und \(b\) heliocentrische Länge und Breite der Ceres, bezogen auf die {\AstroSymbols ♃}-Bahn als Fundamentalebene, und mit \(v'\) die wahre Länge des {\AstroSymbols ♃} in seiner Bahn, so ist
+\[
+\cos w=\cos b\cos(v'-l).
+\]
+
+Setzt man
+\[
+\begin{array}{@{}l@{\qquad}l@{}}
+l=v+\delta&D=\text{\AstroSymbols ♃}-\text{\AstroSymbols ⚳}\\
+v=\text{\AstroSymbols ⚳}+\epsilon&\alpha=\epsilon+\delta,\\
+v'=\text{\AstroSymbols ♃}+\epsilon'&
+\end{array}
+\]
+wo \(v\) die wahre Länge der {\AstroSymbols ⚳} in ihrer Bahn, \(\delta\) bis auf das Vorzeichen die Reduction dieser Länge auf die {\AstroSymbols ♃}-Bahn, {\AstroSymbols ⚳}, {\AstroSymbols ♃} die mittlern Längen, ferner \(\epsilon=\text{Aequ. Centri {\AstroSymbols ⚳}}\), \(\epsilon'=\text{Aequ. Centri {\AstroSymbols ♃}}\) sind, so kommt
+\[
+\cos w=\cos b\cos(D+\epsilon'-\alpha).
+\]
+\SourceLeaf{409}Also
+\[
+\frac{1}{\mathfrak{R}^{3}}=\frac{1}{(rr+r'r'-2rr'\cos b\cos(D+\epsilon'-\alpha))^{\frac{8}{2}}}\mathpunct{\cdot}
+\]
+
+Dieser Ausdruck lässt sich in die Reihe
+\[
+\frac{2}{\mathfrak{R}^{3}}=\tfrac12 Q+Q'\cos(D+\epsilon'-\alpha)+Q''\cos2(D+\epsilon'-\alpha)+\ldots
+\]
+entwickeln, und
+\[
+\begin{aligned}
+1)\quad\frac{2}{\mathfrak{R}^{3}}-\frac{2}{r'^{3}}={}&\tfrac12 Q^{(0)}+Q'\cos(D+\epsilon'-\alpha)\\
+&+Q''\cos2(D+\epsilon'-\alpha)+\ldots
+\end{aligned}
+\]
+setzen, wo also die \(Q^{(i)}\) Functionen von \(r\), \(r'\), \(\cos b\) sind und wo \(Q^{(0)}=Q-\frac{4}{r'^{3}}\) ist.
+
+Ferner ist
+\[
+z'=r'\sin\mathrm{J}\sin(v'-\AscendingNode)=r'\sin\mathrm{J}\sin(\text{\AstroSymbols ♃}+\epsilon'-\AscendingNode);
+\]
+folglich wird der Ausdruck für \(\theta\):
+\[
+\begin{aligned}
+2)\quad\theta={}&-\frac{\mu a\sin\mathrm{J}}{4\BareRoot{(1-ee)}}\Biggl\{\pm\genfrac{}{}{0pt}{}{\cos}{\sin}V\!\int rr'\genfrac{}{}{0pt}{}{\sin}{\cos}V.\\
+&\left\{\begin{array}{@{}l@{\;}l@{}}
+Q'\sin(\text{\AstroSymbols ⚳}+\alpha-\AscendingNode)&\\[3pt]
++Q^{(0)}\sin(D+\text{\AstroSymbols ⚳}+\epsilon'-\AscendingNode)&-Q''\sin(D-\text{\AstroSymbols ⚳}+\epsilon'-2\alpha+\AscendingNode)\\[3pt]
++Q'\sin(2D+\text{\AstroSymbols ⚳}+2\epsilon'-\alpha-\AscendingNode)&-Q'''\sin(2D-\text{\AstroSymbols ⚳}+2\epsilon'-3\alpha+\AscendingNode)\\[3pt]
++Q''\sin(3D+\text{\AstroSymbols ⚳}+3\epsilon'-2\alpha-\AscendingNode)&-Q^{\mathrm{V}}\sin(3D-\text{\AstroSymbols ⚳}+3\epsilon'-4\alpha+\AscendingNode)\\[3pt]
++\ldots&-\ldots
+\end{array}\right\}n\,\mathrm{d}t
+\end{aligned}
+\]
+wo unter der Abkürzung \(\displaystyle\pm\genfrac{}{}{0pt}{}{\cos}{\sin}\) und entsprechend \(\displaystyle\genfrac{}{}{0pt}{}{\sin}{\cos}\) die Summe dieser \textls[180]{beiden} Glieder zu verstehen ist.]
+\par\endgroup
+\begin{center}\rule{.30\linewidth}{.4pt}\end{center}

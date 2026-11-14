@@ -1,0 +1,170 @@
+\par\bigskip
+\hypertarget{native-390}{}
+\begin{center}\pdfbookmark[2]{4. Berechnung der Coefficienten}{ceres-004}[4.]\end{center}
+\noindent\hspace*{\parindent}[Zur Berechnung der Coefficienten \(A^{(i)}, B^{(i)}, C^{(i)}\) u. s. w. verfährt man auf folgende Weise:]
+
+Man macht
+\[
+\frac{1}{\BareRoot{(aa+a'a'-2aa'\cos w)}}=\tfrac12P^{(0)}+P'\cos w+P''\cos2w+\text{etc.}
+\]
+\[
+\frac{1}{\BareRoot{(aa+a'a'-2aa'\cos w)}^{\frac32}}=\tfrac12Q^{(0)}+Q'\cos w+Q''\cos2w+\text{etc.}
+\]
+\noindent[und hat dann in Analogie mit den Entwickelungen, die \textsc{Laplace} a. a. O. p. 268—269 gibt, die Recursionsformeln:]
+\[
+0=(i-\tfrac12)P^{(i-1)}-i\left(\frac a{a'}+\frac{a'}a\right)P^{(i)}+(i+\tfrac12)P^{(i+1)}
+\]
+\[
+0=(i+\tfrac12)Q^{(i-1)}-i\left(\frac a{a'}+\frac{a'}a\right)Q^{(i)}+(i-\tfrac12)Q^{(i+1)}
+\]
+\[
+\tfrac12\left(\frac a{a'}-\frac{a'}a\right)^2Q^{(i)}=\left(\frac a{a'}+\frac{a'}a\right)(i+\tfrac12)P^{(i)}-2(i+\tfrac12)P^{(i+1)},
+\]
+\noindent[aus denen man alle \(P^{(i)}\) und \(Q^{(i)}\) berechnen kann, so bald die beiden ersten Coefficienten \(P^{(0)}\) und \(P'\) gefunden sind; zur Berechnung dieser führt ein eigenes Verfahren schneller zum Ziele als die üblichen von \textsc{Laplace} a. a. O. p. 271—272 gegebenen Reihen:]
+
+Man macht
+\[
+\tfrac12(a+a')=x,\qquad\pm\tfrac12(a-a')=y
+\]
+\noindent[wo in unserm Falle, \(a<a'\), das untere Zeichen zu nehmen ist], und bildet die Reihen
+\[
+\begin{gathered}
+x,\ x',\ x''\quad\text{etc.}\\
+y,\ y',\ y''\quad\text{etc.}\\
+z,\ z',\ z''\quad\text{etc.}
+\end{gathered}
+\]
+\noindent auf folgende Art:
+\[
+\begin{aligned}
+x'&=\tfrac12(x+y),&y'&\overset{\scriptscriptstyle\boldsymbol{.}}{=}\BareRoot{(xy)},\\
+x''&=\tfrac12(x'+y'),&y''&=\BareRoot{(x'y')}\\
+&\text{etc.}&&\text{etc.}
+\end{aligned}
+\]
+\[
+z=xx-yy=aa',
+\]
+\[
+\begin{aligned}
+z'&=x'x'-y'y'=\left(\frac z{4x'}\right)^2\\
+&=\tfrac14aa\ \text{vel}\ \tfrac14a'a',\ \text{prout}\ a<\text{vel}>a',
+\end{aligned}
+\]
+\[
+\begin{gathered}
+z''=x''x''-y''y''=\left(\frac{z'}{4x''}\right)^2\\
+[\text{etc.}].
+\end{gathered}
+\]
+
+\hypertarget{native-391}{}Alsdann ist
+\[
+P^{(0)}=\frac1{x^{(\infty)}}=\frac1{y^{(\infty)}}\mathpunct{\text{\raisebox{.45ex}{,}}}
+\]
+\refstepcounter{footnote}
+\[
+\begin{aligned}
+P'&=\frac{2P^{(0)}}z\left(z'+2z''+4z'''+8z^{\mathrm{IV}}+\text{etc.}\right)\\
+&=\frac{P^{(0)}}2\frac{a'}a\hyperlink{ceres4-note}{\text{[*)]}}\left(1+\frac{2z''}{z'}+\frac{4z'''}{z'}+\text{etc.}\right).
+\end{aligned}
+\]
+\begingroup
+\makeatletter
+\long\def\@makefntext#1{\noindent[*)] #1}
+\makeatother
+\footnotetext{\hypertarget{ceres4-note}{}oder \(\frac a{a'}\), minor in num., maior in denom.}
+\endgroup
+
+[Für unser] Beispiel [ist nach den VII. Elementen]
+\[
+a=2{,}76996\,44796,\qquad\log a=0{,}44247\,42000
+\]
+\noindent[und]
+\[
+a'=5{,}20277\,80000,\qquad\log a'=0{,}71623\,52952
+\]
+\[
+\begin{array}{r@{\;}l@{\qquad}r@{\;}l}
+x&=3{,}98637\,12398&\log=&0{,}60057\,77409\\
+y&=1{,}21640\,67602&&0{,}08507\,88250\\\hline
+x'&=2{,}60138\,90000&\log=&0{,}41520\,52995\\
+y'&=2{,}20205\,56130&&0{,}34282\,82829\\\hline
+x''&=2{,}40172\,23065&\log=&0{,}38052\,27916\\
+y''&=2{,}39340\,82913&&0{,}37901\,67912\\\hline
+x'''&=2{,}39756\,52989&\log=&0{,}37977\,04442\\
+y'''&=2{,}39756\,16953&&0{,}37976\,97914\\\hline
+\left.\begin{gathered}x^{\mathrm{IV}}\\y^{\mathrm{IV}}\end{gathered}\right\}&=2{,}39756\,39971&\log=&0{,}37977\,01178
+\end{array}
+\]
+\[
+[\text{also}]\quad\log P^{(0)}=9{,}62022\,98822.
+\]
+
+[Ferner]
+\[
+\log P'=9{,}06314\,11941.
+\]
+
+Es sei \(\frac a{a'}+\frac{a'}a=u\), [so hat man nach den obigen Recursionsformeln]
+\[
+\begin{aligned}
+P''&=-\tfrac13P^{(0)}+\tfrac23uP'\\
+P'''&=-\tfrac35P'+\tfrac45uP''\\
+P^{\mathrm{IV}}&=-\tfrac57P''+\tfrac67uP'''\\
+P^{\mathrm{V}}&=-\tfrac79P'''+\tfrac89uP^{\mathrm{IV}}\\
+&\text{etc.}
+\end{aligned}
+\]
+\[
+\left[\begin{aligned}
+\left(\frac{a'}a-\frac a{a'}\right)^2Q^{(0)}&=uP^{(0)}-2P'\\
+\left(\frac{a'}a-\frac a{a'}\right)^2Q'&=2P^{(0)}-uP'
+\end{aligned}\right]
+\]
+\[
+\begin{aligned}
+Q''&=-3Q^{(0)}+2uQ'\\
+Q'''&=-\tfrac53Q'+\tfrac43uQ''\\
+Q^{\mathrm{IV}}&=-\tfrac75Q''+\tfrac65uQ'''\\
+&\text{etc.}
+\end{aligned}
+\]
+\noindent[wonach die Rechnung gibt:]
+\hypertarget{native-392}{}
+\[
+\begin{array}{r@{\;}l@{\qquad}r@{\;}l}
+P^{(0)}&=0{,}417\,0901&Q^{(0)}&=0{,}427\,3906\\
+P'&=0{,}113\,6488&Q'&=0{,}306\,6070\\
+P''&=0{,}046\,8318&Q''&=0{,}196\,0930\\
+P'''&=0{,}020\,9281&Q'''&=0{,}119\,2794\\
+P^{\mathrm{IV}}&=0{,}009\,7925&Q^{\mathrm{IV}}&=0{,}070\,5238\\
+P^{\mathrm{V}}&=0{,}004\,7063&Q^{\mathrm{V}}&=0{,}040\,9390\\
+P^{\mathrm{VI}}&=0{,}002\,3019&Q^{\mathrm{VI}}&=0{,}023\,4617\\
+P^{\mathrm{VII}}&=0{,}001\,1400&Q^{\mathrm{VII}}&=0{,}013\,3179.
+\end{array}
+\]
+
+[Zur Berechnung der \(A^{(i)}\) und ihrer Differentialquotienten findet man leicht die folgenden Formeln, welche aus den \textsc{Laplace}schen Entwickelungen, a. a. O. p. 270, hergestellt werden können:]
+\[
+A^{(i)}=-P^{(i)}\qquad[\text{aber}]\qquad A^{(1)}=-P'+\frac a{a'a'}
+\]
+\[
+B^{(i)}=\tfrac12P^{(i)}-\tfrac12\left(\frac{a'}a-\frac a{a'}\right)Q^{(i)}
+\]
+\[
+B^{(1)}=\tfrac12P'-\tfrac12\left(\frac{a'}a-\frac a{a'}\right)Q'+\frac a{a'a'}
+\]
+\[
+C^{(i)}=-iiP^{(i)}\mathord{\text{\raisebox{-.6ex}{.}}}-\frac a{a'}Q^{(i)}
+\]
+\[
+C^{(1)}=-P'-\frac a{a'}Q'+\frac a{a'a'}
+\]
+\[
+\begin{gathered}
+A^{(i)}+B^{(i)}+{}'B^{(i)}=0\\
+B^{(i)}+C^{(i)}+{}'C^{(i)}=0.
+\end{gathered}
+\]
+\begin{center}\rule{.18\linewidth}{.3pt}\end{center}

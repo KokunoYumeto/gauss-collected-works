@@ -1,0 +1,83 @@
+\begingroup
+\fancyhead{}\fancyhead[R]{\small283}\fancyhead[C]{\scriptsize BEMERKUNGEN ZUM AGM. BRIEFWECHSEL.}
+\SourceLeaf{290b}
+\pdfbookmark[1]{Erläuterungen zum Briefwechsel}{x1-agm-erlaeuterung-briefwechsel}
+\begin{center}\textls[120]{Erläuterungen zum Briefwechsel.} S. 232—251.\end{center}
+\par\indent Dem Briefe [1.] zufolge hat \textsc{Gauss} die in der Tagebuchnotiz Nr. 98 vom 30. Mai 1799 niedergelegte Bemerkung (siehe oben S 260) an \textsc{Pfaff} brieflich mitgeteilt\textsuperscript{$\dagger$)}. Die Auseinandersetzungen zur Lehre vom agM., die \textsc{Pfaff} daraufhin in seinem Briefe gibt, sind sehr bemerkenswert. Er beobachtet nämlich, daß für $a=1,\ b=1+x$ in den Entwicklungen der aufeinanderfolgenden arithmetischen und geometrischen Mittel nach Potenzen von $x$ jeweils gewisse erste Koeffizienten übereinstimmen, und daß diese übereinstimmenden Koeffizienten in allen folgenden Reihenentwicklungen (also auch in der Grenzreihe) erhalten bleiben\textsuperscript{$\dagger\dagger$)}. Diese Beobachtung wird durch den folgenden Satz erklärt und bestätigt, der zugleich die Antwort auf die von \textsc{Pfaff} aufgeworfenen Fragen gibt.
+\Needspace{4\baselineskip}
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small
+\par\indent $\dagger$) Zum Briefwechsel \textsc{Gauss-Pfaff} vergl. die Bemerkung S. 109 dieses Bandes.
+\par\indent $\dagger\dagger$) \textsc{Pfaff} hat in der Tat, wie er befürchtet, einen Rechenfehler begangen; es ist nämlich $\delta''=-\frac{11}{4.128}$, also von $D''=-\frac5{2.128}$ verschieden. Erst von $n=3$ an ist
+\[\delta^n=D^n=\frac12(\delta''+D'')=-\frac{21}{8.128}\mathpunct{\raisebox{.5ex}{.}}\]
+\noindent Daß die von \textsc{Pfaff} »für jedes $n$« gefundenen Werte der Koeffizienten von $x,x^2,x^3,x^4$ in der Grenzreihe auftreten, bestätigt man an der z. B. oben S. 172 in Gl. [1] angegebenen Reihe für $\operatorname{Tm}(1+x)=M(1+x,1)$.
+\par}
+\par\smallskip\hfill36\textsuperscript{*}\par
+\clearpage
+\ArithmeticHead{284}{L}{ANALYSIS. NACHLASS.}
+\SourceLeaf{291}
+\par\indent Bildet man aus den für $|x|<\rho$ konvergenten Reihen
+\[\begin{aligned}
+a&=1+\alpha_1x+\alpha_2x^2+\ldots,\\
+b&=1+\beta_1x+\beta_2x^2+\ldots
+\end{aligned}\]
+\noindent den Algorithmus des agM. in der Weise, daß alle $a_n,b_n$ sich für $x=0$ auf 1 reduzieren, so erscheinen auch die $a_n,b_n$ und $M(a,b)$ in der Form von Potenzreihen, die in einer gewissen Umgebung\textsuperscript{*)} von $x=0$ konvergent sind; in den Reihen für $a_n,b_n$ stimmen die Koeffizienten der gleichhohen Potenzen von $x$ bis einschließlich zur $(2^n-1)$ten Potenz überein und diese übereinstimmenden Koeffizienten bleiben bei allen folgenden $a_{n+k},b_{n+k}$ und demgemäß auch in der Grenzpotenzreihe für $M(a,b)$ erhalten\textsuperscript{**)}.
+\par\indent Für $a_1,b_1$ ist der Satz unmittelbar einleuchtend. Nimmt man ihn für $a_k,b_k$ als bewiesen an, setzt also
+\[\begin{aligned}
+a_k&=1+\varphi_1x+\ldots+\varphi_\lambda x^\lambda+\alpha^{(k)}_{\lambda+1}x^{\lambda+1}+\ldots,\\
+b_k&=1+\varphi_1x+\ldots+\varphi_\lambda x^\lambda+\beta^{(k)}_{\lambda+1}x^{\lambda+1}+\ldots,
+\end{aligned}\]
+\noindent wo $\lambda=2^k-1$ ist, so ist zunächst klar, daß in den Entwicklungen von
+\[a_{k+1}=\tfrac12(a_k+b_k),\quad b_{k+1}=\sqrt{a_kb_k}\]
+\noindent die Koeffizienten der Potenzen von $x$ bis zur $(2\lambda+1)$ten einschließlich durch
+\[\varphi_1,\ldots,\varphi_\lambda,\ \alpha^{(k)}_{\lambda+1},\ldots,\alpha^{(k)}_{2\lambda+1},\ \beta^{(k)}_{\lambda+1},\ldots,\beta^{(k)}_{2\lambda+1}\]
+\noindent bestimmt werden. Für das arithmetische Mittel hat man, wie auch \textsc{Pfaff} bemerkt, unmittelbar\textsuperscript{***)}
+\[a_{k+1}=s_{2\lambda+1}+\tfrac12(\alpha^{(k)}_{2\lambda+2}+\beta^{(k)}_{2\lambda+2})x^{2\lambda+2}+\ldots,\]
+\noindent wo
+\[\begin{aligned}
+s_{2\lambda+1}={}&1+\varphi_1x+\ldots+\varphi_\lambda x^\lambda+\tfrac12(\alpha^{(k)}_{\lambda+1}+\beta^{(k)}_{\lambda+1})x^{\lambda+1}\\
+&+\ldots+\tfrac12(\alpha^{(k)}_{2\lambda+1}+\beta^{(k)}_{2\lambda+1})x^{2\lambda+1}
+\end{aligned}\]
+\noindent ist. Da aber in $s^2_{2\lambda+1}$ die Glieder bis zu $x^{2\lambda+1}$ einschließlich mit den entsprechenden Gliedern in dem Produkt $a_kb_k$ übereinstimmen, so folgt, daß auch in $b_{k+1}$ die Glieder bis zu $x^{2\lambda+1}$ einschließlich durch $s_{2\lambda+1}$ gegeben werden, womit unser Satz allgemein bewiesen ist.
+\par\indent Zu der Bemerkung \textsc{Pfaffs} über die \textls[120]{Methodus tangentium inversa} vergl. man die Schrift \textit{Viro illustri A. G. Kaestner de problemate e geometria curvarum respondet Jo. Frid. Pfaff}, 1799, die als Gratulationsschrift zum 80. Geburtstage \textsc{Kaestners} (27. September 1799) gedruckt worden ist, aber die eigentliche Behandlung des geometrischen Problems nicht enthält. Diese sollte vielmehr (nach Blatt 3a, Zeile 15, 16 der Gratulationsschrift, vergl. auch die von \textsc{Kaestner} selbst verfaßte Anzeige, Göttingische gelehrte Anzeigen, 1799, III, S. 1761) in einem besonderen \textit{Tractatus geometrico-analyticus de methodo angentium inversa} gegeben werden, der aber niemals erschienen ist.
+\par\indent Zu dem in [2.] von \textsc{Pfaff} erörterten Mittel vergl. die in dem »Anhang« zu diesem Briefe zusammengestellten Auszüge aus den »\textit{Gaussiana}« \textsc{Schumachers}\textsuperscript{$\dagger$)}. Die ersten in $\bigl\{\ \bigr\}$ eingeschlossenen Zeilen
+\Needspace{4\baselineskip}
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small
+\par\indent *) Diese bestimmt sich einerseits durch $\rho$, andererseits dadurch, daß sie keine Wurzel der Gleichungen $a=0,\ b=0,\ a^2-b^2=0$ ($x=0$ ausgenommen) enthalten darf, vergl. L. v. \textsc{Dávid}, \textsc{Crelles} Journal für Mathematik \textbf{140}, 1911, S. 292.
+\par\indent **) Siehe H. \textsc{Schapira}, \textit{Über ein allgemeines Princip algebraischer Iterationen}, Verhandlungen des Naturhistorisch-med. Vereins zu Heidelberg, N. F. \textbf{4}, 1887, S. 25 ff., wo auf S. 40—42 ein allgemeiner Satz ausgesprochen ist, der den oben angegebenen als besonderen Fall einschließt.
+\par\indent ***) Man beachte, daß bei \textsc{Pfaff} $a^n$ das geometrische und $b^n$ das arithmetische Mittel bezeichnet.
+\par\indent $\dagger$) Ausführlich behandelt dieses Mittel C. W. \textsc{Borchardt}, In memoriam \textsc{Dominici Chelini},
+\par}
+\clearpage
+\fancyhead{}\fancyhead[R]{\small285}\fancyhead[C]{\scriptsize BEMERKUNGEN ZUM AGM. BRIEFWECHSEL.}
+\SourceLeaf{292}
+\noindent dieses »Anhangs« sind einer von \textsc{Schumacher} geschriebenen Aufzeichnung entnommen, während das folgende eine eigenhändige Aufzeichnung von \textsc{Gauss} wiedergibt. Die Entdeckung, zu der \textsc{Pfaff} am Schluß seines Schreibens [2.] \textsc{Gauss} »im voraus« Glück wünscht, ist wahrscheinlich die in den Tagebuchnotizen Nr. 114 vom 30. November und Nr. 115 vom 3. Dezember 1800 angezeigte Darstellung der Klassenanzahl binärer quadratischer Formen durch unendliche Produkte und unendliche Reihen, vergl. Werke II, S. 285, 286 und die Bemerkungen ebenda S. 297.
+\par\indent Zu dem Briefe an \textsc{Bessel} [3.] sind die auf die Koeffizientenbestimmung der dort behandelten Reihenentwicklung bezüglichen Stellen oben S. 183, 185, ferner Werke VIII, S. 84 zu vergleichen. Diesen Brief an \textsc{Bessel} hatte \textsc{Gauss} einem Briefe an \textsc{Olbers} vom 3. September 1805 (\textit{Wilhelm Olbers, sein Leben und seine Werke} II, \textit{Briefwechsel zwischen Olbers und Gauss} 1. Abt. 1900, S. 269) beigelegt mit der Bitte, ihn an den Empfänger zu befördern. In dem Briefe an \textsc{Olbers} heißt es:
+{\large
+\par\indent »Ich werde beiher meine angefangenen Arbeiten über die Störung der Planeten fortsetzen, sowohl was zur allgemeinen Theorie als zur Anwendung auf die Asteroiden gehört. In jener ist es von besonderer Wichtigkeit, die Koefficienten, die aus
+\[\begin{aligned}
+(a^2+a'^2-2aa'\cos\varphi)^{-\frac12}={}&A^0+2A'\cos\varphi+2A''\cos2\varphi\\
+&+2A'''\cos3\varphi\ \text{etc.}
+\end{aligned}\]
+\noindent entspringen, leicht angeben zu können, weil man sie für sehr viele Werthe von $a,a'$ braucht.«\par}
+\noindent Man vergl. auch die wahrscheinlich aus dem Oktober 1802 stammende Aufzeichnung in dem Handbuch 17, Bc (betitelt »Astronomische Untersuchungen und Rechnungen vornehmlich über die Ceres-Ferdinandea, 1802«) S. 24, die Werke VII, S. 384 abgedruckt ist, ferner den Brief [7.] von \textsc{Gauss} an \textsc{Schumacher}, besonders aber in der aus dem Handbuch 19, Be, S. 36 ff. stammenden, weiter unten abgedruckten Abhandlung »\textit{Einiges über die unendliche Reihe} $1+\frac{\alpha\cdot\beta}{1\cdot\gamma}x+\ldots$« die artt. [5.] und [6.], S. 42 ff. des Handbuchs, wo die Beweise für die in dem Briefe an \textsc{Bessel} mitgeteilten Formeln gegeben sind.
+\par\indent Über die in dem Briefe [4.] von \textsc{Schumacher} und dem Antwortschreiben [5.] von \textsc{Gauss} genannte Aufgabe von \textsc{Pedrayes} vergl. die ausführlichen Angaben im Abschnitt VI. des Aufsatzes »Über \textsc{Gauss}' Arbeiten zur Funktionentheorie«. \textsc{Don Pedro Caro y Sureda Marquis de la Romaña} (1761—1811) war Befehlshaber der spanischen Truppen, die auf Befehl \textsc{Napoleons} während der Monate März, April und Mai des Jahres 1808 auf den dänischen Inseln landeten, um die Vorhut der gegen Schweden bestimmten Armee des Generals \textsc{Bernadotte} zu bilden\textsuperscript{*)}.
+\Needspace{4\baselineskip}
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small
+\noindent Collectanea mathematica etc. 1881, S. 206—212, \textsc{Borchardts} Werke (1888), S. 455. Das im Gaussarchiv befindliche Tagebuch \textsc{Schumachers} \textit{Gaussiana} stammt aus der Zeit, wo \textsc{Schumacher} sich in Göttingen aufhielt, um unter der Anleitung von \textsc{Gauss} astronomische Studien zu machen, also aus dem Winter 1808/09 (vergl. \textsc{Gauss} an \textsc{Olbers}, \textit{Wilhelm Olbers, sein Leben und seine Werke} II, 1, 1900, S. 430); es enthält teils Aufzeichnungen \textsc{Schumachers} über Mitteilungen von \textsc{Gauss}, teils von \textsc{Gauss} selbst geschriebene Notizen. In bezug auf die in dem Anhang zu [2.] wiedergegebene Notiz vergl. auch noch die Bemerkung \textsc{Schumachers} in dem Briefe an \textsc{Gauss} vom 8. Juni 1816, \textit{Briefwechsel zwischen Gauss und Schumacher} I, 1860, S. 127: »wie Ihre elementaren Media, über die ich ein paar Zettel von Ihrer Hand inter {\fontspec{Times New Roman}κειμηλια} bewahre«.
+\par\indent *) Vergl. \textit{Biographie universelle}, \textbf{38} (1824), S. 497—504.
+\par}
+\clearpage
+\ArithmeticHead{286}{L}{ANALYSIS. NACHLASS.}
+\SourceLeaf{293}
+\par\indent In geschichtlicher Beziehung besonders wichtig sind die beiden Briefe [6.] und [7.], vergl. den Abschnitt VIII. des oben genannten Aufsatzes. \textsc{Carl Ferdinand Degen} war in der Tat ein Landsmann von \textsc{Gauss}, er ist nämlich zu Braunschweig am 1. November 1766 geboren; biographische Angaben über ihn findet man in der \textit{Festskrift ved hundredaarsjubilaeet for N. H. Abels födsel}, Kristiania 1902, Artikel von \textsc{Holst}, S. 13, französische Übersetzung: \textit{N. H. Abel, Mémorial publié à l’occasion du centenaire de sa naissance}, S. 14, 15. \textsc{Joh. Nik. Tetens} (1736—1807) war 1776—1799 Professor in Kiel, dann Etatsrat in Kopenhagen. Die Äußerung von \textsc{Gauss} (siehe oben S. 248), daß er im zweiten Teil seiner Abhandlung \textit{circa seriem} $1+\frac{\alpha\cdot\beta}{1\cdot\gamma}x+\ldots$ einiges aus seinen Untersuchungen über das agM. bekanntmachen wolle, stimmt mit dem ursprünglichen Entwurfe dieser Abhandlung, den wir weiter unten abdrucken (siehe die bereits erwähnte Abhandlung \textit{Einiges über die unendliche Reihe} $1+\frac{\alpha\cdot\beta}{1\cdot\gamma}x+\ldots$ aus Handbuch 19, Be, besonders den art. [5.]) überein. In der späteren (Werke III, S. 207 abgedruckten) Bearbeitung der Fortsetzung der von \textsc{Gauss} selbst veröffentlichten Abhandlung von 1812 wird das agM. nicht ausdrücklich erwähnt, aber im art. 46, Werke III, S. 217, Gleichung [90] ist
+\[F\Bigl(\frac12,\frac12,1,1-x\Bigr)=\frac1{M(1,\sqrt{x})}\mathpunct{\raisebox{.5ex}{.}}\]
+\par\indent Die Äußerung von \textsc{Gauss} über \textsc{Abel} in dem Briefe [8.] ist darum bemerkenswert, weil sie auf den Weg, den \textsc{Gauss} 1798 bei den lemniskatischen und weiterhin 1800 bei den allgemeinen elliptischen Funktionen eingeschlagen hat, ein helles Licht wirft. Ganz ähnlich äußert \textsc{Gauss} sich auch in einem Briefe an \textsc{Crelle} (siehe Werke III, S. 495, letzter Absatz) und in einem Briefe an \textsc{Schumacher} vom 30. Mai 1828 (\textit{Briefwechsel zwischen Gauss und Schumacher} II, 1860, S. 177, 178). Vergl. den Abschnitt IX. des mehrfach erwähnten Aufsatzes.
+\par\indent In bezug auf den zweiten Teil des Briefes [8.] und die darauf bezüglichen Briefstellen [a.] und [b.] ist folgendes zu bemerken. \textsc{Joh. Friedrich Posselt} (1794—1823) war seit 1819 Professor der Mathematik in Jena als Nachfolger von \textsc{Karl Dietrich v. Münchow} (1778—1836), der 1810—1818 Professor in Jena, dann in Bonn war. Während \textsc{Gauss}' Gedächtnis in bezug auf Ereignisse aus seiner Jugendzeit fast untrüglich genannt werden kann, zeigt es sich hier im Jahre 1828 bei dem nur wenige Jahre zurückliegenden Anlaß nicht in gleichem Maße zuverlässig; der Brief von \textsc{Pfaff} war nicht mehrere Jahre, sondern genau ein halbes Jahr vor dessen Tode geschrieben.
+\par\indent Mit Ausnahme der Briefstelle [b] sind alle hier wiedergegebenen Briefstellen, auch die bereits anderweitig veröffentlichten, nach den im Gaussarchiv befindlichen Urschriften ohne jede Änderung abgedruckt worden.
+\par\smallskip\hfill\textsc{Schlesinger.}\par
+\ClosingRule
+\clearpage
+\endgroup

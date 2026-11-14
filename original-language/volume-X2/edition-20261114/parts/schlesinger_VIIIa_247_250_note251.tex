@@ -1,0 +1,164 @@
+\clearpage\SourceLeaf{247}\ArithmeticHead{162}{L}{L. SCHLESINGER, ÜBER GAUSS' FUNKTIONENTHEORETISCHE ARBEITEN.}
+\noindent\hspace*{\parindent}Die \textit{Demonstratio tertia} beruht auf funktionentheoretischen Betrachtungen
+über die Integration einer Funktion einer komplexen Veränderlichen. Es
+werde für
+\[
+X=x^m+A_1x^{m-1}+\cdots+A_m,
+\]
+wo die \(A_1,\ldots,A_m\) reelle Grössen bedeuten \((A_m\ne0)\), \(x=re^{\varphi i}\) und \(X=t+ui\)
+gesetzt. Ferner sei
+\[
+F(x)=x\frac{X'}{X}=P+Qi,\quad X'=\frac{dX}{dx}.
+\]
+\textsc{Gauss} betrachtet dann den Ausdruck
+\[
+\begin{aligned}
+y&=\frac{\partial P}{\partial r}=\frac{\partial}{\partial r}
+\left\{\frac{r\left(t\frac{\partial t}{\partial r}+u\frac{\partial u}{\partial r}\right)}{t^2+u^2}\right\}\\
+&=\frac1r\frac{\partial Q}{\partial\varphi}=\frac1r\frac{\partial}{\partial\varphi}
+\left\{\frac{r\left(t\frac{\partial u}{\partial r}-u\frac{\partial t}{\partial r}\right)}{t^2+u^2}\right\}
+\end{aligned}
+\]
+und zeigt zunächst im Art. 1, dass für hinreichend grosse Werte von \(R\), insbesondere
+für \(R\geqq\max\sqrt[\nu]{m|A_\nu|\sqrt2}\), die Ausdrücke
+\[
+r\left(t\frac{\partial t}{\partial r}+u\frac{\partial u}{\partial r}\right)\text{ und }t^2+u^2,
+\]
+also auch \(P\) für \(r=R\) wesentlich positiv sind, was ja übrigens aus dem
+asymptotischen Verhalten von \(X\) und \(F(x)\)
+\[
+\lim_{x\to\infty}X\mathbin{.}x^{-m}=1,\quad\lim_{x\to\infty}(P+Qi)=m
+\]
+unmittelbar folgt. Nun sagt \textsc{Gauss} (\textit{Anzeige}, Werke III, S. 109): wenn im
+Innern des Kreises mit dem Mittelpunkt \(0\) und dem Halbmesser \(R\), also für
+\(0\leqq r<R,\ 0\leqq\varphi<2\pi\) kein Wertesystem \(r,\varphi\) vorhanden wäre, für das
+gleichzeitig \(t=0,u=0\) wird, so folgt, dass \(t^2+u^2\) für jede Werte von
+\(r\) und \(\varphi\) zwischen den angegebenen Grenzen immer positiv, und folglich \(y\)
+immer endlich werden muss«\footnote{Ebenso im Art. 2 der Abhandlung selbst, Werke III, S. 61.}. Das will besagen, dass dann \(t^2+u^2\) oberhalb
+einer angebbaren positiven Schranke und folglich \(y\) unterhalb einer ebensolchen
+Schranke liegen muss. Die auf \(t^2+u^2\) bezügliche Behauptung bedarf
+aber noch eines besondern Beweises, indem nämlich im Sinne des vierten Einwandes
+gegen den Beweis von \textsc{D'Alembert}\footnote{In der \textit{Dissertation}, Werke III, S. 10, ad 4, vergl. oben S. 58, 59. Ein Hinweis auf diese »Lücke« in der \textit{Demonstr. tertia} findet sich bei A. \textsc{Fraenkel}, a. a. O. \textsuperscript{74)}, S. 13.} gezeigt werden muss, was \textsc{Gauss}
+daselbst ausspricht, dass nämlich eine ganze rationale Funktion ihre obere
+und untere Schranke in einem abgeschlossenen Bereich wirklich annimmt.\par
+\clearpage\SourceLeaf{248}\ArithmeticHead{163}{R}{VIIIa. DER DRITTE WURZELEXISTENZBEWEIS.}
+\noindent Setzt man das als richtig voraus, so verläuft der Beweis weiter wie folgt:
+Wenn \(y\) beschränkt wäre, so hätte das über die abgeschlossene Kreisscheibe
+\(C,r\leqq R\), erstreckte Doppelintegral
+\begingroup\makeatletter\tagsleft@true\let\veqno\leqno\makeatother
+\begin{equation*}
+\iint\limits_C y\,dr\,d\varphi\tag{2}
+\end{equation*}
+\endgroup
+\noindent einen wohlbestimmten endlichen Wert \(\Omega\), zu dessen Ermittlung die Integration
+nach den beiden Veränderlichen \(r,\varphi\) in beliebiger Reihenfolge ausgeführt
+werden dürfte. Nun ergibt sich, wenn man erst nach \(\varphi\) integriert, durch Betrachtung
+des unbestimmten Integrals, dass für ein beliebiges \(r\)
+\begingroup\makeatletter\tagsleft@true\let\veqno\leqno\makeatother
+\begin{equation*}
+\int_0^{2\pi}\frac{\partial P}{\partial r}\,d\varphi=0,\tag{3}
+\end{equation*}
+\endgroup
+\noindent also auch \(\Omega=0\) ist, dagegen erhält man, wenn man erst nach \(r\) und dann
+nach \(\varphi\) integriert
+\[
+\Omega=\int_0^{2\pi}(P(R,\varphi)-P(0,\varphi))\,d\varphi,
+\]
+es wäre also
+\begingroup\makeatletter\tagsleft@true\let\veqno\leqno\makeatother
+\begin{equation*}
+\frac1{2\pi}\int_0^{2\pi}P(R,\varphi)\,d\varphi=P(0,\varphi),\tag{4}
+\end{equation*}
+\endgroup
+\noindent was, da \(P(R,\varphi)\) wesentlich positiv, \(P(0,\varphi)\) aber gleich \(0\) ist, einen Widerspruch
+involviert. Wir bemerken, dass die Gleichung (3) den sogenannten
+\textsc{Gauss}schen Satz, die Gleichung (4) den sog. Mittelwertsatz der Potentialtheorie
+darstellt, angewandt auf den Kreis \(r=R\) und die Potentialfunktion \(P\)\footnote{Vergl. M. \textsc{Bôcher}, Bulletin of the American Math. Soc. (2) 1, 1894, S. 205ff.}.
+Wenn wir im Sinne der oben (S. 156) bei der \textit{Theoria attractionis} gemachten
+Bemerkung annehmen dürfen, dass diese Sätze, die ja unmittelbare Folgerungen
+aus dem Satze von der scheinbaren Grösse sind, \textsc{Gauss} schon 1813
+bekannt waren, so würde man wohl vermuten können, dass er eben durch
+diese Sätze auf die Betrachtung des Doppelintegrals (2) hingeleitet worden
+ist. Aber es bedarf noch der Erklärung, weshalb \textsc{Gauss} gerade die Funktion
+\(F(x)\) und nicht etwa\footnote{Siehe \textsc{Bôcher} a. a. O. und American Journal of Mathem. 17, 1895, S. 260ff.} die einfacher zu behandelnden \(x^mX^{-1}\) oder \(X^{-1}\) seiner
+Betrachtung zugrunde legte. Diese Erklärung ergibt sich, wenn man unter\par
+\HistoricalFoot{}{21\textsuperscript{*}}
+\clearpage\SourceLeaf{249}\ArithmeticHead{164}{L}{L. SCHLESINGER, ÜBER GAUSS' FUNKTIONENTHEORETISCHE ARBEITEN.}
+\noindent dem Doppelintegral (2) \(P\) durch die monogene Funktion \(P+Qi=F(x)\)
+ersetzt, also \(\displaystyle\iint\frac{\partial F(x)}{\partial r}\,dr\,d\varphi\) betrachtet und die Integration, wie es \textsc{Gauss} im
+Art. 4 der Abhandlung tut, über das durch die Ungleichungen \(k\leqq r\leqq l\),
+\(\kappa\leqq\varphi\leqq\lambda\) gegebene Gebiet \(G\) erstreckt. Da \(\frac{\partial F}{\partial r}=-i\frac1r\frac{\partial F}{\partial\varphi}\) ist, hat man
+dann
+\[
+\iint\limits_G\frac{\partial F}{\partial r}\,dr\,d\varphi
++i\iint\limits_G\frac1r\frac{\partial F}{\partial\varphi}\,dr\,d\varphi=0.
+\]
+Liegt nun in \(G\) keine Nullstelle von \(X\), so kann man in dem ersten Integral
+die Integration nach \(r\), in dem zweiten die nach \(\varphi\) ausführen und erhält
+\begingroup\makeatletter\tagsleft@true\let\veqno\leqno\makeatother
+\begin{equation*}
+\int_\kappa^\lambda[F(le^{\varphi i})-F(ke^{\varphi i})]\,d\varphi
++i\int_k^l\frac1r[F(re^{\lambda i})-F(re^{\kappa i})]\,dr=0.\tag{5}
+\end{equation*}
+\endgroup
+\noindent Beachtet man, dass \(dx=e^{\varphi i}(dr+ir\,d\varphi)\) ist, und setzt
+\[
+x^{-1}F(x)=X^{-1}X'=\frac{d\log X}{dx}=L(x),
+\]
+so lässt sich die linke Seite der Gleichung (5) in der Form
+\begingroup\makeatletter\tagsleft@true\let\veqno\leqno\makeatother
+\begin{equation*}
+\frac1i\left\{\begin{aligned}
+&\int_\kappa^\lambda L(ke^{\varphi i})\,dx+\int_\lambda^\kappa L(le^{\varphi i})\,dx\\
+&+\int_k^l L(re^{\kappa i})\,dx+\int_l^k L(re^{\lambda i})\,dx
+\end{aligned}\right\}\tag{6}
+\end{equation*}
+\endgroup
+\noindent oder kürzer
+\[
+\frac1i\int\limits_{\overline G}L(x)\,dx
+\]
+schreiben, wo \(\overline G\) die im positiven Sinne durchlaufene Begrenzung des Gebiets
+\(G\) andeuten soll. Dieser Ausdruck stellt die Änderung dar, die \(\frac1i\log X\) erfährt,
+wenn \(x\) die Begrenzung von \(G\) im positiven Sinne durchläuft. Wie
+aus dem Briefe an \textsc{Bessel} vom 18. Dezember 1811 (Werke X, 1, S. 365, vergl.
+oben S. 152) hervorgeht, wusste \textsc{Gauss}, dass der Logarithmus bei positiver Umkreisung
+einer Nullstelle um \(2\pi i\) wächst, dass also das Integral (6) den Wert
+\(2p\pi\) haben muss, wenn im Gebiete \(G\) genau \(p\) Nullstellen von \(X\) liegen.
+Für \(k=0,l=R,\kappa=0,\lambda=2\pi\), wo also \(G\) in die Kreisperipherie \(C\) übergeht,
+ist aber, da \(L(x)\) asymptotisch gleich \(mx^{-1}\) ist,
+\[
+\int\limits_C L(x)\,dx=2m\pi i,
+\]
+und somit \(m\) die Anzahl der einfach zu zählenden Nullstellen von \(X\) auf der\par
+\clearpage\SourceLeaf{250}\ArithmeticHead{165}{R}{VIIIa. DER DRITTE WURZELEXISTENZBEWEIS.}
+\noindent Kreisscheibe \(C\). Dass dieser Gedankengang in der Tat dem von \textsc{Gauss} befolgten
+entspricht, geht einmal daraus hervor, dass er in der Fussnote zum
+Art. 2 (Werke III, S. 62) den Wert des Integrals (6) für den Fall des Kreises
+\(C\) tatsächlich gleich \(2m\pi\) angibt, andererseits aber auch aus einer Stelle des
+Briefes an \textsc{Drobisch} (Werke X, 1, S. 107), wo er von dem dritten Beweise
+sagt: »Auch ist derselbe im höchsten Grade sinnlich zu machen, was ich aber
+dort für ein hors d'oeuvre hätte halten müssen, wo ich alles in rein algebraischer
+Form darstellen wollte. Übrigens aber finde ich den \textsc{Cauchy}schen
+Beweis\footnote{Gemeint ist der Beweis in der \textit{Analyse algébrique}, 1821, S. 329, vergl. dazu die Bemerkung Werke X, 1, S. 109, 110 und oben S. 59, 60.} in seiner Grundidee eben so elegant. \mbox{.\,.\,.\,.\,.} Aber am lehrreichsten
+ist es wohl, beide Grundideen zu entwickeln, wo in der Tat die Betrachtung
+der gleichsam geometrischen Bedeutung beider für den Verstand etwas recht
+ergötzliches hat«. Diese »geometrische Bedeutung« des dritten Beweises dürfte
+wohl im wesentlichen mit dem oben skizzierten Gedankengang übereinstimmen.
+Übrigens gibt \textsc{Gauss} einen direkten Hinweis auf die Integration im komplexen
+Gebiete im Art. 4, wenn er den Widerspruch beschreibt, in den man verstrickt
+wird, wenn man ein Integral über eine unendlich werdende Funktion,
+wie z. B. \(x^{-2}\), nach den gewöhnlichen Regeln entwickeln will, und hinzufügt:
+»was aber diese und ähnliche analytische Paradoxien bedeuten, das soll bei
+einer anderen Gelegenheit ausführlich verfolgt werden«; freilich ist dieser Hinweis
+nur für denjenigen verständlich, der bereits weiss, dass man der Unendlichkeitsstelle
+durch geeignete Wahl des Integrationsweges in der komplexen
+Ebene ausweichen kann.
+\par
+Da die Änderung von \(\frac1i\log X\) beim Durchlaufen der Kreisperipherie \(C\)
+nichts anderes ist, als die Änderung von \(\operatorname{arctg}\frac ut\) oder also die von \(\arg X\), so
+berührt sich der dritte Beweis mit der am Schluss des Abschnitts III (oben
+S. 61, 62) angedeuteten Auffassung des Beweises der \textit{Dissertation}. Auf einen
+solchen Zusammenhang hat \textsc{Gauss} selbst in einer Vorlesung \textit{Über die Theorie
+der imaginären Grössen} hingewiesen, die er von Neujahr bis Ostern 1840 gehalten
+hat, und von der eine Ausarbeitung sich im Gaussarchiv befindet\footnote{Vergl. hierzu die in der Fussnote \textsuperscript{80)} zitierte Arbeit von A. \textsc{Fraenkel}. Darstellungen des dritten Beweises findet man in der in der Fussnote \textsuperscript{239)} genannten Arbeit von \textsc{Bôcher} sowie in E. \textsc{Goursats} \textit{Cours d'Analyse} I, 1910, S. 240. Zur Geschichte der Integration durch imaginäres Gebiet und \textsc{Gauss'} Einfluss auf die Entwicklung dieser Theorie vergleiche man P. \textsc{Stäckels} Aufsätze, Bibliotheca Math. (3) 1, 1900, S. 109; 2, 1901, S. 111, sowie Bemerkungen desselben zu seiner Ausgabe von \textsc{Cauchys} Abhandlung von 1825, \textsc{Ostwalds} Klassiker Nr. 112, S. 67—72.}.\par

@@ -1,0 +1,86 @@
+\begingroup
+\newcommand{\TransBracket}[1]{\boldsymbol{[}#1\boldsymbol{]}}
+\ArithmeticHead{298}{L}{ANALYSIS. NACHLASS.}
+\NumberedItem{11}
+\noindent[S. 46]\par
+\par\indent Zum Beweise der letztern Gleichung scheint folgendes brauchbar:
+\[\begin{aligned}
+&(1+xy)(1-x^3y)\left(1-\frac{x^7}{y}\right)\left(1+\frac{x^9}{y}\right)\\
+&\qquad(1+x^{11}y)(1-x^{13}y)\left(1-\frac{x^{17}}{y}\right)\left(1-\frac{x^{19}}{y}\right){.}{.}{.}
+\end{aligned}\]
+\noindent wird entwickelt in
+\[\begin{aligned}
+&P\left\{\begin{aligned}
+&1-x^4yy+x^{28}y^4-x^{72}y^6+{.}{.}{.}\\
+&\phantom{1}{-}\frac{x^{16}}{yy}+\frac{x^{52}}{y^4}-\frac{x^{108}}{y^6}+{.}{.}{.}
+\end{aligned}\right\}\\[1ex]
+&{}+Q\left\{y-\frac{x^6}{y}\quad\begin{aligned}
+&-x^{14}y^3+x^{48}y^5-{.}{.}{.}\\
+&+\frac{x^{32}}{y^3}-\frac{x^{78}}{y^5}+{.}{.}{.}
+\end{aligned}\right\}
+\end{aligned}\]
+\noindent wo $P$ und $Q$ blosse Functionen von $x$.
+
+\par\indent Setzt man $y=x^3$, so verschwindet der in $Q$ multiplicirte Theil, und man hat
+\[\begin{aligned}
+&(1-x^8)(1-x^{12})(1-x^{28})(1-x^{32}){.}{.}{.}\\
+&\qquad=P(1-2x^{10}+2x^{40}-2x^{90}\ \text{etc.}).
+\end{aligned}\]
+\noindent Also
+\[
+P=\frac{\TransBracket{x^{20}}}{\TransBracket{x^{10}}^2}(1-x^8)(1-x^{12})(1-x^{28})(1-x^{32}){.}{.}{.}
+\]
+\noindent Setzt man hingegen
+\[
+y=-\frac1x,
+\]
+\noindent so verschwindet das erste Product, und man hat
+\clearpage
+\ArithmeticHead{299}{R}{{\scriptsize ZUR THEORIE DER TRANSSCENDENTEN FUNCTIONEN. I.}}
+\SourceLeaf{306}
+\[\begin{aligned}
+&P(1-xx-x^{18}+x^{24}+x^{56}-x^{66}{.}{.}{.})\\
+&\qquad=\frac Qx(1-x^8-x^{12}+x^{36}+x^{44}-{.}{.}{.}).
+\end{aligned}\]
+\noindent Nun ist hier
+\[\begin{aligned}
+&\text{der Factor von }P\ { .}\,{.}\,{.}\,{.}\,{.}\ \TransBracket{x^{20}}\\
+&\qquad(1-x^2)(1-x^{18})(1-x^{22})(1-x^{38}){.}{.}{.}\\[.6ex]
+&\text{der Factor von }\frac Qx\ { .}\,{.}\,{.}\,{.}\,{.}\ \TransBracket{x^{20}}\\
+&\qquad(1-x^8)(1-x^{12})(1-x^{28})(1-x^{32}){.}{.}{.},
+\end{aligned}\]
+\noindent folglich
+\[
+Q=\frac{x\TransBracket{x^{20}}}{\TransBracket{x^{10}}^2}(1-x^2)(1-x^{18})(1-x^{22})(1-x^{38}){.}{.}{.}
+\]
+\noindent Setzt man also
+\[\begin{aligned}
+(1+x)(1-x^3)(1-x^7)(1+x^9){.}{.}{.}&=t,\\
+(1-x)(1+x^3)(1+x^7)(1-x^9){.}{.}{.}&=u,
+\end{aligned}\]
+\noindent so hat man
+\[\begin{aligned}
+t&=P(1-x^4-x^{16}+x^{28}+x^{52}-\text{etc.})\\
+&\qquad+Q(1-x^6-x^{14}+x^{32}+x^{48}-\text{etc.})
+\end{aligned}\]
+\noindent und
+\[\begin{aligned}
+u&=P(1-x^4-x^{16}+x^{28}+x^{52}-\text{etc.})\\
+&\qquad-Q(1-x^6-x^{14}+x^{32}+x^{48}-\text{etc.}),
+\end{aligned}\]
+\noindent also
+\[\begin{aligned}
+t+u&=2P(1-x^4-x^{16}+x^{28}+x^{52}-\text{etc.})\\
+&=2P\TransBracket{x^{20}}(1-x^4)(1-x^{16})(1-x^{24})(1-x^{36}){.}{.}{.}\\
+&=\frac{2\TransBracket{x^{20}}\TransBracket{x^4}}{\TransBracket{x^{10}}^2}\\
+&=\frac2{x^{\frac14}}\frac{\TransBracket{x^{20}}\TransBracket{xx}}{\TransBracket{x^{10}}^2\TransBracket{x^4}}\times\{x^{\frac14}+x^{\frac94}+\text{etc.}\},
+\end{aligned}\]
+\[\begin{aligned}
+t-u&=2Q(1-x^6-x^{14}+x^{32}+x^{48}-\text{etc.})\\
+&=2Q\TransBracket{x^{20}}(1-x^6)(1-x^{14})(1-x^{26})(1-x^{34}){.}{.}{.}\\
+&=\frac{2x\TransBracket{x^{20}}^3}{\TransBracket{x^{10}}^3}\frac{\TransBracket{xx}}{\TransBracket{x^4}}\\
+&=\frac2{x^{\frac14}}\frac{\TransBracket{x^{20}}}{\TransBracket{x^{10}}^2}\frac{\TransBracket{xx}}{\TransBracket{x^4}}\times\{x^{\frac54}+x^{\frac{45}4}+{.}{.}{.}\}.
+\end{aligned}\]
+\noindent Woraus dann das gedachte Theorem [siehe die letzte Gleichung des art. 10.] von selbst folgt.
+\clearpage
+\endgroup

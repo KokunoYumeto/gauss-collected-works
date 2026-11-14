@@ -1,0 +1,165 @@
+\begingroup
+\newcommand{\TransBracket}[1]{\boldsymbol{[}#1\boldsymbol{]}}
+\ArithmeticHead{303}{R}{{\scriptsize ZUR THEORIE DER TRANSSCENDENTEN FUNCTIONEN. I.}}
+\NumberedItem{14}
+\noindent [S. 49]
+\par\indent Ist $\varepsilon$ eine Wurzel der Gleichung $x^5-1=0$, also
+\[
+\varepsilon-\varepsilon\varepsilon-\varepsilon^3+\varepsilon^4=\surd5,
+\]
+\noindent so wird, weil
+\[
+\frac2{1+\surd5}=\varepsilon+\varepsilon^4,\qquad
+\frac{2\surd5}{1+\surd5}=2-\varepsilon-\varepsilon^4,
+\]
+\[\begin{aligned}
+&(1+2x+2x^4+{.}{.}{.})+\surd5(1+2x^5+2x^{20}+{.}{.}{.})\\
+&\quad=2(1+\surd5)\frac{\TransBracket{xx}^2\TransBracket{x^5}\TransBracket{x^{20}}}{\TransBracket{x}\TransBracket{x^4}\TransBracket{x^{10}}}.\ \{u-tx(1-\varepsilon-\varepsilon^4)\}.
+\end{aligned}\]
+\par\indent Das Product
+\[\begin{aligned}
+&(1+\varepsilon y)(1-x\varepsilon\varepsilon y)\left(1-\frac{x\varepsilon^3}y\right)\\
+&\quad(1+xx\varepsilon y)\left(1+\frac{xx\varepsilon^4}y\right)(1-x^3\varepsilon\varepsilon y)\left(1-\frac{x^3\varepsilon^3}y\right)\\
+&\quad.(1+x^4\varepsilon y)\left(1+\frac{x^4\varepsilon^4}{y^6}\right)\ \text{etc.}
+\end{aligned}\]
+\clearpage
+\ArithmeticHead{304}{L}{ANALYSIS. NACHLASS.}
+\SourceLeaf{311}
+\noindent hat die Form
+\[\begin{aligned}
+&M\Bigl(1-x\varepsilon^3yy-\frac{x^3\varepsilon\varepsilon}{yy}+x^6\varepsilon^6y^4\\
+&\qquad+\frac{x^{10}\varepsilon^4}{y^4}-x^{15}\varepsilon^9y^6-\frac{x^{21}\varepsilon^6}{y^6}+\text{etc.}\Bigr)\\
+&+N\Bigl(y-\frac{x\varepsilon\varepsilon}y-x^3\varepsilon^3y^3+\frac{x^6\varepsilon^4}{y^3}+x^{10}\varepsilon^6y^5-\frac{x^{15}\varepsilon^6}{y^5}{.}{.}{.}\Bigr).
+\end{aligned}\]
+\noindent Man setze
+\[y=\varepsilon\surd x,\]
+\noindent so wird der Factor von $N$ gleich $0$, also
+\[\begin{aligned}
+&(1-\varepsilon^4x)(1-\varepsilon x^3)(1-\varepsilon^4x^5)(1-\varepsilon x^7){.}{.}{.}\\
+&\quad=M(1-2xx+2x^8-2x^{18}{.}{.}{.})=M\frac{\TransBracket{xx}^2}{\TransBracket{x^4}}\mathpunct{\raisebox{.5ex}{.}}
+\end{aligned}\]
+\noindent Man setze ferner
+\[y=-\varepsilon^4,\]
+\noindent so wird
+\[\begin{aligned}
+0={}&M(1-\varepsilon x-\varepsilon^4x^3+\varepsilon\varepsilon x^6+\varepsilon^3x^{10}-\text{etc.})\\
+&-N\varepsilon^4(1-\varepsilon^4x-\varepsilon x^3+\varepsilon^3x^6+\varepsilon^2x^{10}-\text{etc.}).
+\end{aligned}\]
+\noindent Daraus
+\[\begin{aligned}
+&(1-\varepsilon x)(1-\varepsilon^4x^3)(1-\varepsilon x^5)(1-\varepsilon^4x^7){.}{.}{.}\\
+&\quad=N\varepsilon^4\frac{\TransBracket{xx}^2}{\TransBracket{x^4}},
+\end{aligned}\]
+\noindent also
+\[\begin{aligned}
+M&=\frac1{\TransBracket{xx}^2}(1-\varepsilon^4x-\varepsilon x^3+\varepsilon^3x^6{.}{.}{.}),\\[4pt]
+N&=\frac\varepsilon{\TransBracket{xx}^2}(1-\varepsilon x-\varepsilon^4x^3+\varepsilon\varepsilon x^6{.}{.}{.}),\\[4pt]
+M+N\varepsilon&=\frac1{\TransBracket{xx}^2}\{1+\varepsilon\varepsilon-(\varepsilon^4+\varepsilon^3)x{.}{.}{.}\}.
+\end{aligned}\]
+\noindent Setzt man also
+\[\begin{aligned}
+&(1-x\varepsilon\varepsilon)(1-x\varepsilon^3)(1+xx\varepsilon)\\
+&\qquad(1+xx\varepsilon^4)(1-x^3\varepsilon\varepsilon)(1-x^3\varepsilon^3){.}{.}{.}=m,\\
+&(1-x\varepsilon)(1-x\varepsilon^4)(1+xx\varepsilon\varepsilon)\\
+&\qquad(1+xx\varepsilon^3)(1-x^3\varepsilon)(1-x^3\varepsilon^4){.}{.}{.}=n,
+\end{aligned}\]
+\noindent so ist aus
+\[y=1,\quad y=\varepsilon\varepsilon\]
+\[\begin{aligned}
+(1+\varepsilon)m={}&M(1-x\varepsilon^3-x^3\varepsilon\varepsilon+x^6\varepsilon^6+x^{10}\varepsilon^4-{.}{.}{.})\\
+&+N(1-x\varepsilon\varepsilon-x^3\varepsilon^3+x^6\varepsilon^4+x^{10}\varepsilon^6-{.}{.}{.}),\\[5pt]
+(1+\varepsilon^3)n={}&M(1-x\varepsilon\varepsilon-x^3\varepsilon^3+x^6\varepsilon^4+x^{10}\varepsilon^6-{.}{.}{.})\\
+&+N\varepsilon\varepsilon(1-x\varepsilon^3-x^3\varepsilon\varepsilon+x^6\varepsilon^6+x^{10}\varepsilon^4-{.}{.}{.}),
+\end{aligned}\]
+\clearpage
+\ArithmeticHead{305}{R}{{\scriptsize ZUR THEORIE DER TRANSSCENDENTEN FUNCTIONEN. I.}}
+\SourceLeaf{312}
+\[\begin{aligned}
+&(\varepsilon+\varepsilon\varepsilon)m+(1+\varepsilon^3)n\\
+&\quad=(M+N\varepsilon)\{1+\varepsilon-x(\varepsilon\varepsilon+\varepsilon^4)-2x^3\varepsilon^3\\
+&\hspace{9em}+x^6(\varepsilon^4+\varepsilon\varepsilon)+x^{10}(\varepsilon^6+1){.}{.}{.}\}\\[5pt]
+&-(\varepsilon+\varepsilon\varepsilon)m+(1+\varepsilon^3)n\\
+&\quad=(M-N\varepsilon)\{1-\varepsilon-x(\varepsilon\varepsilon-\varepsilon^4)+{.}{.}{.}\}.
+\end{aligned}\]
+\par\indent Die in $M+N\varepsilon$ multiplicirte Reihe ist
+\[\begin{aligned}
+&=1+ix^{\frac12}\left\{ix^{\frac12}\varepsilon^4+\frac1{ix^{\frac12}\varepsilon^4}\right\}+x^2\left\{-x\varepsilon^3+\frac1{-x\varepsilon^3}\right\}+{.}{.}{.}\\
+&=\TransBracket{-x}(1+\varepsilon)(1-\varepsilon x)(1-\varepsilon^4x)(1+\varepsilon xx)\\
+&\qquad(1+\varepsilon^4xx)(1-\varepsilon x^3)(1-\varepsilon^4x^3){.}{.}{.}
+\end{aligned}\]
+\par\indent Ferner hat man
+\[\begin{aligned}
+&(1-\varepsilon x-\varepsilon^4x^3{.}{.}{.})(M+N\varepsilon)\\
+&\quad=N\left(\begin{aligned}&\phantom{+}\varepsilon^4-\varepsilon^3x-x^3+\varepsilon^2x^6{.}{.}{.}\\&+\varepsilon-\varepsilon\varepsilon x-x^3+\varepsilon^3x^6{.}{.}{.}\end{aligned}\right)\\
+&\quad=\varepsilon N\left(1+ix^{\frac12}\left(i\varepsilon\varepsilon x^{\frac12}+\frac1{i\varepsilon\varepsilon x^{\frac12}}\right)+{.}{.}{.}\right)\\
+&\quad=\varepsilon N\TransBracket{-x}(1+x^3)(1-\varepsilon^3x)(1-\varepsilon^2x)(1+\varepsilon^3xx){.}{.}{.}\ \text{[*)]},
+\end{aligned}\]
+\noindent also
+\[\begin{aligned}
+&(\varepsilon+\varepsilon\varepsilon)m+(1+\varepsilon^3)n\\
+&\quad=(1+\varepsilon+\varepsilon\varepsilon+\varepsilon^3)\frac{\TransBracket{xx}^4}{\TransBracket{x}^2\TransBracket{x^4}^2}.\ \frac{1-x^5}{1-x}.\ \frac{1+x^{10}}{1+xx}.\ \frac{1-x^{15}}{1-x^3}\ \frac{1+x^{20}}{1+x^4}{.}{.}{.}
+\end{aligned}\]
+\noindent oder
+\[\begin{aligned}
+&(\varepsilon\varepsilon+\varepsilon^3)m+(\varepsilon+\varepsilon^4)n=(\varepsilon+\varepsilon\varepsilon+\varepsilon^3+\varepsilon^4)\\
+&\qquad{.}\quad{.}\quad{.}\quad{.}\quad{.}\quad{.}\quad{.}\quad{.}\quad{.}\quad{.}\quad{.}\quad{.}
+\end{aligned}\]
+\noindent [S. 50]
+\par\indent Ebenso ist die Reihe, in welche $M-N\varepsilon$ multiplicirt ist, die folgende
+\[\begin{aligned}
+&\TransBracket{-x}(1-\varepsilon)(1+\varepsilon x)(1+\varepsilon^4x)\\
+&\qquad(1-\varepsilon xx)(1-\varepsilon^4xx){.}{.}{.};
+\end{aligned}\]
+\noindent ferner hat man
+\[\begin{aligned}
+&(1-\varepsilon x-\varepsilon^4x^3{.}{.}{.})(M-N\varepsilon)\\
+&\quad=(\varepsilon^4-\varepsilon)N\TransBracket{-x}(1+\varepsilon^3x)(1+\varepsilon^2x)\\
+&\qquad(1-\varepsilon^3xx)(1-\varepsilon^2xx){.}{.}{.},
+\end{aligned}\]
+\noindent also
+\[\begin{aligned}
+&-(\varepsilon^2+\varepsilon^3)m+\varepsilon+\varepsilon^4)n\\
+&\quad=\frac{\TransBracket{xx}^4}{\TransBracket{x}^2\TransBracket{x^4}^2}(\varepsilon-\varepsilon\varepsilon-\varepsilon^3+\varepsilon^4)\frac{1+x^5}{1+x}.\ \frac{1-x^{10}}{1-x^2}.\ \frac{1+x^{15}}{1+x^3}{.}{.}{.}\ \text{[**)]}
+\end{aligned}\]
+\Needspace{6\baselineskip}
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small
+\par\indent [*) In der Handschrift steht vor dem Ausdruck auf der rechten Seite der Gleichung das Vorzeichen $-$.]
+\par\indent [**) In der Handschrift steht rechter Hand $\varepsilon-\varepsilon\varepsilon-\varepsilon\varepsilon+\varepsilon^4$.]
+\par}
+\par\medskip\noindent {\small X1.}\hfill39
+\clearpage
+\ArithmeticHead{306}{L}{ANALYSIS. NACHLASS.}
+\SourceLeaf{313}
+\par\indent Wir haben folglich
+\[\begin{aligned}
+&(\varepsilon\varepsilon+\varepsilon^3)m+(\varepsilon+\varepsilon^4)n\\
+&\quad=(\varepsilon+\varepsilon\varepsilon+\varepsilon^3+\varepsilon^4)\frac{\TransBracket{xx}\TransBracket{x^5}\TransBracket{x^{20}}}{\TransBracket{x}\TransBracket{x^4}\TransBracket{x^{10}}^2}(1+2x+2x^4+2x^9+{.}{.}{.}),\\[5pt]
+&-(\varepsilon\varepsilon+\varepsilon^3)m+(\varepsilon+\varepsilon^4)n\\
+&\quad=(\varepsilon-\varepsilon\varepsilon-\varepsilon^3+\varepsilon^4)\frac{\TransBracket{xx}\TransBracket{x^5}\TransBracket{x^{20}}}{\TransBracket{x}\TransBracket{x^4}\TransBracket{x^{10}}^2}(1+2x^5+2x^{20}+2x^{45}+{.}{.}{.}),
+\end{aligned}\]
+\noindent also
+\[\begin{aligned}
+&(1+2x+2x^4+2x^9+{.}{.}{.})+(\varepsilon-\varepsilon\varepsilon-\varepsilon^3+\varepsilon^4)(1+2x^5+2x^{20}+{.}{.}{.})\\
+&\quad=-2(\varepsilon\varepsilon+\varepsilon^3)m\frac{\TransBracket{x^4}\TransBracket{x}\TransBracket{x^{10}}^2}{\TransBracket{xx}\TransBracket{x^5}\TransBracket{x^{20}}},\\[5pt]
+&(1+2x+2x^4+2x^9+{.}{.}{.})-(\varepsilon-\varepsilon\varepsilon-\varepsilon^3+\varepsilon^4)(1+2x^5+2x^{20}+{.}{.}{.})\\
+&\quad=-2(\varepsilon+\varepsilon^4)n\frac{\TransBracket{x^4}\TransBracket{x}\TransBracket{x^{10}}^2}{\TransBracket{xx}\TransBracket{x^5}\TransBracket{x^{20}}}\mathpunct{\raisebox{.5ex}{.}}
+\end{aligned}\]
+\noindent Also Product
+\[\begin{aligned}
+&(1+2x+{.}{.}{.})^2-5(1+2x^5+{.}{.}{.})^2\\
+&\quad=-4\frac{1-x^5}{1-x}.\ \frac{1+x^{10}}{1+xx}.\ \frac{1-x^{15}}{1-x^3}{.}{.}{.}\ \frac{\TransBracket{x}^2\TransBracket{x^{10}}^4}{\TransBracket{x^5}^2\TransBracket{x^{20}}^2}\ \left[\frac{\TransBracket{x^4}^2}{\TransBracket{xx}^2}\right]\\
+&\quad=-4\frac{\TransBracket{x}\TransBracket{x^4}\TransBracket{x^{10}}^2}{\TransBracket{x^5}\TransBracket{x^{20}}}\ \text{[*)]}.
+\end{aligned}\]
+\Needspace{12\baselineskip}
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small
+\par\indent [*)] Bedeutet salvo calc[uli] err[ore]
+\[\begin{aligned}
+5PP-pp&=4\sqrt[6]{ppq^5\left(\frac r2\right)^5\frac{PP}{Q\frac R2}}\\[6pt]
+5QQ-qq&=\left[4\sqrt[6]{qqp^5\left(\frac r2\right)^5\frac{QQ}{P\frac R2}}\right]\\[6pt]
+\frac{5PP-pp}{5QQ-qq}&=\sqrt{\frac qp\frac PQ}\mathpunct{\raisebox{.5ex}{.}}
+\end{aligned}\]
+\par}
+\clearpage
+\endgroup

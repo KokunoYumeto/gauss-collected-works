@@ -1,0 +1,25 @@
+\documentclass[11pt,oneside,openany]{book}
+\usepackage[paperwidth=7.4in,paperheight=10.4in,margin=.75in,headheight=14pt]{geometry}
+\usepackage{fontspec}
+\setmainfont{lmroman10-regular.otf}[BoldFont=lmroman10-bold.otf,ItalicFont=lmroman10-italic.otf,BoldItalicFont=lmroman10-bolditalic.otf,SmallCapsFont=lmromancaps10-regular.otf]
+\usepackage[main=german,latin,english]{babel}
+\usepackage{amsmath,amssymb,microtype,fancyhdr,needspace}
+\usepackage{tikz}
+\usepackage[unicode,hidelinks]{hyperref}
+\hypersetup{pdfauthor={Carl Friedrich Gauss; historical contributions by Johann Friedrich Pfaff, E. A. W. Zimmermann, Ludwig Schlesinger, Bachmann, Alfred Loewy, Felix Klein and H. C. Schumacher}}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0pt plus .3pt}
+\setlength{\emergencystretch}{1.4em}
+\widowpenalty=10000\clubpenalty=10000\displaywidowpenalty=10000
+\pagestyle{fancy}\fancyhf{}\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}\raggedbottom
+\newcommand{\SourceLeaf}[1]{\hypertarget{native-#1}{}\label{native-#1}}
+\newcommand{\SourceHead}[1]{\fancyhead[L]{\small #1}\fancyhead[C]{\small KLEINERE VERÖFFENTLICHUNGEN.}}
+\newcommand{\NoSourceHead}{\fancyhead{}}
+\newcommand{\ArithmeticHead}[3]{\fancyhead{}\fancyhead[#2]{\small #1}\fancyhead[C]{\small #3}}
+\newcommand{\NumberedItem}[1]{\par\medskip\Needspace{4\baselineskip}\begin{center}[#1.]\end{center}}
+\newcommand{\SourceGroup}[1]{\par\bigskip\begin{center}\large [#1.]\end{center}}
+\newcommand{\HistoricTitle}[1]{\begin{center}\large\bfseries #1\end{center}}
+\newcommand{\HistoricCitation}[1]{\par\smallskip\hrule\smallskip\begin{center}\small #1\end{center}\smallskip\hrule\medskip}
+\newcommand{\ClosingRule}{\par\bigskip\centerline{\rule{.25\linewidth}{.4pt}}}
+\renewcommand{\thefootnote}{*)}

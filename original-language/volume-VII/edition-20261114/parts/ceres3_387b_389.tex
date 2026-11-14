@@ -1,0 +1,174 @@
+\begingroup
+\setlength{\abovedisplayskip}{8pt plus2pt minus1pt}
+\setlength{\belowdisplayskip}{8pt plus2pt minus1pt}
+\setlength{\abovedisplayshortskip}{4pt plus2pt}
+\setlength{\belowdisplayshortskip}{6pt plus2pt minus1pt}
+\par\bigskip
+\hypertarget{native-387-ceres3}{}
+\begin{center}\pdfbookmark[2]{3. Entwickelung der Störungsfunction}{ceres-003}[3.]\end{center}
+\noindent\hspace*{\parindent}[Die obigen Gleichungen für die Störungen \(\rho=\delta r\) und \(\delta v\) lassen sich schreiben, wenn mit \(V\) die wahre Anomalie der Ceres bezeichnet, und die Grösse \(Q\) etwas anders definirt wird,]
+\[
+\begin{aligned}
+{}[11]\quad\delta r=\frac{\mu a}{\BareRoot{(1-ee)}}\Big\{&\cos V\int rQ\sin V\mathord{.}\,n\mathrm{d}t\\
+&-\sin V\int rQ\cos V\mathord{.}\,n\mathrm{d}t\Big\}
+\end{aligned}
+\]
+\[
+\begin{aligned}
+{}[12]\quad\delta v=\frac{1}{\BareRoot{(1-ee)}}\Big\{&\frac{2r\mathrm{d}\rho+\rho\mathrm{d}r}{aan\mathrm{d}t}+3\mu a\iint\partial R\mathord{.}\,n\mathrm{d}t\\
+&+2\mu a\int r\left(\frac{\mathrm{d}R}{\mathrm{d}r}\right)n\mathrm{d}t\Big\},
+\end{aligned}
+\]
+\noindent[wo]
+\[Q=2\int\partial R+r\left(\frac{\mathrm{d}R}{\mathrm{d}r}\right)\]
+\[
+R=\frac{r\cos w}{r'r'}-\frac{1}{\mathfrak{R}}\qquad
+[\mathfrak{R}=\BareRoot{(rr+r'r'-2rr'\cos w)};
+\]
+\noindent\(w\) ist der von den beiden Radiis vectoribus eingeschlossene Winkel.
+
+Zur Entwickelung der Störungsfunction ist (vgl. \textsc{Laplace}, Méc. cél. Tome I. p. 263):]
+\[
+\begin{aligned}
+&\frac{a}{a'a'}\cos w-\frac{1}{\BareRoot{(aa+a'a'-2aa'\cos w)}}\\
+&\qquad=\tfrac12 A^{(0)}+A^{(1)}\cos w+A^{(2)}\cos2w+\cdot\cdot\cdot\\
+&\qquad=\Sigma\tfrac12 A^{(i)}\cos iw,
+\end{aligned}
+\]
+\noindent[wo für \(i\) alle positiven und negativen ganzen Zahlen mit Einschluss der Null zu nehmen sind.
+\SourceLeaf{388}
+
+Setzt man
+\[
+\begin{gathered}
+r=a(1+\Delta r),\qquad r'=a'(1+\Delta r'),\\
+w=D+\Delta w,\qquad D=\text{\AstroSymbols ⚳}-\text{\AstroSymbols ♃},
+\end{gathered}
+\]
+\noindent wo \(\text{\AstroSymbols ⚳}=nt+\epsilon\) und \(\text{\AstroSymbols ♃}=n't+\epsilon'\) die mittlern Längen von Ceres und Jupiter sind, so ist (\textsc{Laplace}, a. a. O., p. 264) mit Vernachlässigung der zweiten Potenzen der Excentricitäten und der gegenseitigen Neigung:
+\[
+\begin{aligned}
+R={}&\Sigma\tfrac12 A^{(i)}\cos iD+\tfrac12\Delta r\mathord{.}\,\Sigma a\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a}\right)\cos iD\\
+&+\tfrac12\Delta r'\mathord{.}\,\Sigma a'\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a'}\right)\cos iD-\tfrac12\Delta w\mathord{.}\,\Sigma iA^{(i)}\sin iD.
+\end{aligned}
+\]
+
+Mit der gleichen Genauigkeit ist, wenn \(M\) und \(M'\) die mittlern Anomalien, vom Aphel gezählt, sind:]
+\[
+\begin{gathered}
+r=a(1+e\cos M),\qquad [r'=a'(1+e'\cos M'),]\\
+w=D-2e\sin M+2e'\sin M'
+\end{gathered}
+\]
+\[
+\begin{gathered}
+{}[\Delta r=e\cos M,\qquad\Delta r'=e'\cos M',\\
+\Delta w=-2e\sin M+2e'\sin M;
+\end{gathered}
+\]
+\noindent also, da \(A^{(-i)}=A^{(i)}\):]
+\[
+\begin{aligned}
+R={}&\Sigma\tfrac12 A^{(i)}\cos iD\\
+&+\tfrac12 e\Sigma a\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a}\right)\cos(iD+M)-e\Sigma iA^{(i)}\cos(iD+M)\\
+&+\tfrac12 e'\Sigma a'\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a'}\right)\cos(iD+M')+e'\Sigma iA^{(i)}\cos(iD+M').
+\end{aligned}
+\]
+
+[Da nun
+\[
+\begin{gathered}
+\partial R=\left(\frac{\mathrm{d}R}{\mathrm{d}r}\right)\mathrm{d}r+\left(\frac{\mathrm{d}R}{\mathrm{d}V}\right)\mathrm{d}V\qquad\text{und}\\
+\left(\frac{\mathrm{d}R}{\mathrm{d}V}\right)=\left(\frac{\mathrm{d}R}{\mathrm{d}w}\right)=\left(\frac{\mathrm{d}R}{\mathrm{d}D}\right)\text{\raisebox{.45ex}{,}}\qquad
+\left(\frac{\mathrm{d}R}{\mathrm{d}r}\right)=\left(\frac{\mathrm{d}R}{\mathrm{d}a}\right)\text{\raisebox{.45ex}{,}}
+\end{gathered}
+\]
+\noindent wo der letztere Differentialquotient so zu verstehen ist, dass \(a\) nur in soweit variirt werden darf, als es in den Coefficienten \(A^{(i)}\) vorkommt, so wird:
+\[
+\begin{aligned}
+\left(\frac{\mathrm{d}R}{\mathrm{d}r}\right)={}&\Sigma\tfrac12\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a}\right)\cos iD\\
+&+\tfrac12 e\Sigma\left\{a\left(\frac{\mathrm{d}\mathrm{d}A^{(i)}}{\mathrm{d}a^2}\right)-2i\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a}\right)\right\}\cos(iD+M)\\
+&+\tfrac12 e'\Sigma\left\{a'\left(\frac{\mathrm{d}\mathrm{d}A^{(i)}}{\mathrm{d}a\,\mathrm{d}a'}\right)+2i\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a}\right)\right\}\cos(iD+M')
+\end{aligned}
+\]
+\[
+\begin{aligned}
+\left(\frac{\mathrm{d}R}{\mathrm{d}V}\right)={}&-\Sigma\tfrac12 iA^{(i)}\sin iD\\
+&-\tfrac12 e\Sigma i\left\{a\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a}\right)-2iA^{(i)}\right\}\sin(iD+M)\\
+&-\tfrac12 e'\Sigma i\left\{a'\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a'}\right)+2iA^{(i)}\right\}\sin(iD+M').
+\end{aligned}
+\]
+
+Es wird also:]
+\[
+\begin{aligned}
+r\frac{\mathrm{d}R}{\mathrm{d}r}={}&\tfrac12\Sigma a\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a}\right)\cos iD\\
+&+\tfrac12 ea\Sigma\left\{a\left(\frac{\mathrm{d}\mathrm{d}A^{(i)}}{\mathrm{d}a^2}\right)-(2i-1)\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a}\right)\right\}\cos(iD+M)\\
+&+\tfrac12 e'a\Sigma\left\{a'\left(\frac{\mathrm{d}\mathrm{d}A^{(i)}}{\mathrm{d}a\,\mathrm{d}a'}\right)+2i\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a}\right)\right\}\cos(iD+M')
+\end{aligned}
+\]
+\SourceLeaf{389}
+\noindent[und wegen \(\mathrm{d}r=-ae\sin M\mathord{.}\,n\mathrm{d}t\), \(\mathrm{d}V=(1-2e\cos M)n\mathrm{d}t\):
+\[
+\begin{aligned}
+\frac{\partial R}{n\mathrm{d}t}={}&-\tfrac12\Sigma iA^{(i)}\sin iD\\
+&-\tfrac12 e\Sigma(i+1)\left\{a\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a}\right)-2iA^{(i)}\right\}\sin(iD+M)\\
+&-\tfrac12 e'\Sigma i\left\{a'\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a'}\right)+2iA^{(i)}\right\}\sin(iD+M')
+\end{aligned}
+\]
+\noindent und hieraus, wenn man
+\[\theta=\frac{n'}{n}\]
+\noindent setzt:]
+\[
+\begin{aligned}
+2\int\partial R={}&2g+\Sigma\frac{1}{1-\theta}A^{(i)}\cos iD\\
+&+e\Sigma\frac{i+1}{i+1-i\theta}\left\{a\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a}\right)-2iA^{(i)}\right\}\cos(iD+M)\\
+&+e'\Sigma\frac{i}{i-(i-1)\theta}\left\{a'\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a'}\right)+2iA^{(i)}\right\}\cos(iD+M')
+\end{aligned}
+\]
+\noindent[wo \(g\) eine noch beliebig zu wählende Constante ist.
+
+Setzt man also:]
+\[
+\begin{aligned}
+2\int\partial R={}&2g+\Sigma\alpha^{(i)}\cos iD+\Sigma e\beta^{(i)}\cos(iD+M)\\
+&+\Sigma e'\gamma^{(i)}\cos((i+1)D+M')
+\end{aligned}
+\]
+\[
+\begin{aligned}
+{}[13]\quad Q={}&2g+\Sigma\mathfrak{A}^{(i)}\cos iD+\Sigma e\mathfrak{B}^{(i)}\cos(iD+M)\\
+&+\Sigma e'\mathfrak{C}^{(i)}\cos((i+1)D+M'),
+\end{aligned}
+\]
+\noindent[so haben die hier auftretenden Constanten folgende Werthe:]
+\[
+\begin{gathered}
+\alpha^{(i)}=\frac{i}{h}A^{(i)},\qquad[\alpha^{(0)}=0,]\qquad\mathfrak{A}^{(i)}=\alpha^{(i)}+\tfrac12 B^{(i)},\\[4pt]
+\beta^{(i)}=\frac{i+1}{h+1}(B^{(i)}-2iA^{(i)}),\qquad\mathfrak{B}^{(i)}=\beta^{(i)}+\tfrac12 C^{(i)}-iB^{(i)},\\[4pt]
+\gamma^{(i)}=\frac{i+1}{h+1}({}'B^{(i+1)}+2(i+1)A^{(i+1)}),\\
+\mathfrak{C}^{(i)}=\gamma^{(i)}+\tfrac12{}'C^{(i+1)}+(i+1)B^{(i+1)},
+\end{gathered}
+\]
+\noindent[wo gesetzt ist:]
+\[
+\begin{gathered}
+a\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a}\right)=B^{(i)},\qquad a'\left(\frac{\mathrm{d}A^{(i)}}{\mathrm{d}a'}\right)={}'B^{(i)},\\[4pt]
+a\left(\frac{\mathrm{d}B^{(i)}}{\mathrm{d}a}\right)=C^{(i)},\qquad a\left(\frac{\mathrm{d}{}'B^{(i)}}{\mathrm{d}a}\right)={}'C^{(i)},\qquad h=i(1-\theta).
+\end{gathered}
+\]
+
+[Übrigens ist auch]
+\[A^{(i)}+B^{(i)}+{}'B^{(i)}=0,\qquad B^{(i)}+C^{(i)}+{}'C^{(i)}=0.\]
+
+Daher
+\[
+\begin{gathered}
+\gamma^{(i)}=\frac{i+1}{h+1}\{-B^{(i+1)}+(2i+1)A^{(i+1)}\},\\
+\mathfrak{C}^{(i)}=\gamma^{(i)}-\tfrac12 C^{(i+1)}+(i+\tfrac12)B^{(i+1)},
+\end{gathered}
+\]
+\noindent[so dass die Coefficienten \({}'B^{(i)}\) und \({}'C^{(i)}\) nicht erst berechnet zu werden brauchen].
+\par\medskip\noindent\rule{\linewidth}{.4pt}
+
+\endgroup

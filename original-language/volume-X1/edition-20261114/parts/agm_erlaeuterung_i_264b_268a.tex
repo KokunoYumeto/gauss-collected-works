@@ -1,0 +1,99 @@
+\begingroup
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\fancyhead{}\fancyhead[R]{\small257}\fancyhead[C]{\scriptsize BEMERKUNGEN ZUM AGM. ABSCHNITT I.}
+\SourceLeaf{264b}
+\pdfbookmark[1]{Erläuterungen zu [I.]}{x1-agm-erlaeuterung-i}
+\begin{center}\textls[120]{Erläuterungen zu [I.], S. 172—176.}\end{center}
+\par\indent In der Formel [1] des art. [1.] bedeutet $\mathrm{Tm.}\,(1+x)$, was »Terminus medius ipsius $1+x$« zu lesen wäre, das agM. zwischen $1+x$ und $1$ also
+\begin{equation*}\tag*{$[1]'$}\mathrm{Tm.}\,(1+x)=M(1+x,1),\end{equation*}
+\noindent die für $|x|<1$ konvergente Potenzreihe findet sich (mit einer Methode für ihre Herleitung) im art. 5. der Abhandlung von 1800, Werke III, S. 365 Eine andere Methode, um zu dieser Reihenentwicklung zu gelangen, gibt \textsc{Pfaff} in seinem Briefe vom 24. November 1799 (siehe Briefwechsel [1.], S. 232, vergl. auch die unten folgenden Erläuterungen dazu). In [2] stellt \textsc{Gauss} die Umkehrung der Reihe [1] auf.
+\par\indent In [3] wird eine neue Funktion eingeführt, die \textsc{Gauss} als »Basis cuius modulus $u$« also als Umkehrung einer Funktion »Modulus« bezeichnet\textsuperscript{$\dagger$)}. Diese erscheint am Ende des art. [2.] als $\lambda(1+z)$, in dem der Scheda Ab entnommenen art. [3.] wird sie mit $l(1+x)$ bezeichnet. Die im art. [4.], Formel [8], oben S. 175 angedeutete Rechnung zeigt, daß, soweit die ersten Glieder in Betracht kommen,
+\begin{equation*}\tag*{$[3]'$}1+x=1+u+\frac{u^2}{4}+\frac{u^4}{448}-\frac{u^5}{2240}+\ldots\end{equation*}
+\noindent in der Tat die Umkehrung der Reihe
+\begin{equation*}\tag*{$[6]'$}u=l(1+x)=x-\frac{x^2}{4}+\frac{x^3}{8}-\frac9{112}x^4+\frac{131}{2240}x^5+\ldots\end{equation*}
+\vfill
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small\par\indent $\dagger$) Vergl. die Angabe zu Beginn des art. [1.]; die Reihe [3] liefert für $u=0{,}82781$ in der Tat angenähert den Wert $2$.\par}
+\noindent X1.\hfill33\par
+\clearpage
+\ArithmeticHead{258}{L}{ANALYSIS. NACHLASS.}
+\SourceLeaf{265}
+\noindent ist; die Addition der in [8] untereinander stehenden Reihen gibt nämlich $1+x$. Zu einer analytischen Definition der Funktion Basis cuius modulus $u$ oder $1+x$ führt die Darstellung [4], oben S. 172, von $x^2$. Danach ist nämlich
+\begin{equation*}\tag*{$[4]'$}x^2=u^2+\frac{u^3}{1\, .\,2}+\frac{u^4}{1\, .\,2\, .\,8}+\frac{u^5}{1\, .\,2\, .\,8\, .\,14}+\frac{u^6}{1\, .\,2\, .\,8\, .\,14\, .\,20}+\ldots,\end{equation*}
+\noindent also, wenn wir in bekannter Weise\textsuperscript{*)}
+\[
+P_u(k)=\int_0^u e^{-t}t^{k-1}dt=e^{-u}u^k\left\{\frac1k+\frac{u}{k(k+1)}+\frac{u^2}{k(k+1)(k+2)}+\ldots\right\}
+\]
+\noindent setzen,
+\begin{equation*}\tag*{$[4]''$}x^2=u^2+\frac{u^3}{1\, .\,2}\left\{1+e^{\frac u6}\left(\frac u6\right)^{-\frac13}P_{\frac u6}\left(\frac86\right)\right\}.\end{equation*}
+\noindent Hieraus folgt
+\[1+x=1+\sqrt{u^2+\frac{u^3}{2}\left(1+e^{\frac u6}\left(\frac u6\right)^{-\frac13}\int_0^{\frac u6}e^{-t}t^{\frac13}dt\right)}\]
+\noindent oder
+\begin{equation*}\tag*{$[3]''$}x=u\sqrt{1+\frac u2\left(1+e^{\frac u6}u^{-\frac13}\frac16\int_0^u e^{-\frac u6}u^{\frac13}du\right)}.\end{equation*}
+\noindent Hiernach besteht zwischen $x$ und $u$ die Differentialgleichung
+\begin{equation*}\tag*{$(\alpha)$}du(16x^2-4u^2+ux^2)=12uxdx.\end{equation*}
+\par\indent Die neuere Theorie der Differentialgleichungen erster Ordnung ermöglicht es, mit Hilfe dieser Differentialgleichung die \textsc{Gauss}schen Angaben zu bewahrheiten. Ich verdanke der Güte von J. \textsc{Horn} die folgende Analyse der Differentialgleichung $(\alpha)$.
+\par\indent »Setzt man $u=x(1+w)$, so verwandelt sich unsere Differentialgleichung in
+\begin{equation*}\tag*{$(\beta)$}x\frac{dw}{dx}=\frac{8w-x+12w^2-2xw+4w^3-xw^2}{12-8w+x-4w^2+xw},\end{equation*}
+\noindent die für kleine Werte von $x$ und $w$ die Form
+\[x\frac{dw}{dx}=\frac23w-\frac1{12}x+\ldots\]
+\noindent hat. Setzt man also $\xi=cx^{\frac23}$ ($c$ eine Konstante), so wird die Differentialgleichung $(\beta)$ durch eine Potenzreihe
+\[w=C_{10}x+C_{01}\xi+\ldots\]
+\noindent von $x$ und $\xi$ befriedigt, die für kleine $|x|$ und $|\xi|$ konvergiert. Für $c=0$ hat man die in der Umgebung von $x=0$ holomorphe Lösung
+\[w=C_1x+C_2x^2+C_3x^3+\ldots\]
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small\par\indent *) Vergl. z. B. \textsc{Niels Nielsen}, \textit{Handbuch der Theorie der Gammafunktion}, Leipzig 1906, S. 25, l. (1), S. 28, Gl. (4), S. 210, Gl. (1).\par}
+\clearpage
+\fancyhead{}\fancyhead[R]{\small259}\fancyhead[C]{\scriptsize BEMERKUNGEN ZUM AGM. ABSCHNITT I.}
+\SourceLeaf{266}
+\noindent Bestimmt man in dieser die Koeffizienten $C_1,C_2,C_3,\ldots$ durch Einsetzen in die Differentialgleichung und geht dann zu $u=x(1+w)$ zurück, so findet man für $u$ in der Tat die Reihe $[6]'$. — Andererseits lautet für $x^2=X$ die Differentialgleichung $(\alpha)$:
+\[6u\frac{dX}{du}=(16+u)X-4u^2;\]
+\noindent sie hat die Lösung
+\[X=Cu^{\frac83}e^{\frac u6}+\sum_{n=2}^{\infty}c_nu^n,\]
+\noindent wo $C$ willkürlich, $c_2=1$, $(6n-16)c_n=c_{n-1}$. Für $C=0$ ergibt sich für $X$ die \textls[120]{beständig konvergente} Potenzreihe $[4]'$.«
+\par\indent Soweit die Mitteilung von \textsc{Horn}.
+\par\indent Die Beziehung, in der die Funktion $l(1+x)$ zum agM. steht, kann aus dem art. [3.] entnommen werden. Die in [5], oben S. 174, untereinander geschriebenen Reihen geben addiert
+\[\frac12x-\frac18x^2+\frac1{16}x^3-\frac9{224}x^4+\ldots,\]
+\noindent d. h. $\frac12l(1+x)$. Setzt man also die Reihe [7]
+\[z=\mathrm{Tm.}\,(1+x)-1=\frac12x+\frac1{16}xx+\frac1{32}x^3-\frac{21}{1024}x^4+\ldots\]
+\noindent in $l(1+x)$ an die Stelle von $x$ ein, so ist
+\begin{equation*}\tag*{$[5]'$}l(1+z)=\frac12l(1+x).\end{equation*}
+\noindent Im art. [5.] wird diese Gleichung in etwas anderer Form ausdrücklich angegeben. Das $y$ der dortigen Gleichung [12], oben S. 175, ist nämlich mit dem $x$ der Gleichung [2] des art. [1.] identisch, d. h. $y$ ist mit $z$ durch die Gleichung
+\[1+z=\mathrm{Tm.}\,(1+y)=M(1+y,1)\]
+\noindent verknüpft; läßt man also $\varphi z$ dasselbe bedeuten wie $l(1+z)$, so stimmt die Gleichung [13] vollständig mit $[5]'$ überein.
+\par\indent Wir wollen nun in diese Funktionalgleichung $[5]'$ noch die inverse Funktion von $u=l(1+x)$ einführen, die Funktion also, die \textsc{Gauss} in den artt. [1.] und [2.] \textls[120]{Basis cuius modulus} $=u$ nennt, und im art. [2.], S. 173 mit
+\[\varepsilon^{*u*}=1+x=1+\sqrt{u^2+\frac12u^3+\frac1{16}u^4+\ldots}=1+u+\frac{u^2}{4}+\frac{u^4}{448}-\ldots\]
+\noindent bezeichnet\textsuperscript{*)}; es ist also hier $x^2$ eine \textls[120]{ganze transzendente Funktion} von $u$, vergl. oben die Gleichungen $[4]'$ und $[4]''$. Die Gleichung $[5]'$ ergibt dann die Darstellung
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small\par\indent *) Daß $\varepsilon^{*u*}$ tatsächlich diese Bedeutung hat, ergibt sich daraus, daß die Reihe für $\surd(\varepsilon^{*t*})$ ins Quadrat erhoben die Reihe $1+t+\frac{t^2}{4}+\frac{t^4}{448}+\ldots$ liefert, und daß auch die numerischen Werte von $\varepsilon^{*0{,}1*}$, ferner von $\varepsilon=\varepsilon^{*1*}$ und von $\varepsilon^{-1}=\varepsilon^{*-1*}$ stimmen. Wie $l(1+x)$ an den Logarithmus, so soll also die inverse Funktion an die Exponentialfunktion erinnern. Im art. [4.], S. 175, wird in [9] der Versuch gemacht, einen unmittelbaren Zusammenhang zwischen den Funktionen $l(1+x)$ und $\log(1+x)$ herzustellen; die Addition der untereinander geschriebenen Reihen gibt nämlich\par}
+\begin{flushright}33\textsuperscript{*}\end{flushright}
+\clearpage
+\ArithmeticHead{260}{L}{ANALYSIS. NACHLASS.}
+\SourceLeaf{267}
+\begin{equation*}\tag*{$[5]''$}1+x=\varepsilon^{*u*},\qquad\mathrm{Tm.}\,(1+x)=1+z=\varepsilon^{*\frac u2*}\end{equation*}
+\noindent die \textsc{Gauss} vermutlich vor Augen hatte, als er die hier angewandten Bezeichnungen einführte. Man kann die Bedeutung der in dem Abschnitt [I.] enthaltenen Aufzeichnungen wohl darin sehen, daß \textsc{Gauss} \textls[120]{die durch die Darstellung} $[5]''$ \textls[120]{bewirkte Uniformisierung des agM.} $M(1+x,1)$ \textls[120]{angestrebt hat.} Daß er diesen Weg später verlassen hat, zeigt, daß ihm dessen Mängel bewußt geworden sind. Die Uniformisierung $[5]''$ gilt nämlich nur für den in der Umgebung von $x=0$ durch die Reihe [1] dargestellten Zweig von $M(1+x,1)$, wie auch die Funktionalbeziehung $[5]'$ auf die Konvergenzbereiche der Reihen für $z$ und für $l(1+x)$ beschränkt ist. Wie \textsc{Gauss} zu der Erkenntnis gelangt sein mag, daß der hier befolgte Gedankengang unzulänglich ist, ließ sich aus dem uns überkommenen Nachlaß ebenso wenig feststellen, wie der Ursprung der Funktion $l(1+x)$. Charakteristisch ist, daß \textsc{Gauss} sich hier der bloßen Induktion bedient, indem er Reiheninversionen, Einsetzen einer Reihe in eine andere u.s.w. durch die Berechnung der 4 bis 5 ersten Glieder erledigt; es weist dies auf eine sehr frühe Abfassungszeit hin.
+\par\indent Der Zettel, dem die artt. [1.] und [2.] entstammen und der die Überschrift trägt, die hier dem ganzen Abschnitt [I.] vorangestellt wurde, ist die älteste Aufzeichnung über das agM., die wir besitzen, und jedenfalls die erste, in der die Bezeichnung »agM.« gebraucht wird\textsuperscript{*)}; er dürfte älter sein als die Aufzeichnungen artt. [3.]—[5.] der Scheda Ab, die aus den ersten Monaten des Jahres 1799 stammen\textsuperscript{**)}. In der Scheda Ab werden auch andere Bezeichnungen gebraucht als auf dem Zettel, so heißt die Funktion »Modulus von $1+x$« auf dem Zettel (siehe art. [2.]) $\lambda(1+x)$, in der Scheda Ab (siehe art. [3.]) dagegen $l(1+x)$ und für das agM. wird statt des Tm. des Zettels (art. [1.]) in der Scheda Ab (art. [5.]) die auch später beibehaltene Bezeichnung $M$ benutzt.
+\par\indent Besonders bemerkenswert ist, daß auf S. 26 der Scheda Ab (siehe den art. [5.], S. 176) zum ersten Male der \textls[120]{reziproke Wert} des agM. erscheint. In seiner Abhandlung aus dem Jahre 1800 (aus dem Nachlaß abgedruckt Werke III, S. 361) vollzieht \textsc{Gauss} den Übergang vom agM. selbst zu seinem reziproken Werte im art. 6 (a. a. O., S. 366, 367) und kündigt ihn am Schluß des art. 5 (a. a. O., S. 366) mit folgenden Worten an: »Quum hi coefficientes\textsuperscript{***)} legem obviam non exhibeant, has series praetergredimur aliamque viam tentamus, quae successum feliciorem praestabit«. In diesen Worten spricht sich ein Erlebnis aus, und dieses kann nichts anderes sein, als die in der Tagebuchnotiz Nr. 98 vom 30. Mai 1799 niedergelegte Bemerkung:
+\begin{quote}»Terminum medium arithmetico-geometricum inter $1$ et $\surd2$ esse $=\dfrac\pi\varpi$ usque ad figuram undecimam comprobavimus, qua re demonstrata prorsus novus campus in analysi certo aperietur«\end{quote}
+\noindent die ja in dem besonderen Falle von $M(\surd2,1)$ die Bedeutung gerade des reziproken Wertes dieser Größe hervortreten läßt. Beachtet man, daß in der Scheda Ab, nämlich im art. [3.], oben S. 174, das agM. zwischen
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small
+\[x-\frac14x^2+\frac18x^3-\frac9{112}x^4+\frac{131}{2240}x^5+\ldots=l(1+x).\]
+\noindent Übrigens reduziert sich die oben von uns für die Darstellung von $x^2$ herangezogene Funktion $P_u(k)$ für $k=1$ auf $1-e^{-u}$.
+\par\indent *) Die linke obere Ecke dieses Zettels ist abgerissen, dadurch sind die in eckigen Klammern befindlichen Ergänzungen in der Überschrift S. 172, ferner in der ersten und dritten Textzeile auf S. 173 nötig geworden.
+\par\indent **) Die Scheda Ab enthält nämlich auf S. 3 das Datum 1798, Nov. 28, auf S. 4, Dec. 10 und auf S. 5, 1799, Febr. 5. Unsere Aufzeichnungen beginnen auf S. 20.
+\par\indent ***) Gemeint sind die Koeffizienten der Reihe [1] (oben S. 172) für $M(1+x,1)$.
+\par}
+\clearpage
+\fancyhead{}\fancyhead[R]{\small261}\fancyhead[C]{\scriptsize BEMERKUNGEN ZUM AGM. ABSCHNITT II.}
+\SourceLeaf{268a}
+\noindent $1$ und $\surd2$ vorkommt\textsuperscript{*)}, so wird es zur Gewißheit, daß diese Bemerkung über $M(\surd2,1)$\textsuperscript{**)} den Schritt ausgelöst hat, der auf jene verheißungsvolle »alia via« hinüberführte, und daß unsere Aufzeichnungen der Scheda Ab gerade in jenen letzten Maitagen des Jahres 1799 entstanden sind. Was die Entwicklungen des Zettels, d. h. die artt. [1.] und [2.], anlangt, so bietet sich für ihre Datierung kein sicherer Anhaltspunkt; sollte das $l(1+x)$ der Tagebuchnotiz Nr. 83 mit der durch die Reihe [6] definierten Funktion übereinstimmen, so müßte der Zettel vor dem April 1798 geschrieben sein, andernfalls könnte er mit der Tagebuchnotiz Nr. 95 vom Oktober 1798 in Verbindung gebracht werden, in der ja wie auch in der Nr. 98 der »novus in analysi campus« erwähnt wird.
+\par\indent Die in den Abschnitten [II.], [III.], [IV.] zusammengestellten Aufzeichnungen zeigen das zielbewußte Fortschreiten auf dem nach dem 30. Mai 1799 eingeschlagenen Wege und die Eröffnung des neuen Feldes der Analysis: der Theorie der Modulfunktion und der elliptischen Funktionen. — Vergl. den Abschnitt III. des Aufsatzes »Über \textsc{Gauss}’ Arbeiten zur Funktionentheorie«, Werke X2.
+\vfill
+\par\smallskip\noindent\rule{.25\linewidth}{.4pt}\par
+{\small
+\par\indent *) Die Zahl $0{,}19814$ ist $M(\surd2,1)-1$ auf fünf Dezimalstellen, vergl. Werke III, S. 364, Exemplum 4.
+\par\indent **) Wie aus dem bereits erwähnten Briefe [1.], S. 232 von \textsc{Pfaff} hervorgeht, hat \textsc{Gauss} diese Bemerkung an \textsc{Pfaff} brieflich mitgeteilt.
+\par}
+\clearpage
+\endgroup

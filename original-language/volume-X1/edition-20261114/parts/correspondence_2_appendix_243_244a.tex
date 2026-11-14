@@ -1,0 +1,72 @@
+\begingroup
+\ArithmeticHead{236}{L}{ANALYSIS. BRIEFWECHSEL.}
+\SourceLeaf{243}
+\pdfbookmark[1]{Anhang zu [2.]: Schumachers Gaussiana}{x1-correspondence-2-appendix}
+\HistoricTitle{Anhang zu [2.]}
+\HistoricCitation{[Aus H. C. \textsc{Schumachers} Tagebuch \textit{Gaussiana}, Göttingen, November 1808.]}
+\par\indent \{$A$ und $B$ sein zwei beliebige Grössen; man bilde eine Reihe, in der alle folgenden Glieder wechselweise aus dem arithmetischen und geometrischen Mittel der zwei vorher gehenden bestehen, also so:
+\[
+a,\ b,\ \frac{a+b}{2},\ \surd\frac{ab+b^2}{2},\ \frac{a+b+\surd2b(a+b)}4,\ldots\}
+\]
+\ClosingRule
+\begin{flushright}\small
+\{Erhalten von \textsc{Gauss} den $2^{\mathrm{ten}}$\\
+December 1808 Göttingen\\
+H. C. S.\}
+\end{flushright}
+\par\indent Man bestimme $t$ und $u$ so, dass die erste Grösse $A$ (die grössere) $=\dfrac{tt+1}{tt-1}u$, die andre Grösse $B$ (die kleinere) $=\dfrac{2t}{tt-1}u$ wird. Es wird also
+\[
+\begin{aligned}
+A'&=\tfrac12(A+B)=\frac{tt+2t+1}{tt-1}.\frac u2\\[.6em]
+B'&=\frac{t+1}{tt-1}.u\surd t
+\end{aligned}
+\]
+\noindent werden, oder
+\[
+A'=\frac{t+1}{t-1}.\frac u2\qquad B'=\frac{2\surd t}{t-1}.\frac u2\mathpunct{\raisebox{.5ex}{.}}
+\]
+\noindent Hieraus ist klar, dass wenn man $t=t't'$, $u=2u'$ setzt,
+\[
+A'=\frac{t't'+1}{t't'-1}u'\qquad B'=\frac{2t'}{t't'-1}u'
+\]
+\noindent wird, welche Ausdrücke denen für $A$ und $B$ ganz analog sind.
+
+\par\indent Es ist aber klar, dass wenn man ferner
+\[
+\begin{array}{ll}
+t'=t''t''&u'=2u''\\
+t''=t'''t'''&u''=2u'''\\
+\multicolumn{2}{c}{\text{etc.}}
+\end{array}
+\]
+\noindent macht, $A''$, $B''$ eben so durch $t''$, $u''$ und $A'''$, $B'''$ eben so durch $t'''$, $u'''$ bestimmt werden, wie $A$, $B$ durch $t$, $u$, also allgemein
+\clearpage
+\ArithmeticHead{237}{R}{\scriptsize AUS SCHUMACHERS GAUSSIANA.}
+\SourceLeaf{244}
+\newcommand{\IndexStrokeRoot}[1]{{}^{\underline{#1}}\!\surd}
+\[
+A^n=\frac{\IndexStrokeRoot{2^{n-1}}t+1}{\IndexStrokeRoot{2^{n-1}}t-1}.\frac u{2^n}
+\qquad
+B^n=\frac{\IndexStrokeRoot{2^n}t}{\IndexStrokeRoot{2^{n-1}}t-1}.\frac u{2^{n-1}}\mathpunct{\raisebox{.5ex}{.}}
+\]
+\noindent Nun ist für $i=\infty$
+\[
+i({}^i\!\surd t-1)=\log\operatorname{hyp}t
+\]
+\noindent und also für $n=\infty$
+\[
+B^\infty=\frac u{\log t}=A^\infty.
+\]
+\noindent Zur Bestimmung von $t$ und $u$ hat man übrigens $B(tt+1)=2At$ oder
+\[
+t=\frac AB+\surd\left(\frac{AA}{BB}-1\right)
+\]
+\noindent wenn für $t$ die grössere Wurzel genommen wird, also
+\[
+u=\surd(AA-BB)
+\]
+\[
+A^\infty=B^\infty=\frac{\surd(AA-BB)}{\log\left\{\dfrac AB+\surd\left(\dfrac{AA}{BB}-1\right)\right\}}\mathpunct{\raisebox{.5ex}{.}}
+\]
+\clearpage
+\endgroup

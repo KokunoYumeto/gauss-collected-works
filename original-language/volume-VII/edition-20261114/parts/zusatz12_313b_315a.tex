@@ -1,0 +1,71 @@
+\needspace{10\baselineskip}
+\begin{center}
+\pdfbookmark[1]{12. Zu Art. 183.}{zusatz-012}
+[12. Zu Art. 183.]
+\end{center}
+\begin{center}
+Bestimmung der wahrscheinlichen Fehler der Resultate\\
+der Methode der kleinsten Quadrate.
+\end{center}
+Man setze, der Algorithmus, welcher im I. Bde der G[öttinger] C[ommenta\-tiones: Disquisitio de elementis ellipticis Palladis, Werke, Band VI, S. 21--22] ge\-lehrt ist, führe auf folgende Gleichungen zur Bestimmung der unbekannten \SourceLeaf{314}Grössen \(p,q,r,s\)
+\[
+\begin{aligned}
+\relax[A=]\;0&=\lambda+\alpha p+\beta q+\gamma r+\delta s\\
+[B=]\;0&=\lambda'\phantom{+\alpha p}+\beta'q+\gamma'r+\delta's\\
+[C=]\;0&=\lambda''\phantom{+\alpha p+\beta q}+\gamma''r+\delta''s\\
+[D=]\;0&=\lambda'''\phantom{+\alpha p+\beta q+\gamma r}+\delta'''s.
+\end{aligned}
+\]
+
+Man bestimme \(\pi,\chi,\rho,\sigma\) durch die Gleichungen
+\[
+\begin{aligned}
+&\alpha\pi=\text{Wahrsch. Beob.-Fehler}\\
+&\beta\pi+\beta'\chi=0\\
+&\gamma\pi+\gamma'\chi+\gamma''\rho=0\\
+&\delta\pi+\delta'\chi+\delta''\rho+\delta'''\sigma=0,
+\end{aligned}
+\]
+so ist der wahrscheinliche Fehler von \(p\):
+\[
+\BareRoot{(\alpha\pi\pi+\beta'\chi\chi+\gamma''\rho\rho+\delta'''\sigma\sigma)}.
+\]
+Noch zierlicher so: Aus den Gleichungen
+\[
+\begin{aligned}
+\alpha p+\beta q+\gamma r+\delta s&=u\\
+\beta'q+\gamma'r+\delta's&=u'\\
+\gamma''r+\delta''s&=u''\\
+\delta'''s&=u'''
+\end{aligned}
+\]
+entstehe durch Elimination
+\[
+\begin{aligned}
+p&=p^0u+p'u'+p''u''+p'''u'''\\
+q&=\phantom{p^0u+{}}q'u'+q''u''+q'''u'''\\
+r&=\phantom{p^0u+p'u'+{}}r''u''+r'''u'''\\
+s&=\phantom{p^0u+p'u'+p''u''+{}}s'''u''';
+\end{aligned}
+\]
+sodann sind die wahrscheinlichsten Werthe
+\[
+\begin{aligned}
+-p&=p^0\lambda+p'\lambda'+p''\lambda''+p'''\lambda'''\\
+-q&=\phantom{p^0\lambda+{}}q'\lambda'+q''\lambda''+q'''\lambda'''\\
+-r&=\phantom{p^0\lambda+p'\lambda'+{}}r''\lambda''+r'''\lambda'''\\
+-s&=\phantom{p^0\lambda+p'\lambda'+p''\lambda''+{}}s'''\lambda'''
+\end{aligned}
+\]
+und die wahrscheinlichen Fehler dieser Bestimmungen, den wahrscheinlichen Fehler der Beobachtungen \(=1\) gesetzt:
+\SourceLeaf{315}
+\[
+\begin{aligned}
+\text{für }p\;\text{. . . . .}\quad&\BareRoot{(\alpha p^0p^0+\beta'p'p'+\gamma''p''p''+\delta'''p'''p''')}\\[5pt]
+\text{» }q\;\text{. . . . .}\quad&\BareRoot{(\beta'q'q'+\gamma''q''q''+\delta'''q'''q''')}\\[5pt]
+\text{» }r\;\text{. . . . .}\quad&\BareRoot{(\gamma''r''r''+\delta'''r'''r''')}\\[5pt]
+\text{» }s\;\text{. . . . .}\quad&s'''\BareRoot{\delta'''}=\BareRoot{\frac{1}{\delta'''}}\\[10pt]
+\text{» }r\;\text{. . . . .}\quad&\BareRoot{\left(\frac{1}{\gamma''}+\frac{\delta''\delta''}{\gamma''\gamma''\delta'''}\right)}\mathpunct{\cdot}
+\end{aligned}
+\]
+\begin{center}\rule{.18\textwidth}{.35pt}\end{center}

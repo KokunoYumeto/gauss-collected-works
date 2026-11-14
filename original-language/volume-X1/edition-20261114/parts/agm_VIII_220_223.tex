@@ -1,0 +1,132 @@
+% Werke X/1 (1917), native220–223, printed213–216.
+\begingroup
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\clearpage\SourceLeaf{220}\NoSourceHead
+\SourceGroup{VIII}
+\HistoricTitle{[DER BILINEARE ALGORITHMUS.]}
+\HistoricCitation{[Aus Scheda An, Cereri, Palladi, Iunoni sacrum, Febr.\ 1805.]}
+\NumberedItem{1}
+\noindent [S.\ 37]
+\par\indent Es sind gegeben vier Grössen \(a,b,A,B\); man bildet daraus nach folgender Ordnung
+{\small\setlength{\arraycolsep}{3pt}
+\[\begin{array}{lllll}
+2a'=a+b,&b'b'=ab,&cc=aa-bb,&c=\frac12({}'a-{}'b),&cc=4a'c',\\[.5em]
+2a''=a'+b',&b''b''=a'b',&c'^{2}=a'^{2}-b'^{2},&c'=\frac12(a-b),&c'^{2}=4a''c'',\\[.5em]
+2a'''=a''+b'',&b'''^{2}=a''b'',&c''^{2}=a''^{2}-b''^{2},&c''=\frac12(a'-b'),&c''^{2}=4a'''c'''
+\end{array}\]
+\begin{center}etc.\end{center}}
+\[\text{Grenze}=h.\]
+\par\indent Man mache
+\begin{equation*}\tag*{[1]}
+\left\{\begin{aligned}
+x^2&=\frac{c}{4a'^{\frac12}a''^{\frac14}a'''^{\frac18}\ldots}
+=\frac{ca'^{\frac12}a''^{\frac14}a'''^{\frac18}\ldots}{4a'a''^{\frac12}a'''^{\frac14}\ldots}\\[.8em]
+&=\frac{c}{4a'}\left(\frac{a'}{a''}\right)^{\frac12}\left(\frac{a''}{a'''}\right)^{\frac14}\left(\frac{a'''}{a^{\mathrm{IV}}}\right)^{\frac18}\ldots\\[.8em]
+&=\frac{cb'^{\frac12}b''^{\frac14}\ldots}{4b''b'''^{\frac12}\ldots}
+\end{aligned}\right.
+\end{equation*}
+\[x^4=\frac{a-b}{8a''}\left(\frac{a''}{a'''}\right)^{\frac12}\left(\frac{a'''}{a^{\mathrm{IV}}}\right)^{\frac14}\text{etc.,}\]
+\noindent so ist
+\begin{equation*}\tag*{[2]}
+\left\{\begin{aligned}
+a&=h(1+2x^4+2x^{16}+2x^{36}+\ldots)^2\\
+b&=h(1-2x^4+2x^{16}-2x^{36}+\ldots)^2\\
+c&=h(2x+2x^9+2x^{25}+\ldots)^2.
+\end{aligned}\right.
+\end{equation*}
+\clearpage\SourceLeaf{221}\ArithmeticHead{214}{L}{ANALYSIS.\quad NACHLASS.}
+\noindent Ferner
+\begin{equation*}\tag*{[3]}
+\left\{\begin{gathered}
+\begin{array}{ll}
+A'=\frac12(A+B),& B'=\dfrac{2ABa'}{b'(A+B)}\\[.7em]
+A''=\frac12(A'+B'),& B''=\dfrac{2A'B'a''}{b''(A'+B')}\\[.7em]
+A'''=\frac12(A''+B''),& B'''=\dfrac{2A''B''a'''}{b'''(A''+B'')}
+\end{array}\\
+\text{etc.}
+\end{gathered}\right.
+\end{equation*}
+\noindent Man bestimme \(H\) durch die Gleichung
+\begin{equation*}\tag*{[4]}
+H=\frac{hA'^{\frac12}A''^{\frac14}A'''^{\frac18}\ldots}{a'^{\frac12}a''^{\frac14}a'''^{\frac18}\ldots}
+=\frac{chA'^{\frac12}A''^{\frac14}A'''^{\frac18}\ldots}{4x}
+\end{equation*}
+\noindent und \(y\) durch [die weiter unten folgende Gleichung [7]], so ist
+\begin{equation*}\tag*{[5]}
+\left\{\begin{aligned}
+A&=H\left(1+\left(y+\frac1y\right)x^4+\left(yy+\frac1{yy}\right)x^{16}+\text{etc.}\right)^2\\[.5em]
+B&=H\left(1-\left(y+\frac1y\right)x^4+\left(yy+\frac1{yy}\right)x^{16}-\text{etc.}\right)^2
+\end{aligned}\right.
+\end{equation*}
+\NumberedItem{2}
+\noindent [S.\ 38]
+\[\begin{gathered}
+\frac ba=\cos2M,\quad\frac{a'}a=\cos M^2\\[.4em]
+\frac{b'}{a'}=\cos2M'\\
+\text{etc.}
+\end{gathered}\]
+\[\operatorname{tg}M^2=\sin2M'\]
+\[a^\infty=a\cos M^2\cos M'^{2}\cos M''^{2}\text{ etc.}\]
+\begin{equation*}\tag*{[6]}
+\left\{\begin{gathered}
+\sin\varphi\;\surd\sin2M=\operatorname{tg}\psi\\
+\sin\varphi'\;\surd\sin2M'=\operatorname{tg}\psi'\\
+\sin\varphi''\;\surd\sin2M''=\operatorname{tg}\psi''\\
+\text{etc.}\\
+\sin2\psi'=\operatorname{tg}\psi\;\surd\sin2M
+\end{gathered}\right.
+\end{equation*}
+\[\frac{\sin\varphi'}{\sin\varphi}=\frac{\cos M^2}{\cos\psi'^{2}}\]
+\clearpage\SourceLeaf{222}\ArithmeticHead{215}{R}{DER BILINEARE ALGORITHMUS.}
+{\small
+\[\begin{aligned}
+\sin\varphi^\infty&=\sin\varphi\frac{\cos M^2.\cos M'^{2}.\cos M''^{2}\ldots}{\cos\psi'^{2}.\cos\psi''^{2}.\cos\psi'''^{2}\ldots}\\
+&=\frac{a^\infty\sin\varphi}{a\cos\psi'^{2}.\cos\psi''^{2}.\cos\psi'''^{2}\ldots}
+\end{aligned}\]}
+\noindent [Es folgt ein Beispiel \(2M=75^0\)]
+\ClosingRule
+\par\medskip\noindent [S.\ 39]
+\[\begin{aligned}
+xx&=\frac{\sin2M}{4\cos M^2.\cos M'.\cos M''^{\frac12}.\cos M'''^{\frac14}\ldots}\\[.6em]
+&=\frac{\operatorname{tang}M}{2\cos M'.\cos M''^{\frac12}.\cos M'''^{\frac14}\ldots}
+\end{aligned}\]
+\[\frac{2x+2x^9+\ldots}{1+2x^4+\mathord{.}\;\mathord{.}}=\surd\sin2M\]
+\[\frac{1-2x^4+2x^{16}+\ldots}{1+2x^4+2x^{16}+\ldots}=\surd\cos2M\]
+\[\frac{\left(y+\frac1y\right)x+\left(y^3+\frac1{y^3}\right)x^9+\ldots}{1+\left(yy+\frac1{yy}\right)x^4+\left(y^4+\frac1{y^4}\right)x^{16}+\ldots}=\operatorname{tg}\psi\]
+\begin{equation*}\tag*{[7]}y+\frac1y=2\sin\varphi^{(\infty)}\end{equation*}
+\noindent [Es folgen Zahlenrechnungen].
+\NumberedItem{3}
+\noindent [S.\ 40]
+\par\indent Eine andere Manier:
+\[\begin{aligned}
+\operatorname{tg}\omega&=\operatorname{tg}\varphi\;\surd(1-\sin2M^2.\sin\varphi^2)\\[.6em]
+\operatorname{tg}\omega'&=\operatorname{tg}2\omega.\surd\cos2M=\operatorname{tg}2\omega.\surd\frac ba\\[.6em]
+\operatorname{tg}\omega''&=\operatorname{tg}2\omega'.\surd\cos2M'=\operatorname{tg}2\omega'.\surd\frac{b'}{a'}\\[.6em]
+\operatorname{tg}\omega'''&=\operatorname{tg}2\omega''.\surd\cos2M''=\operatorname{tg}2\omega''.\surd\frac{b''}{a''}
+\end{aligned}\]
+\begin{center}etc.\end{center}
+\noindent Dann ist \(\varphi^\infty\) das letzte Glied der Reihe \(\omega,\;\frac12\omega',\;\frac14\omega'',\;\frac18\omega'''\) etc.
+\clearpage\SourceLeaf{223}\ArithmeticHead{216}{L}{ANALYSIS.\quad NACHLASS.}
+{\small
+\begin{equation*}\tag*{[8]}
+\sin\varphi=\frac{1+2x^4+\ldots}{2x+2x^9+\ldots}.
+\frac{\left(y+\frac1y\right)x+\left(y^3+\frac1{y^3}\right)x^9+\ldots}{1+\left(yy+\frac1{yy}\right)x^4+\ldots}
+\end{equation*}
+\[\begin{gathered}
+\surd(1-\sin2M^2.\sin\varphi^2)=\\[-.5em]
+\frac{\surd\,1-2xx+2x^8+\ldots)\;\surd\left(1-xx\left(yy+\frac1{yy}\right)+x^8\left(y^4+\frac1{y^4}\right)+\ldots\right)}{1+\left(yy+\frac1{yy}\right)x^4+\ldots}
+\end{gathered}\]}
+\noindent [Es folgen Umformungen der hier auftretenden Reihen in Produkte, die in der Abhandlung Werke III, S.\ 446 ff.\ viel ausführlicher und übersichtlicher dargestellt sind, und die darum nicht abgedruckt werden; auf derselben Seite steht noch unten die Formel:]
+{\small
+\begin{equation*}\tag*{[9]}
+\begin{aligned}
+\operatorname{tang}\varphi={}&\left[\frac1i.\right]
+\frac{\left(y+\frac1y\right)x+\left(y^3+\frac1{y^3}\right)x^9+\ldots}{\left(y-\frac1y\right)x-\left(y^3-\frac1{y^3}\right)x^9+\ldots}\\[.6em]
+&.\frac{1+2x^4+2x^{16}+\ldots}{1-2x^4+2x^{16}-\ldots}\;\text{[*)]}
+\end{aligned}
+\end{equation*}}
+\par\medskip\noindent\rule{.25\linewidth}{.4pt}
+\par\smallskip\noindent [*) In der Handschrift lautet der zweite Faktor
+\[\frac{1-2x^4+2x^{16}\ldots}{1+2x^4-2x^{16}\ldots}\mathpunct{\raisebox{.5ex}{.}}\Bigr]\]
+\ClosingRule
+\clearpage\endgroup

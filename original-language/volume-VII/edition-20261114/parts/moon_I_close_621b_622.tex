@@ -1,0 +1,156 @@
+\clearpage
+\begingroup
+\fancyhead[L]{\small THEORIE DER BEWEGUNG DES MONDES.}
+\renewcommand{\headrulewidth}{0pt}
+\par\noindent Hieraus folgt
+\[
+\begin{aligned}
+0&=\frac{\mathrm{dd}(x-x')}{\mathrm{d}t^2}
+  +\frac{(m+m')(x-x')}{R''^3}\\
+ &\qquad+m''\left\{\frac{x-x'}{R'^3}
+  -(x''-x')\left(\frac{1}{R'^3}-\frac{1}{R^3}\right)\right\}\\[5pt]
+0&=\frac{\mathrm{dd}(y-y')}{\mathrm{d}t^2}
+  +\frac{(m+m')(y-y')}{R''^3}\\
+ &\qquad+m''\left\{\frac{y-y'}{R'^3}
+  -(y''-y')\left(\frac{1}{R'^3}-\frac{1}{R^3}\right)\right\}\\[5pt]
+0&=\frac{\mathrm{dd}(z-z')}{\mathrm{d}t^2}
+  +\frac{(m+m')(z-z')}{R''^3}\\
+ &\qquad+m''\left\{\frac{z-z'}{R'^3}
+  -(z''-z')\left(\frac{1}{R'^3}-\frac{1}{R^3}\right)\right\}
+  \mathpunct{\raisebox{.4ex}{.}}
+\end{aligned}
+\]
+
+\par\noindent\hspace*{\parindent}Endlich bezeichnen wir Länge des Mondes und der Sonne, vom Mittelpunkt
+der Erde gesehen und vom Frühlingsnachtgleichepunkt zur Zeit \(T\)
+gezählt, durch \(v\), \(V\), Breite des Mondes durch \(\beta\), und setzen
+\(\operatorname{tang}\beta=\theta\), \(R''\cos\beta=r\), \(\frac{1}{r}=p\). Aus
+diesen Voraussetzungen folgt leicht
+\[
+\begin{array}{lll}
+x-x'=r\cos v=\dfrac{\cos v}{p},&
+y-y'=\dfrac{\sin v}{p},&z-z'=\dfrac{\theta}{p}\\[5pt]
+x''-x'=R\cos V,&y''-y'=R\sin V,&
+\end{array}
+\]
+\noindent\(z''-z'=0\) (weil wir die Breite der Sonne \(=0\) voraussetzen).
+
+\par\noindent\hspace*{\parindent}Durch Substitution dieser Werthe in obigen Gleichungen erhalten wir
+folgende neue:
+\[
+\begin{aligned}
+0&=-\frac{\cos v\, .\,\mathrm{dd}p}{pp\,\mathrm{d}t^2}
+  +\frac{2\cos v\, .\,\mathrm{d}p^2}{p^3\mathrm{d}t^2}
+  +\frac{2\sin v\, .\,\mathrm{d}p\mathrm{d}v}{pp\,\mathrm{d}t^2}\\
+ &\qquad-\frac{\sin v\, .\,\mathrm{dd}v}{p\,\mathrm{d}t^2}
+  -\frac{\cos v\, .\,\mathrm{d}v^2}{p\,\mathrm{d}t^2}
+  +\frac{(m+m')pp\cos v}{(1+\theta\theta)^{\frac{3}{2}}}\\
+ &\qquad+m''\left\{\frac{\cos v}{pR'^3}
+  -R\cos V\left(\frac{1}{R'^3}-\frac{1}{R^3}\right)\right\}\\[6pt]
+0&=-\frac{\sin v\, .\,\mathrm{dd}p}{pp\,\mathrm{d}t^2}
+  +\frac{2\sin v\, .\,\mathrm{d}p^2}{p^3\mathrm{d}t^2}
+  -\frac{2\cos v\, .\,\mathrm{d}p\mathrm{d}v}{pp\,\mathrm{d}t^2}\\
+ &\qquad+\frac{\cos v\, .\,\mathrm{dd}v}{p\,\mathrm{d}t^2}
+  -\frac{\sin v\, .\,\mathrm{d}v^2}{p\,\mathrm{d}t^2}
+  +\frac{(m+m')pp\sin v}{(1+\theta\theta)^{\frac{3}{2}}}\\
+ &\qquad+m''\left\{\frac{\sin v}{pR'^3}
+  -R\sin V\left(\frac{1}{R'^3}-\frac{1}{R^3}\right)\right\}\\[6pt]
+0&=-\frac{\theta\mathrm{dd}p}{pp\,\mathrm{d}t^2}
+  +\frac{2\theta\mathrm{d}p^2}{p^3\mathrm{d}t^2}
+  -\frac{2\mathrm{d}p\mathrm{d}\theta}{pp\,\mathrm{d}t^2}
+  +\frac{\mathrm{dd}\theta}{p\,\mathrm{d}t^2}\\
+ &\qquad+\frac{(m+m')pp\theta}{(1+\theta\theta)^{\frac{3}{2}}}
+  +\frac{m''\theta}{pR'^3}\mathpunct{\raisebox{.4ex}{.}}
+\end{aligned}
+\]
+
+\par\noindent\hspace*{\parindent}Die Combination dieser Gleichungen gibt uns folgende:
+\[
+\begin{aligned}
+0&=-\frac{\mathrm{dd}p}{\mathrm{d}t^2}
+  +\frac{2\mathrm{d}p^2}{p\,\mathrm{d}t^2}
+  -\frac{p\,\mathrm{d}v^2}{\mathrm{d}t^2}
+  +\frac{(m+m')p^4}{(1+\theta\theta)^{\frac{3}{2}}}\\
+ &\qquad+m''\left\{\frac{p}{R'^3}
+  -Rpp\cos(v-V)\left(\frac{1}{R'^3}-\frac{1}{R^3}\right)\right\}
+\end{aligned}
+\]
+\SourceLeaf{622}
+\[
+\begin{aligned}
+0&=-\frac{2\mathrm{d}p\mathrm{d}v}{p\,\mathrm{d}t^2}
+  +\frac{\mathrm{dd}v}{\mathrm{d}t^2}
+  +m''Rp\sin(v-V)\left(\frac{1}{R'^3}-\frac{1}{R^3}\right)\\[5pt]
+0&=\frac{\mathrm{dd}\theta}{\mathrm{d}t^2}
+  +\frac{\theta\mathrm{d}v^2}{\mathrm{d}t^2}
+  -\frac{2\mathrm{d}p\mathrm{d}\theta}{p\,\mathrm{d}t^2}\\
+ &\qquad+m''\theta Rp\cos(v-V)\left(\frac{1}{R'^3}-\frac{1}{R^3}\right)
+  \mathpunct{\raisebox{.4ex}{.}}
+\end{aligned}
+\]
+
+\par\noindent Setzen wir hier wiederum
+\(\dfrac{\mathrm{dd}p}{\mathrm{d}t^2}
+ =\dfrac{\mathrm{d}v^2}{\mathrm{d}t^2}
+ \left(\dfrac{\mathrm{dd}p}{\mathrm{d}v^2}
+ -\dfrac{\mathrm{dd}t}{\mathrm{d}v^2}\dfrac{\mathrm{d}p}{\mathrm{d}t}\right)\),
+\(\dfrac{\mathrm{dd}v}{\mathrm{d}t^2}
+ =-\dfrac{\mathrm{d}v^3}{\mathrm{d}t^3}
+ \dfrac{\mathrm{dd}t}{\mathrm{d}v^2}\),
+\(\dfrac{\mathrm{dd}\theta}{\mathrm{d}t^2}
+ =\dfrac{\mathrm{d}v^2}{\mathrm{d}t^2}
+ \left(\dfrac{\mathrm{dd}\theta}{\mathrm{d}v^2}
+ -\dfrac{\mathrm{dd}t}{\mathrm{d}v^2}\dfrac{\mathrm{d}\theta}{\mathrm{d}t}\right)\),
+nach Gründen der Integralrechnung, und Kürze halber die mittlere Bewegung
+des Mondes in der Länge \(=u\), und also
+\(\dfrac{\mathrm{d}u}{\mathrm{d}t}=\mathit{Const.}\), [sowie]
+\[
+\begin{aligned}
+m''\frac{\mathrm{d}t^2}{\mathrm{d}u^2}Rp
+ \left(\frac{1}{R'^3}-\frac{1}{R^3}\right)\sin 2(v-V)&=\pi\\[5pt]
+m''\frac{\mathrm{d}t^2}{\mathrm{d}u^2}Rp
+ \left(\frac{1}{R'^3}-\frac{1}{R^3}\right)\cos 2(v-V)&=\omega\\[5pt]
+\omega-m''\frac{\mathrm{d}t^2}{\mathrm{d}u^2}\frac{1}{R'^3}&=\psi,
+\end{aligned}
+\]
+\noindent so werden unsere Gleichungen:
+\[
+\begin{aligned}
+0&=\frac{\mathrm{dd}p}{\mathrm{d}v^2}
+  -\frac{\mathrm{dd}u}{\mathrm{d}v^2}\frac{\mathrm{d}p}{\mathrm{d}u}
+  -\frac{2\mathrm{d}p^2}{p\,\mathrm{d}v^2}+p\\
+ &\qquad-\frac{p^4(m+m')}{(1+\theta\theta)^{\frac{3}{2}}}
+  \frac{\mathrm{d}t^2}{\mathrm{d}u^2}\frac{\mathrm{d}u^2}{\mathrm{d}v^2}
+  +p\psi\frac{\mathrm{d}u^2}{\mathrm{d}v^2}\\[5pt]
+0&=\frac{2\mathrm{d}p}{p\,\mathrm{d}v}
+  +\frac{\mathrm{dd}u}{\mathrm{d}v^2}\frac{\mathrm{d}v}{\mathrm{d}u}
+  -\frac{\mathrm{d}u^2}{\mathrm{d}v^2}\pi\\[5pt]
+0&=\frac{\mathrm{dd}\theta}{\mathrm{d}v^2}
+  -\frac{\mathrm{dd}u}{\mathrm{d}v^2}\frac{\mathrm{d}\theta}{\mathrm{d}u}
+  -\frac{2\mathrm{d}p\mathrm{d}\theta}{p\,\mathrm{d}v^2}
+  +\theta+\theta\frac{\mathrm{d}u^2}{\mathrm{d}v^2}\omega.
+\end{aligned}
+\]
+
+\par\noindent Schaffen wir endlich aus der ersten und dritten Gleichung, mit Hülfe der
+zweiten, \(\dfrac{\mathrm{dd}u}{\mathrm{d}v^2}\) weg, so ergeben sich folgende drei
+\textls[100]{Fundamentalgleichungen}:
+\[
+\begin{aligned}
+\mathrm{I.}\qquad0&=\frac{\mathrm{dd}p}{\mathrm{d}v^2}+p
+ -p^4\frac{\mathrm{d}u^2}{\mathrm{d}v^2}
+ \left\{\frac{(m+m')}{(1+\theta\theta)^{\frac{3}{2}}}
+ \frac{\mathrm{d}t^2}{\mathrm{d}u^2}\right.\\
+ &\hspace{9em}\left.-\frac{\psi}{p^3}
+ +\frac{\mathrm{d}p}{p^4\mathrm{d}v}\pi\right\}\\[6pt]
+\mathrm{II.}\qquad0&=\frac{\mathrm{dd}u}{\mathrm{d}v^2}\frac{\mathrm{d}v}{\mathrm{d}u}
+ +\frac{2\mathrm{d}p}{p\,\mathrm{d}v}
+ -\frac{\mathrm{d}u^2}{\mathrm{d}v^2}\pi\\[6pt]
+\mathrm{III.}\qquad0&=\frac{\mathrm{dd}\theta}{\mathrm{d}v^2}+\theta
+ +\left(\theta\omega-\frac{\mathrm{d}\theta}{\mathrm{d}v}\pi\right)
+ \frac{\mathrm{d}u^2}{\mathrm{d}v^2}\mathpunct{\raisebox{.4ex}{.}}
+\end{aligned}
+\]
+\begin{center}\rule{.9in}{.35pt}\end{center}
+\clearpage
+\endgroup

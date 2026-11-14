@@ -1,0 +1,123 @@
+\clearpage
+\pdfbookmark[2]{4. Verhältniss von Dreieck und Sector}{parabolisch-004}
+\begin{center}
+[4.]\par
+\medskip
+[Verhältniss von Dreieck und Sector zwischen zwei Radiis vectoribus in der parabolischen Bewegung.]
+\end{center}
+
+[Nach dem Vorigen findet man:
+\[
+\begin{aligned}
+m^3-n^3&=2^{\frac32}(r'+r)^{\frac32}\bigl(\cos(45^0-\tfrac12\varphi)^3-\sin(45^0-\tfrac12\varphi)^3\bigr)\\
+&=2(r'+r)^{\frac32}\sin\tfrac12\varphi\,.(2+\cos\varphi),
+\end{aligned}
+\]
+also]
+\[
+2k(t'-t)=\rho\BareRoot{(r'+r)}\frac{2+\cos\varphi}{3\cos\tfrac12\varphi}\mathpunct{\cdot}
+\]
+
+[Hieraus ergibt sich der in der Zeit \(t'-t\) beschriebene Ausschnitt
+\[
+=\frac{k\BareRoot q}{\BareRoot2}(t'-t)=\frac{\rho(r'+r)}4\frac{2+\cos\varphi}3\cos\psi.
+\]
+
+\SourceLeaf{336}Das Dreieck zwischen \(r\) und \(r'\) ist aber
+\[
+\begin{aligned}
+&=\tfrac14\BareRoot{\bigl((r'+r+\rho)(r'+r-\rho)(\rho+r'-r)(\rho-r'+r)\bigr)}\\
+&=\frac{\rho(r'+r)}4\cos\varphi\cos\psi;
+\end{aligned}
+\]
+also]
+\[
+\frac{\mathrm{Ausschnitt}}{\mathrm{Dreieck}}=\frac{2+\cos\varphi}{3\cos\varphi}\mathpunct{\cdot}
+\]
+\begin{center}\rule{.3\linewidth}{.4pt}\end{center}
+
+[Durch Entwickelung der Gleichung \(6k(t'-t)=(r'+r+\rho)^{\frac32}-(r'+r-\rho)^{\frac32}\) ergibt sich:]
+\[
+\begin{gathered}
+\begin{aligned}
+2k(t'-t)=\rho\BareRoot{(r'+r)}\,.\bigl\{1&-\tfrac1{24}a-\tfrac1{128}aa-\tfrac3{1024}a^3\\
+&-\bigl[\tfrac{143}{98304}a^4\bigr]\mathrm{etc.}\bigr\}
+\end{aligned}\\
+\frac{\mathrm{Ausschnitt}}{\mathrm{Dreieck}}=1+\tfrac13a+\tfrac14aa+\tfrac5{24}a^3+\tfrac{35}{192}a^4+\mathrm{etc.},
+\end{gathered}
+\]
+wo \(a=\dfrac{\rho\rho}{(r'+r)^2}\ [=\sin\varphi^2].\)
+
+Setzt man \(\dfrac{4kk(t'-t)^2}{(r'+r)^3}=\beta,\) so wird
+\[
+\beta=a-\tfrac1{12}aa-\tfrac1{72}a^3-\tfrac1{192}a^4-\tfrac1{384}a^5-\mathrm{etc.}
+\]
+Folglich
+\[
+\frac{\mathrm{Dreieck}}{\mathrm{Ausschnitt}}=1-\tfrac13\beta-\tfrac16\beta\beta-\tfrac19\beta^3-\tfrac{55}{648}\beta^4-\mathrm{etc.}
+\]
+\begin{center}\rule{.3\linewidth}{.4pt}\end{center}
+
+[Die obige Reihe im Ausdruck für \(2k(t'-t)\) lässt sich sehr nahe darstellen durch]
+\[
+\BareRoot[10]{(1-\tfrac5{12}a)}.
+\]
+\begin{center}\rule{.3\linewidth}{.4pt}\end{center}
+
+[Setzt man
+\[
+\begin{gathered}
+\frac{\rho}{r'+r}=\biggr]x=\sin\varphi,\\
+\left[\frac{\rho\BareRoot{(r'+r)}}{2k(t'-t)}=\right]y=\frac{3\cos\tfrac12\varphi}{2+\cos\varphi}\mathpunct{\raisebox{.45ex}{,}}
+\end{gathered}
+\]
+so ist]
+\[
+(1+x)^{\frac32}-(1-x)^{\frac32}=\frac{3x}y\mathpunct{\cdot}
+\]
+
+[Zur Lösung dieser Gleichung kann man sich eine Tafel von folgender Form entwerfen:]
+\SourceLeaf{337}
+\[
+\setlength{\arraycolsep}{5pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{array}{r|r||r|r||r|r||r|r}
+\hline
+\log x&\log y&\log x&\log y&\log x&\log y&\log x&\log y\\
+\hline\hline
+-10&&-10&&-10&&-10&\\
+8{,}22&0{,}00000&9{,}00&0{,}00018&9{,}32&0{,}00080&9{,}64&0{,}00360\\
+8{,}23&1&9{,}01&19&9{,}33&84&9{,}65&377\\
+8{,}45&1&9{,}02&20&9{,}34&87&9{,}66&396\\
+8{,}46&2&9{,}03&21&9{,}35&92&9{,}67&416\\
+8{,}57&2&9{,}04&22&9{,}36&96&9{,}68&436\\
+8{,}58&3&9{,}05&23&9{,}37&101&9{,}69&458\\
+8{,}64&3&9{,}06&24&9{,}38&105&9{,}70&481\\
+8{,}65&4&9{,}07&25&9{,}39&110&9{,}71&505\\
+8{,}69&4&9{,}08&26&9{,}40&116&9{,}72&530\\
+8{,}70&5&9{,}09&27&9{,}41&121&9{,}73&557\\
+8{,}74&5&9{,}10&29&9{,}42&127&9{,}74&585\\
+8{,}75&6&9{,}11&30&9{,}43&133&9{,}75&615\\
+8{,}77&6&9{,}12&32&9{,}44&140&9{,}76&647\\
+8{,}78&7&9{,}13&33&9{,}45&146&9{,}77&680\\
+8{,}80&7&9{,}14&35&9{,}46&153&9{,}78&715\\
+8{,}81&8&9{,}15&36&9{,}47&161&9{,}79&752\\
+8{,}83&8&9{,}16&38&9{,}48&168&9{,}80&791\\
+8{,}84&9&9{,}17&40&9{,}49&176&9{,}81&833\\
+8{,}85&9&9{,}18&42&9{,}50&185&9{,}82&877\\
+8{,}86&10&9{,}19&44&9{,}51&194&9{,}83&924\\
+8{,}88&10&9{,}20&46&9{,}52&203&9{,}84&973\\
+8{,}89&11&9{,}21&48&9{,}53&213&9{,}85&1026\\
+8{,}90&11&9{,}22&50&9{,}54&223&9{,}86&1082\\
+8{,}91&12&9{,}23&53&9{,}55&234&9{,}87&1142\\
+8{,}92&13&9{,}24&55&9{,}56&245&9{,}88&1205\\
+8{,}93&13&9{,}25&58&9{,}57&257&9{,}89&1273\\
+8{,}94&14&9{,}26&60&9{,}58&270&9{,}90&1346\\
+8{,}95&14&9{,}27&63&9{,}59&283&\text{—}&\text{—}\\
+8{,}96&15&9{,}28&66&9{,}60&297&\text{—}&\text{—}\\
+8{,}97&16&9{,}29&69&9{,}61&311&\text{—}&\text{—}\\
+8{,}98&17&9{,}30&73&9{,}62&327&\text{—}&\text{—}\\
+8{,}99&0{,}00017&9{,}31&0{,}00076&9{,}63\mathpunct{\cdot}&0{,}00343&0{,}00&0{,}02558
+\end{array}
+\]
+\begin{center}\rule{.3\linewidth}{.4pt}\end{center}

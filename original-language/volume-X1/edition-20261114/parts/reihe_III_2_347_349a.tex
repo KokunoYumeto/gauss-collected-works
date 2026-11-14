@@ -1,0 +1,108 @@
+\begingroup
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\clearpage\SourceLeaf{347}\ArithmeticHead{340}{L}{ANALYSIS.\quad NACHLASS.}
+\NumberedItem{2}
+\par\indent Der Coefficient von $x^r$ in $F(\alpha,\beta,\gamma-1)$ verhält sich wie $\frac{\gamma-1+r}{\gamma-1}$, daher wird
+\begin{equation}
+F(\alpha,\beta,\gamma-1)=F(\alpha,\beta,\gamma)+\frac{x}{\gamma-1}F'(\alpha,\beta,\gamma).\tag*{(10)}
+\end{equation}
+\noindent Endlich sind die Coefficienten in $xF'(\alpha,\beta,\gamma-1)$ und $F'(\alpha,\beta,\gamma-1)$ proportional den Zahlen
+\[\frac{r(\gamma-1+r)}{\gamma-1}\quad\text{und}\quad\frac{(\alpha+r)(\beta+r)}{\gamma-1},\]
+\noindent folglich der Coefficient in $(1-x)F'(\alpha,\beta,\gamma-1)$ proportional
+\[\frac{\alpha\beta+(\alpha+\beta+1-\gamma)r}{\gamma-1},\]
+\noindent also
+\begin{equation}
+F'(\alpha,\beta,\gamma-1)=\frac{\alpha\beta}{(\gamma-1)(1-x)}F(\alpha,\beta,\gamma)+\frac{(\alpha+\beta+1-\gamma)x}{(\gamma-1)(1-x)}F'(\alpha,\beta,\gamma).\tag*{(11)}
+\end{equation}
+\noindent Aus der Verbindung der Gleichungen (10) und (11) folgt endlich
+\begin{equation}
+F(\alpha,\beta,\gamma+1)=-\frac{(\alpha+\beta-\gamma)\gamma}{(\alpha-\gamma)(\beta-\gamma)}F(\alpha,\beta,\gamma)+\frac{\gamma(1-x)}{(\alpha-\gamma)(\beta-\gamma)}F'(\alpha,\beta,\gamma),\tag*{(12)}
+\end{equation}
+\begin{equation}
+F'(\alpha,\beta,\gamma+1)=\frac{\alpha\beta\gamma}{(\alpha-\gamma)(\beta-\gamma)x}F(\alpha,\beta,\gamma)-\frac{\gamma\gamma(1-x)}{(\alpha-\gamma)(\beta-\gamma)x}F'(\alpha,\beta,\gamma).\tag*{(13)}
+\end{equation}
+\par\smallskip\noindent{\small[S. 38]}\par
+\par\indent Man sieht also, dass nun aus $F(\alpha,\beta,\gamma)$ und $F'(\alpha,\beta,\gamma)$ allgemein $F(\alpha',\beta',\gamma')$ und $F'(\alpha',\beta',\gamma')$ rational abgeleitet werden kann, wenn
+\[\alpha'-\alpha,\quad\beta'-\beta,\quad\gamma'-\gamma\]
+\noindent ganze Zahlen sind.
+\par\indent Die bei der Ableitung dieser Lehrsätze gebrauchten Relationen zwischen den Coefficienten stellt folgendes Tableau dar:
+\clearpage\SourceLeaf{348}\ArithmeticHead{341}{R}{{\scriptsize ZUR THEORIE DER REIHE $F(\alpha,\beta,\gamma,x)$.\quad III.}}
+\begingroup\renewcommand{\arraystretch}{1.45}
+\[\begin{array}{@{}l|c|c@{}}
+\hline\hline
+&\multicolumn{2}{c}{\text{Coefficient von}}\\\cline{2-3}
+\text{In}&x^{r-1}&x^r\\\hline\hline
+F(\alpha,\beta,\gamma)&&C\\[.7em]
+F'(\alpha,\beta,\gamma)&Cr&\dfrac{C(r+\alpha)(r+\beta)}{r+\gamma}\\[.9em]
+F(\alpha+1,\beta,\gamma)&&\dfrac{C(r+\alpha)}{\alpha}\\[.9em]
+F'(\alpha+1,\beta,\gamma)&\dfrac{Cr(r+\alpha)}{\alpha}&\dfrac{Cr+\alpha)(r+\alpha+1)(r+\beta)}{\alpha(r+\gamma)}\\[.9em]
+F(\alpha,\beta,\gamma-1)&&\dfrac{C(r+\gamma-1)}{\gamma-1}\\[.9em]
+F'(\alpha,\beta,\gamma-1)&\dfrac{Cr(r+\gamma-1)}{\gamma-1}&\dfrac{C(r+\alpha)(r+\beta)}{\gamma-1}
+\end{array}\]
+\endgroup
+\par\indent Aus der Verbindung der vorhergehenden Formeln, oder wenn man lieber will, auf ähnliche Art wie diese gefunden sind, ergeben sich noch folgende:
+\begin{equation}
+F(\alpha+1,\beta,\gamma+1)=-\frac{\gamma}{\beta-\gamma}F(\alpha,\beta,\gamma)+\frac{\gamma(1-x)}{\alpha(\beta-\gamma)}F'(\alpha,\beta,\gamma),\tag*{(14)}
+\end{equation}
+\begin{equation}
+F(\alpha,\beta+1,\gamma+1)=-\frac{\gamma}{\alpha-\gamma}F(\alpha,\beta,\gamma)+\frac{\gamma(1-x)}{\beta(\alpha-\gamma)}F'(\alpha,\beta,\gamma),\tag*{(15)}
+\end{equation}
+\begin{equation}
+F'(\alpha+1,\beta,\gamma+1)=\frac{\beta\gamma}{(\beta-\gamma)x}F(\alpha,\beta,\gamma)-\frac{\gamma(\gamma-\beta x)}{\alpha(\beta-\gamma)x}F'(\alpha,\beta,\gamma),\tag*{(16)}
+\end{equation}
+\par\smallskip\noindent{\small[S. 39]}\par
+\begin{equation}
+F'(\alpha,\beta+1,\gamma+1)=\frac{\alpha\gamma}{(\alpha-\gamma)x}F(\alpha,\beta,\gamma)-\frac{\gamma(\gamma-\alpha x)}{\beta(\alpha-\gamma)x}F'(\alpha,\beta,\gamma),\tag*{(17)}
+\end{equation}
+\begin{equation}
+F(\alpha-1,\beta,\gamma-1)=\frac{\gamma-1-\beta x}{\gamma-1}F(\alpha,\beta,\gamma)+\frac{x-xx}{\gamma-1}F'(\alpha,\beta,\gamma),\tag*{(18)}
+\end{equation}
+\begin{equation}
+F(\alpha,\beta-1,\gamma-1)=\frac{\gamma-1-\alpha x}{\gamma-1}F(\alpha,\beta,\gamma)+\frac{x-xx}{\gamma-1}F'(\alpha,\beta,\gamma),\tag*{(19)}
+\end{equation}
+\begin{equation}
+F'(\alpha-1,\beta,\gamma-1)=\frac{(\alpha-1)\beta}{\gamma-1}F(\alpha,\beta,\gamma)+\frac{(\alpha-1)x}{\gamma-1}F'(\alpha,\beta,\gamma),\tag*{(20)}
+\end{equation}
+\begin{equation}
+F'(\alpha,\beta-1,\gamma-1)=\frac{\alpha(\beta-1)}{\gamma-1}F(\alpha,\beta,\gamma)+\frac{(\beta-1)x}{\gamma-1}F'(\alpha,\beta,\gamma),\tag*{(21)}
+\end{equation}
+\begin{equation}
+F(\alpha+1,\beta+1,\gamma)=\left[\frac{1}{1-x}F(\alpha,\beta,\gamma)+\frac{x(\alpha+\beta-\gamma+1)}{\alpha\beta(1-x)}F'(\alpha,\beta,\gamma)\right],\tag*{(22)}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+&F'(\alpha+1,\beta+1,\gamma)=\Biggl[\frac{\beta+\alpha-\gamma+2}{(1-x)^2}F(\alpha,\beta,\gamma)\\[.7em]
+&\quad+\frac{\alpha\beta(1-x)+(\alpha+\beta-\gamma+1)(\gamma+1-(\alpha+\beta+1)x)}{\alpha\beta(1-x)^2}F'(\alpha,\beta,\gamma)\Biggr].
+\end{aligned}\tag*{(23)}
+\end{equation}
+\clearpage\SourceLeaf{349}\ArithmeticHead{342}{L}{ANALYSIS.\quad NACHLASS.}
+\begin{equation}
+\begin{aligned}
+&F(\alpha-1,\beta-1,\gamma)=\Biggl[\\[.5em]
+&\quad\frac{(\alpha-\gamma)(\beta-\gamma)+(\alpha(\alpha-\gamma)+(\beta+\alpha-\gamma)(\beta-1))x}{(\alpha-\gamma)(\beta-\gamma)}F(\alpha,\beta,\gamma)\\[.7em]
+&\quad-\frac{x(1-x)(\alpha+\beta-\gamma-1)}{(\alpha-\gamma)(\beta-\gamma)}F'(\alpha,\beta,\gamma)\Biggr],
+\end{aligned}\tag*{(24)}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+&F'(\alpha-1,\beta-1,\gamma)=\Biggl[\frac{(\gamma-\alpha-\beta)(\alpha-1)(\beta-1)}{(\alpha-\gamma)(\beta-\gamma)}F(\alpha,\beta,\gamma)\\[.7em]
+&\quad+\frac{(\alpha-1)(\beta-1)(1-x)}{(\alpha-\gamma)(\beta-\gamma)}F'(\alpha,\beta,\gamma)\Biggr],
+\end{aligned}\tag*{(25)}
+\end{equation}
+\begin{equation}
+F'(\alpha+1,\beta+1,\gamma+1)=\frac{\gamma}{\alpha\beta}F'(\alpha,\beta,\gamma),\tag*{(26)}
+\end{equation}
+\begin{equation}
+F'(\alpha+1,\beta+1,\gamma+1)=\frac{\gamma}{x-xx}F(\alpha,\beta,\gamma)-\frac{\gamma(\gamma-(\alpha+\beta+1)x)}{\alpha\beta(x-xx)}F'(\alpha,\beta,\gamma),\tag*{(27)}
+\end{equation}
+\begin{equation}
+F(\alpha-1,\beta-1,\gamma-1)=\left[\frac{\gamma-1-(\alpha+\beta-1)x}{\gamma-1}F(\alpha,\beta,\gamma)+\frac{x(1-x)}{\gamma-1}F'(\alpha,\beta,\gamma)\right],\tag*{(28)}
+\end{equation}
+\begin{equation}
+F'(\alpha-1,\beta-1,\gamma-1)=\frac{(\alpha-1)(\beta-1)}{\gamma-1}F(\alpha,\beta,\gamma).{}^{\text{*)}}\tag*{(29)}
+\end{equation}
+\par\Needspace{4\baselineskip}\bigskip\noindent\rule{.25\linewidth}{.4pt}\par\smallskip
+{\small\par\indent *) \textit{Das bisherige bekannt gemacht Comment. Recent. Soc. Gott. T. II} [, Werke III, S. 123].\par}
+\clearpage
+\endgroup
+

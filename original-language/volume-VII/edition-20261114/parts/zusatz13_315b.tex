@@ -1,0 +1,41 @@
+\needspace{12\baselineskip}
+\begin{center}
+\pdfbookmark[1]{13. Initialzustand und Elemente einer Planetenbahn}{zusatz-013}
+[13.]
+\end{center}
+\begin{center}
+Zusammenhang des Initialzustandes mit den Elementen [einer Planetenbahn].
+\end{center}
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\(r\) . . . . . . . . . . . & Radius Vector\\
+\(v\) . . . . . . . . . . . & Länge in der Bahn\\
+\(\lambda\) . . . . . . . . . . . & Länge in der Ekliptik\\
+\(\beta\) . . . . . . . . . . . & Breite\\
+\(\AscendingNode\) . . . . . . . . . . . & Länge des aufsteigenden Knotens\\
+\(i\) . . . . . . . . . . . & Neigung der Bahn\\
+\(e=\sin\varphi\) . . . . & Excentricität\\
+\(p\) . . . . . . . . . . . & halber Parameter\\
+\(\omega\) . . . . . . . . . . & Perihelium\\
+\(t\) . . . . . . . . . . . & Zeit\\
+\(k\) . . . . . . . . . . & Constante \(=\BareRoot{\odot}\)
+\end{tabular}
+\end{center}
+\[
+\begin{aligned}
+1)\quad&\operatorname{tang}\beta=\operatorname{tang}i\sin(\lambda-\AscendingNode)\\[6pt]
+2)\quad&\frac{\mathrm{d}\beta}{\cos\beta^2\,\mathrm{d}\lambda}=\operatorname{tang}i\cos(\lambda-\AscendingNode)\\[6pt]
+3)\quad&\frac{rr\,\mathrm{d}v}{k\,\mathrm{d}t}=\BareRoot{p}
+\end{aligned}\qquad\begin{aligned}
+4)\quad&\frac{r^3\mathrm{d}v^2}{\odot\,\mathrm{d}t^2}-1=e\cos(v-\omega)\\[6pt]
+5)\quad&\frac{rr\,\mathrm{d}r\,\mathrm{d}v}{\odot\,\mathrm{d}t^2}=e\sin(v-\omega)\\[6pt]
+6)\quad&\frac{2}{r}-\frac{rr\,\mathrm{d}v^2+\mathrm{d}r^2}{\odot\,\mathrm{d}t^2}=\frac{1}{a}
+\end{aligned}
+\]
+\[
+\begin{aligned}
+7)\quad&2\operatorname{Arc\,tang}\left\{\BareRoot{\frac{1-e}{1+e}}\cdot\operatorname{tg}\tfrac12(v-\omega)\right\}\\[5pt]
+&\quad-\frac{e\BareRoot{(1-ee)}\mathord{.}\sin(v-\omega)}{1+e\cos(v-\omega)}-k\int\frac{\mathrm{d}t}{a^{\frac32}}=\epsilon-\omega.
+\end{aligned}
+\]
+\begin{center}\rule{.18\textwidth}{.35pt}\end{center}

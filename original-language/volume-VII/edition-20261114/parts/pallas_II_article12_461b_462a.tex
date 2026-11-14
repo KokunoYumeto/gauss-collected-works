@@ -1,0 +1,49 @@
+\par\Needspace{8\baselineskip}\bigskip
+\pdfbookmark[3]{Exposition, 12}{pallas-II-article12}
+\begin{center}12.\end{center}
+\noindent\hspace*{\parindent}Enfin nommant \(L\) la longitude moyenne répondante au tems \(t\), l’équation \(L-\tilde\omega=E-e\sin E\) donne
+\[
+\mathrm{d}L=\mathrm{d}\tilde\omega+(1-e\cos E)\mathrm{d}E-\cos\varphi\mathbin{.}\sin E\mathbin{.}\mathrm{d}\varphi.
+\]
+\par Différentiant l’équation \(\operatorname{tang}\tfrac12E=\BareRoot{\dfrac{1-e}{1+e}}\mathbin{.}\operatorname{tang}\tfrac12(v-\tilde\omega)\), on trouve
+\[
+\dfrac{\mathrm{d}E}{\sin E}=\dfrac{\mathrm{d}v}{\sin(v-\tilde\omega)}-\dfrac{\mathrm{d}\tilde\omega}{\sin(v-\tilde\omega)}-\dfrac{\mathrm{d}\varphi}{\cos\varphi}\mathpunct{\cdot}
+\]
+Combinant ces deux équations, mettant pour \(\mathrm{d}v\) sa valeur (éq. 67), et faisant \(1-e\cos E=\dfrac{r}{a}\mathpunct{\raisebox{.45ex}{,}}\) \(\sin E=\dfrac{r\sin(v-\tilde\omega)}{a\cos\varphi}\mathpunct{\raisebox{.45ex}{,}}\) on trouve
+\[
+\begin{aligned}
+\mathrm{d}L&=n\mathrm{d}t+(1-\cos i)\mathrm{d}\AscendingNode\\
+&\quad+\left(1-\dfrac{rr}{aa\cos\varphi}\right)(\mathrm{d}\tilde\omega-(1-\cos i)\mathrm{d}\AscendingNode)\\
+&\quad-\dfrac{rr\sin(v-\tilde\omega)}{aa\cos\varphi^2}\left(1+\dfrac{a\cos\varphi^2}{r}\right)\mathrm{d}\varphi.
+\end{aligned}
+\]
+Substituons dans cette équation pour \(\mathrm{d}\tilde\omega-(1-\cos i)\mathrm{d}\AscendingNode\) et pour \(\mathrm{d}\varphi\) leurs valeurs, et \(2+e\cos(v-\tilde\omega)\) à la place de \(1+\dfrac{a\cos\varphi^2}{r}\mathpunct{\cdot}\) De cette manière nous avons
+\[
+\begin{aligned}
+\mathrm{d}L&=n\mathrm{d}t+(1-\cos i)\mathrm{d}\AscendingNode\\
+&\quad-\left\{\begin{aligned}aa\operatorname{cotang}\varphi\mathbin{.}\cos(v-\tilde\omega)-\dfrac{rr\cos(v-\tilde\omega)}{e}\\
+{}+\dfrac{rr\sin(v-\tilde\omega)^2}{\cos\varphi^2}(2+e\cos(v-\tilde\omega))\end{aligned}\right\}Tn\mathrm{d}t\\
+&\quad+\dfrac{ar\sin(v-\tilde\omega)\mathbin{.}(2+e\cos(v-\tilde\omega))}{e\cos\varphi}(1-\cos\varphi)Vn\mathrm{d}t.
+\end{aligned}
+\]
+\par La partie de cette formule qui contient le facteur \(Tn\mathrm{d}t\), est encore susceptible de simplification. Car on a
+\SourceLeaf{462}
+\[
+\begin{aligned}
+&-\dfrac{rr\cos(v-\tilde\omega)}{e}+\dfrac{rr\sin(v-\tilde\omega)^2}{\cos\varphi^2}(2+e\cos(v-\tilde\omega))\\[4pt]
+&\quad=\dfrac{rr}{e\cos\varphi^2}\left(\begin{aligned}2e-(1-2ee)\cos(v-\tilde\omega)\\
+{}-2e\cos(v-\tilde\omega)^2-ee\cos(v-\tilde\omega)^3\end{aligned}\right)\\[4pt]
+&\quad=\dfrac{rr}{e\cos\varphi^2}(1+e\cos(v-\tilde\omega))\\
+&\qquad\{2e-(1+e\cos(v-\tilde\omega))\cos(v-\tilde\omega)\}\\[4pt]
+&\quad=\dfrac{rr}{e\cos\varphi^2}\dfrac{a\cos\varphi^2}{r}\left(2e-\dfrac{a\cos\varphi^2\mathbin{.}\cos(v-\tilde\omega)}{r}\right)\\[4pt]
+&\quad=2ar-\dfrac{aa\cos\varphi^2\mathbin{.}\cos(v-\tilde\omega)}{e}\mathpunct{\cdot}
+\end{aligned}
+\]
+\par Ainsi notre formule devient
+\[
+\begin{array}{rl}
+69)\quad&\begin{aligned}[t]\mathrm{d}L&=n\mathrm{d}t+(1-\cos i)\mathrm{d}\AscendingNode\\
+&\quad-(2ar+aa\cos\varphi\mathbin{.}\operatorname{tang}\tfrac12\varphi\mathbin{.}\cos(v-\tilde\omega))Tn\mathrm{d}t\\
+&\quad+\dfrac{ar\operatorname{tang}\tfrac12\varphi\mathbin{.}\sin(v-\tilde\omega)\mathbin{.}(2+e\cos(v-\tilde\omega))}{\cos\varphi}Vn\mathrm{d}t.\end{aligned}
+\end{array}
+\]

@@ -1,0 +1,88 @@
+\clearpage\SourceLeaf{423}\ArithmeticHead{416}{L}{ANALYSIS. NACHLASS.}
+\begin{center}8.\end{center}
+\noindent\hspace*{\parindent}Die gründliche Abhülfe dieses Mangels ist nur dadurch zu gewinnen, dass man den imaginären Grössen völlig gleiche Rechte einräumt, also die Analysis gleichmässig über das ganze Gebiet der complexen Grössen erstreckt. In diesem Gebiete kann man von einem Werthe der veränderlichen Grösse \(t\) zu einem andern auf unendlich vielen verschiedenen Wegen nach der Stetigkeit gelangen, und so bei der Integration \(\int ft\,{.}\,dt\) solche Werthe von \(t\), für welche \(ft\) unendlich gross wird, umgehen. Eine vollständige Abhandlung der aus diesem Gesichtspunkte aufgefassten Theorie des Integrirens würde einen viel grössern Raum erfordern als hier zulässig ist: Es werden jedoch einige für unsere Hauptuntersuchung nothwendige Sätze hier entwickelt werden müssen.
+
+\raisebox{-.4ex}{*}I. Wenn sich eine analytische Function \(Ft\) angeben lässt, aus deren Differentiation \(ft\,{.}\,dt\) hervorgeht, und diese Function eine einwerthige ist, so wird auch \(ft\) eine einwerthige Function sein.\textsuperscript{*} [\textsuperscript{*})]
+\begin{center}9.\end{center}
+\noindent\makebox[\linewidth][s]{.\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .\hfill .}\par
+\begin{center}\rule{.36\linewidth}{.4pt}\\[2pt]{\small [Ein Zettel in Fa, Kapsel {\scriptsize 46}a.]}\\[-2pt]\rule{.36\linewidth}{.4pt}\end{center}
+\noindent\hspace*{\parindent}Die Function \(ft\) habe für alle Werthe von \(t=x+iy\), deren imaginärer Theil \(iy\) unterhalb bestimmter Grenzen liegt, nemlich \(y\) nicht grösser als \(h\), bestimmte endliche Wahlwerthe, die nach der Stetigkeit zusammenhangen, und die mit dem Intervall \(2\pi\) nach \(x\) periodisch sind, so dass
+\[f(t+2\pi)=ft.\]
+\noindent Für jeden bestimmten Werth von \(y\), der nicht grösser ist als \(h\), wird sich \(ft\) durch die convergente Reihe[\textsuperscript{**})]
+\[\begin{aligned}
+ft={}&P+2P_1\cos x+2P_2\cos 2x+2P_3\cos 3x+\text{u.s.w.}\\
+ &+2Q_1\sin x+2Q_2\sin 2x+2Q_3\sin 3x+\text{u.s.w.}
+\end{aligned}\]
+\par\vfill\noindent\rule{.25\linewidth}{.4pt}\par\smallskip
+{\footnotesize
+\noindent\hspace*{\parindent}[\textsuperscript{*}) Die zwischen \raisebox{-.4ex}{*} \textsuperscript{*} gesetzte Stelle ist in der Handschrift durchstrichen.]\par
+\noindent\hspace*{\parindent}[\textsuperscript{**}) Man vergl. den auf der ungerechtfertigten Vertauschung zweier Grenzübergänge beruhenden Beweisversuch für die Konvergenz der \textsc{Fourier}reihe einer stetigen Funktion, Werke VII, {\scriptsize 1906}, S. {\scriptsize 470}.]\par}
+\clearpage\SourceLeaf{424}\ArithmeticHead{417}{R}{CONVERGENZ DER ENTWICKLUNG PERIODISCHER FUNCTIONEN.}
+\noindent ausdrücken lassen, wo
+\[\begin{aligned}
+2\pi P_n&=\int\limits_0^{2\pi}\cos nx\,{.}\,f(x+iy)\,{.}\,dx\\
+2\pi Q_n&=\int\limits_0^{2\pi}\sin nx\,{.}\,f(x+iy)\,{.}\,dx,
+\end{aligned}\]
+\noindent mithin bestimmte Functionen von \(y\) sein werden. Für \(y=0\) gehe
+\[\begin{array}{cccc}P_n&\text{über}&\text{in}&A_n\\Q_n&\text{„}&\text{„}&B_n.\end{array}\]
+\noindent Man hat, indem man \(dft=f't\,{.}\,dt\) setzt
+\[\begin{aligned}
+2\pi\frac{dP_n}{dy}&=i\int\limits_0^{2\pi}\cos nx f'(x+iy)dx\\
+2\pi\frac{dQ_n}{dy}&=i\int\limits_0^{2\pi}\sin nx f'(x+iy)dx,
+\end{aligned}\]
+\noindent wobei nicht schwer ist sich zu überzeugen, dass diese Resultate auch dann gültig bleiben würden, wenn innerhalb der festgesetzten Grenzen \(f'(x+iy)\) auch ein oder einigemahl unendlich würde\textsuperscript{*}), obwohl jener Fall auch schon mit unserer Voraussetzung, dass die Wahlfunction nur Einen Werth hat, unvereinbar ist.
+\par\vfill\noindent\rule{.25\linewidth}{.4pt}\par\smallskip
+{\footnotesize
+\noindent\hspace*{\parindent}\textsuperscript{*}) Die Hauptmomente des Beweises sind folgende. \(Fx,fx\) Functionen von \(x\), die von \(x=A\) bis \(x=A+D\) endliche, nach der Stetigkeit fortschreitende Wahlwerthe haben, \(D\) positiv. Man kann beweisen, dass \(\frac{dFx}{dx}=fx\), für jeden Wert von \(x\), der in jenem Zwischenraume liegt, so jedoch, dass der Beweis nicht anwendbar ist auf den Fall \(x=A\). Ich behaupte, dass auch für diesen Werth selbst jene Relation stattfinden wird.
+
+Es sei \(a\) eine unendlich kleine Grösse,
+\[FA=G,\quad fA=g,\quad F(A+ab)=G+ac,\]
+\noindent wo erlaubt ist anzunehmen, dass auch \(b\) und \(c\) unendlich klein sind. Es sei ferner
+\[\begin{gathered}
+f(A+ab)=g+d\\
+\int\limits_{A+ab}^{A+a}fx\,{.}\,dx=(a-ab)(g+d+e),
+\end{gathered}\]
+\noindent wo \(d,e\) unendlich klein sein werden. Also\par}
+\par\noindent{\footnotesize X1.}\hfill{\footnotesize 53}\par
+\clearpage\SourceLeaf{425}\ArithmeticHead{418}{L}{ANALYSIS. NACHLASS.}
+\noindent\hspace*{\parindent}Es ist aber, \(y\) als constant betrachtet,
+\[\begin{aligned}
+\frac{d\cos nx f(x+iy)}{dx}&=-n\sin nx f(x+iy)+\cos nx f'(x+iy)\\
+\frac{d\sin nx f(x+iy)}{dx}&=n\cos nx f(x+iy)+\sin nx f'(x+iy).
+\end{aligned}\]
+\noindent Also
+\[\begin{aligned}
+-n\int\limits_0^{2\pi}\sin nx f(x+iy)dx+\int\limits_0^{2\pi}\cos nx f'(x+iy)dx&=0\\
+n\int\limits_0^{2\pi}\cos nx f(x+iy)dx+\int\limits_0^{2\pi}\sin nx f'(x+iy)dx&=0,
+\end{aligned}\]
+\noindent weil \(\cos nx f(x+iy)\) vermöge der Voraussetzung für die Grenzwerthe der Integration \(x=0\) und \(x=2\pi\) gleiche Werthe erhält, und \(\sin nx f(x+iy)\) für beide \(=0\) ist. Es ist folglich
+\[\begin{aligned}
+-2n\pi Q_n-2\pi i\frac{dP_n}{dy}&=0\\
+2n\pi P_n-2\pi i\frac{dQ_n}{dy}&=0
+\end{aligned}\]
+\noindent d. i.
+\[\frac{dP_n}{dy}=inQ_n,\quad\frac{dQ_n}{dy}=-inP_n\]
+\noindent und folglich
+\[\frac{ddP_n}{dy^2}=nnP_n,\]
+\noindent von welcher Gleichung das vollständige Integral ist
+\[P_n=\alpha_n e^{ny}+\beta_n e^{-ny}\]
+\noindent in dem \(\alpha_n,\beta_n\) zwei willkürliche Constanten bezeichnen. Hiemit wird dann ferner
+\[Q_n=-\alpha_n i e^{ny}+\beta_n i e^{-ny}.\]
+\noindent Diese Constanten bestimmen sich dadurch, dass für \(y=0\)
+\par\vfill\noindent\rule{.25\linewidth}{.4pt}\par\smallskip
+{\footnotesize
+\[F(A+a)=G+ac+(a-ab)(g+d+e)\]
+\noindent und
+\[\frac{F(A+a)-FA}{a}=(g+d+e)(1-b)+c,\]
+\noindent also von \(g\) um eine unendlich kleine Grösse verschieden.\par}
+\clearpage\SourceLeaf{426}\ArithmeticHead{419}{R}{CONVERGENZ DER ENTWICKLUNG PERIODISCHER FUNCTIONEN.}
+\[P_n=A_n,\quad Q_n=B_n\]
+\noindent werden muss, also
+\[\alpha_n=\tfrac12(A_n+iB_n),\quad\beta_n=\tfrac12(A_n-iB_n).\]
+\noindent Wir haben demnach
+\[P_0=A_0,\quad P_1=\tfrac12 A_1(e^y+e^{-y})+\tfrac12 iB(e^y-e^{-y})\]
+\noindent und allgemein
+\[P_n=\tfrac12 A_n(e^{ny}+e^{-ny})+\tfrac12 iB_n(e^{ny}-e^{-ny}),\]
+\noindent und ebenso
+\[Q_n=\tfrac12 B_n(e^{ny}+e^{-ny})-\tfrac12 iA_n(e^{ny}-e^{-ny}).\]
+\begin{center}\vspace{3em}\rule{.24\linewidth}{.4pt}\end{center}

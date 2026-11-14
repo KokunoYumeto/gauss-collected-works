@@ -1,0 +1,39 @@
+\begin{center}\bfseries 19.\end{center}
+\noindent\hspace*{\parindent}Auf wesentlich anderer, ganz elementarer Grundlage beruhen die beiden andern Beweise des Reziprozitätsgesetzes. Wie \textsc{Gauss} (W. II, S. 50, 161) aussagt, sind sie den Bemühungen zu danken, die er aufwandte, um den analogen Sätzen der Lehre von den kubischen und biquadratischen Resten beizukommen. Einmutlich führte ihn die hierbei sich darbietende Einteilung der Reste nach einem gegebenen Modul in Drittel resp. Viertel ihrer Gesamtanzahl zur Verteilung der absolut kleinsten Reste (mod. \(p\)) in die beiden Hälften, welche positiv und welche negativ sind, und die Verbindung mit dem \textsc{Euler}schen Kriterium zu dem wichtigen Satze, der als \textsc{Gauss}sches Lemma benannt wird und wie folgt lautet: Ist \((q,p)\) die Anzahl der Zahlen
+\[
+q,2q,3q,\ldots,\frac{p-1}{2}q,
+\]
+deren absolut kleinste Reste (mod. \(p\)) negativ sind, so ist
+\[
+q^{\frac{p-1}{2}}\equiv(-1)^{(q,p)}\ (\mathrm{mod.}\ p).
+\]
+Die Ermittlung der von \textsc{Gauss} mit dem Namen »Dezident« belegten Zahl \((q,p)\) geschieht nun bei dem ersten der erwähnten Beweise (in der Abhandlung vom Januar 1808) mit Hilfe der an dieser Stelle von \textsc{Gauss} eingeführten Funktion \([x]\), welche die grösste ganze Zahl bezeichnet, die nicht grösser als \(x\) ist, eine Funktion, die seitdem in Arbeiten von \textsc{Kronecker} und jüngeren Mathematikern zu den mannigfaltigsten Untersuchungen Anlass gegeben hat. \textsc{Gauss}’ Betrachtung beruht im wesentlichen auf der Bestimmung des »Dezidenten« durch die Beziehung
+\[
+(q,p)=\sum_i\left[\frac{2iq}{p}\right]-2\mathbin{.}\sum_i\left[\frac{iq}{p}\right],
+\]
+\newpage\SourceLeaf{56}\ArithmeticHead{49}{R}{DIE SPÄTEREN BEWEISE DES FUNDAMENTALTHEOREMS.}\HistoricalFoot{X\textsubscript{2}.}{7}
+\noindent wo \(i=1,2,\ldots,\frac{p-1}{2}\), sowie auf der durch die Gleichung
+\[
+\sum_{i=1}^n[ix]+\sum_{k=1}^{[nx]}\left[\frac{k}{x}\right]=n\mathbin{.}[nx]
+\]
+ausgedrückten Eigenschaft der gedachten Funktion. Mit ihrer Hilfe lässt sich nachweisen, dass jeder der Ausdrücke
+\[
+L=(q,p)+\sum_{i=1}^{\frac{p-1}{2}}\left[\frac{iq}{p}\right],\quad M=(p,q)+\sum_{k=1}^{\frac{q-1}{2}}\left[\frac{kp}{q}\right]
+\]
+einer geraden Zahl gleich, und dass
+\[
+L+M=(q,p)+(p,q)+\frac{(p-1)(q-1)}4
+\]
+ist, woraus sich dann das Reziprozitätsgesetz sogleich ergibt.
+
+Auf dasselbe \textsc{Gauss}sche Lemma begründet, findet der zweite jener Beweise (in der Abhandlung vom Jahre 1818) die Beziehung zwischen den beiden Dezidenten \((p,q),\ (q,p)\), welche das Gesetz bedingt, durch eine Verteilung der Zahlen \(\gamma=1,2,3,\ldots,\frac{pq-1}{2}\) in acht Gruppen je nach den Vorzeichen von \(\mathfrak{R}\left(\frac{\gamma}{p}\right),\ \mathfrak{R}\left(\frac{\gamma}{q}\right)\), wo \(\mathfrak{R}(x)\) das \textsc{Kronecker}sche Zeichen für den Unterschied zwischen \(x\) und der nächstgelegenen ganzen Zahl bedeutet, und durch die Beziehungen, welche zwischen den Anzahlen der in diesen einzelnen Gruppen vorhandenen Zahlen bestehen und aus denen sich schliessen lässt, dass von den drei Zahlen \((p,q),\ (q,p),\ \frac{(p-1)(q-1)}4\) entweder nur eine oder alle drei gerade sind.
+
+An diese Beweise schliesst sich endlich ein einfacher Algorithmus, durch welchen der quadratische Charakter einer Zahl bezüglich einer andern bestimmt werden kann. Er beruht auf dem \textsc{Euklidischen} Algorithmus und auf der Gleichung
+\[
+\varphi(a,b)+\varphi(b,a)=a'\mathbin{.}b',
+\]
+in welcher \(a'=\left[\frac{a}{2}\right],\ b'=\left[\frac{b}{2}\right]\) und
+\[
+\varphi(a,b)=\sum_{i=1}^{a'}\left[\frac{ib}{a}\right]
+\]
+ist.
