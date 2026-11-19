@@ -2,8 +2,8 @@
 original-language table, the authorship and sources section, kept word for word), the newest English-German release
 (its reader PDFs), and site/scans.tsv (the scans the transcription follows). Rerun after every release or README change:
     python -I -B site/build_site.py [--fetch]   (needs the GitHub CLI `gh`, logged in, for the release list)
-Writes docs/index.html. Every reader gets "Read online" (docs/read.html, a PDF.js viewer of the copy served by the site in docs/pdf/, so it never downloads; the
-browser) and "Download" (the release asset). With --fetch (the Pages workflow, .github/workflows/pages.yml) the newest
+Writes docs/index.html. Every reader gets "Read online" (docs/read.html, a PDF.js viewer of the copy served by the site in docs/pdf/, so it never downloads)
+and "Download" (the release asset). With --fetch (the Pages workflow, .github/workflows/pages.yml) the newest
 PDFs are downloaded into docs/pdf/ at build time; docs/pdf/ is never committed, so the repository does not grow."""
 import html, json, pathlib, re, subprocess, sys
 

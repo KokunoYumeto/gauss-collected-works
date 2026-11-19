@@ -58,8 +58,16 @@ a{color:var(--link)} .mute{color:var(--mute)}
       var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if (e.isIntersecting) render(e.target); }); },
                                         {rootMargin: "800px 0px"});
       holders.forEach(function(d){ io.observe(d); });
+      function visible(){   // also render by position, where IntersectionObserver is throttled
+        var h = window.innerHeight || 800;
+        holders.forEach(function(d){ var r = d.getBoundingClientRect(); if (r.bottom > -800 && r.top < h + 800) render(d); });
+      }
+      var tm = null;
+      window.addEventListener("scroll", function(){ if (!tm) tm = setTimeout(function(){ tm = null; visible(); }, 120); }, {passive: true});
+      window.addEventListener("resize", visible);
       var m = /^#page=(\d+)$/.exec(location.hash);
       if (m && holders[+m[1] - 1]) holders[+m[1] - 1].scrollIntoView();
+      visible();
     });
   }).catch(function(e){ msg.textContent = "The reader could not be loaded (" + e.message + "). Use Download instead."; });
 })();
