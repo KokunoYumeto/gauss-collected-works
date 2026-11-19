@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gauss, Werke: reader</title>
+<style>
+:root{--bg:#fdfcf8;--fg:#1f1d1a;--mute:#6b665d;--line:#ddd8cc;--link:#1d4f91;--paper:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#16150f;--fg:#ece8de;--mute:#a39d90;--line:#3a372f;--link:#8fb6ee;--paper:#fff}}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 Georgia,"Times New Roman",serif}
+header{position:sticky;top:0;z-index:2;background:var(--bg);border-bottom:1px solid var(--line);padding:8px 16px;
+ display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
+header .t{font-weight:bold;flex:1 1 100%;overflow-wrap:anywhere}
+a{color:var(--link)} .mute{color:var(--mute)}
+#pages{max-width:1000px;margin:0 auto;padding:12px 16px 48px}
+.pg{background:var(--paper);margin:0 auto 14px;box-shadow:0 1px 4px rgba(0,0,0,.25);position:relative}
+.pg canvas{display:block;width:100%;height:auto}
+.pg .n{position:absolute;right:6px;bottom:4px;font-size:11px;color:#888}
+#msg{padding:16px}
+</style></head><body>
+<header><span class="t" id="title">Gauss, Werke</span>
+<a href="./">All volumes</a><a id="dl" href="#">Download the PDF</a><span class="mute" id="count"></span></header>
+<div id="msg">Loading…</div>
+<div id="pages"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+(function(){
+  var name = new URLSearchParams(location.search).get("file") || "";
+  var msg = document.getElementById("msg");
+  if (!/^[A-Za-z0-9_.-]+\.pdf$/.test(name)) { msg.textContent = "No reader given."; return; }
+  var src = "pdf/" + name;
+  document.getElementById("title").textContent = name.replace(/\.pdf$/, "").replace(/_/g, " ");
+  document.title = name.replace(/\.pdf$/, "").replace(/_/g, " ") + " · Gauss, Werke";
+  document.getElementById("dl").href = src;
+  document.getElementById("dl").setAttribute("download", name);
+  pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+  var box = document.getElementById("pages");
+  pdfjsLib.getDocument({url: src}).promise.then(function(pdf){
+    msg.style.display = "none";
+    document.getElementById("count").textContent = pdf.numPages + " pages";
+    return pdf.getPage(1).then(function(p1){
+      var v = p1.getViewport({scale: 1}), ratio = v.height / v.width, holders = [];
+      for (var i = 1; i <= pdf.numPages; i++) {
+        var d = document.createElement("div"); d.className = "pg"; d.dataset.page = i;
+        d.style.aspectRatio = (1 / ratio).toFixed(4);
+        var n = document.createElement("span"); n.className = "n"; n.textContent = i; d.appendChild(n);
+        box.appendChild(d); holders.push(d);
+      }
+      function render(d){
+        if (d.dataset.done) return; d.dataset.done = "1";
+        pdf.getPage(+d.dataset.page).then(function(page){
+          var w = d.clientWidth || box.clientWidth, base = page.getViewport({scale: 1});
+          var scale = w / base.width * (window.devicePixelRatio || 1);
+          var vp = page.getViewport({scale: scale}), c = document.createElement("canvas");
+          c.width = Math.floor(vp.width); c.height = Math.floor(vp.height);
+          d.style.aspectRatio = (base.width / base.height).toFixed(4);
+          d.insertBefore(c, d.firstChild);
+          return page.render({canvasContext: c.getContext("2d"), viewport: vp}).promise;
+        });
+      }
+      var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if (e.isIntersecting) render(e.target); }); },
+                                        {rootMargin: "800px 0px"});
+      holders.forEach(function(d){ io.observe(d); });
+      var m = /^#page=(\d+)$/.exec(location.hash);
+      if (m && holders[+m[1] - 1]) holders[+m[1] - 1].scrollIntoView();
+    });
+  }).catch(function(e){ msg.textContent = "The reader could not be loaded (" + e.message + "). Use Download instead."; });
+})();
+</script>
+</body></html>
