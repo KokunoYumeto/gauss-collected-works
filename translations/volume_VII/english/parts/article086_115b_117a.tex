@@ -1,0 +1,95 @@
+\par\Needspace{6\baselineskip}\medskip
+\hypertarget{native-115-article086}{}\pdfbookmark[2]{86.}{article-086}
+\begin{center}86.\end{center}
+Let $v-\Pi$ be the true anomaly and denote the undetermined or variable radius vector corresponding to it by $\rho$. The area of the sector swept out by the celestial body in the time $t$ is $=\tfrac12\int\rho\rho\,\mathrm{d}v$, with the integral taken from $v=N$ to $v=N'$. Thus, taking $k$ in the sense of Art. 6, we have $kt\BareRoot{p}=\int\rho\rho\,\mathrm{d}v$. Now, if $\varphi x$ denotes any function of $x$, the formulas developed by \textsc{Cotes} are known to give successively closer approximations to the integral $\int\varphi x\mathbin{.}\mathrm{d}x$ taken from $x=u$ to $x=u+\Delta$. These formulas are
+\[
+\begin{gathered}
+\begin{aligned}
+&\tfrac12\Delta\{\varphi u+\varphi(u+\Delta)\}\\[4pt]
+&\tfrac16\Delta\{\varphi u+4\varphi(u+\tfrac12\Delta)+\varphi(u+\Delta)\}\\[4pt]
+&\tfrac18\Delta\{\varphi u+3\varphi(u+\tfrac13\Delta)+3\varphi(u+\tfrac23\Delta)+\varphi(u+\Delta)\}
+\end{aligned}\\[4pt]
+\text{etc.}
+\end{gathered}
+\]
+\noindent For our purpose the first two formulas will suffice.
+
+The first formula thus gives, in our problem, $\int\rho\rho\,\mathrm{d}v=\tfrac12\Delta(rr+r'r')=\dfrac{\Delta rr'}{\cos2\omega}$ if we set $\dfrac{r'}r=\operatorname{tang}(45^0+\omega)$. The first approximate value of $\BareRoot{p}$ will therefore be $=\dfrac{\Delta rr'}{kt\cos2\omega}$, which we set $=3a$.
+
+The second formula gives the more accurate result $\int\rho\rho\,\mathrm{d}v=\tfrac16\Delta(rr+r'r'+4RR)$, where $R$ denotes the radius vector corresponding to the intermediate anomaly $\tfrac12N+\tfrac12N'-\Pi$. Expressing $p$ in terms of $r$, $R$, $r'$, $N$, $N+\tfrac12\Delta$, $N+\Delta$ by means of the formula given in Art. 82, we find
+\[
+p=\frac{4\sin\tfrac14\Delta^2\sin\tfrac12\Delta}{\left(\dfrac1r+\dfrac1{r'}\right)\sin\tfrac12\Delta-\dfrac1R\sin\Delta}\mathpunct{\raisebox{.45ex}{,}}
+\]
+\SourceLeaf{116}and hence
+\[
+\begin{aligned}
+\frac{\cos\tfrac12\Delta}{R}&=\tfrac12\left(\frac1r+\frac1{r'}\right)-\frac{2\sin\tfrac14\Delta^2}{p}\\[4pt]
+&=\frac{\cos\omega}{\BareRoot{(rr'\cos2\omega)}}-\frac{2\sin\tfrac14\Delta^2}{p}\mathpunct{\cdot}
+\end{aligned}
+\]
+Thus, setting
+\[
+\frac{2\sin\tfrac14\Delta^2\BareRoot{(rr'\cos2\omega)}}{\cos\omega}=\delta,
+\]
+we obtain
+\[
+R=\frac{\cos\tfrac12\Delta\mathbin{.}\BareRoot{(rr'\cos2\omega)}}{\cos\omega\mathbin{.}\left(1-\dfrac{\delta}{p}\right)}\mathpunct{\raisebox{.45ex}{,}}
+\]
+from which we obtain the second approximate value of $\BareRoot{p}$
+\[
+\BareRoot{p}=a+\frac{2a\cos\tfrac12\Delta^2\cos2\omega^2}{\cos\omega^2\left(1-\dfrac{\delta}{p}\right)^2}=a+\frac{\epsilon}{\left(1-\dfrac{\delta}{p}\right)^2}\mathpunct{\raisebox{.45ex}{,}}
+\]
+if we set $2a\left(\dfrac{\cos\tfrac12\Delta\cos2\omega}{\cos\omega}\right)^2=\epsilon$. Writing $\pi$ for $\BareRoot{p}$, we can thus determine $\pi$ from the equation $(\pi-a)\left(1-\dfrac{\delta}{\pi\pi}\right)^2=\epsilon$, which, when expanded, would be of the fifth degree. Let $\pi=q+\mu$, where $q$ is an approximate value of $\pi$ and $\mu$ is a very small quantity whose square and higher powers may be neglected.
+
+This substitution gives
+\[
+\begin{aligned}
+&(q-a)\left(1-\frac{\delta}{qq}\right)^2\\[4pt]
+&\quad+\mu\left\{\left(1-\frac{\delta}{qq}\right)^2+\frac{4\delta(q-a)}{q^3}\left(1-\frac{\delta}{qq}\right)\right\}=\epsilon,
+\end{aligned}
+\]
+or
+\[
+\mu=\frac{\epsilon q^5-(qq-aq)(qq-\delta)^2}{(qq-\delta)(q^3+3\delta q-4a\delta)}\mathpunct{\raisebox{.45ex}{,}}
+\]
+and hence
+\[
+\pi=\frac{\epsilon q^5+(qq-\delta)(aqq+4\delta q-5a\delta)q}{(qq-\delta)(q^3+3\delta q-4a\delta)}\mathpunct{\cdot}
+\]
+In our problem we already have an approximate value of $\pi$, namely $=3a$. Substituting this value for $q$ in the preceding formula gives the corrected value
+\[
+\pi=\frac{243a^4\epsilon+3a(9aa-\delta)(9aa+7\delta)}{(9aa-\delta)(27aa+5\delta)}\mathpunct{\cdot}
+\]
+With $\dfrac{\delta}{27aa}=\beta$ and $\dfrac{\epsilon}{(1-3\beta)a}=\gamma$, the formula therefore takes the form $\pi=\dfrac{a(1+\gamma+21\beta)}{1+5\beta}$. The following five formulas contain all the operations needed to solve the problem.
+\[
+\begin{aligned}
+\mathrm{I.}\qquad&\frac{r'}{r}=\operatorname{tang}(45^0+\omega)\\[6pt]
+\mathrm{II.}\qquad&\frac{\Delta rr'}{3kt\cos2\omega}=a
+\end{aligned}
+\]
+\SourceLeaf{117}
+\[
+\begin{aligned}
+\mathrm{III.}\qquad&\frac{2\sin\tfrac14\Delta^2\BareRoot{(rr'\cos2\omega)}}{27aa\cos\omega}=\beta\\[6pt]
+\mathrm{IV.}\qquad&\frac{2\cos\tfrac12\Delta^2\cos2\omega^2}{(1-3\beta)\cos\omega^2}=\gamma\\[6pt]
+\mathrm{V.}\qquad&\frac{a(1+\gamma+21\beta)}{1+5\beta}=\BareRoot{p}.
+\end{aligned}
+\]
+
+If we are willing to give up some of the precision of these formulas, we can develop still simpler expressions. Specifically, setting $\cos\omega$ and $\cos2\omega=1$ and expanding the value of $\BareRoot{p}$ in a series in powers of $\Delta$, we obtain the following after neglecting fourth and higher powers.
+\[
+\BareRoot{p}=a\left(3-\tfrac12\Delta\Delta+\frac{\Delta\Delta\BareRoot{rr'}}{18aa}\right),
+\]
+Here $\Delta$ must be expressed in parts of the radius. Setting $\dfrac{\Delta rr'}{kt}=\BareRoot{p'}$ therefore gives
+\[
+\mathrm{VI.}\qquad p=p'\left(1-\tfrac13\Delta\Delta+\frac{\Delta\Delta\BareRoot{rr'}}{3p'}\right).
+\]
+Similarly, expanding $\BareRoot{p}$ in a series in powers of $\sin\Delta$ and setting $\dfrac{rr'\sin\Delta}{kt}=\BareRoot{p''}$, we obtain
+\[
+\mathrm{VII.}\qquad\BareRoot{p}=\left(1+\frac{\sin\Delta^2\BareRoot{rr'}}{6p''}\right)\BareRoot{p''}
+\]
+or
+\[
+\mathrm{VIII.}\qquad p=p''+\tfrac13\sin\Delta^2\BareRoot{rr'}.
+\]
+Formulas VII and VIII agree with those given by the distinguished \textsc{Euler} in \textit{Theoria motus planetarum et cometarum} [p. 56]. Formula VI agrees with the one used in \textit{Recherches et calculs sur la vraie orbite elliptique de la comète de 1769}, p. 80.

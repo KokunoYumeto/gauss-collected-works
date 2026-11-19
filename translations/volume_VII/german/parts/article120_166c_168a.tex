@@ -1,0 +1,44 @@
+\par\Needspace{6\baselineskip}\medskip
+\begin{center}\hypertarget{native-166-article120}{}\pdfbookmark[2]{120.}{article-120}120.\end{center}
+Da die Natur der Aufgabe nur eine Reduktion auf zwei Gleichungen zulässt, in denen zwei Unbekannte gemeinsam auftreten, kommt es zunächst auf die geeignete \emph{Wahl} dieser Unbekannten und die passende \SourceLeaf{167}\emph{Anordnung} der Gleichungen an. Dabei sollen $X$ und $Y$ möglichst einfach von $x,y$ abhängen und sich die Elemente selbst aus den gefundenen Werten der Unbekannten möglichst bequem ergeben. Dann ist zu überlegen, wie sich die Werte der Unbekannten, die den Gleichungen genügen, ohne allzu mühsame Rechnungen gewinnen lassen. Müsste dies gleichsam durch blindes Probieren geschehen, so wäre eine ungeheure, kaum zumutbare Arbeit nötig. Eine annähernd so große Arbeit haben dennoch schon oft Astronomen auf sich genommen, die Kometenbahnen nach dem von ihnen indirekt genannten Verfahren bestimmt haben. Die Arbeit erleichtert sich dabei erheblich, weil für die ersten Versuche gröbere Rechnungen genügen, bis Näherungswerte der Unbekannten gefunden sind. Sobald eine näherungsweise Bestimmung vorliegt, lässt sich die Aufgabe stets mit sicheren und raschen Verfahren zu Ende führen. Diese wollen wir hier erläutern, bevor wir weitergehen.
+
+Die Gleichungen $X=0$, $Y=0$ sind selbstverständlich genau erfüllt, wenn man für $x,y$ ihre wahren Werte einsetzt. Setzt man für $x,y$ davon verschiedene Werte ein, so nehmen $X$ und $Y$ von $0$ verschiedene Werte an. Je näher die eingesetzten Werte den wahren kommen, desto kleiner müssen auch die entstehenden Werte von $X,Y$ sein. Sind die Unterschiede zu den wahren Werten sehr klein, so darf man annehmen, dass die Änderungen von $X,Y$ annähernd proportional zur Änderung von $x$ sind, wenn $y$ unverändert bleibt, oder zur Änderung von $y$, wenn $x$ unverändert bleibt. Bezeichnen wir daher die wahren Werte von $x,y$ mit $\xi,\eta$, so lassen sich die Werte von $X,Y$ unter der Annahme $x=\xi+\lambda$, $y=\eta+\mu$ in der Form $X=\alpha\lambda+\beta\mu$, $Y=\gamma\lambda+\delta\mu$ schreiben. Dabei darf man die Koeffizienten $\alpha,\beta,\gamma,\delta$ als konstant ansehen, solange $\lambda$ und $\mu$ sehr klein bleiben. Bestimmt man also für drei Sätze von Werten von $x,y$, die sich nur wenig von den wahren unterscheiden, die zugehörigen Werte von $X,Y$, so lassen sich daraus die wahren Werte von $x,y$ herleiten, soweit diese Annahme zulässig ist. Setzen wir
+\[
+\begin{array}{rlllll}
+\text{für}\quad & x=a, & y=b & \text{gilt}\quad & X=A, & Y=B\\
+& x=a', & y=b' && X=A', & Y=B'\\
+& x=a'', & y=b'' && X=A'', & Y=B''
+\end{array}
+\]
+so erhalten wir
+\[
+\begin{aligned}
+A&=\alpha(a-\xi)+\beta(b-\eta),\\
+B&=\gamma(a-\xi)+\delta(b-\eta)\\
+A'&=\alpha(a'-\xi)+\beta(b'-\eta),\\
+B'&=\gamma(a'-\xi)+\delta(b'-\eta)\\
+A''&=\alpha(a''-\xi)+\beta(b''-\eta),\\
+B''&=\gamma(a''-\xi)+\delta(b''-\eta).
+\end{aligned}
+\]
+\SourceLeaf{168}Durch Elimination von $\alpha,\beta,\gamma,\delta$ ergibt sich
+\[
+\begin{aligned}
+\xi&=\frac{a(A'B''-A''B')+a'(A''B-AB'')+a''(AB'-A'B)}{A'B''-A''B'+A''B-AB''+AB'-A'B}\\[6pt]
+\eta&=\frac{b(A'B''-A''B')+b'(A''B-AB'')+b''(AB'-A'B)}{A'B''-A''B'+A''B-AB''+AB'-A'B}
+\end{aligned}
+\]
+oder in einer für die Rechnung bequemeren Form
+\[
+\begin{aligned}
+\xi&=a+\frac{(a'-a)(A''B-AB'')+(a''-a)(AB'-A'B)}{A'B''-A''B'+A''B-AB''+AB'-A'B}\\[6pt]
+\eta&=b+\frac{(b'-b)(A''B-AB'')+(b''-b)(AB'-A'B)}{A'B''-A''B'+A''B-AB''+AB'-A'B}\mathpunct{\cdot}
+\end{aligned}
+\]
+In diesen Formeln lassen sich offensichtlich auch $a,b,A,B$ mit $a',b',A',B'$ oder mit $a'',b'',A'',B''$ vertauschen.
+
+Der gemeinsame Nenner aller dieser Ausdrücke, den man auch in die Form $(A'-A)(B''-B)-(A''-A)(B'-B)$ bringen kann, wird zu
+\[
+=(\alpha\delta-\beta\gamma)\{(a'-a)(b''-b)-(a''-a)(b'-b)\}:
+\]
+Daraus folgt, dass $a,a',a'',b,b',b''$ so zu wählen sind, dass sich die Gleichheit $\dfrac{a''-a}{b''-b}=\dfrac{a'-a}{b'-b}\mathpunct{\raisebox{.45ex}{,}}$ nicht ergibt. Andernfalls wäre das Verfahren unanwendbar und würde für $\xi$ und $\eta$ Brüche liefern, deren Zähler und Nenner zugleich verschwinden. Ebenso ist klar, dass für $\alpha\delta-\beta\gamma=0$ derselbe Mangel das Verfahren ganz unbrauchbar macht, wie auch immer $a,a',a'',b,b',b''$ gewählt werden. In einem solchen Fall müsste man für die Werte von $X$ eine Form wie $\alpha\lambda+\beta\mu+\epsilon\lambda\lambda+\zeta\lambda\mu+\theta\mu\mu$ und für die Werte von $Y$ eine ähnliche Form ansetzen. Die Analysis würde dann Verfahren liefern, die dem vorhergehenden entsprechen und mit denen sich aus den Werten von $X,Y$, die für vier Sätze von Werten von $x,y$ berechnet wurden, die wahren Werte der Unbekannten gewinnen ließen. Die Rechnung würde dadurch sehr mühsam. Außerdem lässt sich zeigen, dass die Natur der Aufgabe in einem solchen Fall die Bahnbestimmung mit der nötigen Genauigkeit nicht zulässt. Da sich diese Schwierigkeit nur durch neue, geeignetere Beobachtungen vermeiden lässt, gehen wir hier nicht weiter darauf ein.

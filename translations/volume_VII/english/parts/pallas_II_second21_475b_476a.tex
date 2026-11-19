@@ -1,0 +1,32 @@
+\par\Needspace{12\baselineskip}\bigskip
+\pdfbookmark[2]{Fourth section. [Second draft.]}{pallas-II-fourth-second-draft}
+\begin{center}{\large\bfseries Fourth section. [Second draft.]\par}\medskip
+\textit{Expansion of periodic functions into series.}\end{center}
+\pdfbookmark[3]{Exposition, Second Draft, 21}{pallas-II-second-article21}
+\begin{center}21.\end{center}
+\begingroup
+\noindent\hspace*{\parindent}A function of one variable is called periodic if it does not change when the value of that variable is increased by a constant amount. This increment of the variable may be called its period. A function of several variables may be periodic with respect to some of them and nonperiodic with respect to others. We may suppose that the variables with respect to which a function is periodic are arcs of a circle and that the period of each is equal to \(360^0\) or \(2\pi\). Indeed, if a function of \(x,y,z\) etc. does not change when \(x\) is increased by \(a\), \(y\) by \(b\), \(z\) by \(c\) etc., we need only replace the variables \(x,y,z\) etc. by \(x'=\frac{2\pi x}{a}\), \(y'=\frac{2\pi y}{b}\), \(z'=\frac{2\pi z}{c}\) etc.
+\par
+Let us first consider the periodic function \(\mathrm{X}\) of a single variable \(x\) and suppose that
+\[
+\begin{aligned}
+\mathrm{X}={}&a+a'\cos x+a''\cos2x+a'''\cos3x+\text{etc.}\\
+&{}+\beta'\sin x+\beta''\sin2x+\beta'''\sin3x+\text{etc.}
+\end{aligned}
+\]
+\noindent\SourceLeaf{476}We then have \(a=\frac{\int\mathrm{X}\mathrm{d}x}{2\pi}\), where the integral is taken from \(x=0\) to \(x=2\pi\). Indeed, indefinite integration gives
+\[
+\begin{aligned}
+\int\mathrm{X}\mathrm{d}x={}&\text{Const.}+ax+a'\sin x+\tfrac12a''\sin2x+\tfrac13a'''\sin3x+\text{etc.}\\
+&{}-\beta'\cos x-\tfrac12\beta''\cos2x-\tfrac13\beta'''\cos3x-\text{etc.}
+\end{aligned}
+\]
+\noindent and since all terms except \(ax\) have the same value at \(x=0\) as at \(x=2\pi\), the value of the integral between these limits is \(2\pi a\). In the same way we obtain
+\[
+\setlength{\arraycolsep}{4pt}
+\begin{array}{lll}
+a'=\dfrac{\int\mathrm{X}\cos x\mathrm{d}x}{\pi},&a''=\dfrac{\int\mathrm{X}\cos2x\mathrm{d}x}{\pi},&a'''=\dfrac{\int\mathrm{X}\cos3x\mathrm{d}x}{\pi}\quad\text{etc.}\\[4pt]
+\beta'=\dfrac{\int\mathrm{X}\sin x\mathrm{d}x}{\pi},&\beta''=\dfrac{\int\mathrm{X}\sin2x\mathrm{d}x}{\pi},&\beta'''=\dfrac{\int\mathrm{X}\sin3x\mathrm{d}x}{\pi}\quad\text{etc.}
+\end{array}
+\]
+\par\endgroup

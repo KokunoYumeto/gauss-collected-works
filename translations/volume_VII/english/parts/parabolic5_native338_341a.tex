@@ -1,0 +1,104 @@
+\clearpage
+\SourceLeaf{338}
+\pdfbookmark[2]{5. Gauss to Olbers, 7 January 1815}{parabolisch-005}
+\begin{center}
+[5.]\par
+\medskip
+\textsc{Gauss} to \textsc{Olbers}, Göttingen, 7 January 1815.
+\end{center}
+\noindent\hspace*{\parindent}.\ .\ .\ .\ .\ .\par
+In my previous letter I gave you the approximation formula for the time interval
+\[
+t''-t=3mk\BareRoot{(r+r'')}\,.\BareRoot[10]{\left(1-\tfrac5{12}\frac{kk}{(r+r'')^2}\right)}\text{\begingroup\renewcommand{\thefootnote}{[*]}\footnotemark\endgroup}
+\]
+\HistoricalDisplayNoteText{Here, unlike in the preceding notes, \(k\) denotes the chord and \(\frac1{6m}\) the constant previously denoted by \(k\), cf. p. 330.]}
+and said that it was sufficiently accurate in most cases. I should have said that in practice it would always be more than accurate enough. As long as \(k<\tfrac12(r+r'')\), the error does not yet affect the 5\textsuperscript{th} decimal place. It is a pleasure to see how easily the trials for \(u\) can be carried out with it. Each trial requires only 8 lookups, 3 in the logarithm tables, 4 in the sine tables and one in my auxiliary table for logarithms of sums and differences. To have as little as possible to write, I set \(r\BareRoot{\frac{12}5}=s\) and \(r''\BareRoot{\frac{12}5}=s''\). If one also sets \(\frac{k}{s+s''}=\sin Q\), this gives
+\[
+\frac{t''-t}{m\BareRoot[4]{\frac{135}4}}=\frac{k\BareRoot{(s+s'')}}{\BareRoot[5]{\sec Q}}\mathpunct{\cdot}
+\]
+
+The entire preliminary calculation thus reduces to the following.
+\[
+\begin{aligned}
+\frac{bB}{u+c}&=\operatorname{tang}\theta,&\frac{b''B''}{u+c''}&=\operatorname{tang}\theta'',&\frac Au&=\operatorname{tang}\eta\\[5pt]
+\frac{B\BareRoot{\frac{12}5}}{\sin\theta}&=s,&\frac{B''\BareRoot{\frac{12}5}}{\sin\theta''}&=s'',&\frac A{\sin\eta}&=\frac u{\cos\eta}=k.
+\end{aligned}
+\]
+
+\SourceLeaf{339}\noindent\hspace*{\parindent}.\ .\ .\ .\ .\ .\par
+The extraordinary ease of these trials makes it fairly immaterial what value of \(u\) one starts with. Still, one can proceed somewhat methodically here too. To avoid groping entirely in the dark, I determine the first value of \(u\) as follows. I set
+\[
+\frac{\BareRoot[6]{(A^4BB'')}}{\left(\frac{t''-t}{m\BareRoot{18}}\right)^{\frac23}}=\sin P,
+\]
+\[
+u=-\tfrac16(c+c'')+\cos P\cdot\left(\frac{t''-t}{m\BareRoot{18}}\right)^{\frac23}\cdot\BareRoot[6]{(bb'')},
+\]
+which of course can only be a very rough approximation. The reasoning behind this formula is as follows. At first I disregard \(\BareRoot[5]{\sec Q}\). I set
+\[
+\tfrac12(r+r'')=\BareRoot{\left\{\left(\frac{u+\frac12(c+c'')}{\BareRoot{(bb'')}}\right)^2+\BareRoot{(BB'')}^2\right\}}
+\]
+and, what is of course even bolder,
+\[
+k^{\frac23}\left(\frac{r+r''}2\right)^{\frac13}=\BareRoot{\left\{\left(\frac{u+\frac16(c+c'')}{\BareRoot[3]{(\BareRoot{(bb'')})}}\right)^2+\left(A^{\frac23}(\BareRoot{(BB'')})^{\frac13}\right)^2\right\}}.
+\]
+After carrying out the calculation with this first value of \(u\), I obtain the error in \(\log\frac{t''-t}{m\BareRoot[4]{\frac{135}4}}\mathpunct{\cdot}\) Now I do not make the second hypothesis at random. I consider that, for moderate time intervals, a change in \(u\) always affects \(\log k\) much more strongly than \(\tfrac12\log(r+r'')\), to say nothing of \(\sec Q\). I therefore assign the whole error of the first hypothesis to \(\log k\), and for the second hypothesis I start from the modified value of \(\log k\), in order to determine \(u\) from it by means of the formulas
+\[
+\frac Ak=\sin\eta,\qquad u=k\cos\eta
+\]
+Once I have also worked through this hypothesis and determined its error, I find the third value of \(u\) by interpolation, and the problem is then as good as solved. Here is the application to the example in my paper.
+
+The formula above gives
+\[
+\mathrm{I.}\quad u=0{,}15599.
+\]
+
+The time interval gives \(\log\frac{t''-t}{m\BareRoot[4]{\frac{135}4}}=9{,}77932\). From this value \SourceLeaf{340}of \(u\), however, for which \(\log k=9{,}36029\), the result for the same quantity is \(9{,}65406\), which is too small by 12526 units in the fifth place. So for the second hypothesis I take \(\log k=9{,}48555\), whence
+\[
+\mathrm{II.}\quad u=0{,}25561.
+\]
+
+The error of this hypothesis is \(+1598\), for it gives \(9{,}79530\). From this I find by interpolation that the second \(u\) needs a correction of \(-0{,}01127\), giving
+\[
+\mathrm{III.}\quad u=0{,}24434.
+\]
+
+The error of this hypothesis is \(+67\). Interpolating again between II and III therefore gives
+\[
+\mathrm{IV.}\quad u=0{,}24385,
+\]
+which is correct to within one unit in the last place. My paper gives \(0{,}24388\), but there the calculation uses the exact formula, which is less reliable than the approximation formula when one uses only five decimal places. Here is the fourth trial worked out in full. The red\HistoricalNoteEight{The numbers written in red ink in the original are underlined here.]} numbers are the same in all the trials, and the meaning of each number is given alongside it.
+\begingroup
+\small
+\setlength{\arraycolsep}{5pt}
+\renewcommand{\arraystretch}{1.35}
+\[
+\begin{array}{rrr@{\quad}l}
+0{,}24385&&&u\\
+\underline{0{,}31365}&&&c\\
+\underline{0{,}95443}&&&c''\\
+\underline{9{,}74351}&\underline{9{,}91066}&\underline{9{,}22527}&bB,\ b''B'',\ A\\
+9{,}74624&0{,}07856&9{,}38712&u+c,\ u+c'',\ u\\
+\underline{0{,}17717}&\underline{0{,}05049}&9{,}91567&B\BareRoot{\frac{12}5},\ B''\BareRoot{\frac{12}5},\ \cos\eta\\
+9{,}84812&9{,}74970&&\sin\theta,\ \sin\theta''\\
+0{,}32905&&&s\\
+0{,}30079&&&s''\\
+0{,}28713&&&\text{\footnotemark}\\
+0{,}61618&&&s+s''
+\end{array}
+\]
+\[
+\left.\begin{array}{r}9{,}47145\\0{,}30809\\-22\end{array}\right\}
+9{,}77932\ \text{perfectly exact}
+\qquad
+\left.\begin{array}{l}k\\\BareRoot{(s+s'')}\\-\BareRoot[5]{\sec Q}\end{array}\right\}\text{Result}
+\]
+\endgroup
+\footnotetext{From the second column of my auxiliary table, looking up the difference between the logarithms of \(s\) and \(s''\) in the first.}
+
+\SourceLeaf{341}\noindent\hspace*{\parindent}.\ .\ .\ .\ .\ .\par
+I would add that the first of the assumptions made above for the first approximation is entirely \textls[150]{legitimate} for moderate time intervals. Insofar as \(r\), \(r''\) are similar functions of quantities that vary according to the law of continuity, one can regard the arithmetic mean \(\tfrac12(r+r'')\) as approximately the same function of the respective means. Extending this to \(k\) can of course be too bold in some cases, but the attempt is harmless in any case. If one forgoes this last liberty, \(u\) is to be determined by the following equation
+\[
+\BareRoot[4]{(bb'')}\cdot\frac{t''-t}{m\BareRoot{18}}=\BareRoot{(uu+AA)}\,.\BareRoot[4]{\left\{\bigl(u+\tfrac12(c+c'')\bigr)^2+bb''BB''\right\}},
+\]
+which, when expanded, would rise to degree 6, but can easily be solved by trial. This will probably always give a genuinely usable approximation. In our example it gives \(u=0{,}2382\), as you see already very close to the true value. It is probably best to calculate only one or two digits of \(u\) by means of this equation and then proceed directly to the accurate trials.
+\par\medskip\noindent\makebox[\linewidth]{\rule{.18\linewidth}{.35pt}}\par

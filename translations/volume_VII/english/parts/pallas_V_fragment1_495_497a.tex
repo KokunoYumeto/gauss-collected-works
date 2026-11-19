@@ -1,0 +1,113 @@
+\clearpage
+\SourceLeaf{495}
+\pdfbookmark[1]{Posthumous papers V. General perturbations of Pallas by Jupiter. First calculation.}{pallas-V}
+\fancyhead[L]{\small POSTHUMOUS PAPERS. PERTURBATIONS OF PALLAS}
+\begin{center}
+{\Large POSTHUMOUS PAPERS.\par}
+\bigskip
+{\large [V. GENERAL PERTURBATIONS OF PALLAS BY JUPITER. FIRST CALCULATION.]\par}
+\medskip
+[BEGUN IN AUGUST 1811.]\par
+\end{center}
+\par\Needspace{9\baselineskip}\bigskip
+\pdfbookmark[2]{General perturbations, first calculation, [1]}{pallas-V-fragment1}
+\begin{center}[1.]\end{center}
+\begingroup
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\setlength{\lineskip}{4pt}\setlength{\lineskiplimit}{4pt}
+\newcommand{\VonePallasMarks}{\makebox[.16em][l]{\raisebox{1.35ex}{\rule{.07em}{.07em}}}\kern-.16em\makebox[.16em][l]{\raisebox{-.5ex}{\rule{.14em}{.035em}}}}
+\noindent\hspace*{\parindent}[To develop the general theory of the perturbations of Pallas by Jupiter, the method set out in the »Exposition etc.« (pages 449 and 465 of this volume) was used in broad outline, as it was in calculating the special perturbations. Since the intention here, however, is to give the general theory and not merely to calculate the numerical values of the perturbations over a certain period, the equations for the perturbations will have to be set out here in a somewhat different form from that used there. They are therefore to be brought together here once more, using the same notation as in the earlier calculations (page 473 of this volume).
+\par
+The coordinates of Pallas and Jupiter, \(r,v,r',w'\), are calculated from the elliptic elements by known formulas. To calculate the relative orientation of the orbits, one also uses the formulas (see page 459 of this volume):
+\[
+\begin{aligned}
+\sin\tfrac12\mathrm{J}.\sin\tfrac12(\Delta+N)&=\sin\tfrac12(i'+i).\sin\tfrac12(\AscendingNode'-\AscendingNode)\\
+\sin\tfrac12\mathrm{J}.\cos\tfrac12(\Delta+N)&=\sin\tfrac12(i'-i).\cos\tfrac12(\AscendingNode'-\AscendingNode)\\
+\cos\tfrac12\mathrm{J}.\sin\tfrac12(\Delta-N)&=\cos\tfrac12(i'+i).\sin\tfrac12(\AscendingNode'-\AscendingNode)\\
+\cos\tfrac12\mathrm{J}.\cos\tfrac12(\Delta-N)&=\cos\tfrac12(i'-i).\cos\tfrac12(\AscendingNode'-\AscendingNode),
+\end{aligned}
+\tag*{1)}
+\]
+from which
+\begin{center}
+\begin{tabular}{@{}r@{\,}p{.82\linewidth}@{}}
+\(\mathrm{J}={}\)&Mutual inclination of the orbital planes,\\
+\(\AscendingNode+\Delta={}\)&Longitude of Jupiter's orbital node on \VonePallasMarks Pallas's orbit, measured along the latter,\\
+\(\AscendingNode'+N={}\)&»\quad »\quad »\quad »\quad »\quad »\quad »\quad »\quad »\quad »\quad »\quad former
+\end{tabular}
+\end{center}
+follow. To calculate \(v'\) and \(\beta'\), one also has the equations
+\[
+\begin{aligned}
+\operatorname{tang}(v'-\AscendingNode-\Delta)&=\cos\mathrm{J}.\operatorname{tang}(w'-\AscendingNode'-N)\\
+\operatorname{tang}\beta'&=\operatorname{tang}\mathrm{J}.\sin(v'-\AscendingNode-\Delta)\\
+\sin\beta'&=\sin\mathrm{J}.\sin(w'-\AscendingNode'-N),
+\end{aligned}
+\tag*{2)}
+\]
+\SourceLeaf{496}of which one of the last two can serve as a check. Furthermore, one finds
+\[
+\begin{aligned}
+\xi&=r'\cos\beta'\cos(v-v')&\quad\rho\rho&=r'r'+rr-2r\xi\\[.4em]
+\eta&=r'\cos\beta'\sin(v-v')&\Delta&=\frac{1}{\rho^3}-\frac{1}{r'^3}\\[.4em]
+\zeta&=r'\sin\beta'&&\\[.4em]
+T&=\frac{\alpha r}{\rho^3}-\alpha\Delta\xi&&\\[.4em]
+V&=\alpha r\Delta\eta&\alpha&=\frac{\mu a}{\cos\varphi}\mathpunct{\raisebox{.45ex}{.}}\\[.4em]
+W&=\alpha r\Delta\zeta&&
+\end{aligned}
+\tag*{3)}
+\]
+The value of \(\alpha\) must still be multiplied by the number \(206265''\), which gives all the quantities in arcseconds.
+\par
+By equations 3 on page 474, the following relations then hold for the perturbations of the inclination and the longitude of the node:
+\[
+\begin{aligned}
+\frac{\mathrm{d}i}{n\mathrm{d}t}&=\cos(v-\AscendingNode).W\\[.5em]
+\frac{\mathrm{d}\AscendingNode}{n\mathrm{d}t}&=\frac{1}{\sin i}\sin(v-\AscendingNode).W.
+\end{aligned}
+\tag*{4)}
+\]
+\par
+For the perturbations of the perihelion, a simple transformation of those equations gives:
+\[
+\begin{aligned}
+\frac{\mathrm{d}\tilde\omega}{n\mathrm{d}t}
+&=(1-\cos i)\frac{\mathrm{d}\AscendingNode}{n\mathrm{d}t}
++\frac{p}{e}\cos(v-\tilde\omega).T\\
+&\qquad-\frac{1}{e}\{2+e\cos(v-\tilde\omega)\}\sin(v-\tilde\omega).V.
+\end{aligned}
+\tag*{5)}
+\]
+\par
+For the semiparameter \(p\), which is to be introduced in place of the eccentricity, equation 63 of the Exposition gives the following, taking into account the changed meaning of \(V\):
+\[
+\frac{\mathrm{d}p}{n\mathrm{d}t}=-2a\cos\varphi^2.V,
+\]
+hence
+\[
+\frac{\mathrm{d}\log p}{n\mathrm{d}t}=-2V.
+\tag*{6)}
+\]
+\par
+Furthermore, equations 3 on page 474 give
+\[
+\begin{aligned}
+\frac{\mathrm{d}\log\operatorname{hyp} n}{n\mathrm{d}t}
+&=3ae\sin(v-\tilde\omega).T+\frac{3aa\cos\varphi^2}{rr}V\\[.7em]
+\frac{\mathrm{d}\varepsilon}{n\mathrm{d}t}
+&=\operatorname{tang}\tfrac12 i\sin(v-\AscendingNode).W\\
+&\quad+\{2r\cos\varphi+p\operatorname{tang}\tfrac12\varphi\cos(v-\tilde\omega)\}T\\
+&\quad-\operatorname{tang}\tfrac12\varphi(2+e\cos(v-\tilde\omega))\sin(v-\tilde\omega).V\\[.5em]
+&=(1-\cos\varphi)\left(\frac{\mathrm{d}\tilde\omega}{n\mathrm{d}t}
+ -(1-\cos i)\frac{\mathrm{d}\AscendingNode}{n\mathrm{d}t}\right)\\
+&\quad+(1-\cos i)\frac{\mathrm{d}\AscendingNode}{n\mathrm{d}t}
+ +2r\cos\varphi.T.
+\end{aligned}
+\tag*{7)}
+\]
+\par
+If one now takes a set of elliptic elements for each of Pallas and Jupiter as the basis of the entire calculation, the quantities \(T,V,W\), like the derivatives of the elements, are clearly periodic functions of the mean anomalies of the two planets, that is, of the quantities \(M\) and \(M'\), and can be represented by trigonometric series in multiples of these two arguments. One may therefore use here the investigations in Theoria interpolationis methodo nova tractata (Vol. III, page 265) and determine the coefficients of these series by calculating the numerical values of \(T,V,W\) for sequences of values of \(M\) and \(M'\) that each cover a complete period.
+\par
+\SourceLeaf{497}To this end, the formulas derived in the paper just cited are to be transformed in the following articles to put them in the simplest possible form for solving the problem at hand.]
+\par
+\endgroup

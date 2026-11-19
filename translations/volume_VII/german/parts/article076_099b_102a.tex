@@ -1,0 +1,157 @@
+\par\Needspace{6\baselineskip}\medskip
+\hypertarget{native-099-article076}{}\pdfbookmark[2]{76.}{article-076}
+\begin{center}76.\end{center}
+In Art.\ 52 haben wir gezeigt, wie sich die differenziellen Änderungen der heliozentrischen Länge und Breite sowie der verkürzten Entfernung durch die Änderungen des Breitenarguments $u$, der Neigung $i$ und des Radiusvektors $r$ ausdrücken lassen. Später (Art.\ 64, IV) haben wir daraus die Änderungen der geozentrischen Länge und Breite, $l$ und $b$, hergeleitet. Durch Kombination dieser Formeln erhält man also $\mathrm{d}l$ und $\mathrm{d}b$, ausgedrückt durch $\mathrm{d}u$, $\mathrm{d}i$, $\mathrm{d}\AscendingNode$ und $\mathrm{d}r$. Es lohnt sich jedoch zu zeigen, wie man auch bei dieser Rechnung auf die Reduktion des heliozentrischen Ortes auf die Ekliptik verzichten kann, so wie wir in Art.\ 65 den geozentrischen Ort unmittelbar aus dem heliozentrischen Ort in der Bahn hergeleitet haben. Damit die Formeln einfacher werden, vernachlässigen wir die Breite der Erde, da sie in den Differenzialformeln gewiss keine merkliche Wirkung haben kann. Somit stehen uns die folgenden Formeln zur Verfügung, in denen wir der Kürze halber $\omega$ für $l-\AscendingNode$ und wie oben $\Delta'$ für $\Delta\cos b$ schreiben.
+\[
+\begin{aligned}
+\Delta'\cos\omega &= r\cos u - R\cos(L-\AscendingNode) &&= \xi\\
+\Delta'\sin\omega &= r\cos i\sin u - R\sin(L-\AscendingNode) &&= \eta\\
+\Delta'\operatorname{tang}b &= r\sin i\sin u &&= \zeta,
+\end{aligned}
+\]
+\noindent Durch Differenzieren dieser Formeln erhält man
+\SourceLeaf{100}\[
+\begin{aligned}
+\cos\omega\mathbin{.}\mathrm{d}\Delta' - \Delta'\sin\omega\mathbin{.}\mathrm{d}\omega &= \mathrm{d}\xi\\
+\sin\omega\mathbin{.}\mathrm{d}\Delta' + \Delta'\cos\omega\mathbin{.}\mathrm{d}\omega &= \mathrm{d}\eta\\
+\operatorname{tang}b\mathbin{.}\mathrm{d}\Delta' + \frac{\Delta}{\cos b}\mathrm{d}b &= \mathrm{d}\zeta.
+\end{aligned}
+\]
+\noindent Durch Elimination ergibt sich daraus
+\[
+\begin{aligned}
+\mathrm{d}\omega &= \frac{-\sin\omega\mathbin{.}\mathrm{d}\xi+\cos\omega\mathbin{.}\mathrm{d}\eta}{\Delta'}\\
+\mathrm{d}b &= \frac{-\cos\omega\sin b\mathbin{.}\mathrm{d}\xi-\sin\omega\sin b\mathbin{.}\mathrm{d}\eta+\cos b\mathbin{.}\mathrm{d}\zeta}{\Delta}\mathpunct{\cdot}
+\end{aligned}
+\]
+
+Setzt man in diese Formeln für $\xi$, $\eta$ und $\zeta$ die entsprechenden Werte ein, so erhält man $\mathrm{d}\omega$ und $\mathrm{d}b$, ausgedrückt durch $\mathrm{d}r$, $\mathrm{d}u$, $\mathrm{d}i$ und $\mathrm{d}\AscendingNode$. Wegen $\mathrm{d}l=\mathrm{d}\omega+\mathrm{d}\AscendingNode$ ergeben sich dann die folgenden partiellen Ableitungen von $l$ und $b$.
+\[
+\mathrm{I.}\quad \Delta'\left(\frac{\mathrm{d}l}{\mathrm{d}r}\right) = -\sin\omega\cos u + \cos\omega\sin u\cos i
+\]
+\[
+\mathrm{II.}\quad \frac{\Delta'}{r}\left(\frac{\mathrm{d}l}{\mathrm{d}u}\right) = \sin\omega\sin u + \cos\omega\cos u\cos i
+\]
+\[
+\mathrm{III.}\quad \frac{\Delta'}{r}\left(\frac{\mathrm{d}l}{\mathrm{d}i}\right) = -\cos\omega\sin u\sin i
+\]
+\[
+\begin{aligned}
+\mathrm{IV.}\quad \left(\frac{\mathrm{d}l}{\mathrm{d}\AscendingNode}\right) &= 1+\frac{R}{\Delta'}\cos(L-\AscendingNode-\omega)\\
+& = 1+\frac{R}{\Delta'}\cos(L-l)
+\end{aligned}
+\]
+\[
+\begin{aligned}
+\mathrm{V.}\quad \Delta\left(\frac{\mathrm{d}b}{\mathrm{d}r}\right) &= -\cos\omega\cos u\sin b\\
+& - \sin\omega\sin u\cos i\sin b + \sin u\sin i\cos b
+\end{aligned}
+\]
+\[
+\begin{aligned}
+\mathrm{VI.}\quad \frac{\Delta}{r}\left(\frac{\mathrm{d}b}{\mathrm{d}u}\right) &= \cos\omega\sin u\sin b\\
+& - \sin\omega\cos u\cos i\sin b + \cos u\sin i\cos b
+\end{aligned}
+\]
+\[
+\mathrm{VII.}\quad \frac{\Delta}{r}\left(\frac{\mathrm{d}b}{\mathrm{d}i}\right) = \sin\omega\sin u\sin i\sin b + \sin u\cos i\cos b
+\]
+\[
+\begin{aligned}
+\mathrm{VIII.}\quad \frac{\Delta}{R}\left(\frac{\mathrm{d}b}{\mathrm{d}\AscendingNode}\right) &= \sin b\sin(L-\AscendingNode-\omega)\\
+& = \sin b\sin(L-l).
+\end{aligned}
+\]
+\noindent Die Formeln IV und VIII liegen hier bereits in der für die Rechnung bequemsten Form vor. Die Formeln I, III und V lassen sich durch naheliegende Einsetzungen in die folgende einfachere Form bringen.
+\[
+\mathrm{I}^{*}.\quad \left(\frac{\mathrm{d}l}{\mathrm{d}r}\right) = \frac{R}{r\Delta'}\sin(L-l)
+\]
+\[
+\mathrm{III}^{*}.\quad \left(\frac{\mathrm{d}l}{\mathrm{d}i}\right) = -\cos\omega\operatorname{tang}b
+\]
+\[
+\begin{aligned}
+\mathrm{V}^{*}.\quad \left(\frac{\mathrm{d}b}{\mathrm{d}r}\right) &= -\frac{R}{r\Delta}\cos(L-l)\sin b\\
+& = -\frac{R}{r\Delta'}\cos(L-l)\sin b\cos b.
+\end{aligned}
+\]
+
+\SourceLeaf{101}Schließlich lassen sich auch die übrigen Formeln II, VI und VII durch Einführung einiger Hilfswinkel vereinfachen. Das geschieht am bequemsten auf folgende Weise. Man bestimme die Hilfswinkel $M$ und $N$ durch die Formeln
+\[
+\begin{gathered}
+\operatorname{tang}M = \frac{\operatorname{tang}\omega}{\cos i},\\
+\operatorname{tang}N = \sin\omega\operatorname{tang}i = \operatorname{tang}M\cos\omega\sin i.
+\end{gathered}
+\]
+\noindent Zugleich ergibt sich dann
+\[
+\begin{aligned}
+\frac{\cos M^2}{\cos N^2}&=\frac{1+\operatorname{tang}N^2}{1+\operatorname{tang}M^2}\\
+&=\frac{\cos i^2+\sin\omega^2\sin i^2}{\cos i^2+\operatorname{tang}\omega^2}=\cos\omega^2:
+\end{aligned}
+\]
+\noindent Da man die Mehrdeutigkeit, die bei der Bestimmung von $M$ und $N$ durch ihre Tangenten verbleibt, nach Belieben auflösen kann, lässt sich dies offenbar so tun, dass $\dfrac{\cos M}{\cos N}=+\cos\omega$ und folglich $\dfrac{\sin N}{\sin M}=+\sin i$ gilt. Bei dieser Wahl gehen die Formeln II, VI und VII in die folgenden über.
+\[
+\mathrm{II}^{*}.\quad \left(\frac{\mathrm{d}l}{\mathrm{d}u}\right) = \frac{r\sin\omega\cos(M-u)}{\Delta'\sin M}
+\]
+\[
+\begin{aligned}
+\mathrm{VI}^{*}.\quad \left(\frac{\mathrm{d}b}{\mathrm{d}u}\right)&=\frac{r}{\Delta}\left\{\cos\omega\sin i\cos(M-u)\cos(N-b)\right.\\
+&\qquad\left.+\sin(M-u)\sin(N-b)\right\}
+\end{aligned}
+\]
+\[
+\mathrm{VII}^{*}.\quad \left(\frac{\mathrm{d}b}{\mathrm{d}i}\right) = \frac{r\sin u\cos i\cos(N-b)}{\Delta\cos N}\mathpunct{\cdot}
+\]
+\noindent Bei den Formeln II und VII werden diese Umformungen niemandem Schwierigkeiten bereiten. Bei Formel VI dagegen ist eine Erläuterung angebracht. Setzt man nämlich in Formel VI zunächst $M-(M-u)$ für $u$ ein, so ergibt sich
+\[
+\begin{aligned}
+\frac{\Delta}{r}\left(\frac{\mathrm{d}b}{\mathrm{d}u}\right) = {}&\cos(M-u)\left\{\cos\omega\sin M\sin b\right.\\
+&\qquad\left.-\sin\omega\cos i\cos M\sin b+\sin i\cos M\cos b\right\}\\
+&-\sin(M-u)\left\{\cos\omega\cos M\sin b\right.\\
+&\qquad\left.+\sin\omega\cos i\sin M\sin b-\sin i\sin M\cos b\right\}.
+\end{aligned}
+\]
+\noindent Nun gilt
+\[
+\begin{aligned}
+\cos\omega\sin M&=\allowbreak \cos i^2\cos\omega\sin M +\allowbreak \sin i^2\cos\omega\sin M\\
+&=\allowbreak \sin\omega\cos i\cos M +\allowbreak \sin i^2\cos\omega\sin M,
+\end{aligned}
+\]
+woraus sich für den ersten Teil dieses Ausdrucks ergibt
+\[
+\begin{aligned}
+&\sin i\cos(M-u)\left\{\sin i\cos\omega\sin M\sin b + \cos M\cos b\right\}\\
+&= \sin i\cos(M-u)\left\{\cos\omega\sin N\sin b + \cos\omega\cos N\cos b\right\}\\
+&= \cos\omega\sin i\cos(M-u)\cos(N-b).
+\end{aligned}
+\]
+\noindent Ebenso gilt $\cos N =\allowbreak \cos\omega^2\cos N +\allowbreak \sin\omega^2\cos N =\hfil\penalty-10000 \cos\omega\cos M +\allowbreak \sin\omega\cos i\sin M$, woraus sich für den zweiten Teil des Ausdrucks ergibt
+\[
+-\sin(M-u)\left\{\cos N\sin b - \sin N\cos b\right\} = \sin(M-u)\sin(N-b).
+\]
+\noindent Daraus folgt unmittelbar der Ausdruck VI\textsuperscript{*}.
+
+\SourceLeaf{102}Der Hilfswinkel $M$ lässt sich auch zur Umformung der Formel I verwenden. Führt man ihn ein, so erhält die Formel die Gestalt
+\[
+\mathrm{I}^{**}.\quad \left(\frac{\mathrm{d}l}{\mathrm{d}r}\right) = -\frac{\sin\omega\sin(M-u)}{\Delta'\sin M},
+\]
+\noindent Vergleicht man dies mit Formel I\textsuperscript{*}, so folgt
+\[
+-R\sin(L-l)\sin M = r\sin\omega\sin(M-u);
+\]
+\noindent Damit lässt sich auch Formel II\textsuperscript{*} in eine noch etwas einfachere Form bringen, nämlich
+\[
+\mathrm{II}^{**}.\quad \left(\frac{\mathrm{d}l}{\mathrm{d}u}\right) = -\frac{R}{\Delta'}\sin(L-l)\operatorname{cotang}(M-u).
+\]
+
+Um Formel VI\textsuperscript{*} noch weiter zu verkürzen, muss man einen neuen Hilfswinkel einführen. Das kann auf zweierlei Weise geschehen, indem man entweder $\operatorname{tang}P=\dfrac{\operatorname{tang}(M-u)}{\cos\omega\sin i}$ oder $\operatorname{tang}Q=\dfrac{\operatorname{tang}(N-b)}{\cos\omega\sin i}$ setzt. Daraus ergibt sich
+\[
+\begin{aligned}
+\mathrm{VI}^{**}.\quad \left(\frac{\mathrm{d}b}{\mathrm{d}u}\right) &= \frac{r\sin(M-u)\cos(N-b-P)}{\Delta\sin P}\\
+& = \frac{r\sin(N-b)\cos(M-u-Q)}{\Delta\sin Q}\mathpunct{\cdot}
+\end{aligned}
+\]
+\noindent Im Übrigen sind die Hilfsgrößen $M$, $N$, $P$ und $Q$ keine bloßen Fiktionen. Es ließe sich leicht angeben, was jeder einzelnen auf der Himmelskugel entspricht. Auf diese Weise ließen sich sogar mehrere der vorangehenden Gleichungen noch eleganter durch Bögen oder Winkel auf der Kugel darstellen. Wir verweilen hier umso weniger bei ihnen, als sie die oben angegebenen Formeln bei der eigentlichen numerischen Rechnung nicht entbehrlich machen können.
+

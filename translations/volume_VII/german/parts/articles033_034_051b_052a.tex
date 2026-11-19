@@ -1,0 +1,33 @@
+\par\Needspace{4\baselineskip}
+\begin{center}
+\hypertarget{native-051-article033}{}\pdfbookmark[2]{33.}{article-033}33.
+\end{center}
+Bei Kegelschnitten also, deren Exzentrizität sich nur wenig von eins unterscheidet, also bei Ellipsen und Hyperbeln, die einer Parabel sehr nahekommen, lassen die oben erläuterten Verfahren zur Bestimmung der wahren Anomalie aus der Zeit und der Zeit aus der wahren Anomalie\footnote{Da die Zeit den Faktor $a^{\frac{3}{2}}$ oder $b^{\frac{3}{2}}$ enthält, wird ein Fehler in $M$ oder $N$ umso stärker vergrößert, je größer $a=\frac{p}{1-ee}$ oder $b=\frac{p}{ee-1}$ ist\raisebox{.45ex}{.}} nicht jede wünschenswerte Genauigkeit zu. Die unvermeidlichen Fehler wachsen sogar, je mehr sich die Bahn einer Parabel nähert, und würden schließlich jede Grenze überschreiten. Größere, auf mehr als sieben Stellen berechnete Tafeln würden diese Unsicherheit verringern. Sie bestünde jedoch fort und würde jede Grenze überschreiten, sobald die Bahn der Parabel zu nahekäme. Außerdem werden die oben angegebenen Verfahren in diesem Fall recht mühsam, weil ein Teil dieser Verfahren wiederholtes indirektes Probieren erfordert. Das macht die Rechnung bei Verwendung größerer Tafeln noch mühsamer. Es lohnt sich daher, ein besonderes Verfahren auszuarbeiten, mit dem man in diesem Fall jene Unsicherheit vermeiden und allein mithilfe der üblichen Tafeln hinreichende Genauigkeit erreichen kann.
+
+\par\Needspace{4\baselineskip}
+\begin{center}
+\hypertarget{native-051-article034}{}\pdfbookmark[2]{34.}{article-034}34.
+\end{center}
+Das übliche Verfahren zur Behebung dieser Schwierigkeiten beruht auf den folgenden Grundsätzen. Wir betrachten eine Ellipse oder Hyperbel mit der Exzentrizität $e$, dem Halbparameter $p$ und somit der Periheldistanz $=\frac{p}{1+e}=q$. \SourceLeaf{052}Es sei $t$ die Zeit seit dem Periheldurchgang und $v$ die zugehörige wahre Anomalie. Ferner sei in einer Parabel mit dem Halbparameter $=2q$, also der Periheldistanz $=q$, die zur selben Zeit gehörige wahre Anomalie $w$. Die Masse $\mu$ werde in beiden Fällen entweder vernachlässigt oder gleich groß angenommen. Dann gilt offenbar
+\[
+\int\frac{pp\,\mathrm{d}v}{(1+e\cos v)^2}:\int\frac{4qq\,\mathrm{d}w}{(1+\cos w)^2}=\BareRoot{p}:\BareRoot{2q}
+\]
+wobei die Integrale bei $v=0$ und $w=0$ beginnen, oder
+\[
+\int\frac{(1+e)^{\frac{3}{2}}\mathrm{d}v}{(1+e\cos v)^2\BareRoot{2}}=\int\frac{2\mathrm{d}w}{(1+\cos w)^2}\raisebox{.45ex}{.}
+\]
+Bezeichnet man $\frac{1-e}{1+e}$ mit $\alpha$ und $\operatorname{tang}\frac{1}{2}v$ mit $\theta$, so erhält man für das erste Integral
+\[
+\begin{aligned}
+={}&\BareRoot{(1+\alpha)}\cdot\{\theta+\tfrac{1}{3}\theta^3(1-2\alpha)-\tfrac{1}{5}\theta^5(2\alpha-3\alpha\alpha)\\
+&\qquad+\tfrac{1}{7}\theta^7(3\alpha\alpha-4\alpha^3)-\text{usw.}\},
+\end{aligned}
+\]
+und für das zweite $=\operatorname{tang}\frac{1}{2}w+\frac{1}{3}\operatorname{tang}\frac{1}{2}w^3$. Aus dieser Gleichung lassen sich mithilfe unendlicher Reihen leicht $w$ aus $\alpha$ und $v$ sowie $v$ aus $\alpha$ und $w$ bestimmen. Nach Belieben kann man $\alpha$ durch $1-e=\frac{2\alpha}{1+\alpha}=\delta$ ersetzen. Für $\alpha=0$ oder $\delta=0$ gilt offenbar $v=w$. Daher haben diese Reihen die folgende Form.
+\[
+\begin{aligned}
+w&=v+\delta v^{\prime}+\delta\delta v^{\prime\prime}+\delta^3v^{\prime\prime\prime}+\text{usw.}\\
+v&=w+\delta w^{\prime}+\delta\delta w^{\prime\prime}+\delta^3w^{\prime\prime\prime}+\text{usw.},
+\end{aligned}
+\]
+Dabei sind $v^{\prime}$, $v^{\prime\prime}$, $v^{\prime\prime\prime}$ usw. Funktionen von $v$ und $w^{\prime}$, $w^{\prime\prime}$, $w^{\prime\prime\prime}$ usw. Funktionen von $w$. Ist $\delta$ eine sehr kleine Größe, so konvergieren diese Reihen rasch, und wenige Glieder genügen, um $w$ aus $v$ oder $v$ aus $w$ zu bestimmen. Man bestimmt aus $w$ den Wert von $t$ oder umgekehrt $w$ aus $t$, und zwar nach dem oben für die parabolische Bewegung erläuterten Verfahren.

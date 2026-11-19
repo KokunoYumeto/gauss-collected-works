@@ -1,0 +1,45 @@
+\par\Needspace{6\baselineskip}\medskip
+\hypertarget{native-087-article068}{}\pdfbookmark[2]{68.}{article-068}
+\begin{center}68.\end{center}
+The solution of the inverse problem, namely the determination of longitude and latitude from right ascension and declination, is based on the same spherical triangle. The formulas given above are thus adapted to this purpose simply by interchanging $b$ with $\delta$ and $l$ with $-\alpha$. Since these formulas are frequently used, it is worth giving them here as well.
+
+By the method of Article 66 we have
+\[
+\begin{aligned}
+\sin(45^0-\tfrac12 b)\sin\tfrac12(E-l)&=\cos(45^0+\tfrac12\alpha)\sin(45^0-\tfrac12(\epsilon+\delta))\\[.5em]
+\sin(45^0-\tfrac12 b)\cos\tfrac12(E-l)&=\sin(45^0+\tfrac12\alpha)\cos(45^0-\tfrac12(\epsilon-\delta))\\[.5em]
+\cos(45^0-\tfrac12 b)\sin\tfrac12(E+l)&=\sin(45^0+\tfrac12\alpha)\sin(45^0-\tfrac12(\epsilon-\delta))\\[.5em]
+\cos(45^0-\tfrac12 b)\cos\tfrac12(E+l)&=\cos(45^0+\tfrac12\alpha)\cos(45^0-\tfrac12(\epsilon+\delta)).
+\end{aligned}
+\]
+
+Following the other method of Article 67, we determine the \SourceLeaf{088}auxiliary angle $\zeta$ by the equation
+\[
+\operatorname{tang}\zeta=\frac{\operatorname{tang}\delta}{\sin\alpha},
+\]
+\noindent and obtain
+\[
+\begin{aligned}
+\operatorname{tang}l&=\frac{\cos(\zeta-\epsilon)\operatorname{tang}\alpha}{\cos\zeta}\\[.5em]
+\operatorname{tang}b&=\sin l\operatorname{tang}(\zeta-\epsilon).
+\end{aligned}
+\]
+\noindent To check the calculation we may add
+\[
+\cos b=\frac{\cos\delta\cos\alpha}{\cos l}=\frac{\cos(\zeta-\epsilon)\cos\delta\sin\alpha}{\cos\zeta\sin l}\cdot
+\]
+\noindent To determine $E$ we use the following equations, as in the preceding article.
+\[
+\begin{aligned}
+\cos E&=\frac{\sin\epsilon\cos\alpha}{\cos b}=\frac{\sin\epsilon\cos l}{\cos\delta}\\[.5em]
+\cos b\cos\delta\sin E&=\cos\epsilon-\sin b\sin\delta.
+\end{aligned}
+\]
+
+The differential changes in $l$, $b$ are given by the following formulas.
+\[
+\begin{aligned}
+\mathrm{d}l&=\frac{\sin E\cos\delta}{\cos b}\,\mathrm{d}\alpha+\frac{\cos E}{\cos b}\,\mathrm{d}\delta\\[.5em]
+\mathrm{d}b&=-\cos E\cos\delta\,\mathrm{d}\alpha+\sin E\,\mathrm{d}\delta.
+\end{aligned}
+\]

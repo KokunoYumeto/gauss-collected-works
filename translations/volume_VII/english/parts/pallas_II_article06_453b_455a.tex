@@ -1,0 +1,91 @@
+\par\Needspace{8\baselineskip}\bigskip
+\pdfbookmark[3]{Exposition, 6}{pallas-II-article6}
+\begin{center}6.\end{center}
+\noindent\hspace*{\parindent}We shall denote the arc \(XN\), measured from \(X\) toward \(Y\), by \(\AscendingNode\), and the sum of this arc and the arc \(NL\), measured from \(N\) in the direction of motion, by \(v\). This sum is what astronomers call the longitude in the orbit. Let \(\tilde\omega\) be the value that \(v\) takes when \(L\) becomes \(P\), that is, the longitude of perihelion. Then \(v-\tilde\omega\) will be the arc \(PL\), or the true anomaly. The inclination of the orbit to the branch of the great circle \(XY\) that extends from \(N\) in the direct sense will be equal to \(ZM\). We shall denote it by \(i\). With these conventions, the preceding 15 formulas \SourceLeaf{454}can be written in the following form.
+\[
+\begin{array}{rl}
+42)\quad&\begin{aligned}[t]x&=r(\cos\AscendingNode\mathbin{.}\cos(v-\AscendingNode)\\&\qquad-\sin\AscendingNode\mathbin{.}\sin(v-\AscendingNode)\mathbin{.}\cos i)\end{aligned}\\[5pt]
+43)\quad&\begin{aligned}[t]y&=r(\sin\AscendingNode\mathbin{.}\cos(v-\AscendingNode)\\&\qquad+\cos\AscendingNode\mathbin{.}\sin(v-\AscendingNode)\mathbin{.}\cos i)\end{aligned}\\[5pt]
+44)\quad&z=r\sin(v-\AscendingNode)\mathbin{.}\sin i
+\end{array}
+\]
+\[
+\begin{array}{rl}
+45)\quad&A=\BareRoot{mp}\mathbin{.}\sin\AscendingNode\mathbin{.}\sin i\\[4pt]
+46)\quad&B=-\BareRoot{mp}\mathbin{.}\cos\AscendingNode\mathbin{.}\sin i\\[4pt]
+47)\quad&C=\BareRoot{mp}\mathbin{.}\cos i
+\end{array}
+\]
+\[
+\begin{array}{rl}
+48)\quad&\begin{aligned}[t]Bz-Cy&=r\BareRoot{mp}\mathbin{.}(-\cos\AscendingNode\mathbin{.}\sin(v-\AscendingNode)\\&\qquad-\sin\AscendingNode\mathbin{.}\cos(v-\AscendingNode)\mathbin{.}\cos i)\end{aligned}\\[5pt]
+49)\quad&\begin{aligned}[t]Cx-Az&=r\BareRoot{mp}\mathbin{.}(-\sin\AscendingNode\mathbin{.}\sin(v-\AscendingNode)\\&\qquad+\cos\AscendingNode\mathbin{.}\cos(v-\AscendingNode)\mathbin{.}\cos i)\end{aligned}\\[5pt]
+50)\quad&Ay-Bx=r\BareRoot{mp}\mathbin{.}\cos(v-\AscendingNode)\mathbin{.}\sin i
+\end{array}
+\]
+\[
+\begin{array}{rl}
+51)\quad&\begin{aligned}[t]CG-BH&=mpe(\cos\AscendingNode\mathbin{.}\cos(\tilde\omega-\AscendingNode)\\&\qquad-\sin\AscendingNode\mathbin{.}\sin(\tilde\omega-\AscendingNode)\mathbin{.}\cos i)\end{aligned}\\[5pt]
+52)\quad&\begin{aligned}[t]AH-CF&=mpe(\sin\AscendingNode\mathbin{.}\cos(\tilde\omega-\AscendingNode)\\&\qquad+\cos\AscendingNode\mathbin{.}\sin(\tilde\omega-\AscendingNode)\mathbin{.}\cos i)\end{aligned}\\[5pt]
+53)\quad&BF-AG=mpe\sin(\tilde\omega-\AscendingNode)\mathbin{.}\sin i
+\end{array}
+\]
+\[
+\begin{array}{rl}
+54)\quad&\begin{aligned}[t]F&=e\BareRoot{mp}\mathbin{.}(-\cos\AscendingNode\mathbin{.}\sin(\tilde\omega-\AscendingNode)\\&\qquad-\sin\AscendingNode\mathbin{.}\cos(\tilde\omega-\AscendingNode)\mathbin{.}\cos i)\end{aligned}\\[5pt]
+55)\quad&\begin{aligned}[t]G&=e\BareRoot{mp}\mathbin{.}(-\sin\AscendingNode\mathbin{.}\sin(\tilde\omega-\AscendingNode)\\&\qquad+\cos\AscendingNode\mathbin{.}\cos(\tilde\omega-\AscendingNode)\mathbin{.}\cos i)\end{aligned}\\[5pt]
+56)\quad&H=e\BareRoot{mp}\mathbin{.}\cos(\tilde\omega-\AscendingNode)\mathbin{.}\sin i.
+\end{array}
+\]
+\par Multiplying equations 11, 12, 13 by \(A,B,C\) and adding, we find
+\[
+x(BH-CG)+y(CF-AH)+z(AG-BF)=mp(r-p).
+\]
+\par Now by means of equations 27—29, 36—38 the left-hand side of this equation becomes
+\[
+=-mper\cos PL=-mper\cos(v-\tilde\omega);
+\]
+thus we have
+\[
+\begin{array}{rl}57)\quad&r=\dfrac{p}{1+e\cos(v-\tilde\omega)}\mathpunct{\cdot}\end{array}
+\]
+\par Likewise, equation 20, by means of 27—29, 39—41, gives
+\[
+er\BareRoot{mp}\mathbin{.}\cos\Pi L=\dfrac{pr\mathrm{d}r}{\mathrm{d}t}
+\]
+or, since
+\[
+\Pi L=v-\tilde\omega-90^{0}:
+\]
+\[
+\begin{array}{rl}58)\quad&\dfrac{\mathrm{d}r}{\mathrm{d}t}=e\sin(v-\tilde\omega)\mathbin{.}\BareRoot{\dfrac{m}{p}}\mathpunct{\cdot}\end{array}
+\]
+\par Differentiating equation 57 gives \(\dfrac{p\mathrm{d}r}{rr\mathrm{d}t}=e\sin(v-\tilde\omega)\mathbin{.}\dfrac{\mathrm{d}v}{\mathrm{d}t}\). \SourceLeaf{455}Combining this result with equation 58, we have
+\[
+\begin{array}{rl}59)\quad&\dfrac{rr\mathrm{d}v}{\mathrm{d}t}=\BareRoot{mp}.\end{array}
+\]
+\par We may observe that \(\tfrac12rr\mathrm{d}v\) is the element of area swept out about the Sun in the element of time. The projections of this area onto the three fundamental planes are obtained by multiplying it by \(\cos XM\), \(\cos YM\), \(\cos ZM\). Thus \(\tfrac12A\mathrm{d}t\), \(\tfrac12B\mathrm{d}t\), \(\tfrac12C\mathrm{d}t\) must equal these same projections, which can in any case be verified directly.
+\par Finally, let us note that
+\[
+\begin{aligned}
+r\sin(v-\tilde\omega)&=\BareRoot{\dfrac{p}{m}}\mathbin{.}\dfrac{r\mathrm{d}r}{e\mathrm{d}t}\\
+&=\BareRoot{ap}\mathbin{.}\sin E=a\BareRoot{(1-ee)}\mathbin{.}\sin E
+\end{aligned}
+\]
+\[
+\begin{aligned}
+r+r\cos(v-\tilde\omega)&=\dfrac{p-r(1-e)}{e}\\
+&=\dfrac{p-a(1-e)(1-e\cos E)}{e}=a(1-e)(1+\cos E)
+\end{aligned}
+\]
+\[
+\begin{aligned}
+r-r\cos(v-\tilde\omega)&=\dfrac{-p+r(1+e)}{e}\\
+&=\dfrac{-p+a(1+e)(1-e\cos E)}{e}=a(1+e)(1-\cos E).
+\end{aligned}
+\]
+\par Dividing the first of these equations by the second, or the third by the first, gives
+\[
+\begin{array}{rl}60)\quad&\operatorname{tang}\tfrac12(v-\tilde\omega)=\BareRoot{\dfrac{1+e}{1-e}}\mathbin{.}\operatorname{tang}\tfrac12E.\end{array}
+\]
+\par\medskip\begin{center}\rule{.18\textwidth}{.3pt}\end{center}

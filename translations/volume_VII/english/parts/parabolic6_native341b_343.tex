@@ -1,0 +1,77 @@
+\clearpage
+\pdfbookmark[2]{6. Gauss to Olbers, 13 January 1815}{parabolisch-006}
+\begin{center}
+[6.]\par
+\medskip
+\textsc{Gauss} to \textsc{Olbers}, Göttingen, 13 January 1815.
+\end{center}
+\noindent\hspace*{\parindent}.\ .\ .\ .\ .\ .\par
+I have continued working on the theory of cometary orbits throughout this week and have arrived at a further simplification that seems to leave me with nothing more to wish for. I find the following expression for the time interval
+\[
+t''-t=3mk\BareRoot{(r+r'')}\cdot\BareRoot{\left(1-\frac{27m^4k^6}{4(t''-t)^4}\right)}\mathpunct{\raisebox{.45ex}{,}}
+\]
+which is sufficiently accurate in all cases that occur in practice. Strictly speaking, the last square root ought to be an infinite series, which, if I set \(\frac{27m^4k^6}{4(t''-t)^4}=x\) for brevity, becomes in my expansion \(=\BareRoot{(1-x-2x^3-8x^4-\ldots)}\), so that fortunately the second term is missing. Even if \(k=\tfrac12(r+r'')\), \(x\) would be only about \(\frac1{47}\), so the error, \SourceLeaf{342}if one confines oneself to \(\BareRoot{(1-x)}\), would be only about \(\frac1{100000}\) of the whole\HistoricalNoteEight{In a copy of the German translation of the paper “Observationes Cometae secundi A. 1813 etc.” there is the handwritten remark:] NB. The series \(1-z-2z^3-8z^4-45z^5-272z^6-\ldots\) converges as long as \(z<\frac{27}{256}\). At this limit, to which \(k=r+r''\) corresponds, its value is \(=\frac89\).}. I now apply the above formula as follows. I set
+\[
+u=A\operatorname{tang}Q,
+\]
+which gives
+\[
+k=\frac A{\cos Q}\quad\text{and}\quad\rho=\frac{g\cos(Q-\varphi)}{h\cos Q}\mathpunct{\cdot}
+\]
+
+Thus one has
+\[
+\begin{aligned}
+(t''-t)^2\cos Q^2={}&9mmAA\left(1-\frac{27m^4A^6}{4(t''-t)^4\cos Q^6}\right)\\[4pt]
+&\quad\Biggl\{\BareRoot{\left(BB+\left(\frac{A\operatorname{tang}Q+c}{b}\right)^2\right)}\\[4pt]
+&\qquad+\BareRoot{\left(B''B''+\frac{A\operatorname{tang}Q+c''}{b''}\right)^2}\Biggr\}
+\end{aligned}
+\]
+or, introducing the following notation,
+\[
+\begin{gathered}
+\frac{9mmAAB}{(t''-t)^2}=\delta,\qquad\frac{9mmAAB''}{(t''-t)^2}=\delta'',\\[5pt]
+\frac A{bB}=\epsilon,\qquad\frac A{b''B''}=\epsilon'',\\[5pt]
+\frac c{bB}=\eta,\qquad\frac{c''}{b''B''}=\eta'',\qquad\frac{27m^4A^6}{4(t''-t)^4}=\omega,
+\end{gathered}
+\]
+one obtains
+\[
+\begin{aligned}
+\frac{\cos Q^2}{1-\dfrac\omega{\cos Q^6}}={}&\delta\BareRoot{\bigl(1+(\epsilon\operatorname{tang}Q+\eta)^2\bigr)}\\[4pt]
+&+\delta''\BareRoot{\bigl(1+(\epsilon''\operatorname{tang}Q+\eta'')^2\bigr)}.
+\end{aligned}
+\]
+
+One could hardly wish for anything simpler. One could still introduce two auxiliary angles \(\vartheta\), \(\vartheta''\) by setting
+\[
+\begin{aligned}
+\delta\epsilon&=\lambda\sin\vartheta, &\delta''\epsilon''&=\lambda''\sin\vartheta''\\
+\delta\eta&=\lambda\cos\vartheta, &\delta''\eta''&=\lambda''\cos\vartheta''
+\end{aligned}
+\]
+in which case the equation would become
+\[
+\begin{aligned}
+\frac{\cos Q^3}{1-\dfrac\omega{\cos Q^6}}={}&\BareRoot{\bigl(\delta\delta\cos Q^2+\lambda\lambda\cos(Q-\vartheta)^2\bigr)}\\[4pt]
+&+\BareRoot{\bigl(\delta''\delta''\cos Q^2+\lambda''\lambda''\cos(Q-\vartheta'')^2\bigr)}.
+\end{aligned}
+\]
+
+One could go even further and, by known transformations, give the equation the following form.
+\[
+\begin{aligned}
+\frac{\cos Q^3}{1-\dfrac\omega{\cos Q^6}}={}&\mu\BareRoot{\bigl(1+\nu\nu\cos(Q+\pi)^2\bigr)}\\[4pt]
+&+\mu''\BareRoot{\bigl(1+\nu''\nu''\cos(Q+\pi'')^2\bigr)}.
+\end{aligned}
+\]
+
+\SourceLeaf{343}But the gain\footnote{It would consist \textls[150]{only} in being able to judge at once the maximum and minimum values of the two radical expressions. Thus, by neglecting \(\omega\) at first, one would obtain \textls[150]{bounds} for \(\cos Q^3\) and consequently for \(Q\). The calculation of each trial still requires 7 lookups, whichever form one chooses.} would be too slight to repay the trouble of these transformations. The equation is always perfectly exact as soon as the denominator on the left-hand side is replaced by the series
+\[
+1-\frac\omega{\cos Q^6}-\frac{2\omega^3}{\cos Q^{18}}-\frac{8\omega^4}{\cos Q^{24}}-\text{etc.}
+\]
+
+The problem has thus been reduced to one equation with seven known quantities, and I do not believe it can be reduced to a smaller number.
+
+The general problem arises when the middle position is incompletely known and one knows only some great circle on which it lies. The problem at hand is in fact only the particular case in which this great circle passes through the middle position of the \(\odot\). One must resort to the general problem whenever this position of the \(\odot\) is close to the direction of the geoc[entric] motion. I have now worked through this general problem in an analogous way and carefully calculated a model example\HistoricalNoteEight{See the following note.]}. By the nature of the matter the work here is much more involved. I end up with two equations with 11\HistoricalNoteDoubleUnbracketed{Each trial requires 11 lookups.} known quantities, and I also doubt that it is possible to make this number smaller. If, after all the shortcuts, calculating a cometary orbit in the first case now takes at least 1 hour (as it does roughly for me), the other case might easily take 2—3 hours.
+\par\medskip\noindent\makebox[\linewidth]{\rule{.18\linewidth}{.35pt}}\par

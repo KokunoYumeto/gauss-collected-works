@@ -1,0 +1,158 @@
+\clearpage
+\begingroup
+\fancyhead[L]{\small THEORY OF THE MOTION OF THE MOON.}
+\renewcommand{\headrulewidth}{0pt}
+\SourceLeaf{623}
+\section*{SECOND SECTION.}
+\begin{center}
+\itshape Integration of the fundamental equations, with the perturbing
+forces of the Sun set aside.
+\end{center}
+
+\par\noindent\hspace*{\parindent}\textls[120]{Theorem from integral calculus:}
+
+\par\noindent\hspace*{\parindent}The integral of the second-order differential equation
+\[
+0=\frac{\mathrm{dd}w}{\mathrm{d}v^2}+\alpha\alpha w+Z,
+\]
+\noindent where \(Z\) denotes a function of \(v\) and \(\alpha\alpha\) a constant
+positive quantity, is
+\[
+\begin{aligned}
+\alpha w&=\cos\alpha v\int\sin\alpha v\mathpunct{.}\,Z\mathrm{d}v
+ -\sin\alpha v\int\cos\alpha v\mathpunct{.}\,Z\mathrm{d}v\\
+ &\qquad+\mathit{Const.}\sin(\alpha v+\mathit{Const.}).
+\end{aligned}
+\]
+
+\par\noindent\hspace*{\parindent}Thus, if \(Z=a+b\sin\beta v+c\sin\gamma v+\mathrm{etc.}\), we have
+\[
+\begin{aligned}
+w&=-\frac{a}{\alpha\alpha}+\frac{b}{\beta\beta-\alpha\alpha}\sin\beta v
+ +\frac{c}{\gamma\gamma-\alpha\alpha}\sin\gamma v\\
+ &\qquad+\mathrm{etc.}+\mathit{Const.}\sin(\alpha v+C.).
+\end{aligned}
+\]
+
+\par\noindent Or, if \(Z=a+b\cos\beta v+c\cos\gamma v+\mathrm{etc.}\), we have
+\[
+\begin{aligned}
+w&=-\frac{a}{\alpha\alpha}+\frac{b}{\beta\beta-\alpha\alpha}\cos\beta v
+ +\frac{c}{\gamma\gamma-\alpha\alpha}\cos\gamma v\\
+ &\qquad+\mathrm{etc.}+\mathit{Const.}\cos(\alpha v+C.).
+\end{aligned}
+\]
+
+\par\noindent\hspace*{\parindent}If, on the other hand, \(Z\) contained a term \(a\cos\alpha v\), the corresponding term to be put in
+\(w\) would be \(-\tfrac12\frac{av\sin\alpha v}{\alpha}
+-\tfrac14\frac{a\cos\alpha v}{\alpha\alpha}\), or, for a term
+\(a\sin\alpha v\) in \(Z\), the term appearing in \(w\) would be
+\(\tfrac12\frac{av\cos\alpha v}{\alpha}
+-\tfrac14\frac{a\sin\alpha v}{\alpha\alpha}\mathpunct{\raisebox{.4ex}{.}}\)
+Thus, if it is known a priori that \(w\) can contain no circular arcs,
+\(Z\) can contain neither a sine nor a cosine of \(\alpha v\).
+
+\par\noindent\hspace*{\parindent}We observe that each of the fundamental equations above consists of two
+parts, one of which contains the quantities \(\pi,\omega,\psi\) as a factor,
+while the other is independent of them. If the motion of the Moon
+were unperturbed by the Sun, the first parts would drop out, and the
+inte\SourceLeaf{624}gration\marginpar{\scriptsize VII.\quad78} would then present no difficulty. We also see from the theorem above
+that the integration could be carried out even with those first terms retained,
+if we could express them as functions of \(v\). But this cannot be done
+without already knowing the motion of the Moon.
+Fortunately, the effects of the Sun are quite small.
+The greatest periodic equation for the longitude of the Moon
+amounts to only \(1\tfrac13\) degrees, and the apogee of the Moon, which
+would remain fixed without the action of the Sun, acquires from it
+only a slow prograde motion, whose ratio to the mean motion of the
+Moon is 1 to 118. The retrograde motion of the node is still smaller.
+Without these circumstances, calculating the motion
+of the Moon would exceed the powers of analysis. These circumstances make it possible
+to approach the true motion of the Moon in successive steps. We
+first substitute the purely elliptic motion of the Moon in the parts that depend on \(\pi,\omega,\psi\),
+and derive a first approximation to the motion from this.
+We then use this motion in those same parts in place of the elliptic motion
+to obtain a more accurate determination, repeating these successive
+improvements as often as the desired degree of accuracy
+requires.
+
+\par\noindent\hspace*{\parindent}After these preliminary remarks, we first take up the equations above
+with the quantities \(\pi,\omega,\psi\) set aside, in order to
+obtain the elliptic motion. In doing so we may also neglect quantities
+that depend on higher powers of the eccentricity and
+inclination.
+
+\par\noindent\hspace*{\parindent}The third equation here becomes
+\[
+\frac{\mathrm{dd}\theta}{\mathrm{d}v^2}+\theta=0,
+\]
+\noindent whose integral is (exactly)
+\[
+\theta=g\sin\lambda,\quad\text{so that}\quad\lambda=v+\mathit{Const.}
+\]
+\noindent This shows that the orbit of the Moon, viewed from the center of the Earth,
+[is] a great circle whose inclination to the ecliptic has
+tangent \(g\). The longitude of the node \(=-\mathit{Const.}\), or, equivalently, \(\lambda\)
+is the argument of latitude\HistoricalNoteEight{But reckoned along the ecliptic,
+not along the orbit of the Moon.]}.
+
+\SourceLeaf{625}
+\par\noindent\hspace*{\parindent}The second equation becomes
+\[
+0=\frac{\mathrm{dd}u}{\mathrm{d}v\mathrm{d}u}
+ +\frac{2\mathrm{d}p}{p\mathrm{d}v},
+\]
+\noindent from which we get
+\[
+\log\frac{pp\mathrm{d}u}{\mathrm{d}v}=\log\mathit{Const.},
+\]
+\noindent hence
+\[
+\frac{pp\mathrm{d}u}{\mathrm{d}v}=\mathit{Const.}=A.
+\]
+\noindent The first equation accordingly becomes
+\[
+0=\frac{\mathrm{dd}p}{\mathrm{d}v^2}+p-AAk(1+\theta\theta)^{-\frac32},
+\]
+\noindent if for brevity we set \(\frac{(m+m')\mathrm{d}t^2}{\mathrm{d}u^2}=k\).
+Hence, substituting the value of \(\theta\) given above and neglecting the higher
+powers of \(g\), we obtain
+\[
+0=\frac{\mathrm{dd}p}{\mathrm{d}v^2}+p
+-AAk\left(1-\tfrac34gg+\tfrac34gg\cos2\lambda\right).
+\]
+\noindent From this we obtain \(p=AAk(1-\tfrac34gg)(1-e\cos M-\tfrac14gg\cos2\lambda)\).
+Thus, for the constant part of \(p\), we set \(AAk(1-\tfrac34gg)=h\) and obtain
+\[
+\begin{aligned}
+p&=h(1-e\cos M-\tfrac14gg\cos2\lambda)\\[5pt]
+\log p&=\log h-\tfrac14ee-e\cos M-\tfrac14ee\cos2M-\tfrac14gg\cos2\lambda\\[5pt]
+\log pp\frac{\mathrm{d}u}{\mathrm{d}v}
+ &=\log A=\tfrac12\log h-\tfrac12\log k+\tfrac38gg\\[5pt]
+\log\frac{\mathrm{d}u}{\mathrm{d}v}
+ &=-\tfrac32\log h-\tfrac12\log k+\tfrac12ee+\tfrac38gg\\
+ &\qquad+2e\cos M+\tfrac12ee\cos2M+\tfrac12gg\cos2\lambda\\[5pt]
+\frac{\mathrm{d}u}{\mathrm{d}v}
+ &=h^{-\frac32}k^{-\frac12}(1+\tfrac32ee+\tfrac38gg)\\
+ &\qquad(1+2e\cos M+\tfrac32ee\cos2M+\tfrac12gg\cos2\lambda),
+\end{aligned}
+\]
+\noindent consequently
+\[
+1+ee+\tfrac14gg=hk^{\frac13}
+\]
+\noindent and
+\[
+u=v+2e\sin M+\tfrac34ee\sin2M+\tfrac14gg\sin2\lambda,
+\]
+\noindent where we have neglected all quantities containing higher powers of
+\(e\) and \(g\). Incidentally, here \(e\) is evidently a constant to be determined from
+observations (the eccentricity), and \(M\) is the
+true anomaly\HistoricalNoteEight{But reckoned along the ecliptic,
+not along the orbit of the Moon.]} \(=v-\mathit{Const.}\), so that
+\(\mathit{Const.}\) [is] the invariable longitude of the apogee.
+
+\par\medskip\noindent\hfill\rule{.19\textwidth}{.3pt}\hfill\mbox{}\par
+\noindent\hfill 78\textsuperscript{*}\par
+\clearpage
+\endgroup

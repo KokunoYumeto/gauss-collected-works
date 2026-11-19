@@ -1,0 +1,22 @@
+\par\Needspace{6\baselineskip}\medskip
+\hypertarget{native-085-article066}{}\pdfbookmark[2]{66.}{article-066}
+\begin{center}66.\end{center}
+From the longitude and latitude of any point on the celestial sphere we derive its right ascension and declination by solving the spherical triangle formed by that point and the north poles of the ecliptic and equator. Let $\epsilon$ be the obliquity of the ecliptic, $l$ the longitude, $b$ the latitude, $\alpha$ the right ascension, and $\delta$ the declination. The sides of the triangle will be $\epsilon$, $90^0-b$, $90^0-\delta$. We may take $90^0+\alpha$, $90^0-l$ as the angles opposite the second and third sides (provided we take the notion of a spherical triangle in its full generality). We shall set the third angle, opposite side $\epsilon$, $=90^0-E$. By the formulas of Article 54 we then have
+\SourceLeaf{086}
+\[
+\begin{aligned}
+\sin(45^0-\tfrac12\delta)\sin\tfrac12(E+\alpha)&=\sin(45^0+\tfrac12 l)\sin(45^0-\tfrac12(\epsilon+b))\\[.5em]
+\sin(45^0-\tfrac12\delta)\cos\tfrac12(E+\alpha)&=\cos(45^0+\tfrac12 l)\cos(45^0-\tfrac12(\epsilon-b))\\[.5em]
+\cos(45^0-\tfrac12\delta)\sin\tfrac12(E-\alpha)&=\cos(45^0+\tfrac12 l)\sin(45^0-\tfrac12(\epsilon-b))\\[.5em]
+\cos(45^0-\tfrac12\delta)\cos\tfrac12(E-\alpha)&=\sin(45^0+\tfrac12 l)\cos(45^0-\tfrac12(\epsilon+b)).
+\end{aligned}
+\]
+\noindent The first two equations give $\tfrac12(E+\alpha)$ and $\sin(45^0-\tfrac12\delta)$. The last two give $\tfrac12(E-\alpha)$ and $\cos(45^0-\tfrac12\delta)$. From $\tfrac12(E+\alpha)$ and $\tfrac12(E-\alpha)$ we obtain $\alpha$ along with $E$. Either $\sin(45^0-\tfrac12\delta)$ or $\cos(45^0-\tfrac12\delta)$ gives $45^0-\tfrac12\delta$ and hence $\delta$, and the agreement of the two results serves to check the calculation. Determining the angles $\tfrac12(E+\alpha)$, $\tfrac12(E-\alpha)$ from their tangents is free of ambiguity, since both the sine and the cosine of the angle $45^0-\tfrac12\delta$ must come out positive.
+
+The differential changes in $\alpha$, $\delta$ are found from the changes in $l$, $b$ by known principles as follows.
+\[
+\begin{aligned}
+\mathrm{d}\alpha&=\frac{\sin E\cos b}{\cos\delta}\,\mathrm{d}l-\frac{\cos E}{\cos\delta}\,\mathrm{d}b\\[.6em]
+\mathrm{d}\delta&=\cos E\cos b\,\mathrm{d}l+\sin E\,\mathrm{d}b.
+\end{aligned}
+\]

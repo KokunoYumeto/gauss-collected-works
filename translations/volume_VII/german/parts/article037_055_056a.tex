@@ -1,0 +1,42 @@
+\par\Needspace{4\baselineskip}
+\begin{center}
+\SourceLeaf{055}\pdfbookmark[2]{37.}{article-037}37.
+\end{center}
+Wir greifen für die elliptische Bewegung die Gleichung zwischen der exzentrischen Anomalie und der Zeit wieder auf
+\[
+E-e\sin E=\frac{kt\BareRoot{(1+\mu)}}{a^{\frac{3}{2}}},
+\]
+wobei wir voraussetzen, dass $E$ in Teilen des Radius ausgedrückt ist. Den Faktor $\BareRoot{(1+\mu)}$ lassen wir von nun an weg. Sollte es jemals möglich und der Mühe wert sein, diesen Faktor zu berücksichtigen, so müsste das Zeichen $t$ anstelle der seit dem Perihel verstrichenen Zeit selbst diese Zeit multipliziert mit $\BareRoot{(1+\mu)}$ bezeichnen. Ferner bezeichnen wir mit $q$ den Abstand im Perihel und führen anstelle von $E$ und $\sin E$ die Größen $E-\sin E$ und $E-\tfrac{1}{10}(E-\sin E)=\tfrac{9}{10}E+\tfrac{1}{10}\sin E$ ein. Warum wir gerade diese Größen wählen, wird der aufmerksame Leser aus dem Folgenden von selbst erkennen. Unsere Gleichung nimmt damit die folgende Form an
+\[
+(1-e)(\tfrac{9}{10}E+\tfrac{1}{10}\sin E)+(\tfrac{1}{10}+\tfrac{9}{10}e)(E-\sin E)=kt\left(\frac{1-e}{q}\right)^{\frac{3}{2}}.
+\]
+Betrachtet man $E$ als kleine Größe erster Ordnung, so ist $\tfrac{9}{10}E+\tfrac{1}{10}\sin E=E-\tfrac{1}{60}E^3+\tfrac{1}{1200}E^5-\text{usw.}$ eine Größe erster Ordnung, während $E-\sin E=\tfrac{1}{6} E^3-\tfrac{1}{120}E^5+\tfrac{1}{5040}E^7-\text{usw.}$ eine Größe dritter Ordnung ist. Setzt man also
+\[
+\frac{6(E-\sin E)}{\frac{9}{10}E+\frac{1}{10}\sin E}=4A,\qquad
+\frac{\frac{9}{10}E+\frac{1}{10}\sin E}{2\BareRoot{A}}=B,
+\]
+so ist $4A=E^2-\tfrac{1}{30}E^4-\tfrac{1}{5040}E^6-\text{usw.}$ eine Größe zweiter Ordnung, und $B=1+\tfrac{3}{2800}E^4-\text{usw.}$ weicht von der Einheit um eine Größe vierter Ordnung ab. Unsere Gleichung wird damit zu
+\[
+\text{1)}\qquad B\left\{2(1-e)A^{\frac{1}{2}}+\tfrac{2}{15}(1+9e)A^{\frac{3}{2}}\right\}=kt\left(\frac{1-e}{q}\right)^{\frac{3}{2}}.
+\]
+
+Mit den gewöhnlichen trigonometrischen Tafeln lässt sich $\tfrac{9}{10}E+\tfrac{1}{10}\sin E$ hinreichend genau berechnen. Für $E-\sin E$ reicht ihre Genauigkeit nicht aus, sobald $E$ ein kleiner Winkel ist. Auf diesem Weg ließen sich $A$ und $B$ daher nicht genau genug bestimmen. Dieser Schwierigkeit könnte eine besondere Tafel abhelfen, aus der man mit dem Argument $E$ entweder $B$ selbst oder den Logarithmus von $B$ entnehmen könnte. Die zur Erstellung einer solchen Tafel nötigen Hilfsmittel liegen für jeden mit auch nur mäßigen Kenntnissen der Analysis auf der Hand. Mithilfe der Gleichung
+\[
+\frac{9E+\sin E}{20B}=\BareRoot{A}
+\]
+\SourceLeaf{056}ließe sich auch $\BareRoot{A}$ und daraus nach Formel 1) $t$ mit jeder gewünschten Genauigkeit bestimmen.
+
+Hier ist eine Probe einer solchen Tafel, die wenigstens zeigt, wie langsam $\log B$ zunimmt. Es wäre überflüssig, diese Tafel weiter auszuarbeiten, denn weiter unten werden wir Tafeln in einer viel zweckmäßigeren Form beschreiben.
+\begin{center}
+\begin{tabular}{|r|r||r|r||r|r|}
+\hline
+$E$ & $\log B$ & $E$ & $\log B$ & $E$ & $\log B$\\
+\hline
+$0^0$ & $0{,}000\,0000$ & $25^0$ & $0{,}000\,0168$ & $50^0$ & $0{,}000\,2675$\\
+$5$ & $00$ & $30$ & $0349$ & $55$ & $3910$\\
+$10$ & $04$ & $35$ & $0645$ & $60$ & $5526$\\
+$15$ & $22$ & $40$ & $1099$ & & \\
+$20$ & $69$ & $45$ & $1758$ & & \\
+\hline
+\end{tabular}
+\end{center}

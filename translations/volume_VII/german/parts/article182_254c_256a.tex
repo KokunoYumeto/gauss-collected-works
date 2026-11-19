@@ -1,0 +1,48 @@
+\Needspace{6\baselineskip}
+\begin{center}\hypertarget{native-254-article182}{}\pdfbookmark[2]{182.}{article-182}182.\end{center}
+Bevor wir untersuchen, welcher Grad an Präzision den Werten mehrerer Unbekannter zuzuschreiben ist, müssen wir die Funktion $vv+v'v'+v''v''+\text{usw.}$ genauer betrachten. Wir bezeichnen sie mit $W$.
+
+I. Wir setzen $\tfrac12\frac{\mathrm{d}W}{\mathrm{d}p}=p'
+=\lambda+\alpha p+\beta q+\gamma r+\delta s+\text{usw.}$ und $W-\frac{p'p'}{\alpha}=W'$. \SourceLeaf{255}Dann gilt offenbar $p'=P$. Wegen $\frac{\mathrm{d}W'}{\mathrm{d}p}=\frac{\mathrm{d}W}{\mathrm{d}p}
+-\frac{2p'}{\alpha}\cdot\frac{\mathrm{d}p'}{\mathrm{d}p}=0$ ist die Funktion $W'$ von $p$ unabhängig. Der Koeffizient $\alpha=aa+a'a'+a''a''+\text{usw.}$ ist offensichtlich stets positiv.
+
+II. Ebenso setzen wir $\tfrac12\cdot\frac{\mathrm{d}W'}{\mathrm{d}q}=q'
+=\lambda'+\beta'q+\gamma'r+\delta's+\text{usw.}$ und $W'-\frac{q'q'}{\beta'}=W''$. Dann gilt $q'=\tfrac12\cdot\frac{\mathrm{d}W}{\mathrm{d}q}
+-\frac{p'}{\alpha}\cdot\frac{\mathrm{d}p'}{\mathrm{d}q}
+=Q-\frac{\beta}{\alpha}\cdot p'$ und außerdem $\frac{\mathrm{d}W''}{\mathrm{d}q}=0$, woraus folgt, dass die Funktion $W''$ sowohl von $p$ als auch von $q$ unabhängig ist. Das würde nicht gelten, wenn $\beta'=0$ möglich wäre. Offenbar geht aber $W'$ aus $vv+v'v'+v''v''+\text{usw.}$ hervor, indem man $p$ aus $v$, $v'$, $v''$ usw. mithilfe der Gleichung $p'=0$ eliminiert. Somit ist $\beta'$ die Summe der Koeffizienten von $qq$ in $vv$, $v'v'$, $v''v''$ usw. nach dieser Elimination. Die einzelnen Koeffizienten sind selbst Quadrate und können nur in dem oben ausgeschlossenen Fall zugleich verschwinden, in dem die Unbekannten unbestimmt bleiben. Folglich muss $\beta'$ positiv sein.
+
+III. Setzen wir wiederum $\tfrac12\cdot\frac{dW''}{dr}=r'
+=\lambda''+\gamma''r+\delta''s+\text{usw.}$ und $W''-\frac{r'r'}{\gamma''}=W'''$, so gilt $r'=R-\frac{\gamma}{\alpha}p'-\frac{\gamma'}{\beta'}q'$, und $W'''$ ist von $p$, $q$ und $r$ unabhängig. Wie in II lässt sich auch hier zeigen, dass der Koeffizient $\gamma''$ notwendig positiv ist. Denn man sieht leicht, dass $\gamma''$ die Summe der Koeffizienten von $rr$ in $vv$, $v'v'$, $v''v''$ usw. ist, nachdem $p$ und $q$ mithilfe der Gleichungen $p'=0$, $q'=0$ aus $v$, $v'$, $v''$ usw. eliminiert worden sind.
+
+IV. Setzt man ebenso $\tfrac12\frac{dW'''}{ds}=s'
+=\lambda'''+\delta'''s+\text{usw.}$ und $W^{\mathrm{IV}}=W'''-\frac{s's'}{\delta'''}$, so gilt $s'=S-\frac{\delta}{\alpha}p'-\frac{\delta'}{\beta'}q'-\frac{\delta''}{\gamma''}r'$. Dabei ist $W^{\mathrm{IV}}$ von $p$, $q$, $r$, $s$ unabhängig, und $\delta'''$ ist positiv.
+
+V. Gibt es neben $p$, $q$, $r$, $s$ noch weitere Unbekannte, so lässt sich das Verfahren in gleicher Weise fortsetzen. Schließlich erhält man
+\[
+W=\frac{1}{\alpha}p'p'+\frac{1}{\beta'}q'q'+\frac{1}{\gamma''}r'r'
++\frac{1}{\delta'''}s's'+\text{usw.}+\text{Konst.},
+\]
+wobei alle Koeffizienten $\alpha$, $\beta'$, $\gamma''$, $\delta'''$ usw. positiv sind.
+
+VI. Die Wahrscheinlichkeit eines Systems bestimmter Werte für die Größen $p$, $q$, $r$, $s$ usw. ist nun proportional\HistoricalNoteEight{Handschriftliche Bemerkung:] \emph{Gleich} [dem Produkt] der Funktion[\quad\raisebox{.65ex}{.}
+\[
+e^{-hh\left(\frac{1}{\alpha}p'p'+\frac{1}{\beta'}q'q'+\frac{1}{\gamma''}r'r'+\frac{1}{\delta'''}s's'+\text{usw.}\right)}
+\]
+mit dem konstanten Faktor]
+$\frac{h^\nu\BareRoot{(\alpha\beta'\gamma''\delta'''\ldots)}}{(\BareRoot{\pi})^\nu}e^{-hh\,\text{Konst.}}$,
+wobei Konst. den letzten, konstanten Teil von $W$ bezeichnet.}
+ zur Funktion $e^{-hhW}$.
+\SourceLeaf{256}Lässt man also den Wert von $p$ unbestimmt, so ist die Wahrscheinlichkeit eines Systems bestimmter Werte für die übrigen Größen proportional zum Integral $\int e^{-hhW}\mathrm{d}p$ von $p=-\infty$ bis $p=+\infty$. Nach dem Satz des berühmten \textsc{Laplace} erhält man dafür
+\[
+=h^{-1}\alpha^{-\frac12}\pi^{\frac12}
+e^{-hh\left(\frac{1}{\beta'}q'q'+\frac{1}{\gamma''}r'r'+\frac{1}{\delta'''}s's'+\text{usw.}\right)};
+\]
+Diese Wahrscheinlichkeit ist also proportional zur Funktion $e^{-hhW'}$.
+Behandelt man ebenso zusätzlich $q$ als unbestimmt, so ist die Wahrscheinlichkeit eines Systems bestimmter Werte für $r$, $s$ usw. proportional zum Integral $\int e^{-hhW'}\mathrm{d}q$ von $q=-\infty$ bis $q=+\infty$. Man erhält dafür
+\[
+=h^{-1}{\beta'}^{-\frac12}\pi^{\frac12}
+e^{-hh\left(\frac{1}{\gamma''}r'r'+\frac{1}{\delta'''}s's'+\text{usw.}\right)},
+\]
+Die Wahrscheinlichkeit ist somit proportional zur Funktion $e^{-hhW''}$. Betrachtet man in ganz gleicher Weise auch $r$ als unbestimmt, so ist die Wahrscheinlichkeit bestimmter Werte für die übrigen Größen $s$ usw. proportional zur Funktion $e^{-hhW'''}$, und so weiter. Nehmen wir vier Unbekannte an. Derselbe Schluss gilt auch, wenn es mehr oder weniger sind. Der wahrscheinlichste Wert von $s$ ist dann
+$=-\frac{\lambda'''}{\delta'''}\mathpunct{\raisebox{.45ex}{,}}$
+und die Wahrscheinlichkeit, dass dieser Wert vom wahren Wert um $\sigma$ abweicht, ist proportional zur Funktion $e^{-hh\delta'''\sigma\sigma}$. Daraus schließen wir, dass das dieser Bestimmung zuzuschreibende Maß der relativen Präzision durch $\BareRoot{\delta'''}$ gegeben ist, wenn man das Maß der Präzision der ursprünglichen Beobachtungen $=1$ setzt.

@@ -1,0 +1,304 @@
+\clearpage
+\begin{landscape}
+\begingroup
+\fontsize{9.5}{12}\selectfont
+\fancyhead[L]{\small POSTHUMOUS PAPERS. PERTURBATIONS OF PALLAS}
+\renewcommand{\headrulewidth}{0pt}
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\setlength{\lineskip}{4pt}\setlength{\lineskiplimit}{4pt}
+\pdfbookmark[2]{General perturbations, first calculation, [2]}{pallas-V-fragment2}
+\begin{center}[2.]\end{center}
+\newcommand{\VtwoLowPoint}{\makebox[0pt][l]{\kern-.05em\raisebox{-.4ex}{\rule{.065em}{.065em}}}}
+\newcommand{\VtwoMarkedSin}{\mathop{\mathrm{sin}\text{\llap{\raisebox{-.6ex}{\rule{.06em}{.06em}}\kern.1em}}}}
+\newcommand{\VtwoMarkedL}{\mathord{L\text{\rlap{\kern.06em\raisebox{1.2ex}{\rule{.06em}{.06em}}}}}}
+\newcommand{\VtwoLeader}{\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}\,\mathord{.}}
+\par\noindent\hspace*{\parindent}[Let \(X\) be a function of the angle \(x\) of the form
+\[
+\begin{aligned} X &= \alpha_0 + \alpha_1\cos x + \alpha_2\cos 2x + \alpha_3\cos 3x + \cdots \\ &\quad + \beta_1\sin x + \beta_2\sin 2x + \beta_3\sin 3x + \cdots \end{aligned}
+\]
+and suppose that for \(\mu\) equally spaced values of \(x\), namely \(x=0, a, 2a, 3a, \ldots (\mu-1)a\), the corresponding values of \(X\), namely \(X = A_0, A_1, A_2, \ldots A_{\mu-1}\), are given. Suppose further that \(\mu a = 360^{0}\), so that the \(\mu\) values of \(x\) divide the entire circumference into \(\mu\) equal parts. If we also assume that \(\mu\) is even, we can set \(\mu = 2m\) and use Art.\ 22 of Theoria interpolationis methodo nova tractata (vol. III, p. 298) to determine the \(2m\) coefficients \(\alpha_0, \alpha_1, \alpha_2 \ldots \alpha_m, \beta_1, \beta_2 \ldots \beta_{m-1}\) and thus obtain an approximate representation of the function \(X\).
+\par\noindent\hspace*{\parindent}From the expression derived in the cited work (vol. III, p. 299) and denoted there by \(T\), we obtain the following equations for determining the coefficients:
+\[
+\begin{aligned}
+m\alpha_n &= A_0 + A_1\cos na + A_2\cos 2na + \cdots + A_{\mu-1}\cos(\mu-1)na\\
+m\beta_n &= A_1\sin na + A_2\sin 2na + \cdots + A_{\mu-1}\sin(\mu-1)na,
+\end{aligned}
+\]
+where the index \(n\) takes the values \(1, 2 \ldots m-1\), while
+\[
+\begin{aligned}
+\mu\alpha_0 &= A_0 + A_1 + A_2 + A_3 + \cdots + A_{\mu-1}\\
+\mu\alpha_m &= A_0 - A_1 + A_2 - A_3 + \cdots - A_{\mu-1}
+\end{aligned}
+\]
+hold.
+\par\noindent\hspace*{\parindent}These equations allow further substantial simplifications:
+\par\noindent\hspace*{\parindent}We have \(\cos(\mu-1)na = \cos na\) etc., \(\sin(\mu-1)na = -\sin na\) etc., so we can write:
+\[
+\begin{aligned}
+m\alpha_n &= \tfrac12 B_0 + B_1\cos na + B_2\cos 2na + \cdots + B_{\frac{\mu}{2}-1}\cos\Big(\frac{\mu}{2}-1\Big)na + \tfrac12 B_{\frac{\mu}{2}}\cos\frac{\mu}{2}na\\
+m\beta_n &= C_1\sin na + C_2\sin 2na + \cdots + C_{\frac{\mu}{2}-1}\sin\Big(\frac{\mu}{2}-1\Big)na,
+\end{aligned}
+\]
+where
+\[
+\begin{gathered}
+B_0 = 2A_0,\quad B_1 = A_1+A_{\mu-1},\quad B_2 = A_2+A_{\mu-2},\quad \ldots\quad B_{\frac{\mu}{2}-1} = A_{\frac{\mu}{2}-1}+A_{\frac{\mu}{2}+1},\quad B_{\frac{\mu}{2}} = 2A_{\frac{\mu}{2}}\\[4pt]
+C_1 = A_1-A_{\mu-1},\quad C_2 = A_2-A_{\mu-2},\quad \ldots\quad C_{\frac{\mu}{2}-1} = A_{\frac{\mu}{2}-1}-A_{\frac{\mu}{2}+1}.
+\end{gathered}
+\]
+\par\noindent\hspace*{\parindent}Moreover,
+\[
+\begin{gathered}
+\cos\Big(\frac{\mu}{2}-1\Big)na = \mp\cos na \quad \text{etc.}\\[4pt]
+\sin\Big(\frac{\mu}{2}-1\Big)na = \pm\sin na \quad \text{etc.,}
+\end{gathered}
+\]
+where the upper or lower sign applies according as \(n\) is odd or even.
+\SourceLeaf{498}
+\par\noindent\hspace*{\parindent}Thus if \textls[140]{both \(n\) and \(\frac{\mu}{2}=m\) are odd}, we have
+\[
+\tag*{1)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}D_0 + D_1\cos na + D_2\cos 2na + \cdots + D_{\frac{\mu}{4}-\frac{1}{2}}\cos\left(\frac{\mu}{4}-\frac{1}{2}\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} E_1\sin na + E_2\sin 2na + \cdots + E_{\frac{\mu}{4}-\frac{1}{2}}\sin\left(\frac{\mu}{4}-\frac{1}{2}\right)na,
+\end{array}
+\]
+where
+\[
+\begin{gathered}
+D_0 = B_0 - B_{\frac{\mu}{2}}, \quad D_1 = B_1 - B_{\frac{\mu}{2}-1}, \quad D_2 = B_2 - B_{\frac{\mu}{2}-2}, \quad \ldots \quad D_{\frac{\mu}{4}-\frac{1}{2}} = B_{\frac{\mu}{4}-\frac{1}{2}} - B_{\frac{\mu}{4}+\frac{1}{2}}\\[4pt]
+E_1 = C_1 + C_{\frac{\mu}{2}-1}, \quad E_2 = C_2 + C_{\frac{\mu}{2}-2}, \quad \ldots \quad E_{\frac{\mu}{4}-\frac{1}{2}} = C_{\frac{\mu}{4}-\frac{1}{2}} + C_{\frac{\mu}{4}+\frac{1}{2}}.
+\end{gathered}
+\]
+\par\noindent\hspace*{\parindent}If \textls[140]{\(n\) is odd and \(\frac{\mu}{2}=m\) is even}, we have:
+\[
+\tag*{2)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}D_0 + D_1\cos na + D_2\cos 2na + \cdots + D_{\frac{\mu}{4}-1}\cos\left(\frac{\mu}{4}-1\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} E_1\sin na + E_2\sin 2na + \cdots + E_{\frac{\mu}{4}-1}\sin\left(\frac{\mu}{4}-1\right)na + \tfrac{1}{2}E_{\frac{\mu}{4}}\sin\frac{\mu}{4}na,
+\end{array}
+\]
+where again
+\[
+\begin{gathered}
+D_0 = B_0 - B_{\frac{\mu}{2}}, \quad D_1 = B_1 - B_{\frac{\mu}{2}-1}, \quad \ldots \quad D_{\frac{\mu}{4}-1} = B_{\frac{\mu}{4}-1} - B_{\frac{\mu}{4}+1}\\[4pt]
+E_1 = C_1 + C_{\frac{\mu}{2}-1}, \quad \ldots \quad E_{\frac{\mu}{4}-1} = C_{\frac{\mu}{4}-1} + C_{\frac{\mu}{4}+1}, \quad E_{\frac{\mu}{4}} = 2C_{\frac{\mu}{4}}.
+\end{gathered}
+\]
+\par\noindent\hspace*{\parindent}If \textls[140]{\(n\) is even and \(\frac{\mu}{2}=m\) is odd}, we have instead:
+\[
+\tag*{3)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}F_0 + F_1\cos na + F_2\cos 2na + \cdots + F_{\frac{\mu}{4}-\frac{1}{2}}\cos\left(\frac{\mu}{4}-\frac{1}{2}\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} G_1\sin na + G_2\sin 2na + \cdots + G_{\frac{\mu}{4}-\frac{1}{2}}\sin\left(\frac{\mu}{4}-\frac{1}{2}\right)na,
+\end{array}
+\]
+where
+\[
+\begin{gathered}
+F_0 = B_0 + B_{\frac{\mu}{2}}, \quad F_1 = B_1 + B_{\frac{\mu}{2}-1}, \quad F_2 = B_2 + B_{\frac{\mu}{2}-2}, \quad \ldots \quad F_{\frac{\mu}{4}-\frac{1}{2}} = B_{\frac{\mu}{4}-\frac{1}{2}} + B_{\frac{\mu}{4}+\frac{1}{2}}\\[4pt]
+G_1 = C_1 - C_{\frac{\mu}{2}-1}, \quad G_2 = C_2 - C_{\frac{\mu}{2}-2}, \quad \ldots \quad G_{\frac{\mu}{4}-\frac{1}{2}} = C_{\frac{\mu}{4}-\frac{1}{2}} - C_{\frac{\mu}{4}+\frac{1}{2}}.
+\end{gathered}
+\]
+\par\noindent\hspace*{\parindent}If \textls[140]{\(n\) and \(\frac{\mu}{2}=m\) are both even}, we again have:
+\[
+\tag*{4)}
+\begin{array}{l}
+m\alpha = \tfrac{1}{2}F_0 + F_1\cos na + F_2\cos 2na + \cdots + F_{\frac{\mu}{4}-1}\cos\left(\frac{\mu}{4}-1\right)na + \tfrac{1}{2}F_{\frac{\mu}{4}}\cos\frac{\mu}{4}na \\[4pt]
+m\beta_n = \phantom{{}={}} G_1\sin na + G_2\sin 2na + \cdots + G_{\frac{\mu}{4}-1}\sin\left(\frac{\mu}{4}-1\right)na,
+\end{array}
+\]
+where
+\[
+\begin{gathered}
+F_0 = B_0 + B_{\frac{\mu}{2}}, \quad F_1 = B_1 + B_{\frac{\mu}{2}-1}, \quad \ldots \quad F_{\frac{\mu}{4}-1} = B_{\frac{\mu}{4}-1} + B_{\frac{\mu}{4}+1}, \quad F_{\frac{\mu}{4}} = 2B_{\frac{\mu}{4}}\\[4pt]
+G_1 = C_1 - C_{\frac{\mu}{2}-1}, \quad \ldots \quad G_{\frac{\mu}{4}-1} = C_{\frac{\mu}{4}-1} - C_{\frac{\mu}{4}+1}.
+\end{gathered}
+\]
+\par\noindent\hspace*{\parindent}In the application to calculating the perturbations of Pallas, \(\frac{\mu}{2}=m\) is always taken to be even. For that reason only the two formulas 2 and 4 will be developed further:
+\par\noindent\hspace*{\parindent}Consider first the
+\par\nobreak\smallskip\noindent\hfill\textls[140]{case where \(n\) is odd,}\hfill\mbox{}\par\nobreak\smallskip\noindent
+that is, formula 2. Substituting \(m-n\) for \(n\) there gives
+\SourceLeaf{499}
+\[
+\begin{array}{l}
+m\alpha_{m-n} = \tfrac{1}{2}D_0 + D_1\cos\left(\frac{\mu}{2}-n\right)a + D_2\cos 2\left(\frac{\mu}{2}-n\right)a + \cdots + D_{\frac{\mu}{4}-1}\cos\left(\frac{\mu}{4}-1\right)\left(\frac{\mu}{2}-n\right)a \\[4pt]
+m\beta_{m-n} = \phantom{{}={}} E_1\sin\left(\frac{\mu}{2}-n\right)a + E_2\sin 2\left(\frac{\mu}{2}-n\right)a + \cdots + E_{\frac{\mu}{4}-1}\sin\left(\frac{\mu}{4}-1\right)\left(\frac{\mu}{2}-n\right)a \\[4pt]
+\phantom{m\beta_{m-n} = {}} + \tfrac{1}{2}E_{\frac{\mu}{4}}\sin\frac{\mu}{4}\left(\frac{\mu}{2}-n\right)a.
+\end{array}
+\]
+Now since
+\[
+\begin{gathered}
+\cos\left(\frac{\mu}{2}-n\right)a = -\cos na, \quad \cos 2\left(\frac{\mu}{2}-n\right)a = +\cos 2na, \quad \ldots \quad \cos\left(\frac{\mu}{4}-1\right)\left(\frac{\mu}{2}-n\right)a = \pm\cos\left(\frac{\mu}{4}-1\right)na\\[4pt]
+\sin\left(\frac{\mu}{2}-n\right)a = +\sin na, \quad \sin 2\left(\frac{\mu}{2}-n\right)a = -\sin 2na, \quad \VtwoLeader\\[4pt]
+\sin\left(\frac{\mu}{4}-1\right)\left(\frac{\mu}{2}-n\right)a = \mp\sin\left(\frac{\mu}{4}-1\right)na, \quad \sin\frac{\mu}{4}\left(\frac{\mu}{2}-n\right)a = \pm\sin\frac{\mu}{4}na,
+\end{gathered}
+\]
+where the upper or lower sign applies according as \(\frac{\mu}{4}=\frac{m}{2}\) is odd or even, for odd \(\frac{\mu}{4}\) we obtain:
+\[
+\tag*{5)}
+\begin{array}{l}
+\frac{m}{2}(\alpha_n+\alpha_{m-n}) = \tfrac{1}{2}D_0 + D_2\cos 2na + D_4\cos 4na + \cdots + D_{\frac{\mu}{4}-1}\cos\left(\frac{\mu}{4}-1\right)na \\[4pt]
+\frac{m}{2}(\alpha_n-\alpha_{m-n}) = \phantom{{}={}} D_1\cos na + D_3\cos 3na + \cdots + D_{\frac{\mu}{4}-2}\cos\left(\frac{\mu}{4}-2\right)na \\[4pt]
+\frac{m}{2}(\beta_n+\beta_{m-n}) = \phantom{{}={}} E_1\sin na + E_3\sin 3na + \cdots + E_{\frac{\mu}{4}-2}\sin\left(\frac{\mu}{4}-2\right)na + \tfrac{1}{2}E_{\frac{\mu}{4}}\sin\frac{\mu}{4}na \\[4pt]
+\frac{m}{2}(\beta_n-\beta_{m-n}) = \phantom{{}={}} E_2\sin 2na + E_4\sin 4na + \cdots + E_{\frac{\mu}{4}-1}\sin\left(\frac{\mu}{4}-1\right)na,
+\end{array}
+\]
+and for even \(\frac{\mu}{4}\):
+\[
+\tag*{6)}
+\begin{array}{l}
+\frac{m}{2}(\alpha_n+\alpha_{m-n}) = \tfrac{1}{2}D_0 + D_2\cos 2na + D_4\cos 4na + \cdots + D_{\frac{\mu}{4}-2}\cos\left(\frac{\mu}{4}-2\right)na \\[4pt]
+\frac{m}{2}(\alpha_n-\alpha_{m-n}) = \phantom{{}={}} D_1\cos na + D_3\cos 3na + \cdots + D_{\frac{\mu}{4}-1}\cos\left(\frac{\mu}{4}-1\right)na \\[4pt]
+\frac{m}{2}(\beta_n+\beta_{m-n}) = \phantom{{}={}} E_1\sin na + E_3\sin 3na + \cdots + E_{\frac{\mu}{4}-1}\sin\left(\frac{\mu}{4}-1\right)na \\[4pt]
+\frac{m}{2}(\beta_n-\beta_{m-n}) = \phantom{{}={}} E_2\sin 2na + E_4\sin 4na + \cdots + E_{\frac{\mu}{4}-2}\sin\left(\frac{\mu}{4}-2\right)na + \tfrac{1}{2}E_{\frac{\mu}{4}}\sin\frac{\mu}{4}na.
+\end{array}
+\]
+\par\nobreak\medskip\noindent\hfill\textls[140]{For the case where \(n\) is even,}\hfill\mbox{}\par\nobreak\smallskip\noindent
+we have in \VtwoLowPoint equation 4:
+\[
+\begin{gathered}
+\cos\frac{\mu}{2}na = \mp 1, \quad \cos\left(\frac{\mu}{4}-1\right)na = \mp\cos na \quad \text{etc.}\\[4pt]
+\sin\left(\frac{\mu}{4}-1\right)na = \pm\sin na \quad \text{etc.,}
+\end{gathered}
+\]
+where the upper or lower sign applies according as \(\frac{n}{2}\) is odd or even. The equations in 4 therefore become the following:
+\par\noindent\hspace*{\parindent}If both \(\frac{n}{2}\) and \(\frac{\mu}{4}\) are odd:
+\SourceLeaf{500}
+\[
+\tag*{7)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}H_0 + H_1\cos na + H_2\cos 2na + \cdots + H_{\frac{\mu}{8}-\frac{1}{2}}\cos\left(\frac{\mu}{8}-\frac{1}{2}\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} \mathrm{J}_1\sin na + \mathrm{J}_2\sin 2na + \cdots + \mathrm{J}_{\frac{\mu}{8}-\frac{1}{2}}\sin\left(\frac{\mu}{8}-\frac{1}{2}\right)na,
+\end{array}
+\]
+where
+\[
+\begin{gathered}
+H_0 = F_0 - F_{\frac{\mu}{4}}, \quad H_1 = F_1 - F_{\frac{\mu}{4}-1}, \quad \ldots \quad H_{\frac{\mu}{8}-\frac{1}{2}} = F_{\frac{\mu}{8}-\frac{1}{2}} - F_{\frac{\mu}{8}+\frac{1}{2}}\\[4pt]
+\mathrm{J}_1 = G_1 + G_{\frac{\mu}{4}-1}, \quad \ldots \quad \mathrm{J}_{\frac{\mu}{8}-\frac{1}{2}} = G_{\frac{\mu}{8}-\frac{1}{2}} + G_{\frac{\mu}{8}+\frac{1}{2}};
+\end{gathered}
+\]
+if \(\frac{n}{2}\) is odd and \(\frac{\mu}{4}\) is even:
+\[
+\tag*{8)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}H_0 + H_1\cos na + H_2\cos 2na + \cdots + H_{\frac{\mu}{8}-1}\cos\left(\frac{\mu}{8}-1\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} \mathrm{J}_1\sin na + \mathrm{J}_2\sin 2na + \cdots + \mathrm{J}_{\frac{\mu}{8}-1}\sin\left(\frac{\mu}{8}-1\right)na + \tfrac{1}{2}\mathrm{J}_{\frac{\mu}{8}}\sin\frac{\mu}{8}na,
+\end{array}
+\]
+where
+\[
+\begin{gathered}
+H_0 = F_0 - F_{\frac{\mu}{4}}, \quad H_1 = F_1 - F_{\frac{\mu}{4}-1}, \quad \ldots \quad H_{\frac{\mu}{8}-1} = F_{\frac{\mu}{8}-1} - F_{\frac{\mu}{8}+1}\\[4pt]
+\mathrm{J}_1 = G_1 + G_{\frac{\mu}{4}-1}, \quad \ldots \quad \mathrm{J}_{\frac{\mu}{8}-1} = G_{\frac{\mu}{8}-1} + G_{\frac{\mu}{8}+1}, \quad \mathrm{J}_{\frac{\mu}{8}} = 2G_{\frac{\mu}{8}};
+\end{gathered}
+\]
+if \(\frac{n}{2}\) is even and \(\frac{\mu}{4}\) is odd:
+\[
+\tag*{9)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}K_0 + K_1\cos na + K_2\cos 2na + \cdots + K_{\frac{\mu}{8}-\frac{1}{2}}\cos\left(\frac{\mu}{8}-\frac{1}{2}\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} L_1\sin na + L_2\sin 2na + \cdots + L_{\frac{\mu}{8}-\frac{1}{2}}\sin\left(\frac{\mu}{8}-\frac{1}{2}\right)na,
+\end{array}
+\]
+where
+\[
+\begin{gathered}
+K_0 = F_0 + F_{\frac{\mu}{4}}, \quad K_1 = F_1 + F_{\frac{\mu}{4}-1}, \quad \ldots \quad K_{\frac{\mu}{8}-\frac{1}{2}} = F_{\frac{\mu}{8}-\frac{1}{2}} + F_{\frac{\mu}{8}+\frac{1}{2}}\\[4pt]
+L_1 = G_1 - G_{\frac{\mu}{4}-1}, \quad \ldots \quad L_{\frac{\mu}{8}-\frac{1}{2}} = G_{\frac{\mu}{8}-\frac{1}{2}} - G_{\frac{\mu}{8}+\frac{1}{2}};
+\end{gathered}
+\]
+if \(\frac{n}{2}\) and \(\frac{\mu}{4}\) are both even:
+\[
+\tag*{10)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}K_0 + K_1\cos na + K_2\cos 2na + \cdots + K_{\frac{\mu}{8}-1}\cos\left(\frac{\mu}{8}-1\right)na + \tfrac{1}{2}K_{\frac{\mu}{8}}\cos\frac{\mu}{8}na \\[4pt]
+m\beta_n = \phantom{{}={}} L_1\sin na + L_2\sin 2na + \cdots + L_{\frac{\mu}{8}-1}\VtwoMarkedSin\left(\frac{\mu}{8}-1\right)na,
+\end{array}
+\]
+where
+\[
+\begin{gathered}
+K_0 = F_0 + F_{\frac{\mu}{4}}, \quad K_1 = F_1 + F_{\frac{\mu}{4}-1}, \quad \ldots \quad K_{\frac{\mu}{8}-1} = F_{\frac{\mu}{8}-1} + F_{\frac{\mu}{8}+1}, \quad K_{\frac{\mu}{8}} = 2F_{\frac{\mu}{8}}\\[4pt]
+L_1 = G_1 - G_{\frac{\mu}{4}-1}, \quad \ldots \quad L_{\frac{\mu}{8}-1} = G_{\frac{\mu}{8}-1} - G_{\frac{\mu}{8}+1}.
+\end{gathered}
+\]
+\par\noindent\hspace*{\parindent}Formulas 7, 8, and 9 admit no further reduction in the same way. Formula 10, in which \(\frac{n}{2}\) was assumed to be even, can be reduced further.
+\par\noindent\hspace*{\parindent}For we have
+again:
+\[
+\begin{gathered}
+\cos\frac{\mu}{8}na = \mp 1, \quad \cos\left(\frac{\mu}{8}-1\right)na = \mp\cos na \quad \text{etc.}\\[4pt]
+\sin\left(\frac{\mu}{8}-1\right)na = \pm\sin na\mathord{.}\quad \text{etc.,}
+\end{gathered}
+\]
+where the upper or lower sign applies according as \(\frac{n}{4}\) is odd or even. This
+gives, if \(\frac{n}{4}\)
+\SourceLeaf{501}
+and \(\frac{\mu}{8}\) are both odd:
+\[
+\tag*{11)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}M_0 + M_1\cos na + M_2\cos 2na + \cdots + M_{\frac{\mu}{16}-\frac{1}{2}}\cos\left(\frac{\mu}{16}-\frac{1}{2}\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} N_1\sin na + N_2\sin 2na + \cdots + N_{\frac{\mu}{16}-\frac{1}{2}}\sin\left(\frac{\mu}{16}-\frac{1}{2}\right)na,
+\end{array}
+\]
+where
+\[
+\begin{gathered}
+M_0 = K_0 - K_{\frac{\mu}{8}}, \quad M_1 = K_1 - K_{\frac{\mu}{8}-1}, \quad \ldots \quad M_{\frac{\mu}{16}-\frac{1}{2}} = K_{\frac{\mu}{16}-\frac{1}{2}} - K_{\frac{\mu}{16}+\frac{1}{2}}\\[4pt]
+N_1 = L_1 + L_{\frac{\mu}{8}-1}, \quad \ldots \quad N_{\frac{\mu}{16}-\frac{1}{2}} = L_{\frac{\mu}{16}-\frac{1}{2}} + \VtwoMarkedL_{\frac{\mu}{16}+\frac{1}{2}};
+\end{gathered}
+\]
+if \(\frac{n}{4}\) is odd and \(\frac{\mu}{8}\) is even:
+\[
+\tag*{12)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}M_0 + M_1\cos na + M_2\cos 2na + \cdots + M_{\frac{\mu}{16}-1}\cos\left(\frac{\mu}{16}-1\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} N_1\sin na + N_2\sin 2na + \cdots + N_{\frac{\mu}{16}-1}\sin\left(\frac{\mu}{16}-1\right)na + \tfrac{1}{2}N_{\frac{\mu}{16}}\sin\frac{\mu}{16}na,
+\end{array}
+\]
+where
+\[
+\begin{gathered}
+M_0 = K_0 - K_{\frac{\mu}{8}}, \quad M_1 = K_1 - K_{\frac{\mu}{8}-1}, \quad \ldots \quad M_{\frac{\mu}{16}-1} = K_{\frac{\mu}{16}-1} - K_{\frac{\mu}{16}+1}\\[4pt]
+N_1 = L_1 + L_{\frac{\mu}{8}-1}, \quad \ldots \quad N_{\frac{\mu}{16}-1} = L_{\frac{\mu}{16}-1} + L_{\frac{\mu}{16}+1}, \quad N_{\frac{\mu}{16}} = 2L_{\frac{\mu}{16}};
+\end{gathered}
+\]
+if \(\frac{n}{4}\) is even and \(\frac{\mu}{8}\) is odd:
+\[
+\tag*{13)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}P_0 + P_1\cos na + P_2\cos 2na + \cdots + P_{\frac{\mu}{16}-\frac{1}{2}}\cos\left(\frac{\mu}{16}-\frac{1}{2}\right)na \\[4pt]
+m\beta_n = \phantom{{}={}} Q_1\sin na + Q_2\sin 2na + \cdots + Q_{\frac{\mu}{16}-\frac{1}{2}}\sin\left(\frac{\mu}{16}-\frac{1}{2}\right)na,
+\end{array}
+\]
+where
+\[
+\begin{gathered}
+P_0 = K_0 + K_{\frac{\mu}{8}}, \quad P_1 = K_1 + K_{\frac{\mu}{8}-1}, \quad \ldots \quad P_{\frac{\mu}{16}-\frac{1}{2}} = K_{\frac{\mu}{16}-\frac{1}{2}} + K_{\frac{\mu}{16}+\frac{1}{2}}\\[4pt]
+Q_1 = L_1 - L_{\frac{\mu}{8}-1}, \quad \ldots \quad Q_{\frac{\mu}{16}-\frac{1}{2}} = L_{\frac{\mu}{16}-\frac{1}{2}} - L_{\frac{\mu}{16}+\frac{1}{2}};
+\end{gathered}
+\]
+if \(\frac{n}{4}\) and \(\frac{\mu}{8}\) are both even:
+\[
+\tag*{14)}
+\begin{array}{l}
+m\alpha_n = \tfrac{1}{2}P_0 + P_1\cos na + P_2\cos 2na + \cdots + P_{\frac{\mu}{16}-1}\cos\left(\frac{\mu}{16}-1\right)na + \tfrac{1}{2}P_{\frac{\mu}{16}}\cos\frac{\mu}{16}na \\[4pt]
+m\beta_n = \phantom{{}={}} Q_1\sin na + Q_2\sin 2na + \cdots + Q_{\frac{\mu}{16}-1}\sin\left(\frac{\mu}{16}-1\right)na,
+\end{array}
+\]
+where
+\[
+\begin{gathered}
+P_0 = K_0 + K_{\frac{\mu}{8}}, \quad P_1 = K_1 + K_{\frac{\mu}{8}-1}, \quad \ldots \quad P_{\frac{\mu}{16}-1} = K_{\frac{\mu}{16}-1} + K_{\frac{\mu}{16}+1}, \quad P_{\frac{\mu}{16}} = 2K_{\frac{\mu}{16}}\\[4pt]
+Q_1 = L_1 - L_{\frac{\mu}{8}-1}, \quad \ldots \quad Q_{\frac{\mu}{16}-1} = L_{\frac{\mu}{16}-1} - L_{\frac{\mu}{16}+1}.
+\end{gathered}
+\]
+\par\noindent\hspace*{\parindent}It is easy to see that formula 14 can also be transformed further and that the procedure can in general be continued as far as desired, depending on the value of \(\mu\). We leave the remaining transformations aside here, both because they are readily apparent and because the present problem requires us to go no further.]
+\par
+\endgroup
+\end{landscape}

@@ -1,0 +1,104 @@
+\par\Needspace{4\baselineskip}
+\begin{center}
+\SourceLeaf{027c}\pdfbookmark[2]{10.}{article-010}10.
+\end{center}
+The equations in Article 8 contain everything needed to compute the eccentric and mean
+anomalies from the true anomaly, or the eccentric and true anomalies from the mean
+anomaly. Formula VII is commonly used to derive the eccentric anomaly from the true
+anomaly. For this purpose, however, equation X is usually preferable, especially when
+the eccentricity is not too large, in which case $E$ can be computed more precisely
+by X than by VII. Moreover, when equation X is used, the logarithm of the sine of $E$
+required in XII is obtained directly from equation VIII. If VII were used, this
+logarithm would have to be taken from the tables. Thus, if the logarithm is also
+taken from the tables in the former method, the comparison confirms that the calculation
+was carried out correctly. Such checks and confirmations of calculations are always
+of great value. We shall therefore take constant care to provide for them in all
+the methods presented in this work wherever this can conveniently be done.
+--- For further illustration, we give a fully worked example.
+
+\Needspace{22\baselineskip}
+Let $v = 310^0\,55^{\prime}\,29^{\prime\prime}{,}64$, $\varphi = 14^0\,12^{\prime}\,1^{\prime\prime}{,}87$, and $\log r = 0{,}3307640$ be given. We seek $p$, $a$, $E$ and $M$.
+
+\SourceLeaf{028}
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\makebox[16em][l]{$\log\sin\varphi$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.\,.} & $9{,}389\,7262$\\[.3em]
+\makebox[16em][l]{$\log\cos v$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.\,.} & $9{,}816\,2872$\\[.3em]
+\hline
+ & $9{,}206\,0134$\\[.3em]
+\multicolumn{2}{r}{whence $e\cos v=0{,}1606991$}\\[.3em]
+\hline
+\makebox[16em][l]{$\log(1+e\cos v)$\hfill .\,.\,.\,.\,.\,.} & $0{,}064\,7197$\\[.3em]
+\makebox[16em][l]{$\log r$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.} & $0{,}330\,7640$\\[.3em]
+\hline
+\makebox[16em][l]{$\log p$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.} & $0{,}395\,4837$\\[.3em]
+\makebox[16em][l]{$\log\cos\varphi^2$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.} & $9{,}973\,0448$\\[.3em]
+\hline
+\makebox[16em][l]{$\log a$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.} & $0{,}422\,4389$\\[.3em]
+\hline
+\makebox[16em][l]{$\log\sin v$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.\,.} & $9{,}878\,2740_n$\footnotemark\\[.3em]
+\makebox[16em][l]{$\log\BareRoot{\frac{p}{r}}$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.\,.} & $0{,}032\,3598.5$\\[.3em]
+\hline
+ & $9{,}845\,9141.5_n$\\[.3em]
+\makebox[16em][l]{$\log\sin\frac{1}{2}\varphi$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.} & $9{,}092\,0395$\\[.3em]
+\hline
+\noalign{\vskip2pt}
+\makebox[16em][l]{$\log\sin\frac{1}{2}(v-E)$\hfill .\,.\,.\,.\,.} & $8{,}937\,9536.5_n$\\[.3em]
+\end{tabular}
+\end{center}
+\footnotetext{The letter $n$ appended to a logarithm indicates that the corresponding number is negative.}
+
+\noindent Hence
+\[
+\begin{gathered}
+\frac{1}{2}(v-E)=-4^0\,58^{\prime}\,22^{\prime\prime}{,}94;\quad v-E=-9^0\,56^{\prime}\,45^{\prime\prime}{,}88;\\
+E=320^0\,52^{\prime}\,15^{\prime\prime}{,}52.
+\end{gathered}
+\]
+\noindent We also obtain
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\makebox[16em][l]{$\log e$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.} & $9{,}389\,7262$\\[.3em]
+\makebox[16em][l]{$\log206264{,}8$\hfill .\,.\,.} & $5{,}314\,4251$\\[.3em]
+\hline
+\makebox[16em][l]{$\log e$ in arcsec:\hfill .\,.\,.} & $4{,}704\,1513$\\[.3em]
+\makebox[16em][l]{$\log\sin E$\hfill .\,.\,.\,.\,.\,.} & $9{,}800\,0767_n$\\[.3em]
+\hline
+ & $4{,}504\,2280_n$\\[.3em]
+\end{tabular}
+\end{center}
+
+\begin{center}
+Calculation of $\log\sin E$ by formula VIII.
+\end{center}
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\makebox[16em][l]{$\log\frac{r}{p}\sin v$\hfill .\,.\,.\,.\,.} & $9{,}813\,5543_n$\\[.3em]
+\makebox[16em][l]{$\log\cos\varphi$\hfill .\,.\,.\,.\,.\,.} & $9{,}986\,5224$\\[.3em]
+\hline
+\makebox[16em][l]{$\log\sin E$\hfill .\,.\,.\,.\,.\,.} & $9{,}800\,0767_n$\\[.3em]
+\hline
+\end{tabular}
+\end{center}
+
+\noindent Hence
+\[
+\begin{gathered}
+e\sin E\ \mathrm{in\ arcseconds}=-31932^{\prime\prime}{,}14=-8^0\,52^{\prime}\,12^{\prime\prime}{,}14\\
+\mathrm{and}\quad M=329^0\,44^{\prime}\,27^{\prime\prime}{,}66.
+\end{gathered}
+\]
+\Needspace{12\baselineskip}
+\noindent Using formula VII, the calculation of $E$ would proceed as follows.
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\multicolumn{2}{l}{$\frac{1}{2}v=155^0\,27^{\prime}\,44^{\prime\prime}{,}82$}\\[.3em]
+\makebox[16em][l]{$\log\operatorname{tang}\frac{1}{2}v$\hfill .\,.\,.\,.\,.\,.\,.\,.} & $9{,}659\,4579_n$\\[.3em]
+\multicolumn{2}{l}{$45^0-\frac{1}{2}\varphi=37^0\,53^{\prime}\,59^{\prime\prime}{,}065$}\\[.3em]
+\makebox[16em][l]{$\log\operatorname{tang}(45^0-\frac{1}{2}\varphi)$\hfill .\,.\,.} & $9{,}891\,2427$\\[.3em]
+\hline
+\noalign{\vskip2pt}
+\makebox[16em][l]{$\log\operatorname{tang}\frac{1}{2}E$\hfill .\,.\,.\,.\,.\,.\,.} & $9{,}550\,7006_n$\\[.3em]
+\end{tabular}
+\end{center}
+This gives $\frac{1}{2}E=160^0\,26^{\prime}\,7^{\prime\prime}{,}76$ and $E=320^0\,52^{\prime}\,15^{\prime\prime}{,}52$, as above.

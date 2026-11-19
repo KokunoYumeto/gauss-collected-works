@@ -1,0 +1,152 @@
+\clearpage
+\SourceLeaf{374}
+\pdfbookmark[2]{3. Gauss to Encke and Olbers}{tabula-nova-brief-003}
+\begingroup
+\makeatletter
+\newcommand{\LetterThreeFirstNote}[1]{\begingroup\renewcommand{\thefootnote}{*)}\long\def\@makefntext##1{\noindent [*)\ ##1}\footnote{#1}\endgroup}
+\makeatother
+\begin{center}
+[3.]\par\medskip
+\textsc{Gauss} to [\textsc{Encke}, Göttingen 1815\LetterThreeFirstNote{Cf. \textsc{Gauss} to \textsc{Olbers}, 29 May 1815, p. 350.]}.]\par\medskip
+{\bfseries [On calculating the preceding table for parabolic motion.]}
+\end{center}
+\noindent\hspace*{\parindent}Solution of the equation
+\[
+\alpha\,\mathrm{tang}\,\tfrac12v+\beta\,\mathrm{tang}\,\tfrac12v^3=A,
+\]
+where \(A\) is given by its logarithm and
+\[
+\begin{aligned}
+\alpha&=2\mathpunct{.}206265&&\text{and exactly}\quad\log\alpha=5{,}61545\ 51288\ 4044\\
+\beta&=\tfrac23\mathpunct{.}206265&&\phantom{\text{and exactly}\quad}\log\beta=5{,}13833\ 38741\ 2078.
+\end{aligned}
+\]
+Let \(V\) be the angle, in whole multiples of \(20\) arcseconds, that is closest to \(v\). Calculate
+\[
+\frac{\alpha\,\mathrm{tang}\,\tfrac12V}{\mathord{\text{\raisebox{-.35ex}{\(\scriptstyle:\)}}}A}
++\frac{\beta\,\mathrm{tang}\,\tfrac12V^3}{A}=m,
+\]
+which will differ very little from 1. Then we have
+\[
+v=V+(1-m)A\cos\tfrac12\left(\frac{v+V}{2}\right)^4;
+\]
+To evaluate this formula, use for \(v\) the value given by \textsc{Barker}'s table\HistoricalNoteDoubleUnbracketed{If necessary, the calculation can be repeated with the improved value obtained from the formula.}, entering it with \(\dfrac{75}{2\mathpunct{.}206265}\cdot A\) (or with the logarithm of this quantity). Here
+\[
+\log\frac{75}{2\mathpunct{.}206265}=6{,}259\ 6061\,[-10].
+\]
+\par\medskip
+\noindent\hspace*{2\parindent}Example. \(\log A=6{,}166.\)
+\par
+\noindent\hspace*{\parindent}Here \textsc{Barker}'s table gives
+\[
+v=120^0\ 37'\ 18''{,}67,
+\]
+so we set
+\[
+\begin{aligned}
+V&=120\ \ 37\ \ 20\\
+\tfrac14(V+v)&=\phantom1 60\ \ 18\ \ 39{,}6675
+\end{aligned}
+\]
+\SourceLeaf{375}
+\[
+\begin{array}{l@{\;}l@{\;}l}
+\mathrm{tang}\,\tfrac12V & .\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,. & 0{,}24402\ 38664\\[3pt]
+\dfrac{\alpha}{A} & .\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,. & 9{,}44945\ 51288\\[3pt]\hline
+&&9{,}69347\ 89952
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}l}
+\mathrm{tang}\,\tfrac12V^3 & .\,.\,.\,.\,.\,.\,.\,.\,.\,.\,. & 0{,}73207\ 15992\\[3pt]
+\dfrac{\beta}{A} & .\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,. & 8{,}97233\ 38741\\[3pt]\hline
+&&9{,}70440\ 54733
+\end{array}
+\]
+\[
+\begin{array}{r@{\;}l}
+\text{Number}&0{,}49371\ 80388\ 54\\
+.\,.\,.\,.\,.\,.\,.\,.\,.&0{,}50629\ 71390\ 22\\\hline
+m=&1{,}00001\ 51778\ 76
+\end{array}
+\]
+\[
+\begin{array}{l@{\;}l@{\;}l@{\quad}l}
+1-m & .\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,. &5{,}181\ 2109_n&\\[3pt]
+\multicolumn{2}{r}{4\log\cos\dfrac{v+V}{4}=}&8{,}779\ 4436&\\[3pt]
+A & .\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.&6{,}166\ 0000&\\\cline{1-3}
+&&0{,}126\ 6545_n&\text{Number }-1''{,}33861.
+\end{array}
+\]
+Thus
+\[
+v=120^0\ 37'\ 18''{,}66139.
+\]
+Repeating the calculation with \(\dfrac{v+V}{4}=60^0\ 18'\ 34''{,}665\) does not change the result.
+\par
+\noindent\hspace*{\parindent}For a logarithm \(l\), the following procedure finds the corresponding number \(m\). Let \(L\) be the closest logarithm in the tables and \(M\) the corresponding number. Then we have
+\[
+m=M+\frac{(l-L)\BareRoot{(mM)}}{k}\mathpunct{\text{\raisebox{.45ex}{,}}}
+\]
+where \(k\) is the modulus of the \textsc{Briggs}ian logarithms and \(\log\dfrac1k=0{,}362\ 2157.\)
+\par\nobreak
+\noindent\hspace*{2\parindent}Example.
+\[
+\begin{array}{r@{\;}l@{\;}l}
+l&.\,.\,.\,.\,.&9{,}69347\ 90052\\
+L&.\,.\,.\,.&9{,}69348\ 07203\\
+&&0{,}.\,.\,.\,.\,.\,17151
+\end{array}
+\qquad M=0{,}49372
+\]
+\[
+\begin{array}{l@{\;}l@{\;}l}
+l-L&.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.&4{,}234\ 2894_n\\[3pt]
+\multicolumn{2}{r}{\tfrac12\log(mM)=}&9{,}693\ 4799\\[3pt]
+\dfrac1k&.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.&0{,}362\ 2157\\[3pt]\hline
+&&4{,}289\ 9850_n
+\end{array}
+\]
+\[
+\begin{array}{r@{\;}l}
+\text{Number}&-0{,}.\,.\,.\,.\,.\,19497\ 8\\\hline
+m=&0{,}49371\ 80502\ 2.
+\end{array}
+\]
+\par
+\noindent\hspace*{\parindent}You could now begin (so as to be able to \SourceLeaf{376}use this example as well) by proceeding forward from \(\log A=6{,}166\), which falls approximately in the middle of the table, setting
+\[
+\begin{aligned}
+\log A&=6{,}230\\
+\log A&=6{,}294\\
+\log A&=6{,}358\quad\text{etc.}
+\end{aligned}
+\]
+while I work backward as I find the time. You can borrow \textsc{Vega}'s Thesaurus Logarithmorum from the library for this, as I am using my own copy for the work. You will easily be able to work out the reasons for these instructions yourself. Please return this sheet to me soon, as I have kept no copy.\hfill G.
+\par\medskip
+\begin{center}\rule{.22\textwidth}{.4pt}\end{center}
+\Needspace{8\baselineskip}
+\pdfbookmark[3]{Gauss to Olbers, 16 February 1816}{tabula-nova-brief-003-olbers}
+\begin{center}\textsc{Gauss} to \textsc{Olbers}, Göttingen, 16 February 1816.\end{center}
+\noindent\hspace*{\parindent}.\ .\ .\ .\ .\quad I cannot tell for certain from your letter whether \textsc{Burckhardt}'s new table is printed in the C[onn.] d[es] t[ems] or merely announced there. In the former case, please send me a couple of consecutive entries. I myself began a very similar table in my spare time and have already completed the greater part of it. There is probably still some difference in the arrangement, however. I have calculated the table throughout to one 100000th of an arcsecond so as always to give the hundredths with certainty (with a few exceptions). My arguments increase by 0,001 at each step, but they differ from the logarithms of the days in \textsc{Lacaille}'s table by a constant chosen so that for infinitely small anomalies the numbers corresponding to the logarithms equal the anomalies themselves in arcseconds. For the first \(11^0\) I give the numbers themselves, so that interpolation can easily be done by inspection, as the difference always deviates very little from 100. Here are some samples\unskip\nobreak\HistoricalNoteEight{\textsc{Gauss} gives three samples, of which only the first is printed here.]}:
+\[
+\renewcommand{\arraystretch}{.65}
+\begin{array}{r@{\qquad}r@{\qquad}l}
+\text{Argum.}&&\\[4pt]
+8000&2^0\ 13'\ 18''{,}00&\\
+&&99''{,}92\\
+8100&14\ \ 57{,}92&\\
+&&99{,}92\\
+8200&16\ \ 37{,}84&\\
+&&99{,}92\\
+8300&18\ \ 17{,}76&\\
+&&99{,}92.\\
+8400&19\ \ 57{,}68&
+\end{array}
+\]
+\par
+\SourceLeaf{377}
+\noindent\hspace*{\parindent}.\ .\ .\ .\ .\quad The table will extend to about \(167^0\) or \(169^0\), and the final portion up to \(180^0\) will again use a different arrangement with the same convenience as at the beginning. This makes the table entirely complete and allows it to be used to advantage for cubic equations in other contexts. So far the table has been calculated for only half of the arguments. A convenient method of interpolation that requires scarcely anything beyond writing will fill in the rest, so that the table as a whole will contain a little over 4000 entries. The difference \(348''{,}58\) is the maximum. I already used this table to advantage for your comet last year.\quad .\ .\ .\ .\ .
+\par\medskip
+\begin{center}\rule{.22\textwidth}{.4pt}\end{center}
+\endgroup

@@ -1,0 +1,63 @@
+\par\Needspace{4\baselineskip}
+\begin{center}
+\hypertarget{native-047-article032}{}\pdfbookmark[2]{32.}{article-032}32.
+\end{center}
+We now proceed to apply these principles to the most useful of the operations explained above.
+
+I. When formula VII of Article 8 is used to calculate the true anomaly from the eccentric anomaly in elliptic motion, assuming that $\varphi$ and $E$ are known exactly, each of \SourceLeaf{048}$\log\operatorname{tang}(45^0-\frac{1}{2}\varphi)$ and $\log\operatorname{tang}\frac{1}{2}E$ may have an error of $\omega$, and consequently their difference $=\log\operatorname{tang}\frac{1}{2}v$ may have an error of $2\omega$. The maximum error in determining the angle $\frac{1}{2}v$ will therefore be $\frac{3\omega\,\mathrm{d}\frac{1}{2}v}{\mathrm{d}\log\operatorname{tang}\frac{1}{2}v}=\frac{3\omega\sin v}{2\lambda}$, where $\lambda$ denotes the modulus of the logarithms used in this calculation. The error to which the true anomaly $v$ is subject, expressed in arcseconds, is then $=\frac{3\omega\sin v}{\lambda}206265^{\prime\prime}=0^{\prime\prime}{,}0712\sin v$ if \textsc{Briggs}ian logarithms are used to seven decimal places, so that we can always be certain to within $0^{\prime\prime}{,}07$ of the value of $v$. If smaller tables giving only five places are used, the error could reach $7^{\prime\prime}{,}12$.
+
+II. If $e\cos E$ is calculated with the aid of logarithms, an error as large as $\frac{3\omega e\cos E}{\lambda}$ may occur. The quantity $1-e\cos E$, or $\frac{r}{a}$, is therefore subject to the same error. In calculating the logarithm of this quantity, the error may thus reach $(1+\delta)\omega$, where $\delta$ denotes the quantity $\frac{3e\cos E}{1-e\cos E}$ taken as positive. The same upper bound $(1+\delta)\omega$ applies to the possible error in $\log r$, provided that $\log a$ is assumed to be given exactly. Whenever the eccentricity is small, the quantity $\delta$ is always confined within narrow limits. If $e$ differs little from 1, however, $1-e\cos E$ remains very small as long as $E$ is small. In that case $\delta$ can grow to an appreciable magnitude, so formula III of Article 8 would be less suitable. The quantity $\delta$ can also be expressed as $\frac{3(a-r)}{r}=\frac{3e(\cos v+e)}{1-ee}$, a formula that shows still more clearly when the error $(1+\delta)\omega$ can be disregarded.
+
+III. When formula X of Article 8 is used to calculate the true anomaly from the eccentric anomaly, $\log\BareRoot{\frac{a}{r}}$ will be subject to an error of $(\frac{1}{2}+\frac{1}{2}\delta)\omega$, and therefore $\log\sin\frac{1}{2}\varphi\sin E\BareRoot{\frac{a}{r}}$ to an error of $(\frac{5}{2}+\frac{1}{2}\delta)\omega$. Hence the maximum possible error in determining the angle $v-E$ or $v$ is $=\frac{\omega}{\lambda}(7+\delta)\operatorname{tang}\frac{1}{2}(v-E)$, or, expressed in arcseconds if seven decimal places are used, $=(0^{\prime\prime}{,}166+0^{\prime\prime}{,}024\,\delta)\operatorname{tang}\frac{1}{2}(v-E)$. Whenever the eccentricity is moderate, $\delta$ and $\operatorname{tang}\frac{1}{2}(v-E)$ will be small quantities, so this method will allow greater precision than the one we considered in I. The latter method, however, is to be preferred when the eccentricity is very large and approaches unity, since $\delta$ and $\operatorname{tang}\frac{1}{2}(v-E)$ can then attain very considerable values. Our formulas always make it easy to decide which method is to be preferred.
+
+IV. In determining the mean anomaly from the eccentric anomaly by formula XII of Article 8, the error in the quantity $e\sin E$ calculated with the aid of logarithms, and hence also in the anomaly $M$ itself, may reach $\frac{3\omega e\sin E}{\lambda}$. This bound on the error,
+\SourceLeaf{049}if desired in arcseconds, must be multiplied by $206265^{\prime\prime}$. It follows readily that in the inverse problem, where $E$ is determined from $M$ by successive trials, $E$ may be in error by $\frac{3\omega e\sin E}{\lambda}\cdot\frac{\mathrm{d}E}{\mathrm{d}M}\cdot206265^{\prime\prime}=\frac{3\omega ea\sin E}{\lambda r}\cdot206265^{\prime\prime}$, even if the equation $E-e\sin E=M$ has been satisfied to the full precision that the tables allow.
+
+Thus the true anomaly calculated from the mean anomaly may be in error for two reasons, assuming the mean anomaly to be given exactly. The first is the error made in calculating $v$ itself from $E$, which, as we have seen, is always of slight consequence. The second is that the value of the eccentric anomaly may itself already be erroneous. The effect of the second cause is given by the product of the error made in $E$ and $\frac{\mathrm{d}v}{\mathrm{d}E}$. This product is $=\frac{3\omega e\sin E}{\lambda}\cdot\frac{\mathrm{d}v}{\mathrm{d}M}\cdot206265^{\prime\prime}=\frac{3\omega ea\sin v}{\lambda r}\cdot206265^{\prime\prime}=\left(\frac{e\sin v+\frac{1}{2}ee\sin 2v}{1-ee}\right)0^{\prime\prime}{,}0712$ if seven places are used. This error, always moderate for small values of $e$, may become very large whenever $e$ differs little from unity, as the following table shows by giving the maximum value of this expression for several values of $e$.
+
+\begin{center}
+\begin{tabular}{c|c||c|c||c|c}
+$e$ & maximum error & $e$ & maximum error & $e$ & maximum error \\
+0,90 & $0^{\prime\prime}{,}42$ & 0,94 & $0^{\prime\prime}{,}73$ & 0,98 & $2^{\prime\prime}{,}28$ \\
+0,91 & $0{,}48$ & 0,95 & $0{,}89$ & 0,99 & $4{,}59$ \\
+0,92 & $0{,}54$ & 0,96 & $1{,}12$ & 0,999 & $46{,}23$ \\
+0,93 & $0{,}62$ & 0,97 & $1{,}50$ & & \\
+\end{tabular}
+\end{center}
+
+V. In hyperbolic motion, if $v$ is determined by formula III of Article 21 from exactly known values of $F$ and $\psi$, the error may reach $\frac{3\omega\sin v}{\lambda}\cdot206265^{\prime\prime}$. If the calculation is instead performed by the formula $\operatorname{tang}\frac{1}{2}v=\frac{(u-1)\operatorname{cotang}\frac{1}{2}\psi}{u+1}$, with $u$ and $\psi$ known exactly, the error bound will be greater by a third, namely $=\frac{4\omega\sin v}{\lambda}\cdot206265^{\prime\prime}=0^{\prime\prime}{,}09\sin v$ for seven places.
+
+VI. If the quantity $\frac{\lambda kt}{b^{\frac{3}{2}}}=N$ is calculated by formula XI of Article 22 with the aid of \textsc{Briggs}ian logarithms, assuming $e$ and $u$, or $e$ and $F$, to be known exactly, the first part will be subject to an error of $\frac{5(uu-1)e\omega}{2u}$ if calculated in the form $\frac{\lambda e(u-1)(u+1)}{2u}$, to an error of $\frac{3(uu+1)e\omega}{2u}$ if calculated in the form $\frac{1}{2}\lambda eu-\frac{\lambda e}{2u}$, or to an error of $3e\omega\operatorname{tang}F$ if calculated in the form $\lambda e\operatorname{tang}F$, provided that we disregard the error in $\log\lambda$ or $\log\frac{1}{2}\lambda$. In the first case the error can also be expressed as
+\SourceLeaf{050}$5e\omega\operatorname{tang}F$, and in the second as $\frac{3e\omega}{\cos F}$. This shows that the error is always smallest in the third case, and that it is greater in the first or the second according as $u$ or $\frac{1}{u}>2$ or $<2$, or according as $\pm F>36^0 52^{\prime}$ or $<36^0 52^{\prime}$. — The second part of $N$, however, will always be subject to an error of $\omega$.
+
+VII. Conversely, it is clear that if $u$ or $F$ is found from $N$ by successive trials, $u$ will be subject to an error of $(1\pm5e\operatorname{tang}F)\omega\frac{\mathrm{d}u}{\mathrm{d}N}$ or $\left(1+\frac{3e}{\cos F}\right)\omega\frac{\mathrm{d}u}{\mathrm{d}N}$, according as the first term in the expression for $N$ is used in factored form or split into parts. The quantity $F$ will be subject to an error of $(1\pm3e\operatorname{tang}F)\omega\frac{\mathrm{d}F}{\mathrm{d}N}$. The upper signs apply after perihelion, the lower signs before perihelion. If we replace $\frac{\mathrm{d}u}{\mathrm{d}N}$ or $\frac{\mathrm{d}F}{\mathrm{d}N}$ here with $\frac{\mathrm{d}v}{\mathrm{d}N}$, we obtain the effect of this error on the determination of $v$. This will therefore be $\frac{bb\operatorname{tang}\psi(1\pm5e\operatorname{tang}F)\omega}{\lambda rr}$ or $\frac{bb\operatorname{tang}\psi(1+3e\operatorname{sec} F)\omega}{\lambda rr}$ if the auxiliary quantity $u$ was used. If $F$ was used, on the other hand, the effect is
+\[
+\begin{aligned}
+&=\frac{bb\operatorname{tang}\psi(1\pm3e\operatorname{tang}F)\omega}{\lambda rr}\\
+&=\frac{\omega}{\lambda}\left\{\frac{(1+e\cos v)^2}{\operatorname{tang}\psi^3}\pm\frac{3e\sin v(1+e\cos v)}{\operatorname{tang}\psi^2}\right\}\raisebox{.45ex}{.}
+\end{aligned}
+\]
+We must include the factor $206265^{\prime\prime}$ if the error is to be expressed in arcseconds. Clearly this error can become considerable only when $\psi$ is a small angle, that is, when $e$ is a little greater than 1.
+
+\Needspace{10\baselineskip}
+The maximum values of this third expression for several values of $e$, using seven decimal places, are given below.
+
+\begin{center}
+\begin{tabular}{c|c}
+$e$ & maximum error \\
+1,3 & $0^{\prime\prime}{,}34$ \\
+1,2 & $0{,}54$ \\
+1,1 & $1{,}31$ \\
+1,05 & $3{,}36$ \\
+1,01 & $34{,}41$ \\
+1,001 & $1064{,}65$ \\
+\end{tabular}
+\end{center}
+\noindent To this error arising from an erroneous value of $F$ or $u$, we must add the error determined in V to obtain the total uncertainty in $v$.
+
+VIII. If equation XI of Article 22 is solved with the aid of hyperbolic logarithms, using $F$ as the auxiliary quantity, similar reasoning gives the effect of the possible error in this operation on the determination of $v$
+\SourceLeaf{051}
+\[
+= \frac{(1+e\cos v)^2\,\omega'}{\mathrm{tang}\,\psi^3} \pm \frac{3e\sin v(1+e\cos v)\,\omega}{\lambda\,\mathrm{tang}\,\psi^2},
+\]
+where $\omega'$ denotes the maximum uncertainty in the tables of hyperbolic logarithms. The second part of this expression is identical to the second part of the expression given in VII. The first part, however, is smaller than the first part of that expression in the ratio $\lambda\omega' : \omega$, that is, in the ratio $1:23$ if we may assume that the table of \textsc{Ursinus} is accurate to eight places throughout, or that $\omega' = 0{,}000\,0000\,05$.

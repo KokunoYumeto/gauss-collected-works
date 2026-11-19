@@ -1,0 +1,71 @@
+\par\Needspace{6\baselineskip}\medskip
+\hypertarget{native-089-article070}{}\pdfbookmark[2]{70.}{article-070}
+\begin{center}70.\end{center}
+Damit hier alles für die Berechnung geozentrischer Orte Erforderliche behandelt wird, ist noch einiges über die \emph{Parallaxe} und die \emph{Aberration} hinzuzufügen. Wir haben oben bereits ein Verfahren beschrieben, nach dem sich der mit Parallaxe behaftete Ort, das heißt der auf einen beliebigen Punkt der Erdoberfläche bezogene Ort, unmittelbar und sehr leicht bestimmen lässt. Da man aber bei dem in Artikel 62 und den folgenden Artikeln angegebenen üblichen Verfahren den geozentrischen Ort gewöhnlich auf den Erdmittelpunkt bezieht, wobei er als frei von Parallaxe bezeichnet wird, müssen wir ein besonderes Verfahren zur Bestimmung der Parallaxe angeben. Sie ist der Unterschied zwischen beiden Orten.
+
+\SourceLeaf{090}Die geozentrische Länge und Breite eines Himmelskörpers seien in Bezug auf den Erdmittelpunkt $\lambda$, $\beta$ und in Bezug auf einen beliebigen Punkt der Erdoberfläche $l$, $b$. Der Abstand des Körpers vom Erdmittelpunkt sei $r$, der vom Punkt auf der Oberfläche $\Delta$. Dem Zenit dieses Punktes entspreche schließlich auf der Himmelskugel die Länge $L$ und die Breite $B$, und der Erdradius werde mit $R$ bezeichnet. Offenbar gelten sämtliche Gleichungen aus Artikel 62 auch hier. Sie lassen sich jedoch erheblich vereinfachen, da $R$ hier eine gegenüber $r$ und $\Delta$ beinahe verschwindende Größe bezeichnet. Im Übrigen gelten dieselben Gleichungen offenbar auch, wenn $\lambda$, $l$, $L$ anstelle der Längen Rektaszensionen und $\beta$, $b$, $B$ anstelle der Breiten Deklinationen bezeichnen. In diesem Fall sind $l-\lambda$, $b-\beta$ die Parallaxen in Rektaszension und Deklination, im vorherigen Fall die Parallaxen in Länge und Breite. Behandelt man nun $R$ als Größe erster Ordnung, so sind $l-\lambda$, $b-\beta$, $\Delta-r$ von derselben Ordnung. Vernachlässigt man höhere Ordnungen, so erhält man aus den Formeln in Artikel 62 leicht die folgenden Gleichungen.
+\[
+\begin{aligned}
+\mathrm{I.}\quad l-\lambda&=\frac{R\cos B\sin(\lambda-L)}{r\cos\beta}\\[.5em]
+\mathrm{II.}\quad b-\beta&=\frac{R\cos B\cos\beta}{r}\{\operatorname{tang}\beta\cos(\lambda-L)-\operatorname{tang}B\}\\[.5em]
+\mathrm{III.}\quad \Delta-r&=-R\cos B\sin\beta\{\operatorname{cotang}\beta\cos(\lambda-L)+\operatorname{tang}B\}.
+\end{aligned}
+\]
+\noindent Wählt man den Hilfswinkel $\theta$ so, dass $\operatorname{tang}\theta=\dfrac{\operatorname{tang}B}{\cos(\lambda-L)}$ gilt, so nehmen die Gleichungen II und III die folgende Form an.
+\[
+\begin{aligned}
+\mathrm{II.}\quad b-\beta&=\frac{R\cos B\cos(\lambda-L)\sin(\beta-\theta)}{r\cos\theta}=\frac{R\sin B\sin(\beta-\theta)}{r\sin\theta}\\[.5em]
+\mathrm{III.}\quad \Delta-r&=-\frac{R\cos B\cos(\lambda-L)\cos(\beta-\theta)}{\cos\theta}=-\frac{R\sin B\cos(\beta-\theta)}{\sin\theta}\,\cdot
+\end{aligned}
+\]
+\noindent Um in I und II $l-\lambda$ und $b-\beta$ in Bogensekunden zu erhalten, muss man für $R$ offenbar die in Bogensekunden ausgedrückte mittlere Sonnenparallaxe einsetzen. In III ist für $R$ dieselbe Parallaxe, geteilt durch $206265''$, einzusetzen. Ist schließlich bei der umgekehrten Aufgabe aus dem mit Parallaxe behafteten Ort der von ihr freie Ort zu bestimmen, so darf man für $r$, $\lambda$, $\beta$ die Größen $\Delta$, $l$, $b$ einsetzen, ohne dass die Werte der Parallaxen an Genauigkeit verlieren.
+
+\emph{Beispiel.} Für den Erdmittelpunkt sei die Rektaszension der Sonne $220^0\,46'\,44''{,}65=\lambda$, ihre Deklination $-15^0\,49'\,43''{,}94=\beta$ und ihr Abstand $0{,}9904311=r$. Für einen Ort auf der Erdoberfläche sei ferner die in Grad ausgedrückte Sternzeit $78^0\,20'\,38''=L$, die \SourceLeaf{091}Polhöhe des Ortes $45^0\,27'\,57''=B$ und die mittlere Sonnenparallaxe $8''{,}6=R$. Gesucht sind der von diesem Ort aus gesehene Sonnenort und sein Abstand von diesem Ort.
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\makebox[15em][l]{$\log R$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.} & $0{,}93450$\\[.3em]
+\makebox[15em][l]{$\log\cos B$\hfill .\,.\,.\,.\,.\,.} & $9{,}84593$\\[.3em]
+\makebox[15em][l]{$\mathrm{C.}\log r$\hfill .\,.\,.\,.\,.\,.\,.\,.} & $0{,}00418$\\[.3em]
+\makebox[15em][l]{$\mathrm{C.}\log\cos\beta$\hfill .\,.\,.\,.\,.} & $0{,}01679$\\[.3em]
+\makebox[15em][l]{$\log\sin(\lambda-L)$\hfill .\,.\,.} & $9{,}78509$\\[.3em]
+\hline
+\makebox[15em][l]{$\log(l-\lambda)$\hfill .\,.\,.\,.\,.\,.} & $0{,}58649$\\[.3em]
+$l-\lambda=$ & $+3''{,}86$\\[.3em]
+$l=$ & $220^0\,46'\,48''{,}51$\\[.3em]
+\end{tabular}
+\end{center}
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\makebox[15em][l]{$\log\operatorname{tang}B$\hfill .\,.\,.\,.\,.} & $0{,}00706$\\[.3em]
+\makebox[15em][l]{$\log\cos(\lambda-L)$\hfill .\,.} & $9{,}89909_n$\\[.3em]
+\hline
+\makebox[15em][l]{$\log\operatorname{tang}\theta$\hfill .\,.\,.\,.\,.\,.} & $0{,}10797_n$\\[.3em]
+$\theta=$ & $127^0\,57'\quad0''$\\[.3em]
+$\beta-\theta=$ & $-143^0\,46'\,44''$\\[.3em]
+\end{tabular}
+\end{center}
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\makebox[15em][l]{$\log R$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.} & $0{,}93450$\\[.3em]
+\makebox[15em][l]{$\log\sin B$\hfill .\,.\,.\,.\,.\,.} & $9{,}85299$\\[.3em]
+\makebox[15em][l]{$\mathrm{C.}\log r$\hfill .\,.\,.\,.\,.\,.\,.\,.} & $0{,}00418$\\[.3em]
+\makebox[15em][l]{$\mathrm{C.}\log\sin\theta$\hfill .\,.\,.\,.\,.} & $0{,}10317$\\[.3em]
+\makebox[15em][l]{$\log\sin(\beta-\theta)$\hfill .\,.\,.} & $9{,}77152_n$\\[.3em]
+\hline
+\makebox[15em][l]{$\log(b-\beta)$\hfill .\,.\,.\,.\,.\,.} & $0{,}66636_n$\\[.3em]
+$b-\beta=$ & $-4''{,}64$\\[.3em]
+$b=$ & $-15^0\,49'\,48''{,}58$\\[.3em]
+\end{tabular}
+\end{center}
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\makebox[15em][l]{$\log(b-\beta)$\hfill .\,.\,.\,.\,.\,.} & $0{,}66636_n$\\[.3em]
+$\log\operatorname{cotang}(\beta-\theta)$ & $0{,}13522$\\[.3em]
+\makebox[15em][l]{$\log r$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.\,.} & $9{,}99582$\\[.3em]
+\makebox[15em][l]{$\log1''$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.} & $4{,}68557$\\[.3em]
+\hline
+\makebox[15em][l]{$\log(r-\Delta)$\hfill .\,.\,.\,.\,.} & $5{,}48297_n$\\[.3em]
+$r-\Delta=$ & $-0{,}000\,0304$\\[.3em]
+$\Delta=$ & $0{,}990\,4615$\\[.3em]
+\end{tabular}
+\end{center}

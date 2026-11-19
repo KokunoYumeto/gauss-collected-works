@@ -1,0 +1,32 @@
+\par\Needspace{12\baselineskip}\bigskip
+\pdfbookmark[2]{Vierter Abschnitt. [Zweiter Entwurf.]}{pallas-II-fourth-second-draft}
+\begin{center}{\large\bfseries Vierter Abschnitt. [Zweiter Entwurf.]\par}\medskip
+\textit{Entwicklung periodischer Funktionen in Reihen.}\end{center}
+\pdfbookmark[3]{Darstellung, Zweiter Entwurf, 21}{pallas-II-second-article21}
+\begin{center}21.\end{center}
+\begingroup
+\noindent\hspace*{\parindent}Eine Funktion einer Variablen heißt periodisch, wenn sie sich nicht ändert, sobald man den Wert dieser Variablen um einen konstanten Betrag erhöht. Diesen Zuwachs der Variablen kann man ihre Periode nennen. Eine Funktion mehrerer Variablen kann in Bezug auf einige von ihnen periodisch und in Bezug auf andere nicht periodisch sein. Man kann annehmen, dass die Variablen, in Bezug auf die eine Funktion periodisch ist, Kreisbögen sind und dass die Periode jeder dieser Variablen gleich \(360^0\) oder \(2\pi\) ist. Ändert sich nämlich eine Funktion von \(x,y,z\) usw. nicht, wenn man \(x\) um \(a\), \(y\) um \(b\), \(z\) um \(c\) usw. erhöht, so braucht man anstelle der Variablen \(x,y,z\) usw. nur die Variablen \(x'=\frac{2\pi x}{a}\), \(y'=\frac{2\pi y}{b}\), \(z'=\frac{2\pi z}{c}\) usw. einzuführen.
+\par
+Betrachten wir zunächst die periodische Funktion \(\mathrm{X}\) einer einzigen Variablen \(x\) und nehmen wir an, dass
+\[
+\begin{aligned}
+\mathrm{X}={}&a+a'\cos x+a''\cos2x+a'''\cos3x+\text{etc.}\\
+&{}+\beta'\sin x+\beta''\sin2x+\beta'''\sin3x+\text{etc.}
+\end{aligned}
+\]
+\noindent\SourceLeaf{476}Dann gilt \(a=\frac{\int\mathrm{X}\mathrm{d}x}{2\pi}\), wobei von \(x=0\) bis \(x=2\pi\) integriert wird. Denn die unbestimmte Integration ergibt
+\[
+\begin{aligned}
+\int\mathrm{X}\mathrm{d}x={}&\text{Const.}+ax+a'\sin x+\tfrac12a''\sin2x+\tfrac13a'''\sin3x+\text{etc.}\\
+&{}-\beta'\cos x-\tfrac12\beta''\cos2x-\tfrac13\beta'''\cos3x-\text{etc.}
+\end{aligned}
+\]
+\noindent und da alle Terme außer \(ax\) für \(x=0\) denselben Wert haben wie für \(x=2\pi\), beträgt der Wert des Integrals zwischen diesen Grenzen \(2\pi a\). Auf dieselbe Weise erhält man
+\[
+\setlength{\arraycolsep}{4pt}
+\begin{array}{lll}
+a'=\dfrac{\int\mathrm{X}\cos x\mathrm{d}x}{\pi},&a''=\dfrac{\int\mathrm{X}\cos2x\mathrm{d}x}{\pi},&a'''=\dfrac{\int\mathrm{X}\cos3x\mathrm{d}x}{\pi}\quad\text{etc.}\\[4pt]
+\beta'=\dfrac{\int\mathrm{X}\sin x\mathrm{d}x}{\pi},&\beta''=\dfrac{\int\mathrm{X}\sin2x\mathrm{d}x}{\pi},&\beta'''=\dfrac{\int\mathrm{X}\sin3x\mathrm{d}x}{\pi}\quad\text{etc.}
+\end{array}
+\]
+\par\endgroup

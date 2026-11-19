@@ -1,0 +1,79 @@
+\par\Needspace{6\baselineskip}\medskip
+\hypertarget{native-121-article090}{}\pdfbookmark[2]{90.}{article-090}
+\begin{center}90.\end{center}
+We first consider the case in which the solution of equation 12 gives a value of $g$ small enough that $\dfrac{2g-\sin 2g}{\sin g^3}$ can be expanded in a series in powers of $\sin\tfrac12 g$. Denote this expression by $X$. Its numerator becomes
+\[
+=\dfrac{32}{3}\sin\tfrac12 g^3-\dfrac{16}{5}\sin\tfrac12 g^5-\dfrac47\sin\tfrac12 g^7-\text{etc.}
+\]
+The denominator becomes
+\[
+=8\sin\tfrac12 g^3-12\sin\tfrac12 g^5+3\sin\tfrac12 g^7+\text{etc.}
+\]
+Hence $X$ takes the form
+\[
+\dfrac43+\dfrac85\sin\tfrac12 g^2+\dfrac{64}{35}\sin\tfrac12 g^4+\text{etc.}
+\]
+To find the rule governing the successive coefficients, we differentiate the equation $X\sin g^3=2g-\sin 2g$, which gives
+\[
+3X\cos g\sin g^2+\sin g^3\dfrac{\mathrm{d}X}{\mathrm{d}g}=2-2\cos 2g=4\sin g^2;
+\]
+Further, setting $\sin\tfrac12 g^2=x$ gives $\dfrac{\mathrm{d}x}{\mathrm{d}g}=\tfrac12\sin g$, from which we obtain
+\[
+\dfrac{\mathrm{d}X}{\mathrm{d}x}=\dfrac{8-6X\cos g}{\sin g^2}=\dfrac{4-3X(1-2x)}{2x(1-x)}\mathpunct{\raisebox{.45ex}{,}}
+\]
+and therefore
+\[
+(2x-2xx)\dfrac{\mathrm{d}X}{\mathrm{d}x}=4-(3-6x)X.
+\]
+\SourceLeaf{122}If we therefore set
+\[
+X=\tfrac43(1+\alpha x+\beta xx+\gamma x^3+\delta x^4+\text{etc.}),
+\]
+we obtain the equation
+\[
+\begin{gathered}
+\tfrac83\{\alpha x+(2\beta-\alpha)xx+(3\gamma-2\beta)x^3+(4\delta-3\gamma)x^4+\text{etc.}\}
+\\[4pt]
+=(8-4\alpha)x+(8\alpha-4\beta)xx+(8\beta-4\gamma)x^3+(8\gamma-4\delta)x^4+\text{etc.},
+\end{gathered}
+\]
+which must be an identity. It follows that $\alpha=\tfrac65$, $\beta=\tfrac87\alpha$, $\gamma=\tfrac{10}{9}\beta$, $\delta=\tfrac{12}{11}\gamma$ etc. The rule for the successive coefficients is evident. We therefore have
+\[
+\begin{aligned}
+X={}&\tfrac43+\dfrac{4\mathbin{.}6}{3\mathbin{.}5}x+\dfrac{4\mathbin{.}6\mathbin{.}8}{3\mathbin{.}5\mathbin{.}7}xx+\dfrac{4\mathbin{.}6\mathbin{.}8\mathbin{.}10}{3\mathbin{.}5\mathbin{.}7\mathbin{.}9}x^3
+\\[4pt]
+&+\dfrac{4\mathbin{.}6\mathbin{.}8\mathbin{.}10\mathbin{.}12}{3\mathbin{.}5\mathbin{.}7\mathbin{.}9\mathbin{.}11}x^4+\text{etc.}
+\end{aligned}
+\]
+
+This series can be transformed into the following continued fraction.
+\[
+X=\cfrac{\tfrac43}{1-\cfrac{\tfrac65x}{1+\cfrac{\tfrac{2}{5\mathbin{.}7}x}{1-\cfrac{\tfrac{5\mathbin{.}8}{7\mathbin{.}9}x}{1-\cfrac{\tfrac{1\mathbin{.}4}{9\mathbin{.}11}x}{1-\cfrac{\tfrac{7\mathbin{.}10}{11\mathbin{.}13}x}{1-\cfrac{\tfrac{3\mathbin{.}6}{13\mathbin{.}15}x}{1-\cfrac{\tfrac{9\mathbin{.}12}{15\mathbin{.}17}x}{1-\text{etc.}}}}}}}}}
+\]
+The rule governing the coefficients $\tfrac65$, $-\tfrac{2}{5\mathbin{.}7}$, $\tfrac{5\mathbin{.}8}{7\mathbin{.}9}$, $\tfrac{1\mathbin{.}4}{9\mathbin{.}11}$ etc. is evident. The $n^{\mathrm{th}}$ term of this series for even $n$ is $=\dfrac{(n-3)n}{(2n+1)(2n+3)}$, and for odd $n$ it is $=\dfrac{(n+2)(n+5)}{(2n+1)(2n+3)}$. To develop this subject further\HistoricalNoteEight{See Vol. III, p. 135.]} would take us too far from our purpose. If we now set
+\[
+\cfrac{x}{1+\cfrac{\tfrac{2}{5\mathbin{.}7}x}{1-\cfrac{\tfrac{5\mathbin{.}8}{7\mathbin{.}9}x}{1-\cfrac{\tfrac{1\mathbin{.}4}{9\mathbin{.}11}x}{1-\text{etc.}}}}}=x-\xi,
+\]
+\SourceLeaf{123}we obtain $X=\dfrac{1}{\frac34-\frac{9}{10}(x-\xi)}\mathpunct{\raisebox{.45ex}{,}}$ and $\xi=x-\frac56+\frac{10}{9X}\mathpunct{\raisebox{.45ex}{,}}$ or
+\[
+\xi=\dfrac{\sin g^3-\frac34(2g-\sin 2g)(1-\frac65\sin\frac12 g^2)}{\frac{9}{10}(2g-\sin 2g)}\mathpunct{\cdot}
+\]
+
+The numerator of this expression is of the seventh order and the denominator of the third order, so that $\xi$ is of the fourth order, if $g$ is taken as a quantity of the first order, or $x$ as one of the second order. It follows that this formula is unsuitable for the accurate numerical calculation of $\xi$ whenever $g$ is an angle of no great size. For this purpose, the following formulas are convenient in that case. They differ in the order of the numerators in the fractional coefficients, and the first is readily derived from the assumed value of $x-\xi$\footnote{The derivation of the second presupposes certain less obvious transformations, to be explained on another occasion [Vol. III, p. 137].
+\par [Manuscript note:] We obtain
+\[
+\xi=\dfrac{2}{35}xx\dfrac{1+\frac{2\mathbin{.}8}{9}x+\frac{3\mathbin{.}8\mathbin{.}10}{9\mathbin{.}11}xx+\frac{4\mathbin{.}8\mathbin{.}10\mathbin{.}12}{9\mathbin{.}11\mathbin{.}13}x^3+\text{etc.}}{1+\frac65x+\frac{6\mathbin{.}8}{5\mathbin{.}7}xx+\frac{6\mathbin{.}8\mathbin{.}10}{5\mathbin{.}7\mathbin{.}9}x^3+\text{etc.}}\mathpunct{\cdot}
+\]
+Thus, setting $1+\frac{2\mathbin{.}8}{9}x+\frac{3\mathbin{.}8\mathbin{.}10}{9\mathbin{.}11}xx+\text{etc.}=A$ gives $\xi=\dfrac{\frac{2}{35}Axx(1-\frac65x)}{1-\frac{12}{175}Axx}\mathpunct{\cdot}$ We also have
+\[
+A=(1-x)^{-\frac32}\left(1+\frac{1\mathbin{.}5}{2\mathbin{.}9}x+\frac{1\mathbin{.}3\mathbin{.}5\mathbin{.}7}{2\mathbin{.}4\mathbin{.}9\mathbin{.}11}xx+\text{etc.}\right).
+\]
+}:
+\[
+\mathrm{13)}\qquad \xi=\cfrac{\tfrac{2}{35}xx}{1+\tfrac{2}{35}x-\cfrac{\tfrac{40}{63}x}{1-\cfrac{\tfrac{4}{99}x}{1-\cfrac{\tfrac{70}{143}x}{1-\cfrac{\tfrac{18}{195}x}{1-\cfrac{\tfrac{108}{255}x}{1-\text{etc.}}}}}}}
+\]
+or
+\[
+\xi=\cfrac{\tfrac{2}{35}xx}{1-\tfrac{18}{35}x-\cfrac{\tfrac{4}{63}x}{1-\cfrac{\tfrac{40}{99}x}{1-\cfrac{\tfrac{18}{143}x}{1-\cfrac{\tfrac{70}{195}x}{1-\cfrac{\tfrac{40}{255}x}{1-\text{etc.}}}}}}}
+\]
+\SourceLeaf{124}In the third table appended to this work, for all values of $x$ from 0 to 0,3 in steps of one thousandth, we find the corresponding values of $\xi$ calculated to seven decimal places. The table shows at a glance how small $\xi$ is for moderate values of $g$. For example, for $E'-E=10^0$, or $g=5^0$, where $x=0{,}00190$, we have $\xi=0{,}000\ 0002$. It would have been superfluous to extend the table farther, since its last entry $x=0{,}3$ corresponds to $g=66^0 25'$ or $E'-E=132^0 50'$. The third column of the table, which contains values of $\xi$ corresponding to negative values of $x$, will be explained in its place below.

@@ -1,0 +1,53 @@
+\par\Needspace{6\baselineskip}\medskip
+\hypertarget{native-097-article074}{}\pdfbookmark[2]{74.}{article-074}
+\begin{center}74.\end{center}
+Another problem, \emph{to derive the heliocentric position of a celestial body in its orbit from its geocentric position and the orientation of its orbital plane}, is akin to the preceding one in that it too depends on the intersection of the straight line drawn between the Earth and the celestial body with a plane whose position is given. The solution is most conveniently obtained from the formulas of Article 65, where the symbols had the following meanings.
+
+$L$ is the longitude of the Earth, and $R$ is its distance from the Sun. We set the latitude $B$ $=0$ (since the case in which it is not $=0$ can readily be reduced to this one by Article 72), so that $R'=R$. Here $l$ is the geocentric longitude of the celestial body, $b$ its latitude, $\Delta$ its distance from the Earth, $r$ its distance from the Sun, $u$ the argument of latitude, $\AscendingNode$ the longitude of the ascending node, and $i$ the inclination of the orbit. We thus have the equations
+\[
+\begin{aligned}
+\mathrm{I.}\quad r\cos u-R\cos(L-\AscendingNode)&=\Delta\cos b\cos(l-\AscendingNode)\\[.5em]
+\mathrm{II.}\quad r\cos i\sin u-R\sin(L-\AscendingNode)&=\Delta\cos b\sin(l-\AscendingNode)\\[.5em]
+\mathrm{III.}\quad r\sin i\sin u&=\Delta\sin b.
+\end{aligned}
+\]
+\noindent If we multiply equation I by $\sin(L-\AscendingNode)\sin b$, II by $-\cos(L-\AscendingNode)\sin b$, and III by $-\sin(L-l)\cos b$, and add the products, we obtain
+\[
+\begin{aligned}
+&\cos u\sin(L-\AscendingNode)\sin b\\
+&\quad-\sin u\cos i\cos(L-\AscendingNode)\sin b\\
+&\quad-\sin u\sin i\sin(L-l)\cos b=0,
+\end{aligned}
+\]
+\noindent whence
+\[
+\mathrm{IV.}\quad \operatorname{tang}u=\frac{\sin(L-\AscendingNode)\sin b}{\cos i\cos(L-\AscendingNode)\sin b+\sin i\sin(L-l)\cos b}\mathpunct{\cdot}
+\]
+\noindent \SourceLeaf{098}Now multiplying I by $\sin(l-\AscendingNode)$ and II by $-\cos(l-\AscendingNode)$ and adding the products gives
+\[
+\mathrm{V.}\quad r=\frac{R\sin(L-l)}{\sin u\cos i\cos(l-\AscendingNode)-\cos u\sin(l-\AscendingNode)}\mathpunct{\cdot}
+\]
+\noindent The ambiguity in determining $u$ from equation IV is resolved by equation III itself. It shows that $u$ must be taken between $0$ and $180^0$ or between $180^0$ and $360^0$, according as the latitude $b$ is positive or negative. If, however, $b=0$, equation V shows that we must take $u=0$ or $u=180^0$, according as $\sin(L-l)$ and $\sin(l-\AscendingNode)$ have different signs or the same sign.
+
+The numerical calculation with formulas IV and V can be shortened in various ways by introducing auxiliary angles. For example,
+\[
+\begin{aligned}
+\text{setting}\quad &\frac{\operatorname{tang}b\cos(L-\AscendingNode)}{\sin(L-l)}=\operatorname{tang}A,\\[.4em]
+\text{gives}\quad &\operatorname{tang}u=\frac{\sin A\operatorname{tang}(L-\AscendingNode)}{\sin(A+i)}
+\end{aligned}
+\]
+\[
+\begin{aligned}
+\text{setting}\quad &\frac{\operatorname{tang}i\sin(L-l)}{\cos(L-\AscendingNode)}=\operatorname{tang}B,\\[.4em]
+\text{gives}\quad &\operatorname{tang}u=\frac{\cos B\sin b\operatorname{tang}(L-\AscendingNode)}{\sin(B+b)\cos i}\mathpunct{\cdot}
+\end{aligned}
+\]
+\noindent Similarly, equation V takes a neater form if we introduce an angle whose tangent is $=\cos i\operatorname{tang}u$ or $=\dfrac{\operatorname{tang}(l-\AscendingNode)}{\cos i}$. Just as we obtained formula V by combining equations I and II, we obtain the following formula by combining equations II and III
+\[
+r=\frac{R\sin(L-\AscendingNode)}{\sin u(\cos i-\sin i\sin(l-\AscendingNode)\operatorname{cotang}b)}
+\]
+\noindent and likewise by combining equations I and III we obtain
+\[
+r=\frac{R\cos(L-\AscendingNode)}{\cos u-\sin u\sin i\cos(l-\AscendingNode)\operatorname{cotang}b}\mathpunct{\cdot}
+\]
+\noindent Both formulas, like V, can be simplified by introducing auxiliary angles. The solutions derived from the preceding results are collected and illustrated by an example in \textsc{von Zach}’s \emph{Monatliche Correspondenz Vol. V. p. 540}\HistoricalNoteEight{June 1802. Vol. VI. p. 87.]}, so we omit further elaboration here. — If, besides $u$ and $r$, the distance $\Delta$ is also desired, it can be determined from equation III.

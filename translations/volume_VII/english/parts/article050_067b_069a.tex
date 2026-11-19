@@ -1,0 +1,36 @@
+\par\Needspace{4\baselineskip}
+\begin{center}
+\hypertarget{native-067-article050}{}\pdfbookmark[2]{50.}{article-050}50.
+\end{center}
+The simplest way to determine the position of any point on the surface of the celestial sphere relative to the ecliptic is to give its distance from the ecliptic (its \emph{latitude}) and the distance from the equinox to the point where the perpendicular dropped from the given point meets the ecliptic (its \emph{longitude}). Latitude is measured on either side of the ecliptic up to
+\SourceLeaf{068}$90^0$ and is taken as positive in the northern region and negative in the southern region. Let the longitude $\lambda$ and latitude $\beta$ correspond to the heliocentric position of a celestial body, that is, to the projection onto the celestial sphere of the straight line drawn from the Sun to the body. Let $u$ be the distance of the heliocentric position from the ascending node (called the \emph{argument of latitude}), $i$ the inclination of the orbit, and $\AscendingNode$ the longitude of the ascending node. Then $i$, $u$, $\beta$, and $\lambda-\AscendingNode$ are parts of a right-angled spherical triangle and satisfy the following relations, which can readily be shown to hold without any restriction.
+\[
+\begin{array}{rl}
+\mathrm{I.}&\operatorname{tang}(\lambda-\AscendingNode)=\cos i\operatorname{tang}u\\[4pt]
+\mathrm{II.}&\operatorname{tang}\beta=\operatorname{tang}i\sin(\lambda-\AscendingNode)\\[4pt]
+\mathrm{III.}&\sin\beta=\sin i\sin u\\[4pt]
+\mathrm{IV.}&\cos u=\cos\beta\cos(\lambda-\AscendingNode).
+\end{array}
+\]
+When $i$ and $u$ are given, $\lambda-\AscendingNode$ can be determined from them by equation I, and then $\beta$ by II or III, provided that $\beta$ is not too close to $\pm90^0$. Formula IV may be used, if desired, to check the calculation. Formulas I and IV also show that $\lambda-\AscendingNode$ and $u$ always lie in the same quadrant whenever $i$ is between $0$ and $90^0$. By contrast, $\lambda-\AscendingNode$ and $360^0-u$ lie in the same quadrant whenever $i$ is between $90^0$ and $180^0$, or, in ordinary usage, whenever the motion is retrograde. The ambiguity that remains when $\lambda-\AscendingNode$ is determined from the tangent by formula I is thus resolved automatically.
+
+The following formulas are readily derived by combining the preceding ones.
+\[
+\begin{array}{rl}
+\mathrm{V.}&\sin(u-\lambda+\AscendingNode)=2\sin\tfrac{1}{2}i^2\sin u\cos(\lambda-\AscendingNode)\\[4pt]
+\mathrm{VI.}&\sin(u-\lambda+\AscendingNode)=\operatorname{tang}\tfrac{1}{2}i\sin\beta\cos(\lambda-\AscendingNode)\\[4pt]
+\mathrm{VII.}&\sin(u-\lambda+\AscendingNode)=\operatorname{tang}\tfrac{1}{2}i\operatorname{tang}\beta\cos u\\[4pt]
+\mathrm{VIII.}&\sin(u+\lambda-\AscendingNode)=2\cos\tfrac{1}{2}i^2\sin u\cos(\lambda-\AscendingNode)\\[4pt]
+\mathrm{IX.}&\sin(u+\lambda-\AscendingNode)=\operatorname{cotang}\tfrac{1}{2}i\sin\beta\cos(\lambda-\AscendingNode)\\[4pt]
+\mathrm{X.}&\sin(u+\lambda-\AscendingNode)=\operatorname{cotang}\tfrac{1}{2}i\operatorname{tang}\beta\cos u.
+\end{array}
+\]
+In ordinary usage, the angle $u-\lambda+\AscendingNode$ whenever $i$ is below $90^0$, or $u+\lambda-\AscendingNode$ whenever $i$ is above $90^0$, is called the \emph{reduction to the ecliptic}. It is the difference between the heliocentric longitude $\lambda$ and the longitude in the orbit, which in that convention is $\AscendingNode\pm u$ (in ours, $\AscendingNode+u$). Whenever
+\SourceLeaf{069}the inclination is either small or differs little from $180^0$, this reduction can be treated as a quantity of the second order. In this case it is preferable to compute $\beta$ first by formula III and then $\lambda$ by VII or X, which gives greater precision than using formula I.
+
+If a perpendicular is dropped from the position of the celestial body in space to the plane of the ecliptic, the distance of the point of intersection from the Sun is called the \emph{curtate distance}. Denoting this by $r'$ and the radius vector by $r$, we have
+\[
+\begin{array}{rl}
+\mathrm{XI.}&r'=r\cos\beta.
+\end{array}
+\]

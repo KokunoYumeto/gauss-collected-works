@@ -1,0 +1,71 @@
+\par\Needspace{6\baselineskip}\medskip
+\hypertarget{native-089-article070}{}\pdfbookmark[2]{70.}{article-070}
+\begin{center}70.\end{center}
+To cover all that is needed for calculating geocentric positions, we must still add a few remarks on \emph{parallax} and \emph{aberration}. We have already described a method above by which the position affected by parallax, that is, the position corresponding to any point on the Earth's surface, can be determined directly and very easily. Since, however, in the usual method given in Article 62 and the following articles, the geocentric position is ordinarily referred to the center of the Earth, in which case it is said to be free from parallax, we must add a special method for determining parallax, the difference between the two positions.
+
+\SourceLeaf{090}Let the geocentric longitude and latitude of a celestial body with respect to the center of the Earth be $\lambda$, $\beta$, and with respect to any point on the Earth's surface be $l$, $b$. Let the body's distance from the Earth's center be $r$ and from the point on the surface be $\Delta$. Finally, let the longitude $L$ and latitude $B$ on the celestial sphere correspond to the zenith of this point, and denote the Earth's radius by $R$. It is already evident that all the equations of Article 62 apply here as well. They can be considerably simplified, however, since $R$ here represents a quantity that is almost vanishingly small compared with $r$ and $\Delta$. Clearly the same equations also hold if $\lambda$, $l$, $L$ represent right ascensions in place of longitudes, and $\beta$, $b$, $B$ declinations in place of latitudes. In this case $l-\lambda$, $b-\beta$ are the parallaxes in right ascension and declination, while in the former case they are the parallaxes in longitude and latitude. If $R$ is now treated as a quantity of the first order, then $l-\lambda$, $b-\beta$, $\Delta-r$ are of the same order. Neglecting higher orders, we readily obtain the following from the formulas of Article 62.
+\[
+\begin{aligned}
+\mathrm{I.}\quad l-\lambda&=\frac{R\cos B\sin(\lambda-L)}{r\cos\beta}\\[.5em]
+\mathrm{II.}\quad b-\beta&=\frac{R\cos B\cos\beta}{r}\{\operatorname{tang}\beta\cos(\lambda-L)-\operatorname{tang}B\}\\[.5em]
+\mathrm{III.}\quad \Delta-r&=-R\cos B\sin\beta\{\operatorname{cotang}\beta\cos(\lambda-L)+\operatorname{tang}B\}.
+\end{aligned}
+\]
+\noindent Taking the auxiliary angle $\theta$ so that $\operatorname{tang}\theta=\dfrac{\operatorname{tang}B}{\cos(\lambda-L)}$, we obtain the following forms of equations II and III.
+\[
+\begin{aligned}
+\mathrm{II.}\quad b-\beta&=\frac{R\cos B\cos(\lambda-L)\sin(\beta-\theta)}{r\cos\theta}=\frac{R\sin B\sin(\beta-\theta)}{r\sin\theta}\\[.5em]
+\mathrm{III.}\quad \Delta-r&=-\frac{R\cos B\cos(\lambda-L)\cos(\beta-\theta)}{\cos\theta}=-\frac{R\sin B\cos(\beta-\theta)}{\sin\theta}\,\cdot
+\end{aligned}
+\]
+\noindent To obtain $l-\lambda$ and $b-\beta$ in arcseconds in I and II, we evidently take $R$ to be the mean solar parallax expressed in arcseconds. In III we take $R$ to be the same parallax divided by $206265''$. Finally, whenever the inverse problem calls for determining the position free from parallax from the position affected by it, we may use in place of $r$, $\lambda$, $\beta$ the quantities $\Delta$, $l$, $b$ without loss of precision in the values of the parallaxes.
+
+\emph{Example.} Let the right ascension of the Sun for the center of the Earth be $220^0\,46'\,44''{,}65=\lambda$, its declination $-15^0\,49'\,43''{,}94=\beta$, and its distance $0{,}9904311=r$. At a site on the Earth's surface, let the sidereal time expressed in degrees be $78^0\,20'\,38''=L$, the \SourceLeaf{091}elevation of the pole at the site $45^0\,27'\,57''=B$, and the mean solar parallax $8''{,}6=R$. The problem is to find the position of the Sun as seen from the site and its distance from that site.
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\makebox[15em][l]{$\log R$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.} & $0{,}93450$\\[.3em]
+\makebox[15em][l]{$\log\cos B$\hfill .\,.\,.\,.\,.\,.} & $9{,}84593$\\[.3em]
+\makebox[15em][l]{$\mathrm{C.}\log r$\hfill .\,.\,.\,.\,.\,.\,.\,.} & $0{,}00418$\\[.3em]
+\makebox[15em][l]{$\mathrm{C.}\log\cos\beta$\hfill .\,.\,.\,.\,.} & $0{,}01679$\\[.3em]
+\makebox[15em][l]{$\log\sin(\lambda-L)$\hfill .\,.\,.} & $9{,}78509$\\[.3em]
+\hline
+\makebox[15em][l]{$\log(l-\lambda)$\hfill .\,.\,.\,.\,.\,.} & $0{,}58649$\\[.3em]
+$l-\lambda=$ & $+3''{,}86$\\[.3em]
+$l=$ & $220^0\,46'\,48''{,}51$\\[.3em]
+\end{tabular}
+\end{center}
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\makebox[15em][l]{$\log\operatorname{tang}B$\hfill .\,.\,.\,.\,.} & $0{,}00706$\\[.3em]
+\makebox[15em][l]{$\log\cos(\lambda-L)$\hfill .\,.} & $9{,}89909_n$\\[.3em]
+\hline
+\makebox[15em][l]{$\log\operatorname{tang}\theta$\hfill .\,.\,.\,.\,.\,.} & $0{,}10797_n$\\[.3em]
+$\theta=$ & $127^0\,57'\quad0''$\\[.3em]
+$\beta-\theta=$ & $-143^0\,46'\,44''$\\[.3em]
+\end{tabular}
+\end{center}
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\makebox[15em][l]{$\log R$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.} & $0{,}93450$\\[.3em]
+\makebox[15em][l]{$\log\sin B$\hfill .\,.\,.\,.\,.\,.} & $9{,}85299$\\[.3em]
+\makebox[15em][l]{$\mathrm{C.}\log r$\hfill .\,.\,.\,.\,.\,.\,.\,.} & $0{,}00418$\\[.3em]
+\makebox[15em][l]{$\mathrm{C.}\log\sin\theta$\hfill .\,.\,.\,.\,.} & $0{,}10317$\\[.3em]
+\makebox[15em][l]{$\log\sin(\beta-\theta)$\hfill .\,.\,.} & $9{,}77152_n$\\[.3em]
+\hline
+\makebox[15em][l]{$\log(b-\beta)$\hfill .\,.\,.\,.\,.\,.} & $0{,}66636_n$\\[.3em]
+$b-\beta=$ & $-4''{,}64$\\[.3em]
+$b=$ & $-15^0\,49'\,48''{,}58$\\[.3em]
+\end{tabular}
+\end{center}
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\makebox[15em][l]{$\log(b-\beta)$\hfill .\,.\,.\,.\,.\,.} & $0{,}66636_n$\\[.3em]
+$\log\operatorname{cotang}(\beta-\theta)$ & $0{,}13522$\\[.3em]
+\makebox[15em][l]{$\log r$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.\,.} & $9{,}99582$\\[.3em]
+\makebox[15em][l]{$\log1''$\hfill .\,.\,.\,.\,.\,.\,.\,.\,.} & $4{,}68557$\\[.3em]
+\hline
+\makebox[15em][l]{$\log(r-\Delta)$\hfill .\,.\,.\,.\,.} & $5{,}48297_n$\\[.3em]
+$r-\Delta=$ & $-0{,}000\,0304$\\[.3em]
+$\Delta=$ & $0{,}990\,4615$\\[.3em]
+\end{tabular}
+\end{center}

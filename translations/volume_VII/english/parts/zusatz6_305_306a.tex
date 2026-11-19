@@ -1,0 +1,99 @@
+\SourceLeaf{305}
+\needspace{9\baselineskip}
+\begin{center}
+\pdfbookmark[1]{6. On Art. 88–90.}{zusatz-006}
+[6. On Art. 88–90.]
+\end{center}
+To determine, from \(\sin\tfrac14\varphi\), the logarithm of \(\frac{\varphi-\sin\varphi}{\tfrac43\sin\tfrac12\varphi^3}\), use the following approximate formula
+\[
+\log\left(\frac{1}{\sin\tfrac14\varphi^2}+\tfrac{2}{35}\right)-\log\left(\frac{1}{\sin\tfrac14\varphi^2}-\tfrac87\right).
+\]
+
+This gives too large a value for the required logarithm: the following table gives the correction to be subtracted in the 7\textsuperscript{th} decimal place.
+\begin{center}
+\begingroup\renewcommand{\arraystretch}{.7}
+\begin{tabular}{c|r@{\ }l|c}
+\multicolumn{3}{c|}{Limit of}&Correction\\
+\(\log\sin\tfrac14\varphi\)&\multicolumn{2}{c|}{\(\varphi\)}&to subtract\\[1.2pt]
+\hline
+.\,.\,.\,.\,.&\multicolumn{2}{c|}{\rule{0pt}{9pt}0}&\\
+&&&0\\
+9,069&\(26^0\)&\(54'\)&\\
+&&&1\\
+9,147&32&18&\\
+&&&2\\
+9,184&35&9&\\
+&&&3\\
+9,208&37&10&\\
+&&&4\\
+9,226&38&45&\\
+&&&5\\
+9,240&40&3&\\
+&&&6\\
+9,252&41&10&\\
+&&&7\\
+9,262&42&10&\\
+&&&8\\
+9,271&43&3&\\
+&&&9\\
+9,279&43&51&\\
+&&&10\\
+9,286&44&35&\\
+&&&11\\
+9,293&45&15&
+\end{tabular}
+\endgroup
+\end{center}
+\begin{center}\rule{.22\textwidth}{.35pt}\end{center}
+
+Rules for finding the logarithm of the sine of a small arc.
+\[
+\begin{aligned}
+\log\sin n''&=\log\sin\varphi\\
+&=\log\varphi-k\bigl(\tfrac16\varphi\varphi+\tfrac1{180}\varphi^4+\tfrac1{2835}\varphi^6+\tfrac1{37800}\varphi^8+\text{etc.}\bigr)
+\end{aligned}
+\]
+
+Form the quantities \(\begin{smallmatrix}\lambda,\ \lambda',\ \lambda'',\ \lambda''',\ .\,.\,.\\\mu,\ \mu',\ \mu'',\ \mu''',\ .\,.\,.\end{smallmatrix}\) according to the following rule
+\[
+\begin{aligned}
+\lambda&=2\log n+8{,}230\,7828-20&\lambda&=\log\mu\\
+\lambda'&=\lambda+\tfrac15\mu&\lambda'&=\log\mu'\\
+\lambda''&=\lambda'+\tfrac{59}{210}(\mu'-\mu)&\lambda''&=\log\mu''\\
+\lambda'''&=\lambda''+\tfrac{169}{590}(\mu''-\mu')&\lambda'''&=\log\mu'''
+\end{aligned}
+\]
+\noindent and so on,
+\SourceLeaf{306}
+then
+\[
+\log\sin\varphi=4{,}685\,5749-10+\log n-\mu^{\infty}
+\]
+
+Example: \(\varphi=37^0\,6'=133560''\).
+\begin{center}
+\begin{tabular}{@{}lr@{}}
+&\(4{,}685\,5749\)\\
+\(\log n\) .\,.\,.\,.\,.&\(5{,}125\,6764\)\\
+\cline{2-2}
+&\(9{,}811\,2513\)\\
+\(\mu^{\infty}=\)&\(0{,}030\,7842\)\\
+\cline{2-2}
+\(\log\sin\varphi\) .\,.\,.&\(9{,}780\,4671\)
+\end{tabular}
+\end{center}
+\begin{center}
+\begin{tabular}{@{}lr@{\qquad}lr@{}}
+&\(8{,}230\,7828\)&&\\
+\(2\log n\) .\,.\,.&\(10{,}251\,3528\)&&\\
+\cline{2-2}
+\(\lambda=\)&\(8{,}482\,1356\)&\(\mu=\)&\(0{,}030\,3483.85\)\\
+&\(+6\,0696.8\)&&\(4271.25\)\\
+\(\lambda'=\)&\(8{,}488\,2052.8\)&\(\mu'=\)&\(0{,}030\,7755.1\)\\
+&\(+1200.0\)&&\(85.0\)\\
+\(\lambda''=\)&\(8{,}488\,3252.8\)&\(\mu''=\)&\(0{,}030\,7840.1\)\\
+&\(+24.3\)&&\\
+\(\lambda'''=\)&\(8{,}488\,3277.1\)&\(\mu'''=\)&\(0{,}030\,7841.9\).
+\end{tabular}
+\end{center}
+\begin{center}\rule{.18\textwidth}{.35pt}\end{center}

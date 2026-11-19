@@ -1,0 +1,66 @@
+\par\Needspace{7\baselineskip}\bigskip
+\begin{center}
+\pdfbookmark[2]{Hansen to Gauss, Gotha, 7 February 1843}{pallas-brief-18430207}
+\textsc{Hansen} to \textsc{Gauss}, Gotha, 7 February 1843.
+\end{center}
+\noindent\hspace*{\parindent}\{It gives me particular pleasure to be able to send you by today's post the summary of a paper in which I have described a procedure for calculating the absolute perturbations (i.e. the perturbations for an undetermined time \(t\)) of celestial bodies moving in orbits of arbitrary elliptic eccentricity and inclination. As is well known, this problem has remained unsolved until now, and some have doubted whether it could be solved at all. The first example of the application of my procedure is the calculation of the perturbations that \textsc{Encke}'s comet undergoes from Saturn. I shall give other examples in the paper itself, which is ready for printing. The procedure applies to orbits of large eccentricity, and indeed the eccentricity of the ellipse can be arbitrary. In particular, the perturbations that Pallas undergoes from Jupiter are very easy to calculate by my procedure, and they will consist of a moderately large number of terms, fewer than the perturbations of the Moon. I have thus given a practicable solution to the problem that the Paris Academy set in 1811 with a double prize.
+\par\SourceLeaf{440}In the summary you will find only the exposition of the procedure for the case in which the radius vector of the comet is smaller than that of the planet. The opposite case is only briefly indicated there, but you will see at once how I proceed in that case.
+\par Some years ago I found a procedure for expanding the disturbing function in series by means of elliptic transcendents. For this, besides a few easily found theorems and those you gave in your celebrated paper entitled »Determinatio attractionis etc.«, I need the integral
+\[
+\frac{1}{2\pi}\int\frac{\alpha+\alpha'\cos T+\alpha''\sin T}{\gamma+\gamma'\cos T+\gamma''\sin T}\frac{\mathrm{d}T}{\BareRoot{(mm\cos T^2+nn\sin T^2)}}\mathpunct{\raisebox{.45ex}{,}}
+\]
+which does not occur in the writings on elliptic transcendents. (The notation is that of your cited paper.) I have found the following rules for calculating this integral. Set
+\[
+\begin{gathered}
+\alpha''\gamma''=p,\quad(\alpha'\gamma''+\alpha''\gamma')=q,\quad\alpha'\gamma'=r;\\
+1+\gamma''\gamma''=p_1,\quad2\gamma'\gamma''=q_1,\quad1+\gamma'\gamma'=r_1,
+\end{gathered}
+\]
+and then
+\[
+\begin{aligned}
+p'&=2m'm'(p_1r+pr_1)\\
+q'&=m'q(mr_1-np_1)+m'q_1(mr-np)\\
+r'&=(np+mr)(np_1+mr_1)-n'n'qq_1\\
+p_1'&=4m'm'p_1r_1\\
+q_1'&=2m'q_1(mr_1-np_1)\\
+r_1'&=(np_1+mr_1)^2-n'n'q_1q_1.
+\end{aligned}
+\]
+\par Once \(p',\ q',\ r',\ p_1',\ q_1',\ r_1'\) have been found from these expressions, use the same 6 expressions, taking these quantities as the basis, to calculate \(p'',\ q'',\ r'',\ p_1'',\ q_1'',\ r_1''\), and so on. These quantities converge very rapidly to the limits
+\[
+p_1^{(\nu)}=r_1^{(\nu)},\quad q_1^{(\nu)}=0,\quad p^{(\nu)}=r^{(\nu)},\quad q^{(\nu)}=0
+\]
+and when these limits are reached, the value of the above integral is
+\[
+=\frac{p^{(\nu)}}{p_1^{(\nu)}\mu}\mathpunct{\raisebox{.45ex}{,}}
+\]
+where \(\mu\) is the arithmetic-geometric mean of \(m\) and \(n\). In all cases \SourceLeaf{441}in which I have already applied the preceding formulas, the above quantities converge to their common limit just as rapidly as \(m\) and \(n\) converge to their limit \(\mu\). Let me give an example taken from nature. I found
+\[
+\begin{array}{r@{\,}c@{\,}l@{\quad}r@{\,}c@{\,}l@{\quad}r@{\,}c@{\,}l}
+\log m&=&0{,}016\,3851&\log p&=&0{,}368\,2319_n&\log p_1&=&0{,}460\,6912\\
+\log n&=&9{,}548\,7463&\log q&=&8{,}438\,7296&\log q_1&=&8{,}821\,2120_n\\
+&&&\log r&=&6{,}374\,0322&\log r_1&=&0{,}000\,2522
+\end{array}
+\]
+which gave
+\[
+\begin{array}{r@{\,}c@{\,}l@{\quad}r@{\,}c@{\,}l@{\quad}r@{\,}c@{\,}l}
+\log m'&=&9{,}842\,6840&\log p'&=&0{,}354\,7552_n&\log p_1'&=&0{,}748\,3714\\
+\log n'&=&9{,}782\,5657&\log q'&=&8{,}57727_n&\log q_1'&=&7{,}19751_n\\
+&&&\log r'&=&0{,}230\,7606_n&\log r_1'&=&0{,}627\,9994\\\cline{2-3}\cline{5-6}\cline{8-9}
+\log m''&=&9{,}813\,6642&\log p''&=&1{,}210\,3355_n&\log p_1''&=&1{,}605\,7592\\
+\log n''&=&9{,}812\,6249&\log q''&=&8{,}02648&\log q_1''&=&6{,}95555\\
+&&&\log r''&=&1{,}210\,4711_n&\log r_1''&=&1{,}605\,7688\\\cline{2-3}\cline{5-6}\cline{8-9}
+\log m'''&=&9{,}813\,1448&\log p'''&=&3{,}044\,5167_n&\log p_1'''&=&3{,}439\,8774\\
+\log n'''&=&9{,}813\,1446&\log q'''&=&\text{—}&\log q_1'''&=&5{,}899\\
+&&&\log r'''&=&3{,}044\,5171_n&\log r_1'''&=&3{,}439\,8776
+\end{array}
+\]
+so that \(p'''\) is certainly sufficient and the calculation could already have been stopped at \(p''\), since \(p'''\) and \(p_1'''\) give the logarithm of the integral
+\[
+=9{,}791\,4947_n
+\]
+and \(p''\) and \(p_1''\) give the same logarithm \(=9{,}791\,4946_n\).
+\par The computation of this integral, though reliable, takes longer than the computation of the other two integrals, which depend on \(\mu\) and \(\nu\) (Determinatio attr. etc.). This leads me to ask whether you possess a simple procedure for computing the integral cited above, and, if you do, whether you would kindly communicate it to me with permission to publish it appropriately in my paper.\quad\mbox{. . . . .\}}
+\par

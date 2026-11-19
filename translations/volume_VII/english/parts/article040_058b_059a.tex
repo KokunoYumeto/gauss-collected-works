@@ -1,0 +1,52 @@
+\par\Needspace{4\baselineskip}
+\begin{center}
+\hypertarget{native-058-article040}{}\pdfbookmark[2]{40.}{article-040}40.
+\end{center}
+For the third operation, namely the determination of the true anomaly, we can dispense with the angle $E$ itself. All we need is $\operatorname{tang}\tfrac{1}{2}E$, or rather $\log\operatorname{tang}\tfrac{1}{2}E$. This operation could readily be combined with the second if our table gave the logarithm of the quantity $\frac{\operatorname{tang}\tfrac{1}{2}E}{\BareRoot{A}}$ directly. This quantity differs from $1$ by a quantity of the second order. We preferred to arrange our table somewhat differently, making it much easier to interpolate even with a smaller table. Writing $T$ for $\operatorname{tang}\tfrac{1}{2}E^2$ for brevity, we can readily transform the value of $A$ given in Article 37, $\frac{15(E-\sin E)}{9E+\sin E}$, into
+\[
+A=\frac{T-\tfrac{6}{5}T^2+\tfrac{9}{7}T^3-\tfrac{12}{9}T^4+\tfrac{15}{11}T^5-\text{etc.}}{1-\tfrac{6}{15}T+\tfrac{7}{25}T^2-\tfrac{8}{35}T^3+\tfrac{9}{45}T^4-\text{etc.}},
+\]
+\SourceLeaf{059}where the pattern of the terms is evident. Reversion of the series gives
+\[
+\begin{aligned}
+\frac{A}{T}&=1-\frac{4}{5}A+\frac{8}{175}A^2+\frac{8}{525}A^3\\
+&\quad+\frac{1896}{336875}A^4+\frac{28744}{13138125}A^5+\text{etc.}\mbox{\HistoricalDisplayNoteMark}
+\end{aligned}
+\]
+\noindent\HistoricalDisplayNoteText{Manuscript note:]
+\[
+\begin{aligned}
+\log\operatorname{hyp}\frac{A}{T}&=-\frac{4}{5}A-\frac{48}{175}A^2-\frac{104}{875}A^3-\cdot\cdot\cdot\\
+&=-\frac{4}{5}T+\frac{64}{175}T^2-\frac{8}{35}T^3+\cdot\cdot\cdot
+\end{aligned}
+\]
+\[
+\log\frac{A}{T}=-2Am=-2Tm'
+\]
+\begin{center}
+\begin{tabular}{c|c|c@{\hspace{2em}}c|c}
+$A$ & $\log m$ & $\log n$ & $T$ & $\log m'$ \\
+$0.000$ & $9.23984$ & $9.63778$ & $0.000$ & $9.23984$ \\
+$0.010$ & $9.24134$ & $9.63909$ & $0.010$ & $9.23787$ \\
+$0.020$ & $9.24284$ & $9.64041$ & $0.020$ & $9.23591$ \\
+$0.030$ & $9.24435$ & $9.64172$ & &
+\end{tabular}
+\end{center}
+\[
+\begin{gathered}
+\operatorname{tang}\tfrac{1}{2}v=M\gamma\operatorname{tang}\tfrac{1}{2}w,\qquad r=\frac{q\sec\tfrac{1}{2}v^2}{N},\\
+\log M=Am,\qquad \log N=An.
+\end{gathered}
+\]
+}
+Thus if we put $\frac{A}{T}=1-\frac{4}{5}A+C$, then $C$ is a quantity of the fourth order. By including it in our table we can pass directly from $A$ to $v$ by the formula
+\[
+\operatorname{tang}\tfrac{1}{2}v=\BareRoot{\frac{1+e}{1-e}}\,\mathord{.}\,\BareRoot{\frac{A}{1-\frac{4}{5}A+C}}=\frac{\gamma\operatorname{tang}\tfrac{1}{2}w}{\BareRoot{(1-\frac{4}{5}A+C)}},
+\]
+where $\gamma$ denotes the constant $\BareRoot{\frac{5+5e}{1+9e}}\cdot$ This also gives us a very convenient way to calculate the radius vector. Indeed, we have (Article 8, VI)
+\[
+\begin{aligned}
+r&=\frac{q\cos\tfrac{1}{2}E^2}{\cos\tfrac{1}{2}v^2}=\frac{q}{(1+T)\cos\tfrac{1}{2}v^2}\\
+&=\frac{(1-\frac{4}{5}A+C)q}{(1+\frac{1}{5}A+C)\cos\tfrac{1}{2}v^2}\cdot
+\end{aligned}
+\]

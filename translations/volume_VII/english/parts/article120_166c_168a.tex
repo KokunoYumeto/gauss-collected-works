@@ -1,0 +1,44 @@
+\par\Needspace{6\baselineskip}\medskip
+\begin{center}\hypertarget{native-166-article120}{}\pdfbookmark[2]{120.}{article-120}120.\end{center}
+Since the nature of the problem allows us to reduce it only to two equations involving two unknowns together, the chief point is first to \emph{choose} these unknowns and to \SourceLeaf{167}\emph{arrange} the equations suitably. The aim is for $X$ and $Y$ to depend on $x,y$ as simply as possible and for the elements themselves to follow from the values found for the unknowns as conveniently as possible. We must then consider how to obtain values of the unknowns that satisfy the equations without unduly laborious calculations. If this had to be done by what amount to blind trials, it would require a vast and scarcely tolerable effort, nearly as great an effort as astronomers have nevertheless often undertaken when determining the orbits of comets by what they call the indirect method. In such a task the labor is considerably reduced by the fact that rough calculations suffice for the first trials until approximate values of the unknowns have been reached. Once an approximate determination is available, the task can always be completed by reliable and efficient methods. We explain them here before proceeding farther.
+
+The equations $X=0$, $Y=0$ are of course satisfied exactly when $x,y$ are given their true values. If values different from the true ones are substituted for $x,y$, then $X$ and $Y$ take values different from $0$. The closer the substituted values are to the true ones, the smaller the resulting values of $X,Y$ must be. When the differences from the true values are very small, we may suppose the changes in $X,Y$ to be approximately proportional to the change in $x$ if $y$ is held fixed, or to the change in $y$ if $x$ is held fixed. If we therefore denote the true values of $x,y$ respectively by $\xi,\eta$, the values of $X,Y$ corresponding to the assumptions $x=\xi+\lambda$, $y=\eta+\mu$ can be written in the form $X=\alpha\lambda+\beta\mu$, $Y=\gamma\lambda+\delta\mu$. The coefficients $\alpha,\beta,\gamma,\delta$ may be regarded as constant while $\lambda$ and $\mu$ remain very small. It follows that if for three sets of values of $x,y$ differing little from the true ones we determine the corresponding values of $X,Y$, the true values of $x,y$ can be derived from them to the extent that this assumption is admissible. Let us set
+\[
+\begin{array}{rlllll}
+\text{for}\quad & x=a, & y=b & \text{we have}\quad & X=A, & Y=B\\
+& x=a', & y=b' && X=A', & Y=B'\\
+& x=a'', & y=b'' && X=A'', & Y=B''
+\end{array}
+\]
+then
+\[
+\begin{aligned}
+A&=\alpha(a-\xi)+\beta(b-\eta),\\
+B&=\gamma(a-\xi)+\delta(b-\eta)\\
+A'&=\alpha(a'-\xi)+\beta(b'-\eta),\\
+B'&=\gamma(a'-\xi)+\delta(b'-\eta)\\
+A''&=\alpha(a''-\xi)+\beta(b''-\eta),\\
+B''&=\gamma(a''-\xi)+\delta(b''-\eta).
+\end{aligned}
+\]
+\SourceLeaf{168}Eliminating $\alpha,\beta,\gamma,\delta$ gives
+\[
+\begin{aligned}
+\xi&=\frac{a(A'B''-A''B')+a'(A''B-AB'')+a''(AB'-A'B)}{A'B''-A''B'+A''B-AB''+AB'-A'B}\\[6pt]
+\eta&=\frac{b(A'B''-A''B')+b'(A''B-AB'')+b''(AB'-A'B)}{A'B''-A''B'+A''B-AB''+AB'-A'B}
+\end{aligned}
+\]
+or in a form more convenient for calculation
+\[
+\begin{aligned}
+\xi&=a+\frac{(a'-a)(A''B-AB'')+(a''-a)(AB'-A'B)}{A'B''-A''B'+A''B-AB''+AB'-A'B}\\[6pt]
+\eta&=b+\frac{(b'-b)(A''B-AB'')+(b''-b)(AB'-A'B)}{A'B''-A''B'+A''B-AB''+AB'-A'B}\mathpunct{\cdot}
+\end{aligned}
+\]
+In these formulas we may also interchange $a,b,A,B$ with $a',b',A',B'$ or with $a'',b'',A'',B''$.
+
+The common denominator of all these expressions, which can also be put in the form $(A'-A)(B''-B)-(A''-A)(B'-B)$, becomes
+\[
+=(\alpha\delta-\beta\gamma)\{(a'-a)(b''-b)-(a''-a)(b'-b)\}:
+\]
+It follows that $a,a',a'',b,b',b''$ must be chosen so as to avoid $\dfrac{a''-a}{b''-b}=\dfrac{a'-a}{b'-b}\mathpunct{\raisebox{.45ex}{,}}$ for otherwise the method would be inapplicable and would give fractional values for $\xi$ and $\eta$ whose numerators and denominators vanish simultaneously. It is also clear that if $\alpha\delta-\beta\gamma=0$, the same defect makes the method entirely unusable, however $a,a',a'',b,b',b''$ are chosen. In such a case we would have to assume for the values of $X$ a form such as $\alpha\lambda+\beta\mu+\epsilon\lambda\lambda+\zeta\lambda\mu+\theta\mu\mu$ and a similar form for the values of $Y$. Analysis would then supply methods analogous to the preceding one for finding the true values from the values of $X,Y$ calculated for four sets of values of $x,y$. This would make the calculation very laborious. Moreover, it can be shown that in this case the nature of the problem prevents the orbit from being determined with the necessary precision. The difficulty can only be avoided by obtaining new, more suitable observations, so we shall pass over the matter here.

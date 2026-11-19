@@ -1,0 +1,48 @@
+\Needspace{6\baselineskip}
+\begin{center}\hypertarget{native-254-article182}{}\pdfbookmark[2]{182.}{article-182}182.\end{center}
+Before investigating what degree of precision to assign to the values of the unknowns when there are several of them, we must examine more closely the function $vv+v'v'+v''v''+\text{etc.}$, which we shall denote by $W$.
+
+I. Let us set $\tfrac12\frac{\mathrm{d}W}{\mathrm{d}p}=p'
+=\lambda+\alpha p+\beta q+\gamma r+\delta s+\text{etc.}$ and $W-\frac{p'p'}{\alpha}=W'$. \SourceLeaf{255}Then clearly $p'=P$, and since $\frac{\mathrm{d}W'}{\mathrm{d}p}=\frac{\mathrm{d}W}{\mathrm{d}p}
+-\frac{2p'}{\alpha}\cdot\frac{\mathrm{d}p'}{\mathrm{d}p}=0$, the function $W'$ will be independent of $p$. The coefficient $\alpha=aa+a'a'+a''a''+\text{etc.}$ will clearly always be a positive quantity.
+
+II. Similarly, we set $\tfrac12\cdot\frac{\mathrm{d}W'}{\mathrm{d}q}=q'
+=\lambda'+\beta'q+\gamma'r+\delta's+\text{etc.}$ and $W'-\frac{q'q'}{\beta'}=W''$. We then have $q'=\tfrac12\cdot\frac{\mathrm{d}W}{\mathrm{d}q}
+-\frac{p'}{\alpha}\cdot\frac{\mathrm{d}p'}{\mathrm{d}q}
+=Q-\frac{\beta}{\alpha}\cdot p'$ and $\frac{\mathrm{d}W''}{\mathrm{d}q}=0$, so the function $W''$ will be independent of both $p$ and $q$. This would fail if it were possible to have $\beta'=0$. But clearly $W'$ is obtained from $vv+v'v'+v''v''+\text{etc.}$ by eliminating $p$ from $v$, $v'$, $v''$, etc. with the aid of the equation $p'=0$. Hence $\beta'$ will be the sum of the coefficients of $qq$ in $vv$, $v'v'$, $v''v''$, etc. after that elimination. The individual coefficients are themselves squares and can all vanish at once only in the case excluded above, where the unknowns remain undetermined. Thus $\beta'$ must be a positive quantity.
+
+III. Setting in turn $\tfrac12\cdot\frac{dW''}{dr}=r'
+=\lambda''+\gamma''r+\delta''s+\text{etc.}$ and $W''-\frac{r'r'}{\gamma''}=W'''$, we obtain $r'=R-\frac{\gamma}{\alpha}p'-\frac{\gamma'}{\beta'}q'$, and $W'''$ is independent of $p$, $q$, and $r$. We can also prove, as in II, that the coefficient $\gamma''$ must be positive. Indeed, it is easy to see that $\gamma''$ is the sum of the coefficients of $rr$ in $vv$, $v'v'$, $v''v''$, etc. after $p$ and $q$ have been eliminated with the aid of the equations $p'=0$, $q'=0$ from $v$, $v'$, $v''$, etc.
+
+IV. Setting in the same way $\tfrac12\frac{dW'''}{ds}=s'
+=\lambda'''+\delta'''s+\text{etc.}$ and $W^{\mathrm{IV}}=W'''-\frac{s's'}{\delta'''}$, we obtain $s'=S-\frac{\delta}{\alpha}p'-\frac{\delta'}{\beta'}q'-\frac{\delta''}{\gamma''}r'$. Then $W^{\mathrm{IV}}$ is independent of $p$, $q$, $r$, $s$, and $\delta'''$ is a positive quantity.
+
+V. If there are further unknowns besides $p$, $q$, $r$, $s$, we can proceed in the same way and finally obtain
+\[
+W=\frac{1}{\alpha}p'p'+\frac{1}{\beta'}q'q'+\frac{1}{\gamma''}r'r'
++\frac{1}{\delta'''}s's'+\text{etc.}+\text{Const.},
+\]
+where all the coefficients $\alpha$, $\beta'$, $\gamma''$, $\delta'''$, etc. are positive quantities.
+
+VI. Now the probability of a system of specified values for the quantities $p$, $q$, $r$, $s$, etc. is proportional\HistoricalNoteEight{Manuscript note:] \emph{Equal} [to the product] of the function[\quad\raisebox{.65ex}{.}
+\[
+e^{-hh\left(\frac{1}{\alpha}p'p'+\frac{1}{\beta'}q'q'+\frac{1}{\gamma''}r'r'+\frac{1}{\delta'''}s's'+\text{etc.}\right)}
+\]
+and the constant factor]
+$\frac{h^\nu\BareRoot{(\alpha\beta'\gamma''\delta'''\ldots)}}{(\BareRoot{\pi})^\nu}e^{-hh\,\text{Const.}}$,
+where Const. denotes the last, constant part of $W$.}
+ to the function $e^{-hhW}$. Hence,
+\SourceLeaf{256}if the value of $p$ is left undetermined, the probability of a system of specified values for the remaining quantities will be proportional to the integral $\int e^{-hhW}\mathrm{d}p$ taken from $p=-\infty$ to $p=+\infty$. By the theorem of the celebrated \textsc{Laplace}, this becomes
+\[
+=h^{-1}\alpha^{-\frac12}\pi^{\frac12}
+e^{-hh\left(\frac{1}{\beta'}q'q'+\frac{1}{\gamma''}r'r'+\frac{1}{\delta'''}s's'+\text{etc.}\right)};
+\]
+so this probability will be proportional to the function $e^{-hhW'}$.
+Similarly, if $q$ is also treated as undetermined, the probability of a system of specified values for $r$, $s$, etc. will be proportional to the integral $\int e^{-hhW'}\mathrm{d}q$ taken from $q=-\infty$ to $q=+\infty$, which becomes
+\[
+=h^{-1}{\beta'}^{-\frac12}\pi^{\frac12}
+e^{-hh\left(\frac{1}{\gamma''}r'r'+\frac{1}{\delta'''}s's'+\text{etc.}\right)},
+\]
+so that it is proportional to the function $e^{-hhW''}$. In exactly the same way, if $r$ is also treated as undetermined, the probability of specified values for the remaining quantities $s$, etc. will be proportional to the function $e^{-hhW'''}$, and so on. Let us suppose that there are four unknowns, since the same conclusion will hold if there are more or fewer. The most probable value of $s$ will then be
+$=-\frac{\lambda'''}{\delta'''}\mathpunct{\raisebox{.45ex}{,}}$
+and the probability that this value differs from the true value by $\sigma$ will be proportional to the function $e^{-hh\delta'''\sigma\sigma}$. We conclude that the measure of the relative precision to be assigned to this determination is expressed by $\BareRoot{\delta'''}$ if we set the measure of precision to be assigned to the original observations $=1$.

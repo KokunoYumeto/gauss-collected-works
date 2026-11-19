@@ -1,0 +1,53 @@
+\par\Needspace{6\baselineskip}\medskip
+\hypertarget{native-094-article072}{}\pdfbookmark[2]{72.}{article-072}
+\begin{center}72.\end{center}
+Einige Aufgaben, die bei der Bestimmung der Bahnen von Planeten und Kometen häufig vorkommen, bilden den Abschluss dieses Abschnitts. Zunächst kehren wir zur Parallaxe zurück. Wie man den beobachteten Ort von ihr befreit, haben wir in Artikel 70 gezeigt. Eine solche Reduktion auf den Erdmittelpunkt setzt voraus, dass der Abstand des Planeten von der Erde wenigstens annähernd bekannt ist, und kann nicht vorgenommen werden, solange die Bahn des beobachteten Planeten noch ganz unbekannt ist. Doch auch dann lässt sich wenigstens derselbe Zweck erreichen, der mit der Reduktion auf den Erdmittelpunkt verfolgt wird. Liegt dieser Mittelpunkt in der Ebene der Ekliptik oder nimmt man dies an, so werden mehrere Formeln einfacher und übersichtlicher, als wenn die Beobachtung auf einen Punkt außerhalb der Ekliptikebene bezogen würde. In dieser Hinsicht ist es daher gleichgültig, ob die Beobachtung auf den Erdmittelpunkt oder auf irgendeinen anderen Punkt in der Ebene der Ekliptik reduziert wird. Wählt man nun hierzu den Schnittpunkt der Ekliptikebene mit der vom Planeten zum wirklichen Beobachtungsort gezogenen Geraden, so bedarf die Beobachtung selbst offenbar überhaupt keiner Reduktion, da der Planet von jedem Punkt dieser Geraden aus in gleicher Weise gesehen wird\footnote{Wäre die äußerste Genauigkeit erwünscht, so müsste man die Zeit, in der das Licht vom wirklichen Beobachtungsort zum fiktiven oder von diesem zu jenem gelangt, zur gegebenen Zeit addieren oder von ihr abziehen, sofern es sich um von der Aberration betroffene Orte handelt. Dieser Unterschied kann kaum von Belang sein, es sei denn, die Breite ist sehr klein.}. Daher kann man \SourceLeaf{095}diesen Punkt als fiktiven Beobachtungsort an die Stelle des wirklichen setzen. Die Lage dieses Punktes bestimmen wir wie folgt.
+
+Länge, Breite und Abstand des Himmelskörpers seien $\lambda$, $\beta$ und $\Delta$, sämtlich auf den wirklichen Beobachtungsort an der Erdoberfläche bezogen, dessen Zenit die Länge $l$ und die Breite $b$ hat. Ferner sei $\pi$ der Erdradius, $L$ die heliozentrische Länge des Erdmittelpunkts, $B$ seine Breite und $R$ sein Abstand von der Sonne. Schließlich sei $L'$ die heliozentrische Länge des fiktiven Ortes, $R'$ sein Abstand von der Sonne und $\Delta+\delta$ sein Abstand vom Himmelskörper. Dann ergeben sich leicht die folgenden Gleichungen, in denen $N$ einen beliebigen Winkel bezeichnet.
+\[
+\begin{aligned}
+R'\cos(L'-N)+\delta\cos\beta\cos(\lambda-N)
+  &=R\cos B\cos(L-N)\\
+  &\quad+\pi\cos b\cos(l-N)\\
+R'\sin(L'-N)+\delta\cos\beta\sin(\lambda-N)
+  &=R\cos B\sin(L-N)\\
+  &\quad+\pi\cos b\sin(l-N)\\
+\delta\sin\beta&=R\sin B+\pi\sin b.
+\end{aligned}
+\]
+Setzt man also
+\[
+\begin{aligned}
+\mathrm{I.}\qquad &(R\sin B+\pi\sin b)\operatorname{cotang}\beta=\mu,
+\end{aligned}
+\]
+so erhält man
+\[
+\begin{aligned}
+\mathrm{II.}\qquad R'\cos(L'-N)&=R\cos B\cos(L-N)\\
+ &\quad+\pi\cos b\cos(l-N)-\mu\cos(\lambda-N)\\
+\mathrm{III.}\qquad R'\sin(L'-N)&=R\cos B\sin(L-N)\\
+ &\quad+\pi\cos b\sin(l-N)-\mu\sin(\lambda-N)\\
+\mathrm{IV.}\qquad \delta&=\frac{\mu}{\cos\beta}\mathpunct{\cdot}
+\end{aligned}
+\]
+
+Aus den Gleichungen II und III lassen sich $R'$ und $L'$ bestimmen, aus IV das zur Beobachtungszeit zu addierende Zeitintervall, das in Sekunden $=493\delta$ beträgt.
+
+Diese Gleichungen sind exakt und allgemein. Sie lassen sich auch dann anwenden, wenn an die Stelle der Ekliptikebene der Äquator tritt und $L$, $L'$, $l$ und $\lambda$ Rektaszensionen, $B$, $b$ und $\beta$ Deklinationen bezeichnen. In dem Fall, um den es uns hier vor allem geht, in dem also der fiktive Ort in der Ekliptik liegen soll, lassen sich die vorangehenden Formeln wegen der Kleinheit der Größen $B$, $\pi$ und $L'-L$ noch etwas vereinfachen. Man kann nämlich für $\pi$ die mittlere Sonnenparallaxe ansetzen, $B$ für $\sin B$, $1$ für $\cos B$ und $\cos(L'-L)$ sowie $L'-L$ für $\sin(L'-L)$. Setzt man nun $N=L$, so nehmen die vorangehenden Formeln folgende Gestalt an.
+\[
+\begin{aligned}
+\mathrm{I.}\qquad \mu&=(RB+\pi\sin b)\operatorname{cotang}\beta\\
+\mathrm{II.}\qquad R'&=R+\pi\cos b\cos(l-L)-\mu\cos(\lambda-L)\\
+\mathrm{III.}\qquad L'-L&=\frac{\pi\cos b\sin(l-L)-\mu\sin(\lambda-L)}{R'}\mathpunct{\cdot}
+\end{aligned}
+\]
+\SourceLeaf{096}Streng genommen sind hier $B$, $\pi$ und $L'-L$ in Teilen des Radius auszudrücken. Drückt man diese Winkel jedoch in Bogensekunden aus, so können offenbar die Gleichungen I und III unverändert beibehalten werden, während an die Stelle von II die folgende Gleichung treten muss.
+\[
+R'=R+\frac{\pi\cos b\cos(l-L)-\mu\cos(\lambda-L)}{206265''}\mathpunct{\cdot}
+\]
+Übrigens darf man in Formel III für den Nenner $R'$ stets ohne merklichen Fehler $R$ einsetzen. Drückt man die Winkel in Bogensekunden aus, so ergibt sich für die Zeitreduktion
+\[
+=\frac{493^{\mathrm{s}}\mathpunct{.}\mu}{206265''\mathpunct{.}\cos\beta}\mathpunct{\cdot}
+\]
+

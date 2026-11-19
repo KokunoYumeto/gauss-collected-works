@@ -1,0 +1,76 @@
+\par\Needspace{9\baselineskip}\bigskip
+\pdfbookmark[3]{Exposition, Second Draft, 22}{pallas-II-second-article22}
+\begin{center}22.\end{center}
+\begingroup
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\setlength{\lineskip}{4pt}\setlength{\lineskiplimit}{4pt}
+\noindent\hspace*{\parindent}We have just proved that \textit{if there exists} a series
+\[
+\begin{aligned}
+&a+a'\cos x+a''\cos2x+a'''\cos3x+\text{etc.}\\
+&\quad{}+\beta'\sin x+\beta''\sin2x+\beta'''\sin3x+\text{etc.,}
+\end{aligned}
+\]
+\noindent equal to the function \(\mathrm{X}\), the coefficients \(a\), \(a'\), \(\beta'\), \(a''\), \(\beta''\) etc. will conform to the stated formulas. But since the general possibility of such an expansion might seem doubtful, it will be appropriate to consider the converse theorem separately as well.
+\par
+Suppose, then, that \(\mathrm{f}x\) denotes a function of \(x\), whether periodic or not, whose value always remains \textit{finite} while \(x\) lies between \(0\) and \(2\pi\). Taking the integrals from \(x=0\) to \(x=2\pi\), let
+\[
+\begin{gathered}
+\int\mathrm{f}x.\mathrm{d}x=2\pi a,\quad\int\mathrm{f}x.\cos x.\mathrm{d}x=\pi a',\\[3pt]
+\int\mathrm{f}x.\cos2x.\mathrm{d}x=\pi a'',\quad\int\mathrm{f}x.\cos3x.\mathrm{d}x=\pi a'''\text{etc.}\\[3pt]
+\int\mathrm{f}x.\sin x.\mathrm{d}x=\pi\beta',\quad\int\mathrm{f}x.\sin2x.\mathrm{d}x=\pi\beta'',\\[3pt]
+\int\mathrm{f}x.\sin3x.\mathrm{d}x=\pi\beta'''\text{etc.}
+\end{gathered}
+\]
+\noindent and let us seek to determine the value of the series
+\[
+\tag*{(T)}\begin{aligned}
+&a+a'\cos t+a''\cos2t+a'''\cos3t+\text{etc.}\\
+&\quad{}+\beta'\sin t+\beta''\sin2t+\beta'''\sin3t+\text{etc.}
+\end{aligned}
+\]
+\noindent Since it is evidently a periodic function of \(t\), we may \SourceLeaf{477}assume that \(t\) lies between \(0\) and \(2\pi\). We shall see below that we must distinguish the case in which \(t\) is strictly between these limits from the case in which \(t=0\) or \(=2\pi\).
+\par
+Let us first consider the more general series
+\[
+\tag*{(U)}\begin{aligned}
+&a+a'\tfrac{1-e}{1+e}\cos t+a''\left(\tfrac{1-e}{1+e}\right)^2\cos2t+a'''\left(\tfrac{1-e}{1+e}\right)^3\cos3t+\text{etc.}\\[3pt]
+&\quad{}+\beta'\tfrac{1-e}{1+e}\sin t+\beta''\left(\tfrac{1-e}{1+e}\right)^2\sin2t+\beta'''\left(\tfrac{1-e}{1+e}\right)^3\sin3t+\text{etc.}
+\end{aligned}
+\]
+\noindent Notice that it equals the integral
+\[
+\begin{aligned}
+&\int\frac{1}{2\pi}\mathrm{f}x.\mathrm{d}x.\Bigl(1+2\frac{1-e}{1+e}\cos(x-t)\\[3pt]
+&\qquad{}+2\left(\frac{1-e}{1+e}\right)^2\cos2(x-t)+2\left(\frac{1-e}{1+e}\right)^3\cos3(x-t)+\text{etc.}\Bigr),
+\end{aligned}
+\]
+\noindent taken from \(x=0\) to \(x=2\pi\). The series in parentheses is equal to
+\[
+\frac{1-\left(\frac{1-e}{1+e}\right)^2}{1+\left(\frac{1-e}{1+e}\right)^2-2\frac{1-e}{1+e}\cos(x-t)}
+=\frac{e}{\sin\tfrac12(x-t)^2+ee\cos\tfrac12(x-t)^2},
+\]
+\noindent as one can easily verify by multiplication. Thus we have
+\[
+{}^{\mathrm{e}}_{\mathrm{e}}\!U=\frac{1}{2\pi}\int\frac{e\mathrm{f}x.\mathrm{d}x}{\sin\tfrac12(x-t)^2+ee\cos\tfrac12(x-t)^2},
+\]
+\noindent with the integral taken from \(x=0\) to \(x=2\pi\). Now let us introduce another variable \(y\) such that
+\[
+\operatorname{tang}\tfrac12(x-t)=e\operatorname{tang}\tfrac12y,
+\]
+\noindent where we may assume that \(\tfrac12y\) lies in the same quadrant as \(\tfrac12(x-t)\) (provided that \(e\) is positive). We then have
+\[
+U=\frac{1}{2\pi}\int\mathrm{f}x.\mathrm{d}y,
+\]
+\noindent with the integration extending from the value of \(y\) corresponding to \(x=0\) to that corresponding to \(x=2\pi\), that is, from \(y=\theta-\pi\) to \(y=\theta+\pi\), if we set
+\[
+e\operatorname{cotang}\tfrac12t=\operatorname{tang}\tfrac12\theta
+\]
+\noindent and take \(\theta\) between \(-90^0\) and \(+90^0\).
+\par
+Now we see that \(T\) is the limit of \(U\) as \(e\) decreases indefinitely. Let \(e\) therefore be infinitesimal. Then \(\theta\) will be infinitesimal as well, at least apart from the case \(t=0\), which we shall discuss separately. Thus, since the value of \(\mathrm{f}x\) is always\SourceLeaf{478} finite, the value of the integral \(\int\mathrm{f}x.\mathrm{d}y\) taken between \(y=-\pi\) and \(y=\theta-\pi\) will be infinitesimal, as will the value between \(y=\pi\) and \(y=\theta+\pi\). Moreover, it is evident that for all values of \(y\) between \(-\pi\) and \(+\pi\) whose distances from these limits are finite, \(x\) differs infinitesimally little from \(t\), and consequently \(\mathrm{f}x\) differs infinitesimally little from \(\mathrm{f}t\). Thus the integral \(\int\mathrm{f}x.\mathrm{d}y\) taken from \(y=\theta-\pi\) to \(y=\theta+\pi\) will differ infinitesimally little from the same integral taken from \(y=-\pi\) to \(y=+\pi\) (the difference is generally and rigorously zero whenever \(\mathrm{f}\) is a periodic function). The latter in turn will differ infinitesimally little from the integral \(\int\mathrm{f}t.\mathrm{d}y\) taken between the same limits, that is, from \(2\pi\mathrm{f}t\). Hence \(T=\mathrm{f}t\).
+\par
+\Needspace{15\baselineskip}
+In the case \(t=0\), the integration in the formula \(U=\frac{1}{2\pi}\int\mathrm{f}x.\mathrm{d}y\) must extend from \(y=0\) to \(y=2\pi\). For all values of \(y\) between \(0\) and \(\pi\) whose distances from these limits are finite, \(x\) will be infinitesimal. But for all values of \(y\) between \(\pi\) and \(2\pi\) whose distances from these limits are finite, \(x\) will differ infinitesimally little from \(2\pi\). Thus the integral \(\int\mathrm{f}x.\mathrm{d}y\) taken from \(y=0\) to \(y=\pi\) will differ infinitesimally little from the integral \(\int\mathrm{f}0.\mathrm{d}y\), that is, from \(\pi\mathrm{f}0\). But taken from \(y=\pi\) to \(y=2\pi\), it will differ infinitesimally little from \(\int\mathrm{f}2\pi.\mathrm{d}y\), that is, from \(\pi\mathrm{f}2\pi\), so that \(T=\frac12(\mathrm{f}0+\mathrm{f}2\pi)\). Moreover, when \(\mathrm{f}\) denotes a periodic function, this result is covered by the general formula \(T=\mathrm{f}t\).
+\par\medskip\begin{center}\rule{.24\linewidth}{.3pt}\end{center}
+\endgroup

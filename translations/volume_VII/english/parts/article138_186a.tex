@@ -1,0 +1,65 @@
+\par\Needspace{6\baselineskip}\medskip
+\begin{center}\hypertarget{native-185-article138}{}\pdfbookmark[2]{138.}{article-138}138.\end{center}
+The \emph{third} task is now to join the first and last geocentric positions of the celestial
+body, i.\,e. the points $B,B''$, by a great circle and determine its intersection with the great
+circle $A'B'$. Let $B^*$ be this intersection, $\delta'-\sigma$ its distance from the point $A'$, $\alpha^*$ its
+longitude, and $\beta^*$ its latitude. Since $B,B^*,B''$ lie on the same great circle, we have the
+familiar equation
+\[
+\begin{aligned}
+0={}&\operatorname{tang}\beta\sin(\alpha''-\alpha^*)-\operatorname{tang}\beta^*\sin(\alpha''-\alpha)\\
+&+\operatorname{tang}\beta''\sin(\alpha^*-\alpha),
+\end{aligned}
+\]
+which, on substituting $\operatorname{tang}\gamma'\sin(\alpha^*-l')$ for $\operatorname{tang}\beta^*$, takes the following form
+\[
+\begin{aligned}
+0={}&\cos(\alpha^*-l')\{\operatorname{tang}\beta\sin(\alpha''-l')-\operatorname{tang}\beta''\sin(\alpha-l')\}\\
+&-\sin(\alpha^*-l')\{\operatorname{tang}\beta\cos(\alpha''-l')\\
+&\qquad+\operatorname{tang}\gamma'\sin(\alpha''-\alpha)-\operatorname{tang}\beta''\cos(\alpha-l')\}.
+\end{aligned}
+\]
+Hence, since $\operatorname{tang}(\alpha^*-l')=\cos\gamma'\operatorname{tang}(\delta'-\sigma)$, we have
+\[
+\begin{gathered}
+\operatorname{tang}(\delta'-\sigma)=\\[.4ex]
+\frac{\operatorname{tang}\beta\sin(\alpha''-l')-\operatorname{tang}\beta''\sin(\alpha-l')}{\begin{gathered}\cos\gamma'(\operatorname{tang}\beta\cos(\alpha''-l')-\operatorname{tang}\beta''\cos(\alpha-l'))\\+\sin\gamma'\sin(\alpha''-\alpha)\end{gathered}}\mathpunct{\cdot}
+\end{gathered}
+\]
+
+From this we derive the following formulas, which are better suited to numerical calculation.
+Set
+\[
+\begin{aligned}
+7)\quad&\operatorname{tang}\beta\sin(\alpha''-l')-\operatorname{tang}\beta''\sin(\alpha-l')=S\\[.5ex]
+8)\quad&\operatorname{tang}\beta\cos(\alpha''-l')-\operatorname{tang}\beta''\cos(\alpha-l')=T\sin t\\[.5ex]
+9)\quad&\sin(\alpha''-\alpha)=T\cos t
+\end{aligned}
+\]
+(Article 14, II) to obtain
+\[
+10)\quad\operatorname{tang}(\delta'-\sigma)=\frac{S}{T\sin(t+\gamma')}\mathpunct{\cdot}
+\]
+The ambiguity in determining the arc $\delta'-\sigma$ from its tangent arises because the great circles
+$A'B',BB''$ intersect at \emph{two} points. For $B^*$ we shall always \hypertarget{native-186}{}choose the intersection
+nearest to the point $B'$, so that $\sigma$ always lies between the limits $-90^0$ and $+90^0$.
+This removes the ambiguity. The value of the arc $\sigma$ (which depends on the \emph{curvature}
+of the geocentric motion) will then usually be fairly small, and in general will be of the
+second order if the time intervals are regarded as quantities of the first order.
+
+The changes to the calculation when the equator is chosen as the fundamental plane in place of
+the ecliptic follow directly from the remark in the preceding article.
+
+It is also clear that the position of the point $B^*$ would remain indeterminate if the circles
+$BB'',A'B'$ coincided altogether. We exclude this case, in which the four points $A',B,B',B''$ would lie on
+the same great circle, from our investigation. When choosing observations, it is also advisable
+to avoid cases in which the four points lie close to a single great circle. In such a case even
+the smallest errors in the observations would have too great an effect on the position of the
+point $B^*$, which is important in the operations that follow, and its position could not be
+determined with the required precision. --- It is likewise clear that the point $B^*$ remains
+indeterminate whenever the points $B,B''$ coincide\footnote{Or when they are opposite each other.
+We do not discuss this case because our method should not be extended to observations spanning
+so long an interval.}, in which case the orientation of the circle $BB''$ itself would be
+indeterminate. We therefore also exclude this case. For reasons similar to those just given, we
+must also avoid observations in which the first and last geocentric positions fall at points of
+the sphere close to each other.

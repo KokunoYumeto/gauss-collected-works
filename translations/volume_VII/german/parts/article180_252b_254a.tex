@@ -1,0 +1,48 @@
+\Needspace{6\baselineskip}
+\begin{center}\hypertarget{native-252-article180}{}\pdfbookmark[2]{180.}{article-180}180.\end{center}
+Das im vorigen Artikel dargelegte Prinzip hat auch den Vorteil, dass sich die numerische Bestimmung der Unbekannten auf einen sehr einfachen Algorithmus zurückführen lässt, wenn die Funktionen $V$, $V'$, $V''$ usw. linear sind. Wir setzen voraus, dass gilt
+\[
+\begin{gathered}
+M-V=v=-m+ap+bq+cr+ds+\text{usw.}\\
+M'-V'=v'=-m'+a'p+b'q+c'r+d's+\text{usw.}\\
+M''-V''=v''=-m''+a''p+b''q+c''r+d''s+\text{usw.}\\
+\text{usw.,}
+\end{gathered}
+\]
+und setzen
+\[
+\begin{gathered}
+av+a'v'+a''v''+\text{usw.}=P\\
+bv+b'v'+b''v''+\text{usw.}=Q\\
+cv+c'v'+c''v''+\text{usw.}=R\\
+dv+d'v'+d''v''+\text{usw.}=S\\
+\text{usw.}
+\end{gathered}
+\]
+Dann lauten die $\nu$ Gleichungen aus Artikel 177, aus denen die Werte der Unbekannten zu bestimmen sind, offenbar
+\[
+P=0,\qquad Q=0,\qquad R=0,\qquad S=0\quad\text{usw.,}
+\]
+sofern wir die Beobachtungen als gleich gut voraussetzen. Im vorigen Artikel haben wir gezeigt, wie sich die übrigen Fälle auf diesen zurückführen lassen. Es liegen also ebenso viele lineare Gleichungen vor, wie Unbekannte zu bestimmen sind. Ihre Werte lassen sich durch gewöhnliche Elimination gewinnen.
+
+Sehen wir nun, ob diese Elimination stets möglich ist oder ob die \SourceLeaf{253}Lösung mitunter unbestimmt oder sogar unmöglich werden kann. Aus der Theorie der Elimination ist bekannt, dass der zweite oder dritte Fall dann eintritt, wenn sich nach Weglassen einer der Gleichungen $P=0$, $Q=0$, $R=0$, $S=0$ usw. aus den übrigen eine Gleichung bilden lässt, die entweder mit der weggelassenen übereinstimmt oder ihr widerspricht. Gleichbedeutend damit ist, dass sich eine lineare Funktion angeben lässt
+\[
+\alpha P+\beta Q+\gamma R+\delta S+\text{usw.,}
+\]
+die identisch $=0$ oder zumindest von allen Unbekannten $p$, $q$, $r$, $s$ usw. unabhängig ist. Wir nehmen daher an, dass $\alpha P+\beta Q+\gamma R+\delta S+\text{usw.}=\varkappa$ gilt. Unmittelbar ergibt sich die Identität
+\[
+\begin{aligned}
+&(v+m)v+(v'+m')v'+(v''+m'')v''+\text{usw.}\\
+&\qquad=pP+qQ+rR+sS+\text{usw.}
+\end{aligned}
+\]
+Nehmen wir nun an, dass durch die Substitutionen $p=\alpha x$, $q=\beta x$, $r=\gamma x$, $s=\delta x$ usw. die Funktionen $v$, $v'$, $v''$ usw. der Reihe nach in $-m+\lambda x$, $-m'+\lambda'x$, $-m''+\lambda''x$ usw. übergehen, so ergibt sich offenbar die Identität
+\[
+\begin{aligned}
+&(\lambda\lambda+\lambda'\lambda'+\lambda''\lambda''+\text{usw.})xx\\
+&\qquad-(\lambda m+\lambda'm'+\lambda''m''+\text{usw.})x=\varkappa x,
+\end{aligned}
+\]
+das heißt, es gilt $\lambda\lambda+\lambda'\lambda'+\lambda''\lambda''+\text{usw.}=0$, $\varkappa+\lambda m+\lambda'm'+\lambda''m''+\text{usw.}=0$. Daraus folgt notwendig $\lambda=0$, $\lambda'=0$, $\lambda''=0$ usw. sowie $\varkappa=0$. Alle Funktionen $V$, $V'$, $V''$ usw. sind also so beschaffen, dass sich ihre Werte nicht ändern, wenn die Größen $p$, $q$, $r$, $s$ usw. beliebige Zuwächse oder Abnahmen erhalten, die den Zahlen $\alpha$, $\beta$, $\gamma$, $\delta$ usw. proportional sind. Fälle dieser Art gehören, wie bereits oben bemerkt, nicht hierher, da sich die Unbekannten offenbar selbst dann nicht bestimmen ließen, wenn die wahren Werte der Funktionen $V$, $V'$, $V''$ usw. gegeben wären.
+
+Alle übrigen Fälle, in denen die Funktionen $V$, $V'$, $V''$ usw. nicht linear sind, lassen sich leicht auf den hier betrachteten Fall zurückführen. Es bezeichnen $\pi$, $\chi$, $\rho$, $\sigma$ usw. die Näherungswerte der Unbekannten $p$, $q$, $r$, $s$ usw. (die man leicht erhält, wenn man von den $\mu$ Gleichungen $V=M$, $V'=M'$, $V''=M''$ usw. zunächst nur $\nu$ verwendet). An die Stelle der Unbekannten setzen wir neue Unbekannte $p'$, $q'$, $r'$, $s'$ usw., indem wir $p=\pi+p'$, $q=\chi+q'$, $r=\rho+r'$, $s=\sigma+s'$ usw. setzen. Die Werte dieser neuen Unbekannten werden offenbar so klein sein, dass man ihre Quadrate und Produkte vernachlässigen kann. Dadurch werden die Gleichungen unmittelbar linear. Ergeben sich nach Abschluss der Rechnung wider Erwarten Werte der Unbekannten $p'$, $q'$, $r'$, $s'$ usw. \SourceLeaf{254}von solcher Größe, dass es bedenklich erscheint, die Quadrate und Produkte vernachlässigt zu haben, so lässt sich die Schwierigkeit durch Wiederholung desselben Verfahrens leicht beheben, wobei man anstelle von $\pi$, $\chi$, $\rho$, $\sigma$ usw. die korrigierten Werte von $p$, $q$, $r$, $s$ usw. einsetzt.

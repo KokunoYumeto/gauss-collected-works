@@ -1,0 +1,75 @@
+\par\Needspace{9\baselineskip}\bigskip
+\pdfbookmark[3]{Darstellung, Zweiter Entwurf, 22}{pallas-II-second-article22}
+\begin{center}22.\end{center}
+\begingroup
+\makeatletter\tagsleft@true\let\veqno\@@leqno\makeatother
+\setlength{\lineskip}{4pt}\setlength{\lineskiplimit}{4pt}
+\noindent\hspace*{\parindent}Wir haben soeben bewiesen, dass \textit{im Fall der Existenz} einer Reihe
+\[
+\begin{aligned}
+&a+a'\cos x+a''\cos2x+a'''\cos3x+\text{etc.}\\
+&\quad{}+\beta'\sin x+\beta''\sin2x+\beta'''\sin3x+\text{etc.,}
+\end{aligned}
+\]
+\noindent die der Funktion \(\mathrm{X}\) gleich ist, die Koeffizienten \(a\), \(a'\), \(\beta'\), \(a''\), \(\beta''\) usw. den angegebenen Formeln entsprechen. Da die allgemeine Möglichkeit einer solchen Entwicklung aber zweifelhaft erscheinen könnte, ist es angebracht, auch den umgekehrten Satz gesondert zu behandeln.
+\par
+Nehmen wir also an, dass \(\mathrm{f}x\) eine Funktion von \(x\) bezeichnet, die periodisch oder nicht periodisch sein kann, deren Wert aber stets \textit{endlich} bleibt, solange \(x\) zwischen \(0\) und \(2\pi\) liegt. Für die Integrale von \(x=0\) bis \(x=2\pi\) sei
+\[
+\begin{gathered}
+\int\mathrm{f}x.\mathrm{d}x=2\pi a,\quad\int\mathrm{f}x.\cos x.\mathrm{d}x=\pi a',\\[3pt]
+\int\mathrm{f}x.\cos2x.\mathrm{d}x=\pi a'',\quad\int\mathrm{f}x.\cos3x.\mathrm{d}x=\pi a'''\text{etc.}\\[3pt]
+\int\mathrm{f}x.\sin x.\mathrm{d}x=\pi\beta',\quad\int\mathrm{f}x.\sin2x.\mathrm{d}x=\pi\beta'',\\[3pt]
+\int\mathrm{f}x.\sin3x.\mathrm{d}x=\pi\beta'''\text{etc.}
+\end{gathered}
+\]
+\noindent und wir wollen den Wert der Reihe bestimmen
+\[
+\tag*{(T)}\begin{aligned}
+&a+a'\cos t+a''\cos2t+a'''\cos3t+\text{etc.}\\
+&\quad{}+\beta'\sin t+\beta''\sin2t+\beta'''\sin3t+\text{etc.}
+\end{aligned}
+\]
+\noindent Da sie offensichtlich eine periodische Funktion von \(t\) ist, dürfen wir \SourceLeaf{477}annehmen, dass \(t\) zwischen \(0\) und \(2\pi\) liegt. Wir werden im Folgenden sehen, dass der Fall, in dem \(t\) zwischen diesen Grenzen liegt, ohne sie einzuschließen, von dem Fall \(t=0\) oder \(=2\pi\) zu unterscheiden ist.
+\par
+Betrachten wir zunächst die allgemeinere Reihe
+\[
+\tag*{(U)}\begin{aligned}
+&a+a'\tfrac{1-e}{1+e}\cos t+a''\left(\tfrac{1-e}{1+e}\right)^2\cos2t+a'''\left(\tfrac{1-e}{1+e}\right)^3\cos3t+\text{etc.}\\[3pt]
+&\quad{}+\beta'\tfrac{1-e}{1+e}\sin t+\beta''\left(\tfrac{1-e}{1+e}\right)^2\sin2t+\beta'''\left(\tfrac{1-e}{1+e}\right)^3\sin3t+\text{etc.}
+\end{aligned}
+\]
+\noindent Man beachte, dass sie gleich dem Integral ist
+\[
+\begin{aligned}
+&\int\frac{1}{2\pi}\mathrm{f}x.\mathrm{d}x.\Bigl(1+2\frac{1-e}{1+e}\cos(x-t)\\[3pt]
+&\qquad{}+2\left(\frac{1-e}{1+e}\right)^2\cos2(x-t)+2\left(\frac{1-e}{1+e}\right)^3\cos3(x-t)+\text{etc.}\Bigr),
+\end{aligned}
+\]
+\noindent genommen von \(x=0\) bis \(x=2\pi\). Die Reihe in Klammern ist gleich
+\[
+\frac{1-\left(\frac{1-e}{1+e}\right)^2}{1+\left(\frac{1-e}{1+e}\right)^2-2\frac{1-e}{1+e}\cos(x-t)}
+=\frac{e}{\sin\tfrac12(x-t)^2+ee\cos\tfrac12(x-t)^2},
+\]
+\noindent wie man leicht durch Ausmultiplizieren überprüfen kann. Damit gilt
+\[
+{}^{\mathrm{e}}_{\mathrm{e}}\!U=\frac{1}{2\pi}\int\frac{e\mathrm{f}x.\mathrm{d}x}{\sin\tfrac12(x-t)^2+ee\cos\tfrac12(x-t)^2},
+\]
+\noindent wobei das Integral von \(x=0\) bis \(x=2\pi\) genommen wird. Führen wir nun eine andere Variable \(y\) so ein, dass gilt
+\[
+\operatorname{tang}\tfrac12(x-t)=e\operatorname{tang}\tfrac12y,
+\]
+\noindent wobei wir annehmen können, dass \(\tfrac12y\) im selben Quadranten liegt wie \(\tfrac12(x-t)\) (vorausgesetzt, \(e\) ist positiv). Dann gilt
+\[
+U=\frac{1}{2\pi}\int\mathrm{f}x.\mathrm{d}y,
+\]
+\noindent wobei sich die Integration von dem Wert von \(y\), der \(x=0\) entspricht, bis zu dem Wert erstreckt, der \(x=2\pi\) entspricht, also von \(y=\theta-\pi\) bis \(y=\theta+\pi\), wenn man
+\[
+e\operatorname{cotang}\tfrac12t=\operatorname{tang}\tfrac12\theta
+\]
+\noindent setzt und \(\theta\) zwischen \(-90^0\) und \(+90^0\) wählt.
+\par
+Nun sieht man, dass \(T\) der Grenzwert von \(U\) ist, wenn \(e\) unbegrenzt abnimmt. Nehmen wir also an, \(e\) sei unendlich klein. Dann ist auch \(\theta\) unendlich klein, jedenfalls abgesehen vom Fall \(t=0\), den wir gesondert behandeln werden. Da also der Wert von \(\mathrm{f}x\) stets\SourceLeaf{478} endlich ist, ist der Wert des Integrals \(\int\mathrm{f}x.\mathrm{d}y\) zwischen \(y=-\pi\) und \(y=\theta-\pi\) unendlich klein, ebenso der Wert zwischen \(y=\pi\) und \(y=\theta+\pi\). Außerdem ist offensichtlich, dass für alle Werte von \(y\) zwischen \(-\pi\) und \(+\pi\), deren Abstand von diesen Grenzen endlich ist, \(x\) nur unendlich wenig von \(t\) abweicht und folglich auch \(\mathrm{f}x\) nur unendlich wenig von \(\mathrm{f}t\). Daher weicht das Integral \(\int\mathrm{f}x.\mathrm{d}y\) von \(y=\theta-\pi\) bis \(y=\theta+\pi\) nur unendlich wenig von demselben Integral zwischen \(y=-\pi\) und \(y=+\pi\) ab (der Unterschied ist allgemein und exakt null, wann immer \(\mathrm{f}\) eine periodische Funktion ist). Dieses wiederum weicht nur unendlich wenig vom Integral \(\int\mathrm{f}t.\mathrm{d}y\) zwischen denselben Grenzen ab, also von \(2\pi\mathrm{f}t\). Somit gilt \(T=\mathrm{f}t\).
+\par
+Im Fall \(t=0\) muss sich die Integration in der Formel \(U=\frac{1}{2\pi}\int\mathrm{f}x.\mathrm{d}y\) von \(y=0\) bis \(y=2\pi\) erstrecken. Für alle Werte von \(y\) zwischen \(0\) und \(\pi\), deren Abstand von diesen Grenzen endlich ist, ist \(x\) unendlich klein. Für alle Werte von \(y\) zwischen \(\pi\) und \(2\pi\), deren Abstand von diesen Grenzen endlich ist, weicht \(x\) dagegen nur unendlich wenig von \(2\pi\) ab. Somit weicht das Integral \(\int\mathrm{f}x.\mathrm{d}y\) von \(y=0\) bis \(y=\pi\) nur unendlich wenig vom Integral \(\int\mathrm{f}0.\mathrm{d}y\) ab, also von \(\pi\mathrm{f}0\). Nimmt man es dagegen von \(y=\pi\) bis \(y=2\pi\), so weicht es nur unendlich wenig von \(\int\mathrm{f}2\pi.\mathrm{d}y\) ab, also von \(\pi\mathrm{f}2\pi\), sodass \(T=\frac12(\mathrm{f}0+\mathrm{f}2\pi)\) gilt. Wenn \(\mathrm{f}\) eine periodische Funktion bezeichnet, ist dieses Ergebnis im Übrigen in der allgemeinen Formel \(T=\mathrm{f}t\) enthalten.
+\par\medskip\begin{center}\rule{.24\linewidth}{.3pt}\end{center}
+\endgroup

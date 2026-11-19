@@ -1,0 +1,59 @@
+\needspace{10\baselineskip}
+\begin{center}
+\pdfbookmark[1]{9. On Art. 138.}{zusatz-009}
+[9. On Art. 138.]
+\end{center}
+The criterion for the case in which the great circle tangent to the geocentric motion passes through the position of the Sun can be related very elegantly to the heliocentric positions.
+
+Let
+\begin{center}
+\begin{tabular}{@{}l@{\quad}p{.79\linewidth}@{}}
+\(R,r\)&be the distances from the Sun for the Earth and the planet;\\
+\(L,l\)&the longitudes of the Earth and the planet, the latter in its orbit and both reckoned from the ascending node;\\
+\(E,e\)&the eccentricities;\\
+\(V,v\)&the true anomalies;\\
+\(P,p\)&the semiparameters;
+\end{tabular}
+\end{center}
+then the equation
+\[
+\frac{r\sin l}{\BareRoot{p}}=\frac{R\sin L}{\BareRoot{P}}
+\quad\text{or}\quad
+\frac{\BareRoot{p}\mathbin{.}\sin l}{1+e\cos v}=\frac{\BareRoot{P}\mathbin{.}\sin L}{1+E\cos V}
+\]
+contains the criterion for that case.
+
+\SourceLeaf{310}
+The proof rests on the following figure:
+\begin{center}
+\begin{tikzpicture}[x=.35pt,y=-.35pt,line width=.6pt,line cap=round,line join=round]
+\path[use as bounding box] (1640,600) rectangle (2440,1010);
+\draw (1665,818)..controls(1720,816)and(1790,816)..(1855,817)..controls(2040,815)and(2260,840)..(2371,865);
+\draw (1678,952)..controls(1755,951)and(1820,946)..(1887,937)..controls(2070,927)and(2260,886)..(2371,865);
+\draw (1796,632)--(1855,817)--(1887,937);
+\fill (1796,632) circle[radius=2.5pt];
+\fill (1800,816.5) circle[radius=2.5pt];
+\fill (1835,944) circle[radius=2.5pt];
+\node[inner sep=0pt,font=\fontsize{10}{11}\selectfont] at (1822,632) {\(\mathsf{B}\)};
+\node[inner sep=0pt,font=\fontsize{10}{11}\selectfont] at (1805,781) {\(\mathsf{C}'\)};
+\node[inner sep=0pt,font=\fontsize{10}{11}\selectfont] at (1870,782) {\(\mathsf{C}\)};
+\node[inner sep=0pt,font=\fontsize{10}{11}\selectfont] at (2081,785) {\(\mathsf{l}\)};
+\node[inner sep=0pt,font=\fontsize{10}{11}\selectfont] at (1833,982) {\(\mathsf{A}'\)};
+\node[inner sep=0pt,font=\fontsize{10}{11}\selectfont] at (1890,980) {\(\mathsf{A}\)};
+\node[inner sep=0pt,font=\fontsize{10}{11}\selectfont] at (2075,951) {\(\mathsf{L}\)};
+\node[inner sep=0pt,font=\fontsize{10}{11}\selectfont] at (2400,872) {\(\AscendingNode\)};
+\end{tikzpicture}
+\end{center}
+
+\(A\) the position of the Earth, \(B\) the geocentric, \(C\) the heliocentric position of the planet; \(A',C'\) the positions of \(A\) and \(C\) after an infinitely small interval \(\mathrm{d}t\).
+
+Thus we have
+\[
+AA'=\mathrm{d}L,\qquad CC'=\mathrm{d}l.
+\]
+By the nature of the problem, the two new positions must be equally distant from the plane through the Sun, the Earth and the planet (the plane represented by \(ACB\)). These distances are \(R\mathrm{d}L\sin A\) and \(r\mathrm{d}l\sin C\); now, since \(\sin A:\sin C=\sin l:\sin L\), we obtain \(\dfrac{R\mathrm{d}L}{\sin L}=\dfrac{r\mathrm{d}l}{\sin l}\mathpunct{\raisebox{.45ex}{,}}\) or, since \(RR\mathrm{d}L:rr\mathrm{d}l=\BareRoot{P}:\BareRoot{p}\):
+\[
+\frac{\BareRoot{P}}{R\sin L}=\frac{\BareRoot{p}}{r\sin l}\mathpunct{\raisebox{.45ex}{,}}
+\]
+which is the equation above.
+\begin{center}\rule{.18\textwidth}{.35pt}\end{center}

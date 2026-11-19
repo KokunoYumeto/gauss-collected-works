@@ -1,0 +1,62 @@
+\Needspace{6\baselineskip}
+\begin{center}\hypertarget{native-261-article188}{}\pdfbookmark[2]{188.}{article-188}188.\end{center}
+The preceding method is chiefly suited to cases where the highest precision
+is desired. Very often, however, one may readily give up a little precision
+if this considerably shortens the calculation, especially when the observations
+do not yet cover a long interval and one is therefore not yet aiming at what
+might be called a definitive determination of the orbit. In such cases the
+following method can be used to considerable advantage.
+
+From the full set of observations, select two complete positions $L$ and $L'$
+and calculate the distances of the celestial body from the Earth at the
+corresponding times from the approximate elements. Then form three hypotheses
+for these distances. Retain the calculated values in the first, change the
+first distance in the second hypothesis, and change the second distance in
+the third. Each change may be chosen at will in proportion to the uncertainty
+presumed to remain in the corresponding distance. Under the three hypotheses
+shown in the following table,
+\begin{center}
+\begingroup
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|l|c|c|c|}
+\hline
+ & Hyp. I & Hyp. II & Hyp. III\\
+\hline
+Distance\footnotemark\ corresponding to the first position & $D$ & $D+\delta$ & $D$\\
+Distance corresponding to the second position & $D'$ & $D'$ & $D'+\delta'$\\
+\hline
+\end{tabular}
+\endgroup
+\end{center}
+\footnotetext{It is even more convenient to use the logarithms of the curtate distances in place of the distances themselves.}
+\noindent\SourceLeaf{262}calculate three sets of elements from the two
+positions $L,L'$ by the methods explained in Book One. Then calculate from
+each set the geocentric positions of the celestial body corresponding to the
+times of all the remaining observations. Denote them as follows, with each
+longitude and latitude, or right ascension and declination, denoted separately.
+\begin{center}
+\begin{tabular}{@{}l@{\quad}l@{\quad}l@{\quad}l@{\quad}l@{}}
+\makebox[12.8em][l]{in the first set\hfill .\,.\,.\,.\,.\,.} & $M$, & $M'$, & $M''$ & etc.\\[.3em]
+\makebox[12.8em][l]{in the second set\hfill .\,.\,.\,.\,.} & $M+a$, & $M'+a'$, & $M''+a''$ & etc.\\[.3em]
+\makebox[12.8em][l]{in the third set\hfill .\,.\,.\,.\,.\,.\,.} & $M+\beta$, & $M'+\beta'$, & $M''+\beta''$ & etc.
+\end{tabular}
+\end{center}
+\noindent Further, let the corresponding observed positions be
+\begin{center}
+\begin{tabular}{@{}l@{\quad}l@{\quad}l@{\quad}l@{\quad}l@{}}
+\makebox[12.8em][l]{observed positions\hfill .\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.} & $N$, & $N'$, & $N''$ & etc.
+\end{tabular}
+\end{center}
+
+Now, insofar as small changes in the distances $D,D'$ produce proportional
+changes in the individual elements and in the geocentric positions calculated
+from them, we may assume that the geocentric positions calculated from a
+fourth set of elements based on the distances $D+x\delta,D'+y\delta'$ from
+the Earth will be $M+ax+\beta y,M'+a'x+\beta'y,M''+a''x+\beta''y$ etc.,
+respectively. Following the preceding investigations, determine $x,y$ so
+that these quantities agree as closely as possible with the corresponding
+$N,N',N''$ etc., taking into account the relative precision of the observations.
+The corrected set of elements itself can be derived in the same way from
+$L,L'$ and the distances $D+x\delta,D'+y\delta'$, or by simple interpolation
+from the first three sets of elements according to the known rules.

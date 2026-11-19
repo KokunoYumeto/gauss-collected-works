@@ -1,0 +1,45 @@
+\par\Needspace{4\baselineskip}
+\begin{center}
+\hypertarget{native-037-article019}{}\pdfbookmark[2]{19.}{article-019}19.
+\end{center}
+The problem of deriving the time from the true anomaly, and still more the inverse problem, can be solved much more quickly with the aid of a table of the kind found in several astronomical books. By far the most convenient is \textsc{Barker}'s table, which is also appended to the excellent work of the celebrated \textsc{Olbers} (\emph{Abhandlung über die leichteste und bequemste Methode die Bahn eines Cometen zu berechnen}, Weimar 1797.) It gives, for all true anomalies from 0 to $180^0$ at intervals of 5 minutes of arc, the value of the expression $75\operatorname{tang}\frac{1}{2}v+25\operatorname{tang}\frac{1}{2}v^3$ under the name \emph{mean motion}. To find the time corresponding to the true anomaly $v$, divide the mean motion taken from the table with argument $v$ by $\frac{150k}{p^{\frac{3}{2}}}$, a quantity called the \emph{mean daily motion}. Conversely, to compute the true anomaly from the time, multiply the time expressed in days by $\frac{150k}{p^{\frac{3}{2}}}$ to obtain the mean motion, from which the corresponding anomaly can be taken from the table. Clearly, a negative value of $v$ has the same mean motion and time as the corresponding positive value, with both signs reversed. The same table thus serves equally for negative and positive anomalies. If we prefer to replace $p$ by the perihelion distance $\frac{1}{2}p=q$, the mean daily motion is expressed by $\frac{k\BareRoot{2812{,}5}}{q^{\frac{3}{2}}}$, where the constant factor $k\BareRoot{2812{,}5}$ is $=0{,}912\,2790\,61$ and its logarithm is $9{,}960\,1277\,069$. — Once the anomaly $v$ is found, the radius vector is determined by the formula already given above, $r=\frac{q}{\cos\frac{1}{2}v^2}\cdot$
+
+\par\Needspace{4\baselineskip}
+\begin{center}
+\hypertarget{native-037-article020}{}\pdfbookmark[2]{20.}{article-020}20.
+\end{center}
+Differentiating the equation $\operatorname{tang}\frac{1}{2}v+\frac{1}{3}\operatorname{tang}\frac{1}{2}v^3=2t k p^{-\frac{3}{2}}$, with all the quantities $v,t,p$ treated as variables, gives
+\[
+\frac{\mathrm{d}v}{2\cos\frac{1}{2}v^4}=2k p^{-\frac{3}{2}}\,\mathrm{d}t-3t k p^{-\frac{5}{2}}\,\mathrm{d}p
+\]
+or
+\[
+\mathrm{d}v=\frac{k\BareRoot{p}}{r r}\,\mathrm{d}t-\frac{3t k}{2r r\BareRoot{p}}\,\mathrm{d}p.
+\]
+\SourceLeaf{038}If the variations of the anomaly $v$ are wanted in seconds of arc, both terms of $\mathrm{d}v$ must also be expressed in these units. Thus for $k$ we must take the value $3548^{\prime\prime}{,}188$ given in Article 6. If, in addition, $p$ is replaced by $\frac{1}{2}p=q$, the formula becomes
+\[
+\mathrm{d}v=\frac{k\BareRoot{2q}}{r r}\,\mathrm{d}t-\frac{3k t}{r r\BareRoot{2q}}\,\mathrm{d}q,
+\]
+where the required logarithms of the constants are $\log k\BareRoot{2}=3{,}700\,5215\,724$,\\ $\log 3k\BareRoot{\frac{1}{2}}=3{,}876\,6128\,315$.
+
+Differentiation of the equation $r=\frac{p}{2\cos\frac{1}{2}v^2}$ also gives
+\[
+\frac{\mathrm{d}r}{r}=\frac{\mathrm{d}p}{p}+\operatorname{tang}\frac{1}{2}v\,\mathrm{d}v
+\]
+or, expressing $\mathrm{d}v$ in terms of $\mathrm{d}t$ and $\mathrm{d}p$,
+\[
+\frac{\mathrm{d}r}{r}=\left(\frac{1}{p}-\frac{3k t\operatorname{tang}\frac{1}{2}v}{2r r\BareRoot{p}}\right)\mathrm{d}p+\frac{k\BareRoot{p}\operatorname{tang}\frac{1}{2}v}{r r}\,\mathrm{d}t.
+\]
+The coefficient of $\mathrm{d}p$, upon substituting for $t$ its value in terms of $v$, becomes
+\[
+\begin{aligned}
+&\frac{1}{p}-\frac{3p\operatorname{tang}\frac{1}{2}v^2}{4r r}-\frac{p\operatorname{tang}\frac{1}{2}v^4}{4r r}\\
+&\quad=\frac{1}{r}\left(\frac{1}{2}+\frac{1}{2}\operatorname{tang}\frac{1}{2}v^2-\frac{3}{2}\sin\frac{1}{2}v^2-\frac{1}{2}\sin\frac{1}{2}v^2\operatorname{tang}\frac{1}{2}v^2\right)\\
+&\quad=\frac{\cos v}{2r};
+\end{aligned}
+\]
+while the coefficient of $\mathrm{d}t$ becomes $=\frac{k\sin v}{r\BareRoot{p}}\cdot$ This gives $\mathrm{d}r=\frac{1}{2}\cos v\,\mathrm{d}p+\frac{k\sin v}{\BareRoot{p}}\,\mathrm{d}t$, or, introducing $q$ in place of $p$,
+\[
+\mathrm{d}r=\cos v\,\mathrm{d}q+\frac{k\sin v}{\BareRoot{2q}}\,\mathrm{d}t.
+\]
+The required logarithm of the constant here is $\log k\BareRoot{\frac{1}{2}}=8{,}085\,0664\,436$.

@@ -1,0 +1,45 @@
+\Needspace{6\baselineskip}
+\begin{center}\hypertarget{native-256-article183}{}\pdfbookmark[2]{183.}{article-183}183.\end{center}
+Mit dem Verfahren des vorigen Artikels lässt sich das Maß der Präzision nur für die Unbekannte bequem ausdrücken, der bei der Elimination der letzte Platz zugewiesen wurde. Um diese Schwierigkeit zu umgehen, empfiehlt es sich, den Koeffizienten $\delta'''$ anders auszudrücken. Aus den Gleichungen
+\[
+\begin{aligned}
+P&=p'\\
+Q&=q'+\frac{\beta}{\alpha}p'\\
+R&=r'+\frac{\gamma'}{\beta'}q'+\frac{\gamma}{\alpha}p'\\
+S&=s'+\frac{\delta''}{\gamma''}r'+\frac{\delta'}{\beta'}q'+\frac{\delta}{\alpha}p'
+\end{aligned}
+\]
+folgt, dass sich $p'$, $q'$, $r'$, $s'$ durch $P$, $Q$, $R$, $S$ in folgender Form ausdrücken lassen
+\SourceLeaf{257}
+\[
+\begin{aligned}
+p'&=P\\
+q'&=Q+\mathfrak{A}P\\
+r'&=R+\mathfrak{B}'Q+\mathfrak{A}'P\\
+s'&=S+\mathfrak{C}''R+\mathfrak{B}''Q+\mathfrak{A}''P,
+\end{aligned}
+\]
+wobei $\mathfrak{A}$, $\mathfrak{A}'$, $\mathfrak{B}'$, $\mathfrak{A}''$, $\mathfrak{B}''$, $\mathfrak{C}''$ bestimmte Größen sind. Beschränken wir die Zahl der Unbekannten auf vier, so ergibt sich damit
+\[
+s=-\frac{\lambda'''}{\delta'''}+\frac{\mathfrak{A}''}{\delta'''}P
++\frac{\mathfrak{B}''}{\delta'''}Q+\frac{\mathfrak{C}''}{\delta'''}R
++\frac{1}{\delta'''}S.
+\]
+Daraus ziehen wir den folgenden Schluss. Die wahrscheinlichsten Werte der Unbekannten $p$, $q$, $r$, $s$ usw. sind durch Elimination aus den Gleichungen $P=0$, $Q=0$, $R=0$, $S=0$ usw. zu gewinnen. Betrachtet man nun $P$, $Q$, $R$, $S$ usw. vorübergehend als unbestimmt, so liefert dasselbe Eliminationsverfahren offenbar lineare Ausdrücke für die Unbekannten in $P$, $Q$, $R$, $S$ usw. Man erhält also
+\[
+\begin{gathered}
+\begin{aligned}
+p&=L+AP+BQ+CR+DS+\text{usw.}\\
+q&=L'+A'P+B'Q+C'R+D'S+\text{usw.}\\
+r&=L''+A''P+B''Q+C''R+D''S+\text{usw.}\\
+s&=L'''+A'''P+B'''Q+C'''R+D'''S+\text{usw.}
+\end{aligned}\\
+\text{usw.}
+\end{gathered}
+\]
+Damit sind die wahrscheinlichsten Werte von $p$, $q$, $r$, $s$ usw. offenbar jeweils $L$, $L'$, $L''$, $L'''$ usw. Das Maß der Präzision, das diesen Bestimmungen zuzuschreiben ist, wird jeweils durch
+$\BareRoot{\dfrac{1}{A}}\mathpunct{\raisebox{.45ex}{,}}$
+$\BareRoot{\dfrac{1}{B'}}\mathpunct{\raisebox{.45ex}{,}}$
+$\BareRoot{\dfrac{1}{C''}}\mathpunct{\raisebox{.45ex}{,}}$
+$\BareRoot{\dfrac{1}{D'''}}$ usw. ausgedrückt, wenn man die Präzision der ursprünglichen Beobachtungen $=1$ setzt. Was wir bereits für die Bestimmung der Unbekannten $s$ gezeigt haben (für die $\dfrac{1}{\delta'''}$ dem Koeffizienten $D'''$ entspricht), lässt sich allein durch Vertauschen der Unbekannten auf alle übrigen übertragen.%
+\HistoricalUnmarkedNote{[Handschriftliche Bemerkung:] Betragen die Grade der Präzision der Größen $a$, $b$, $c$ usw. jeweils $\alpha$, $\beta$, $\gamma$ usw., so beträgt der Grad der Präzision der Größe $x=a+b+c+\text{usw.}$ $\dfrac{1}{\BareRoot{\left(\dfrac{1}{\alpha\alpha}+\dfrac{1}{\beta\beta}+\dfrac{1}{\gamma\gamma}+\text{usw.}\right)}}\mathpunct{\cdot}$}

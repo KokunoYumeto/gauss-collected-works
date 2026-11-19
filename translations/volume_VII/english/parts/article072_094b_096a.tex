@@ -1,0 +1,53 @@
+\par\Needspace{6\baselineskip}\medskip
+\hypertarget{native-094-article072}{}\pdfbookmark[2]{72.}{article-072}
+\begin{center}72.\end{center}
+Several problems that frequently arise in determining the orbits of planets and comets will conclude this section. First we return to parallax. We showed how to remove it from the observed position in Article 70. Such a reduction to the center of the Earth presupposes that the distance of the planet from the Earth is known at least approximately, and is impossible whenever the orbit of the observed planet is still entirely unknown. Even in this case, however, we can at least attain the same end for which the reduction to the center of the Earth is undertaken. When this center lies, or is assumed to lie, in the plane of the ecliptic, several formulas become simpler and neater than if the observation were referred to a point outside the plane of the ecliptic. In this respect, then, it makes no difference whether the observation is reduced to the center of the Earth or to any other point in the plane of the ecliptic. Now if we choose for this purpose the intersection of the plane of the ecliptic with the straight line drawn from the planet to the actual place of observation, it is evident that the observation itself requires no reduction at all, since the planet is seen in the same way from every point of that line\footnote{If the utmost precision were wanted, we would have to add to or subtract from the given time the interval it takes light to travel from the actual place of observation to the fictitious one, or from the latter to the former, when dealing with positions affected by aberration. This difference can scarcely be of any consequence unless the latitude is very small.}. We may therefore \SourceLeaf{095}use this point as a fictitious place of observation in place of the actual one. We determine the location of that point as follows.
+
+Let the longitude, latitude, and distance of the celestial body be $\lambda$, $\beta$, and $\Delta$, all referred to the actual place of observation on the surface of the Earth, whose zenith has longitude $l$ and latitude $b$. Let $\pi$ be the radius of the Earth, $L$ the heliocentric longitude of the Earth's center, $B$ its latitude, and $R$ its distance from the Sun. Finally, let $L'$ be the heliocentric longitude of the fictitious place, $R'$ its distance from the Sun, and $\Delta+\delta$ its distance from the celestial body. The following equations, in which $N$ denotes an arbitrary angle, are then readily derived.
+\[
+\begin{aligned}
+R'\cos(L'-N)+\delta\cos\beta\cos(\lambda-N)
+  &=R\cos B\cos(L-N)\\
+  &\quad+\pi\cos b\cos(l-N)\\
+R'\sin(L'-N)+\delta\cos\beta\sin(\lambda-N)
+  &=R\cos B\sin(L-N)\\
+  &\quad+\pi\cos b\sin(l-N)\\
+\delta\sin\beta&=R\sin B+\pi\sin b.
+\end{aligned}
+\]
+Thus, setting
+\[
+\begin{aligned}
+\mathrm{I.}\qquad &(R\sin B+\pi\sin b)\operatorname{cotang}\beta=\mu,
+\end{aligned}
+\]
+we have
+\[
+\begin{aligned}
+\mathrm{II.}\qquad R'\cos(L'-N)&=R\cos B\cos(L-N)\\
+ &\quad+\pi\cos b\cos(l-N)-\mu\cos(\lambda-N)\\
+\mathrm{III.}\qquad R'\sin(L'-N)&=R\cos B\sin(L-N)\\
+ &\quad+\pi\cos b\sin(l-N)-\mu\sin(\lambda-N)\\
+\mathrm{IV.}\qquad \delta&=\frac{\mu}{\cos\beta}\mathpunct{\cdot}
+\end{aligned}
+\]
+
+Equations II and III determine $R'$ and $L'$, and IV determines the interval (in seconds $=493\delta$) to be added to the time of observation.
+
+These equations are exact and general. They can also be used when the equator is substituted for the plane of the ecliptic and $L$, $L'$, $l$, and $\lambda$ denote right ascensions, and $B$, $b$, and $\beta$ declinations. In the case chiefly of interest here, namely when the fictitious place is to lie in the ecliptic, the smallness of $B$, $\pi$, and $L'-L$ allows us to simplify the preceding formulas somewhat further. We can take for $\pi$ the mean solar parallax, $B$ for $\sin B$, $1$ for $\cos B$ and $\cos(L'-L)$, and $L'-L$ for $\sin(L'-L)$. Setting $N=L$ thus gives the preceding formulas the following form.
+\[
+\begin{aligned}
+\mathrm{I.}\qquad \mu&=(RB+\pi\sin b)\operatorname{cotang}\beta\\
+\mathrm{II.}\qquad R'&=R+\pi\cos b\cos(l-L)-\mu\cos(\lambda-L)\\
+\mathrm{III.}\qquad L'-L&=\frac{\pi\cos b\sin(l-L)-\mu\sin(\lambda-L)}{R'}\mathpunct{\cdot}
+\end{aligned}
+\]
+\SourceLeaf{096}Strictly speaking, $B$, $\pi$, and $L'-L$ are to be expressed here in parts of the radius. But if those angles are expressed in arcseconds, it is clear that equations I and III can be retained unchanged and that the following must be substituted for II.
+\[
+R'=R+\frac{\pi\cos b\cos(l-L)-\mu\cos(\lambda-L)}{206265''}\mathpunct{\cdot}
+\]
+In formula III, moreover, the denominator $R'$ may always be replaced by $R$ without appreciable error. With the angles expressed in arcseconds, the time reduction becomes
+\[
+=\frac{493^{\mathrm{s}}\mathpunct{.}\mu}{206265''\mathpunct{.}\cos\beta}\mathpunct{\cdot}
+\]
+

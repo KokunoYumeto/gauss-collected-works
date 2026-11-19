@@ -1,0 +1,79 @@
+\par\Needspace{6\baselineskip}\medskip
+\hypertarget{native-121-article090}{}\pdfbookmark[2]{90.}{article-090}
+\begin{center}90.\end{center}
+Wir betrachten zuerst den Fall, dass die Lösung der Gleichung 12 einen Wert von $g$ ergibt, der klein genug ist, um $\dfrac{2g-\sin 2g}{\sin g^3}$ in eine Reihe nach Potenzen von $\sin\tfrac12 g$ zu entwickeln. Diesen Ausdruck bezeichnen wir mit $X$. Sein Zähler wird zu
+\[
+=\dfrac{32}{3}\sin\tfrac12 g^3-\dfrac{16}{5}\sin\tfrac12 g^5-\dfrac47\sin\tfrac12 g^7-\text{usw.}
+\]
+Der Nenner wird zu
+\[
+=8\sin\tfrac12 g^3-12\sin\tfrac12 g^5+3\sin\tfrac12 g^7+\text{usw.}
+\]
+Daher erhält $X$ die Form
+\[
+\dfrac43+\dfrac85\sin\tfrac12 g^2+\dfrac{64}{35}\sin\tfrac12 g^4+\text{usw.}
+\]
+Um das Bildungsgesetz der Koeffizienten zu finden, differenzieren wir die Gleichung $X\sin g^3=2g-\sin 2g$ und erhalten
+\[
+3X\cos g\sin g^2+\sin g^3\dfrac{\mathrm{d}X}{\mathrm{d}g}=2-2\cos 2g=4\sin g^2;
+\]
+Setzen wir ferner $\sin\tfrac12 g^2=x$, so ergibt sich $\dfrac{\mathrm{d}x}{\mathrm{d}g}=\tfrac12\sin g$, woraus folgt
+\[
+\dfrac{\mathrm{d}X}{\mathrm{d}x}=\dfrac{8-6X\cos g}{\sin g^2}=\dfrac{4-3X(1-2x)}{2x(1-x)}\mathpunct{\raisebox{.45ex}{,}}
+\]
+und daher
+\[
+(2x-2xx)\dfrac{\mathrm{d}X}{\mathrm{d}x}=4-(3-6x)X.
+\]
+\SourceLeaf{122}Setzen wir also
+\[
+X=\tfrac43(1+\alpha x+\beta xx+\gamma x^3+\delta x^4+\text{usw.}),
+\]
+so erhalten wir die Gleichung
+\[
+\begin{gathered}
+\tfrac83\{\alpha x+(2\beta-\alpha)xx+(3\gamma-2\beta)x^3+(4\delta-3\gamma)x^4+\text{usw.}\}
+\\[4pt]
+=(8-4\alpha)x+(8\alpha-4\beta)xx+(8\beta-4\gamma)x^3+(8\gamma-4\delta)x^4+\text{usw.},
+\end{gathered}
+\]
+die eine Identität sein muss. Daraus folgt $\alpha=\tfrac65$, $\beta=\tfrac87\alpha$, $\gamma=\tfrac{10}{9}\beta$, $\delta=\tfrac{12}{11}\gamma$ usw. Das Bildungsgesetz ist ersichtlich. Wir erhalten somit
+\[
+\begin{aligned}
+X={}&\tfrac43+\dfrac{4\mathbin{.}6}{3\mathbin{.}5}x+\dfrac{4\mathbin{.}6\mathbin{.}8}{3\mathbin{.}5\mathbin{.}7}xx+\dfrac{4\mathbin{.}6\mathbin{.}8\mathbin{.}10}{3\mathbin{.}5\mathbin{.}7\mathbin{.}9}x^3
+\\[4pt]
+&+\dfrac{4\mathbin{.}6\mathbin{.}8\mathbin{.}10\mathbin{.}12}{3\mathbin{.}5\mathbin{.}7\mathbin{.}9\mathbin{.}11}x^4+\text{usw.}
+\end{aligned}
+\]
+
+Diese Reihe lässt sich in den folgenden Kettenbruch umformen.
+\[
+X=\cfrac{\tfrac43}{1-\cfrac{\tfrac65x}{1+\cfrac{\tfrac{2}{5\mathbin{.}7}x}{1-\cfrac{\tfrac{5\mathbin{.}8}{7\mathbin{.}9}x}{1-\cfrac{\tfrac{1\mathbin{.}4}{9\mathbin{.}11}x}{1-\cfrac{\tfrac{7\mathbin{.}10}{11\mathbin{.}13}x}{1-\cfrac{\tfrac{3\mathbin{.}6}{13\mathbin{.}15}x}{1-\cfrac{\tfrac{9\mathbin{.}12}{15\mathbin{.}17}x}{1-\text{usw.}}}}}}}}}
+\]
+Das Bildungsgesetz der Koeffizienten $\tfrac65$, $-\tfrac{2}{5\mathbin{.}7}$, $\tfrac{5\mathbin{.}8}{7\mathbin{.}9}$, $\tfrac{1\mathbin{.}4}{9\mathbin{.}11}$ usw. ist ersichtlich. Das $n^{\mathrm{te}}$ Glied dieser Reihe hat für gerades $n$ den Wert $=\dfrac{(n-3)n}{(2n+1)(2n+3)}$, für ungerades $n$ den Wert $=\dfrac{(n+2)(n+5)}{(2n+1)(2n+3)}$. Eine weitere Ausarbeitung dieses Gegenstands\HistoricalNoteEight{Siehe Band III, S. 135.]} würde zu weit von unserem Vorhaben abführen. Setzen wir nun
+\[
+\cfrac{x}{1+\cfrac{\tfrac{2}{5\mathbin{.}7}x}{1-\cfrac{\tfrac{5\mathbin{.}8}{7\mathbin{.}9}x}{1-\cfrac{\tfrac{1\mathbin{.}4}{9\mathbin{.}11}x}{1-\text{usw.}}}}}=x-\xi,
+\]
+\SourceLeaf{123}so ergibt sich $X=\dfrac{1}{\frac34-\frac{9}{10}(x-\xi)}\mathpunct{\raisebox{.45ex}{,}}$ und $\xi=x-\frac56+\frac{10}{9X}\mathpunct{\raisebox{.45ex}{,}}$ oder
+\[
+\xi=\dfrac{\sin g^3-\frac34(2g-\sin 2g)(1-\frac65\sin\frac12 g^2)}{\frac{9}{10}(2g-\sin 2g)}\mathpunct{\cdot}
+\]
+
+Der Zähler dieses Ausdrucks ist von siebter Ordnung, der Nenner von dritter Ordnung und somit $\xi$ von vierter Ordnung, wenn man $g$ als Größe erster Ordnung beziehungsweise $x$ als Größe zweiter Ordnung auffasst. Daraus folgt, dass diese Formel zur genauen numerischen Berechnung von $\xi$ ungeeignet ist, wenn $g$ keinen besonders großen Winkel bezeichnet. Für diesen Zweck eignen sich dann die folgenden Formeln. Sie unterscheiden sich durch die veränderte Reihenfolge der Zähler in den gebrochenen Koeffizienten. Die erste lässt sich ohne Schwierigkeit aus dem angesetzten Wert von $x-\xi$ herleiten\footnote{Die Herleitung der zweiten setzt einige weniger naheliegende Umformungen voraus, die bei anderer Gelegenheit [Band III, S. 137] erläutert werden.
+\par [Handschriftliche Bemerkung:] Es ergibt sich
+\[
+\xi=\dfrac{2}{35}xx\dfrac{1+\frac{2\mathbin{.}8}{9}x+\frac{3\mathbin{.}8\mathbin{.}10}{9\mathbin{.}11}xx+\frac{4\mathbin{.}8\mathbin{.}10\mathbin{.}12}{9\mathbin{.}11\mathbin{.}13}x^3+\text{usw.}}{1+\frac65x+\frac{6\mathbin{.}8}{5\mathbin{.}7}xx+\frac{6\mathbin{.}8\mathbin{.}10}{5\mathbin{.}7\mathbin{.}9}x^3+\text{usw.}}\mathpunct{\cdot}
+\]
+Setzt man also $1+\frac{2\mathbin{.}8}{9}x+\frac{3\mathbin{.}8\mathbin{.}10}{9\mathbin{.}11}xx+\text{usw.}=A$, so ergibt sich $\xi=\dfrac{\frac{2}{35}Axx(1-\frac65x)}{1-\frac{12}{175}Axx}\mathpunct{\cdot}$ Ferner gilt
+\[
+A=(1-x)^{-\frac32}\left(1+\frac{1\mathbin{.}5}{2\mathbin{.}9}x+\frac{1\mathbin{.}3\mathbin{.}5\mathbin{.}7}{2\mathbin{.}4\mathbin{.}9\mathbin{.}11}xx+\text{usw.}\right).
+\]
+}:
+\[
+\mathrm{13)}\qquad \xi=\cfrac{\tfrac{2}{35}xx}{1+\tfrac{2}{35}x-\cfrac{\tfrac{40}{63}x}{1-\cfrac{\tfrac{4}{99}x}{1-\cfrac{\tfrac{70}{143}x}{1-\cfrac{\tfrac{18}{195}x}{1-\cfrac{\tfrac{108}{255}x}{1-\text{usw.}}}}}}}
+\]
+oder
+\[
+\xi=\cfrac{\tfrac{2}{35}xx}{1-\tfrac{18}{35}x-\cfrac{\tfrac{4}{63}x}{1-\cfrac{\tfrac{40}{99}x}{1-\cfrac{\tfrac{18}{143}x}{1-\cfrac{\tfrac{70}{195}x}{1-\cfrac{\tfrac{40}{255}x}{1-\text{usw.}}}}}}}
+\]
+\SourceLeaf{124}Die dritte diesem Werk beigefügte Tafel enthält für alle Werte von $x$ von 0 bis 0,3 in Schritten von einem Tausendstel die zugehörigen, auf sieben Dezimalstellen berechneten Werte von $\xi$. Die Tafel zeigt auf den ersten Blick, wie klein $\xi$ bei mäßigen Werten von $g$ ist. So gilt etwa für $E'-E=10^0$ oder $g=5^0$, wo $x=0{,}00190$ ist, der Wert $\xi=0{,}000\ 0002$. Eine weitere Fortsetzung der Tafel wäre überflüssig gewesen, denn dem letzten Eintrag $x=0{,}3$ entspricht $g=66^0 25'$ oder $E'-E=132^0 50'$. Die dritte Spalte der Tafel enthält Werte von $\xi$, die negativen Werten von $x$ entsprechen. Sie wird weiter unten an der entsprechenden Stelle erläutert.

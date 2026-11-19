@@ -1,0 +1,70 @@
+\clearpage
+\hypertarget{native-377-letter4}{}\label{native-377-letter4}
+\pdfbookmark[2]{4. Gauss to the Editor, 1 April 1843}{tabula-nova-brief-004}
+\begin{center}
+[4.]\par\medskip
+\rule{\linewidth}{.4pt}\par
+{\small Astronomische Nachrichten. Vol. XX. No. 474. Page 299. 13 April 1843.}\par
+\rule{\linewidth}{.4pt}\par\medskip
+Letter from Court Councillor \textsc{Gauss} to the Editor.\par
+Göttingen, 1 April 1843.
+\end{center}
+\noindent\hspace*{\parindent}To compute a position at a given time from the elements, I like to use \textsc{Burckhardt}'s table to calculate the anomaly. But it extends only to \(163^0\ 45'\), and is therefore insufficient for the comet's present position according to Mr. \textsc{Galle}'s elements. \textsc{Barker}'s table covers the whole range, but at large anomalies the laborious interpolation makes it very inconvenient. In such cases I usually apply a special procedure, an account of which you may be pleased to have. If \(M\) is the number with which (or, for larger values, with whose logarithm) one would have to enter \textsc{Barker}'s table, so that \(M=\dfrac{\text{elapsed time}}{nq^{\frac32}}\), where \(\log n=0{,}039\ 8723\), then I set \(\log\dfrac{MM}{16875}=3P\) and use my small logarithmic table, taking \(A\) and \(B\) in the senses used there, to satisfy the equation \(3A+2B=3P\), which can always be done very quickly when \(P\) is large. If \(a\) is then the number corresponding to the logarithm \(A\), setting the anomaly \(=v\) gives
+\[
+\mathrm{tang}\,\tfrac12v=\BareRoot{(3a)}\qquad\text{or}\qquad\log\mathrm{tang}\,\tfrac12v=\tfrac12(A+\log3).
+\]
+\SourceLeaf{378}
+The logarithm of the radius vector is also very easily calculated by entering the first column again with \(A+\log3\), or [setting] \(A+\log3=A^*\) and the corresponding quantity in the second column \(=B^*\), so that the logarithm of the radius vector is immediately \(=A^*+B^*+\log q\).
+\par
+\noindent\hspace*{\parindent}The indirect solution of that equation is somewhat easier, at least for the first trials, and can be done almost by inspection in the form \(C=P+\tfrac13B\). One can first look up \(P\) in the third column, or set \(P=C'\) and the corresponding quantity in the second column \(=B'\), then take \(P+\tfrac13B'=C''\) and the corresponding quantity from the second column of the table \(=B''\), then (where necessary) take \(P+\tfrac13B''=C'''\) and the corresponding \(B'''\), and so on. The calculation very quickly ceases to change. If the accuracy provided by five-place logarithms is insufficient, \textsc{Matthiessen}'s table (which I otherwise dislike using because of the quite unnecessary and ill-judged economy of its printing) can be used to advantage here. I prefer to do this only after using the smaller table to determine the two entries between which the final value of \(A\) falls, and I then prefer to use the equation in its original form \(3A+2B=3P\).
+\par
+\noindent\hspace*{\parindent}If, for example, the anomaly is to be determined for February \(48{,}33333\), or for the time \(20^{\mathrm T}{,}87663\) after perihelion, then according to \textsc{Galle}'s elements we have
+\[
+\begin{array}{l@{\;}l@{\;}l}
+q^{\frac32}&.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.&7{,}080\ 9490\\[3pt]
+n\BareRoot{16875}&.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.&2{,}153\ 4942\\[3pt]\hline
+\multicolumn{2}{r}{\text{Const. logarithm}=}&9{,}234\ 4432
+\end{array}
+\]
+\[
+\begin{array}{r@{\;}l@{\;}l}
+20{,}87663&.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.\,.&1{,}319\ 6604\\[3pt]
+&&9{,}234\ 4432\\[3pt]\cline{3-3}
+&&2{,}085\ 2172\\[3pt]
+\multicolumn{2}{r}{\text{Thus }3P=}&4{,}170\ 4344\\[3pt]
+\multicolumn{2}{r}{P=}&1{,}390\ 1448.
+\end{array}
+\]
+\par
+\noindent\hspace*{\parindent}The small tables then give
+\[
+\begin{aligned}
+B'&=0{,}01806&\qquad C''&=1{,}39616\\[3pt]
+B''&=0{,}01781&C'''&=1{,}39608,
+\end{aligned}
+\]
+At this point the calculation has already settled and gives \(A=1{,}37827\). \textsc{Matthiessen}'s table gives the more precise value \(A=1{,}378\ 2739.\) The rest of the calculation is then
+\SourceLeaf{379}
+\[
+\begin{array}{r@{\;}l@{\;}l@{\quad}l}
+\multicolumn{2}{r}{A=}&1{,}378\ 2739&\\[3pt]
+3&.\,.\,.\,.\,.\,.\,.&0{,}477\ 1213&\\[3pt]\cline{1-3}
+&&1{,}855\ 3952&\\[3pt]
+&&0{,}927\ 6976&=\log\mathrm{tang}\ 83^0\ 15'\ 49''{,}53\\[3pt]
+\multicolumn{3}{r}{\text{and the true anomaly}=}&166\ \ 31\ \ 39{,}06.
+\end{array}
+\]
+\par
+\noindent\hspace*{\parindent}Furthermore, the corresponding values are
+\[
+\begin{array}{r@{\;}l@{\;}l}
+\multicolumn{2}{r}{A^*=}&1{,}855\ 3952\\[3pt]
+\multicolumn{2}{r}{B^*=}&0{,}006\ 0170\\[3pt]
+q&.\,.\,.\,.&8{,}053\ 9660\\[3pt]\hline
+\multicolumn{2}{r}{\text{Logarithm of the radius vector}=}&9{,}915\ 3782.
+\end{array}
+\]
+\par
+\noindent\hspace*{\parindent}It is evident, moreover, that this method is simply an indirect solution of the familiar cubic equation\raisebox{-.35ex}{.} relating the tangent of half the anomaly to the area of the sector. It is also evident that my logarithmic table, or \textsc{Matthiessen}'s for more accurate calculations, can be used in much the same way to find very conveniently all the real roots of \textls[80]{any algebraic equation that has at most three nonzero terms}, as I recently showed for the quadratic equation in the latest edition of \textsc{Vega}'s logarithmic table.
+\par\medskip
+\begin{center}\rule{.2\linewidth}{.4pt}\end{center}
