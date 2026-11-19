@@ -1,9 +1,21 @@
 """Build the Gauss site (GitHub Pages, served from docs/) from what is already in this repository: README.md (the
 original-language table, the authorship and sources section, kept word for word), the newest English-German release
 (its reader PDFs), and site/scans.tsv (the scans the transcription follows). Rerun after every release or README change:
-    python -I -B site/build_site.py        (needs the GitHub CLI `gh`, logged in, for the release list)
-Writes docs/index.html. No PDF is copied; the page links to the release assets."""
-import html, json, pathlib, re, subprocess
+    python -I -B site/build_site.py [--fetch]   (needs the GitHub CLI `gh`, logged in, for the release list)
+Writes docs/index.html. Every reader gets "Read online" (a copy served by the Pages site, docs/pdf/, opening in the
+browser) and "Download" (the release asset). With --fetch (the Pages workflow, .github/workflows/pages.yml) the newest
+PDFs are downloaded into docs/pdf/ at build time; docs/pdf/ is never committed, so the repository does not grow."""
+import html, json, pathlib, re, subprocess, sys
+
+SERVED = {}   # file name -> release asset URL, the PDFs the site serves under pdf/
+RELDL = re.compile(r"https://github.com/KokunoYumeto/gauss-collected-works/releases/download/[^/\s\"]+/([^/\s\"]+\.pdf)")
+
+
+def pair(url, label="Read online"):
+    """'Read online' (the Pages copy) and 'Download' (the release asset) for one release PDF."""
+    name = RELDL.fullmatch(url).group(1)
+    SERVED[name] = url
+    return f'<a href="pdf/{name}">{label}</a> · <a class="dl" href="{url}">Download</a>'
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 REPO = "KokunoYumeto/gauss-collected-works"
@@ -19,6 +31,12 @@ def inline(md):
     s = s.replace('href="docs/', f'href="https://github.com/{REPO}/blob/main/docs/')
     s = re.sub(r'href="((?:original-language|translations)[^"]*)"', rf'href="https://github.com/{REPO}/tree/main/\1"', s)
     return s
+
+
+def readers(cell_html):
+    """In a table cell, a release-PDF link becomes 'Read online · Download'."""
+    return re.sub(r'<a href="(https://github.com/[^"]+/releases/download/[^"]+\.pdf)">[^<]*</a>',
+                  lambda m: pair(m.group(1)), cell_html)
 
 
 def section(title):
@@ -48,7 +66,7 @@ def tr_link(vol, lang):
     v = vol.replace(".", "")
     for n in url:
         if re.fullmatch(rf"Gauss_Werke_{v}_{lang}(_Selection|_Auswahl)?\.pdf", n):
-            return f'<a href="{url[n]}">{"English" if lang == "English" else "Deutsch"}</a>'
+            return f'{"English" if lang == "English" else "Deutsch"}: {pair(url[n])}'
     return '<span class="none">—</span>'
 
 
@@ -65,12 +83,12 @@ for v in VOLS:
     ppn, sp = scans.get(v, ("", ""))
     scan = f'<a href="https://gdz.sub.uni-goettingen.de/id/{ppn}">GDZ {ppn}</a><br><span class="small">{sp} scan pages</span>' if ppn else ""
     if r:
-        rows.append(f"<tr><th>{v}</th><td>{inline(r[2])}</td><td>{inline(r[3])}{(' · ' + inline(r[4])) if len(r) > 4 and r[4] else ''}<br><span class='small'>{r[1]} pages</span></td>"
-                    f"<td>{tr_link(v, 'English')} · {tr_link(v, 'Deutsch')}</td><td>{scan}</td></tr>")
+        rows.append(f"<tr><th>{v}</th><td>{inline(r[2])}</td><td>{readers(inline(r[3]))}{(' · ' + inline(r[4])) if len(r) > 4 and r[4] else ''}<br><span class='small'>{r[1]} pages</span></td>"
+                    f"<td>{tr_link(v, 'English')}<br>{tr_link(v, 'Deutsch')}</td><td>{scan}</td></tr>")
     else:
         rows.append(f"<tr><th>{v}</th><td><span class='none'>not yet transcribed</span></td><td>—</td><td>—</td><td>{scan}</td></tr>")
 
-coll = " · ".join(f'<a href="{url[n]}">{lab}</a>' for n, lab in (("Gauss_Collected_English.pdf", "English collection"),
+coll = "<br>".join(f'{lab}: {pair(url[n])}' for n, lab in (("Gauss_Collected_English.pdf", "English collection"),
                                                                 ("Gauss_Werke_Deutsch.pdf", "German collection")) if n in url)
 page = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -112,5 +130,12 @@ sources</a>, <a href="https://github.com/{REPO}/tree/main/translations">English 
 </main></body></html>
 """
 (ROOT / "docs").mkdir(exist_ok=True)
+if "--fetch" in sys.argv:   # the Pages workflow: the newest PDFs into docs/pdf/
+    out = ROOT / "docs" / "pdf"; out.mkdir(exist_ok=True)
+    for name, u in sorted(SERVED.items()):
+        tag = u.split("/download/")[1].split("/")[0]
+        r = subprocess.run(["gh", "release", "download", tag, "-R", REPO, "-p", name, "-D", str(out), "--clobber"])
+        if r.returncode != 0: sys.exit(f"download failed: {name}")
+    print(len(SERVED), "PDFs in docs/pdf,", round(sum(f.stat().st_size for f in out.iterdir()) / 1e6, 1), "MB")
 (ROOT / "docs" / "index.html").write_text(page, encoding="utf-8")
 print("docs/index.html", len(page), "bytes;", len(rows), "volumes; release", tag)
